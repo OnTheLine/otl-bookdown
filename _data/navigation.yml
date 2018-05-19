@@ -1,0 +1,21 @@
+pages:
+  - title: "Introduction"
+    children:
+      - title: "About"
+        url: "/"
+      - title: "Contributors"
+        url: "/_pages/contributors"
+  - title: "Part 1"
+    children:
+      - title: "Image with caption"
+        url: "/_pages/image"
+      - title: "Sample Google Doc"
+        url: "/_pages/sample-google-doc"
+      - title: "Scrivener MMD"
+        url: "/_pages/scrivener"
+  - title: "Part 2"
+    children:
+      - title: "YouTube"
+        url: "/_pages/youtube"
+      - title: "iFrame"
+        url: "/_pages/iframe"
