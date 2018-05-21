@@ -1,0 +1,6 @@
+book_filename: "otl-book"
+edit: https://github.com/ontheline/otl-book/edit/master/%s
+output_dir: "book"
+ui:
+    edit: "Edit"
+chapter_name: "Part "

@@ -1,0 +1,28 @@
+##  Project Management Basics
+
+A digital project, whether in archaeology or in other fields, iterates through the same basic steps. There is
+
+	1. finding data
+	2. fixing data
+	3. analyzing the data
+	4. communicating the story in the data
+
+Eighty percent of your time on any digital project will be invested in cleaning up the data and documenting what you've done to it. But in truth, a digital project begins long before we ever look at a data set (or are given data to work with, if we're part of a larger project). How do we formulate a research question or our exploration more generally? How do we translate a gut feeling or intution or curiosity into something that is _operable_? REF Moretti on operationalizing things
+
+The four steps we identified above are cyclical; at any one time you might be at a different stage of the process. Indeed, those four steps could easily be subsumed under what Simon Appleford and Jennifer Guiliano of [devdh.org](http://devdh.org) identify as the 'Best Practice Principles Of Designing Your First Project.' For Appleford and Guiliano, the outline of a project involves figuring out:
+
+1. the question, problem, or provocation
+2. sources (primary, secondary)
+3. analytical activity
+4. audience
+5. product
+
+Note that 4, audience, comes before 5, product. You must think of your reader/user!
+
+Let us imagine that we were inspired by Allison Mickel's piece, 'Tracing Teams, Texts, and Topics: Applying Social Network Analysis to Understand Archaeological Knowledge Production at Çatalhöyük' [@mickel_tracing_2016].
+
+We could frame a question: 'What role do social networks play in the development of knowledge production at my site?'
+
+We could frame a problem: 'Mickel's exploration of social networks considered x, but not y.'
+
+We could frame a provocation: 'Social Network Analysis promises to revolutionize our knowledge of the social contexts that underpin archaeological fieldwork, putting this power in the hands of everyone from the site director on down.'
