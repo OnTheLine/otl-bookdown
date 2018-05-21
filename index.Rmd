@@ -1,0 +1,21 @@
+---
+title: "Bookdown test"
+author: "Jack Dougherty"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
+---
+
+# Bookdown test
+
+## Here's a subheading
+
+Here's a link using angle brackets: <http://www.google.com>
+
+Here's an HTML iframe: will it render?
+
+<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="100%" height="600px"></iframe>
+
+<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
