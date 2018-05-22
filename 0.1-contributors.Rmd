@@ -1,5 +1,5 @@
-# Contributors {-}
+## Contributors {-}
 
-### Jack Dougherty ### {-}
+**Jack Dougherty** has no idea how Bookdown works, but he will crib as much as possible from GitHub open repositories by Shawn Graham and Lincoln Mullen. . .
 
-Jack Dougherty has no idea how Bookdown works, but he will crib as much as possible from GitHub open repositories by Shawn Graham and Lincoln Mullen. . .
+Other contributors to come. . .

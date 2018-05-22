@@ -1,33 +1,62 @@
 ---
+lang: "en"
 title: "Bookdown test"
+subtitle: "subtitle goes here"
 author: "Jack Dougherty and contributors"
+twitter-handle: doughertyjack
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
-biblio-style: apalike
+bibliography: book.bib
+biblio-style: authortitle
+citation-style: chicago-fullnote-bibliography.csl
 link-citations: true
-github-repo: ontheline/otl-book
-description: "Book description here. . . "
-cover-image: images/OnTheLine-600x600.png
-lang: "en"
+
+url: 'http\://ontheline.github.io/'
+github-repo: ontheline/ontheline.github.io
+description: ' "On The Line" describes how... (add for SEO, with no HTML)'
+cover-image: "images/otl-cover-600x600.png"
+
 output:
-  bookdown::gitbook: default
+  bookdown::gitbook:
+    dev: svglite
+    css: css/style.css
+    split_by: rmd
+    number_sections: true
+    config:
+      toc:
+        scroll_highlight: yes
+        collapse: section
+        before: |
+            <li><strong><a href="./">On the Line</a></strong></li>
+        after: |
+            <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+      download: [pdf, epub, mobi]
+      edit:
+        link: https://github.com/ontheline/ontheline.github.io/edit/master/%s
+        text: "Edit on GitHub"
+      search: yes
+      sharing:
+        facebook: yes
+        github: yes
+        twitter: yes
+      includes:
+        after_body: google-analytics-otl.html
+
   bookdown::pdf_book: default
+
+  bookdown::epub_book:
+    dev: svglite
+    stylesheet: css/style.css
 ---
+# About the book {-}
 
-# Bookdown test
+The content of this index.Rmd page becomes the first page of the book, prior to the numbered pages
 
-It's a practice version. . . not even a draft here yet!
+![Caption and source info, with option to insert static reference, and [add link](http://www.google.com)](images/otl-cover-600x600.png)
 
-## Here's a subheading
+**How to cite**: insert here
 
-Here's a link using angle brackets: <http://www.google.com>
-
-Here's an HTML iframe: will it render?
-
-<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="100%" height="600px"></iframe>
-
-![Creative Commons License](images/by-nc-sa.png)  
-The online version of this book is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+All text and code for this book is available on [GitHub](https://github.com/ontheline).  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
