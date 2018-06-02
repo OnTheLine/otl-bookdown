@@ -1,20 +1,20 @@
 ---
 lang: "en"
-title: "Bookdown test"
-subtitle: "subtitle goes here"
+title: "On The Line"
+subtitle: "How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs"
 author: "Jack Dougherty and contributors"
 twitter-handle: doughertyjack
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: book.bib
+bibliography: ontheline.bib
 biblio-style: authortitle
-citation-style: chicago-fullnote-bibliography.csl
+citation-style: chicago-fullnote-bibliography-no-ibid.csl
 link-citations: true
 
-url: 'http\://ontheline.github.io/'
-github-repo: ontheline/ontheline.github.io
+url: 'http\://ontheline.trincoll.edu/'
+github-repo: ontheline/otl-book
 description: ' "On The Line" describes how... (add for SEO, with no HTML)'
 cover-image: "images/otl-cover-600x600.png"
 
@@ -22,19 +22,21 @@ output:
   bookdown::gitbook:
     dev: svglite
     css: css/style.css
-    split_by: rmd
+    split_by: chapter
     number_sections: true
     config:
       toc:
         scroll_highlight: yes
         collapse: section
         before: |
-            <li><strong><a href="./">On the Line</a></strong></li>
+            <li><a href="./"><strong>On the Line</strong><br>by Jack Dougherty & contributors</a></li>
         after: |
-            <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+            <li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
+            <li><a href="https://bookdown.org" target="_blank">Created with Bookdown</a></li>
       download: [pdf, epub, mobi]
       edit:
-        link: https://github.com/ontheline/ontheline.github.io/edit/master/%s
+        link: https://github.com/ontheline/otl-book/edit/master/%s
         text: "Edit on GitHub"
       search: yes
       sharing:
@@ -42,7 +44,7 @@ output:
         github: yes
         twitter: yes
       includes:
-        after_body: google-analytics-otl.html
+        after_body: otl-google-analytics.html
 
   bookdown::pdf_book: default
 
@@ -52,9 +54,15 @@ output:
 ---
 # About the book {-}
 
-The content of this index.Rmd page becomes the first page of the book, prior to the numbered pages
-
 ![Caption and source info, with option to insert static reference, and [add link](http://www.google.com)](images/otl-cover-600x600.png)
+
+describe book-in-progress
+
+**License**
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
 
 **How to cite**: insert here
 
