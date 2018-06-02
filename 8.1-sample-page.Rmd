@@ -9,6 +9,16 @@ Here's an HTML iframe: will it render?
 
 <iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="95%" height="600px"></iframe>
 
+Here's a YouTube embed as an HTML iframe
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+#### To Do -- learn how knitr works for multiple output {-}
+
+See chapter <https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html>
+
+
+
 #### Section headings need four hashtags and no-number symbol {-} 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[@doughertyWhoOwnsOral2012] Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.[@mendozaJumpingLine1985; @sheffmovementcoalitionFortyYearsProject2008] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@doughertySchoolChoiceSuburbia2009]
 
