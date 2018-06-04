@@ -12,7 +12,7 @@
   <meta property="og:title" content="On The Line" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="http://ontheline.trincoll.edu/" />
-  <meta property="og:image" content="http://ontheline.trincoll.edu/images/otl-cover-600x600.png" />
+  <meta property="og:image" content="http://ontheline.trincoll.edu/images/otl-cover-300x300.png" />
   <meta property="og:description" content="“On The Line” describes how… (add for SEO, with no HTML)" />
   <meta name="github-repo" content="ontheline/otl-book" />
 
@@ -20,12 +20,12 @@
   <meta name="twitter:title" content="On The Line" />
   <meta name="twitter:site" content="@doughertyjack" />
   <meta name="twitter:description" content="“On The Line” describes how… (add for SEO, with no HTML)" />
-  <meta name="twitter:image" content="http://ontheline.trincoll.edu/images/otl-cover-600x600.png" />
+  <meta name="twitter:image" content="http://ontheline.trincoll.edu/images/otl-cover-300x300.png" />
 
 <meta name="author" content="Jack Dougherty and contributors">
 
 
-<meta name="date" content="2018-06-02">
+<meta name="date" content="2018-06-04">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -120,31 +120,63 @@
 
 <div id="sample-bookdown-page" class="section level2">
 <h2><span class="header-section-number">8.1</span> Sample Bookdown Page</h2>
+<p>An internal reference (cross-reference) to the chapter or subchapter titled “Contributors”</p>
 <p><em>by <a href="index.html#contributors">Jack Dougherty and Co-Author Name</a></em></p>
-<p>See internal reference (cross-reference) example above with contributor</p>
-<p>Here’s a link using angle brackets: <a href="http://www.google.com" class="uri">http://www.google.com</a></p>
-<p>Here’s an HTML iframe: will it render?</p>
-<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="95%" height="600px">
-</iframe>
-<p>Here’s a YouTube embed as an HTML iframe</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
-<div id="to-do-learn-how-knitr-works-for-multiple-output" class="section level4 unnumbered">
-<h4>To Do – learn how knitr works for multiple output</h4>
-<p>See chapter <a href="https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html" class="uri">https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html</a></p>
-</div>
-<div id="section-headings-need-four-hashtags-and-no-number-symbol" class="section level4 unnumbered">
-<h4>Section headings need four hashtags and no-number symbol</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="citation"><a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<span class="citation"><a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></span> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="citation"><a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></span></p>
-<p>How to write a text-only footnote.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a></p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="citation"><a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a></span></p>
-<p>Block quote example:</p>
+<p>Block quote:</p>
 <blockquote>
 <p>“I thoroughly disapprove of duels. If a man should challenge me,
 I would take him kindly and forgivingly by the hand and lead him
 to a quiet place and kill him.”</p>
 <p>— Mark Twain</p>
 </blockquote>
+<div id="subheadings-need-four-hashtags-and-no-number-symbol" class="section level4 unnumbered">
+<h4>Subheadings need four hashtags and no-number symbol</h4>
+<p>Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.</p>
+<p>Link using angle brackets: <a href="http://www.google.com" class="uri">http://www.google.com</a></p>
+<p>A text-only footnote.<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p>
+<p>Markdown caret-footnote, which can accept multiple references with complex punctuation.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p>
+<p>Insert image using Markdown syntax:</p>
+<div class="figure">
+<img src="images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg" alt="Using markdown: auto-number does not appear in web, but appears in pdf, text with italics, no center-alignment on web, but centered in PDF, with source link, with caret-footnote." />
+<p class="caption">Using markdown: auto-number does not appear in web, but appears in pdf, text <em>with italics</em>, no center-alignment on web, but centered in PDF, with <a href="https://google.com">source link</a>, with caret-footnote.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></p>
+</div>
+</div>
+<div id="explore-the-chart-embedded-html-iframe" class="section level4 unnumbered">
+<h4>Explore the chart: embedded HTML iframe</h4>
+<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px">
+</iframe>
+<p>Write caption immediately afterwards in body text.</p>
+</div>
+<div id="scroll-the-map-embedded-html-iframe" class="section level4 unnumbered">
+<h4>Scroll the map: embedded HTML iframe</h4>
+<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px">
+</iframe>
+<p>Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: <a href="http://magic.lib.uconn.edu">UConn Libraries MAGIC historical maps</a>, <a href="http://publications.newberry.org/ahcbp/pages/Connecticut.html">Atlas of Historical County Boundaries at Newberry Library</a>, and the <a href="http://www.ct.gov/sots/cwp/view.asp?a=3188&amp;q=392440">Connecticut State Register and Manual</a>. See sources, known issues, and the code by Ilyana Ilyankou and Jack Dougherty, Trinity College at <a href="https://github.com/ontheline/otl-town-borders/" class="uri">https://github.com/ontheline/otl-town-borders/</a>.</p>
+</div>
+<div id="play-the-video-embedded-html-iframe-for-youtube" class="section level4 unnumbered">
+<h4>Play the video: embedded HTML iframe for YouTube</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+<p>Write caption immediately afterwards in body text.</p>
+</div>
+<div id="consider-using-more-complex-r-codes-for-final-pdf-production" class="section level4 unnumbered">
+<h4>Consider using more complex R codes for final PDF production</h4>
+<p>Image inserted with R code:</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg" alt="Using R code: auto-number appears in web and pdf, centered, resized at 90 percent, but not sure how to format footnotes or italics" width="90%" />
+<p class="caption">
+Image 8.1: Using R code: auto-number appears in web and pdf, centered, resized at 90 percent, but not sure how to format footnotes or italics
+</p>
+</div>
+<p>Insert URL with R code:</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="400px">
+</iframe>
+<p class="caption">
+Image 8.2: URL inserted using R code: centered, resized at 90 percent, not sure how to format footnotes or italics
+</p>
+</div>
+<p>To do: learn more about R codes <a href="https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html" class="uri">https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html</a></p>
 
 </div>
 </div>
@@ -152,11 +184,9 @@ to a quiet place and kill him.”</p>
 <div class="footnotes">
 <hr />
 <ol start="6">
-<li id="fn6"><p>Jack Dougherty and Candace Simpson, “Who Owns Oral History? A Creative Commons Solution,” in <em>Oral History in the Digital Age</em>, ed. Doug Boyd et al. (Washington, DC: Institute of Library and Museum Services, 2012), <a href="http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/" class="uri">http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/</a>.<a href="how-we-created-on-the-line.html#fnref6" class="footnote-back">↩</a></p></li>
-<li id="fn7"><p>Mendoza and Saunders, “Jumping the Line”; Sheff Movement Coalition, “Forty Years of Project Concern and Project Choice” (Hartford, CT, January 2008), <a href="http://digitalrepository.trincoll.edu/cssp_media/1" class="uri">http://digitalrepository.trincoll.edu/cssp_media/1</a>.<a href="how-we-created-on-the-line.html#fnref7" class="footnote-back">↩</a></p></li>
-<li id="fn8"><p>Jack Dougherty et al., “School Choice in Suburbia: Test Scores, Race, and Housing Markets,” <em>American Journal of Education</em> 115, no. 4 (August 2009): 523–48, <a href="http://digitalrepository.trincoll.edu/cssp_papers/1" class="uri">http://digitalrepository.trincoll.edu/cssp_papers/1</a>.<a href="how-we-created-on-the-line.html#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>This is a footnote, with no citation.<a href="how-we-created-on-the-line.html#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>Jack Dougherty et al., “How Does Information Influence Parental Choice? The Smart Choices Project in Hartford, Connecticut,” <em>National Center for the Study of Privatization in Education (NCSPE)</em>, no. Occasional Paper 189 (April 2010), <a href="http://digitalrepository.trincoll.edu/cssp_papers/2/" class="uri">http://digitalrepository.trincoll.edu/cssp_papers/2/</a>; Jack Dougherty et al., “Who Chooses in the Hartford Region? Report 2: A Statistical Analysis of Regional School Choice Office Applicants and Non-Applicants Among Hartford and Suburban-Resident Students in the Spring 2013 Lottery” (Hartford, CT: Cities Suburbs Schools Project at Trinity College, October 2015), <a href="http://digitalrepository.trincoll.edu/cssp_papers/48/" class="uri">http://digitalrepository.trincoll.edu/cssp_papers/48/</a>.<a href="how-we-created-on-the-line.html#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>This is a footnote, with no reference<a href="how-we-created-on-the-line.html#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" class="uri">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Jack Dougherty et al., “School Choice in Suburbia: Test Scores, Race, and Housing Markets,” <em>American Journal of Education</em> 115, no. 4 (August 2009): 523–48, <a href="http://digitalrepository.trincoll.edu/cssp_papers/1" class="uri">http://digitalrepository.trincoll.edu/cssp_papers/1</a></span>, pp. 33-35<a href="how-we-created-on-the-line.html#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p><span class="citation">Dougherty et al.</span><a href="how-we-created-on-the-line.html#fnref8" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>

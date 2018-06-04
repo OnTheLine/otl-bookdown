@@ -16,13 +16,14 @@ link-citations: true
 url: 'http\://ontheline.trincoll.edu/'
 github-repo: ontheline/otl-book
 description: ' "On The Line" describes how... (add for SEO, with no HTML)'
-cover-image: "images/otl-cover-600x600.png"
+cover-image: "images/otl-cover-300x300.png"
 
 output:
   bookdown::gitbook:
     dev: svglite
     css: css/style.css
     split_by: chapter
+    split_bib: true
     number_sections: true
     config:
       toc:
@@ -51,10 +52,12 @@ output:
   bookdown::epub_book:
     dev: svglite
     stylesheet: css/style.css
+    
+  bookdown::word_document2: default 
 ---
 # About the book {-}
 
-![Caption and source info, with option to insert static reference, and [add link](http://www.google.com)](images/otl-cover-600x600.png)
+![ ](images/otl-cover-300x300.png)
 
 describe book-in-progress
 

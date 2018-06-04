@@ -1,35 +1,54 @@
 ## Sample Bookdown Page
+
+An internal reference (cross-reference) to the chapter or subchapter titled "Contributors"
+
 *by [Jack Dougherty and Co-Author Name](#contributors)*
 
-See internal reference (cross-reference) example above with contributor
-
-Here's a link using angle brackets: <http://www.google.com>
-
-Here's an HTML iframe: will it render?
-
-<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="95%" height="600px"></iframe>
-
-Here's a YouTube embed as an HTML iframe
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-#### To Do -- learn how knitr works for multiple output {-}
-
-See chapter <https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html>
-
-
-
-#### Section headings need four hashtags and no-number symbol {-} 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[@doughertyWhoOwnsOral2012] Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.[@mendozaJumpingLine1985; @sheffmovementcoalitionFortyYearsProject2008] Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@doughertySchoolChoiceSuburbia2009]
-
-How to write a text-only footnote.^[This is a footnote, with no citation.]
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@doughertyHowDoesInformation2010; @doughertyWhoChoosesHartford2015]
-
-Block quote example:
+Block quote:
 
 > "I thoroughly disapprove of duels. If a man should challenge me,
   I would take him kindly and forgivingly by the hand and lead him
   to a quiet place and kill him."
 >
 > --- Mark Twain
+
+#### Subheadings need four hashtags and no-number symbol {-} 
+Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
+
+Link using angle brackets: <http://www.google.com>
+
+A text-only footnote.^[This is a footnote, with no reference]
+
+Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+
+Insert image using Markdown syntax:
+
+![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
+
+#### Explore the chart: embedded HTML iframe {-}
+<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
+Write caption immediately afterwards in body text.
+
+#### Scroll the map: embedded HTML iframe {-}
+<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
+Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). See sources, known issues, and the code by Ilyana Ilyankou and Jack Dougherty, Trinity College at <https://github.com/ontheline/otl-town-borders/>. Insert short refs/links and footnotes in caption when possible.
+
+#### Play the video: embedded HTML iframe for YouTube {-}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Write caption immediately afterwards in body text.
+
+#### Consider using more complex R codes for final PDF production {-} 
+
+Image inserted with R code:
+
+```{r fig.cap='Using R code: auto-number appears in web and pdf, centered, resized at 90 percent, but not sure how to format footnotes or italics', out.width='90%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg")
+```
+
+Insert URL with R code:
+
+```{r fig.cap='URL inserted using R code: centered, resized at 90 percent, not sure how to format footnotes or italics', out.width='90%', out.height='110%', fig.align='center', echo=FALSE}
+knitr::include_url("https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/")
+```
+
+To do: learn more about R codes <https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html>

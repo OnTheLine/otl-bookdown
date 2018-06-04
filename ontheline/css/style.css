@@ -1,9 +1,6 @@
 p.caption {
-  color: #777;
   margin-top: 10px;
   margin-left: 20px;
-  font-size: 1.2rem !important;
-  line-spacing: 1.35rem !important;
 }
 
 .book .book-summary ul.summary li span {
