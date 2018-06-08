@@ -52,22 +52,11 @@ output:
   bookdown::epub_book:
     dev: svglite
     stylesheet: css/style.css
-    
-  bookdown::word_document2: default 
+
+  bookdown::word_document2: default
 ---
-# About the book {-}
+# Preface {-}
 
 ![ ](images/otl-cover-300x300.png)
 
-describe book-in-progress
-
-**License**
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-
-
-**How to cite**: insert here
-
-All text and code for this book is available on [GitHub](https://github.com/ontheline).  This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+short description here

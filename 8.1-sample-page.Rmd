@@ -4,6 +4,14 @@ An internal reference (cross-reference) to the chapter or subchapter titled "Con
 
 *by [Jack Dougherty and Co-Author Name](#contributors)*
 
+Use brackets and parentheses for an [embedded link](http://example.com)
+
+Use parentheses only for a non-embedded link (http://example.com)
+
+Similarly, display URL with angle brackets: <http://example.com>
+
+If necessary, use HTML to create <a href="http://example.com/" target="_blank">link that opens in a new page</a>
+
 Block quote:
 
 > "I thoroughly disapprove of duels. If a man should challenge me,
@@ -12,14 +20,14 @@ Block quote:
 >
 > --- Mark Twain
 
-#### Subheadings need four hashtags and no-number symbol {-} 
-Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
 
-Link using angle brackets: <http://www.google.com>
 
 A text-only footnote.^[This is a footnote, with no reference]
 
 Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+
+#### Subheadings need four hashtags and no-number symbol {-}
+Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
 
 Insert image using Markdown syntax:
 
@@ -37,7 +45,7 @@ Scroll down the narrative (or click and use arrow keys) to see how Hartford Coun
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Write caption immediately afterwards in body text.
 
-#### Consider using more complex R codes for final PDF production {-} 
+#### Consider using more complex R codes for final PDF production {-}
 
 Image inserted with R code:
 
