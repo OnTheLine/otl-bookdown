@@ -1,5 +1,7 @@
 ## Sample Bookdown Page
 
+Note: See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
+
 An internal reference (cross-reference) to the chapter or subchapter titled "Contributors"
 
 *by [Jack Dougherty and Co-Author Name](#contributors)*
@@ -19,8 +21,6 @@ Block quote:
   to a quiet place and kill him."
 >
 > --- Mark Twain
-
-
 
 A text-only footnote.^[This is a footnote, with no reference]
 

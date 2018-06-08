@@ -1,10 +1,8 @@
 ---
 lang: "en"
-title: "On The Line"
-subtitle: "How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs"
-author: "Jack Dougherty and contributors"
+title: "On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs"
+author: ["Jack Dougherty", "and contributors"]
 twitter-handle: doughertyjack
-date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
@@ -22,6 +20,8 @@ output:
   bookdown::gitbook:
     dev: svglite
     css: css/style.css
+    includes:
+      in_header: google-analytics-otl.html
     split_by: chapter
     split_bib: true
     number_sections: true
@@ -44,8 +44,6 @@ output:
         facebook: yes
         github: yes
         twitter: yes
-      includes:
-        after_body: otl-google-analytics.html
 
   bookdown::pdf_book: default
 
@@ -58,5 +56,7 @@ output:
 # Preface {-}
 
 ![ ](images/otl-cover-300x300.png)
+
+This book-in-progress was last updated on: `r Sys.Date()`
 
 short description here
