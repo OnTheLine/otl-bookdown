@@ -1,10 +1,22 @@
-## Sample Bookdown Page
+## Publishing with Bookdown on GitHub Pages
+*by [Jack Dougherty](#contributors)*
 
+Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
 Note: See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
 
-An internal reference (cross-reference) to the chapter or subchapter titled "Contributors"
+Reminders:
+- GitHub Pages set to publish from  `master/docs`
+- bookdown builds all formats into the `docs` folder
+- Custom domain setting creates `CNAME` file in `docs` folder; do not delete
+- Manually add `404.html` into 'docs' folder; not auto-built; do not delete
 
-*by [Jack Dougherty and Co-Author Name](#contributors)*
+#### Markdown/bookdown reminders {-}
+
+Hint: View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
+
+Embed a cross-reference with brackets and parenthesis, with chapter/section hashtag:
+
+*by [Jack Dougherty](#contributors)*
 
 Use brackets and parentheses for an [embedded link](http://example.com)
 

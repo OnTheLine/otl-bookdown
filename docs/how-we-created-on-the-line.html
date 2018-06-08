@@ -76,13 +76,14 @@
 <li><a href="./"><strong>On the Line</strong><br>by Jack Dougherty & contributors</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-book"><i class="fa fa-check"></i>About the book</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About the Book</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#purpose"><i class="fa fa-check"></i>Purpose</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read"><i class="fa fa-check"></i>How to Read</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-cite"><i class="fa fa-check"></i>How to Cite</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#contributors"><i class="fa fa-check"></i>Contributors</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#related-works"><i class="fa fa-check"></i>Related Works</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-cite"><i class="fa fa-check"></i>How to Cite</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read"><i class="fa fa-check"></i>How to Read</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="my-introduction-to-the-lines.html"><a href="my-introduction-to-the-lines.html"><i class="fa fa-check"></i><b>1</b> My Introduction to the Lines</a><ul>
 <li class="chapter" data-level="1.1" data-path="my-introduction-to-the-lines.html"><a href="my-introduction-to-the-lines.html#bringing-the-history-gap"><i class="fa fa-check"></i><b>1.1</b> Bringing the History Gap</a></li>
@@ -102,7 +103,7 @@
 <li class="chapter" data-level="6" data-path="choosing-to-cross-the-lines.html"><a href="choosing-to-cross-the-lines.html"><i class="fa fa-check"></i><b>6</b> Choosing to Cross the Lines</a></li>
 <li class="chapter" data-level="7" data-path="where-do-we-draw-the-line.html"><a href="where-do-we-draw-the-line.html"><i class="fa fa-check"></i><b>7</b> Where Do We Draw the Line?</a></li>
 <li class="chapter" data-level="8" data-path="how-we-created-on-the-line.html"><a href="how-we-created-on-the-line.html"><i class="fa fa-check"></i><b>8</b> How We Created On The Line</a><ul>
-<li class="chapter" data-level="8.1" data-path="how-we-created-on-the-line.html"><a href="how-we-created-on-the-line.html#sample-bookdown-page"><i class="fa fa-check"></i><b>8.1</b> Sample Bookdown Page</a></li>
+<li class="chapter" data-level="8.1" data-path="how-we-created-on-the-line.html"><a href="how-we-created-on-the-line.html#publishing-with-bookdown-on-github-pages"><i class="fa fa-check"></i><b>8.1</b> Publishing with Bookdown on GitHub Pages</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="teaching-with-on-the-line.html"><a href="teaching-with-on-the-line.html"><i class="fa fa-check"></i><b>9</b> Teaching with On The Line</a></li>
 <li class="chapter" data-level="10" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>10</b> Bibliography</a></li>
@@ -132,11 +133,21 @@
 <h1><span class="header-section-number">Chapter 8</span> How We Created On The Line</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<div id="sample-bookdown-page" class="section level2">
-<h2><span class="header-section-number">8.1</span> Sample Bookdown Page</h2>
-<p>Note: See also way to include hypothesis commenting and other open review tools at: <a href="https://benmarwick.github.io/bookdown-ort/" class="uri">https://benmarwick.github.io/bookdown-ort/</a></p>
-<p>An internal reference (cross-reference) to the chapter or subchapter titled “Contributors”</p>
-<p><em>by <a href="index.html#contributors">Jack Dougherty and Co-Author Name</a></em></p>
+<div id="publishing-with-bookdown-on-github-pages" class="section level2">
+<h2><span class="header-section-number">8.1</span> Publishing with Bookdown on GitHub Pages</h2>
+<p><em>by <a href="index.html#contributors">Jack Dougherty</a></em></p>
+<p>Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
+Note: See also way to include hypothesis commenting and other open review tools at: <a href="https://benmarwick.github.io/bookdown-ort/" class="uri">https://benmarwick.github.io/bookdown-ort/</a></p>
+<p>Reminders:
+- GitHub Pages set to publish from <code>master/docs</code>
+- bookdown builds all formats into the <code>docs</code> folder
+- Custom domain setting creates <code>CNAME</code> file in <code>docs</code> folder; do not delete
+- Manually add <code>404.html</code> into ‘docs’ folder; not auto-built; do not delete</p>
+<div id="markdownbookdown-reminders" class="section level4 unnumbered">
+<h4>Markdown/bookdown reminders</h4>
+<p>Hint: View syntax in the raw file on GitHub: <a href="https://github.com/ontheline/otl-book" class="uri">https://github.com/ontheline/otl-book</a></p>
+<p>Embed a cross-reference with brackets and parenthesis, with chapter/section hashtag:</p>
+<p><em>by <a href="index.html#contributors">Jack Dougherty</a></em></p>
 <p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a></p>
 <p>Use parentheses only for a non-embedded link (<a href="http://example.com" class="uri">http://example.com</a>)</p>
 <p>Similarly, display URL with angle brackets: <a href="http://example.com" class="uri">http://example.com</a></p>
@@ -150,6 +161,7 @@ to a quiet place and kill him.”</p>
 </blockquote>
 <p>A text-only footnote.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></p>
 <p>Markdown caret-footnote, which can accept multiple references with complex punctuation.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></p>
+</div>
 <div id="subheadings-need-four-hashtags-and-no-number-symbol" class="section level4 unnumbered">
 <h4>Subheadings need four hashtags and no-number symbol</h4>
 <p>Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.</p>
