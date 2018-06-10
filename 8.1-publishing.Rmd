@@ -57,10 +57,6 @@ Scroll down the narrative (or click and use arrow keys) to see how Hartford Coun
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Write caption immediately afterwards in body text.
 
-#### Play CTDA video: embedded HTML iframe from non-secure http {-}
-<iframe src='http://ctdigitalarchive.org/islandora/object/120002%3A191/datastream/MP4/view' width='560px' height='310px'></iframe>
-Write caption immediately afterwards in body text.
-
 #### Consider using more complex R codes for final PDF production {-}
 
 Image inserted with R code:
