@@ -53,12 +53,12 @@ Write caption immediately afterwards in body text.
 <iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
 Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). See sources, known issues, and the code by Ilyana Ilyankou and Jack Dougherty, Trinity College at <https://github.com/ontheline/otl-town-borders/>. Insert short refs/links and footnotes in caption when possible.
 
-#### Play the video: embedded HTML iframe for YouTube {-}
+#### Play YouTube video: embedded HTML iframe from secure https {-}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Write caption immediately afterwards in body text.
 
-#### Play video: embedded HTML http non-secure iframe from CTDA {-}
-<iframe src='http://ctdigitalarchive.org/islandora/object/120002%3A191/datastream/MP4/view' width='560px' height='310px' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#### Play CTDA video: embedded HTML iframe from non-secure http {-}
+<iframe src='http://ctdigitalarchive.org/islandora/object/120002%3A191/datastream/MP4/view' width='560px' height='310px'></iframe>
 Write caption immediately afterwards in body text.
 
 #### Consider using more complex R codes for final PDF production {-}
