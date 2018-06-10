@@ -1,5 +1,13 @@
 ## Contributors {-}
 
-**Jack Dougherty** has no idea how Bookdown works, but he will crib as much as possible from GitHub open repositories by Shawn Graham and Lincoln Mullen. . .
+**in-progress, and in no particular order at present**
 
-Other contributors to come. . .
+Vianna Iorio (Trinity 2019) co-authored several chapters: [Jumping the School District Line](#jumping) . . .
+
+JiYun (Lisa) Lee (Trinity 2017) co-authored the chapter [Jumping the School District Line](#jumping).
+
+Jasmin Agosto (Trinity 2010) co-authored the chapter [Mobilizing Against Racial Steering and Redlining](#mobilizing) and researched 18th-19th century school documents, and decades of school residency cases.
+
+#### Research assistants {-}
+
+Richelle Benjamin (Trinity ****) researched school residency cases and conducted oral history interviews.

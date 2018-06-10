@@ -45,19 +45,21 @@ Insert image using Markdown syntax:
 
 ![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
 
-#### Explore the chart: embedded HTML iframe {-}
+** Use 5 hashtags for digital image headers **, and imperative verbs to hint interactive use
+
+##### Explore the Chart: embedded HTML iframe {-}
 <iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
 Write caption immediately afterwards in body text.
 
-#### Scroll the map: embedded HTML iframe {-}
+##### Scroll the map: embedded HTML iframe {-}
 <iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
 Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). See sources, known issues, and the code by Ilyana Ilyankou and Jack Dougherty, Trinity College at <https://github.com/ontheline/otl-town-borders/>. Insert short refs/links and footnotes in caption when possible.
 
-#### Play YouTube video: embedded HTML iframe from secure https {-}
+##### Play YouTube video: embedded HTML iframe from secure https {-}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Write caption immediately afterwards in body text.
 
-#### Consider using more complex R codes for final PDF production {-}
+##### Consider using more complex R codes for final PDF production {-}
 
 Image inserted with R code:
 
