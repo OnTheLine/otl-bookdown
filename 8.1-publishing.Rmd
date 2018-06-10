@@ -14,7 +14,7 @@ Reminders:
 
 Hint: View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
 
-Embed a cross-reference with brackets and parenthesis, with chapter/section hashtag:
+Embed a cross-reference anchor with brackets and parenthesis, with chapter/section hashtag:
 
 *by [Jack Dougherty](#contributors)*
 
