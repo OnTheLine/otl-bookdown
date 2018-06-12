@@ -1,6 +1,7 @@
 p.caption {
   margin-top: 10px;
   margin-left: 20px;
+  font-style: italic;
 }
 
 .book .book-summary ul.summary li span {
