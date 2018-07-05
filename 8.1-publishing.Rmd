@@ -14,9 +14,10 @@ Reminders:
 
 Hint: View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
 
-Embed a cross-reference anchor with brackets and parenthesis, with chapter/section hashtag:
-
+Embed a cross-reference anchor to a section header with brackets and parenthesis:
 *by [Jack Dougherty](#contributors)*
+
+For long chapter or section headers, insert a curly-bracket hashtag ID.
 
 Use brackets and parentheses for an [embedded link](http://example.com)
 
@@ -35,6 +36,8 @@ Block quote:
 > --- Mark Twain
 
 A text-only footnote.^[This is a footnote, with no reference]
+
+BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
 
 Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 

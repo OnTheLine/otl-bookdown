@@ -13,7 +13,7 @@ link-citations: true
 
 url: 'http\://ontheline.trincoll.edu/'
 github-repo: ontheline/otl-book
-description: ' "On The Line" describes how... (add for SEO, with no HTML)'
+description: ' "On The Line" makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing.'
 cover-image: "images/otl-cover-300x300.png"
 
 output:
@@ -34,7 +34,7 @@ output:
         after: |
             <li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
             <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
-            <li><a href="https://bookdown.org" target="_blank">Created with Bookdown</a></li>
+            <li><a href="https://bookdown.org" target="_blank">Built with Bookdown + RStudio</a></li>
       download: [pdf, epub, mobi]
       edit:
         link: https://github.com/ontheline/otl-book/edit/master/%s
@@ -57,6 +57,8 @@ output:
 
 ![ ](images/otl-cover-300x300.png)
 
-This book-in-progress was last updated on: `r Sys.Date()`
+Book-in-progress, last updated on: `r Sys.Date()`
 
-short description here
+*On The Line* makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing.
+
+This open-access, born-digital, book-in-progress is under contract with Amherst College Press, copyrighted by [Jack Dougherty and contributors](#contributors) at Trinity College, Hartford CT, USA, and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License](http://creativecommons.org/licenses/by-nc-sa/4.0/). You may re-use and modify our work, as long as you follow the terms above, and include a source credit to: [OnTheLine.trincoll.edu](http://OnTheLine.trincoll.edu) by Jack Dougherty and contributors. Learn about our [open-access policy and code repository](#copyright) and [how to cite](#how-to-cite) our work.
