@@ -1,23 +1,21 @@
 ## Publishing with Bookdown on GitHub Pages
 *by [Jack Dougherty](#contributors)*
 
-Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
+TO DO: Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
 Note: See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
 
-Reminders:
+#### GitHub and Bookdown reminders {-}
 - GitHub Pages set to publish from  `master/docs`
-- bookdown builds all formats into the `docs` folder
-- Custom domain setting creates `CNAME` file in `docs` folder; do not delete
-- Manually add `404.html` into 'docs' folder; not auto-built; do not delete
+- Bookdown settings: build all book formats into the `docs` folder
+- GitHub Pages custom domain setting adds `CNAME` file to `docs` folder; do not delete
+- Manually move `404.html` into 'docs' folder, since not auto-built; do not delete
+- *CHECK* if `google-analytics-otl.html` needs to be manually placed in `docs` folder
+- Manually add X.X-footer.Rmd to end of each chapter
+- For final PDF and eBook build, remove cover image and footers
 
 #### Markdown/bookdown reminders {-}
 
-Hint: View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
-
-Embed a cross-reference anchor to a section header with brackets and parenthesis:
-*by [Jack Dougherty](#contributors)*
-
-For long chapter or section headers, insert a curly-bracket hashtag ID.
+**Hint:** View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
 
 Use brackets and parentheses for an [embedded link](http://example.com)
 
@@ -26,6 +24,28 @@ Use parentheses only for a non-embedded link (http://example.com)
 Similarly, display URL with angle brackets: <http://example.com>
 
 If necessary, use HTML to create <a href="http://example.com/" target="_blank">link that opens in a new page</a>
+
+For cross-reference links, refer to default ID name of chapter or section header:
+`## Contributors` = #contributors
+`## A Longer Header` = #a-longer-header
+
+To simplify longer chapter titles, add short hashtag in curly brackets as ID:
+`# Defining City and Suburban Lines {#defining}`
+
+Embed a cross-reference link to chapter or section header, with brackets and parenthesis:
+
+*by [Jack Dougherty](#contributors)*
+
+OR
+
+see [Chapter One: Defining City and Suburban Lines](#defining)
+
+Hide numbers from appearing in section headers with curly brackets around hyphen:
+
+`## Outline of the Book {-}``
+
+
+For an em-dash, use three hyphens---like this---rather than two hyphens.
 
 Block quote:
 
