@@ -53,7 +53,7 @@ output:
 
   bookdown::word_document2: default
 ---
-# About the Book {-}
+# Preface {-}
 
 ![ ](images/otl-cover-300x300.png)
 

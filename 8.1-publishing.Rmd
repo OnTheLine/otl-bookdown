@@ -1,4 +1,4 @@
-## Publishing with Bookdown on GitHub Pages
+## Publishing with Bookdown on GitHub Pages {#publishing}
 *by [Jack Dougherty](#contributors)*
 
 TO DO: Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
@@ -13,9 +13,11 @@ Note: See also way to include hypothesis commenting and other open review tools 
 - Manually add X.X-footer.Rmd to end of each chapter
 - For final PDF and eBook build, remove cover image and footers
 
-#### Markdown/bookdown reminders {-}
+#### Markdown/bookdown syntax {-}
 
-**Hint:** View syntax in the raw file on GitHub: <https://github.com/ontheline/otl-book>
+**IMPROVE** and compare with <https://bookdown.org/yihui/bookdown/markdown-syntax.html>
+
+**ADD** more code and demo comparisons
 
 Use brackets and parentheses for an [embedded link](http://example.com)
 
@@ -25,35 +27,49 @@ Similarly, display URL with angle brackets: <http://example.com>
 
 If necessary, use HTML to create <a href="http://example.com/" target="_blank">link that opens in a new page</a>
 
-For cross-reference links, refer to default ID name of chapter or section header:
-`## Contributors` = #contributors
-`## A Longer Header` = #a-longer-header
+##### Headers and Cross-reference links {-}
 
-To simplify longer chapter titles, add short hashtag in curly brackets as ID:
-`# Defining City and Suburban Lines {#defining}`
+Use one hashtag for a chapter title (first-level header)
+```
+# Chapter title
+```
+Use two hashtags for a section title (second-level header)
+```
+## Section title
+```
 
-Embed a cross-reference link to chapter or section header, with brackets and parenthesis:
+A short chapter title `# Introduction` has a short default reference: `#introduction`
 
-*by [Jack Dougherty](#contributors)*
+While a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
 
-OR
+To simplify long title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
 
-see [Chapter One: Defining City and Suburban Lines](#defining)
+Embed a cross-reference link to chapter or section with brackets and parenthesis:
+
+code: `*by [Jack Dougherty](#contributors)*` with demo: *by [Jack Dougherty](#contributors)*
+
+code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
 
 Hide numbers from appearing in section headers with curly brackets around hyphen:
-
-`## Outline of the Book {-}``
-
+- code: `## Outline of the Book {-}`
+- problem: so far, no way to insert a short reference AND hide number, unless hiding numbers for all in settings
 
 For an em-dash, use three hyphens---like this---rather than two hyphens.
 
-Block quote:
+For a block quote, start each line with a caret:
 
-> "I thoroughly disapprove of duels. If a man should challenge me,
+> I thoroughly disapprove of duels. If a man should challenge me,
   I would take him kindly and forgivingly by the hand and lead him
-  to a quiet place and kill him."
->
-> --- Mark Twain
+  to a quiet place and kill him. -- Mark Twain, notable American author  
+
+Insert line breaks with more carets *and* typing two spaces at end of each line:  
+
+> I thoroughly disapprove of duels. If a man should challenge me,
+  I would take him kindly and forgivingly by the hand and lead him
+  to a quiet place and kill him.    
+> --- Mark Twain  
+> --- notable American author  
+
 
 A text-only footnote.^[This is a footnote, with no reference]
 
@@ -61,12 +77,12 @@ BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1
 
 Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 
-#### Subheadings need four hashtags and no-number symbol {-}
-Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
-
 Insert image using Markdown syntax:
 
 ![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
+
+#### Subheadings need four hashtags and no-number symbol {-}
+- Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
 
 ** Use 5 hashtags for digital image headers **, and imperative verbs to hint interactive use
 
