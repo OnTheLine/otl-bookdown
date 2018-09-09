@@ -1,13 +1,17 @@
 ## Contributors {-}
 
-...many more TO COME
+Jasmin Agosto (Trinity 2010) co-authored the chapter [Mobilizing Against Racial Steering and Redlining](#challenging), and also researched 18th-19th century school documents, and decades of school residency cases.
 
-Vianna Iorio (Trinity 2019) co-authored several chapters: [Jumping the School District Line](#jumping) . . .
+Richelle Benjamin (Trinity 2015) researched school residency cases and conducted oral history interviews.
 
-JiYun (Lisa) Lee (Trinity 2017) co-authored the chapter [Jumping the School District Line](#jumping).
+Ilya Ilyankou (Trinity 2018) developed several interactive maps in this book. His open-source code and map links are available at our GitHub public repository: <http://github.com/OnTheLine/>.
 
-Jasmin Agosto (Trinity 2010) co-authored the chapter [Mobilizing Against Racial Steering and Redlining](#mobilizing) and researched 18th-19th century school documents, and decades of school residency cases.
+Vianna Iorio (Trinity 2019) co-authored several chapters, including [Jumping the School District Line](#challenging), and...
 
-#### Research assistants {-}
+JiYun (Lisa) Lee (Trinity 2017) co-authored the chapter [Jumping the School District Line](#challenging).
 
-Richelle Benjamin (Trinity ****) researched school residency cases and conducted oral history interviews.
+Shaun McGann (Trinity 2014) co-authored the chapter [Federal Lending and Redlining](#separating).
+
+...and MANY more to come...
+
+... TO DO: find a way to insert a direct reference to the section, not just the chapter
