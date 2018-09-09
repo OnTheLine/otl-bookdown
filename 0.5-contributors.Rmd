@@ -1,17 +1,17 @@
 ## Contributors {-}
 
-Jasmin Agosto (Trinity 2010) co-authored the chapter [Mobilizing Against Racial Steering and Redlining](#challenging), and also researched 18th-19th century school documents, and decades of school residency cases.
+Jasmin Agosto (Trinity 2010) co-authored [Mobilizing Against Racial Steering and Redlining](challenging.html#mobilizing-against-racial-steering-and-redlining), and also researched 18th-19th century school documents, and decades of school residency cases.
 
 Richelle Benjamin (Trinity 2015) researched school residency cases and conducted oral history interviews.
 
 Ilya Ilyankou (Trinity 2018) developed several interactive maps in this book. His open-source code and map links are available at our GitHub public repository: <http://github.com/OnTheLine/>.
 
-Vianna Iorio (Trinity 2019) co-authored several chapters, including [Jumping the School District Line](#challenging), and...
+Vianna Iorio (Trinity 2019) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants), [Jumping the School District Line](challenging.html#jumping-the-school-district-line), and other chapters TO COME.
 
-JiYun (Lisa) Lee (Trinity 2017) co-authored the chapter [Jumping the School District Line](#challenging).
+JiYun (Lisa) Lee (Trinity 2017) co-authored [Jumping the School District Line](challenging.html#jumping-the-school-district-line).
 
-Shaun McGann (Trinity 2014) co-authored the chapter [Federal Lending and Redlining](#separating).
+Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+
+Tracey M. Wilson (Trinity 1976) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants).
 
 ...and MANY more to come...
-
-... TO DO: find a way to insert a direct reference to the section, not just the chapter

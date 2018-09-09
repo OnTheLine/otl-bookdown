@@ -1,4 +1,4 @@
-## Bookdown technical tests
+## Bookdown technical tests {-}
 *by [Jack Dougherty](#contributors)*
 
 #### Play YouTube video: embedded HTML iframe from secure https {-}

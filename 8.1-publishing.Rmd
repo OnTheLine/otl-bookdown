@@ -1,4 +1,4 @@
-## Publishing with Bookdown on GitHub Pages {#publishing}
+## Publishing with Bookdown on GitHub Pages {-}
 *by [Jack Dougherty](#contributors)*
 
 TO DO: Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
@@ -37,24 +37,26 @@ Use two hashtags for a section title (second-level header)
 ```
 ## Section title
 ```
-A short chapter title `# Introduction` has a short default reference: `#introduction`
-
-TODO: ADD CORRECTIONS about longer refs BELOW
-While a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
+A short chapter title `# Introduction` has a short default reference: `#introduction`, while a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
 
 To simplify long chapter title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
 
-Embed a cross-reference link to chapter or section with brackets and parenthesis:
+To embed a cross-reference to a chapter title, add a link using brackets and parentheses:
 
-code: `*by [Jack Dougherty](#contributors)*` with demo: *by [Jack Dougherty](#contributors)*
+- short reference code: `*by [Jack Dougherty](#contributors)*` with demo: *by [Jack Dougherty](#contributors)*
+- short ID reference code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
 
-code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
+To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
+
+- Contributor code: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
+- Contributor demo: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+- Learn More code: `in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)`
+- Learn More demo: in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)
 
 Hide numbers from appearing in section headers with curly brackets around hyphen:
 - code: `## Outline of the Book {-}`
 
-However, since I have not yet found a way to insert a short section reference AND hide its number, we must use full section references with hidden numbers:
-```
+However, since I have not yet found a way to insert a short section reference AND hide its number, we must use full section references with hidden numbers.
 
 
 
@@ -94,19 +96,23 @@ Insert image using Markdown syntax:
 <iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
-##### Scroll the map: embedded HTML iframe {-}
+##### Scroll the Map: embedded HTML iframe {-}
 <iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
 *Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). View [map historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/), developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]*
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
-##### Play YouTube video: embedded HTML iframe from secure https {-}
+##### Watch the YouTube Video: embedded HTML iframe from secure https {-}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the Vimeo Video: embbedd HTML iframe from secure https {-}
+<iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
 ##### Explore the Source: embedded PDF {-}
 <iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
 This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.* 
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
 TODO: Compare with other PDF embed strategies:
 
