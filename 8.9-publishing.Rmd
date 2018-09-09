@@ -9,9 +9,25 @@ Note: See also way to include hypothesis commenting and other open review tools 
 - Bookdown settings: build all book formats into the `docs` folder
 - GitHub Pages custom domain setting adds `CNAME` file to `docs` folder; do not delete
 - Manually move `404.html` into 'docs' folder, since not auto-built; do not delete
-- *CHECK* if `google-analytics-otl.html` needs to be manually placed in `docs` folder
+- Manually add `google-analytics-otl.html` to root (where bookdown looks for it) and also to `docs` folder (since bookdown does *not appear* to copy it to there on each build)
 - Manually add X.X-footer.Rmd to end of each chapter
-- For final PDF and eBook build, remove cover image and footers
+- For final PDF and eBook build, remove cover image and footers and add code to index.Rmd
+```
+config:
+      toc:
+        scroll_highlight: yes
+        collapse: section
+        ...
+      download: [pdf, epub, mobi]
+      
+  bookdown::pdf_book: default
+
+  bookdown::epub_book:
+    dev: svglite
+    stylesheet: css/style.css
+
+  bookdown::word_document2: default
+```
 
 #### Markdown/bookdown syntax {-}
 
