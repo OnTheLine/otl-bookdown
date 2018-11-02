@@ -1,15 +1,12 @@
 ## Bookdown technical tests {-}
-*by [Jack Dougherty](#contributors)*
 
-#### Play YouTube video: embedded HTML iframe from secure https {-}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-Write caption immediately afterwards in body text.
+COMMENTED-OUT BELOW
+
+<!-- TESTS COMMENTED-OUT BELOW
 
 #### Play CTDA video: embedded HTML iframe from non-secure http {-}
 <iframe src='http://ctdigitalarchive.org/islandora/object/120002%3A191/datastream/MP4/view' width='560px' height='310px'></iframe>
 Write caption immediately afterwards in body text.
-
-##### Consider using more complex R codes for final PDF production {-}
 
 Image inserted with R code:
 
@@ -24,3 +21,5 @@ knitr::include_url("https://jackdougherty.github.io/highcharts-scatter-csv-instr
 ```
 
 To do: learn more about R codes <https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html>
+
+END TESTS COMMENTED OUT-->
