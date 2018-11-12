@@ -1,8 +1,17 @@
 ## Teaching with Oral History {-}
 
-*Inspired by a conversation with Pamela Grundy, Jake Hardesty, and Kevin Zayed at the History of Education Society meeting in November 2018.*
+*DRAFT outline of chapter to come by Jack Dougherty*
 
 How can we deepen student learning in our history classes by incorporating oral history interviewing and writing?
+
+Most publications about oral history emphasize logistics and legalities of collecting, curating, and disseminating, primarily for directors of oral history centers, archivists, and scholars. Cite: Oral History Association published its “Principles and Best Practices” document in 2009, but it’s mostly about logistical and ethical issues, not analysis
+http://www.oralhistory.org/about/principles-and-practices/
+Troy Reeves is leading the current rewrite of these for 2018, which you can see in Google Docs format here:
+https://drive.google.com/drive/folders/1t1-UOGVFGhqXVpkpVRpN5mj8ORvSxKbM
+Doug Boyd edited this open-access volume of essays on Oral History in the Digital Age in 2012, which mostly features essays on collecting, curating, and disseminating.
+http://www.oralhistory.org/oral-history-in-the-digital-age/
+
+But fewer authors emphasize how to teach oral history, particularly in the context of a college-level history course.
 
 Two pedagogical models (and maybe more):
 - Individual interviews to compare with traditional sources: describe, and goal is for students to write a conventional historical research paper, and to compare and contrast one oral interview transcript with traditional print sources
@@ -22,14 +31,23 @@ The Debs-Dougherty interviewing principles. -- include CSS samples
 
 How to design consent forms and collaborate with repositories
 
+- Jack Dougherty and Candace Simpson, “Who Owns Oral History? A Creative Commons Solution,” in Oral History in the Digital Age, ed. Doug Boyd et al. (Washington, DC: Institute of Library and Museum Services, 2012), http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/.
+(which has broken links in this version, and I need to update it in On The Line).
+
 How to transcribe
+- see the latter portion of this essay, one of the most popular I've ever written on the web https://commons.trincoll.edu/jackdougherty/how-to/record-and-transcribe/
 
 How to analyze and write history with oral interviews
 
-Here's where reading helps greatly, compared to the experience of interviewing
+- Here's where reading helps greatly, compared to the experience of interviewing
 
+- Review key concepts from Jack Dougherty, “From Anecdote to Analysis: Oral Interviews and New Scholarship in Educational History,” The Journal of American History 86, no. 2 (1999): 712–23, http://www.jstor.org/stable/2567055.
 
-See also JAH 1999 article on analyzing History
 - Read sample body paragraphs ... even write some fake ones for your students....
 
+
+
 Overall, start small -- teaching with oral history will become much easier the second and third time, when you will have sample interview guides, transcripts, and essays to share with future classes
+
+
+*Inspired by a conversation with Pamela Grundy, Jake Hardesty, and Kevin Zayed at the History of Education Society meeting in November 2018.*
