@@ -19,7 +19,7 @@ config:
         collapse: section
         ...
       download: [pdf, epub, mobi]
-      
+
   bookdown::pdf_book: default
 
   bookdown::epub_book:
@@ -121,8 +121,12 @@ Insert image using Markdown syntax:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
-##### Watch the Vimeo Video: embbedd HTML iframe from secure https {-}
+##### Watch the Vimeo Video: embedded HTML iframe from secure https {-}
 <iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+#### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
 ##### Explore the Source: embedded PDF {-}
