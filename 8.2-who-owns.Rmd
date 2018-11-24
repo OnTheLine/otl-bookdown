@@ -1,5 +1,5 @@
 ## Who Owns Oral History? A Creative Commons Solution {-}
-*by [Jack Dougherty and Candace Simpson](#contributors)*
+*by [Jack Dougherty and Candace Simpson](index.html#authors-and-contributors)*
 
 *An earlier version of this essay was published in 2012 in [Oral History in the Digital Age](http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/).[@doughertyWhoOwnsOral2012]*
 
@@ -57,4 +57,4 @@ In Hartford, a specific oral history interview we conducted with school integrat
 
 We do not contend that Creative Commons has resolved all of our questions about who “owns” oral history, nor do we claim expertise in intellectual property law. But as oral historians seeking alternatives, we believe that this combination—--traditional copyright with Creative Commons licensing—--fulfills our dual needs to maintain the rights of individual participants while sharing history with the public.
 
-*[About the contributors](#contributors): Jack Dougherty and Candace Simpson (Trinity 2012) developed this essay while conducting oral history interviews for this book, and co-presented it at the 2012 joint meeting of the Organization of American Historians/National Council on Public History. Jack expanded the final draft for publication.*
+*[About the contributors](index.html#authors-and-contributors): Jack Dougherty and Candace Simpson (Trinity 2012) developed this essay while conducting oral history interviews for this book, and co-presented it at the 2012 joint meeting of the Organization of American Historians/National Council on Public History. Jack expanded the final draft for publication.*

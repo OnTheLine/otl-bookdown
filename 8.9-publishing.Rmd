@@ -1,5 +1,5 @@
 ## Publishing with Bookdown on GitHub Pages {-}
-*by [Jack Dougherty](#contributors)*
+*by [Jack Dougherty](index.html#authors-and-contributors)*
 
 TO DO: Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
 Note: See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
@@ -59,7 +59,7 @@ To simplify long chapter title references, insert a short ID name in curly brack
 
 To embed a cross-reference to a chapter title, add a link using brackets and parentheses:
 
-- short reference code: `*by [Jack Dougherty](#contributors)*` with demo: *by [Jack Dougherty](#contributors)*
+- short reference code: `*by [Jack Dougherty](index.html#authors-and-contributors)*` with demo: *by [Jack Dougherty](index.html#authors-and-contributors)*
 - short ID reference code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
 
 To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
@@ -69,26 +69,20 @@ To embed a cross-reference link to a section title (inside a chapter), add a lin
 - Learn More code: `in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)`
 - Learn More demo: in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)
 
+NOTE that the cross-reference codes above are designed primarily for web books, and may or may not work the same way in ebooks.
+
+
 Hide numbers from appearing in section headers with curly brackets around hyphen:
 - code: `## Outline of the Book {-}`
 
 However, since I have not yet found a way to insert a short section reference AND hide its number, we must use full section references with hidden numbers.
 
 
-
 For an em-dash, use three hyphens---like this---rather than two hyphens.
 
-For a block quote, start each line with a caret:
+For a block quote, start each line with a caret **AND** add two spaces to insert a line break:
 
-> I thoroughly disapprove of duels. If a man should challenge me,
-  I would take him kindly and forgivingly by the hand and lead him
-  to a quiet place and kill him. -- Mark Twain, notable American author  
-
-Insert line breaks with more carets **AND** type two spaces at end of each line:  
-
-> I thoroughly disapprove of duels. If a man should challenge me,
-  I would take him kindly and forgivingly by the hand and lead him
-  to a quiet place and kill him.    
+> I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.    
 > --- Mark Twain  
 > --- notable American author  
 
