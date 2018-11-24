@@ -1,3 +1,0 @@
-# Creating On The Line {#creating}
-
-These chapters describe our behind-the-scenes decisions, research methods, and web technologies used to create this open-access digital book. By making our work process more transparent, we hope that others will be inspired to produce their own publications, and improve upon our process.

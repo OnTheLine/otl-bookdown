@@ -14,7 +14,7 @@
 | ![](images/simpson-candace-150.png) | Candace Simpson (Trinity College Class of 2012 with bachelor's degree in Educational Studies) co-authored [Who Owns Oral History? A Creative Commons Solution](creating.html#who-owns-oral-history-a-creative-commons-solution) and conducted oral history interviews on restrictive property covenants and Sheff v. O'Neill.  |
 | **Additional co-authors**  |   |
 | ![](images/wilson-tracey-150.png)  | Tracey M. Wilson (Trinity College Class of 1976) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants). See related chapters in her 2018 open-access book, *Life in West Hartford*,(http://lifeinwesthartford.org).   |
-| **University of Connecticut Libraries Map and Geographic Information Center (MAGIC)**  | Staff and students at [MAGIC](http://magic.lib.uconn.edu) co-created the [Google interactive maps](#maps) for this book, with support from a National Endowment for the Humanities grant in 2010-11. |
+| **University of Connecticut Libraries Map and Geographic Information Center (MAGIC)**  | Staff and students at [MAGIC](http://magic.lib.uconn.edu) co-created the [Google interactive maps](#mapping) for this book, with support from a National Endowment for the Humanities grant in 2010-11. |
 | ![](images/howser-michael.png)  | Michael Howser, Project Director and Map Interface Development  |
 | ![](images/denton-curtis.png)  | Curtis Denton, Project Management and Interface Design  |
 | ![](images/lynch-cary.png)  | Cary Lynch, Map Interface Development and Interface Design  |

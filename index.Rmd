@@ -7,8 +7,7 @@ knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: ontheline.bib
-biblio-style: authortitle
-citation-style: chicago-fullnote-bibliography-no-ibid.csl
+citation-style: chicago-fullnote-bibliography.csl
 link-citations: true
 
 url: 'http\://ontheline.trincoll.edu/'
@@ -25,6 +24,7 @@ output:
     split_by: chapter
     split_bib: true
     number_sections: true
+    pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
     config:
       toc:
         scroll_highlight: yes
