@@ -29,8 +29,14 @@ pre code {
 p.flushright {
   text-align: right;
 }
-blockquote > p:last-child {
+/* remove blockquote last-child right alignment */
+/* blockquote > p:last-child {
   text-align: right;
+} */
+/* darken block quote text, but same light border */
+.book .book-body .page-wrapper .page-inner section.normal blockquote {
+    color: #4d4d4d;
+    border-left: 4px solid #e5e5e5;
 }
 blockquote > p:first-child {
   text-align: inherit;

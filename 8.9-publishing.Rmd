@@ -84,7 +84,7 @@ For a block quote, start each line with a caret:
   I would take him kindly and forgivingly by the hand and lead him
   to a quiet place and kill him. -- Mark Twain, notable American author  
 
-Insert line breaks with more carets *and* typing two spaces at end of each line:  
+Insert line breaks with more carets **AND** type two spaces at end of each line:  
 
 > I thoroughly disapprove of duels. If a man should challenge me,
   I would take him kindly and forgivingly by the hand and lead him
