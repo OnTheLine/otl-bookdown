@@ -3,7 +3,6 @@
 
 TO DO:
 - Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
-- Learn more about modifying biblio output across different formats. See solution notes https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699
 - Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
   - newspaper notes currently show only month and year; ideal to also show date
   - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
@@ -16,32 +15,8 @@ TO DO:
 - Manually transfer `404.html` into 'docs' folder, since not auto-built; do not delete
 - Manually add `google-analytics-otl.html` to root (where bookdown looks for it) and also to `docs` folder (since bookdown does *not appear* to copy it to there on each build)
 - Manually transfer X.X-footer.Rmd to end of each chapter
-- For final PDF and eBook build, create a "printbook" fork on GitHub, remove cover image and footers, and add code to index.Rmd below (BUT experiment with settings, especially for citation style)
-```
-output:
-  bookdown::gitbook:
-  ...
-    config:
-      toc:
-        scroll_highlight: yes
-        collapse: section
-        ...
-      download: [pdf, epub, mobi]
-      ...
+- For final PDF and eBook builds, review lessons from Tracey Wilson book, and pehaps create a "printbook" fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699
 
-  bookdown::pdf_book:
-    citation_package: none
-    pandoc_args: [ "--csl", "chicago-fullnote-bibliography-no-ibid.csl" ]
-
-  bookdown::epub_book:
-    dev: svglite
-    stylesheet: css/style.css
-    pandoc_args: [ "--csl", "chicago-fullnote-bibliography-no-ibid.csl" ]
-
-  bookdown::word_document2:
-    citation_package: none
-    pandoc_args: [ "--csl", "chicago-fullnote-bibliography-no-ibid.csl" ]
-```
 
 #### Markdown/bookdown syntax {-}
 

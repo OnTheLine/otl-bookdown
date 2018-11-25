@@ -80,8 +80,9 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-book"><i class="fa fa-check"></i>About the book</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#authors-and-contributors"><i class="fa fa-check"></i>Authors and Contributors</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgements"><i class="fa fa-check"></i>Acknowledgements</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read"><i class="fa fa-check"></i>How to Read</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-cite"><i class="fa fa-check"></i>How to Cite</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> My Introduction to the Lines</a><ul>
 <li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html#learning-my-lines"><i class="fa fa-check"></i>Learning My Lines</a></li>
@@ -208,7 +209,6 @@
 <p><em>by <a href="index.html#authors-and-contributors">Jack Dougherty</a></em></p>
 <p>TO DO:
 - Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
-- Learn more about modifying biblio output across different formats. See solution notes <a href="https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699" class="uri">https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699</a>
 - Clarify that Chicago full-note <em>appears</em> to be working exactly as it was designed, but perhaps could be modified for this book:
 - newspaper notes currently show only month and year; ideal to also show date
 - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
@@ -222,31 +222,8 @@
 <li>Manually transfer <code>404.html</code> into ‘docs’ folder, since not auto-built; do not delete</li>
 <li>Manually add <code>google-analytics-otl.html</code> to root (where bookdown looks for it) and also to <code>docs</code> folder (since bookdown does <em>not appear</em> to copy it to there on each build)</li>
 <li>Manually transfer X.X-footer.Rmd to end of each chapter</li>
-<li>For final PDF and eBook build, create a “printbook” fork on GitHub, remove cover image and footers, and add code to index.Rmd below (BUT experiment with settings, especially for citation style)</li>
+<li>For final PDF and eBook builds, review lessons from Tracey Wilson book, and pehaps create a “printbook” fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes <a href="https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699" class="uri">https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699</a></li>
 </ul>
-<pre><code>output:
-  bookdown::gitbook:
-  ...
-    config:
-      toc:
-        scroll_highlight: yes
-        collapse: section
-        ...
-      download: [pdf, epub, mobi]
-      ...
-
-  bookdown::pdf_book:
-    citation_package: none
-    pandoc_args: [ &quot;--csl&quot;, &quot;chicago-fullnote-bibliography-no-ibid.csl&quot; ]
-
-  bookdown::epub_book:
-    dev: svglite
-    stylesheet: css/style.css
-    pandoc_args: [ &quot;--csl&quot;, &quot;chicago-fullnote-bibliography-no-ibid.csl&quot; ]
-
-  bookdown::word_document2:
-    citation_package: none
-    pandoc_args: [ &quot;--csl&quot;, &quot;chicago-fullnote-bibliography-no-ibid.csl&quot; ]</code></pre>
 </div>
 <div id="markdownbookdown-syntax" class="section level4 unnumbered">
 <h4>Markdown/bookdown syntax</h4>
@@ -351,7 +328,7 @@ This browser does not support PDFs. Please download to view it: <a href="images/
 <div id="about-this-book-8" class="section level4 unnumbered">
 <h4>About this book</h4>
 <p><img src="images/cc-by-nc-sa-88x31.png" /> <a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="index.html#authors-and-contributors">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License</a>. Learn about our <a href="index.html#copyright-with-open-access">open-access policy and code repository</a> and <a href="index.html#how-to-cite">how to cite</a> our work.</p>
-<p>This book-in-progress was last updated on: 2018-11-24</p>
+<p>This book-in-progress was last updated on: 2018-11-25</p>
 
 </div>
 </div>
@@ -421,7 +398,7 @@ gitbook.start({
 "link": "https://github.com/ontheline/otl-book/edit/master/8.40-creating.Rmd",
 "text": "Edit on GitHub"
 },
-"download": null,
+"download": ["Dougherty-etal-OnTheLine.pdf", "Dougherty-etal-OnTheLine.epub", "Dougherty-etal-OnTheLine.mobi", "Dougherty-etal-OnTheLine.docx"],
 "toc": {
 "collapse": "section",
 "scroll_highlight": true

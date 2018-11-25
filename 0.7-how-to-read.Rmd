@@ -1,0 +1,21 @@
+## How to Read {-}
+
+Read the text in any format below. But this digital-first book (with interactive maps, videos, and source links) is best experienced in the web edition (http://ontheline.trincoll.edu).
+
+- Web (recommended)
+- PDF
+- ePUB
+- MOBI
+- DOCX
+
+Several images **will not appear in the PDF/ePUB/MOBI/DOCX versions** until after this book-in-progress is completed.
+
+The web interface also offers these reading options:
+
+- Menu
+- Search (in-progress)
+- Font (adjust text size and display)
+- Edit (suggest edits or comment; requires free [GitHub](http://github.com) account)
+- Download
+
+![Screenshot of reading options](images/how-to-read.png)
