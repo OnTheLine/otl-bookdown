@@ -9,6 +9,7 @@ TO DO:
 - See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
 
 #### GitHub and Bookdown reminders {-}
+- How to install R, RStudio, bookdown package, and tinytex package (to create PDFs)
 - GitHub Pages set to publish from  `master/docs`
 - Bookdown settings: build all book formats into the `docs` folder
 - GitHub Pages custom domain setting adds `CNAME` file to `docs` folder; do not delete
