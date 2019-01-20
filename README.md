@@ -2,7 +2,7 @@
 
 Open book-in-progress by Jack Dougherty and contributors
 
-Read the book (to come) at <http://ontheline.trincoll.edu> OR FOLLOW this **temporary link** (https://ontheline.github.io/otl-book)
+Read book online at <http://ontheline.trincoll.edu>
 
 View source code for text, data, maps at <https://github.com/ontheline>
 
