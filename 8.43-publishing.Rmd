@@ -3,9 +3,6 @@
 
 TO DO:
 - Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain
-- Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
-  - newspaper notes currently show only month and year; ideal to also show date
-  - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
 - See also way to include hypothesis commenting and other open review tools at: https://benmarwick.github.io/bookdown-ort/
 
 #### GitHub and Bookdown reminders {-}
@@ -17,7 +14,6 @@ TO DO:
 - Manually add `google-analytics-otl.html` to root (where bookdown looks for it) and also to `docs` folder (since bookdown does *not appear* to copy it to there on each build)
 - Manually transfer X.X-footer.Rmd to end of each chapter
 - For final PDF and eBook builds, review lessons from Tracey Wilson book, and pehaps create a "printbook" fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699
-
 
 #### Markdown/bookdown syntax {-}
 
@@ -77,11 +73,32 @@ For a block quote, start each line with a caret **AND** add two spaces to insert
 > --- notable American author  
 
 
+#### Zotero Settings and Footnotes {-}
+
+This workflow uses open-source Zotero bibliography manager (http://zotero.org) with Better BibTeX extension (https://retorque.re/zotero-better-bibtex/). See [Better BibTeX installation](https://retorque.re/zotero-better-bibtex/installation/). This allows the author to insert footnote codes (example: `@tyackOneBestSystem1974`) and configure bookdown settings (such as Chicago note format) that pull footnotes from a recently downloaded Zotero collection, rather than typing each note directly into the book.
+
+Zotero preferences > Better BibTeX
+
+- add URLs to BibTeX export > in a note field
+- when ref has both DOI and URL, export > both
+
+To export from Zotero:
+
+- select library > right-click to export collection
+- select format > Better BibTex and leave checkboxes blank (I do not use "keep updated")
+- save output as ontheline.bib (or whatever matches your config settings) and save into book repo
+
+- Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
+  - newspaper notes currently show only month and year; ideal to also show date
+  - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
+
 A text-only footnote.^[This is a footnote, with no reference]
 
 BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
 
 Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+
+#### Embedding images and iframes {-}
 
 Insert image using Markdown syntax:
 
