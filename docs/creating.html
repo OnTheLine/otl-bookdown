@@ -112,7 +112,7 @@
 <li class="chapter" data-level="9" data-path="creating.html"><a href="creating.html"><i class="fa fa-check"></i><b>9</b> Creating <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#who-owns-oral-history-a-creative-commons-solution"><i class="fa fa-check"></i>Who Owns Oral History? A Creative Commons Solution</a></li>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#oral-history-consent-form"><i class="fa fa-check"></i>Oral History Consent Form</a></li>
-<li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#publishing-with-bookdown-on-github-pages"><i class="fa fa-check"></i>Publishing with Bookdown on GitHub Pages</a></li>
+<li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#bookdown-publishing-and-style-guide"><i class="fa fa-check"></i>Bookdown Publishing and Style Guide</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="mapping.html"><a href="mapping.html"><i class="fa fa-check"></i><b>10</b> Mapping <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="mapping.html"><a href="mapping.html#how-we-found-restrictive-covenants"><i class="fa fa-check"></i>How We Found Restrictive Covenants</a></li>
@@ -206,12 +206,12 @@
 <p><em>Keep one signed copy for project files and offer one copy to participant for their records</em></p>
 
 </div>
-<div id="publishing-with-bookdown-on-github-pages" class="section level2 unnumbered">
-<h2>Publishing with Bookdown on GitHub Pages</h2>
+<div id="bookdown-publishing-and-style-guide" class="section level2 unnumbered">
+<h2>Bookdown Publishing and Style Guide</h2>
 <p><em>by <a href="index.html#authors-and-contributors">Jack Dougherty</a></em></p>
 <p>TO DO: - Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain - See also way to include hypothesis commenting and other open review tools at: <a href="https://benmarwick.github.io/bookdown-ort/" class="uri">https://benmarwick.github.io/bookdown-ort/</a></p>
-<div id="github-and-bookdown-reminders" class="section level4 unnumbered">
-<h4>GitHub and Bookdown reminders</h4>
+<div id="publishing-workflow-quick-notes" class="section level4 unnumbered">
+<h4>Publishing workflow quick notes</h4>
 <ul>
 <li>How to install R, RStudio, bookdown package, and tinytex package (to create PDFs)</li>
 <li>GitHub Pages set to publish from <code>master/docs</code></li>
@@ -220,12 +220,23 @@
 <li>Manually transfer <code>404.html</code> into ‘docs’ folder, since not auto-built; do not delete</li>
 <li>Manually add <code>google-analytics-otl.html</code> to root (where bookdown looks for it) and also to <code>docs</code> folder (since bookdown does <em>not appear</em> to copy it to there on each build)</li>
 <li>Manually transfer X.X-footer.Rmd to end of each chapter</li>
-<li>For final PDF and eBook builds, review lessons from Tracey Wilson book, and pehaps create a “printbook” fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes <a href="https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699" class="uri">https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699</a></li>
+<li>For final PDF and eBook builds, review lessons from Tracey Wilson book, and perhaps create a “printbook” fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes <a href="https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699" class="uri">https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699</a></li>
 </ul>
 </div>
-<div id="markdownbookdown-syntax" class="section level4 unnumbered">
-<h4>Markdown/bookdown syntax</h4>
-<p><strong>IMPROVE</strong> and compare with <a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-syntax.html</a></p>
+<div id="known-issues" class="section level4 unnumbered">
+<h4>Known issues</h4>
+<ul>
+<li>publishing PDF version not currently working for me since migrating hard drive setup</li>
+<li>footnote ordering is not working as expected, even after modifying style.css <a href="https://github.com/rstudio/bookdown/issues/589" class="uri">https://github.com/rstudio/bookdown/issues/589</a></li>
+</ul>
+</div>
+<div id="style-guide-for-on-the-line" class="section level4 unnumbered">
+<h4>Style Guide for On The Line</h4>
+<p><strong>IMPROVE</strong> and compare with</p>
+<ul>
+<li><a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-syntax.html</a></li>
+<li><a href="https://github.com/DataVizForAll/datavizforall-bookdown" class="uri">https://github.com/DataVizForAll/datavizforall-bookdown</a></li>
+</ul>
 <p><strong>ADD</strong> more code and demo comparisons</p>
 <p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a></p>
 <p>Use parentheses only for a non-embedded link (<a href="http://example.com" class="uri">http://example.com</a>)</p>
@@ -354,7 +365,7 @@ This browser does not support PDFs. Please download to view it: <a href="images/
 <hr />
 <ol start="81">
 <li id="fn81"><p>Jack Dougherty and Candace Simpson, “Who Owns Oral History? A Creative Commons Solution,” in <em>Oral History in the Digital Age</em>, ed. Doug Boyd et al. (Washington, DC: Institute of Library and Museum Services, 2012).<a href="creating.html#fnref81">↩</a></p></li>
-<li id="fn82"><p><a href="http://creativecommons.org" class="uri">http://creativecommons.org</a><a href="creating.html#fnref82">↩</a></p></li>
+<li id="fn82"><p>TODO: FIX note numbering issue: This is first note of “Who Owns Oral History” section; <a href="http://creativecommons.org" class="uri">http://creativecommons.org</a><a href="creating.html#fnref82">↩</a></p></li>
 <li id="fn83"><p>Troy Reeves, “What Do You Think You Own,” in <em>Oral History in the Digital Age</em>, 2012.<a href="creating.html#fnref83">↩</a></p></li>
 <li id="fn84"><p>Jack Dougherty and Kristen Nawrotzki, eds., <em>Writing History in the Digital Age</em> (Ann Arbor: University of Michigan Press, 2013).<a href="creating.html#fnref84">↩</a></p></li>
 <li id="fn85"><p>Cities, Suburbs, and Schools Project, Trinity College Digital Repository (<a href="https://digitalrepository.trincoll.edu/cssp/" class="uri">https://digitalrepository.trincoll.edu/cssp/</a>, n.d.).<a href="creating.html#fnref85">↩</a></p></li>
