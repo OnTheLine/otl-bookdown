@@ -1,0 +1,173 @@
+## Publishing *On the Line* with Bookdown {-}
+*by [Jack Dougherty and Ilya Ilyankou](index.html#authors-and-contributors)*
+
+This open-access book is published using open-source tools, featuring Bookdown with RStudio and GitHub. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. For a technical guide to publishing with Bookdown, see Yihui Xie, *Bookdown: Authoring Books and Technical Documents with R Markdown*, 2018, <https://bookdown.org/yihui/bookdown/>.
+
+An alternative book publishing platform to consider is Pressbooks. This open-source modification of WordPress multisite also supports multiple publication formats (HMTL web edition, PDF edition, ePUB ebook edition. Authors can use the <http://Pressbooks.com> paid hosting service. Or, users with advanced WordPress and some system admin skills can download the code from <http://github.com/pressbooks> and run their own self-hosted book publishing site.
+
+#### Setup RStudio, Bookdown, and TinyTeX {-}
+Below are steps we followed to setup the publishing platform for this book, using our Macintosh OS 10.14 computers. The same general principles also should apply to Windows computers. No special knowledge is required, but these steps will be easier if users are adventurous or already familiar with R Studio, GitHub, or editing code.
+
+- Install R Project statistical programming language <https://www.r-project.org> to build your book with Bookdown. (Yes, we too were surprised to use a statistics package to publish a book, but it works!). [See screenshot](images/bookdown/1-r-download.png)
+- Install the free RStudio Desktop to make R easier to use with a visual editor. [See screenshot](images/bookdown/2-download-rstudio.png)
+- Inside RStudio, select the Packages tab, and select Install. [See screenshot](images/bookdown/3-packages-install.png)
+- Inside RStudio, install the "bookdown" package to build your book, and select Install Dependencies. [See screenshot](images/bookdown/4-install-bookdown.png)
+- Bookdown now should be successfully installed in RStudio. [See screenshot](images/bookdown/5-installed.png)
+- Inside RStudio, install the "tinytex" package for Bookdown to create a PDF edition of your book. [See screenshot](images/bookdown/6-install-tinytex.png)
+- Don't forget: in RStudio console, type `tinytex::install_tinytex()` and press return to finish the installation. [See screenshot](images/bookdown/7-finish-install-tinytex.png)
+
+#### If tinytex installation error {-}
+- In the section above, we received this error message on our Mac computers: `/usr/local/bin not writeable`. We resolved by reading the software developer's GitHub issue <https://github.com/yihui/tinytex/issues/24> and following these steps:
+- In the Mac Applications > Utilities folder, open the Terminal application.
+- Carefully type `sudo chown -R `whoami`:admin /usr/local/bin` and press return.
+- Carefully type (without "sudo") `~/Library/TinyTeX/bin/x86_64-darwin/tlmgr path add` and press return.
+- Close the Terminal application.
+- In the RStudio console, type `tinytex::install_tinytex(force = TRUE)` and press return.
+
+#### Download and Build a Sample Book {-}
+- Create a free GitHub account <https://github.com> to share code repositories and publish book editions online.
+- In your web browser, log into your GitHub account, go to the software developer's bookdown-minimal repo <https://github.com/yihui/bookdown-minimal>, and fork a copy to your GitHub account. To learn about forking in GitHub, see this chapter <http://datavizforall.org/github.html> in the *Data Visualization for All* book.
+- Install GitHub Desktop <https://desktop.github.com> to transfer files between your online GitHub repo and local computer
+- In your web browser, go to your forked copy of `bookdown-minimal` and click the green `Clone or Download` button and select `Open in Desktop`. This should automatically open the GitHub Desktop application, and you can navigate to copy the code repo to a folder on your local computer.
+- In RStudio in the upper-right corner, select Project > Open Project to open the `bookdown-minimal` folder on your local computer. [See screenshot](images/bookdown/8-project-open.png)
+- In RStudio, open the `index.Rmd` file and make some simple edits to the text of this minimal book. For example, remove the hashtag `#` comment symbol in line 8 to "uncomment" and activate the PDF book option. Save your edits. [See screenshot](images/bookdown/9-edit-book.png)
+- Optional: Use your preferred text editor, such as Atom editor <https://atom.io>, to modify the text.
+- In RStudio, upper-right corner, select the Build tab, select Build Book, and choose All Formats to build both the gitbook-style static web edition and PDF edition.
+- If RStudio successfully builds both editions of your minimal book, the output will be saved into your `bookdown-minimal` folder, in a subfolder named `_book`, because that's how this sample is configured. The RStudio internal browser should automatically open your web edition (and it's not a very good browser, so feel free to close it). Also, open the subfolder and inspect the PDF edition. If RStudio found any errors, they will appear in the Build viewer. [See screenshot](images/bookdown/11-successful-build.png)
+- Hint: In future sessions with RStudio, you may need to select Packages tab and click Update to keep bookdown and other software packages up to date. [See screenshot](images/bookdown/12-packages-update.png)
+- Close RStudio.
+
+#### Publish your Book with GitHub Pages {-}
+- Open GitHub Desktop and navigate to the `bookdown-minimal` folder on your local computer. Write a summary to commit (save) the changes you made above to your master branch, and push this version to your online GitHub repo.
+- In your web browser, go to your online GitHub repo, with a web address similar to `https://github.com/USERNAME/bookdown-minimal` (insert your GitHub username).
+- In your GitHub repo, select Settings, scroll down to the GitHub Pages section (which is a free web hosting service to publish your code and book editions on the public web). Select Master Branch as your source, and Save.
+- Scroll down to this section again, and the web address of your published site should appear. Copy this address.
+- In a new browser tab, paste the web address from above, and at the end add `_book/index.html` because this sample is configured to store the web edition of your book in this subfolder. Your web address should be similar to: `https://USERNAME.github.io/bookdown-minimal/_book/index.html`
+
+#### Customize your Bookdown and GitHub settings {-}
+- To see customized settings for this book, go to its online repository <https://github.com/ontheline/ontheline-bookdown>
+- In the `_bookdown.yml` file, the output directory is set to build all book formats into the `docs` folder.
+- The GitHub Pages settings for this repo (which you cannot view) is set to publish from the `master/docs` folder, to match the output directory above. This simplifies the published web address to this format: `https://USERNAME.github.com/REPONAME`
+- Most of the Bookdown configuration settings appear in the `index.Rmd` file. Read more about these options in the software developer's technical guide, <https://bookdown.org/yihui/bookdown/>.
+- In addition, this GitHub Pages repo is published with a custom domain name <https://OnTheLine.trincoll.edu>. Learn more about custom domain names at <https://help.github.com/articles/using-a-custom-domain-with-github-pages/>, which usually requires purchasing a domain name from a web hosting service (such as <http://ReclaimHosting.com>). Adding a GitHub Pages custom domain name creates an additional `CNAME` file in the `docs` subfolder. Be careful not to delete it (or place a copy in a subfolder for safekeeping).
+- This book also includes a custom `404.html` file that was manually transferred into the `docs` subfolder, since it is not automatically built by Bookdown.
+- This book also includes a custom `google-analytics-otl.html` file in the root-level of repo (where bookdown looks for it) and also is manually transferred to the `docs` subfolder (since bookdown does *not appear* to copy it to there on each build). This tracks web traffic with Google Analytics.
+
+#### *On The Line* Style Guide with Bookdown-flavored Markdown {-}
+
+Use brackets and parentheses for an [embedded link](http://example.com)
+
+Use parentheses only for a non-embedded link (http://example.com)
+
+Similarly, display URL with angle brackets: <http://example.com>
+
+If necessary, use HTML to create <a href="http://example.com/">link that opens in a new page</a>
+
+##### Headers and Cross-reference links {-}
+
+Use one hashtag for a chapter title (first-level header)
+```
+# Chapter title
+```
+Use two hashtags for a section title (second-level header)
+```
+## Section title
+```
+A short chapter title `# Introduction` has a short default reference: `#introduction`, while a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
+
+To simplify long chapter title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
+
+To embed a cross-reference to a chapter title, add a link using brackets and parentheses:
+
+- short reference code: `*by [Jack Dougherty](index.html#authors-and-contributors)*` with demo: *by [Jack Dougherty](index.html#authors-and-contributors)*
+- short ID reference code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
+
+To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
+
+- Contributor code: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
+- Contributor demo: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+- Learn More code: `in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)`
+- Learn More demo: in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)
+
+NOTE that the cross-reference codes above are designed primarily for web books, and may or may not work the same way in ebooks.
+
+Hide numbers from appearing in section headers with curly brackets around hyphen:
+- code: `## Outline of the Book {-}`
+
+However, since I have not yet found a way to insert a short section reference AND hide its number, we must use full section references with hidden numbers.
+
+For an em-dash, use three hyphens---like this---rather than two hyphens.
+
+For a block quote, start each line with a caret **AND** add two spaces to insert a line break:
+
+> I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.    
+> --- Mark Twain  
+> --- notable American author  
+
+
+#### Zotero Settings and Footnotes {-}
+
+This workflow uses open-source Zotero bibliography manager (http://zotero.org) with Better BibTeX extension (https://retorque.re/zotero-better-bibtex/). See [Better BibTeX installation](https://retorque.re/zotero-better-bibtex/installation/). This allows the author to insert footnote codes (example: `@tyackOneBestSystem1974`) and configure bookdown settings (such as Chicago note format) that pull footnotes from a recently downloaded Zotero collection, rather than typing each note directly into the book.
+
+Zotero preferences > Better BibTeX
+
+- add URLs to BibTeX export > in a note field
+- when ref has both DOI and URL, export > both
+
+To export from Zotero:
+
+- select library > right-click to export collection
+- select format > Better BibTex and leave checkboxes blank (I do not use "keep updated")
+- save output as ontheline.bib (or whatever matches your config settings) and save into book repo
+
+- Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
+  - newspaper notes currently show only month and year; ideal to also show date
+  - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
+
+A text-only footnote.^[This is a footnote, with no reference]
+
+BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
+
+Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+
+#### Embedding images and iframes {-}
+
+Insert image using Markdown syntax:
+
+![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
+
+#### Subheadings need four hashtags and no-number symbol {-}
+- Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
+
+Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use
+
+##### Explore the Chart: embedded HTML iframe {-}
+<iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Scroll the Map: embedded HTML iframe {-}
+<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
+*Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). View [map historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/), developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]*
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the YouTube Video: embedded HTML iframe from secure https {-}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the Vimeo Video: embedded HTML iframe from secure https {-}
+<iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+#### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Explore the Source: embedded PDF {-}
+<iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
+This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+TODO: Compare with other PDF embed strategies:
+
+- See https://pdfobject.com/static.html
+- See https://github.com/mozilla/pdf.js

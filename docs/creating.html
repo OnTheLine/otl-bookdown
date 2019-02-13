@@ -14,7 +14,7 @@
   <meta property="og:url" content="http://ontheline.trincoll.edu/" />
   <meta property="og:image" content="http://ontheline.trincoll.edu/images/coverOTL300x300.png" />
   <meta property="og:description" content="“On The Line” makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing." />
-  <meta name="github-repo" content="ontheline/otl-book" />
+  <meta name="github-repo" content="ontheline/otl-bookdown" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 9 Creating On The Line | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
@@ -112,7 +112,7 @@
 <li class="chapter" data-level="9" data-path="creating.html"><a href="creating.html"><i class="fa fa-check"></i><b>9</b> Creating <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#who-owns-oral-history-a-creative-commons-solution"><i class="fa fa-check"></i>Who Owns Oral History? A Creative Commons Solution</a></li>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#oral-history-consent-form"><i class="fa fa-check"></i>Oral History Consent Form</a></li>
-<li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#bookdown-publishing-and-style-guide"><i class="fa fa-check"></i>Bookdown Publishing and Style Guide</a></li>
+<li><a href="creating.html#publishing-on-the-line-with-bookdown">Publishing <em>On the Line</em> with Bookdown</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="mapping.html"><a href="mapping.html"><i class="fa fa-check"></i><b>10</b> Mapping <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="mapping.html"><a href="mapping.html#how-we-found-restrictive-covenants"><i class="fa fa-check"></i>How We Found Restrictive Covenants</a></li>
@@ -206,42 +206,79 @@
 <p><em>Keep one signed copy for project files and offer one copy to participant for their records</em></p>
 
 </div>
-<div id="bookdown-publishing-and-style-guide" class="section level2 unnumbered">
-<h2>Bookdown Publishing and Style Guide</h2>
-<p><em>by <a href="index.html#authors-and-contributors">Jack Dougherty</a></em></p>
-<p>TO DO: - Include a longer introduction on why it matters, and then how we publish with Bookdown on GitHub Pages with custom domain - See also way to include hypothesis commenting and other open review tools at: <a href="https://benmarwick.github.io/bookdown-ort/" class="uri">https://benmarwick.github.io/bookdown-ort/</a></p>
-<div id="publishing-workflow-quick-notes" class="section level4 unnumbered">
-<h4>Publishing workflow quick notes</h4>
+<div id="publishing-on-the-line-with-bookdown" class="section level2 unnumbered">
+<h2>Publishing <em>On the Line</em> with Bookdown</h2>
+<p><em>by <a href="index.html#authors-and-contributors">Jack Dougherty and Ilya Ilyankou</a></em></p>
+<p>This open-access book is published using open-source tools, featuring Bookdown with RStudio and GitHub. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. For a technical guide to publishing with Bookdown, see Yihui Xie, <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>, 2018, <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a>.</p>
+<p>An alternative book publishing platform to consider is Pressbooks. This open-source modification of WordPress multisite also supports multiple publication formats (HMTL web edition, PDF edition, ePUB ebook edition. Authors can use the <a href="http://Pressbooks.com" class="uri">http://Pressbooks.com</a> paid hosting service. Or, users with advanced WordPress and some system admin skills can download the code from <a href="http://github.com/pressbooks" class="uri">http://github.com/pressbooks</a> and run their own self-hosted book publishing site.</p>
+<div id="setup-rstudio-bookdown-and-tinytex" class="section level4 unnumbered">
+<h4>Setup RStudio, Bookdown, and TinyTeX</h4>
+<p>Below are steps we followed to setup the publishing platform for this book, using our Macintosh OS 10.14 computers. The same general principles also should apply to Windows computers. No special knowledge is required, but these steps will be easier if users are adventurous or already familiar with R Studio, GitHub, or editing code.</p>
 <ul>
-<li>How to install R, RStudio, bookdown package, and tinytex package (to create PDFs)</li>
-<li>GitHub Pages set to publish from <code>master/docs</code></li>
-<li>Bookdown settings: build all book formats into the <code>docs</code> folder</li>
-<li>GitHub Pages custom domain setting adds <code>CNAME</code> file to <code>docs</code> folder; do not delete</li>
-<li>Manually transfer <code>404.html</code> into ‘docs’ folder, since not auto-built; do not delete</li>
-<li>Manually add <code>google-analytics-otl.html</code> to root (where bookdown looks for it) and also to <code>docs</code> folder (since bookdown does <em>not appear</em> to copy it to there on each build)</li>
-<li>Manually transfer X.X-footer.Rmd to end of each chapter</li>
-<li>For final PDF and eBook builds, review lessons from Tracey Wilson book, and perhaps create a “printbook” fork on GitHub, remove cover image and footers, and learn more about modifying biblio output across different formats. See solution notes <a href="https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699" class="uri">https://stackoverflow.com/questions/48965247/use-csl-file-for-pdf-output-in-bookdown/49145699#49145699</a></li>
+<li>Install R Project statistical programming language <a href="https://www.r-project.org" class="uri">https://www.r-project.org</a> to build your book with Bookdown. (Yes, we too were surprised to use a statistics package to publish a book, but it works!). <a href="images/bookdown/1-r-download.png">See screenshot</a></li>
+<li>Install the free RStudio Desktop to make R easier to use with a visual editor. <a href="images/bookdown/2-download-rstudio.png">See screenshot</a></li>
+<li>Inside RStudio, select the Packages tab, and select Install. <a href="images/bookdown/3-packages-install.png">See screenshot</a></li>
+<li>Inside RStudio, install the “bookdown” package to build your book, and select Install Dependencies. <a href="images/bookdown/4-install-bookdown.png">See screenshot</a></li>
+<li>Bookdown now should be successfully installed in RStudio. <a href="images/bookdown/5-installed.png">See screenshot</a></li>
+<li>Inside RStudio, install the “tinytex” package for Bookdown to create a PDF edition of your book. <a href="images/bookdown/6-install-tinytex.png">See screenshot</a></li>
+<li>Don’t forget: in RStudio console, type <code>tinytex::install_tinytex()</code> and press return to finish the installation. <a href="images/bookdown/7-finish-install-tinytex.png">See screenshot</a></li>
 </ul>
 </div>
-<div id="known-issues" class="section level4 unnumbered">
-<h4>Known issues</h4>
+<div id="if-tinytex-installation-error" class="section level4 unnumbered">
+<h4>If tinytex installation error</h4>
 <ul>
-<li>publishing PDF version not currently working for me since migrating hard drive setup</li>
-<li>footnote ordering is not working as expected, even after modifying style.css <a href="https://github.com/rstudio/bookdown/issues/589" class="uri">https://github.com/rstudio/bookdown/issues/589</a></li>
+<li>In the section above, we received this error message on our Mac computers: <code>/usr/local/bin not writeable</code>. We resolved by reading the software developer’s GitHub issue <a href="https://github.com/yihui/tinytex/issues/24" class="uri">https://github.com/yihui/tinytex/issues/24</a> and following these steps:</li>
+<li>In the Mac Applications &gt; Utilities folder, open the Terminal application.</li>
+<li>Carefully type <code>sudo chown -R</code>whoami<code>:admin /usr/local/bin</code> and press return.</li>
+<li>Carefully type (without “sudo”) <code>~/Library/TinyTeX/bin/x86_64-darwin/tlmgr path add</code> and press return.</li>
+<li>Close the Terminal application.</li>
+<li>In the RStudio console, type <code>tinytex::install_tinytex(force = TRUE)</code> and press return.</li>
 </ul>
 </div>
-<div id="style-guide-for-on-the-line" class="section level4 unnumbered">
-<h4>Style Guide for On The Line</h4>
-<p><strong>IMPROVE</strong> and compare with</p>
+<div id="download-and-build-a-sample-book" class="section level4 unnumbered">
+<h4>Download and Build a Sample Book</h4>
 <ul>
-<li><a href="https://bookdown.org/yihui/bookdown/markdown-syntax.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-syntax.html</a></li>
-<li><a href="https://github.com/DataVizForAll/datavizforall-bookdown" class="uri">https://github.com/DataVizForAll/datavizforall-bookdown</a></li>
+<li>Create a free GitHub account <a href="https://github.com" class="uri">https://github.com</a> to share code repositories and publish book editions online.</li>
+<li>In your web browser, log into your GitHub account, go to the software developer’s bookdown-minimal repo <a href="https://github.com/yihui/bookdown-minimal" class="uri">https://github.com/yihui/bookdown-minimal</a>, and fork a copy to your GitHub account. To learn about forking in GitHub, see this chapter <a href="http://datavizforall.org/github.html" class="uri">http://datavizforall.org/github.html</a> in the <em>Data Visualization for All</em> book.</li>
+<li>Install GitHub Desktop <a href="https://desktop.github.com" class="uri">https://desktop.github.com</a> to transfer files between your online GitHub repo and local computer</li>
+<li>In your web browser, go to your forked copy of <code>bookdown-minimal</code> and click the green <code>Clone or Download</code> button and select <code>Open in Desktop</code>. This should automatically open the GitHub Desktop application, and you can navigate to copy the code repo to a folder on your local computer.</li>
+<li>In RStudio in the upper-right corner, select Project &gt; Open Project to open the <code>bookdown-minimal</code> folder on your local computer. <a href="images/bookdown/8-project-open.png">See screenshot</a></li>
+<li>In RStudio, open the <code>index.Rmd</code> file and make some simple edits to the text of this minimal book. For example, remove the hashtag <code>#</code> comment symbol in line 8 to “uncomment” and activate the PDF book option. Save your edits. <a href="images/bookdown/9-edit-book.png">See screenshot</a></li>
+<li>Optional: Use your preferred text editor, such as Atom editor <a href="https://atom.io" class="uri">https://atom.io</a>, to modify the text.</li>
+<li>In RStudio, upper-right corner, select the Build tab, select Build Book, and choose All Formats to build both the gitbook-style static web edition and PDF edition.</li>
+<li>If RStudio successfully builds both editions of your minimal book, the output will be saved into your <code>bookdown-minimal</code> folder, in a subfolder named <code>_book</code>, because that’s how this sample is configured. The RStudio internal browser should automatically open your web edition (and it’s not a very good browser, so feel free to close it). Also, open the subfolder and inspect the PDF edition. If RStudio found any errors, they will appear in the Build viewer. <a href="images/bookdown/11-successful-build.png">See screenshot</a></li>
+<li>Hint: In future sessions with RStudio, you may need to select Packages tab and click Update to keep bookdown and other software packages up to date. <a href="images/bookdown/12-packages-update.png">See screenshot</a></li>
+<li>Close RStudio.</li>
 </ul>
-<p><strong>ADD</strong> more code and demo comparisons</p>
+</div>
+<div id="publish-your-book-with-github-pages" class="section level4 unnumbered">
+<h4>Publish your Book with GitHub Pages</h4>
+<ul>
+<li>Open GitHub Desktop and navigate to the <code>bookdown-minimal</code> folder on your local computer. Write a summary to commit (save) the changes you made above to your master branch, and push this version to your online GitHub repo.</li>
+<li>In your web browser, go to your online GitHub repo, with a web address similar to <code>https://github.com/USERNAME/bookdown-minimal</code> (insert your GitHub username).</li>
+<li>In your GitHub repo, select Settings, scroll down to the GitHub Pages section (which is a free web hosting service to publish your code and book editions on the public web). Select Master Branch as your source, and Save.</li>
+<li>Scroll down to this section again, and the web address of your published site should appear. Copy this address.</li>
+<li>In a new browser tab, paste the web address from above, and at the end add <code>_book/index.html</code> because this sample is configured to store the web edition of your book in this subfolder. Your web address should be similar to: <code>https://USERNAME.github.io/bookdown-minimal/_book/index.html</code></li>
+</ul>
+</div>
+<div id="customize-your-bookdown-and-github-settings" class="section level4 unnumbered">
+<h4>Customize your Bookdown and GitHub settings</h4>
+<ul>
+<li>To see customized settings for this book, go to its online repository <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a></li>
+<li>In the <code>_bookdown.yml</code> file, the output directory is set to build all book formats into the <code>docs</code> folder.</li>
+<li>The GitHub Pages settings for this repo (which you cannot view) is set to publish from the <code>master/docs</code> folder, to match the output directory above. This simplifies the published web address to this format: <code>https://USERNAME.github.com/REPONAME</code></li>
+<li>Most of the Bookdown configuration settings appear in the <code>index.Rmd</code> file. Read more about these options in the software developer’s technical guide, <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a>.</li>
+<li>In addition, this GitHub Pages repo is published with a custom domain name <a href="https://OnTheLine.trincoll.edu" class="uri">https://OnTheLine.trincoll.edu</a>. Learn more about custom domain names at <a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/" class="uri">https://help.github.com/articles/using-a-custom-domain-with-github-pages/</a>, which usually requires purchasing a domain name from a web hosting service (such as <a href="http://ReclaimHosting.com" class="uri">http://ReclaimHosting.com</a>). Adding a GitHub Pages custom domain name creates an additional <code>CNAME</code> file in the <code>docs</code> subfolder. Be careful not to delete it (or place a copy in a subfolder for safekeeping).</li>
+<li>This book also includes a custom <code>404.html</code> file that was manually transferred into the <code>docs</code> subfolder, since it is not automatically built by Bookdown.</li>
+<li>This book also includes a custom <code>google-analytics-otl.html</code> file in the root-level of repo (where bookdown looks for it) and also is manually transferred to the <code>docs</code> subfolder (since bookdown does <em>not appear</em> to copy it to there on each build). This tracks web traffic with Google Analytics.</li>
+</ul>
+</div>
+<div id="on-the-line-style-guide-with-bookdown-flavored-markdown" class="section level4 unnumbered">
+<h4><em>On The Line</em> Style Guide with Bookdown-flavored Markdown</h4>
 <p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a></p>
 <p>Use parentheses only for a non-embedded link (<a href="http://example.com" class="uri">http://example.com</a>)</p>
 <p>Similarly, display URL with angle brackets: <a href="http://example.com" class="uri">http://example.com</a></p>
-<p>If necessary, use HTML to create <a href="http://example.com/" target="_blank">link that opens in a new page</a></p>
+<p>If necessary, use HTML to create <a href="http://example.com/">link that opens in a new page</a></p>
 <div id="headers-and-cross-reference-links" class="section level5 unnumbered">
 <h5>Headers and Cross-reference links</h5>
 <p>Use one hashtag for a chapter title (first-level header)</p>
@@ -308,10 +345,10 @@
 <ul>
 <li>Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.</li>
 </ul>
-<p>** Use 5 hashtags for digital image headers **, and imperative verbs to hint interactive use</p>
+<p>Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use</p>
 <div id="explore-the-chart-embedded-html-iframe" class="section level5 unnumbered">
 <h5>Explore the Chart: embedded HTML iframe</h5>
-<iframe src="https://jackdougherty.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px">
+<iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px">
 </iframe>
 <p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
 </div>
@@ -356,7 +393,7 @@ This browser does not support PDFs. Please download to view it: <a href="images/
 <div id="about-this-book-8" class="section level4 unnumbered">
 <h4>About this book</h4>
 <p><img src="images/cc-by-nc-sa-88x31.png" /> <a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="index.html#authors-and-contributors">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License</a>. Learn about our <a href="index.html#copyright-with-open-access">open-access policy and code repository</a> and <a href="index.html#how-to-cite">how to cite</a> our work.</p>
-<p>This book-in-progress was last updated on: 2019-02-12</p>
+<p>This book-in-progress was last updated on: 2019-02-13</p>
 
 </div>
 </div>
@@ -422,7 +459,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ontheline/otl-book/edit/master/8.40-creating.Rmd",
+"link": "https://github.com/ontheline/otl-bookdown/edit/master/09-creating.Rmd",
 "text": "Edit on GitHub"
 },
 "history": {

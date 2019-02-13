@@ -1,6 +1,6 @@
 output_dir: "docs"
 book_filename: "Dougherty-etal-OnTheLine"
-edit: https://github.com/ontheline/otl-book/edit/master/%s
+edit: https://github.com/ontheline/otl-bookdown/edit/master/%s
 language:
   label:
     fig: "Image "

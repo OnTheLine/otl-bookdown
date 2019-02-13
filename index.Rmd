@@ -11,7 +11,7 @@ citation-style: chicago-fullnote-bibliography.csl
 link-citations: true
 
 url: 'http\://ontheline.trincoll.edu/'
-github-repo: ontheline/otl-book
+github-repo: ontheline/otl-bookdown
 description: ' "On The Line" makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing.'
 cover-image: "images/coverOTL300x300.png"
 
@@ -37,7 +37,7 @@ output:
             <li><a href="https://bookdown.org" target="_blank">Built with Bookdown + RStudio</a></li>
       download: [pdf, epub, docx]
       edit:
-        link: https://github.com/ontheline/otl-book/edit/master/%s
+        link: https://github.com/ontheline/otl-bookdown/edit/master/%s
         text: "Edit on GitHub"
       search: yes
       sharing:

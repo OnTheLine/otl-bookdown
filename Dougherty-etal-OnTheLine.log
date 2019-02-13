@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.12)  12 FEB 2019 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.12)  13 FEB 2019 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,7 +662,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `Dougherty-etal-OnTheLine.toc'.
 
 [4]
-<images/coverOTL300x300.png, id=200, 150.5625pt x 150.5625pt>
+<images/coverOTL300x300.png, id=201, 150.5625pt x 150.5625pt>
 File: images/coverOTL300x300.png Graphic file (type png)
 <use images/coverOTL300x300.png>
 Package pdftex.def Info: images/coverOTL300x300.png  used on input line 107.
@@ -1044,105 +1044,124 @@ File: images/2012-cc-licenses.jpg Graphic file (type jpg)
 <use images/2012-cc-licenses.jpg>
 Package pdftex.def Info: images/2012-cc-licenses.jpg  used on input line 3368.
 (pdftex.def)             Requested size: 469.75385pt x 352.31538pt.
-[70 <./images/2012-cc-licenses.jpg>] [71]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3546
+[70 <./images/2012-cc-licenses.jpg>] [71] [72]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3591
 .
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [72]
-Overfull \hbox (34.91093pt too wide) in paragraph at lines 3624--3628
+) [73]
+Overfull \hbox (136.06248pt too wide) in paragraph at lines 3700--3704
+[]\T1/lmr/m/n/10 In your web browser, go to your on-line GitHub repo, with a we
+b ad-dress sim-i-lar to \T1/lmtt/m/n/10 https://github.com/USERNAME/bookdown-mi
+nimal
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 3743--3753
+\T1/lmr/m/n/10 trincoll . edu$[]. Learn more about cus-tom do-main names at []$
+https : / / help . github . com / articles /
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 3743--3753
+\T1/lmr/m/n/10 using-[]a-[]custom-[]domain-[]with-[]github-[]pages/$[], which u
+su-ally re-quires pur-chas-ing a do-main name
+ []
+
+[74]
+Overfull \hbox (34.91093pt too wide) in paragraph at lines 3795--3799
 \T1/lmr/m/n/10 ti-tle \T1/lmtt/m/n/10 # Defining City and Suburban Lines \T1/lm
 r/m/n/10 has a longer de-fault ref-er-ence: \T1/lmtt/m/n/10 #defining-city-and-
 suburban-lines 
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 3639--3644
+Underfull \hbox (badness 2065) in paragraph at lines 3810--3815
 []\T1/lmr/m/n/10 short ref-er-ence code: \T1/lmtt/m/n/10 *by [Jack Dougherty](i
 ndex.html#authors-and-contributors)* \T1/lmr/m/n/10 with
  []
 
 
-Overfull \hbox (255.35417pt too wide) in paragraph at lines 3657--3660
+Overfull \hbox (255.35417pt too wide) in paragraph at lines 3828--3831
 []\T1/lmr/m/n/10 Contributor code: \T1/lmtt/m/n/10 Shaun McGann (Trinity 2014) 
 co-authored [Federal Lending and Redlining](separating.html#federal-lending-and
 -redlining) 
  []
 
-[73]
-Overfull \hbox (185.0216pt too wide) in paragraph at lines 3664--3667
+
+Overfull \hbox (185.0216pt too wide) in paragraph at lines 3835--3838
 []\T1/lmr/m/n/10 Learn More code: \T1/lmtt/m/n/10 in this book about [How We Fo
 und Restrictive Covenants](creating.html#how-we-found-restrictive-covenants) 
  []
 
-[74]
-<images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg, id=1085, 792.9625p
+[75]
+<images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg, id=1115, 792.9625p
 t x 521.95pt>
 File: images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg Graphic file (
 type jpg)
 <use images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg>
 Package pdftex.def Info: images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass
-.jpg  used on input line 3764.
+.jpg  used on input line 3935.
 (pdftex.def)             Requested size: 469.76765pt x 309.21414pt.
-[75 <./images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg>]
+[76] [77 <./images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg>]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
 <use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 3867.
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 4038.
 
 (pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[76]
+[78]
 Chapter 10.
-[77
+[79
 
-] [78]
+] [80]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
 <use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 4055.
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 4226.
 
 (pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[79] [80
+[81] [82
 
 ]
 Chapter 11.
-[81]
-Overfull \hbox (2.46935pt too wide) in paragraph at lines 4212--4214
+[83]
+Overfull \hbox (2.46935pt too wide) in paragraph at lines 4383--4385
 []\T1/lmr/m/n/10 DC, Pro-logue. ``Map-ping Seg-re-ga-tion in Wash-ing-ton DC.''
  []$http : / / prologuedc . com / blog / mapping-[]segregation$[],
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 4228--4232
+Underfull \hbox (badness 2772) in paragraph at lines 4399--4403
 \T1/lmr/m/it/10 Li-braries\T1/lmr/m/n/10 . []$http : / / digicoll . library . w
 isc . edu / cgi / f / ^^\ndaid / ^^\ndaid-[]idx ? c = wiarchives ; view = resli
 st ; subview =
  []
 
-[82] [83]
-Overfull \hbox (2.74278pt too wide) in paragraph at lines 4413--4415
+[84] [85]
+Overfull \hbox (2.74278pt too wide) in paragraph at lines 4584--4586
 []\T1/lmr/m/n/10 ``March on Mil-wau-kee.'' \T1/lmr/m/it/10 Uni-ver-sity of Wis-
 con-sin Mil-wau-kee Li-braries\T1/lmr/m/n/10 . []$https : / / uwm . edu / march
 onmilwaukee/$[],
  []
 
-[84] [85]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4590.
-[86]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4590.
+[86] [87]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4761.
+[88]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4761.
 (./Dougherty-etal-OnTheLine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4761.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4761.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
-(rerunfilecheck)             Checksum: DF645DC9162178FE1CF968A81B7D561E;6548.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4590.
+(rerunfilecheck)             Checksum: 40BA0A6E7E1F4B73EECCDD3DC1CCBBC7;6556.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4761.
  ) 
 Here is how much of TeX's memory you used:
- 11529 strings out of 494562
- 170062 string characters out of 6174329
- 255097 words of memory out of 5000000
- 14611 multiletter control sequences out of 15000+600000
- 85696 words of font info for 61 fonts, out of 8000000 for 9000
+ 11538 strings out of 494562
+ 170291 string characters out of 6174329
+ 255443 words of memory out of 5000000
+ 14615 multiletter control sequences out of 15000+600000
+ 89967 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  28i,9n,32p,608b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{contact-the-author} has been referenced but does 
@@ -1163,10 +1182,10 @@ mf-dist/fonts/type1/public/lm/lmri12.pfb></Users/jdoughe2/Library/TinyTeX/texmf
 -dist/fonts/type1/public/lm/lmri8.pfb></Users/jdoughe2/Library/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmro10.pfb></Users/jdoughe2/Library/TinyTeX/texmf-dist
 /fonts/type1/public/lm/lmtt10.pfb>
-Output written on Dougherty-etal-OnTheLine.pdf (86 pages, 3796842 bytes).
+Output written on Dougherty-etal-OnTheLine.pdf (88 pages, 3804968 bytes).
 PDF statistics:
- 1506 PDF objects out of 1728 (max. 8388607)
- 1316 compressed objects within 14 object streams
- 411 named destinations out of 1000 (max. 500000)
+ 1542 PDF objects out of 1728 (max. 8388607)
+ 1350 compressed objects within 14 object streams
+ 416 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
