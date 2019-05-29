@@ -46,6 +46,7 @@ output:
         twitter: yes
 
   bookdown::pdf_book:
+    latex_engine: xelatex
     citation_package: none
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 
