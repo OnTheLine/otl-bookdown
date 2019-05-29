@@ -64,4 +64,4 @@ output:
 
 **This book-in-progress** was last updated on `r Sys.Date()`
 
-*On The Line* makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing.
+*On The Line* makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activism to cross over, redraw, or erase these lines in schooling and housing.

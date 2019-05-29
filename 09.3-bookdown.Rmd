@@ -117,7 +117,7 @@ Zotero preferences > Better BibTeX
 To export from Zotero:
 
 - select library > right-click to export collection
-- select format > Better BibTex and leave checkboxes blank (I do not use "keep updated")
+- select format > Better BibLaTeX (*IMPORTANT* I switched to this format to include full dates in newspaper citations, and urls) and leave checkboxes blank (I do not use "keep updated")
 - save output as ontheline.bib (or whatever matches your config settings) and save into book repo
 
 - Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
