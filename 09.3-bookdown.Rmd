@@ -54,7 +54,7 @@ Below are steps we followed to setup the publishing platform for this book, usin
 - This book also includes a custom `google-analytics-otl.html` file in the root-level of repo (where bookdown looks for it) and also is manually transferred to the `docs` subfolder (since bookdown does *not appear* to copy it to there on each build). This tracks web traffic with Google Analytics.
 
 #### About PDF edition
-The Bookdown-generated PDF edition is still a work-in-progress. Read more about various options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>. Currently using xelatex engine (see _bookdown.yml settings) to avoid unicode errors, but images are not ideal. 
+The Bookdown-generated PDF edition is still a work-in-progress. Read more about various options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>. Currently using xelatex engine (see bookdown.yml settings) to avoid unicode errors, but images are not ideal.
 
 
 #### *On The Line* Style Guide with Bookdown-flavored Markdown {-}

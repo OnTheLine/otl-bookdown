@@ -5,7 +5,7 @@ Over a century ago, the press declared Hartford as "the richest city in the Unit
 
 In addition its financial assets, Clark also praised Hartford's abundant cultural riches. The nation's best-known authors, Samuel Clemens (more commonly known as Mark Twain) and Harriet Beecher Stowe (whose best-seller, *Uncle Tom's Cabin*, influenced the Civil War), both took up residence in the city, alongside many of their literary companions, editors, and publishers. In addition to serving as the state capital, Hartford prized its extensive libraries, museum, and hospital. "The Hartford school buildings are said to the finest in the State," Clark added, and called special attention to his alma mater, Hartford Public High School, the second oldest in the nation, which also enjoyed "a reputation with all the leading colleges as one of the best of all the preparatory schools.”[@clarkCharterOakCity1876] In fact, the education that young people received in the city's public school system far surpassed what was available in the outlying rural towns, known today as the suburbs.
 
-#### Scroll the Source: Hartford as "The Richest City in the United States," 1876 {-}
+#### Explore the Source: Hartford as "The Richest City in the United States," 1876 {-}
 <iframe src="https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html" width="90%" height=615></iframe>
 *Scroll through [Scribner's Monthly in 1876](https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html), which declared Hartford as the richest city in the United States, relative to its population. Digitized by Google Books.^[@clarkCharterOakCity1876]*
 
