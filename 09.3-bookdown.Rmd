@@ -166,6 +166,10 @@ Use 5 hashtags for digital image headers, and imperative verbs to hint interacti
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
+#### Watch the Kaltura Video version2: embedded HTML iframe from secure https {-}
+<iframe src="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/2366381/uiconf_id/42684261/entry_id/1_esexxma4/embed/dynamic" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
 ##### Explore the Source: embedded PDF {-}
 <iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
 This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a></iframe>
