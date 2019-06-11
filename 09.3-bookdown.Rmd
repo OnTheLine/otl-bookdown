@@ -145,6 +145,8 @@ Insert image using Markdown syntax:
 
 Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use
 
+Set interactive map & chart iframes to width="90%" so that readers can scroll margin without repositioning digital element
+
 ##### Explore the Chart: embedded HTML iframe {-}
 <iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
