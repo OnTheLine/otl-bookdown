@@ -1,0 +1,45 @@
+## NEEDS TITLE about parental info and SmartChoices {-}
+*by [Jack Dougherty](index.html#authors-and-contributors)*
+
+TO DO: write narrative from SmartChoices parental info chapter and incorporate graphics and lessons learned from below at http://commons.trincoll.edu/cssp/smartchoices
+
+The SmartChoices school search tool, which the Cities Suburbs & Schools Project at Trinity College ran from late 2008 to 2014, is no longer online. If you are looking for information about public school choice options in the Hartford area, go to:
+
+Achieve Hartford’s search tool for city families: http://SmarterHartford.org
+Hartford Public Schools choice overview: http://www.hartfordschools.org/choice-page
+Regional School Choice Office for city & suburban families: http://choiceeducation.org
+To replace SmartChoices, we created the School Search Tool template, a generic mobile-friendly interactive map with sortable results, which any organization may freely download and modify to host their own school information on their own website. Try this live demo of the new tool, based on the open-source Searchable Map Template with Google Fusion Tables, created by Derek Eder at DataMade in Chicago.
+
+SchoolSearchTool600px
+Screenshot of School Search Tool template on a desktop.
+SchoolSearchToolMobile600px
+Two screenshots of the School Search Tool template on a smartphone.
+Background on SmartChoices (2008-14)
+The parent-friendly SmartChoices school search tool was developed in Fall 2008 by the Cities Suburbs & Schools Project and Academic Computing at Trinity College. We sensed that families were overwhelmed by the growing number of public education options in the metropolitan Hartford region, which resulted from the Sheff v O’Neill school desegregation remedy and the Hartford Public Schools district-wide all-choice policy. Parents lacked a central data source that listed all of their eligible public school options, and despite the digital divide, we believed that the web was the best mechanism to deliver school choice information tailored to each student’s address and grade level. While the web is full of school search sites, most of them simply list all schools located near an address. By contrast, what made SmartChoices unique that it delivered a comprehensive list of all of your eligible public school choices, not just those located nearby. ConnCAN initially supported the SmartChoices project in Fall 2008, and Achieve Hartford funded additional research, maintenance, and improvement of the tool from 2009-2013, as well as the development of its 2014 replacement, the open-source School Search Tool template.
+
+Screenshot of SmartChoices (2008-2014).
+Screenshot of SmartChoices (2008-2014).
+
+
+Video screencast of the SmartChoices public school search tool as it appeared in 2013-14.
+
+We decided to close down the SmartChoices search tool for several reasons. After six years, our work had shifted from research and development of the tool to annual database maintenance, which did not fit Trinity’s academic mission, nor provide meaningful learning opportunities for our students. Also, the end of the Connecticut Mastery Tests meant that the search tool would lack standardized test data for at least two years. While we hoped that other organizations would adopt our open-source 2008 tool, the technology proved too complex to be operated by non-specialists, and difficult to repurpose for other regions.
+
+Given these circumstances, we decided that the most appropriate option was to replace the SmartChoices website with an easy-to-maintain multi-purpose School Search Tool template, which any organization may freely download and modify to host their own school information on their own website. Try this live demo of the new tool, and see also Achieve Hartford’s modified version, SmarterHartford.org. If your organization wishes to host your own version of this free search tool, with data drawn from your own free Google Fusion Table account, see this read me page for more details.
+
+SmartChoices taught us a great deal about civic app design and how parents navigate the school search process online. Trinity College researchers analyzed search data (such as location, grade level, columns sorted) and also conducted face-to-face interviews. In all cases, we anonymized data and grouped our results into larger units (such as school district zones) to protect the privacy of individual users, in accordance with our research ethics guidelines. Read more about the web design, outreach efforts, and research findings of SmartChoices from 2009-2014:
+
+Dougherty, Jack, Diane Zannoni, Maham Chowhan, Courteney Coyne, Benjamin Dawson, Tehani Guruge, and Begaeta Nukic. “School Information, Parental Decisions, and the Digital Divide: The SmartChoices Project in Hartford, Connecticut.” In Educational Delusions? Why Choice Can Deepen Inequality and How to Make Schools Fair, by Gary Orfield and Erica Frankenberg. Berkeley: University of California Press, 2013. http://www.ucpress.edu/book.php?isbn=9780520274747.
+
+Dougherty, Jack. “Commentary: Commissioner, Let’s Build a Better School-Rating System.” CT Mirror, December 28, 2012. http://www.ctmirror.org/story/18581/commissioner-pryor-lets-build-better-public-school-web-tool.
+
+Dougherty, Jack. SmartChoices Website User Statistics for Year 3 (2011) and Year 4 (2011-12) and Year 5 (2012-13) and Year 6 (2013-14). Cities, Suburbs & Schools Project: Trinity College, Hartford, CT. http://commons.trincoll.edu/cssp/smartchoices
+
+Dougherty, Jack. “SmartChoices: A Geospatial Tool for Community Outreach and Educational Research.” Academic Commons (August 20, 2010). http://www.academiccommons.org/commons/essay/smartchoices-geospatial-tool.
+
+Dougherty, Jack, Diane Zannoni, Maham Chowhan, Courteney Coyne, Benjamin Dawson, Tehani Guruge, and Begaeta Nukic. “How Does Information Influence Parental Choice? The Smart Choices Project in Hartford, Connecticut.” Paper presented at the American Educational Research Association, Denver, 2010, and National Center for the Study of Privatization in Education (NCSPE) Occasional Paper 189 (April 28, 2010). http://digitalrepository.trincoll.edu/cssp_papers/2/
+and AERA 2010 presentation slides
+
+Coyne, Courteney. “Reputations and Realities: A Comparative Study of Parental Perceptions, School Quality and the SmartChoices Website.” Educational Studies Senior Research Project, Trinity College, 2010. http://digitalrepository.trincoll.edu/cssp_papers/14/.
+
+Hughes, Devlin. Designing Effective Google Maps for Social Change: A Case Study of SmartChoices. Hartford, Connecticut: Author, 2009. http://digitalrepository.trincoll.edu/cssp_papers/8/.

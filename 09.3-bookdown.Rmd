@@ -162,6 +162,8 @@ Use 5 hashtags for digital image headers, and imperative verbs to hint interacti
 <iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
+TO DO: identify the best Kaltura embed option (see two versions below)
+
 #### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
