@@ -119,7 +119,7 @@
 <li class="chapter" data-level="9" data-path="creating.html"><a href="creating.html"><i class="fa fa-check"></i><b>9</b> Creating <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#who-owns-oral-history-a-creative-commons-solution"><i class="fa fa-check"></i>Who Owns Oral History? A Creative Commons Solution</a></li>
 <li class="chapter" data-level="" data-path="creating.html"><a href="creating.html#oral-history-consent-form"><i class="fa fa-check"></i>Oral History Consent Form</a></li>
-<li><a href="creating.html#publishing-on-the-line-with-bookdown">Publishing <em>On the Line</em> with Bookdown</a></li>
+<li><a href="creating.html#publishing-on-the-line-with-bookdown-github-and-zotero">Publishing <em>On the Line</em> with Bookdown, GitHub, and Zotero</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="mapping.html"><a href="mapping.html"><i class="fa fa-check"></i><b>10</b> Mapping <em>On The Line</em></a><ul>
 <li class="chapter" data-level="" data-path="mapping.html"><a href="mapping.html#how-we-found-restrictive-covenants"><i class="fa fa-check"></i>How We Found Restrictive Covenants</a></li>
@@ -213,10 +213,10 @@
 <p><em>Keep one signed copy for project files and offer one copy to participant for their records</em></p>
 
 </div>
-<div id="publishing-on-the-line-with-bookdown" class="section level2 unnumbered">
-<h2>Publishing <em>On the Line</em> with Bookdown</h2>
+<div id="publishing-on-the-line-with-bookdown-github-and-zotero" class="section level2 unnumbered">
+<h2>Publishing <em>On the Line</em> with Bookdown, GitHub, and Zotero</h2>
 <p><em>by <a href="index.html#authors-and-contributors">Jack Dougherty and Ilya Ilyankou</a></em></p>
-<p>This open-access book is published using open-source tools, featuring Bookdown with RStudio and GitHub. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. For a technical guide to publishing with Bookdown, see Yihui Xie, <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>, 2018, <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a>.</p>
+<p>This open-access book is published using open-source tools, featuring Bookdown, GitHub, and Zotero. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. Zotero is an open-source bibliography manager that matches the workflow described below to organize citations. For a technical guide to publishing with Bookdown, see Yihui Xie, <em>Bookdown: Authoring Books and Technical Documents with R Markdown</em>, 2018, <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a>.</p>
 <p>An alternative book publishing platform to consider is Pressbooks. This open-source modification of WordPress multisite also supports multiple publication formats (HMTL web edition, PDF edition, ePUB ebook edition. Authors can use the <a href="http://Pressbooks.com" class="uri">http://Pressbooks.com</a> paid hosting service. Or, users with advanced WordPress and some system admin skills can download the code from <a href="http://github.com/pressbooks" class="uri">http://github.com/pressbooks</a> and run their own self-hosted book publishing site.</p>
 <div id="setup-rstudio-bookdown-and-tinytex" class="section level4 unnumbered">
 <h4>Setup RStudio, Bookdown, and TinyTeX</h4>
@@ -335,12 +335,20 @@
 <ul>
 <li>select library &gt; right-click to export collection</li>
 <li>select format &gt; Better BibLaTeX (<em>IMPORTANT</em> I switched to this format to include full dates in newspaper citations, and urls) and leave checkboxes blank (I do not use “keep updated”)</li>
-<li><p>save output as ontheline.bib (or whatever matches your config settings) and save into book repo</p></li>
-<li>Clarify that Chicago full-note <em>appears</em> to be working exactly as it was designed, but perhaps could be modified for this book:
+<li>save output as ontheline.bib (or whatever matches your config settings) and save into book repo</li>
+</ul>
+<p>Chicago full-note <em>appears</em> to be working exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (Author, title when appropriate). Ideally, modify the CSL to show full note in <em>every</em> instance in the web version.</p>
+<p>These Zotero types appear correctly with this Bookdown workflow:</p>
 <ul>
-<li>newspaper notes currently show only month and year; ideal to also show date</li>
-<li>second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version</li>
-</ul></li>
+<li>book</li>
+<li>book chapter</li>
+<li>journal</li>
+<li>newspaper</li>
+<li>thesis</li>
+<li>report</li>
+<li>blog post</li>
+<li>web page</li>
+<li>document (use this in place of: law case, presentation, interview, video recording, television broadcast; insert details, such as archival location, in the Publisher field)</li>
 </ul>
 <p>A text-only footnote.<a href="#fn146" class="footnote-ref" id="fnref146"><sup>146</sup></a></p>
 <p>BibText footnote with semi-colons to separate cites:<span class="citation"><a href="#fn147" class="footnote-ref" id="fnref147"><sup>147</sup></a></span></p>
@@ -416,7 +424,7 @@ This browser does not support PDFs. Please download to view it: <a href="images/
 <div id="about-this-book-8" class="section level4 unnumbered">
 <h4>About this book</h4>
 <p><img src="images/cc-by-nc-sa-88x31.png" /> <a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="index.html#authors-and-contributors">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License</a>. Learn about our <a href="index.html#copyright-with-open-access">open-access policy and code repository</a> and <a href="index.html#how-to-cite">how to cite</a> our work.</p>
-<p>This book-in-progress was last updated on: 2019-06-11</p>
+<p>This book-in-progress was last updated on: 2019-06-18</p>
 
 </div>
 </div>

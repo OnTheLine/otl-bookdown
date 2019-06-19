@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  11 JUN 2019 12:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  18 JUN 2019 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,15 +898,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--573
 [37]
 File: images/1937-HOLC-HartfordMapScan.jpg Graphic file (type bmp)
 <images/1937-HOLC-HartfordMapScan.jpg>
-[38] [39]
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+[38] [39] [40]
 File: images/1937-HOLCInhabitantsC10.png Graphic file (type bmp)
 <images/1937-HOLCInhabitantsC10.png>
-[40]
+[41]
 File: images/1936-FHA-Manual-247.png Graphic file (type bmp)
 <images/1936-FHA-Manual-247.png>
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [42]
 File: images/1938-FHA-Manual-Race1849.png Graphic file (type bmp)
 <images/1938-FHA-Manual-Race1849.png>
@@ -959,20 +959,7 @@ Underfull \hbox (badness 1142) in paragraph at lines 735--735
 [51] [52] [53] [54]
 File: images/1954-02-17HT-OakwoodAcresWH.jpg Graphic file (type bmp)
 <images/1954-02-17HT-OakwoodAcresWH.jpg>
-
-Underfull \hbox (badness 1946) in paragraph at lines 776--776
-[][][]\TU/lmr/m/n/8 Hartford Times, “Oakwood Acres Temporary Housing, West Hart
-ford (Photo),”
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
-\TU/lmr/m/n/8 February 17, 1954, []$[][][][][] [] [] [] [][][] [] [][][][][][] 
-[] [][][] [] [][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][][]
-[][] [] [][] []
- []
-
-[55]
+[55] [56]
 Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
 File: images/1943-12-16MetroNewsOakwoodHeadline.jpg Graphic file (type bmp)
 <images/1943-12-16MetroNewsOakwoodHeadline.jpg>
@@ -981,7 +968,6 @@ Overfull \hbox (2.79916pt too wide) in paragraph at lines 784--785
 []\TU/lmr/m/n/10 ￼[] 
  []
 
-[56]
 Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
 File: images/1951-2013-Aerial-Oakwood-WH.jpg Graphic file (type bmp)
 <images/1951-2013-Aerial-Oakwood-WH.jpg>
@@ -990,37 +976,45 @@ Overfull \hbox (2.79741pt too wide) in paragraph at lines 788--789
 []\TU/lmr/m/n/10 ￼[] 
  []
 
-[57]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[57] [58]
 Underfull \hbox (badness 1019) in paragraph at lines 796--796
 [][][]\TU/lmr/m/n/8 Tracey M. Wilson, “Resistance to Public Housing and Integra
 tion During World
  []
 
-[58] [59]
+[59] [60]
 File: images/1924-Whitten-page10-underlined.png Graphic file (type bmp)
 <images/1924-Whitten-page10-underlined.png>
 File: images/1924-west-hartford-zoning-map-excerpt.png Graphic file (type bmp)
 <images/1924-west-hartford-zoning-map-excerpt.png>
-[60] [61]
+[61] [62]
 Overfull \hbox (32.95999pt too wide) in paragraph at lines 865--866
 [][][][][][][][][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[62]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[63] [64
-
-]
+[63] [64]
 Chapter 4.
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[65] [66]
+[65
+
+] [66]
 Chapter 5.
 [67
 
 ]
+Underfull \hbox (badness 1675) in paragraph at lines 912--912
+\TU/lmr/m/n/8 vision broadcast video, August 31, 1985), []$[][][][] [] [] [] []
+[][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] []
+ []
+
+
 Underfull \hbox (badness 3148) in paragraph at lines 914--914
 [][][]\TU/lmr/m/n/8 Dave Drury, “Bloomfield Cracking down on Non-Residents in S
 chools,” \TU/lmr/m/it/8 Hart-
@@ -1043,36 +1037,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 936--936
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 938--938
-\TU/lmr/m/n/8 Town Clerk, 1888–89AD), p. 20, Connecticut State Library; “Kicks 
-on Schools in
+Underfull \hbox (badness 3514) in paragraph at lines 938--938
+\TU/lmr/m/n/8 Town Clerk, 1888–89AD), []$[][][][][] [] [] [] [][][][][][][][][]
+[][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][
+][][][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 938--938
-\TU/lmr/m/n/8 Residents,” \TU/lmr/m/it/8 Hartford Courant\TU/lmr/m/n/8 , Januar
-y 4, 1952, []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] []
- [][][][][][][] []
+Underfull \hbox (badness 4556) in paragraph at lines 938--938
+[][][][][][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][
+][][][][][][][][]$[]\TU/lmr/m/n/8 , p. 20, Connecticut State
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 938--938
+\TU/lmr/m/n/8 Library; “Kicks on Schools in Wethersfield: Dissatisfaction Expre
+ssed at Parents’
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 938--938
+\TU/lmr/m/n/8 Meeting: City Gets Sons of Board Members,” \TU/lmr/m/it/8 Hartfor
+d Courant\TU/lmr/m/n/8 , April 11, 1917,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 938--938
-[][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][
-][][][][][][][][][][][][][] [] [] [] [][][][][][][][][] [] [][][][][]$[]\TU/lmr
-/m/n/8 ; “Couple
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [
+][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 ;
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 938--938
-\TU/lmr/m/n/8 Ask Tuition-Free Schooling for Girl but Residency Is Disputed,” \
-TU/lmr/m/it/8 Hartford Courant\TU/lmr/m/n/8 ,
+Underfull \hbox (badness 3386) in paragraph at lines 938--938
+\TU/lmr/m/n/8 “Schools Jump Tuition Fees for Out-of-Town Residents,” \TU/lmr/m/
+it/8 Hartford Courant\TU/lmr/m/n/8 , Jan-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 938--938
-\TU/lmr/m/n/8 February 6, 1959, []$[][][][][] [] [] [] [][][][][][][][][][][][]
-[][][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][
-][][] [] [][][][][][][][][] []
+Underfull \hbox (badness 10000) in paragraph at lines 938--938
+\TU/lmr/m/n/8 uary 4, 1952, []$[][][][][] [] [] [] [][][][][][][][][][][][][][]
+[][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][
+] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--938
+[][][][][][][][][][][][][][][][][][] [] [] [] [][][][][][][][][] [] [][][][][]$
+[]\TU/lmr/m/n/8 ; “Couple Ask Tuition-Free Schooling
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 938--938
+\TU/lmr/m/n/8 for Girl but Residency Is Disputed,” \TU/lmr/m/it/8 Hartford Cour
+ant\TU/lmr/m/n/8 , February 6, 1959, []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 938--938
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
+[][][][][][][][][] []
  []
 
 [71]
@@ -1113,13 +1138,10 @@ Underfull \hbox (badness 2368) in paragraph at lines 987--987
 nce Cases,” \TU/lmr/m/it/8 Hart-
  []
 
-[77]
+[77] [78]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-
-Underfull \vbox (badness 2521) has occurred while \output is active []
-
-[78] [79] [80
+[79] [80
 
 ]
 Chapter 6.
@@ -1154,7 +1176,7 @@ via Social Ex-
 Underfull \vbox (badness 7326) has occurred while \output is active []
 
 [87] [88]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7869) has occurred while \output is active []
 
 [89]
 Underfull \hbox (badness 10000) in paragraph at lines 1098--1098
@@ -1324,13 +1346,13 @@ File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 [130]
 Chapter 11.
 
-Underfull \hbox (badness 1337) in paragraph at lines 1734--1736
+Underfull \hbox (badness 1337) in paragraph at lines 1751--1753
 [][]\TU/lmr/m/n/10 “An Art Museum.” \TU/lmr/m/it/10 Hartford Daily Courant\TU/l
 mr/m/n/10 , April 29, 1871. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1734--1736
+Underfull \hbox (badness 10000) in paragraph at lines 1751--1753
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
  []
@@ -1339,156 +1361,162 @@ Underfull \hbox (badness 10000) in paragraph at lines 1734--1736
 [131
 
 ]
-Underfull \hbox (badness 1675) in paragraph at lines 1743--1745
+Underfull \hbox (badness 1675) in paragraph at lines 1760--1762
 [][]\TU/lmr/m/n/10 “A Suggestive Contrast.” \TU/lmr/m/it/10 Hartford Daily Cour
 ant\TU/lmr/m/n/10 , October 15, 1878.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1743--1745
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1762
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 1746--1748
+Underfull \hbox (badness 3780) in paragraph at lines 1763--1765
 [][]\TU/lmr/m/n/10 Bailey, Chauncey. “Non-Resident Students Again Attending Blo
 om-
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 1746--1748
+Underfull \hbox (badness 2894) in paragraph at lines 1763--1765
 \TU/lmr/m/n/10 field Schools.” \TU/lmr/m/it/10 Hartford Courant: City/Town\TU/l
 mr/m/n/10 , September 16, 1976.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1746--1748
+Underfull \hbox (badness 10000) in paragraph at lines 1763--1765
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 1767--1769
+Underfull \hbox (badness 1043) in paragraph at lines 1784--1786
 [][]\TU/lmr/m/n/10 Bixby, Lyn, Vada Crosby, Brant Houston, Jeffrey Williams, an
 d Larry
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1767--1769
+Underfull \hbox (badness 1442) in paragraph at lines 1784--1786
 \TU/lmr/m/n/10 Buyers: Two Connecticuts Series.” \TU/lmr/m/it/10 Hartford Coura
 nt\TU/lmr/m/n/10 , May 21, 1989.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1769
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1786
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] []
 
  []
 
+
+Underfull \hbox (badness 3291) in paragraph at lines 1790--1792
+\TU/lmr/m/n/10 Town Clerk, 1888–89AD. []$[][][][][] [] [] [] [][][][][][][][][]
+[][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] []
+ []
+
 [132]
-Underfull \hbox (badness 2229) in paragraph at lines 1797--1799
+Underfull \hbox (badness 2318) in paragraph at lines 1799--1801
+[][]\TU/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. “How We Found Restricti
+ve
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 1817--1819
 [][]\TU/lmr/m/n/10 Clark, Charles H. “The Charter Oak City.” \TU/lmr/m/it/10 Sc
 ribner’s Monthly \TU/lmr/m/n/10 13,
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1809--1811
+Underfull \hbox (badness 2012) in paragraph at lines 1829--1831
 [][]\TU/lmr/m/n/10 Condon, Tom. “‘Troubled City’ a Victim of Geography.” \TU/lm
 r/m/it/10 Hartford
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 1809--1811
+Underfull \hbox (badness 1303) in paragraph at lines 1829--1831
 \TU/lmr/m/it/10 Courant\TU/lmr/m/n/10 . September 12, 2002. []$[][][][] [] [] [
 ] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
  []
 
 [133]
-Overfull \hbox (18.06999pt too wide) in paragraph at lines 1836--1838
+Overfull \hbox (18.06999pt too wide) in paragraph at lines 1847--1849
 [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1850
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1861
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1857--1859
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1870
 [] [] [][][][][][][] [] [][][][][][][][][][][][] [] [] [] [][][][][][][][][][] 
 [] [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][]
 [] []
  []
 
-[134] [135]
-Underfull \hbox (badness 1365) in paragraph at lines 1890--1892
+[134]
+Underfull \hbox (badness 1365) in paragraph at lines 1901--1903
 \TU/lmr/m/n/10 Parental Decisions, and the Digital Divide: The SmartChoices Pro
 ject
  []
 
-[136]
-Underfull \hbox (badness 1635) in paragraph at lines 1926--1928
+[135]
+Underfull \hbox (badness 1635) in paragraph at lines 1937--1939
 [][]\TU/lmr/m/n/10 Elsen, Jon. “Bloomfield Officials Laud School Officer’s Work
 .” \TU/lmr/m/it/10 The
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 1926--1928
+Underfull \hbox (badness 1490) in paragraph at lines 1937--1939
 \TU/lmr/m/it/10 Hartford Courant (1923-1991): SECTION B\TU/lmr/m/n/10 . April 1
 2, 1986. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1926--1928
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1939
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
  []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1947--1949
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 1958--1960
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
 [137]
-Underfull \hbox (badness 2326) in paragraph at lines 1977--1979
+Underfull \hbox (badness 2326) in paragraph at lines 1988--1990
 [][]\TU/lmr/m/n/10 Hathaway, William. “After the Price, the Next Question Is: H
 ow
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 1977--1979
+Underfull \hbox (badness 2573) in paragraph at lines 1988--1990
 \TU/lmr/m/n/10 Are the Schools?” \TU/lmr/m/it/10 Hartford Courant\TU/lmr/m/n/10
  , September 26, 1993. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1977--1979
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1990
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][]
 [][] []
  []
 
-[138]
-Underfull \hbox (badness 1057) in paragraph at lines 2013--2015
-\TU/lmr/m/n/10 High Ledge Homes Development,” June 10, 1940. []$[][][][][] [] [
-] [] [][][][][][] [] [][][] []
- []
-
-[139]
-Underfull \hbox (badness 1062) in paragraph at lines 2046--2048
+[138] [139]
+Underfull \hbox (badness 1062) in paragraph at lines 2054--2056
 \TU/lmr/m/n/10 project, Trinity College, 2002. []$[][][][] [] [] [] [][][][][][
 ][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][] []
  []
 
 
-Overfull \hbox (117.45998pt too wide) in paragraph at lines 2061--2063
+Overfull \hbox (117.45998pt too wide) in paragraph at lines 2069--2071
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\T
@@ -1496,38 +1524,39 @@ U/lmr/m/n/10 .
  []
 
 [140]
-Underfull \hbox (badness 1173) in paragraph at lines 2094--2096
+Underfull \hbox (badness 1173) in paragraph at lines 2105--2107
 \TU/lmr/m/it/10 ford Courant\TU/lmr/m/n/10 , October 18, 2014. []$[][][][] [] [
 ] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 2097--2099
+Underfull \hbox (badness 1748) in paragraph at lines 2108--2110
 \TU/lmr/m/n/10 October 18, 2014. []$[][][][] [] [] [] [][][] [] [][][][][][][] 
 [] [][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][] []
  []
 
 [141]
-Overfull \hbox (3.61197pt too wide) in paragraph at lines 2127--2129
+Overfull \hbox (3.61197pt too wide) in paragraph at lines 2138--2140
 \TU/lmr/m/it/10 Age\TU/lmr/m/n/10 , 2012. []$[][][][] [] [] [] [][][][] [] [][]
 [][][][] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][]$[]. 
  []
 
 [142]
-Underfull \hbox (badness 1028) in paragraph at lines 2181--2183
+Underfull \hbox (badness 1028) in paragraph at lines 2192--2194
 [][]\TU/lmr/m/n/10 “The Richest City.” \TU/lmr/m/it/10 The Hartford Courant (18
 87-1922)\TU/lmr/m/n/10 . October 23,
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 2184--2186
-[][]\TU/lmr/m/n/10 Times, Hartford. “Oakwood Acres Temporary Housing, West Hart
-ford
+Underfull \hbox (badness 2875) in paragraph at lines 2195--2197
+\TU/lmr/m/n/10 17, 1954. []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][
+] [] [][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][][][][] [] 
+[][] []
  []
 
 
-Overfull \hbox (188.02199pt too wide) in paragraph at lines 2187--2189
+Overfull \hbox (188.02199pt too wide) in paragraph at lines 2198--2200
 \TU/lmr/m/n/10 cutHistory.org, May 2013. []$[][][][] [] [] [] [][][][][][][][][
 ][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1535,43 +1564,43 @@ Overfull \hbox (188.02199pt too wide) in paragraph at lines 2187--2189
  []
 
 [143]
-Underfull \hbox (badness 1466) in paragraph at lines 2217--2219
+Underfull \hbox (badness 1466) in paragraph at lines 2234--2236
 [][]\TU/lmr/m/n/10 Wilson, Tracey. “Taking Stock of High Ledge Homes and Restri
 cted
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 2220--2222
+Underfull \hbox (badness 3601) in paragraph at lines 2237--2239
 \TU/lmr/m/n/10 ster House, 2018. []$[][][][][] [] [] [] [][][][][][][][][][][][
 ][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [
 ]
  []
 
-
-Overfull \hbox (14.16998pt too wide) in paragraph at lines 2235--2237
+[144]
+Overfull \hbox (14.16998pt too wide) in paragraph at lines 2252--2254
 [][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][] []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2239.
-[144]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2239.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2256.
+[145]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2256.
 (./Dougherty-etal-OnTheLine.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2239.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2256.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
-(rerunfilecheck)             Checksum: 0561BFAA6FD17CDA18146E4A59DCA2BC.
+(rerunfilecheck)             Checksum: E13CBC4EB841DA4764043DAAC8E3DA03.
  ) 
 Here is how much of TeX's memory you used:
  22414 strings out of 494894
- 428365 string characters out of 6176153
- 538385 words of memory out of 5000000
+ 428383 string characters out of 6176153
+ 538425 words of memory out of 5000000
  26092 multiletter control sequences out of 15000+600000
  553140 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,8n,41p,3899b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Dougherty-etal-OnTheLine.pdf (144 pages).
+Output written on Dougherty-etal-OnTheLine.pdf (145 pages).

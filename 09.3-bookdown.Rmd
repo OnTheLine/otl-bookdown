@@ -1,7 +1,7 @@
-## Publishing *On the Line* with Bookdown {-}
+## Publishing *On the Line* with Bookdown, GitHub, and Zotero {-}
 *by [Jack Dougherty and Ilya Ilyankou](index.html#authors-and-contributors)*
 
-This open-access book is published using open-source tools, featuring Bookdown with RStudio and GitHub. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. For a technical guide to publishing with Bookdown, see Yihui Xie, *Bookdown: Authoring Books and Technical Documents with R Markdown*, 2018, <https://bookdown.org/yihui/bookdown/>.
+This open-access book is published using open-source tools, featuring Bookdown, GitHub, and Zotero. Publishing with Bookdown allows authors to compose in Markdown (an easy-to-read-and-write computer syntax that works on multiple platforms) and publish in multiple formats (static HTML web edition, PDF edition, ePUB ebook edition, and Microsoft Word documents). Hosting the book in a public GitHub repository, and publishing it with GitHub Pages, easily makes the original text of the book, as well as the published products, available on the public web. Zotero is an open-source bibliography manager that matches the workflow described below to organize citations. For a technical guide to publishing with Bookdown, see Yihui Xie, *Bookdown: Authoring Books and Technical Documents with R Markdown*, 2018, <https://bookdown.org/yihui/bookdown/>.
 
 An alternative book publishing platform to consider is Pressbooks. This open-source modification of WordPress multisite also supports multiple publication formats (HMTL web edition, PDF edition, ePUB ebook edition. Authors can use the <http://Pressbooks.com> paid hosting service. Or, users with advanced WordPress and some system admin skills can download the code from <http://github.com/pressbooks> and run their own self-hosted book publishing site.
 
@@ -124,9 +124,20 @@ To export from Zotero:
 - select format > Better BibLaTeX (*IMPORTANT* I switched to this format to include full dates in newspaper citations, and urls) and leave checkboxes blank (I do not use "keep updated")
 - save output as ontheline.bib (or whatever matches your config settings) and save into book repo
 
-- Clarify that Chicago full-note *appears* to be working exactly as it was designed, but perhaps could be modified for this book:
-  - newspaper notes currently show only month and year; ideal to also show date
-  - second instance currently appears in abbreviated note (Author); ideal to show full note in every instance in the web version
+Chicago full-note *appears* to be working exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (Author, title when appropriate). Ideally, modify the CSL to show full note in *every* instance in the web version.
+
+These Zotero types appear correctly with this Bookdown workflow:
+
+- book
+- book chapter
+- journal
+- newspaper
+- thesis
+- report
+- blog post
+- web page
+- document (use this in place of: law case, presentation, interview, video recording, television broadcast; insert details, such as archival location, in the Publisher field)
+
 
 A text-only footnote.^[This is a footnote, with no reference]
 
