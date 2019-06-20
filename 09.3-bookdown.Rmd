@@ -175,6 +175,16 @@ Set interactive map & chart iframes to width="90%" so that readers can scroll ma
 <iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 *REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
 
+##### Watch the CTDA Video: embedded HMTL5 video code from secure https, no autoplay (not working properly, so muted) {-}
+<video width="640" height="360" controls muted>
+  <source src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" type="video/mp4">
+  Update your web browser to view this video. Requires HTML 5.
+</video>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+<iframe src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" width="640" height="360" autoplay="0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
 TO DO: identify the best Kaltura embed option (see two versions below)
 
 #### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
