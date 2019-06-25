@@ -1,0 +1,150 @@
+
+## *On The Line* Style Guide with Bookdown-flavored Markdown {-}
+
+Use brackets and parentheses for an [embedded link](http://example.com)
+
+Use parentheses only for a non-embedded link (http://example.com)
+
+Similarly, display URL with angle brackets: <http://example.com>
+
+If necessary, use HTML to create <a href="http://example.com/">link that opens in a new page</a>
+
+##### Headers and Cross-reference links {-}
+
+Use one hashtag for a chapter title (first-level header)
+```
+# Chapter title
+```
+Use two hashtags for a section title (second-level header)
+```
+## Section title
+```
+A short chapter title `# Introduction` has a short default reference: `#introduction`, while a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
+
+To simplify long chapter title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
+
+To embed a cross-reference to a chapter title, add a link using brackets and parentheses:
+
+- short reference code: `*by [Jack Dougherty](index.html#authors-and-contributors)*` with demo: *by [Jack Dougherty](index.html#authors-and-contributors)*
+- short ID reference code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
+
+To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
+
+- Contributor code: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
+- Contributor demo: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+- Learn More code: `in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)`
+- Learn More demo: in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)
+
+NOTE that the cross-reference codes above are designed primarily for web books, and may or may not work the same way in ebooks.
+
+Hide numbers from appearing in section headers with curly brackets around hyphen:
+- code: `## Outline of the Book {-}`
+
+However, since I have not yet found a way to insert a short section reference AND hide its number, we must use full section references with hidden numbers.
+
+For an em-dash, use three hyphens---like this---rather than two hyphens.
+
+For a block quote, start each line with a caret **AND** add two spaces to insert a line break:
+
+> I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.    
+> --- Mark Twain  
+> --- notable American author  
+
+
+#### Zotero Settings and Footnotes {-}
+
+This workflow uses open-source Zotero bibliography manager (http://zotero.org) with Better BibTeX extension (https://retorque.re/zotero-better-bibtex/). See [Better BibTeX installation](https://retorque.re/zotero-better-bibtex/installation/). This allows the author to insert footnote codes (example: `@tyackOneBestSystem1974`) and configure bookdown settings (such as Chicago note format) that pull footnotes from a recently downloaded Zotero collection, rather than typing each note directly into the book.
+
+Zotero preferences > Better BibTeX
+
+- add URLs to BibTeX export > in a note field
+- when ref has both DOI and URL, export > both
+
+To export from Zotero:
+
+- select library > right-click to export collection
+- select format > Better BibLaTeX (*IMPORTANT* I switched to this format to include full dates in newspaper citations, and urls) and leave checkboxes blank (I do not use "keep updated")
+- save output as ontheline.bib (or whatever matches your config settings) and save into book repo
+
+Chicago full-note *appears* to be working exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (Author, title when appropriate). Ideally, modify the CSL to show full note in *every* instance in the web version.
+
+These Zotero types appear correctly with this Bookdown workflow:
+
+- book
+- book chapter
+- journal
+- newspaper
+- thesis
+- report
+- blog post
+- web page
+- document (use this in place of: law case, presentation, interview, video recording, television broadcast; insert details, such as archival location, in the Publisher field)
+
+
+A text-only footnote.^[This is a footnote, with no reference]
+
+BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
+
+Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+
+#### Embedding images, iframes, and video {-}
+
+Insert image using Markdown syntax:
+
+![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
+
+#### Subheadings need four hashtags and no-number symbol {-}
+- Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
+
+Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use
+
+Set interactive map & chart iframes to width="90%" so that readers can scroll margin without repositioning digital element
+
+##### Explore the Chart: embedded HTML iframe {-}
+<iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Scroll the Map: embedded HTML iframe {-}
+<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
+*Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). View [map historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/), developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]*
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the YouTube Video: embedded HTML iframe from secure https {-}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the Vimeo Video: embedded HTML iframe from secure https {-}
+<iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Watch the CTDA Video: embedded HMTL5 video code (to avoid autoplay), but crashes PDF {-}
+<video width="640" height="360" controls>
+  <source src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" type="video/mp4">
+  Update your web browser to view this video. Requires HTML 5.
+</video>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+TO DO: Look at bookdown video embed options (knitr) that also work with PDF
+- https://github.com/rstudio/bookdown/issues/72
+- https://github.com/grimbough/msmbstyle/issues/17
+- https://github.com/rstudio/bookdown/issues/664
+
+TO DO: identify the best Kaltura embed option (see two versions below)
+
+#### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+#### Watch the Kaltura Video version2: embedded HTML iframe from secure https {-}
+<iframe src="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/2366381/uiconf_id/42684261/entry_id/1_esexxma4/embed/dynamic" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+##### Explore the Source: embedded PDF {-}
+<iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
+This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a></iframe>
+*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+
+TODO: Compare with other PDF embed strategies:
+
+- See https://pdfobject.com/static.html
+- See https://github.com/mozilla/pdf.js

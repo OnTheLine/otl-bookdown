@@ -1,5 +1,5 @@
 #### About this book {-}
 
-![](images/cc-by-nc-sa-88x31.png) [On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](index.html#authors-and-contributors) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](index.html#copyright-with-open-access) and [how to cite](index.html#how-to-cite) our work.
+![](images/cc-by-nc-sa-88x31.png) [On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](index.html#authors-and-contributors) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](index.html#copyright-with-open-access) and [[how to read and cite](index.html#how-to-read-and-cite) our work.
 
 This book-in-progress was last updated on: `r Sys.Date()`

@@ -35,7 +35,7 @@ output:
             <li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
             <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
             <li><a href="https://bookdown.org" target="_blank">Built with Bookdown + RStudio</a></li>
-      download: [pdf, epub, docx]
+      download: [pdf]
       edit:
         link: https://github.com/ontheline/otl-bookdown/edit/master/%s
         text: "Edit on GitHub"
@@ -49,14 +49,6 @@ output:
     latex_engine: xelatex
     citation_package: none
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
-
-  bookdown::epub_book:
-    dev: svglite
-    stylesheet: css/style.css
-    pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
-
-  bookdown::word_document2:
-    default
 
 ---
 # Preface {-}

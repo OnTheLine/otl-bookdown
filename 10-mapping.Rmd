@@ -1,3 +1,0 @@
-# Mapping *On The Line* {#mapping}
-
-This chapter details our design process for creating the interactive web maps in this book that help broader audiences to visualize spatial and historical change over time. All of our maps are built with open-source code, which we share so that others may build their own version and invent even better ways to tell stories about space and place in past and present.
