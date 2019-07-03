@@ -112,7 +112,7 @@ Instead, follow this R code chunk method, especially to display interactive cont
 (ref:sample-static-image) Caption for sample static image, with Markdown formatting, links, citation.
 
 ```{r sample-static-image, echo=FALSE, fig.cap="(ref:sample-static-image)", fig_height=7}
- knitr::include_graphics("images/1937-HOLC-HartfordMapScan.jpg")
+ knitr::include_graphics("images/1937-holc-hartford-map-scan.jpg")
 ```
 
 ##### Example: Interactive map {-}
@@ -125,31 +125,31 @@ if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-
 ##### Example: Vimeo video clip {-}
 (ref:vimeo-sample-video) Here's a sample Vimeo caption, with option to add Markdown link and footnote.
 
-```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)", auto.pdf=TRUE}
+```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
 ```
 ##### Example: YouTube video clip {-}
 (ref:youtube-sample-video) Here's a sample YouTube caption, with option to add Markdown link and footnote.
 
-```{r youtube-sample-video, echo=FALSE, fig.cap="(ref:youtube-sample-video)", auto.pdf=TRUE}
+```{r youtube-sample-video, echo=FALSE, fig.cap="(ref:youtube-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/NuWg9Jrkrpw?start=64") else knitr::include_graphics("images/2013-cthistory-video-screenshot.png")
 ```
 ##### Example: CTDA video clip {-}
 (ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote.
 
-```{r ctda-sample-video, echo=FALSE, fig.cap="(ref:ctda-sample-video)", auto.pdf=TRUE}
+```{r ctda-sample-video, echo=FALSE, fig.cap="(ref:ctda-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
 ```
 ##### Example: Kaltura video clip {-}
 (ref:kaltura-sample-video) Here's a sample Kaltura video caption, with option to add Markdown link and footnote.
 
-```{r kaltura-sample-video, echo=FALSE, fig.cap="(ref:kaltura-sample-video)", auto.pdf=TRUE}
+```{r kaltura-sample-video, echo=FALSE, fig.cap="(ref:kaltura-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_1jk9ch6s?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_1jk9ch6s") else knitr::include_graphics("images/2006-hartford-profiles-1.png")
 ```
 ##### Example: Scrollable local PDF {-}
 (ref:pdf-sample-local) Here's a sample local scrollable PDF caption, with option to add Markdown link and footnote.
 
-```{r pdf-sample-local, echo=FALSE, fig.cap="(ref:pdf-sample-local)", auto.pdf=TRUE}
+```{r pdf-sample-local, echo=FALSE, fig.cap="(ref:pdf-sample-local)"}
 if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else knitr::include_graphics("images/sample-pdf-screenshot.png")
 ```
 
