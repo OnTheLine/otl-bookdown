@@ -234,6 +234,8 @@
 </div>
 <div id="on-the-line-style-guide-with-bookdown-flavored-markdown" class="section level2 unnumbered">
 <h2><em>On The Line</em> Style Guide with Bookdown-flavored Markdown</h2>
+<p>Comment-out text</p>
+<pre><code>[//]: (TODO - this comment appears in the source, but not the book output)</code></pre>
 <p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a></p>
 <p>Use parentheses only for a non-embedded link (<a href="http://example.com" class="uri">http://example.com</a>)</p>
 <p>Similarly, display URL with angle brackets: <a href="http://example.com" class="uri">http://example.com</a></p>
@@ -301,89 +303,117 @@
 <p>BibText footnote with semi-colons to separate cites:<span class="citation"><a href="#fn182" class="footnote-ref" id="fnref182"><sup>182</sup></a></span></p>
 <p>Markdown caret-footnote, which can accept multiple references with complex punctuation.<a href="#fn183" class="footnote-ref" id="fnref183"><sup>183</sup></a></p>
 </div>
-<div id="embedding-images-iframes-and-video" class="section level4 unnumbered">
-<h4>Embedding images, iframes, and video</h4>
-<p>Insert image using Markdown syntax:</p>
-<div class="figure">
-<img src="images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg" alt="Using markdown: auto-number does not appear in web, but appears in pdf, text with italics, no center-alignment on web, but centered in PDF, with source link, with caret-footnote." />
-<p class="caption">Using markdown: auto-number does not appear in web, but appears in pdf, text <em>with italics</em>, no center-alignment on web, but centered in PDF, with <a href="https://google.com">source link</a>, with caret-footnote.<a href="#fn184" class="footnote-ref" id="fnref184"><sup>184</sup></a></p>
-</div>
-</div>
 <div id="subheadings-need-four-hashtags-and-no-number-symbol" class="section level4 unnumbered">
 <h4>Subheadings need four hashtags and no-number symbol</h4>
+<p>Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.</p>
+</div>
+<div id="figures-static-images-and-interactive-content" class="section level4 unnumbered">
+<h4>Figures: Static Images and Interactive Content</h4>
+<p>In body of the book, avoid inserting images with simple Markdown syntax, because it lacks auto-numbering. (In the preface, use simple Markdown syntax for static images, because Bookdown does not auto-number figures in the index.Rmd file.)</p>
+<p>Instead, follow this R code chunk method, especially to display interactive content on the HTML web edition, with static screenshot images in the PDF edition:</p>
 <ul>
-<li>Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.</li>
+<li>Define a text reference for captions with complex formatting, because this method accepts RMarkdown cites and links. See <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html">Bookdown section 2.2.4</a></li>
+<li>Insert the image using R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, and follow with an if-else statement from Michael Dorman, to display interactive version in HTML and static version in PDF.</li>
+<li>STILL TO DO:
+<ul>
+<li>Find code fix to gain control over HTML iframe height (&gt; 400px) and also width (ideally 90%)</li>
+<li>Find code fix to insert a formatted title or header immediately above the image. Ideally, Use equivalent of 5 hashtags for digital image headers, and imperative verbs to hint interactive use (eg. Explore the Map….)</li>
+<li>Decide whether to insert <code>fig.align=&quot;center&quot;</code></li>
+<li>Decide if <code>auto.PDF=TRUE</code> is necessary</li>
+</ul></li>
 </ul>
-<p>Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use</p>
-<p>Set interactive map &amp; chart iframes to width=“90%” so that readers can scroll margin without repositioning digital element</p>
-<div id="explore-the-chart-embedded-html-iframe" class="section level5 unnumbered">
-<h5>Explore the Chart: embedded HTML iframe</h5>
-<iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px">
-</iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-</div>
-<div id="scroll-the-map-embedded-html-iframe" class="section level5 unnumbered">
-<h5>Scroll the Map: embedded HTML iframe</h5>
-<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px">
-</iframe>
-<p><em>Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: <a href="http://magic.lib.uconn.edu">UConn Libraries MAGIC historical maps</a>, <a href="http://publications.newberry.org/ahcbp/pages/Connecticut.html">Atlas of Historical County Boundaries at Newberry Library</a>, and the <a href="http://www.ct.gov/sots/cwp/view.asp?a=3188&amp;q=392440">Connecticut State Register and Manual</a>. View <a href="https://github.com/ontheline/otl-town-borders/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.<a href="#fn185" class="footnote-ref" id="fnref185"><sup>185</sup></a></em>
-<em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-</div>
-<div id="watch-the-youtube-video-embedded-html-iframe-from-secure-https" class="section level5 unnumbered">
-<h5>Watch the YouTube Video: embedded HTML iframe from secure https</h5>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-</div>
-<div id="watch-the-vimeo-video-embedded-html-iframe-from-secure-https" class="section level5 unnumbered">
-<h5>Watch the Vimeo Video: embedded HTML iframe from secure https</h5>
-<iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-</iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-</div>
-<div id="watch-the-ctda-video-embedded-hmtl5-video-code-to-avoid-autoplay-but-crashes-pdf" class="section level5 unnumbered">
-<h5>Watch the CTDA Video: embedded HMTL5 video code (to avoid autoplay), but crashes PDF</h5>
-<video width="640" height="360" controls>
-<source src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" type="video/mp4">
-<p>Update your web browser to view this video. Requires HTML 5.
-</video>
-<em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-<p>TO DO: Look at bookdown video embed options (knitr) that also work with PDF
-- <a href="https://github.com/rstudio/bookdown/issues/72" class="uri">https://github.com/rstudio/bookdown/issues/72</a>
-- <a href="https://github.com/grimbough/msmbstyle/issues/17" class="uri">https://github.com/grimbough/msmbstyle/issues/17</a>
-- <a href="https://github.com/rstudio/bookdown/issues/664" class="uri">https://github.com/rstudio/bookdown/issues/664</a></p>
-<p>TO DO: identify the best Kaltura embed option (see two versions below)</p>
+<div id="example-static-image-with-no-interactive-version" class="section level5 unnumbered">
+<h5>Example: Static image, with no interactive version</h5>
+
+<div class="figure"><span id="fig:sample-static-image"></span>
+<img src="images/1937-HOLC-HartfordMapScan.jpg" alt="Caption for sample static image, with Markdown formatting, links, citation."  />
+<p class="caption">
+Image 9.1: Caption for sample static image, with Markdown formatting, links, citation.
+</p>
 </div>
 </div>
-<div id="watch-the-kaltura-video-embedded-html-iframe-from-secure-https" class="section level4 unnumbered">
-<h4>Watch the Kaltura Video: embedded HTML iframe from secure https</h4>
-<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1&amp;flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0">
+<div id="example-interactive-map" class="section level5 unnumbered">
+<h5>Example: Interactive map</h5>
+
+<div class="figure"><span id="fig:sample-interactive-map"></span>
+<iframe src="https://ontheline.github.io/otl-town-borders/" width="672" height="400px">
 </iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
+<p class="caption">
+Image 9.2: Scroll down the narrative (or click and use arrow keys) in this <a href="https://ontheline.github.io/otl-town-borders/">interactive map</a> to see how Hartford County, Connecticut was divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: UConn Libraries MAGIC historical maps, Atlas of Historical County Boundaries at Newberry Library, and the Connecticut State Register and Manual. View <a href="https://github.com/ontheline/otl-town-borders/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.<a href="#fn184" class="footnote-ref" id="fnref184"><sup>184</sup></a>
+</p>
 </div>
-<div id="watch-the-kaltura-video-version2-embedded-html-iframe-from-secure-https" class="section level4 unnumbered">
-<h4>Watch the Kaltura Video version2: embedded HTML iframe from secure https</h4>
-<iframe src="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/2366381/uiconf_id/42684261/entry_id/1_esexxma4/embed/dynamic" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0">
+</div>
+<div id="example-vimeo-video-clip" class="section level5 unnumbered">
+<h5>Example: Vimeo video clip</h5>
+
+<div class="figure"><span id="fig:vimeo-sample-vimeo"></span>
+<iframe src="https://player.vimeo.com/video/27299734" width="672" height="400px">
 </iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-<div id="explore-the-source-embedded-pdf" class="section level5 unnumbered">
-<h5>Explore the Source: embedded PDF</h5>
-<iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
-This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a>
+<p class="caption">
+Image 9.3: Here’s a sample Vimeo caption, with option to add Markdown link and footnote.
+</p>
+</div>
+</div>
+<div id="example-youtube-video-clip" class="section level5 unnumbered">
+<h5>Example: YouTube video clip</h5>
+
+<div class="figure"><span id="fig:youtube-sample-video"></span>
+<iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="672" height="400px">
 </iframe>
-<p><em>REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.</em></p>
-<p>TODO: Compare with other PDF embed strategies:</p>
+<p class="caption">
+Image 9.4: Here’s a sample YouTube caption, with option to add Markdown link and footnote.
+</p>
+</div>
+</div>
+<div id="example-ctda-video-clip" class="section level5 unnumbered">
+<h5>Example: CTDA video clip</h5>
+
+<div class="figure"><span id="fig:ctda-sample-video"></span>
+<iframe src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" width="672" height="400px">
+</iframe>
+<p class="caption">
+Image 9.5: Here’s a sample CTDA video caption, with option to add Markdown link and footnote.
+</p>
+</div>
+</div>
+<div id="example-kaltura-video-clip" class="section level5 unnumbered">
+<h5>Example: Kaltura video clip</h5>
+
+<div class="figure"><span id="fig:kaltura-sample-video"></span>
+<iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_1jk9ch6s?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_1jk9ch6s" width="672" height="400px">
+</iframe>
+<p class="caption">
+Image 9.6: Here’s a sample Kaltura video caption, with option to add Markdown link and footnote.
+</p>
+</div>
+</div>
+<div id="example-scrollable-local-pdf" class="section level5 unnumbered">
+<h5>Example: Scrollable local PDF</h5>
+
+<div class="figure"><span id="fig:pdf-sample-local"></span>
+<iframe src="images/sample-3pp.pdf" width="672" height="400px">
+</iframe>
+<p class="caption">
+Image 9.7: Here’s a sample local scrollable PDF caption, with option to add Markdown link and footnote.
+</p>
+</div>
+</div>
+</div>
+<div id="references-for-above" class="section level4 unnumbered">
+<h4>References for above</h4>
 <ul>
-<li>See <a href="https://pdfobject.com/static.html" class="uri">https://pdfobject.com/static.html</a></li>
-<li>See <a href="https://github.com/mozilla/pdf.js" class="uri">https://github.com/mozilla/pdf.js</a></li>
+<li>R Markdown book section on figures <a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
+<li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
+<li>On R code chunks in RMarkdown <a href="https://bookdown.org/yihui/rmarkdown/r-code.html" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html</a></li>
+<li>On R code options in knitr package <a href="https://yihui.name/knitr/options" class="uri">https://yihui.name/knitr/options</a></li>
+<li>Tips and tricks <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
 </ul>
 
-</div>
 </div>
 <div id="about-this-book-8" class="section level4 unnumbered">
 <h4>About this book</h4>
 <p><img src="images/cc-by-nc-sa-88x31.png" /> <a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="index.html#authors-and-contributors">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Interational License</a>. Learn about our <a href="index.html#copyright-with-open-access">open-access policy and code repository</a> and <a href="index.html#how-to-read-and-cite">how to read and cite</a> our work.</p>
-<p>This book-in-progress was last updated on: 2019-06-25</p>
+<p>This book-in-progress was last updated on: 2019-07-03</p>
 
 </div>
 </div>
@@ -394,8 +424,7 @@ This browser does not support PDFs. Please download to view it: <a href="images/
 <li id="fn181"><p>This is a footnote, with no reference<a href="mapping-publishing.html#fnref181" class="footnote-back">↩</a></p></li>
 <li id="fn182"><p>Hirsch, <em>Making the Second Ghetto</em>; Jackson, <em>Crabgrass Frontier</em>; Tyack, <em>The One Best System</em>.<a href="mapping-publishing.html#fnref182" class="footnote-back">↩</a></p></li>
 <li id="fn183"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Dougherty et al., “School Choice in Suburbia.”</span>, pp. 33-35<a href="mapping-publishing.html#fnref183" class="footnote-back">↩</a></p></li>
-<li id="fn184"><p><span class="citation">Dougherty et al.</span><a href="mapping-publishing.html#fnref184" class="footnote-back">↩</a></p></li>
-<li id="fn185"><p><span class="citation">Ilyankou and Dougherty, “Map,” 2017</span><a href="mapping-publishing.html#fnref185" class="footnote-back">↩</a></p></li>
+<li id="fn184"><p><span class="citation">Ilyankou and Dougherty, “Map,” 2017</span><a href="mapping-publishing.html#fnref184" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>

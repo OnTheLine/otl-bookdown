@@ -1,0 +1,1845 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  3 JUL 2019 14:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Dougherty-etal-OnTheLine.tex
+(./Dougherty-etal-OnTheLine.tex
+LaTeX2e <2018-12-01>
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.
+sty (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-05-09 L3 programming layer (loader) 
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-05-09 L3 programming layer (code)
+\c_max_int=\count102
+\l_tmpa_int=\count103
+\l_tmpb_int=\count104
+\g_tmpa_int=\count105
+\g_tmpb_int=\count106
+\g__kernel_prg_map_int=\count107
+\c__ior_term_ior=\count108
+\c_log_iow=\count109
+\l_iow_line_count_int=\count110
+\l__iow_line_target_int=\count111
+\l__iow_one_indent_int=\count112
+\l__iow_indent_int=\count113
+\c_zero_dim=\dimen112
+\c_max_dim=\dimen113
+\l_tmpa_dim=\dimen114
+\l_tmpb_dim=\dimen115
+\g_tmpa_dim=\dimen116
+\g_tmpb_dim=\dimen117
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count114
+\l__intarray_loop_int=\count115
+\c__intarray_sp_dim=\dimen118
+\g__intarray_font_int=\count116
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+\g__fp_array_int=\count126
+\l__fp_array_loop_int=\count127
+\l__sort_length_int=\count128
+\l__sort_min_int=\count129
+\l__sort_top_int=\count130
+\l__sort_max_int=\count131
+\l__sort_true_max_int=\count132
+\l__sort_block_int=\count133
+\l__sort_begin_int=\count134
+\l__sort_end_int=\count135
+\l__sort_A_int=\count136
+\l__sort_B_int=\count137
+\l__sort_C_int=\count138
+\l__tl_analysis_normal_int=\count139
+\l__tl_analysis_index_int=\count140
+\l__tl_analysis_nesting_int=\count141
+\l__tl_analysis_type_int=\count142
+\l__regex_internal_a_int=\count143
+\l__regex_internal_b_int=\count144
+\l__regex_internal_c_int=\count145
+\l__regex_balance_int=\count146
+\l__regex_group_level_int=\count147
+\l__regex_mode_int=\count148
+\c__regex_cs_in_class_mode_int=\count149
+\c__regex_cs_mode_int=\count150
+\l__regex_catcodes_int=\count151
+\l__regex_default_catcodes_int=\count152
+\c__regex_catcode_L_int=\count153
+\c__regex_catcode_O_int=\count154
+\c__regex_catcode_A_int=\count155
+\c__regex_all_catcodes_int=\count156
+\l__regex_show_lines_int=\count157
+\l__regex_min_state_int=\count158
+\l__regex_max_state_int=\count159
+\l__regex_left_state_int=\count160
+\l__regex_right_state_int=\count161
+\l__regex_capturing_group_int=\count162
+\l__regex_min_pos_int=\count163
+\l__regex_max_pos_int=\count164
+\l__regex_curr_pos_int=\count165
+\l__regex_start_pos_int=\count166
+\l__regex_success_pos_int=\count167
+\l__regex_curr_char_int=\count168
+\l__regex_curr_catcode_int=\count169
+\l__regex_last_char_int=\count170
+\l__regex_case_changed_char_int=\count171
+\l__regex_curr_state_int=\count172
+\l__regex_step_int=\count173
+\l__regex_min_active_int=\count174
+\l__regex_max_active_int=\count175
+\l__regex_replacement_csnames_int=\count176
+\l__regex_match_count_int=\count177
+\l__regex_min_submatch_int=\count178
+\l__regex_submatch_int=\count179
+\l__regex_zeroth_submatch_int=\count180
+\g__regex_trace_regex_int=\count181
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+\l__box_top_dim=\dimen119
+\l__box_bottom_dim=\dimen120
+\l__box_left_dim=\dimen121
+\l__box_right_dim=\dimen122
+\l__box_top_new_dim=\dimen123
+\l__box_bottom_new_dim=\dimen124
+\l__box_left_new_dim=\dimen125
+\l__box_right_new_dim=\dimen126
+\l__box_internal_box=\box34
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen127
+\l__coffin_offset_x_dim=\dimen128
+\l__coffin_offset_y_dim=\dimen129
+\l__coffin_x_dim=\dimen130
+\l__coffin_y_dim=\dimen131
+\l__coffin_x_prime_dim=\dimen132
+\l__coffin_y_prime_dim=\dimen133
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\g_tmpa_coffin=\box41
+\g_tmpb_coffin=\box42
+\l__coffin_bounding_shift_dim=\dimen134
+\l__coffin_left_corner_dim=\dimen135
+\l__coffin_right_corner_dim=\dimen136
+\l__coffin_bottom_corner_dim=\dimen137
+\l__coffin_top_corner_dim=\dimen138
+\l__coffin_scaled_total_height_dim=\dimen139
+\l__coffin_scaled_width_dim=\dimen140
+\c__coffin_empty_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen141
+\l__coffin_display_x_dim=\dimen142
+\l__coffin_display_y_dim=\dimen143
+\g__file_internal_ior=\read1
+\l__seq_internal_a_int=\count182
+\l__seq_internal_b_int=\count183
+\c__deprecation_minus_one=\count184
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.de
+f
+File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
+\l__driver_internal_box=\box47
+\g__driver_graphics_int=\count185
+\g__driver_pdf_object_int=\count186
+\g__driver_pdf_annotation_int=\count187
+))
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_v_nesting_int=\count191
+)
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.s
+ty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count192
+\l__fontspec_language_int=\count193
+\l__fontspec_strnum_int=\count194
+\l__fontspec_tmp_int=\count195
+\l__fontspec_tmpa_int=\count196
+\l__fontspec_tmpb_int=\count197
+\l__fontspec_tmpc_int=\count198
+\l__fontspec_em_int=\count199
+\l__fontspec_emdef_int=\count266
+\l__fontspec_strong_int=\count267
+\l__fontspec_strongdef_int=\count268
+\l__fontspec_tmpa_dim=\dimen144
+\l__fontspec_tmpb_dim=\dimen145
+\l__fontspec_tmpc_dim=\dimen146
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/U
+sers/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count269
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count270
+\c@eu@i=\count271
+\c@mkern=\count272
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobsub-hyperre
+f.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobsub-generic
+.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count273
+\Hy@pagecounter=\count274
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count275
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count276
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen148
+\Fld@menulength=\count277
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count278
+\c@Item=\count279
+\c@Hfootnote=\count280
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/stringenc.st
+y
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box48
+\c@Hy@AnnotLevel=\count281
+\HyField@AnnotCount=\count282
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunfilecheck.s
+ty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
+)
+Package hyperref Info: Option `unicode' set `true' on input line 29.
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/se-ascii-print
+.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 29.
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/polyglossia/polyglossia.s
+ty
+Package: polyglossia 2019/04/04 v1.44 Alternative to Babel for XeLaTeX and LuaL
+aTeX
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+\xpg@normalclass=\XeTeXcharclass1
+)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/polyglossia/gloss-english
+.ldf
+File: gloss-english.ldf polyglossia: module for english
+)
+Package polyglossia Info: Default language is english.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count285
+\LTcapwidth=\dimen151
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
+\LT@p@ftn=\toks22
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count290
+\@cmidlb=\count291
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count292
+\@lastruleclass=\count293
+\@thisrulewidth=\dimen164
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip57
+\thanksmargin=\skip58
+\droptitle=\skip59
+) (./Dougherty-etal-OnTheLine.aux)
+\openout1 = `Dougherty-etal-OnTheLine.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+\AtBeginShipoutBox=\box53
+Package hyperref Info: Link coloring OFF on input line 93.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gettitlestring
+.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count294
+)
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
+(./Dougherty-etal-OnTheLine.out) (./Dougherty-etal-OnTheLine.out)
+\@outlinefile=\write3
+\openout3 = `Dougherty-etal-OnTheLine.out'.
+
+[1
+
+
+] [2
+
+] (./Dougherty-etal-OnTheLine.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3])
+\tf@toc=\write4
+\openout4 = `Dougherty-etal-OnTheLine.toc'.
+
+[4]
+File: images/coverOTL300x300.png Graphic file (type bmp)
+<images/coverOTL300x300.png>
+[5
+
+]
+File: images/dougherty-jack-150.png Graphic file (type bmp)
+<images/dougherty-jack-150.png>
+File: images/agosto-jasmin-150.png Graphic file (type bmp)
+<images/agosto-jasmin-150.png>
+File: images/benjamin-richelle-150.png Graphic file (type bmp)
+<images/benjamin-richelle-150.png>
+File: images/ilyankou-ilya-150.png Graphic file (type bmp)
+<images/ilyankou-ilya-150.png>
+File: images/iorio-vianna-150.png Graphic file (type bmp)
+<images/iorio-vianna-150.png>
+File: images/levasseur-katie-150.png Graphic file (type bmp)
+<images/levasseur-katie-150.png>
+File: images/lee-jiyun-150.png Graphic file (type bmp)
+<images/lee-jiyun-150.png>
+File: images/mcgann-shaun-150.png Graphic file (type bmp)
+<images/mcgann-shaun-150.png>
+File: images/simpson-candace-150.png Graphic file (type bmp)
+<images/simpson-candace-150.png>
+File: images/wilson-tracey-150.png Graphic file (type bmp)
+<images/wilson-tracey-150.png>
+File: images/howser-michael.png Graphic file (type bmp)
+<images/howser-michael.png>
+File: images/denton-curtis.png Graphic file (type bmp)
+<images/denton-curtis.png>
+File: images/lynch-cary.png Graphic file (type bmp)
+<images/lynch-cary.png>
+File: images/miller-bill.png Graphic file (type bmp)
+<images/miller-bill.png>
+File: images/bachant-tom.png Graphic file (type bmp)
+<images/bachant-tom.png>
+File: images/bentley-george.png Graphic file (type bmp)
+<images/bentley-george.png>
+File: images/pollak-jonathan.png Graphic file (type bmp)
+<images/pollak-jonathan.png>
+[6]
+File: images/spaulding-benjamin.png Graphic file (type bmp)
+<images/spaulding-benjamin.png>
+File: images/strunk-josh.png Graphic file (type bmp)
+<images/strunk-josh.png>
+File: images/coverDataVizForAll165w.jpg Graphic file (type bmp)
+<images/coverDataVizForAll165w.jpg>
+File: images/coverWebWriting165w.jpg Graphic file (type bmp)
+<images/coverWebWriting165w.jpg>
+File: images/coverWHDA165w.jpg Graphic file (type bmp)
+<images/coverWHDA165w.jpg>
+File: images/coverMTOS165w.jpg Graphic file (type bmp)
+<images/coverMTOS165w.jpg>
+[7] [8] [9] [10] [11] [12] [13] [14]
+File: images/how-to-read.png Graphic file (type bmp)
+<images/how-to-read.png>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
+\TU/lmr/m/n/10 2019), []$[][][][][] [] [] [] [][][][][][][][][] [] [][][][][][]
+[][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 351--352
+\TU/lmr/m/n/10 On The Line is an open-access, born-digital, book-in-progress by
+ Jack
+ []
+
+[16]
+File: images/github-logo-90x37.png Graphic file (type bmp)
+<images/github-logo-90x37.png>
+[17] [18
+
+]
+Chapter 1.
+[19] [20]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 407.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 407.
+[21] [22] [23] [24]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[25] [26
+
+]
+Chapter 2.
+[27]
+Underfull \hbox (badness 1735) in paragraph at lines 464--464
+[][][]\TU/lmr/m/n/8 Steve Courtney, “Commentary: Was Hartford ’the Richest City
+ in the United
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 464--464
+\TU/lmr/m/it/8 ford Courant\TU/lmr/m/n/8 , October 18, 2014, []$[][][][] [] [] 
+[] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][]
+[][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 464--464
+[][][]\TU/lmr/m/n/8 Alexander R. Merriam, \TU/lmr/m/it/8 The Social Significanc
+e of the Smaller City \TU/lmr/m/n/8 (Hartford,
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 464--464
+\TU/lmr/m/n/8 as Alexander R. Merriam, “The Social Conditions of the Smaller Ci
+ty,” \TU/lmr/m/it/8 The Hart-
+ []
+
+[28]
+Underfull \hbox (badness 1087) in paragraph at lines 466--466
+\TU/lmr/m/n/8 ford, “Address of Edward Everett Hale,” in \TU/lmr/m/it/8 Commemo
+rative Exercises of the First
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 466--466
+[][][][][][][][][] [] [][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 ; Otis S
+kinner, “Save Twain Home, Urges Otis Skinner:
+ []
+
+[29] [30] [31] [32] [33]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[34]
+Chapter 3.
+[35
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 542--544
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[][][]\TU/lmr/m/n/8 TODO: Check sources; history of amortization in Snowden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+\TU/lmr/m/n/8 and Rose paper, []$[][][][] [] [] [] [][][][][][][][][][][][][][]
+[][][][] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/8 ; compare with typical HUD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+\TU/lmr/m/n/8 history []$[][][][] [] [] [] [][][][][][][][][][] [] [][][][][][]
+ [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
+][]$[] and []$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[] [] [][][][][][][] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][
+][][][][] [] [][] [] [][][][][][] [] [][][][]$[] \TU/lmr/m/n/8 and []$[][][][] 
+[] [] [] [][][][][][][][] [] [][][][][][][] []
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--564
+
+ []
+
+[37]
+File: images/1937-HOLC-HartfordMapScan.jpg Graphic file (type bmp)
+<images/1937-HOLC-HartfordMapScan.jpg>
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+[38] [39] [40]
+File: images/1937-HOLCInhabitantsC10.png Graphic file (type bmp)
+<images/1937-HOLCInhabitantsC10.png>
+[41]
+File: images/1936-FHA-Manual-247.png Graphic file (type bmp)
+<images/1936-FHA-Manual-247.png>
+[42]
+File: images/1938-FHA-Manual-Race1849.png Graphic file (type bmp)
+<images/1938-FHA-Manual-Race1849.png>
+[43]
+Overfull \hbox (25.27007pt too wide) in alignment at lines 641--645
+ [] [] [] 
+ []
+
+
+Overfull \hbox (25.27007pt too wide) in alignment at lines 645--666
+ [] [] [] 
+ []
+
+
+Overfull \hbox (25.27007pt too wide) in alignment at lines 666--668
+ [] [] [] 
+ []
+
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
+[][][]\TU/lmr/m/n/8 Shaun McGann, “The Effects of ‘Redlining’ on the Hartford M
+etropoli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--680
+\TU/lmr/m/n/8 tan Region,” ConnecticutHistory.org, March 2014, []$[][][][] [] [
+] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[46] [47] [48]
+File: images/1940-03-31HC-HighLedgeHomesAd.jpg Graphic file (type bmp)
+<images/1940-03-31HC-HighLedgeHomesAd.jpg>
+
+LaTeX Warning: Float too large for page by 23.00427pt on input line 719.
+
+[49] [50]
+Underfull \hbox (badness 3849) in paragraph at lines 726--726
+[][][]\TU/lmr/m/n/8 “Bernstein Seeks End of Restrictive Clauses,” \TU/lmr/m/it/
+8 The Hartford Courant\TU/lmr/m/n/8 , March
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 726--726
+\TU/lmr/m/n/8 2, 1947, []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][
+][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] 
+[][][][][][][][][] [] [][][][][][][][][] []
+ []
+
+[51] [52] [53] [54]
+File: images/1954-02-17HT-OakwoodAcresWH.jpg Graphic file (type bmp)
+<images/1954-02-17HT-OakwoodAcresWH.jpg>
+[55] [56]
+Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+File: images/1943-12-16MetroNewsOakwoodHeadline.jpg Graphic file (type bmp)
+<images/1943-12-16MetroNewsOakwoodHeadline.jpg>
+
+Overfull \hbox (2.79916pt too wide) in paragraph at lines 775--776
+[]\TU/lmr/m/n/10 ￼[] 
+ []
+
+Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+File: images/1951-2013-Aerial-Oakwood-WH.jpg Graphic file (type bmp)
+<images/1951-2013-Aerial-Oakwood-WH.jpg>
+
+Overfull \hbox (2.79741pt too wide) in paragraph at lines 779--780
+[]\TU/lmr/m/n/10 ￼[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[57] [58]
+Underfull \hbox (badness 1019) in paragraph at lines 787--787
+[][][]\TU/lmr/m/n/8 Tracey M. Wilson, “Resistance to Public Housing and Integra
+tion During World
+ []
+
+[59] [60]
+File: images/1924-Whitten-page10-underlined.png Graphic file (type bmp)
+<images/1924-Whitten-page10-underlined.png>
+File: images/1924-west-hartford-zoning-map-excerpt.png Graphic file (type bmp)
+<images/1924-west-hartford-zoning-map-excerpt.png>
+[61] [62]
+Overfull \hbox (32.95999pt too wide) in paragraph at lines 856--857
+[][][][][][][][][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[63] [64]
+Chapter 4.
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[65
+
+] [66]
+Chapter 5.
+[67
+
+]
+Underfull \hbox (badness 1675) in paragraph at lines 903--903
+\TU/lmr/m/n/8 vision broadcast video, August 31, 1985), []$[][][][] [] [] [] []
+[][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 905--905
+[][][]\TU/lmr/m/n/8 Dave Drury, “Bloomfield Cracking down on Non-Residents in S
+chools,” \TU/lmr/m/it/8 Hart-
+ []
+
+File: images/quick-B-H-WH-map.png Graphic file (type bmp)
+<images/quick-B-H-WH-map.png>
+[68] [69] [70]
+Underfull \hbox (badness 10000) in paragraph at lines 927--927
+\TU/lmr/m/n/8 July 18, 1976, []$[][][][][] [] [] [] [][][][][][][][][][][][][][
+][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][]
+[] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--927
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [
+][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 929--929
+\TU/lmr/m/n/8 Town Clerk, 1888–89AD), []$[][][][][] [] [] [] [][][][][][][][][]
+[][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][
+][][][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 929--929
+[][][][][][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][
+][][][][][][][][]$[]\TU/lmr/m/n/8 , p. 20, Connecticut State
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 929--929
+\TU/lmr/m/n/8 Library; “Kicks on Schools in Wethersfield: Dissatisfaction Expre
+ssed at Parents’
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 929--929
+\TU/lmr/m/n/8 Meeting: City Gets Sons of Board Members,” \TU/lmr/m/it/8 Hartfor
+d Courant\TU/lmr/m/n/8 , April 11, 1917,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [
+][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 ;
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 929--929
+\TU/lmr/m/n/8 “Schools Jump Tuition Fees for Out-of-Town Residents,” \TU/lmr/m/
+it/8 Hartford Courant\TU/lmr/m/n/8 , Jan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+\TU/lmr/m/n/8 uary 4, 1952, []$[][][][][] [] [] [] [][][][][][][][][][][][][][]
+[][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][
+] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+[][][][][][][][][][][][][][][][][][] [] [] [] [][][][][][][][][] [] [][][][][]$
+[]\TU/lmr/m/n/8 ; “Couple Ask Tuition-Free Schooling
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 929--929
+\TU/lmr/m/n/8 for Girl but Residency Is Disputed,” \TU/lmr/m/it/8 Hartford Cour
+ant\TU/lmr/m/n/8 , February 6, 1959, []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
+[][][][][][][][][] []
+ []
+
+[71]
+Underfull \hbox (badness 5050) in paragraph at lines 931--931
+[][][]\TU/lmr/m/n/8 Wayne Porter, “Non-Resident Students Long a Problem,” \TU/l
+mr/m/it/8 Hartford Courant:
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 931--931
+\TU/lmr/m/it/8 B\TU/lmr/m/n/8 , May 21, 1985, []$[][][][][] [] [] [] [][][][][]
+[][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][
+] [] [][][][][][][] [] [][][][][][][][][] []
+ []
+
+[72]
+File: images/1967-1984-Bloomfield-by-race.png Graphic file (type bmp)
+<images/1967-1984-Bloomfield-by-race.png>
+[73]
+Underfull \hbox (badness 1990) in paragraph at lines 949--949
+\TU/lmr/m/it/8 B\TU/lmr/m/n/8 , April 7, 1985, []$[][][][][] [] [] [] [][][][][
+][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][]
+[] [] [][][][][][][] [] [][][][][][][][][] []
+ []
+
+[74]
+Underfull \hbox (badness 1142) in paragraph at lines 955--955
+\TU/lmr/m/n/8 5, 1985, []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][
+][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] 
+[][][][][][][][][] [] [][][][][][][][][] []
+ []
+
+File: images/1985-04-05-HC-Englehart.png Graphic file (type bmp)
+<images/1985-04-05-HC-Englehart.png>
+[75] [76]
+Underfull \hbox (badness 2368) in paragraph at lines 978--978
+[][][]\TU/lmr/m/n/8 Dave Drury, “Bloomfield Alters Its Policy for School Reside
+nce Cases,” \TU/lmr/m/it/8 Hart-
+ []
+
+[77] [78]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[79] [80
+
+]
+Chapter 6.
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[81] [82]
+Chapter 7.
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[83
+
+] [84
+
+]
+Chapter 8.
+[85] [86]
+Underfull \hbox (badness 1142) in paragraph at lines 1049--1049
+[][][]\TU/lmr/m/n/8 “Average Family Income in the Past 12 Months in 2009 Inflat
+ion-Adjusted Dol-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1049--1049
+\TU/lmr/m/n/8 lars, Table SE:T:59” (American Community Survey 1-year estimates 
+via Social Ex-
+ []
+
+[87] [88]
+Underfull \vbox (badness 7869) has occurred while \output is active []
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1089
+[][][]\TU/lmr/m/n/8 “Trinity College Students Call Attention to Histories of In
+equal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1089
+\TU/lmr/m/n/8 ity,” ConnecticutHistory.org, May 2013, []$[][][][] [] [] [] [][]
+[][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[90] [91] [92]
+File: images/1960-05-01-HC-branding-homes.png Graphic file (type bmp)
+<images/1960-05-01-HC-branding-homes.png>
+File: images/2003-shaw-spencer.jpg Graphic file (type bmp)
+<images/2003-shaw-spencer.jpg>
+[93] [94]
+File: images/2005-wright-adelle.jpg Graphic file (type bmp)
+<images/2005-wright-adelle.jpg>
+[95] [96]
+File: images/1974c-education_instruccion_dixon-papers.jpg Graphic file (type bm
+p)
+<images/1974c-education_instruccion_dixon-papers.jpg>
+[97] [98]
+File: images/2009-aje-visual.png Graphic file (type bmp)
+<images/2009-aje-visual.png>
+[99] [100]
+Underfull \vbox (badness 5771) has occurred while \output is active []
+
+[101] [102] [103]
+File: images/2013-smartchoices-screenshot.png Graphic file (type bmp)
+<images/2013-smartchoices-screenshot.png>
+File: images/2009-smartchoices-workshop-adaavila-courtneycoyne.png Graphic file
+ (type bmp)
+<images/2009-smartchoices-workshop-adaavila-courtneycoyne.png>
+[104] [105] [106] [107]
+Underfull \hbox (badness 3861) in paragraph at lines 1211--1211
+[][][]\TU/lmr/m/n/8 Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, “Writi
+ng Greater Hart-
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 1211--1211
+\TU/lmr/m/n/8 ford’s Civil Rights Past with ConnecticutHistory.Org,” \TU/lmr/m/
+it/8 Connecticut History Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1211
+\TU/lmr/m/it/8 view \TU/lmr/m/n/8 53, no. 2 (2014): 220–26, []$[][][][] [] [] [
+] [][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][
+][] []
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 1215--1215
+[][][]\TU/lmr/m/n/8 Clarissa Ceglio, “ConnecticutHistory.Org Opens a New Gatewa
+y to Our State’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
+\TU/lmr/m/n/8 Past,” ConnecticutHistory.org, May 22, 2012, []$[][][][][] [] [] 
+[] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[108] [109] [110]
+Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+File: images/2013-ceglio-teaches-meehan-mcgann.jpg Graphic file (type bmp)
+<images/2013-ceglio-teaches-meehan-mcgann.jpg>
+
+Overfull \hbox (2.79793pt too wide) in paragraph at lines 1225--1226
+[]\TU/lmr/m/n/10 ￼[] 
+ []
+
+[111]
+Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+File: images/2013-seminar-googledoc-domments.jpg Graphic file (type bmp)
+<images/2013-seminar-googledoc-domments.jpg>
+
+Overfull \hbox (2.7994pt too wide) in paragraph at lines 1244--1245
+[]\TU/lmr/m/n/10 ￼[] 
+ []
+
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1248
+[][][]\TU/lmr/m/n/8 Elaina Rollins, “Five Minutes That Changed Connecticut: Si-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1248
+\TU/lmr/m/n/8 mon Bernstein and the 1965 Connecticut Education Amendment,”
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1248
+\TU/lmr/m/n/8 ConnecticutHistory.org, January 2014, []$[][][][] [] [] [] [][][]
+[][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+
+Overfull \hbox (52.44812pt too wide) in paragraph at lines 1248--1248
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/
+8 ;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1248
+\TU/lmr/m/n/8 Brigit Rioual, “Sheff V. O’Neill Settlements Target Educational S
+egregation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1248
+\TU/lmr/m/n/8 in Hartford,” ConnecticutHistory.org, April 2013, []$[][][][] [] 
+[] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[113]
+Underfull \hbox (badness 2050) in paragraph at lines 1250--1251
+\TU/lmr/m/n/10 tory.org experience memorable transitions when they become publi
+shed
+ []
+
+[114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[115]
+Underfull \hbox (badness 1436) in paragraph at lines 1272--1272
+[][][]\TU/lmr/m/n/8 Amanda Gurren, “Connecticut Takes the Wheel on Education Re
+form: Project
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1272--1272
+\TU/lmr/m/n/8 Concern,” ConnecticutHistory.org, April 2013, []$[][][][] [] [] [
+] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 1284--1284
+[][][]\TU/lmr/m/n/8 Victoria Smith-Ellison, “Hartford’s Great Migration Through
+ Charles S. John-
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 1284--1284
+\TU/lmr/m/n/8 son’s Eyes,” ConnecticutHistory.org, February 2013, []$[][][][] [
+] [] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1286
+[][][]\TU/lmr/m/n/8 Savahna Reuben, “Education/Instrucción Combats Housing Disc
+rimina-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1286
+\TU/lmr/m/n/8 tion,” ConnecticutHistory.org, December 2014, []$[][][][] [] [] [
+] [][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[117] [118] [119] [120]
+File: images/2012-cc-licenses.jpg Graphic file (type bmp)
+<images/2012-cc-licenses.jpg>
+[121] [122] [123] [124] [125] [126] [127]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[128]
+Chapter 9.
+[129
+
+]
+Underfull \hbox (badness 3977) in paragraph at lines 1456--1458
+[]\TU/lmr/m/n/10 Install R Project statistical programming language []$[][][][]
+[] [] [] [] [][][] []
+ []
+
+
+Overfull \hbox (34.52002pt too wide) in paragraph at lines 1484--1486
+[]\TU/lmr/m/n/10 Carefully type (without “sudo”) \TU/lmtt/m/n/10 ~/Library/Tiny
+TeX/bin/x86_64-darwin/tlmgr
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 1488--1489
+[]\TU/lmr/m/n/10 In the RStudio console, type \TU/lmtt/m/n/10 tinytex::install_
+tinytex(force =
+ []
+
+[130]
+Underfull \hbox (badness 1748) in paragraph at lines 1516--1518
+[]\TU/lmr/m/n/10 In your web browser, log into your GitHub account, go to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1518
+\TU/lmr/m/n/10 software developer’s bookdown-minimal repo []$[][][][][] [] [] [
+] [][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 1516--1518
+[][][][][] [] [][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 , and fork a 
+copy to your GitHub ac-
+ []
+
+[131]
+Overfull \hbox (10.55501pt too wide) in paragraph at lines 1552--1553
+\TU/lmr/m/n/10 to: \TU/lmtt/m/n/10 https://USERNAME.github.io/bookdown-minimal/
+_book/index.html 
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 1570--1572
+[]\TU/lmr/m/n/10 In addition, this GitHub Pages repo is published with a cus-
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 1570--1572
+\TU/lmr/m/n/10 tom domain name []$[][][][][] [] [] [] [][][][][][][][][] [] [][
+][][][][][][] [] [][][]$[]. Learn more
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 1570--1572
+\TU/lmr/m/n/10 about custom domain names at []$[][][][][] [] [] [] [][][][] [] 
+[][][][][][] [] [][][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1572
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][]$[]\TU/lmr/m/n/10 , which usually requires
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 1570--1572
+\TU/lmr/m/n/10 purchasing a domain name from a web hosting service (such as
+ []
+
+[132]
+Underfull \hbox (badness 3250) in paragraph at lines 1580--1581
+\TU/lmr/m/n/10 more about various options at []$[][][][][] [] [] [] [][][][][][
+][][] [] [][][] [] [][][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1580--1581
+[][][][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/10 . Currently using xelat
+ex engine (see bookdown.yml
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1583--1583
+[][]\TU/lmr/bx/it/14.4 On The Line \TU/lmr/bx/n/14.4 Style Guide with Bookdown-
+
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 1590--1590
+[]\TU/lmtt/m/n/10 [//]: (TODO - this comment appears in the source, but not the
+ book output)[] 
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 1616--1617
+[]\TU/lmr/m/n/10 A short chapter title \TU/lmtt/m/n/10 # Introduction \TU/lmr/m
+/n/10 has a short default reference:
+ []
+
+
+Overfull \hbox (76.29501pt too wide) in paragraph at lines 1625--1627
+[]\TU/lmr/m/n/10 short reference code: \TU/lmtt/m/n/10 *by [Jack Dougherty](ind
+ex.html#authors-and-contributors)*
+ []
+
+[133]
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1637
+[]\TU/lmr/m/n/10 Contributor code: \TU/lmtt/m/n/10 Shaun McGann (Trinity 2014) 
+co-authored
+ []
+
+
+Overfull \hbox (89.5pt too wide) in paragraph at lines 1635--1637
+\TU/lmtt/m/n/10 [Federal Lending and Redlining](separating.html#federal-lending
+-and-redlining) 
+ []
+
+[134] [135]
+Underfull \hbox (badness 1337) in paragraph at lines 1740--1742
+[]\TU/lmr/m/n/10 Insert the image using R code chunk []$[][][][][] [] [] [] [][
+][][][][][][] [] [][][] [] [][][][][] []
+ []
+
+File: images/1937-HOLC-HartfordMapScan.jpg Graphic file (type bmp)
+<images/1937-HOLC-HartfordMapScan.jpg>
+File: images/1600s-otl-town-borders.jpg Graphic file (type bmp)
+<images/1600s-otl-town-borders.jpg>
+File: images/2011-walsh-debra.jpg Graphic file (type bmp)
+<images/2011-walsh-debra.jpg>
+[136] [137] [138]
+File: images/2013-cthistory-video-screenshot.png Graphic file (type bmp)
+<images/2013-cthistory-video-screenshot.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1791--1793
+[][]
+ []
+
+File: images/2014-lumpkin-mae-willie-screenshot.png Graphic file (type bmp)
+<images/2014-lumpkin-mae-willie-screenshot.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1795--1797
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[139]
+File: images/2006-hartford-profiles-1.png Graphic file (type bmp)
+<images/2006-hartford-profiles-1.png>
+File: images/sample-pdf-screenshot.png Graphic file (type bmp)
+<images/sample-pdf-screenshot.png>
+
+Underfull \hbox (badness 2042) in paragraph at lines 1816--1818
+[]\TU/lmr/m/n/10 R Markdown book section on figures []$[][][][][] [] [] [] [][]
+[][][][][][] [] [][][] [] [][][][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[140]
+Underfull \hbox (badness 6047) in paragraph at lines 1820--1822
+[]\TU/lmr/m/n/10 On R code chunks in RMarkdown []$[][][][][] [] [] [] [][][][][
+][][][] [] [][][] [] [][][][][] []
+ []
+
+
+Overfull \hbox (265.62999pt too wide) in paragraph at lines 1824--1825
+[]\TU/lmr/m/n/10 Tips and tricks []$[][][][] [] [] [] [][][][][][][] [] [][][] 
+[] [][][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (89.97998pt too wide) in paragraph at lines 1824--1825
+[][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][]$[] 
+ []
+
+File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
+<images/cc-by-nc-sa-88x31.png>
+[141] [142
+
+]
+Chapter 10.
+
+Underfull \hbox (badness 1337) in paragraph at lines 1856--1858
+[][]\TU/lmr/m/n/10 “An Art Museum.” \TU/lmr/m/it/10 Hartford Daily Courant\TU/l
+mr/m/n/10 , April 29, 1871. []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1856--1858
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 1865--1867
+[][]\TU/lmr/m/n/10 “A Suggestive Contrast.” \TU/lmr/m/it/10 Hartford Daily Cour
+ant\TU/lmr/m/n/10 , October 15, 1878.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1865--1867
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
+ []
+
+[143]
+Underfull \hbox (badness 3780) in paragraph at lines 1868--1870
+[][]\TU/lmr/m/n/10 Bailey, Chauncey. “Non-Resident Students Again Attending Blo
+om-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 1868--1870
+\TU/lmr/m/n/10 field Schools.” \TU/lmr/m/it/10 Hartford Courant: City/Town\TU/l
+mr/m/n/10 , September 16, 1976.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1868--1870
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 1889--1891
+[][]\TU/lmr/m/n/10 Bixby, Lyn, Vada Crosby, Brant Houston, Jeffrey Williams, an
+d Larry
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 1889--1891
+\TU/lmr/m/n/10 Buyers: Two Connecticuts Series.” \TU/lmr/m/it/10 Hartford Coura
+nt\TU/lmr/m/n/10 , May 21, 1989.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1889--1891
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] []
+
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 1895--1897
+\TU/lmr/m/n/10 Town Clerk, 1888–89AD. []$[][][][][] [] [] [] [][][][][][][][][]
+[][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] []
+ []
+
+[144]
+Underfull \hbox (badness 2318) in paragraph at lines 1904--1906
+[][]\TU/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. “How We Found Restricti
+ve
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 1928--1930
+[][]\TU/lmr/m/n/10 Clark, Charles H. “The Charter Oak City.” \TU/lmr/m/it/10 Sc
+ribner’s Monthly \TU/lmr/m/n/10 13,
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 1940--1942
+[][]\TU/lmr/m/n/10 Condon, Tom. “‘Troubled City’ a Victim of Geography.” \TU/lm
+r/m/it/10 Hartford
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 1940--1942
+\TU/lmr/m/it/10 Courant\TU/lmr/m/n/10 . September 12, 2002. []$[][][][] [] [] [
+] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
+ []
+
+[145]
+Overfull \hbox (18.06999pt too wide) in paragraph at lines 1958--1960
+[][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (93.59201pt too wide) in paragraph at lines 1964--1966
+\TU/lmr/m/n/10 tory.org, January 2013. []$[][][][] [] [] [] [][][][][][][][][][
+][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1976--1978
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][] [] [][][][][][][] []
+ []
+
+[146]
+Underfull \hbox (badness 10000) in paragraph at lines 1988--1990
+[] [] [][][][][][][] [] [][][][][][][][][][][][] [] [] [] [][][][][][][][][][] 
+[] [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][]
+[] []
+ []
+
+[147]
+Underfull \hbox (badness 1365) in paragraph at lines 2021--2023
+\TU/lmr/m/n/10 Parental Decisions, and the Digital Divide: The SmartChoices Pro
+ject
+ []
+
+[148]
+Underfull \hbox (badness 1635) in paragraph at lines 2057--2059
+[][]\TU/lmr/m/n/10 Elsen, Jon. “Bloomfield Officials Laud School Officer’s Work
+.” \TU/lmr/m/it/10 The
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 2057--2059
+\TU/lmr/m/it/10 Hartford Courant (1923-1991): SECTION B\TU/lmr/m/n/10 . April 1
+2, 1986. []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2059
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2078--2080
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
+[][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
+ []
+
+[149]
+Underfull \hbox (badness 2326) in paragraph at lines 2111--2113
+[][]\TU/lmr/m/n/10 Hathaway, William. “After the Price, the Next Question Is: H
+ow
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 2111--2113
+\TU/lmr/m/n/10 Are the Schools?” \TU/lmr/m/it/10 Hartford Courant\TU/lmr/m/n/10
+ , September 26, 1993. []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2113
+[] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
+][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][]
+[][] []
+ []
+
+[150] [151]
+Underfull \hbox (badness 1062) in paragraph at lines 2177--2179
+\TU/lmr/m/n/10 project, Trinity College, 2002. []$[][][][] [] [] [] [][][][][][
+][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][] []
+ []
+
+
+Overfull \hbox (117.45998pt too wide) in paragraph at lines 2192--2194
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\T
+U/lmr/m/n/10 . 
+ []
+
+[152]
+Underfull \hbox (badness 1173) in paragraph at lines 2228--2230
+\TU/lmr/m/it/10 ford Courant\TU/lmr/m/n/10 , October 18, 2014. []$[][][][] [] [
+] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 2231--2233
+\TU/lmr/m/n/10 October 18, 2014. []$[][][][] [] [] [] [][][] [] [][][][][][][] 
+[] [][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][] []
+ []
+
+[153]
+Overfull \hbox (88.83998pt too wide) in paragraph at lines 2255--2257
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (3.61197pt too wide) in paragraph at lines 2264--2266
+\TU/lmr/m/it/10 Age\TU/lmr/m/n/10 , 2012. []$[][][][] [] [] [] [][][][] [] [][]
+[][][][] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]$[]. 
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 2273--2275
+\TU/lmr/m/n/10 ConnecticutHistory.org, December 2014. []$[][][][] [] [] [] [][]
+[][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
+[154]
+Overfull \hbox (319.75pt too wide) in paragraph at lines 2285--2287
+\TU/lmr/m/n/10 January 2014. []$[][][][] [] [] [] [][][][][][][][][][][][][][][
+][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][]$[]. 
+ []
+
+
+Overfull \hbox (111.62999pt too wide) in paragraph at lines 2297--2299
+[][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/
+10 . 
+ []
+
+[155]
+Underfull \hbox (badness 1028) in paragraph at lines 2342--2344
+[][]\TU/lmr/m/n/10 “The Richest City.” \TU/lmr/m/it/10 The Hartford Courant (18
+87-1922)\TU/lmr/m/n/10 . October 23,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 2345--2347
+\TU/lmr/m/n/10 17, 1954. []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][
+] [] [][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][][][][] [] 
+[][] []
+ []
+
+
+Overfull \hbox (188.02199pt too wide) in paragraph at lines 2348--2350
+\TU/lmr/m/n/10 cutHistory.org, May 2013. []$[][][][] [] [] [] [][][][][][][][][
+][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][]$[]. 
+ []
+
+[156]
+Underfull \hbox (badness 1466) in paragraph at lines 2384--2386
+[][]\TU/lmr/m/n/10 Wilson, Tracey. “Taking Stock of High Ledge Homes and Restri
+cted
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 2387--2389
+\TU/lmr/m/n/10 ster House, 2018. []$[][][][][] [] [] [] [][][][][][][][][][][][
+][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [
+]
+ []
+
+[157]
+Overfull \hbox (14.16998pt too wide) in paragraph at lines 2402--2404
+[][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][] []
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2406.
+[158]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2406.
+(./Dougherty-etal-OnTheLine.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2406.
+
+Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
+d.
+(rerunfilecheck)             Checksum: 1290298EBC7D23D6A8BDDD13F97C0AB6.
+ ) 
+Here is how much of TeX's memory you used:
+ 22444 strings out of 494894
+ 429500 string characters out of 6176153
+ 539420 words of memory out of 5000000
+ 26115 multiletter control sequences out of 15000+600000
+ 553140 words of font info for 72 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 46i,9n,41p,3899b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Dougherty-etal-OnTheLine.pdf (158 pages).

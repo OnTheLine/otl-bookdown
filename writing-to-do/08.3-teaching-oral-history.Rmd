@@ -53,3 +53,43 @@ Overall, start small -- teaching with oral history will become much easier the s
 
 
 *Inspired by a conversation with Pamela Grundy, Jake Hardesty, and Kevin Zayed at the History of Education Society meeting in November 2018.*
+
+OLD NOTES to review
+
+Good to hear from you (and also that you survived your first year at Trinity and are full of energy with plans for the next one!)
+
+Sounds like you already have a clear sense of what you wish to accomplish with oral history interviewing with adult immigrants for the community-learning component of this thoughtful course essay. Making meaningful connections between real-world community experience and theoretically-driven course content is usually the hardest challenge for students (and faculty), so you're more than halfway there.
+
+Some random thoughts and resources:
+
+1) Ethical interviewing practices
+Whether or not "individualized" oral history interviews are subject to IRB review has been debated for the past decade. Sidenote: The Oral History Association has made the case that individualized interviews are not "research," which social science & federal authorities often define as something like "universal knowledge about human behavior." Go figure. So you need to decide whether or not you wish your students to do IRB review and training for this. If you go that route, then see examples on this page:
+http://commons.trincoll.edu/jackdougherty/2012/09/27/irb/
+But even if you choose not to do IRB review for the class project, oral historians still contend that there are ethical obligations for participants to voluntarily consent and know what will become of their interview recordings and transcripts, particularly with vulnerable populations. You may find this essay (and link to sample consent forms) helpful:
+http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/
+
+2) Interview prep
+By far the best strategy I've found for working with students to prepare for CLI interviewing is to:
+- have them prepare a uniform interview guide (focusing on a select number of essential questions, rather than a long list of questions)
+- invite a guest who has a foot in both worlds (Trinity and the Hartford community we're studying) to do a "practice interview" in class
+- immediately after the practice interview, ask the guest to tell the class what worked and what needs improvement with their interview process
+- ask the class to reflect on lessons learned and revise the interview guide
+I used to search for the "best" readings in oral history, and finally decided that my students learned so much more via this experiential approach, if I have a guest who is willing to participate and understands why it's important. Homayra Ziad in Religion has had similar positive experiences with this approach.
+
+3) Digital recording logistics -- this is much easier than it used to be
+http://commons.trincoll.edu/jackdougherty/2013/04/09/digital-recorder/
+
+4) Transcribing digital sound recordings
+Haven't written a post on this yet, but I tell my students to download a free trial version of InqScribe, and to paste output directly into their favorite word processor. But there are other free tools.
+
+5) Analyzing interviews for class writing assignments
+You already have a perfectly fine 1-to-1 model to pair each Trinity student with an adult immigrant, and to write about whether theories in class correspond with the immigrant's experience. But since you're so far ahead of the game (it's only June 6th), I would encourage you to consider an alternative 1-to-2 model that may help students to write richer papers, perhaps like this:
+
+- each Trinity student conducts 1 interview and uploads his/her transcript to a shared digital space (Moodle, Dropbox, whatever)
+- for the essay, require each student to select any 2 interviews and compare/contrast how theoretical concepts apply (or not) each each case.
+
+If you go this route, then you also need to make sure that students are "scrubbing" their interview transcripts to remove any personally identifying information before uploading to the digital shared space. Also, comparing two interviews is more like "research" that's subject to IRB review than the 1-to-1 individualized approach.
+
+hope that helps -- if you want to discuss any of the above, I'm happy to sit down with you during late afternoons (3-4pm), just suggest possible dates
+
+Jack

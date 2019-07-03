@@ -1,6 +1,11 @@
 
 ## *On The Line* Style Guide with Bookdown-flavored Markdown {-}
 
+Comment-out text
+```
+[//]: (TODO - this comment appears in the source, but not the book output)
+```
+
 Use brackets and parentheses for an [embedded link](http://example.com)
 
 Use parentheses only for a non-embedded link (http://example.com)
@@ -87,64 +92,71 @@ BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1
 
 Markdown caret-footnote, which can accept multiple references with complex punctuation.^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 
-#### Embedding images, iframes, and video {-}
-
-Insert image using Markdown syntax:
-
-![Using markdown: auto-number does not appear in web, but appears in pdf, text *with italics*, no center-alignment on web, but centered in PDF, with [source link](https://google.com), with caret-footnote.^[@doughertySchoolChoiceSuburbia2009]](images/1890-MabelFlorenceWhite-ZoomIn-HPHS-SeniorClass.jpg)
-
 #### Subheadings need four hashtags and no-number symbol {-}
-- Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
+Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in web output. Use the no-number symbol to prevent automatic number of subheaders.
 
-Use 5 hashtags for digital image headers, and imperative verbs to hint interactive use
+#### Figures: Static Images and Interactive Content {-}
+In body of the book, avoid inserting images with simple Markdown syntax, because it lacks auto-numbering. (In the preface, use simple Markdown syntax for static images, because Bookdown does not auto-number figures in the index.Rmd file.)
 
-Set interactive map & chart iframes to width="90%" so that readers can scroll margin without repositioning digital element
+Instead, follow this R code chunk method, especially to display interactive content on the HTML web edition, with static screenshot images in the PDF edition:
 
-##### Explore the Chart: embedded HTML iframe {-}
-<iframe src="https://datavizforall.github.io/highcharts-scatter-csv-instructor-sample/" width="90%" height="420px"></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+- Define a text reference for captions with complex formatting, because this method accepts RMarkdown cites and links. See [Bookdown section 2.2.4](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html)
+- Insert the image using R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, and follow with an if-else statement from Michael Dorman, to display interactive version in HTML and static version in PDF.
+- STILL TO DO:
+  - Find code fix to gain control over HTML iframe height (> 400px) and also width (ideally 90%)
+  - Find code fix to insert a formatted title or header immediately above the image. Ideally, Use equivalent of 5 hashtags for digital image headers, and imperative verbs to hint interactive use (eg. Explore the Map....)
+  - Decide whether to insert `fig.align="center"`
+  - Decide if `auto.PDF=TRUE` is necessary
 
-##### Scroll the Map: embedded HTML iframe {-}
-<iframe src="https://ontheline.github.io/otl-town-borders/" width="90%" height="525px"></iframe>
-*Scroll down the narrative (or click and use arrow keys) to see how Hartford County, Connecticut divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). View [map historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/), developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]*
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+##### Example: Static image, with no interactive version {-}
+(ref:sample-static-image) Caption for sample static image, with Markdown formatting, links, citation.
 
-##### Watch the YouTube Video: embedded HTML iframe from secure https {-}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gl3uIRYYUmI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+```{r sample-static-image, echo=FALSE, fig.cap="(ref:sample-static-image)", fig_height=7}
+ knitr::include_graphics("images/1937-HOLC-HartfordMapScan.jpg")
+```
 
-##### Watch the Vimeo Video: embedded HTML iframe from secure https {-}
-<iframe src="https://player.vimeo.com/video/27299734?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+##### Example: Interactive map {-}
+(ref:sample-interactive-map) Scroll down the narrative (or click and use arrow keys) in this [interactive map](https://ontheline.github.io/otl-town-borders/) to see how Hartford County, Connecticut was divided into 29 separate towns from the early 1600s to the late 1800s. Boundaries shown here are not exact, but approximated from the best available digital sources: UConn Libraries MAGIC historical maps, Atlas of Historical County Boundaries at Newberry Library, and the Connecticut State Register and Manual. View [map historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/), developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]
 
-##### Watch the CTDA Video: embedded HMTL5 video code (to avoid autoplay), but crashes PDF {-}
-<video width="640" height="360" controls>
-  <source src="https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view" type="video/mp4">
-  Update your web browser to view this video. Requires HTML 5.
-</video>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+```{r sample-interactive-map, echo=FALSE, fig.cap="(ref:sample-interactive-map)", fig_height=7}
+if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-town-borders/") else knitr::include_graphics("images/1600s-otl-town-borders.jpg")
+```
 
-TO DO: Look at bookdown video embed options (knitr) that also work with PDF
-- https://github.com/rstudio/bookdown/issues/72
-- https://github.com/grimbough/msmbstyle/issues/17
-- https://github.com/rstudio/bookdown/issues/664
+##### Example: Vimeo video clip {-}
+(ref:vimeo-sample-video) Here's a sample Vimeo caption, with option to add Markdown link and footnote.
 
-TO DO: identify the best Kaltura embed option (see two versions below)
+```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)", auto.pdf=TRUE}
+if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
+```
+##### Example: YouTube video clip {-}
+(ref:youtube-sample-video) Here's a sample YouTube caption, with option to add Markdown link and footnote.
 
-#### Watch the Kaltura Video: embedded HTML iframe from secure https {-}
-<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+```{r youtube-sample-video, echo=FALSE, fig.cap="(ref:youtube-sample-video)", auto.pdf=TRUE}
+if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/NuWg9Jrkrpw?start=64") else knitr::include_graphics("images/2013-cthistory-video-screenshot.png")
+```
+##### Example: CTDA video clip {-}
+(ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote.
 
-#### Watch the Kaltura Video version2: embedded HTML iframe from secure https {-}
-<iframe src="https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/2366381/uiconf_id/42684261/entry_id/1_esexxma4/embed/dynamic" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+```{r ctda-sample-video, echo=FALSE, fig.cap="(ref:ctda-sample-video)", auto.pdf=TRUE}
+if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
+```
+##### Example: Kaltura video clip {-}
+(ref:kaltura-sample-video) Here's a sample Kaltura video caption, with option to add Markdown link and footnote.
 
-##### Explore the Source: embedded PDF {-}
-<iframe src="images/sample-3pp.pdf#page=2" width="90%" height="400">
-This browser does not support PDFs. Please download to view it: <a href="images/sample-3pp.pdf">Download PDF</a></iframe>
-*REMINDER: Insert caption, shortlinks, and footnote immediately afterwards in body text, in italics.*
+```{r kaltura-sample-video, echo=FALSE, fig.cap="(ref:kaltura-sample-video)", auto.pdf=TRUE}
+if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_1jk9ch6s?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_1jk9ch6s") else knitr::include_graphics("images/2006-hartford-profiles-1.png")
+```
+##### Example: Scrollable local PDF {-}
+(ref:pdf-sample-local) Here's a sample local scrollable PDF caption, with option to add Markdown link and footnote.
 
-TODO: Compare with other PDF embed strategies:
+```{r pdf-sample-local, echo=FALSE, fig.cap="(ref:pdf-sample-local)", auto.pdf=TRUE}
+if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else knitr::include_graphics("images/sample-pdf-screenshot.png")
+```
 
-- See https://pdfobject.com/static.html
-- See https://github.com/mozilla/pdf.js
+#### References for above {-}
+
+- R Markdown book section on figures https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options
+- R Markdown reference https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf
+- On R code chunks in RMarkdown https://bookdown.org/yihui/rmarkdown/r-code.html
+- On R code options in knitr package https://yihui.name/knitr/options
+- Tips and tricks http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures
