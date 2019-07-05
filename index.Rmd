@@ -12,7 +12,7 @@ link-citations: true
 
 url: 'http\://ontheline.trincoll.edu/'
 github-repo: ontheline/otl-bookdown
-description: ' "On The Line" makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights struggles to cross over, redraw, or erase these lines in schooling and housing.'
+description: 'This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families to cross over, redraw, or erase these lines.'
 cover-image: "images/coverOTL300x300.png"
 
 output:
@@ -57,4 +57,4 @@ output:
 
 **This book-in-progress** was last updated on `r Sys.Date()`
 
-*On The Line* makes visible the hidden boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activism to cross over, redraw, or erase these lines in schooling and housing.
+*On The Line*, an open-access digital and print history book, makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families to cross over, redraw, or erase these lines.

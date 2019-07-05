@@ -2,7 +2,8 @@
 *by [Jack Dougherty](index.html#authors-and-contributors)*
 
 (ref:1600s-otl-town-borders) Scroll the narrative (or click and use arrow keys) in this [interactive map](https://ontheline.github.io/otl-town-borders/index-frame.html) of town borders in Hartford County, Connecticut. From the early 1600s to the late 1880s, local and state government divided the region into 29 separate towns as the European settler population grew. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). View [historical sources, known issues, and the code](https://github.com/ontheline/otl-town-borders/) for this map, developed by Ilya Ilyankou and Jack Dougherty.^[@ilyankouMapTownBorders2017]
-```{r 1600s-otl-town-borders, echo=FALSE, fig.cap="(ref:1600-otl-town-borders)", fig_height=7}
+
+```{r 1600s-otl-town-borders, echo=FALSE, fig.cap="(ref:1600s-otl-town-borders)", fig_height=7}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-town-borders/") else knitr::include_graphics("images/1600s-otl-town-borders.jpg")
 ```
 

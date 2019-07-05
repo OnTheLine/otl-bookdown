@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  3 JUL 2019 17:16
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  5 JUL 2019 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,53 +811,38 @@ Chapter 2.
 File: images/1876-scribners-monthly.png Graphic file (type bmp)
 <images/1876-scribners-monthly.png>
 
-Underfull \hbox (badness 1735) in paragraph at lines 460--460
+Underfull \hbox (badness 1735) in paragraph at lines 466--466
 [][][]\TU/lmr/m/n/8 Steve Courtney, “Commentary: Was Hartford ’the Richest City
  in the United
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 460--460
+Underfull \hbox (badness 1168) in paragraph at lines 466--466
 \TU/lmr/m/it/8 ford Courant\TU/lmr/m/n/8 , October 18, 2014, []$[][][][] [] [] 
 [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][]
 [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 460--460
+Underfull \hbox (badness 1681) in paragraph at lines 466--466
 [][][]\TU/lmr/m/n/8 Alexander R. Merriam, \TU/lmr/m/it/8 The Social Significanc
 e of the Smaller City \TU/lmr/m/n/8 (Hartford,
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 460--460
+Underfull \hbox (badness 1028) in paragraph at lines 466--466
 \TU/lmr/m/n/8 as Alexander R. Merriam, “The Social Conditions of the Smaller Ci
 ty,” \TU/lmr/m/it/8 The Hart-
  []
 
-
-Underfull \hbox (badness 1005) in paragraph at lines 458--461
-[]\TU/lmr/m/n/10 (ref: 1876-scribners-monthly) Explore this []scrolling version
-[] of \TU/lmr/m/it/10 Scribner’s
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 458--461
-\TU/lmr/m/it/10 Monthly \TU/lmr/m/n/10 in 1876, which declared Hartford as “the
- richest city in the
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [28] [29]
-Underfull \hbox (badness 1087) in paragraph at lines 462--462
+Underfull \hbox (badness 1087) in paragraph at lines 468--468
 \TU/lmr/m/n/8 ford, “Address of Edward Everett Hale,” in \TU/lmr/m/it/8 Commemo
 rative Exercises of the First
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 462--462
+Underfull \hbox (badness 1817) in paragraph at lines 468--468
 [][][][][][][][][] [] [][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 ; Otis S
 kinner, “Save Twain Home, Urges Otis Skinner:
  []
@@ -865,67 +850,23 @@ kinner, “Save Twain Home, Urges Otis Skinner:
 [30] [31] [32]
 File: images/1910-2010-home-value.jpg Graphic file (type bmp)
 <images/1910-2010-home-value.jpg>
-
-Underfull \hbox (badness 1331) in paragraph at lines 474--476
-\TU/lmr/m/n/10 Region Council of Governments, median single-family home sales p
-rice;
- []
-
 [33]
+File: images/1600s-otl-town-borders.jpg Graphic file (type bmp)
+<images/1600s-otl-town-borders.jpg>
+[34] [35]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[34] [35] [36
+[36]
+Chapter 3.
+[37
 
 ]
-Chapter 3.
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 530--532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 532--534
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[][][]\TU/lmr/m/n/8 TODO: Check sources; history of amortization in Snowden
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/8 and Rose paper, []$[][][][] [] [] [] [][][][][][][][][][][][][][]
-[][][][] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/8 ; compare with typical HUD
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-\TU/lmr/m/n/8 history []$[][][][] [] [] [] [][][][][][][][][][] [] [][][][][][]
- [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
-][]$[] and []$[][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
-[] [] [][][][][][][] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][
-][][][][] [] [][] [] [][][][][][] [] [][][][]$[] \TU/lmr/m/n/8 and []$[][][][] 
-[] [] [] [][][][][][][][] [] [][][][][][][] []
- []
-
-[38]
 Underfull \hbox (badness 10000) in paragraph at lines 546--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--550
 
  []
 
@@ -934,146 +875,191 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--552
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+[][][]\TU/lmr/m/n/8 TODO: Check sources; history of amortization in Snowden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+\TU/lmr/m/n/8 and Rose paper, []$[][][][] [] [] [] [][][][][][][][][][][][][][]
+[][][][] [] [][][][][][][][][][] [] [][][] [] [][][] [] [][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/8 ; compare with typical HUD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+\TU/lmr/m/n/8 history []$[][][][] [] [] [] [][][][][][][][][][] [] [][][][][][]
+ [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][
+][]$[] and []$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+[] [] [][][][][][][] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][
+][][][][] [] [][] [] [][][][][][] [] [][][][]$[] \TU/lmr/m/n/8 and []$[][][][] 
+[] [] [] [][][][][][][][] [] [][][][][][][] []
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 562--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--568
+
+ []
+
 [39]
+File: images/1937-holc-hartford-map-scan.jpg Graphic file (type bmp)
+<images/1937-holc-hartford-map-scan.jpg>
 File: images/1937-holc-hartfordarea-map.png Graphic file (type bmp)
 <images/1937-holc-hartfordarea-map.png>
-
-Underfull \hbox (badness 1371) in paragraph at lines 566--568
-\TU/lmr/m/n/10 discriminatory lending practices as “redlining.” View []historic
-al sources
- []
-
-[40] [41]
+[40] [41] [42]
 File: images/1937-holc-inhabitants-c10.png Graphic file (type bmp)
 <images/1937-holc-inhabitants-c10.png>
-
-Overfull \hbox (130.99164pt too wide) in paragraph at lines 573--575
-\TU/lmr/m/n/10 from the National Archives.[][][] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[42] [43]
-Overfull \hbox (25.27007pt too wide) in alignment at lines 605--609
+[43]
+File: images/1936-fha-manual-247.png Graphic file (type bmp)
+<images/1936-fha-manual-247.png>
+[44]
+File: images/1936-fha-manual-226.png Graphic file (type bmp)
+<images/1936-fha-manual-226.png>
+File: images/1938-fha-manual-1849.png Graphic file (type bmp)
+<images/1938-fha-manual-1849.png>
+[45]
+Overfull \hbox (25.27007pt too wide) in alignment at lines 651--655
  [] [] [] 
  []
 
 
-Overfull \hbox (25.27007pt too wide) in alignment at lines 609--630
+Overfull \hbox (25.27007pt too wide) in alignment at lines 655--676
  [] [] [] 
  []
 
-
-Overfull \hbox (25.27007pt too wide) in alignment at lines 630--632
+[46]
+Overfull \hbox (25.27007pt too wide) in alignment at lines 676--678
  [] [] [] 
  []
 
-[44] [45]
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
 [][][]\TU/lmr/m/n/8 Shaun McGann, “The Effects of ‘Redlining’ on the Hartford M
 etropoli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
+Underfull \hbox (badness 10000) in paragraph at lines 690--690
 \TU/lmr/m/n/8 tan Region,” ConnecticutHistory.org, March 2014, []$[][][][] [] [
 ] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[46] [47] [48]
-File: images/1940-03-31HC-HighLedgeHomesAd.jpg Graphic file (type bmp)
-<images/1940-03-31HC-HighLedgeHomesAd.jpg>
 
-LaTeX Warning: Float too large for page by 23.00427pt on input line 680.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[49] [50]
-Underfull \hbox (badness 3849) in paragraph at lines 687--687
+[48]
+File: images/1940-otl-covenants.png Graphic file (type bmp)
+<images/1940-otl-covenants.png>
+[49] [50] [51]
+File: images/1940-03-31-hc-high-ledge-homes-ad.jpg Graphic file (type bmp)
+<images/1940-03-31-hc-high-ledge-homes-ad.jpg>
+
+LaTeX Warning: Float too large for page by 23.00427pt on input line 733.
+
+[52] [53]
+Underfull \hbox (badness 3849) in paragraph at lines 739--739
 [][][]\TU/lmr/m/n/8 “Bernstein Seeks End of Restrictive Clauses,” \TU/lmr/m/it/
 8 The Hartford Courant\TU/lmr/m/n/8 , March
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 687--687
+Underfull \hbox (badness 1142) in paragraph at lines 739--739
 \TU/lmr/m/n/8 2, 1947, []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][
 ][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] 
 [][][][][][][][][] [] [][][][][][][][][] []
  []
 
-[51] [52]
+[54] [55]
+File: images/2011-walsh-debra.jpg Graphic file (type bmp)
+<images/2011-walsh-debra.jpg>
 File: images/2011-hansen-susan.jpg Graphic file (type bmp)
 <images/2011-hansen-susan.jpg>
-[53] [54]
-Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+[56] [57]
+File: images/1954-02-17-ht-oakwood-acres.jpg Graphic file (type bmp)
+<images/1954-02-17-ht-oakwood-acres.jpg>
+[58]
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+[59]
 File: images/1943-12-16-metro-news-oakwood.jpg Graphic file (type bmp)
 <images/1943-12-16-metro-news-oakwood.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--730
-[]\TU/lmr/m/n/10 ￼(ref:1943-12-16-metro-news-oakwood) Headline from 1943 \TU/lm
-r/m/it/10 Metropolitan
- []
-
-
-Underfull \vbox (badness 1596) has occurred while \output is active []
-
-[55] [56]
-Underfull \hbox (badness 1019) in paragraph at lines 742--742
+File: images/1951-2013-aerial-oakwood.jpg Graphic file (type bmp)
+<images/1951-2013-aerial-oakwood.jpg>
+[60] [61]
+Underfull \hbox (badness 1019) in paragraph at lines 810--810
 [][][]\TU/lmr/m/n/8 Tracey M. Wilson, “Resistance to Public Housing and Integra
 tion During World
  []
 
-[57] [58]
+[62] [63]
 File: images/1924-Whitten-page10-underlined.png Graphic file (type bmp)
 <images/1924-Whitten-page10-underlined.png>
 File: images/1924-west-hartford-zoning-map-excerpt.png Graphic file (type bmp)
 <images/1924-west-hartford-zoning-map-excerpt.png>
-[59] [60]
-Underfull \hbox (badness 1178) in paragraph at lines 808--809
+[64] [65] [66]
+Underfull \hbox (badness 1178) in paragraph at lines 876--877
 []\TU/lmr/m/n/10 TO DO: review slides and transform into text []$[][][][][] [] 
 [] [] [][][][] [] [][][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (7.95999pt too wide) in paragraph at lines 808--809
+Overfull \hbox (7.95999pt too wide) in paragraph at lines 876--877
 [][][][][][][][][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[61] [62]
+[67] [68
+
+]
 Chapter 4.
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[63
-
-] [64]
+[69] [70]
 Chapter 5.
-[65
+[71
 
 ]
-Underfull \hbox (badness 1675) in paragraph at lines 854--854
+Underfull \hbox (badness 1675) in paragraph at lines 922--922
 \TU/lmr/m/n/8 vision broadcast video, August 31, 1985), []$[][][][] [] [] [] []
 [][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 856--856
+Underfull \hbox (badness 3148) in paragraph at lines 924--924
 [][][]\TU/lmr/m/n/8 Dave Drury, “Bloomfield Cracking down on Non-Residents in S
 chools,” \TU/lmr/m/it/8 Hart-
  []
 
 File: images/quick-B-H-WH-map.png Graphic file (type bmp)
 <images/quick-B-H-WH-map.png>
-[66] [67]
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+File: images/1985-foster-saundra.png Graphic file (type bmp)
+<images/1985-foster-saundra.png>
+[72] [73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 \TU/lmr/m/n/8 July 18, 1976, []$[][][][][] [] [] [] [][][][][][][][][][][][][][
 ][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][]
 [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 948--948
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [
 ][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 .
@@ -1082,249 +1068,261 @@ Underfull \hbox (badness 10000) in paragraph at lines 875--875
 
 Underfull \vbox (badness 1430) has occurred while \output is active []
 
-[68]
-Underfull \hbox (badness 3514) in paragraph at lines 877--877
+[75]
+Underfull \hbox (badness 3514) in paragraph at lines 950--950
 \TU/lmr/m/n/8 Town Clerk, 1888–89AD), []$[][][][][] [] [] [] [][][][][][][][][]
 [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][
 ][][][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 877--877
+Underfull \hbox (badness 4556) in paragraph at lines 950--950
 [][][][][][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][
 ][][][][][][][][]$[]\TU/lmr/m/n/8 , p. 20, Connecticut State
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 877--877
+Underfull \hbox (badness 2443) in paragraph at lines 950--950
 \TU/lmr/m/n/8 Library; “Kicks on Schools in Wethersfield: Dissatisfaction Expre
 ssed at Parents’
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 877--877
+Underfull \hbox (badness 1688) in paragraph at lines 950--950
 \TU/lmr/m/n/8 Meeting: City Gets Sons of Board Members,” \TU/lmr/m/it/8 Hartfor
 d Courant\TU/lmr/m/n/8 , April 11, 1917,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 950--950
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [
 ][][][][][][][][] [] [][][][][]$[]\TU/lmr/m/n/8 ;
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 877--877
+Underfull \hbox (badness 3386) in paragraph at lines 950--950
 \TU/lmr/m/n/8 “Schools Jump Tuition Fees for Out-of-Town Residents,” \TU/lmr/m/
 it/8 Hartford Courant\TU/lmr/m/n/8 , Jan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 950--950
 \TU/lmr/m/n/8 uary 4, 1952, []$[][][][][] [] [] [] [][][][][][][][][][][][][][]
 [][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][
 ] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 950--950
 [][][][][][][][][][][][][][][][][][] [] [] [] [][][][][][][][][] [] [][][][][]$
 []\TU/lmr/m/n/8 ; “Couple Ask Tuition-Free Schooling
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 877--877
+Underfull \hbox (badness 2042) in paragraph at lines 950--950
 \TU/lmr/m/n/8 for Girl but Residency Is Disputed,” \TU/lmr/m/it/8 Hartford Cour
 ant\TU/lmr/m/n/8 , February 6, 1959, []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 950--950
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
 [][][][][][][][][] []
  []
 
-[69]
-Underfull \hbox (badness 5050) in paragraph at lines 879--879
+[76]
+Underfull \hbox (badness 5050) in paragraph at lines 952--952
 [][][]\TU/lmr/m/n/8 Wayne Porter, “Non-Resident Students Long a Problem,” \TU/l
 mr/m/it/8 Hartford Courant:
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 879--879
+Underfull \hbox (badness 1472) in paragraph at lines 952--952
 \TU/lmr/m/it/8 B\TU/lmr/m/n/8 , May 21, 1985, []$[][][][][] [] [] [] [][][][][]
 [][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][
 ] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
-[70]
+[77]
 File: images/1967-1984-bloomfield-by-race.png Graphic file (type bmp)
 <images/1967-1984-bloomfield-by-race.png>
-
-Overfull \hbox (44.72096pt too wide) in paragraph at lines 885--887
-\TU/lmr/m/n/10 ing years. [] 
- []
-
-[71]
-Underfull \hbox (badness 1990) in paragraph at lines 890--890
+[78]
+Underfull \hbox (badness 1990) in paragraph at lines 968--968
 \TU/lmr/m/it/8 B\TU/lmr/m/n/8 , April 7, 1985, []$[][][][][] [] [] [] [][][][][
 ][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][]
 [] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
-[72]
-Underfull \hbox (badness 1142) in paragraph at lines 896--896
+[79]
+Underfull \hbox (badness 1142) in paragraph at lines 974--974
 \TU/lmr/m/n/8 5, 1985, []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][
 ][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] 
 [][][][][][][][][] [] [][][][][][][][][] []
  []
 
-[73]
-Underfull \hbox (badness 2368) in paragraph at lines 911--911
+File: images/1985-04-05-hc-englehart.png Graphic file (type bmp)
+<images/1985-04-05-hc-englehart.png>
+[80] [81]
+Underfull \hbox (badness 2368) in paragraph at lines 994--994
 [][][]\TU/lmr/m/n/8 Dave Drury, “Bloomfield Alters Its Policy for School Reside
 nce Cases,” \TU/lmr/m/it/8 Hart-
  []
 
-[74]
+[82]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[75] [76
+[83] [84
 
 ]
 Chapter 6.
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[77] [78]
+[85] [86]
 Chapter 7.
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[79
+[87
 
-] [80
+] [88
 
 ]
 Chapter 8.
-[81] [82]
-Underfull \hbox (badness 1142) in paragraph at lines 982--982
+[89] [90]
+Underfull \hbox (badness 1142) in paragraph at lines 1059--1059
 [][][]\TU/lmr/m/n/8 “Average Family Income in the Past 12 Months in 2009 Inflat
 ion-Adjusted Dol-
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 982--982
+Underfull \hbox (badness 1448) in paragraph at lines 1059--1059
 \TU/lmr/m/n/8 lars, Table SE:T:59” (American Community Survey 1-year estimates 
 via Social Ex-
  []
 
-[83] [84]
-Underfull \vbox (badness 7869) has occurred while \output is active []
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+Overfull \hbox (80.96008pt too wide) in alignment at lines 1092--1096
+ [] [] [] 
+ []
+
+
+Overfull \hbox (80.96008pt too wide) in alignment at lines 1096--1113
+ [] [] [] 
+ []
+
+[91]
+File: images/1876-scribners-monthly.png Graphic file (type bmp)
+<images/1876-scribners-monthly.png>
+[92] [93]
+File: images/1910-2010-home-value.jpg Graphic file (type bmp)
+<images/1910-2010-home-value.jpg>
+File: images/1847-otl-hphs.png Graphic file (type bmp)
+<images/1847-otl-hphs.png>
+[94] [95] [96]
+File: images/1937-holc-hartfordarea-map.png Graphic file (type bmp)
+<images/1937-holc-hartfordarea-map.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1161
 [][][]\TU/lmr/m/n/8 “Trinity College Students Call Attention to Histories of In
 equal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1161--1161
 \TU/lmr/m/n/8 ity,” ConnecticutHistory.org, May 2013, []$[][][][] [] [] [] [][]
 [][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[86] [87] [88]
+File: images/1940-otl-covenants.png Graphic file (type bmp)
+<images/1940-otl-covenants.png>
+[97] [98] [99]
 File: images/1960-05-01-HC-branding-homes.png Graphic file (type bmp)
 <images/1960-05-01-HC-branding-homes.png>
+[100]
 File: images/2003-shaw-spencer.jpg Graphic file (type bmp)
 <images/2003-shaw-spencer.jpg>
-[89] [90]
+
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+[101] [102]
 File: images/2005-wright-adelle.jpg Graphic file (type bmp)
 <images/2005-wright-adelle.jpg>
-[91] [92]
-File: images/1974c-education_instruccion_dixon-papers.jpg Graphic file (type bm
-p)
-<images/1974c-education_instruccion_dixon-papers.jpg>
-[93] [94]
+[103]
+File: images/1974circa-education_instruccion_dixon-papers.jpg Graphic file (typ
+e bmp)
+<images/1974circa-education_instruccion_dixon-papers.jpg>
+[104] [105] [106]
 File: images/2009-aje-visual.png Graphic file (type bmp)
 <images/2009-aje-visual.png>
-[95] [96]
-Underfull \vbox (badness 5771) has occurred while \output is active []
-
-[97] [98] [99]
-File: images/2013-smartchoices-screenshot.png Graphic file (type bmp)
-<images/2013-smartchoices-screenshot.png>
+[107]
+File: images/2011-sheff-elizabeth.jpg Graphic file (type bmp)
+<images/2011-sheff-elizabeth.jpg>
+[108] [109] [110]
+File: images/2014-smartchoices-screencast.png Graphic file (type bmp)
+<images/2014-smartchoices-screencast.png>
 File: images/2009-smartchoices-workshop-adaavila-courtneycoyne.png Graphic file
  (type bmp)
 <images/2009-smartchoices-workshop-adaavila-courtneycoyne.png>
-[100] [101] [102] [103]
-Underfull \hbox (badness 3861) in paragraph at lines 1144--1144
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[111] [112] [113] [114]
+Underfull \hbox (badness 3861) in paragraph at lines 1294--1294
 [][][]\TU/lmr/m/n/8 Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, “Writi
 ng Greater Hart-
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 1144--1144
+Underfull \hbox (badness 6188) in paragraph at lines 1294--1294
 \TU/lmr/m/n/8 ford’s Civil Rights Past with ConnecticutHistory.Org,” \TU/lmr/m/
 it/8 Connecticut History Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1294
 \TU/lmr/m/it/8 view \TU/lmr/m/n/8 53, no. 2 (2014): 220–26, []$[][][][] [] [] [
 ] [][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][
 ][] []
  []
 
-
-Underfull \hbox (badness 1831) in paragraph at lines 1148--1148
+[115]
+Underfull \hbox (badness 1831) in paragraph at lines 1298--1298
 [][][]\TU/lmr/m/n/8 Clarissa Ceglio, “ConnecticutHistory.Org Opens a New Gatewa
 y to Our State’s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1298
 \TU/lmr/m/n/8 Past,” ConnecticutHistory.org, May 22, 2012, []$[][][][][] [] [] 
 [] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[104] [105] [106]
-Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
+[116] [117]
 File: images/2013-ceglio-teaches-meehan-mcgann.jpg Graphic file (type bmp)
 <images/2013-ceglio-teaches-meehan-mcgann.jpg>
-
-Overfull \hbox (2.79793pt too wide) in paragraph at lines 1158--1159
-[]\TU/lmr/m/n/10 ￼[] 
- []
-
-[107]
-Missing character: There is no ￼ in font [lmroman10-regular]:mapping=tex-text;!
-File: images/2013-seminar-googledoc-domments.jpg Graphic file (type bmp)
-<images/2013-seminar-googledoc-domments.jpg>
-
-Overfull \hbox (2.7994pt too wide) in paragraph at lines 1177--1178
-[]\TU/lmr/m/n/10 ￼[] 
- []
-
-[108]
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+[118] [119]
+File: images/2013-seminar-googledoc.jpg Graphic file (type bmp)
+<images/2013-seminar-googledoc.jpg>
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
 [][][]\TU/lmr/m/n/8 Elaina Rollins, “Five Minutes That Changed Connecticut: Si-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
 \TU/lmr/m/n/8 mon Bernstein and the 1965 Connecticut Education Amendment,”
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
 \TU/lmr/m/n/8 ConnecticutHistory.org, January 2014, []$[][][][] [] [] [] [][][]
 [][][][][][][][][][][][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (52.44812pt too wide) in paragraph at lines 1181--1181
+Overfull \hbox (52.44812pt too wide) in paragraph at lines 1343--1343
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/
@@ -1332,264 +1330,249 @@ Overfull \hbox (52.44812pt too wide) in paragraph at lines 1181--1181
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
 \TU/lmr/m/n/8 Brigit Rioual, “Sheff V. O’Neill Settlements Target Educational S
 egregation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
 \TU/lmr/m/n/8 in Hartford,” ConnecticutHistory.org, April 2013, []$[][][][] [] 
 [] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[109]
-Underfull \hbox (badness 2050) in paragraph at lines 1183--1184
+
+Underfull \hbox (badness 2050) in paragraph at lines 1345--1346
 \TU/lmr/m/n/10 tory.org experience memorable transitions when they become publi
 shed
  []
 
-[110]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[111]
-Underfull \hbox (badness 1436) in paragraph at lines 1205--1205
+[121]
+File: images/2013-cthistory-video-screenshot.png Graphic file (type bmp)
+<images/2013-cthistory-video-screenshot.png>
+[122] [123]
+Underfull \hbox (badness 1436) in paragraph at lines 1369--1369
 [][][]\TU/lmr/m/n/8 Amanda Gurren, “Connecticut Takes the Wheel on Education Re
 form: Project
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1205
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1369
 \TU/lmr/m/n/8 Concern,” ConnecticutHistory.org, April 2013, []$[][][][] [] [] [
 ] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 1217--1217
+Underfull \hbox (badness 3354) in paragraph at lines 1381--1381
 [][][]\TU/lmr/m/n/8 Victoria Smith-Ellison, “Hartford’s Great Migration Through
  Charles S. John-
  []
 
 
-Underfull \hbox (badness 7814) in paragraph at lines 1217--1217
+Underfull \hbox (badness 7814) in paragraph at lines 1381--1381
 \TU/lmr/m/n/8 son’s Eyes,” ConnecticutHistory.org, February 2013, []$[][][][] [
 ] [] [] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1219
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1383
 [][][]\TU/lmr/m/n/8 Savahna Reuben, “Education/Instrucción Combats Housing Disc
 rimina-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1219
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1383
 \TU/lmr/m/n/8 tion,” ConnecticutHistory.org, December 2014, []$[][][][] [] [] [
 ] [][][][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[113] [114] [115] [116]
+[125] [126] [127] [128]
 File: images/2012-cc-licenses.jpg Graphic file (type bmp)
 <images/2012-cc-licenses.jpg>
-[117] [118] [119] [120] [121] [122] [123]
+[129] [130] [131]
+File: images/2011-sheff-elizabeth.jpg Graphic file (type bmp)
+<images/2011-sheff-elizabeth.jpg>
+[132] [133]
+File: images/2011-covenants-video.png Graphic file (type bmp)
+<images/2011-covenants-video.png>
+[134] [135] [136]
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[124]
-Chapter 9.
-
-LaTeX Warning: Reference `fig:1910-2010-home-value' on page 125 undefined on in
-put line 1376.
-
-
-LaTeX Warning: Reference `fig:1600s-otl-town-borders' on page 125 undefined on 
-input line 1378.
-
-
-LaTeX Warning: Reference `fig:1937-holc-hartfordarea-map' on page 125 undefined
- on input line 1380.
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 1380--1381
-[]\TU/lmr/m/n/10 Figure [] Interactive Map of Federal Home Owners’ Loan Corpora
-tion
- []
-
-
-LaTeX Warning: Reference `fig:1940-otl-covenants' on page 125 undefined on inpu
-t line 1382.
-
-[125
+[137] [138
 
 ]
-Underfull \hbox (badness 3977) in paragraph at lines 1403--1405
+Chapter 9.
+
+Underfull \hbox (badness 2503) in paragraph at lines 1550--1551
+\TU/lmr/m/n/10 Hartford area, 1937, []$[][][][][] [] [] [] [][][][][][][][][] [
+] [][][][][][] [] [][] [] [][][][][][][][][][][][][][] [] [][][][][][][][][][][
+][] []
+ []
+
+[139]
+Underfull \hbox (badness 3977) in paragraph at lines 1575--1577
 []\TU/lmr/m/n/10 Install R Project statistical programming language []$[][][][]
 [] [] [] [] [][][] []
  []
 
-[126]
-Overfull \hbox (34.52002pt too wide) in paragraph at lines 1431--1433
+[140]
+Overfull \hbox (34.52002pt too wide) in paragraph at lines 1603--1605
 []\TU/lmr/m/n/10 Carefully type (without “sudo”) \TU/lmtt/m/n/10 ~/Library/Tiny
 TeX/bin/x86_64-darwin/tlmgr
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 1435--1436
+Underfull \hbox (badness 1931) in paragraph at lines 1607--1608
 []\TU/lmr/m/n/10 In the RStudio console, type \TU/lmtt/m/n/10 tinytex::install_
 tinytex(force =
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 1463--1465
+Underfull \hbox (badness 1748) in paragraph at lines 1635--1637
 []\TU/lmr/m/n/10 In your web browser, log into your GitHub account, go to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1463--1465
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1637
 \TU/lmr/m/n/10 software developer’s bookdown-minimal repo []$[][][][][] [] [] [
 ] [][][][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 1463--1465
+Underfull \hbox (badness 4096) in paragraph at lines 1635--1637
 [][][][][] [] [][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 , and fork a 
 copy to your GitHub ac-
  []
 
-[127]
-Overfull \hbox (10.55501pt too wide) in paragraph at lines 1499--1500
+[141]
+Overfull \hbox (10.55501pt too wide) in paragraph at lines 1671--1672
 \TU/lmr/m/n/10 to: \TU/lmtt/m/n/10 https://USERNAME.github.io/bookdown-minimal/
 _book/index.html 
  []
 
-[128]
-Underfull \hbox (badness 3343) in paragraph at lines 1517--1519
+[142]
+Underfull \hbox (badness 3343) in paragraph at lines 1689--1691
 []\TU/lmr/m/n/10 In addition, this GitHub Pages repo is published with a cus-
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 1517--1519
+Underfull \hbox (badness 4779) in paragraph at lines 1689--1691
 \TU/lmr/m/n/10 tom domain name []$[][][][][] [] [] [] [][][][][][][][][] [] [][
 ][][][][][][] [] [][][]$[]. Learn more
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 1517--1519
+Underfull \hbox (badness 5504) in paragraph at lines 1689--1691
 \TU/lmr/m/n/10 about custom domain names at []$[][][][][] [] [] [] [][][][] [] 
 [][][][][][] [] [][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1691
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][]$[]\TU/lmr/m/n/10 , which usually requires
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 1517--1519
+Underfull \hbox (badness 1817) in paragraph at lines 1689--1691
 \TU/lmr/m/n/10 purchasing a domain name from a web hosting service (such as
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 1527--1528
+Underfull \hbox (badness 3250) in paragraph at lines 1699--1700
 \TU/lmr/m/n/10 more about various options at []$[][][][][] [] [] [] [][][][][][
 ][][] [] [][][] [] [][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 1527--1528
+Underfull \hbox (badness 1466) in paragraph at lines 1699--1700
 [][][][][][][][][][][][][] [] [][][][]$[]\TU/lmr/m/n/10 . Currently using xelat
 ex engine (see bookdown.yml
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 1530--1530
+Underfull \hbox (badness 1454) in paragraph at lines 1702--1702
 [][]\TU/lmr/bx/it/14.4 On The Line \TU/lmr/bx/n/14.4 Style Guide with Bookdown-
 
  []
 
 
-Overfull \hbox (43.5pt too wide) in paragraph at lines 1537--1537
-[]\TU/lmtt/m/n/10 [//]: (TODO - this comment appears in the source, but not the
- book output)[] 
+Overfull \hbox (43.5pt too wide) in paragraph at lines 1709--1709
+[]\TU/lmtt/m/n/10 <!-- this comment appears in the source code, but not the boo
+k outputs -->[] 
  []
 
-[129]
-Underfull \hbox (badness 3250) in paragraph at lines 1563--1564
+[143]
+Underfull \hbox (badness 3250) in paragraph at lines 1735--1736
 []\TU/lmr/m/n/10 A short chapter title \TU/lmtt/m/n/10 # Introduction \TU/lmr/m
 /n/10 has a short default reference:
  []
 
 
-Overfull \hbox (76.29501pt too wide) in paragraph at lines 1572--1574
+Overfull \hbox (76.29501pt too wide) in paragraph at lines 1744--1746
 []\TU/lmr/m/n/10 short reference code: \TU/lmtt/m/n/10 *by [Jack Dougherty](ind
 ex.html#authors-and-contributors)*
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1584
+Underfull \hbox (badness 10000) in paragraph at lines 1754--1756
 []\TU/lmr/m/n/10 Contributor code: \TU/lmtt/m/n/10 Shaun McGann (Trinity 2014) 
 co-authored
  []
 
 
-Overfull \hbox (89.5pt too wide) in paragraph at lines 1582--1584
+Overfull \hbox (89.5pt too wide) in paragraph at lines 1754--1756
 \TU/lmtt/m/n/10 [Federal Lending and Redlining](separating.html#federal-lending
 -and-redlining) 
  []
 
-[130] [131]
-Underfull \hbox (badness 1337) in paragraph at lines 1687--1689
-[]\TU/lmr/m/n/10 Insert the image using R code chunk []$[][][][][] [] [] [] [][
-][][][][][][] [] [][][] [] [][][][][] []
- []
-
-[132]
+[144] [145] [146]
 File: images/1937-holc-hartford-map-scan.jpg Graphic file (type bmp)
 <images/1937-holc-hartford-map-scan.jpg>
 File: images/1600s-otl-town-borders.jpg Graphic file (type bmp)
 <images/1600s-otl-town-borders.jpg>
 File: images/2011-walsh-debra.jpg Graphic file (type bmp)
 <images/2011-walsh-debra.jpg>
-[133] [134]
+[147] [148]
 File: images/2013-cthistory-video-screenshot.png Graphic file (type bmp)
 <images/2013-cthistory-video-screenshot.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1738--1740
+Underfull \hbox (badness 10000) in paragraph at lines 1922--1924
 [][]
  []
 
 File: images/2014-lumpkin-mae-willie-screenshot.png Graphic file (type bmp)
 <images/2014-lumpkin-mae-willie-screenshot.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1742--1744
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1928
 [][]
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[135]
+[149]
 File: images/2006-hartford-profiles-1.png Graphic file (type bmp)
 <images/2006-hartford-profiles-1.png>
 File: images/sample-pdf-screenshot.png Graphic file (type bmp)
 <images/sample-pdf-screenshot.png>
 
-Underfull \hbox (badness 2042) in paragraph at lines 1763--1765
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[150]
+Underfull \hbox (badness 2042) in paragraph at lines 1952--1954
 []\TU/lmr/m/n/10 R Markdown book section on figures []$[][][][][] [] [] [] [][]
 [][][][][][] [] [][][] [] [][][][][] []
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[136]
-Underfull \hbox (badness 6047) in paragraph at lines 1767--1769
+Underfull \hbox (badness 6047) in paragraph at lines 1956--1958
 []\TU/lmr/m/n/10 On R code chunks in RMarkdown []$[][][][][] [] [] [] [][][][][
 ][][][] [] [][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (265.62999pt too wide) in paragraph at lines 1771--1772
+Overfull \hbox (265.62999pt too wide) in paragraph at lines 1960--1961
 []\TU/lmr/m/n/10 Tips and tricks []$[][][][] [] [] [] [][][][][][][] [] [][][] 
 [] [][][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1597,7 +1580,7 @@ Overfull \hbox (265.62999pt too wide) in paragraph at lines 1771--1772
  []
 
 
-Overfull \hbox (89.97998pt too wide) in paragraph at lines 1771--1772
+Overfull \hbox (89.97998pt too wide) in paragraph at lines 1960--1961
 [][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][]$[] 
@@ -1605,227 +1588,227 @@ Overfull \hbox (89.97998pt too wide) in paragraph at lines 1771--1772
 
 File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 <images/cc-by-nc-sa-88x31.png>
-[137] [138
-
-]
+[151] [152]
 Chapter 10.
 
-Underfull \hbox (badness 1337) in paragraph at lines 1803--1805
+Underfull \hbox (badness 1337) in paragraph at lines 1992--1994
 [][]\TU/lmr/m/n/10 “An Art Museum.” \TU/lmr/m/it/10 Hartford Daily Courant\TU/l
 mr/m/n/10 , April 29, 1871. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1803--1805
+Underfull \hbox (badness 10000) in paragraph at lines 1992--1994
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
  []
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1812--1814
+Underfull \hbox (badness 1675) in paragraph at lines 2001--2003
 [][]\TU/lmr/m/n/10 “A Suggestive Contrast.” \TU/lmr/m/it/10 Hartford Daily Cour
 ant\TU/lmr/m/n/10 , October 15, 1878.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1812--1814
+Underfull \hbox (badness 10000) in paragraph at lines 2001--2003
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
-[139]
-Underfull \hbox (badness 3780) in paragraph at lines 1815--1817
+[153
+
+]
+Underfull \hbox (badness 3780) in paragraph at lines 2004--2006
 [][]\TU/lmr/m/n/10 Bailey, Chauncey. “Non-Resident Students Again Attending Blo
 om-
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 1815--1817
+Underfull \hbox (badness 2894) in paragraph at lines 2004--2006
 \TU/lmr/m/n/10 field Schools.” \TU/lmr/m/it/10 Hartford Courant: City/Town\TU/l
 mr/m/n/10 , September 16, 1976.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1815--1817
+Underfull \hbox (badness 10000) in paragraph at lines 2004--2006
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 1836--1838
+Underfull \hbox (badness 1043) in paragraph at lines 2025--2027
 [][]\TU/lmr/m/n/10 Bixby, Lyn, Vada Crosby, Brant Houston, Jeffrey Williams, an
 d Larry
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 1836--1838
+Underfull \hbox (badness 1442) in paragraph at lines 2025--2027
 \TU/lmr/m/n/10 Buyers: Two Connecticuts Series.” \TU/lmr/m/it/10 Hartford Coura
 nt\TU/lmr/m/n/10 , May 21, 1989.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1836--1838
+Underfull \hbox (badness 10000) in paragraph at lines 2025--2027
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] []
 
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1842--1844
+Underfull \hbox (badness 3291) in paragraph at lines 2031--2033
 \TU/lmr/m/n/10 Town Clerk, 1888–89AD. []$[][][][][] [] [] [] [][][][][][][][][]
 [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][] [] [][][] []
  []
 
-[140]
-Underfull \hbox (badness 2318) in paragraph at lines 1851--1853
+[154]
+Underfull \hbox (badness 2318) in paragraph at lines 2040--2042
 [][]\TU/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. “How We Found Restricti
 ve
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 1875--1877
+Underfull \hbox (badness 2229) in paragraph at lines 2064--2066
 [][]\TU/lmr/m/n/10 Clark, Charles H. “The Charter Oak City.” \TU/lmr/m/it/10 Sc
 ribner’s Monthly \TU/lmr/m/n/10 13,
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 1887--1889
+Underfull \hbox (badness 2012) in paragraph at lines 2076--2078
 [][]\TU/lmr/m/n/10 Condon, Tom. “‘Troubled City’ a Victim of Geography.” \TU/lm
 r/m/it/10 Hartford
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 1887--1889
+Underfull \hbox (badness 1303) in paragraph at lines 2076--2078
 \TU/lmr/m/it/10 Courant\TU/lmr/m/n/10 . September 12, 2002. []$[][][][] [] [] [
 ] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
  []
 
-[141]
-Overfull \hbox (18.06999pt too wide) in paragraph at lines 1905--1907
+[155]
+Overfull \hbox (18.06999pt too wide) in paragraph at lines 2094--2096
 [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (93.59201pt too wide) in paragraph at lines 1911--1913
+Overfull \hbox (93.59201pt too wide) in paragraph at lines 2100--2102
 \TU/lmr/m/n/10 tory.org, January 2013. []$[][][][] [] [] [] [][][][][][][][][][
 ][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][]$[]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1923--1925
+Underfull \hbox (badness 10000) in paragraph at lines 2112--2114
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][] [] [][][][][][][] []
  []
 
-[142]
-Underfull \hbox (badness 10000) in paragraph at lines 1935--1937
+[156]
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2126
 [] [] [][][][][][][] [] [][][][][][][][][][][][] [] [] [] [][][][][][][][][][] 
 [] [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][]
 [] []
  []
 
-[143]
-Underfull \hbox (badness 1365) in paragraph at lines 1968--1970
+[157]
+Underfull \hbox (badness 1365) in paragraph at lines 2160--2162
 \TU/lmr/m/n/10 Parental Decisions, and the Digital Divide: The SmartChoices Pro
 ject
  []
 
-[144]
-Underfull \hbox (badness 1635) in paragraph at lines 2004--2006
+[158]
+Underfull \hbox (badness 1635) in paragraph at lines 2196--2198
 [][]\TU/lmr/m/n/10 Elsen, Jon. “Bloomfield Officials Laud School Officer’s Work
 .” \TU/lmr/m/it/10 The
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 2004--2006
+Underfull \hbox (badness 1490) in paragraph at lines 2196--2198
 \TU/lmr/m/it/10 Hartford Courant (1923-1991): SECTION B\TU/lmr/m/n/10 . April 1
 2, 1986. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2004--2006
+Underfull \hbox (badness 10000) in paragraph at lines 2196--2198
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][]
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2027
+Underfull \hbox (badness 10000) in paragraph at lines 2217--2219
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][]
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][] []
  []
 
-[145]
-Underfull \hbox (badness 2326) in paragraph at lines 2058--2060
+[159]
+Underfull \hbox (badness 2326) in paragraph at lines 2250--2252
 [][]\TU/lmr/m/n/10 Hathaway, William. “After the Price, the Next Question Is: H
 ow
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 2058--2060
+Underfull \hbox (badness 2573) in paragraph at lines 2250--2252
 \TU/lmr/m/n/10 Are the Schools?” \TU/lmr/m/it/10 Hartford Courant\TU/lmr/m/n/10
  , September 26, 1993. []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2058--2060
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2252
 [] [] [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][]
 [][] []
  []
 
-[146] [147]
-Underfull \hbox (badness 1062) in paragraph at lines 2124--2126
+[160] [161]
+Underfull \hbox (badness 1062) in paragraph at lines 2316--2318
 \TU/lmr/m/n/10 project, Trinity College, 2002. []$[][][][] [] [] [] [][][][][][
 ][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][] []
  []
 
 
-Overfull \hbox (117.45998pt too wide) in paragraph at lines 2139--2141
+Overfull \hbox (117.45998pt too wide) in paragraph at lines 2331--2333
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\T
 U/lmr/m/n/10 . 
  []
 
-[148]
-Underfull \hbox (badness 1173) in paragraph at lines 2175--2177
+[162]
+Underfull \hbox (badness 1173) in paragraph at lines 2367--2369
 \TU/lmr/m/it/10 ford Courant\TU/lmr/m/n/10 , October 18, 2014. []$[][][][] [] [
 ] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 2178--2180
+Underfull \hbox (badness 1748) in paragraph at lines 2370--2372
 \TU/lmr/m/n/10 October 18, 2014. []$[][][][] [] [] [] [][][] [] [][][][][][][] 
 [] [][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][] []
  []
 
-[149]
-Overfull \hbox (88.83998pt too wide) in paragraph at lines 2202--2204
+[163]
+Overfull \hbox (88.83998pt too wide) in paragraph at lines 2394--2396
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 . 
  []
 
 
-Overfull \hbox (3.61197pt too wide) in paragraph at lines 2211--2213
+Overfull \hbox (3.61197pt too wide) in paragraph at lines 2403--2405
 \TU/lmr/m/it/10 Age\TU/lmr/m/n/10 , 2012. []$[][][][] [] [] [] [][][][] [] [][]
 [][][][] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][]$[]. 
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 2220--2222
+Underfull \hbox (badness 4205) in paragraph at lines 2412--2414
 \TU/lmr/m/n/10 ConnecticutHistory.org, December 2014. []$[][][][] [] [] [] [][]
 [][][][][][][][][][][][][][][][] [] [][][] []
  []
 
-[150]
-Overfull \hbox (319.75pt too wide) in paragraph at lines 2232--2234
+[164]
+Overfull \hbox (319.75pt too wide) in paragraph at lines 2424--2426
 \TU/lmr/m/n/10 January 2014. []$[][][][] [] [] [] [][][][][][][][][][][][][][][
 ][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1834,75 +1817,72 @@ Overfull \hbox (319.75pt too wide) in paragraph at lines 2232--2234
  []
 
 
-Overfull \hbox (111.62999pt too wide) in paragraph at lines 2244--2246
+Overfull \hbox (111.62999pt too wide) in paragraph at lines 2436--2438
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/
 10 . 
  []
 
-[151]
-Underfull \hbox (badness 1028) in paragraph at lines 2289--2291
+[165]
+Underfull \hbox (badness 1028) in paragraph at lines 2481--2483
 [][]\TU/lmr/m/n/10 “The Richest City.” \TU/lmr/m/it/10 The Hartford Courant (18
 87-1922)\TU/lmr/m/n/10 . October 23,
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 2292--2294
+Underfull \hbox (badness 2875) in paragraph at lines 2484--2486
 \TU/lmr/m/n/10 17, 1954. []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][
 ] [] [][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][][][][][] [] 
 [][] []
  []
 
 
-Overfull \hbox (188.02199pt too wide) in paragraph at lines 2295--2297
+Overfull \hbox (188.02199pt too wide) in paragraph at lines 2487--2489
 \TU/lmr/m/n/10 cutHistory.org, May 2013. []$[][][][] [] [] [] [][][][][][][][][
 ][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][]$[]. 
  []
 
-[152]
-Underfull \hbox (badness 1466) in paragraph at lines 2331--2333
+[166]
+Underfull \hbox (badness 1466) in paragraph at lines 2523--2525
 [][]\TU/lmr/m/n/10 Wilson, Tracey. “Taking Stock of High Ledge Homes and Restri
 cted
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 2334--2336
+Underfull \hbox (badness 3601) in paragraph at lines 2526--2528
 \TU/lmr/m/n/10 ster House, 2018. []$[][][][][] [] [] [] [][][][][][][][][][][][
 ][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [
 ]
  []
 
-[153]
-Overfull \hbox (14.16998pt too wide) in paragraph at lines 2349--2351
+[167]
+Overfull \hbox (14.16998pt too wide) in paragraph at lines 2541--2543
 [][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][] []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2353.
-[154]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2353.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2545.
+[168]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2545.
 (./Dougherty-etal-OnTheLine.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2353.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2353.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2545.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2545.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
-(rerunfilecheck)             Checksum: 8D75A8AFE881447D9D5C1A999E4619DC.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 6E304839BB24390D99FD8856740F8C52.
  ) 
 Here is how much of TeX's memory you used:
- 22435 strings out of 494894
- 428820 string characters out of 6176153
- 535881 words of memory out of 5000000
- 26107 multiletter control sequences out of 15000+600000
+ 22511 strings out of 494894
+ 430696 string characters out of 6176153
+ 556072 words of memory out of 5000000
+ 26168 multiletter control sequences out of 15000+600000
  553140 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,9n,41p,3899b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Dougherty-etal-OnTheLine.pdf (154 pages).
+Output written on Dougherty-etal-OnTheLine.pdf (168 pages).

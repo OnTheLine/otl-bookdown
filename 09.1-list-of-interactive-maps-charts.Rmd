@@ -1,12 +1,19 @@
 ## List of Interactive Maps and Charts {-}
 *by [Jack Dougherty and Ilya Ilyankou](index.html#authors-and-contributors)*
 
-[//]: (TODO - DECIDE on inserting small map images, perhaps in a table format, and possibly cross-ref links to the map in the context of the book)
+<!-- TODO - DECIDE on inserting small map images, perhaps in a table format, and possibly cross-ref links to the map in the context of the book -->
 
-Figure \@ref(fig:1910-2010-home-value) Interactive Map of Home Value Index in Hartford County, CT, from 1910-2010, <https://ontheline.github.io/otl-home-value/index-frame.html>
+<!-- ref:1910-2010-home-value -->
+Interactive Map of Home Value Index in Hartford County, CT, from 1910-2010, <https://ontheline.github.io/otl-home-value/index-frame.html>
 
-Figure \@ref(fig:1600s-otl-town-borders) Storymap of Town Borders in Hartford County, CT, from 1600s to Present, <https://ontheline.github.io/otl-town-borders/>
+<!-- ref:1600s-otl-town-borders  -->
+Interactive Storymap of Town Borders in Hartford County, CT, from 1600s to Present, <https://ontheline.github.io/otl-town-borders/>
 
-Figure \@ref(fig:1937-holc-hartfordarea-map) Interactive Map of Federal Home Owners' Loan Corporation "Redlining" in Hartford area, 1937, <https://ontheline.github.io/otl-redlining/index-frame.html>
+<!-- ref:1937-holc-hartfordarea-map -->
+Interactive Map of Federal Home Owners' Loan Corporation "Redlining" in Hartford area, 1937, <https://ontheline.github.io/otl-redlining/index-frame.html>
 
-Figure \@ref(fig:1940-otl-covenants): Interactive Map of Restrictive Covenants in Hartford area, 1940s, <https://ontheline.github.io/otl-covenants/index-frame.html>
+<!-- ref:1940-otl-covenants -->
+ Interactive Map of Restrictive Covenants in Hartford area, 1940s, <https://ontheline.github.io/otl-covenants/index-frame.html>
+
+<!-- ref:1847-otl-hphs -->
+Interactive Storymap of Hartford Public High School locations, 1847-present, https://ontheline.github.io/otl-hphs/

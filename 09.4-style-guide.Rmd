@@ -1,9 +1,9 @@
 
 ## *On The Line* Style Guide with Bookdown-flavored Markdown {-}
 
-Comment-out text
+Code comments
 ```
-[//]: (TODO - this comment appears in the source, but not the book output)
+<!-- this comment appears in the source code, but not the book outputs -->
 ```
 
 Use brackets and parentheses for an [embedded link](http://example.com)
@@ -101,12 +101,15 @@ In body of the book, avoid inserting images with simple Markdown syntax, because
 Instead, follow this R code chunk method, especially to display interactive content on the HTML web edition, with static screenshot images in the PDF edition:
 
 - Define a text reference for captions with complex formatting, because this method accepts RMarkdown cites and links. See [Bookdown section 2.2.4](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html)
-- Insert the image using R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, and follow with an if-else statement from Michael Dorman, to display interactive version in HTML and static version in PDF.
+- Leave a BLANK LINE between the text reference and the code chunk coming up
+- Insert an R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, with NO SPACES between ref:chunk-label, and follow with an if-else statement from Michael Dorman, to display interactive version in HTML and static version in PDF.
 - STILL TO DO:
   - Find code fix to gain control over HTML iframe height (> 400px) and also width (ideally 90%)
   - Find code fix to insert a formatted title or header immediately above the image. Ideally, Use equivalent of 5 hashtags for digital image headers, and imperative verbs to hint interactive use (eg. Explore the Map....)
   - Decide whether to insert `fig.align="center"`
   - Decide if `auto.PDF=TRUE` is necessary
+
+REMINDER: If the image/map/video appears a second time in the book (in a separate chapter), be sure to relabel ref: year-title2
 
 ##### Example: Static image, with no interactive version {-}
 (ref:sample-static-image) Caption for sample static image, with Markdown formatting, links, citation.
@@ -128,6 +131,7 @@ if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-
 ```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
 ```
+
 ##### Example: YouTube video clip {-}
 (ref:youtube-sample-video) Here's a sample YouTube caption, with option to add Markdown link and footnote.
 
@@ -152,6 +156,9 @@ if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/ht
 ```{r pdf-sample-local, echo=FALSE, fig.cap="(ref:pdf-sample-local)"}
 if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else knitr::include_graphics("images/sample-pdf-screenshot.png")
 ```
+
+#### Tables
+For now, use Markdown table formatting, with header above and text (as caption) below
 
 #### References for above {-}
 

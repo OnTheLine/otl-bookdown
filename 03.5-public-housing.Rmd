@@ -1,13 +1,14 @@
 ## Racial Barriers to Public Housing {-}
 *by [Emily Meehan and Jack Dougherty](index.html#authors-and-contributors)*
 
-[//]: (TODO - update and expand this introduction, and notes)
+<!-- TODO - update and expand this introduction, and notes -->
 
 As we saw in the previous section, housing discrimination did not occur solely due to private individuals, but often as a result of deliberate actions by public policymakers. Yet in some cases, different levels of government came into direct conflict over this issue. During World War II, the Roosevelt administration clashed with West Hartford political leaders over the right of African-American workers to reside in federal wartime housing. To manufacture weapons to defeat Germany and Japan, the United States Housing Authority (USHA) created shelter for thousands of wartime workers who migrated to work in factories in the city and suburbs of metropolitan Hartford. In comparison to the Federal Housing Administration, the USHA took a racially progressive stance in favor of housing blacks workers wherever need and space existed, even if that meant government-funded housing in virtually all-white neighborhoods. But in West Hartford, racism trumped patriotism. Suburban political leaders mobilized against federal authority to block African-American workers from moving into their community. Even when Washington DC pushed back, local leaders prevailed by finding a legal loophole to block non-whites from moving in.
 
 The Oakwood Acres dispute arose in West Hartford in 1943. Federal housing officials and West Hartford leaders clashed on whether or not African Americans should be allowed to live in the World War II public housing development, located in a virtually all-white town. During this period, public housing tracts were created to shelter the many war workers and their families drawn to the Hartford area by the availability of defense-related jobs. The United States government funded these developments; therefore, local housing officials needed to abide by federal laws regarding occupancy. Federal Housing authorities eventually did require West Hartford to admit African Americans; however, town residents and leaders prevailed by specifying residency criteria in such a way as to maintain the racial homogeneity of their community. Racist actions such as these, even when they occurred decades ago, have been factors in shaping the present-day demographics of West Hartford and other towns in the state.
 
 (ref:1954-02-17-ht-oakwood-acres) Photo of Oakwood Acres public housing in West Hartford, from the *Hartford Times*, February 17, 1954, digitized by the Hartford History Center, Hartford Public Library.^[@hartfordtimesOakwoodAcresTemporary1954]
+
 ```{r 1954-02-17-ht-oakwood-acres, echo=FALSE, fig.cap="(ref:1954-02-17-ht-oakwood-acres)", fig_height=7}
  knitr::include_graphics("images/1954-02-17-ht-oakwood-acres.jpg")
 ```
@@ -17,14 +18,16 @@ An influx of war laborers, both white and African American, and their families c
 
 According to a 1943 Hartford Courant report, “Connecticut has about half of all the government war housing constructed in New England. Half of the government housing in this state has been put up in the Hartford-New Britain area….” With these statistics, one might think that workers’ need for housing in Greater Hartford had been met. However, families and single African American war workers found it more difficult to procure homes. The Courant noted that “400 housing units for white in-migrant families” were being constructed and, in “the case of Negroes,” it was thought that “temporary dormitories” might be built if additional government grants could be obtained. Berkley Cox, chairman of the HHA called this situation “satisfactory.”^[“Housing Reaches 8000 Mark in City and New Britain,” The Hartford Courant, August 14, 1943.]
 
-￼(ref:1943-12-16-metro-news-oakwood) Headline from 1943 *Metropolitan News* stated that "Negroes may not move into Oakwood" wartime public housing in West Hartford. Digitized by West Hartford Public Library.^[@NegroesMayNot1943]
-```{r 1943-12-16-metro-news-oakwood, echo=FALSE, fig.cap="(ref:1943-12-16-metro-news-oakwoode)", fig_height=2}
+(ref:1943-12-16-metro-news-oakwood) Headline from 1943 *Metropolitan News* stated that "Negroes may not move into Oakwood" wartime public housing in West Hartford. Digitized by West Hartford Public Library.^[@NegroesMayNot1943]
+
+```{r 1943-12-16-metro-news-oakwood, echo=FALSE, fig.cap="(ref:1943-12-16-metro-news-oakwood)", fig_height=2}
  knitr::include_graphics("images/1943-12-16-metro-news-oakwood.jpg")
 ```
 
 One unit developed under the HHA was the Oakwood Acres Housing Tract. Located on Oakwood Avenue in West Hartford, it spanned the area between St. Charles Street and Seymour Avenue. Contemporary descriptions present the Oakwood Acres’ living spaces as new, simplistic, and affordable. In 1943, only 14 out of the 300 apartments in the building were occupied at a time when many African Americans either had no place to live or could only find substandard accommodations. The federal government planned to use the complex to provide housing for these workers and their families.[@NegroesMayOccupy1943]
 
 (ref:1951-2013-aerial-oakwood) Aerial images of Oakwood Acres Housing Tract, in 1951 and today, on the West Hartford border with Hartford, from MAGIC UConn Libraries.
+
 ```{r 1951-2013-aerial-oakwood, echo=FALSE, fig.cap="(ref:1951-2013-aerial-oakwood)", fig_height=5}
  knitr::include_graphics("images/1951-2013-aerial-oakwood.jpg")
 ```

@@ -1,7 +1,7 @@
 ## Who Owns Oral History? A Creative Commons Solution {-}
 *by [Jack Dougherty and Candace Simpson](index.html#authors-and-contributors)*
 
-*An earlier version of this essay was published in 2012 in [Oral History in the Digital Age](http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/).[@doughertyWhoOwnsOral2012]*
+*This is an updated version of an essay that was previously published in 2012 in an open-access book, [Oral History in the Digital Age](http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/).^[@doughertyWhoOwnsOral2012]*
 
 Who “owns” oral history? When an oral history narrator shares her story in response to questions posed by an interviewer, and the recording and transcript are deposited in an archive, who holds the rights to these historical source materials? Who decides whether or not they may be shared with the public, quoted in a publication, or uploaded to the web? Who decides whether someone has the right to earn money from including an interview in a commercially distributed book, video, or website? Furthermore, does [Creative Commons](http://creativecommons.org), a licensing tool developed by the open access movement to protect copyright while increasing public distribution, offer a better solution to these questions than existing oral history protocols?[http://creativecommons.org]
 
@@ -32,7 +32,11 @@ Given my understanding of oral history and copyright law as a graduate student i
 
 Candace: When I began working with the *On The Line* public history web-book project in the summer of 2011, one of my tasks was to conduct oral history interviews with Hartford civil rights activists. At this point, our research team had stopped using conventional consent forms (which asked participants to “sign over” all rights to their interviews) and had begun using a new form that Jack developed with Creative Commons language. Basically, Creative Commons (CC) is a standardized license that maintains the original copyright for the creator of a work, and allows it to be shared more widely with the public, with certain restrictions if desired. Initially released in 2002 with support from the Center for the Public Domain, there are now [six types of CC licenses](https://creativecommons.org/licenses/) that offer different combinations of licensing terms for source attribution (BY), no derivative works (ND), share alike (SA), and non-commercial (NC) use.^[https://creativecommons.org/licenses/]
 
-![Six types of Creative Commons licenses, image source: http://education-copyright.org/creative-commons, 2012](images/2012-cc-licenses.jpg)
+(ref:2012-cc-licenses) Six types of Creative Commons licenses. [Image source](http://education-copyright.org/creative-commons), 2012.
+
+```{r 2012-cc-licenses, echo=FALSE, fig.cap="(ref:2012-cc-licenses)", fig_height=7}
+ knitr::include_graphics("images/2012-cc-licenses.jpg")
+```
 
 At present, our standard oral history consent form uses the CC By Attribution—NonCommercial license, with this key language:
 
@@ -51,9 +55,12 @@ We prefer the Creative Commons (CC) consent form because it clearly keeps the co
 
 In Hartford, a specific oral history interview we conducted with school integration activist Elizabeth Horton Sheff deserves mention, because she took our Creative Commons consent form one step further by renegotiating its terms, just before we began our video recording. Sheff agreed with our goal of preserving her oral history for the public good, but her primary concern was to avoid being quoted out of context, as she had experienced with journalists in the past. She wanted her oral history interview to be made available in its totality on the web, but not to allow others to create a modified or excerpted version. Fortunately, Sheff was familiar with Creative Commons because her son is in the independent music business. She asked for a “no derivatives” restriction, and on the spot, we modified the consent form license to the ByAttribution-NonCommercial-NoDerivatives CC license. As a result, her video recorded interview and transcript both appear in the Trinity College library digital repository, but to respect her restriction, we blocked users from downloading a copy of the video, to make it harder for them to create an edited version. Yet anyone can move the video time slider on their web browser to watch only a certain portion if desired (such as minutes 28 to 32). Furthermore, anyone may download the transcript of the interview, and quote from the text under “fair use” guidelines.[@sheffOralHistoryInterview2011]
 
-#### Oral History Video with Elizabeth Horton Sheff, 2011 {-}
-<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
-*View the [oral history video interview and transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with Elizabeth Horton Sheff, and other participants in the Sheff v O'Neill school desegregation lawsuit.*^[@sheffOralHistoryInterview2011]
+<!-- TODO - if moving all interviews to CTDA, then drop reference to Trinity repository below -->
+(ref:2011-sheff-elizabeth3) View the [oral history video interview and transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with Elizabeth Horton Sheff in 2011.^[@sheffOralHistoryInterview2011]. See additional oral histories with participants in the Sheff v O'Neill school desegregation lawsuit.^[@citiessuburbsandschoolsprojecttrinitycollegedigitalrepository; @citiessuburbsandschoolsprojectconnecticutdigitalarchive.]
+
+```{r 2011-sheff-elizabeth3, echo=FALSE, fig.cap="(ref:2011-sheff-elizabeth3)"}
+if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth")
+```
 
 We do not contend that Creative Commons has resolved all of our questions about who “owns” oral history, nor do we claim expertise in intellectual property law. But as oral historians seeking alternatives, we believe that this combination—--traditional copyright with Creative Commons licensing—--fulfills our dual needs to maintain the rights of individual participants while sharing history with the public.
 
