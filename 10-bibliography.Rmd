@@ -1,3 +1,53 @@
 # Bibliography
 
-Below is a **automated running list** of source cited in this **book-in-progress**.
+### About undergraduate co-authors {-}
+Since 2002, over 30 Trinity College student researchers have co-authored publications and/or research presentations with faculty, staff, and community partners through the [Cities Suburbs and Schools Project](http://commons.trincoll.edu/cssp/). CSSP is both an undergraduate seminar and a research team for independent studies. Their works listed below include articles, book chapters, papers, and presentations, and many of these have been archived in the [Papers and Publications section](http://digitalrepository.trincoll.edu/cssp_papers/) of the Cities Suburbs and Schools Project on the Trinity College Digital Repository.
+
+<!-- REMINDER - save in Zotero as web pages, title and URL, no accessed dates, export biblio with Chicago angle brackets, and find/replace to swap "." for "." -->
+### Archival Collections {-}
+Aerial Photographs of Connecticut, Connecticut State Library. <http://cslib.cdmhost.com/digital/collection/p4005coll10>.
+Avon History Collection, Avon Public Library. <http://avonhistory.info>.
+Boyd Hinds Papers, Hartford History Center, Hartford Public Library. <http://hhc2.hplct.org/boyd_hinds.html>.
+Butch Lewis Video Collection, Hartford History Center, Hartford Public Library. <http://hhc.hplct.org/butch-lewis-video-collection/>.
+Case Look-up, Judicial Branch, State of Connecticut. <https://www.jud.ct.gov/jud2.htm>.
+Cities Suburbs and Schools Project, Connecticut Digital Archive. <http://collections.ctdigitalarchive.org/islandora/object/120002%3Acssp>.
+Cities Suburbs and Schools Project, Trinity College Digital Repository. <http://digitalrepository.trincoll.edu/cssp/>.
+Connecticut Digital Archive. <http://collections.ctdigitalarchive.org/>.
+Connecticut Historical Society. <https://chs.org/>.
+Connecticut History Illustrated. <http://connecticuthistoryillustrated.org/>.
+Connecticut Open Data, State of Connecticut. <https://data.ct.gov/>.
+Connecticut State Data Center, University of Connecticut. <http://ctsdc.uconn.edu/>.
+Connecticut State Library. <https://ctstatelibrary.org/>.
+ConnecticutHistory.org, CTHumanities. <https://connecticuthistory.org/>.
+Critical Commons. <http://www.criticalcommons.org/Members/jackdougherty/clips>.
+CT Mirror. <https://ctmirror.org>.
+Decennial Publications, US Census Bureau. <https://www.census.gov/prod/www/decennial.html>.
+Dodd Research Center, University of Connecticut. <http://thedoddcenter.uconn.edu/>.
+Google Books. <https://books.google.com/>.
+Google Scholar. <https://scholar.google.com/>.
+GovInfo, US Government Publishing Office. <https://www.govinfo.gov/>.
+Hartford Courant, Historical Newspapers, ProQuest. <https://search.proquest.com/hnphartfordcourant>.
+Hartford Data, City of Hartford. <https://data.hartford.gov/>.
+Hartford History Center, Hartford Public Library. <http://hhc.hplct.org/>.
+Hartford Public High School Museum & Archive. <https://hphs1638.wordpress.com/>.
+Hartford Studies Collection, Trinity College. <https://digitalrepository.trincoll.edu/hartford_papers/>.
+Hartford Times newspaper photos, Hartford Public Library. Accessed August 6, 2017. <http://hhc.hplct.org/resources/>.
+HathiTrust Digital Library. <https://www.hathitrust.org/>.
+Internet Archive. <https://archive.org/>.
+Jewish Historical Society of Greater Hartford. <https://jhsgh.org/>.
+Map and Geographic Information Center (MAGIC), University of Connecticut Libraries. <http://magic.lib.uconn.edu/>.
+Map Warper, New York Public Library. <http://maps.nypl.org/warper/>.
+Map Warper, Topomancy LLC). <http://mapwarper.net/>.
+National Center for Education Statistics, US Department of Education. <https://nces.ed.gov/ccd/>.
+Public Access to Court Electronic Records (PACER). <https://www.pacer.gov/pcl.html>.
+Research-It CT, Connecticut State Library. <https://researchitct.org/newspapers/>.
+Social Explorer. <https://www.socialexplorer.com/>.
+Trinity College Digital Repository. <https://digitalrepository.trincoll.edu/>.
+Trinity College Library. <http://www.trincoll.edu/LITC/Library/Pages/default.aspx>.
+US Library of Congress. <https://www.loc.gov/>.
+US National Archives. <https://www.archives.gov/>.
+Watkinson Library & College Archives, Trinity College Library. <http://www.trincoll.edu/LITC/Watkinson/Pages/default.aspx>.
+West Hartford History Online, West Hartford Public Library. <https://history.westhartfordlibrary.org/>.
+WorldCat. <https://www.worldcat.org/>.
+
+### Automated list of sources cited in book-in-progress {-}
