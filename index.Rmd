@@ -20,7 +20,7 @@ output:
     dev: svglite
     css: css/style.css
     includes:
-      in_header: custom-scripts.html
+      in_header: [custom-scripts.html, google-analytics-otl.html]
     split_by: chapter
     split_bib: true
     number_sections: true
