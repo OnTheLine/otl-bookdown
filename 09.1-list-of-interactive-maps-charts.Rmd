@@ -4,7 +4,7 @@
 <!-- TODO - DECIDE on inserting small map images, perhaps in a table format, and possibly cross-ref links to the map in the context of the book -->
 
 <!-- ref:1910-2010-home-value -->
-Interactive Map of Home Value Index in Hartford County, CT, from 1910-2010, <https://ontheline.github.io/otl-home-value/index-frame.html>
+Interactive Map of Home Value Index in Hartford County, CT, from 1910-2010, <https://ontheline.github.io/otl-home-value/index-caption.html>
 
 <!-- ref:1600s-otl-town-borders  -->
 Interactive Storymap of Town Borders in Hartford County, CT, from 1600s to Present, <https://ontheline.github.io/otl-town-borders/>
