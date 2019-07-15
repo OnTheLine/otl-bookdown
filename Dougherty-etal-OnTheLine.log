@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  15 JUL 2019 10:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  15 JUL 2019 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,8 +848,8 @@ kinner, “Save Twain Home, Urges Otis Skinner:
  []
 
 [30] [31] [32]
-File: images/1910-2010-home-value.jpg Graphic file (type bmp)
-<images/1910-2010-home-value.jpg>
+File: images/1910-2010-otl-home-value.jpg Graphic file (type bmp)
+<images/1910-2010-otl-home-value.jpg>
 [33]
 File: images/1600s-otl-town-borders.jpg Graphic file (type bmp)
 <images/1600s-otl-town-borders.jpg>
@@ -919,8 +919,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 566--568
 [39]
 File: images/1937-holc-hartford-map-scan.jpg Graphic file (type bmp)
 <images/1937-holc-hartford-map-scan.jpg>
-File: images/1937-holc-hartfordarea-map.png Graphic file (type bmp)
-<images/1937-holc-hartfordarea-map.png>
+File: images/1937-otl-redlining.png Graphic file (type bmp)
+<images/1937-otl-redlining.png>
 [40] [41] [42]
 File: images/1937-holc-inhabitants-c10.png Graphic file (type bmp)
 <images/1937-holc-inhabitants-c10.png>
@@ -1216,13 +1216,13 @@ Overfull \hbox (80.96008pt too wide) in alignment at lines 1088--1105
 File: images/1876-scribners-monthly.png Graphic file (type bmp)
 <images/1876-scribners-monthly.png>
 [92] [93]
-File: images/1910-2010-home-value.jpg Graphic file (type bmp)
-<images/1910-2010-home-value.jpg>
+File: images/1910-2010-otl-home-value.jpg Graphic file (type bmp)
+<images/1910-2010-otl-home-value.jpg>
 File: images/1847-otl-hphs.png Graphic file (type bmp)
 <images/1847-otl-hphs.png>
 [94] [95] [96]
-File: images/1937-holc-hartfordarea-map.png Graphic file (type bmp)
-<images/1937-holc-hartfordarea-map.png>
+File: images/1937-otl-redlining.png Graphic file (type bmp)
+<images/1937-otl-redlining.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 1153--1153
 [][][]\TU/lmr/m/n/8 “Trinity College Students Call Attention to Histories of In
@@ -1403,13 +1403,6 @@ File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
 
 ]
 Chapter 9.
-
-Underfull \hbox (badness 2503) in paragraph at lines 1542--1543
-\TU/lmr/m/n/10 Hartford area, 1937, []$[][][][][] [] [] [] [][][][][][][][][] [
-] [][][][][][] [] [][] [] [][][][][][][][][][][][][][] [] [][][][][][][][][][][
-][] []
- []
-
 [139]
 Underfull \hbox (badness 3977) in paragraph at lines 1567--1569
 []\TU/lmr/m/n/10 Install R Project statistical programming language []$[][][][]
@@ -2022,8 +2015,8 @@ d.
  ) 
 Here is how much of TeX's memory you used:
  22513 strings out of 494894
- 430753 string characters out of 6176153
- 558245 words of memory out of 5000000
+ 430729 string characters out of 6176153
+ 557339 words of memory out of 5000000
  26170 multiletter control sequences out of 15000+600000
  553140 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
