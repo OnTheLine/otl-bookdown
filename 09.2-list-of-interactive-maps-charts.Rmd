@@ -17,3 +17,5 @@ Interactive Map of Federal Home Owners' Loan Corporation "Redlining" in Hartford
 
 <!-- ref:1847-otl-hphs -->
 Interactive Storymap of Hartford Public High School locations, 1847-present, https://ontheline.github.io/otl-hphs/
+
+TODO - more to come
