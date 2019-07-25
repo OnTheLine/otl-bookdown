@@ -55,37 +55,6 @@ For a block quote, start each line with a caret **AND** add two spaces to insert
 > --- Mark Twain  
 > --- notable American author  
 
-
-#### Zotero Settings and Footnotes {-}
-
-This workflow uses open-source Zotero bibliography manager (http://zotero.org) with Better BibTeX extension (https://retorque.re/zotero-better-bibtex/). See [Better BibTeX installation](https://retorque.re/zotero-better-bibtex/installation/). This allows the author to insert footnote codes (example: `@tyackOneBestSystem1974`) and configure bookdown settings (such as Chicago note format) that pull footnotes from a recently downloaded Zotero collection, rather than typing each note directly into the book.
-
-Zotero preferences > Better BibTeX
-
-- add URLs to BibTeX export > in a note field
-- when ref has both DOI and URL, export > both
-
-To export from Zotero:
-
-- select library > right-click to export collection
-- select format > Better BibLaTeX (*IMPORTANT* I switched to this format to include full dates in newspaper citations, and urls) and leave checkboxes blank (I do not use "keep updated")
-- save output as ontheline.bib (or whatever matches your config settings) and save into book repo
-
-Chicago full-note *appears* to be working exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (Author, title when appropriate). Ideally, modify the CSL to show full note in *every* instance in the web version.
-
-These Zotero types appear correctly with this Bookdown workflow:
-
-- book
-- book chapter
-- journal
-- newspaper
-- thesis
-- report
-- blog post
-- web page
-- document (use this in place of: law case, presentation, interview, video recording, television broadcast; insert details, such as archival location, in the Publisher field)
-
-
 A text-only footnote.^[This is a footnote, with no reference]
 
 BibText footnote with semi-colons to separate cites: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
