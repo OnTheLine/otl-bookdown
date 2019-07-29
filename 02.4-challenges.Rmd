@@ -9,12 +9,12 @@ TODO - expand chapter
 
 (ref:1925-one-room-schools) This map illustrated the gradual decline of one-room schools across Connecticut from 1921 to 1925, according to the State Board of Education.^[@connecticutstateboardofeducationOneRoomSchoolsConnecticut1926]
 
-```{r 1925-one-room-schools, echo=FALSE, fig.cap="(ref:1925-one-room-schools)", fig_height=7}
+```{r 1925-one-room-schools, echo=FALSE, fig.cap="(ref:1925-one-room-schools)"}
  knitr::include_graphics("images/1925-one-room-schools.png")
 ```
 
 (ref:1901-csde-one-room-school-p3) In 1901, the Connecticut State Board of Education attempted to shame towns by printing photos of low-quality one-room schools, without the name of the town. .^[@connecticutstateboardofeducationAnnualReportConnecticut1901]
 
-```{r 1901-csde-one-room-school-p3, echo=FALSE, fig.cap="(ref:1901-csde-one-room-school-p3)", fig_height=7}
+```{r 1901-csde-one-room-school-p3, echo=FALSE, fig.cap="(ref:1901-csde-one-room-school-p3)", out.width="50%"}
  knitr::include_graphics("images/1901-csde-one-room-school-p3.jpg")
 ```

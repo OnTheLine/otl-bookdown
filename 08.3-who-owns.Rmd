@@ -34,7 +34,7 @@ Candace: When I began working with the *On The Line* public history web-book pr
 
 (ref:2012-cc-licenses) Six types of Creative Commons licenses. [Image source](http://education-copyright.org/creative-commons), 2012.
 
-```{r 2012-cc-licenses, echo=FALSE, fig.cap="(ref:2012-cc-licenses)", fig_height=7}
+```{r 2012-cc-licenses, echo=FALSE, fig.cap="(ref:2012-cc-licenses)"}
  knitr::include_graphics("images/2012-cc-licenses.jpg")
 ```
 

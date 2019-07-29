@@ -17,7 +17,7 @@ For the past two years, Dougherty and Ceglio have collaborated on this Connectic
 
 (ref:2013-ceglio-teaches) Clarissa Ceglio teaches Trinity students Emily Meehan and Sean McGann how to write for ConnecticutHistory.org.
 
-```{r 2013-ceglio-teaches, echo=FALSE, fig.cap="(ref:2013-ceglio-teaches)", fig_height=5}
+```{r 2013-ceglio-teaches, echo=FALSE, fig.cap="(ref:2013-ceglio-teaches)"}
  knitr::include_graphics("images/2013-ceglio-teaches-meehan-mcgann.jpg")
 ```
 
@@ -32,7 +32,7 @@ After students revise their second drafts and embed links and images to relevant
 
 (ref:2013-seminar-googledoc) Students and mentors comment on draft essays using Google Documents.
 
-```{r 2013-seminar-googledoc, echo=FALSE, fig.cap="(ref:2013-seminar-googledoc)", fig_height=5}
+```{r 2013-seminar-googledoc, echo=FALSE, fig.cap="(ref:2013-seminar-googledoc)"}
  knitr::include_graphics("images/2013-seminar-googledoc.jpg")
 ```
 

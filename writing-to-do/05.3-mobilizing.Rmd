@@ -7,7 +7,7 @@ Ramos, Dixon, and Hinds co-founded Education/Instrucción, an innovative team wi
 
 (ref:1974circa-ei) Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos McKay, Ben Dixon, circa 1974.^[@education/instruccionCodirectorsBoydHinds1974]
 
-```{r 1974circa-ei, echo=FALSE, fig.cap="(ref:1974circa-ei)", fig_height=5}
+```{r 1974circa-ei, echo=FALSE, fig.cap="(ref:1974circa-ei)"}
  knitr::include_graphics("images/1974circa-education_instruccion_dixon-papers.jpg")
 ```
 

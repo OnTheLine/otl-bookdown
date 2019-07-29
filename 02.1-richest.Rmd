@@ -8,7 +8,7 @@ In addition its financial assets, Clark also praised Hartford's abundant cultura
 (ref:1876-scribners-monthly) Scroll [the full-screen document](https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html) from *Scribner's Monthly* in 1876, which declared Hartford as "the richest city in the United States," relative to its population. Digitized by Google Books.^[@clarkCharterOakCity1876]
 
 <!-- set iframe height to 660px and width to 700px in custom-scripts.html -->
-```{r 1876-scribners-monthly, echo=FALSE, fig.cap="(ref:1876-scribners-monthly)", fig_height=7}
+```{r 1876-scribners-monthly, echo=FALSE, fig.cap="(ref:1876-scribners-monthly)"}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html") else knitr::include_graphics("images/1876-scribners-monthly.png")
 ```
 
@@ -29,7 +29,7 @@ A century later, that relationship had reversed, as home values in the city fell
 (ref:1910-2010-otl-home-value) Explore the [full-screen interactive map](https://ontheline.github.io/otl-home-value/index-caption.html) of home values in Hartford County, 1910-2010. The most valuable single-family homes (in dark green) shifted from the capital city to selected suburbs over time. Click the tabs or use arrow keys to advance years. Hover over towns for details. Home values have been indexed (where county average = 1.0) to adjust for rising prices over time. Missing values appear in gray. Sources: 1910-1980 from Connecticut Tax Commissioner, author's calculation of average dwelling value from equalized assessments; 1990 from Capital Region Council of Governments, median single-family home sales price; 2000-10 from State of Connecticut, Office of Policy and Management, average single-family home sales price (2000-2010). Learn more in “Calculating Wealth and Poverty in Past and Present" chapter, TO COME in this book. View [historical sources and code](https://github.com/OnTheLine/otl-home-value) for this map, developed by Ilya Ilyankou and Jack Dougherty, based on an earlier version with UConn MAGIC.^[@ilyankouMapHomeValue2017]
 
 <!-- set iframe height 575px in custom-scripts.html -->
-```{r 1910-2010-otl-home-value, echo=FALSE, fig.cap="(ref:1910-2010-otl-home-value)", fig_height=7}
+```{r 1910-2010-otl-home-value, echo=FALSE, fig.cap="(ref:1910-2010-otl-home-value)"}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-home-value/") else knitr::include_graphics("images/1910-2010-otl-home-value.jpg")
 ```
 

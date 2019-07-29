@@ -7,9 +7,13 @@ We are building this open-access book with open-source tools---namely Bookdown, 
 - [GitHub](http://github.com) is an open-source repository that enables us to publicly share the text and code in this book, with a version-control system that allows collaborators to work on different sections at the same time. Also, the [GitHub Pages](http://pages.github.com) feature allows us to freely host online all of the book editions (Web, PDF, etc.), with a custom domain name purchased through another service, [Reclaim Hosting](http://reclaimhosting.com). As this is an open-access publication, we intentionally make its contents public---and also share instructions like this---while we work on the book, which is consistent with the contract signed with our open-access publisher. Note that GitHub also allows users the option to make repositories private.
 - [Zotero](http://zotero.org) is an open-source bibliography manager to collect sources and organize citations, created by the Roy Rosenzweig Center for History and New Media at George Mason University. [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex) is an extension by Emiliano Heynes that makes Zotero citation keys work better with Markdown text workflows. While Bookdown does not require using Zotero, scholars who need to manage multiple source materials and citations will benefit from the Bookdown---Zotero---Better BibTeX workflow described below.
 
-<!-- TODO -- insert a large photo of my desktop to illustrate these tools working together, and/or video screencast of the workflow -->
+(ref:0-bookdown-desktop) Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
 
-#### Alternative Tools and Platforms {-}
+```{r 0-bookdown-desktop, echo=FALSE, fig.cap="(ref:0-bookdown-desktop)"}
+ knitr::include_graphics("images/bookdown/0-bookdown-desktop.png")
+```
+
+#### Alternative Tools to Consider {-}
 Before leaping into any software platform, consider the costs and benefits of using that tool to achieve your goal, such as writing and publishing a web-and-print book like this one.
 
 - Conventional word processors: Most authors work primarily with text, and are content with a traditional book-publishing workflow that begins with composing in Microsoft Word or LibreOffice, then handing it off to a publisher for review, copyediting, layout, and distribution. But this book is designed to blend text and digital media (such as interactive maps, video clips, scanned documents, and links) and publishing the book in two formats: on the public web (for free) and an inexpensive paperback (for sale). Traditional word processors do not achieve this goal.
@@ -33,7 +37,7 @@ Below are steps we followed to setup the publishing platform for this book, usin
 - To finish the installation, in the RStudio console, type `tinytex::install_tinytex()` and press return. [See screenshot](images/bookdown/7-finish-install-tinytex.png)
 
 ##### Sidenote: About the PDF edition, and TinyTeX vs XelaTex {-}
-The Bookdown-generated PDF edition is still a work-in-progress. Read more about various options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>. To avoid some unicode error messages when generating the PDF edition for this book, we installed XelaTex instead of TinyTeX. If you do the same, be sure to modify this line in your Bookdown index.Rmd settings: `latex_engine: xelatex`
+The PDF edition of this Bookdown-generated publication is still a work-in-progress, and the settings are not yet finalized. Read more about various options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>. To avoid some unicode error messages when generating the PDF edition for this book, we installed XelaTex instead of TinyTeX. If you do the same, be sure to modify this line in your Bookdown index.Rmd settings: `latex_engine: xelatex`
 
 ##### Sidenote: If TinyTeX installation error {-}
 - Once upon a time, we received this error message when attempting to install tinytex in RStudio on our Mac: `/usr/local/bin not writeable`. We resolved by reading the software developer's GitHub issue <https://github.com/yihui/tinytex/issues/24> and following these steps:

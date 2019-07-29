@@ -36,7 +36,7 @@ White racial anxiety at Bloomfield High was driven by the dramatic shift in raci
 
 (ref:1967-1984-bloomfield-by-race) This chart of racial change at Bloomfield High School, 1967-84, shows how it tipped from a White-majority to a Black-majority student population in the early 1980s, just before Bloomfield town leaders authorized the arrest of Saundra Foster and other parents.^[CT State Department of Education, Fall 1967, 1977-1984, with data interpolated for missing years. Link to raw data TODO]
 
-```{r 1967-1984-bloomfield-by-race, echo=FALSE, fig.cap="(ref:1967-1984-bloomfield-by-race)", fig_height=7}
+```{r 1967-1984-bloomfield-by-race, echo=FALSE, fig.cap="(ref:1967-1984-bloomfield-by-race)"}
  knitr::include_graphics("images/1967-1984-bloomfield-by-race.png")
 ```
 
@@ -52,7 +52,7 @@ Some news reporters  also played into suburban readers’ anxieties over non-res
 
 (ref:1985-04-05-hc-englehart) Amid the controversial arrest of Saundra Foster, *Hartford Courant* political cartoonist Bob Englehart portrayed Black Hartford students arriving at Bloomfield High School hidden in the trunks of cars, conjuring imagery of "illegal aliens" crossing the US-Mexico border. Source: Hartford Courant, copyrighted 1985, included here under fair-use guidelines.^[@englehartEditorialCartoonBloomfield1985]
 
-```{r 1985-04-05-hc-englehart, echo=FALSE, fig.cap="(ref:1985-04-05-hc-englehart)", fig_height=7}
+```{r 1985-04-05-hc-englehart, echo=FALSE, fig.cap="(ref:1985-04-05-hc-englehart)"}
  knitr::include_graphics("images/1985-04-05-hc-englehart.png")
 ```
 

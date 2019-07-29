@@ -4,16 +4,20 @@
 
 We encourage readers to access the free web edition of this digital book-in-progress at (http://ontheline.trincoll.edu), to fully experience the interactive maps, video clips, and source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones).
 
-The web edition also shows these features near the top of the screen:
+The web edition also displays these features near the top of the screen:
 
 - Menu
 - Search
 - Font (adjust text size and display)
 - Edit (to suggest edits or comment; requires free [GitHub](http://github.com) account)
 - Download (PDF edition)
-- Keyboard Shortcuts (arrow keys to navigate; s to toggle sidebar; f to toggle search)
+- Keyboard Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
 
-![Screenshot of web reading options](images/how-to-read.png)
+(ref:how-to-read) Search and reading features displayed near the top of the web edition.
+
+```{r how-to-read, echo=FALSE, fig.cap="(ref:how-to-read)", out.width="70%", fig.align="center"}
+ knitr::include_graphics("images/how-to-read.png")
+```
 
 Also, readers may freely download the PDF edition, as described above, and print it on paper for off-line reading. Static images will appear in place of interactive maps and videos, with links to the online versions. **PDF formatting is not finished** for this book-in-progress. After the book is completed, a cleaner PDF edition will be made available, and the publisher will make an inexpensive print edition available for sale.
 

@@ -9,7 +9,7 @@ The Oakwood Acres dispute arose in West Hartford in 1943. Federal housing offici
 
 (ref:1954-02-17-ht-oakwood-acres) Photo of Oakwood Acres public housing in West Hartford, from the *Hartford Times*, February 17, 1954, digitized by the Hartford History Center, Hartford Public Library.^[@hartfordtimesOakwoodAcresTemporary1954]
 
-```{r 1954-02-17-ht-oakwood-acres, echo=FALSE, fig.cap="(ref:1954-02-17-ht-oakwood-acres)", fig_height=7}
+```{r 1954-02-17-ht-oakwood-acres, echo=FALSE, fig.cap="(ref:1954-02-17-ht-oakwood-acres)"}
  knitr::include_graphics("images/1954-02-17-ht-oakwood-acres.jpg")
 ```
 The advent of World War II brought significant changes to a country that had been in the grip of a deep financial depression. Across the nation, as people moved into cities looking for jobs in wartime defense industries, demand for housing soared. Often, that demand far exceeded the availability of properties to purchase or even rent. In 1940, President Franklin D. Roosevelt and the United States Congress established the United States Housing Authority (USHA) and authorized it to build public housing units with the goal of providing adequate living quarters for war workers.^[Kristin M Szylvian, “The Federal Housing Program during World War II,” in From Tenements to the Taylor Homes: In Search of an Urban Housing Policy in Twentieth-Century America, ed. John F Bauman, Roger Biles, and Kristin M. Szylvian (University Park, Pa.: Pennsylvania State University Press, 2000), 121–38, https://books.google.com/books?id=YZ9mO3NLP90C&pg=PA121#v=onepage&q&f=false.]
@@ -20,7 +20,7 @@ According to a 1943 Hartford Courant report, “Connecticut has about half of al
 
 (ref:1943-12-16-metro-news-oakwood) Headline from 1943 *Metropolitan News* stated that "Negroes may not move into Oakwood" wartime public housing in West Hartford. Digitized by West Hartford Public Library.^[@NegroesMayNot1943]
 
-```{r 1943-12-16-metro-news-oakwood, echo=FALSE, fig.cap="(ref:1943-12-16-metro-news-oakwood)", fig_height=2}
+```{r 1943-12-16-metro-news-oakwood, echo=FALSE, fig.cap="(ref:1943-12-16-metro-news-oakwood)"}
  knitr::include_graphics("images/1943-12-16-metro-news-oakwood.jpg")
 ```
 
@@ -28,7 +28,7 @@ One unit developed under the HHA was the Oakwood Acres Housing Tract. Located on
 
 (ref:1951-2013-aerial-oakwood) Aerial images of Oakwood Acres Housing Tract, in 1951 and today, on the West Hartford border with Hartford, from MAGIC UConn Libraries.
 
-```{r 1951-2013-aerial-oakwood, echo=FALSE, fig.cap="(ref:1951-2013-aerial-oakwood)", fig_height=5}
+```{r 1951-2013-aerial-oakwood, echo=FALSE, fig.cap="(ref:1951-2013-aerial-oakwood)"}
  knitr::include_graphics("images/1951-2013-aerial-oakwood.jpg")
 ```
 
