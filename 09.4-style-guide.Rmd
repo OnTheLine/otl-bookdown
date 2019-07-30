@@ -75,7 +75,7 @@ In body of the book, avoid inserting images with simple Markdown syntax, because
 - Insert an R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, with NO SPACES between ref:chunk-label, as shown below.
 - To reduce the width (or height) of the output, add `out.width="30%"` to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert `fig.align="center"`.
 - To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)
-- If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in `custom-scripts.html` and add a code comment to the text to serve as a reminder, as shown below.
+- If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in `custom-scripts.html` and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the `index.Rmd` file includes the custom script in the header, as described in the section above.
 
 - Reminders:
   - If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.
