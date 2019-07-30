@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  30 JUL 2019 15:44
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.29)  30 JUL 2019 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,7 +1083,10 @@ Underfull \hbox (badness 3977) in paragraph at lines 1031--1031
 [] []$[]\TU/lmr/m/n/8 ; education/instruccionFairHousingIts1974c;
  []
 
-[83] [84] [85] [86] [87]
+[83] [84] [85]
+Underfull \vbox (badness 1924) has occurred while \output is active []
+
+[86] [87]
 Underfull \hbox (badness 1675) in paragraph at lines 1095--1095
 \TU/lmr/m/n/8 vision broadcast video, August 31, 1985), []$[][][][] [] [] [] []
 [][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][] []
@@ -2100,14 +2103,14 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3089.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
-(rerunfilecheck)             Checksum: 40F0DFD179EB2E806B57AB8FA843C4E3.
+(rerunfilecheck)             Checksum: A1874E91505F79EC46553404A99381AC.
  ) 
 Here is how much of TeX's memory you used:
- 22570 strings out of 494894
- 434028 string characters out of 6176153
+ 22568 strings out of 494894
+ 433973 string characters out of 6176153
  563625 words of memory out of 5000000
- 26219 multiletter control sequences out of 15000+600000
- 553148 words of font info for 73 fonts, out of 8000000 for 9000
+ 26218 multiletter control sequences out of 15000+600000
+ 553140 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,9n,41p,3899b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
