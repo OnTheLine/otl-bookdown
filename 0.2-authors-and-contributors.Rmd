@@ -1,29 +1,62 @@
 ## Authors and Contributors {-}
-<!-- TODO - table of photos and text displays well in HTML, but need to find way to display in PDF. Image code-chunks inside markdown table did not work. -->
-|               |               |
-| ------------- | ------------- |
-| ![](images/dougherty-jack-150.png) | Jack Dougherty, the lead author of *On The Line*, is Professor of Educational Studies and Director of the Center for Hartford Engagement and Research (CHER) at Trinity College. He collaborates with students, colleagues, and community partners to explore cities, suburbs, and schools in metropolitan Hartford, Connecticut, using data visualization, digital history, and web writing tools. Contact him on his [faculty profile page](http://internet2.trincoll.edu/facprofiles/Default.aspx?fid=1004266), or follow him [on Twitter](http://twitter.com/doughertyjack) or on his blog <http://jackdougherty.org>. |
-| **Trinity College**  |   |
-| ![](images/agosto-jasmin-150.png) | Jasmin Agosto (Trinity College Class of 2010 with bachelor's degree in American Studies and Educational Studies) co-authored [Mobilizing Against Racial Steering and Redlining](challenging.html#mobilizing-against-racial-steering-and-redlining), and also researched 18th-19th century school documents, and decades of school residency cases.     |
-| ![](images/benjamin-richelle-150.png)  | Richelle Benjamin (Trinity College Class of 2015 with bachelor's degree in Educational Studies and Hispanic Studies) researched school residency cases and conducted oral history interviews.   |
-| ![](images/ilyankou-ilya-150.png) | Ilya Ilyankou (Trinity College Class of 2018 with bachelor's degree in Computer Science and Studio Arts) developed several interactive maps in this book. His open-source code and map links are available at our GitHub public repository: <http://github.com/OnTheLine/>.    |
-| ![](images/iorio-vianna-150.png) | Vianna Iorio (Trinity College Class of 2019 with double major in Educational Studies and English) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants), [Jumping the School District Line](challenging.html#jumping-the-school-district-line), and other chapters TO COME.   |
-| ![](images/levasseur-katie-150.png) | Katie Campbell Levasseur (Trinity College Class of 2011 with bachelor's degree in Educational Studies and Mathematics) conducted restrictive covenant property records research and co-authored [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants).   |
-| ![](images/lee-jiyun-150.png) | JiYun (Lisa) Lee (Trinity College Class of 2017 with bachelor's degree in Educational Studies and Psychology) co-authored [Jumping the School District Line](challenging.html#jumping-the-school-district-line).   |
-| ![](images/mcgann-shaun-150.png) | Shaun McGann (Trinity Colege Class of 2014 with bachelor's degree in Political Science and Urban Studies) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).   |
-| ![](images/simpson-candace-150.png) | Candace Simpson (Trinity College Class of 2012 with bachelor's degree in Educational Studies) co-authored [Who Owns Oral History? A Creative Commons Solution](creating.html#who-owns-oral-history-a-creative-commons-solution) and conducted oral history interviews on restrictive property covenants and Sheff v. O'Neill.  |
-| **Additional co-authors**  |   |
-| ![](images/wilson-tracey-150.png)  | Tracey M. Wilson (Trinity College Class of 1976) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants). See related chapters in her 2018 open-access book, *Life in West Hartford*,(http://lifeinwesthartford.org).   |
-| **University of Connecticut Libraries Map and Geographic Information Center (MAGIC)**  | Staff and students at [MAGIC](http://magic.lib.uconn.edu) co-created the [Google interactive maps](#mapping) for this book, with support from a National Endowment for the Humanities grant in 2010-11. |
-| ![](images/howser-michael.png)  | Michael Howser, Project Director and Map Interface Development  |
-| ![](images/denton-curtis.png)  | Curtis Denton, Project Management and Interface Design  |
-| ![](images/lynch-cary.png)  | Cary Lynch, Map Interface Development and Interface Design  |
-| ![](images/miller-bill.png)  | Bill Miller, Aerial Photography Digitization Project Manager  |
-| ![](images/bachant-tom.png)  | Tom Bachant, Map Interface Development  |
-| ![](images/bentley-george.png)  | George Bentley, Shapefile and KML Development  |
-| ![](images/pollak-jonathan.png)  | Jonathan Pollak, Shapefile and KML Development  |
-| ![](images/spaulding-benjamin.png)  | Benjamin Spaulding, Dual Map Interface WMS Code Development  |
-| ![](images/strunk-josh.png)  | Josh Strunk, Aerial Photography Mosaic and Digitization  |
+<!-- Best display method so far is uniform 150x150 300dpi JPG (not PNG) images, not in table -->
+
+```{r dougherty-jack, echo=FALSE}
+ knitr::include_graphics("images/dougherty-jack.jpg")
+```
+Jack Dougherty, the lead author of *On The Line*, is Professor of Educational Studies and Director of the Center for Hartford Engagement and Research (CHER) at Trinity College. He collaborates with students, colleagues, and community partners to explore cities, suburbs, and schools in metropolitan Hartford, Connecticut, using data visualization, digital history, and web writing tools. Contact him on his [faculty profile page](http://internet2.trincoll.edu/facprofiles/Default.aspx?fid=1004266), or follow him [on Twitter](http://twitter.com/doughertyjack) or on his blog <http://jackdougherty.org>.
+
+#### Trinity College co-authors {-}
+```{r ilyankou-ilya, echo=FALSE}
+ knitr::include_graphics("images/ilyankou-ilya.jpg")
+```
+Jasmin Agosto (Trinity College Class of 2010 with bachelor's degree in American Studies and Educational Studies) co-authored [Mobilizing Against Racial Steering and Redlining](challenging.html#mobilizing-against-racial-steering-and-redlining), and also researched 18th-19th century school documents, and decades of school residency cases.
+```{r agosto-jasmin, echo=FALSE}
+ knitr::include_graphics("images/agosto-jasmin.jpg")
+```
+Ilya Ilyankou (Trinity College Class of 2018 with bachelor's degree in Computer Science and Studio Arts) developed several interactive maps in this book. His open-source code and map links are available at our GitHub public repository: <http://github.com/OnTheLine/>.
+```{r ilyankou-ilya, echo=FALSE}
+ knitr::include_graphics("images/ilyankou-ilya.jpg")
+```
+Vianna Iorio (Trinity College Class of 2019 with double major in Educational Studies and English) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants), [Jumping the School District Line](challenging.html#jumping-the-school-district-line), and other chapters TO COME.
+```{r iorio-vianna, echo=FALSE}
+ knitr::include_graphics("images/iorio-vianna.jpg")
+```
+Katie Campbell Levasseur (Trinity College Class of 2011 with bachelor's degree in Educational Studies and Mathematics) conducted restrictive covenant property records research and co-authored [How We Found Restrictive Covenants](teaching-researching.html#how-we-found-restrictive-covenants).
+```{r levasseur-katie, echo=FALSE}
+ knitr::include_graphics("images/levasseur-katie.jpg")
+```
+JiYun (Lisa) Lee (Trinity College Class of 2017 with bachelor's degree in Educational Studies and Psychology) co-authored [Jumping the School District Line](challenging.html#jumping-the-school-district-line).
+```{r lee-jiyun, echo=FALSE}
+ knitr::include_graphics("images/lee-jiyun.jpg")
+```
+Shaun McGann (Trinity Colege Class of 2014 with bachelor's degree in Political Science and Urban Studies) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+```{r mcgann-shaun, echo=FALSE}
+ knitr::include_graphics("images/mcgann-shaun.jpg")
+```
+Candace Simpson (Trinity College Class of 2012 with bachelor's degree in Educational Studies) co-authored [Who Owns Oral History? A Creative Commons Solution](teaching-researching.html#who-owns-oral-history-a-creative-commons-solution) and conducted oral history interviews on restrictive property covenants and Sheff v. O'Neill.
+```{r simpson-candace, echo=FALSE}
+ knitr::include_graphics("images/simpson-candace.jpg")
+```
+Tracey M. Wilson (Trinity College Class of 1976) co-authored [Restricting with Property Covenants](separating.html#restricting-with-property-covenants). See related chapters in her 2018 open-access book, *Life in West Hartford*,(http://lifeinwesthartford.org).
+```{r wilson-tracey, echo=FALSE}
+ knitr::include_graphics("images/wilson-tracey.jpg")
+```
+
+TODO - add more coauthors, list research contributors
+
+#### University of Connecticut contributors {-}
+Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [Google interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
+- Michael Howser, Project Director and Map Interface Development  
+- Curtis Denton, Project Management and Interface Design
+- Cary Lynch, Map Interface Development and Interface Design
+- Bill Miller, Aerial Photography Digitization Project Manager
+- Tom Bachant, Map Interface Development  
+- George Bentley, Shapefile and KML Development
+- Jonathan Pollak, Shapefile and KML Development  
+- Benjamin Spaulding, Dual Map Interface WMS Code Development  
+- Josh Strunk, Aerial Photography Mosaic and Digitization  
+
 | **Other books by Jack Dougherty** |  |
 | ![](images/coverDataVizForAll165w.jpg)  | *Data Visualization for All* (with contributors), book-in-progress, <http://DataVizForAll.org.>  |
 | ![](images/coverWebWriting165w.jpg)  | *Web Writing: Why and How for Liberal Arts Teaching and Learning* (co-edited with Tennyson O'Donnell). Ann Arbor: University of Michigan Press, 2015, <http://WebWriting.trincoll.edu>.  |

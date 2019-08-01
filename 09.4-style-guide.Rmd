@@ -5,9 +5,9 @@ NOTE: View this file and the code used to create the examples directly on the Gi
 
 Also, this style guide was created primarily for the web edition <http://OnTheLine.trincoll.edu>, and may require additional modifications for the final PDF print edition.
 
-Code comments
+Use HTML-style code comments to insert notes that are invisible to most readers, yet visible to authors (or anyone) viewing the public GitHub repo
 ```
-<!-- this comment appears in the source code, but not the book outputs -->
+<!-- this comment appears in the source code, but not the book products -->
 ```
 
 Use brackets and parentheses for an [embedded link](http://example.com)
@@ -16,18 +16,29 @@ Use parentheses only for a non-embedded link (http://example.com)
 
 Similarly, display URL with angle brackets: <http://example.com>
 
-If necessary, use HTML to create <a href="http://example.com/">link that opens in a new page</a>
+If necessary, use HTML tags to create <a href="http://example.com/">link that opens in a new page</a>
 
 ##### Headers and Cross-reference links {-}
 
 Use one hashtag for a chapter title (first-level header)
-```
-# Chapter title
-```
+
+- Code: `# Chapter title`
+
 Use two hashtags for a section title (second-level header)
-```
-## Section title
-```
+
+- Code:  `## Section title`
+-
+Use four or five hashtags, followed by curly brackets, for subheaders in chapters/sections:
+
+- Code: `#### Subheader Inside the Body Text {-}`
+- code: `##### Subheader for Table  `
+
+Hide numbers from appearing in section headers with curly brackets around hyphen:
+
+- code: `## Outline of the Book {-}`
+
+Note that this book uses full section references with hidden numbers, because I have not yet found a way to insert a short section reference AND hide its number.
+
 A short chapter title `# Introduction` has a short default reference: `#introduction`, while a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
 
 To simplify long chapter title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
@@ -39,15 +50,10 @@ To embed a cross-reference to a chapter title, add a link using brackets and par
 
 To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
 
-- Contributor code: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
-- Contributor demo: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
-- Learn More code: `in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)`
-- Learn More demo: in this book about [How We Found Restrictive Covenants](creating.html#how-we-found-restrictive-covenants)
-
-Hide numbers from appearing in section headers with curly brackets around hyphen:
-- code: `## Outline of the Book {-}`
-
-Note that this book uses full section references with hidden numbers, because I have not yet found a way to insert a short section reference AND hide its number.
+- Code for contributor: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
+- Demo for contributor: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
+- Code for learn more: `in this book about [How We Found Restrictive Covenants](teaching-researching.html#how-we-found-restrictive-covenants)`
+- Demo for learn more: in this book about [How We Found Restrictive Covenants](teaching-researching.html#how-we-found-restrictive-covenants)
 
 For an em-dash, use three hyphens---like this---rather than two hyphens.
 
@@ -76,6 +82,7 @@ In body of the book, avoid inserting images with simple Markdown syntax, because
 - To reduce the width (or height) of the output, add `out.width="30%"` to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert `fig.align="center"`.
 - To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)
 - If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in `custom-scripts.html` and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the `index.Rmd` file includes the custom script in the header, as described in the section above.
+- - Optional: In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Sample dynamic reference to a figure further below: ... as shown in Figure \@ref(fig:sample-interactive).
 
 - Reminders:
   - If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.
@@ -83,8 +90,8 @@ In body of the book, avoid inserting images with simple Markdown syntax, because
 
 - STILL TODO
   - Decide if 'out.width' and 'out.height' is preferable in all cases to `"fig_height=7"`
-  - Decide if `auto.PDF=TRUE` is necessary
   - Accessibility: use alt="" for brief image description? Or do the detailed captions replace this need?
+  - About auto_pdf: "include_graphics() can be smart enough to use PDF graphics automatically when the output format is LaTeX and the PDF graphics files exist, e.g., an image path foo/bar.png can be automatically replaced with foo/bar.pdf if the latter exists. PDF images often have better qualities than raster images in LaTeX/PDF output. To make use of this feature, set the argument auto_pdf = TRUE, or set the global option options(knitr.graphics.auto_pdf = TRUE) to enable this feature globally in an R session." from https://bookdown.org/yihui/bookdown/figures.html
 
 ##### Example: Static image in all editions, half-size output, no interactive version {-}
 (ref:sample-static-image) Caption for sample static image, with Markdown formatting, links, citation.
@@ -149,8 +156,12 @@ For now, use Markdown table formatting, with header above and caption (in italic
 
 
 #### References for above {-}
-- R Markdown book section on figures https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options
+- R Markdown book section on figures
+  - https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options
+  - https://bookdown.org/yihui/rmarkdown/r-code.html#figures, which states:
+  - "PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desparately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = 'h'). See https://www.sharelatex.com/learn/Positioning_images_and_tables for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."
 - R Markdown reference https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf
 - On R code chunks in RMarkdown https://bookdown.org/yihui/rmarkdown/r-code.html
-- On R code options in knitr package https://yihui.name/knitr/options
+- On R code chunk options in knitr package https://yihui.name/knitr/options/#code-chunk
+- On positioning images in LaTeX https://www.overleaf.com/learn/latex/Positioning_images_and_tables
 - Tips and tricks http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures

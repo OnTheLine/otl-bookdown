@@ -3,7 +3,7 @@
 
 We are building this open-access book with open-source tools---namely Bookdown, GitHub, and Zotero---and openly sharing the knowledge we acquire so that others may improve on the process. We welcome feedback from digitally-minded authors and software developers on [Twitter](https://twitter.com/doughertyjack) or directly on the GitHub repo for this page <https://github.com/OnTheLine/otl-bookdown/blob/master/09.3-bookdown.Rmd>.
 
-- [Bookdown](http://bookdown.org), an open-source software package by Yihui Xie at RStudio, allows authors to compose in version of [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy-to-read-and-write cross-platform syntax, and create one workflow that produces their book in multiple formats: Web edition, PDF edition, ePUB ebook edition, and Microsoft Word. Furthermore, Bookdown generates the Web edition as a set of static-site HTML files, which display digital elements (such as interactive maps and videos) and load very quickly into readers' browsers. Individual authors can install Bookdown on their Mac, Windows, or Linux computers, as it does not require a server. Interestingly, Bookdown requires installing the open-source [R Project](https://www.r-project.org/) and [RStudio console and editor](https://www.rstudio.com/), which typically are used for statistical data analysis. Athough Bookdown may not be the best choice for novice computer users, installation steps are outlined below, along with a recommended workflow for authoring and publishing with GitHub and Zotero.^[For a detailed guide, see @xieBookdownAuthoringBooks2018]
+- [Bookdown](http://bookdown.org), an open-source software package by Yihui Xie at RStudio, allows authors to compose in version of [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy-to-read-and-write cross-platform syntax, and create one workflow that produces books in multiple formats, such as Web edition, PDF edition, ePUB ebook edition, and Microsoft Word. Furthermore, Bookdown generates the Web edition as a set of static-site HTML files, which display digital elements (such as interactive maps and videos) and load very quickly into readers' web browsers. Individual authors can install Bookdown on their Mac, Windows, or Linux computers, and publish their work through a free and simple GitHub Pages account, rather than a separate and complex web server. Interestingly, Bookdown requires installing the open-source [R Project](https://www.r-project.org/) and [RStudio console and editor](https://www.rstudio.com/), which typically are used for statistical data analysis. Behind the scenes, Bookdown converts the text of the book from R-flavored Markdown files into Web and eBook editions using [PanDoc](https://pandoc.org/), an open-source universal document converter, without requiring authors to learn complex Pandoc instructions. Although Bookdown may not be the best choice for novice computer users, installation steps are outlined below, along with a recommended workflow for authoring and publishing with GitHub and Zotero.^[For a detailed guide, see @xieBookdownAuthoringBooks2018]
 - [GitHub](http://github.com) is an open-source repository that enables us to publicly share the text and code in this book, with a version-control system that allows collaborators to work on different sections at the same time. Also, the [GitHub Pages](http://pages.github.com) feature allows us to freely host online all of the book editions (Web, PDF, etc.), with a custom domain name purchased through another service, [Reclaim Hosting](http://reclaimhosting.com). As this is an open-access publication, we intentionally make its contents public---and also share instructions like this---while we work on the book, which is consistent with the contract signed with our open-access publisher. Note that GitHub also allows users the option to make repositories private.
 - [Zotero](http://zotero.org) is an open-source bibliography manager to collect sources and organize citations, created by the Roy Rosenzweig Center for History and New Media at George Mason University. [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex) is an extension by Emiliano Heynes that makes Zotero citation keys work better with Markdown text workflows. While Bookdown does not require using Zotero, scholars who need to manage multiple source materials and citations will benefit from the Bookdown---Zotero---Better BibTeX workflow described below.
 
@@ -71,11 +71,45 @@ The PDF edition of this Bookdown-generated publication is still a work-in-progre
 
 #### Customize Bookdown and GitHub Settings and Domain Name {-}
 - To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>.
-- Most of the Bookdown settings for this book appear in the `index.Rmd` and `_bookdown.yml` files in the repository above. See more details about configuration settings in the Bookdown technical guide, <https://bookdown.org/yihui/bookdown/>.
-- In this *On The Line* book, each file represents a section of the book (such as: 01.0.Rmd, 01.1.Rmd, 01.2.Rmd, etc.), and multiple sections are merged together to form one web page for the entire chapter (such as: chapter_name.html), because the `index.Rmd` file output is set to `split_by: chapter` rather than by section. This allows collaborators to work on individual sections of the book (which are separate files in GitHub), but to display each chapter to the reader as one long web page.
-- When you revise the names of book chapters, Bookdown builds new HMTL pages based on new names. But old HMTL pages based on old chapter names may still exist in the same subfolder, so you may wish to carefully delete old ones to avoid confusion.
-- In the `_bookdown.yml` file of this book, the output directory is set to build all book formats into the `docs` folder rather than the default `_books` folder. In your GitHub repo settings for GitHub Pages, see the option to publish from the `master/docs` folder. This setting enables two simultaneous ways of using your GitHub repo master branch: 1) to display the text and code used to create your book, **and** 2) to host the contents of the `docs` subfolder on the live web. (Years ago, GitHub previously required users to do these tasks through two separate branches, typically called
-`master` and `gh-pages`, but now users can do both through one branch.) If you follow this `master/docs` approach, this simplifies the address of your GitHub Pages published web edition to this format: `https://USERNAME.github.com/REPONAME`.
+- See details about configuration settings in Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).^[@xieBookdownAuthoringBooks2018]
+- In this publication, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.)
+```
+output_dir: "docs"
+book_filename: "Dougherty-etal-OnTheLine"
+edit: https://github.com/ontheline/otl-bookdown/edit/master/%s
+language:
+  label:
+    fig: "Figure "
+ui:
+    edit: "Edit"
+chapter_name: "Chapter "
+```
+We changed this Bookdown setting from the default `_books` folder to the `docs` folder to take advantage of the GitHub Pages setting that allows hosting online content from the `master/docs` folder, rather than the entire `master` branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the `master` branch, **and** host online the Web and ebook editions from the `master/docs` subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called
+`master` and `gh-pages`, but now users can do both through one branch, which is simpler.) Also, following this `master/docs` method simplifies the address of your GitHub Pages published web edition to this format: `https://USERNAME.github.com/REPONAME`. (See further below about customizing the web address.)
+
+In this publication, the `index.Rmd` file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)
+```
+output:
+  bookdown::gitbook:
+    dev: svglite
+    css: css/style.css
+    includes:
+      in_header: [custom-scripts.html, google-analytics-otl.html]
+    split_by: chapter
+    split_bib: true
+    number_sections: true
+```
+In the GitHub repo for this publication, the root structure of the files is:
+
+- Chapters in RMarkdown format, such as: `01-introduction.Rmd`
+- Sections inside chapters, such as `01.1-section.Rmd` and `01.2-section.Rmd`
+- The `images` folder, where JPG, PNG, and PDFs to display in chapters are located.
+- The `docs` folder, which contains the published book products, such as Web edition (`index.html`, `introduction.html`, etc.), the PDF edition (`Dougherty-etal-OnTheLine.pdf`), etc.
+- Additional helper files described further below.
+
+The setting above to `split_by: chapter` means that Bookdown merges each parent chapter (`01-introduction.Rmd`) and its child sections (`01.1-section.Rmd` and `01.2-section.Rmd`) into its own web page (`introduction.html`), and all of the web pages are linked to one another via `index.html`. This setting allows collaborators to work on individual sections of the book (which are separate files in GitHub), but to display each chapter to the reader as one long web page, rather than shorter separate web pages for each section. Alternatively, authors can change the setting to `split_by: section` to produce separate web pages for each file.
+
+- When you revise the names of book chapters, Bookdown builds new HMTL pages based on new names. But old HMTL pages based on old chapter names may still exist in the same subfolder. To avoid confusion, you may wish to carefully delete old HTML pages in `docs` whenever you significantly reorganize the file structure and build a new version of the book.
 - In addition, this GitHub Pages repo is published with a custom domain name <https://OnTheLine.trincoll.edu>. Learn more about custom domain names at <https://help.github.com/articles/using-a-custom-domain-with-github-pages/>. Typically, a custom domain name is purchased from a web hosting service, such as [ReclaimHosting](http://reclaimhosting.com), and you may need customer support to access the Manage DNS (domain name system) to point your new URL to your GitHub Pages online site. For this book's custom domain name, <https://ontheline.trincoll.edu>, the IT staff at Trinity College created a subdomain on their .edu domain, which shows that my scholarship is affiliated with an academic institution. Adding a GitHub Pages custom domain name creates an additional `CNAME` file in the `docs` subfolder. Avoid accidentally erasing the `CNAME` file if you need to clear out any old HTML files in your subfolder.
 - The web edition of this book includes two custom files that are referenced in the `index.Rmd` file header, and are generated into the web edition when building the book:
 ```
@@ -86,9 +120,23 @@ output:
     includes:
       in_header: [custom-scripts.html, google-analytics-otl.html]
 ```
-  - the `custom-scripts.html` file includes specific instructions to set the height or width of iframes for specific interactive maps and charts in the web edition, which is explained further in the Style Guide section of this book.
-  - the `google-analytics-otl.html` file records web traffic with Google Analytics, if you create a free account and insert your code.
-- The web edition of this book also includes a custom `404.html` file that redirects any bad web addresses under the domain back to `index.html` page. A copy of this file must be manually transferred into the `docs` subfolder, since it is not automatically built by Bookdown.
+- the `custom-scripts.html` file includes specific instructions to set the height or width of iframes for specific interactive maps and charts in the web edition, which is explained further in the Style Guide section of this book.
+- the `google-analytics-otl.html` file records web traffic with Google Analytics, if you create a free account and insert your code.
+- The web edition of this book also includes a custom `404.html` file that redirects any bad web addresses under the domain back to `index.html` page. A copy of this file must be manually transferred into the `docs` subfolder, because it is not automatically built by Bookdown.
+
+In this publication, the `index.Rmd` file also contains instructions to create footnotes and a bibliography from a Zotero-Better BibLaTeX exported file named `ontheline.bib`, in a specific Chicago-style format. Other `.csl` files are downloadable from the Zotero Styles Repository <https://www.zotero.org/styles>.
+```
+bibliography: ontheline.bib
+citation-style: chicago-fullnote-bibliography.csl
+```
+Also in this publication, the `index.Rmd` file is set to produce a PDF edition of the book using the xelatex engine (or see tinytex or latex alternatives described above). Furthermore, additional PanDoc settings are required to create the desired Chicago-style footnotes and bibliography in the PDF edition. See more details at <https://pandoc.org/>.
+
+```
+  bookdown::pdf_book:
+    latex_engine: xelatex
+    citation_package: none
+    pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
+```
 
 #### Zotero and Better BibTex for Footnotes and Bibliography {-}
 This workflow uses the open-source Zotero bibliography manager (http://zotero.org), with the Better BibTeX extension (https://retorque.re/zotero-better-bibtex/) to work more easily with Markdown and Bookdown. Rather than typing full references directly into the text, authors can insert a short citation key to each source, and the tools will automatically generate the desired references (such as Chicago-style footnotes, which historians love) and an alphabetized bibliography for the book. Furthermore, since authoring this *On The Line* book has been a multi-year process with multimedia sources whose web addresses have changed over time, this workflow ensures that the most up-to-date information in your Zotero database also appears in all editions of your book.
