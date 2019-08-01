@@ -13,13 +13,11 @@ The web edition also displays these features near the top of the screen:
 - Download (PDF edition)
 - Keyboard Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
 
-(ref:how-to-read) Search and reading features displayed near the top of the web edition.
-
-```{r how-to-read, echo=FALSE, fig.cap="(ref:how-to-read)", out.width="70%", fig.align="center"}
+```{r how-to-read, echo=FALSE, out.width="70%", fig.align="center"}
  knitr::include_graphics("images/how-to-read.png")
 ```
 
-Also, readers may freely download the PDF edition, as described above, and print it on paper for off-line reading. Static images will appear in place of interactive maps and videos, with links to the online versions. **PDF formatting is not finished** for this book-in-progress. After the book is completed, a cleaner PDF edition will be made available, and the publisher will make an inexpensive print edition available for sale.
+Also, readers may freely download the PDF edition of this book-in-progress, as described above, and print it on paper for off-line reading. Static images will appear in place of interactive maps and videos, with links to the online versions. After the book is completed, a cleaner PDF file will be available to download, and inexpensive paperback edition will be made available for sale by the publisher.
 
 #### How to Cite {-}
 
