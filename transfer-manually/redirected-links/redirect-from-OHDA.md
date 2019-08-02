@@ -6,7 +6,7 @@ Recreate the old WordPress/Pressbooks file structure as shown below, with PDFs a
 
 Manually transfer this file structure and content into `docs` folder, since it is not built by Bookdown.
 
-New PDFs below include URLs to the updated chapter and resources in On The Line book*
+One of the PDFs below includes text with link to the most current version in the On The Line book*
 
 
 If you are reading the chapter below, this page describes its redirected links:
