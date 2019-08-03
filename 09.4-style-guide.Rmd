@@ -123,10 +123,10 @@ if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/2
 ```
 
 ##### Example: CTDA video clip in web edition, static image in PDF edition {-}
-(ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote.
+(ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote. TRYING to add: ?autoplay=0
 
 ```{r ctda-sample-video, echo=FALSE, fig.cap="(ref:ctda-sample-video)"}
-if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
+if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view?autoplay=0") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
 ```
 
 ##### Example: Kaltura video clip in web edition, static image in PDF edition {-}
