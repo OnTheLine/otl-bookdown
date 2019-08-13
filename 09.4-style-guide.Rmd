@@ -1,5 +1,4 @@
-
-## *On The Line* Style Guide for Bookdown + RMarkdown {-}
+## *On The Line* Style Guide for Bookdown + RMarkdown {#style-guide}
 
 NOTE: View this file and the code used to create the examples directly on the GitHub repo at <https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd>.
 
@@ -18,42 +17,31 @@ Similarly, display URL with angle brackets: <http://example.com>
 
 If necessary, use HTML tags to create <a href="http://example.com/">link that opens in a new page</a>
 
-##### Headers and Cross-reference links {-}
 
-Use one hashtag for a chapter title (first-level header)
+#### Headers and Cross-reference links {-}
+- Chapter titles are first-level headers with one hashtag: `# Chapter Title`
+- Section titles are second-level headers with two hashtags: `## Section Title`
+- Avoid third-level headers with three hashtags, as we have not yet found an easy way to control toc_depth in HTML edition.
+- Subheaders are fourth-level headers with four hashtags: `#### Subheader in body text`
+- Currently for Markdown tables, use fifth-level headers with five hashtags: `##### Table title`
 
-- Code: `# Chapter title`
+Since the `index.Rmd` settings add numbers to chapters/sections, remember to block numbers from appearing in fourth- and fifth-level headers by adding curly brackets arounds a hyphen: `#### Subheader non-numbered {-}`
 
-Use two hashtags for a section title (second-level header)
+In Bookdown, a short chapter/section title `# Introduction` has a short default reference: `#introduction`. But a longer chapter/section title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`.
 
-- Code:  `## Section title`
--
-Use four or five hashtags, followed by curly brackets, for subheaders in chapters/sections:
+In this book, we simplify each chapter/section title references by adding a short ID name in curly brackets, like this: `# Defining City and Suburban Lines {#defining}`.
 
-- Code: `#### Subheader Inside the Body Text {-}`
-- code: `##### Subheader for Table  `
+Also, we match the short ID name `{#defining}` to the file name `02-defining.Rmd`. Although Bookdown does not require the file name and short ID to match, this method helps authors to organize all cross-references.
 
-Hide numbers from appearing in section headers with curly brackets around hyphen:
+To embed a cross-reference to another chapter/section in the book, add an HTML link using brackets and parentheses. See code: `*by [Ilya Ilyankou and Jack Dougherty](authors-and-contributors.html)*` with demo: *by [Ilya Ilyankou and Jack Dougherty](authors-and-contributors.html)*. This method works best for the HTML edition.
 
-- code: `## Outline of the Book {-}`
+#### Preface and Footers {-}
 
-Note that this book uses full section references with hidden numbers, because I have not yet found a way to insert a short section reference AND hide its number.
+In this book, `index.Rmd` begins with a non-numbered first-level header `# Preface {-}`, followed by non-numbered second-level headers such as `## Authors and Contributors {-}` and `## Acknowledgements {-}`. All of this content is placed in the `index.Rmd` file because creating zero-numbered files (such as 0.1-about.Rmd) generated Bookdown errors.
 
-A short chapter title `# Introduction` has a short default reference: `#introduction`, while a longer chapter title `# Defining City and Suburban Lines` has a longer default reference: `#defining-city-and-suburban-lines`
+Also, at the end of each section in the main text, a footer has been manually pasted that includes HTML links to sections in the Preface. The purpose of the footer is to ensure that each long web page contains author and copyright information, in case readers print out individual web pages from their browsers. Also, manually inserting a footer is not ideal, but we have not yet created a custom-script that performs the same function. 
 
-To simplify long chapter title references, insert a short ID name in curly brackets: `# Defining City and Suburban Lines {#defining}`
-
-To embed a cross-reference to a chapter title, add a link using brackets and parentheses:
-
-- short reference code: `*by [Jack Dougherty](index.html#authors-and-contributors)*` with demo: *by [Jack Dougherty](index.html#authors-and-contributors)*
-- short ID reference code: `see chapter [Defining City and Suburban Lines](#defining)` with demo: see chapter [Defining City and Suburban Lines](#defining)
-
-To embed a cross-reference link to a section title (inside a chapter), add a link (to the docs HTML page and section hashtag) using brackets and parentheses:
-
-- Code for contributor: `Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining)`
-- Demo for contributor: Shaun McGann (Trinity 2014) co-authored [Federal Lending and Redlining](separating.html#federal-lending-and-redlining).
-- Code for learn more: `in this book about [How We Found Restrictive Covenants](teaching-researching.html#how-we-found-restrictive-covenants)`
-- Demo for learn more: in this book about [How We Found Restrictive Covenants](teaching-researching.html#how-we-found-restrictive-covenants)
+#### Formatting and Footnotes {-}
 
 For an em-dash, use three hyphens---like this---rather than two hyphens.
 
@@ -68,9 +56,6 @@ A text-only footnote.^[This is a footnote, with no reference.]
 To create a footnote with citations only, separate BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
 
 Since footnotes also may include text and punctionation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
-
-#### Subheadings need four hashtags and no-number symbol {-}
-Note: Using three hashtags makes the subheader appear in the TOC because I have not found way to control toc_depth in the Web edition. Use the no-number symbol to prevent automatic number of subheaders.
 
 #### Figures: Interactive Content and Static Images {-}
 In body of the book, avoid inserting images with simple Markdown syntax, because it lacks auto-numbering. Instead, follow this R code chunk method, especially to display interactive content on the HTML web edition, with static screenshot images in the PDF edition:
@@ -123,10 +108,10 @@ if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/2
 ```
 
 ##### Example: CTDA video clip in web edition, static image in PDF edition {-}
-(ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote. TRYING to add: ?autoplay=0
+(ref:ctda-sample-video) Here's a sample CTDA video caption, with option to add Markdown link and footnote.
 
 ```{r ctda-sample-video, echo=FALSE, fig.cap="(ref:ctda-sample-video)"}
-if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view?autoplay=0") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
+if(knitr::is_html_output()) knitr::include_url("https://collections.ctdigitalarchive.org/islandora/object/120002%3A221/datastream/MP4/view") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
 ```
 
 ##### Example: Kaltura video clip in web edition, static image in PDF edition {-}
@@ -165,3 +150,5 @@ For now, use Markdown table formatting, with header above and caption (in italic
 - On R code chunk options in knitr package https://yihui.name/knitr/options/#code-chunk
 - On positioning images in LaTeX https://www.overleaf.com/learn/latex/Positioning_images_and_tables
 - Tips and tricks http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures
+
+![](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*

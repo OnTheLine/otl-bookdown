@@ -20,7 +20,7 @@ Jack Dougherty and Candace Simpson, “Who Owns Oral History? A Creative Commons
 
 NOTE: the PDF above now includes this text and link:
 - See a newer version of this 2011 consent form in the *On The Line* book
-- https://ontheline.trincoll.edu/teaching-researching.html/#oral-history-consent-form
+- https://ontheline.trincoll.edu/oral-history-consent.html
 
 Image of CC licenses: http://ontheline.trincoll.edu/wp-content/uploads/2012/02/cc-licenses-terms.png
 

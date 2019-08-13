@@ -1,11 +1,10 @@
-## Oral History Consent Form {-}
-*by [Jack Dougherty](index.html#authors-and-contributors)*
+## Oral History Consent Form {#oral-history-consent}
 
-*This sample oral history consent form emerged from our thinking about ["Who Owns Oral History? A Creative Commons Solution"](teaching-researching.html#who-own-oral-history-a-creative-commons-solution) in this book. Readers are welcome to be adapt and modify this form for their own purposes.*
+*This sample oral history consent form emerged from our thinking about ["Who Owns Oral History? A Creative Commons Solution"](who-owns-oral-history.html) in this book. Readers are welcome to be adapt and modify this form for their own purposes.*
 
 [Insert title of] Oral History Project
 
-*Informed consent and copyright permission form*
+Informed consent and copyright permission form
 
 I voluntarily agree to participate in an oral history video interview about [insert general topic, such as: my memories and experiences about schooling, housing, and civil rights in the Hartford region.] I can choose to pause, stop, or erase the recording at any time during the interview. Afterwards, I grant permission for the oral history video recording, with my name and a summary or transcript, to be distributed to the public for educational purposes, including formats such as print, public programming, and the Internet. Under this agreement, I keep the copyright to my interview, but agree to share it under a Creative Commons Attribution—NonCommercial 4.0 International license (BY-NC). This allows the public to freely copy, remix, and build on my interview, but only if they credit the original source and use it for non-commercial purposes. In return, the interviewer will send one free copy of the interview recording, and summary or transcript, to my address below.
 
@@ -21,8 +20,10 @@ Date:
 
 If younger than 18, parent/guardian signature:
 
-Interviewer’s signature (to agree with CC license):
+Interviewer’s signature (to agree with copyright ownership by interviewee, with CC license):
 
 Questions? [Insert project director(s) name and contact info, plus project website]
 
 *Keep one signed copy for project files and offer one copy to participant for their records*
+
+![](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
