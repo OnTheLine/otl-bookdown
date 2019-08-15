@@ -182,7 +182,11 @@ TO COME
 
 #### Two free editions: Web and PDF {-}
 
-**Read the web edition** at (http://ontheline.trincoll.edu) to fully experience the interactive maps, video clips, and source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones). The web edition also displays these features near the top of the screen:
+**Read the web edition** at (http://ontheline.trincoll.edu) to fully experience the interactive maps, video clips, and source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones).
+
+<!-- TODO - remind readers to open links in new tabs, usually with a right-click or two-finger click, and illustrate this based on DataVizForall -->
+
+In your web browser, these reading features are visible near the top of the page:
 
 - Menu
 - Search
@@ -231,7 +235,7 @@ The book also contains external links (such as endnotes that refer to other arti
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a href="http://ontheline.trincoll.edu"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">On The Line</span></a> is an open-access, born-digital, book-in-progress by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ontheline.trincoll.edu" property="cc:attributionName" rel="cc:attributionURL">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See exceptions for specific items noted as copyrighted by others and included here under fair-use guidelines.
 
-![](images/github-logo-90x37.png)
-Our GitHub open-source repository (https://github.com/ontheline) contains all of the source code for the book (including images, data, and interactive charts and maps), and is freely shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in Data Visualization for All (http://datavizforall.org) by Jack Dougherty and contributors.
+![github logo](images/github-logo-90x37.png)
+Our GitHub open-source repository (https://github.com/ontheline) contains all of the text and source code for the book, including data, images, and interactive charts and maps. The text of the book is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in Data Visualization for All (http://datavizforall.org) by Jack Dougherty and contributors.
 
 You may re-use and modify our work, as long as you follow the terms above, and include a source credit to: [OnTheLine.trincoll.edu](http://OnTheLine.trincoll.edu) by Jack Dougherty and contributors.
