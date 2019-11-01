@@ -4,6 +4,11 @@ p.caption {
   font-style: italic;
 }
 
+/* added to improve contrast based on WAVE accessibility test */
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active {
+    color: #0000e2;
+}
+
 .book .book-summary ul.summary li span {
   cursor: default;
 }

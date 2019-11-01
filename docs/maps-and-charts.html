@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>9.2 List of Interactive Maps and Charts | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines." />
-  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="9.2 List of Interactive Maps and Charts | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="digital-history-dialogue.html">
-<link rel="next" href="bookdown.html">
+<link rel="prev" href="digital-history-dialogue.html"/>
+<link rel="next" href="bookdown.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -40,6 +40,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -140,11 +143,7 @@ $(document).ready(function() {
 <li class="chapter" data-level="9.4" data-path="style-guide.html"><a href="style-guide.html"><i class="fa fa-check"></i><b>9.4</b> <em>On The Line</em> Style Guide for Bookdown + RMarkdown</a></li>
 <li class="chapter" data-level="9.5" data-path="alternative.html"><a href="alternative.html"><i class="fa fa-check"></i><b>9.5</b> Alternative Publishing Platforms</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>10</b> Bibliography</a><ul>
-<li class="chapter" data-level="" data-path="bibliography.html"><a href="bibliography.html#about-undergraduate-co-authors"><i class="fa fa-check"></i>About undergraduate co-authors</a></li>
-<li class="chapter" data-level="" data-path="bibliography.html"><a href="bibliography.html#archival-collections"><i class="fa fa-check"></i>Archival Collections</a></li>
-<li class="chapter" data-level="" data-path="bibliography.html"><a href="bibliography.html#automated-list-of-sources-cited-in-book-in-progress"><i class="fa fa-check"></i>Automated list of sources cited in book-in-progress</a></li>
-</ul></li>
+<li class="chapter" data-level="10" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>10</b> Bibliography</a></li>
 <li class="divider"></li>
 <li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
 <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
@@ -182,7 +181,7 @@ $(document).ready(function() {
 <!-- ref:1847-otl-hphs -->
 <p>Interactive Storymap of Hartford Public High School locations, 1847-present, <a href="https://ontheline.github.io/otl-hphs/" class="uri">https://ontheline.github.io/otl-hphs/</a></p>
 <p>TODO - more to come</p>
-<p><img src="images/cc-by-nc-sa-88x31.png" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2019-08-13</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2019-10-31</em></p>
 
 </div>
             </section>
@@ -196,11 +195,13 @@ $(document).ready(function() {
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
