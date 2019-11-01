@@ -1,4 +1,4 @@
-## Teaching Oral History {-}
+## Teaching Oral History {#teaching-oral-history}
 
 *I wrote this DRAFT chapter for the "Panel Discussion on Oral History and African American Educational History," with Nicholas Kryczka, Dionti Davis, Jackie Blount, and Dionne Danns at the History of Education Society meeting in November 2019. The need for a chapter on ways of teaching oral history was inspired by a conversation a year earlier with Pamela Grundy, Jake Hardesty, and Kevin Zayed at the History of Education Society meeting in November 2018.*
 
@@ -60,4 +60,6 @@ Everything I taught has now been replaced by <http://Trint.com>
 
 - Review key concepts from Jack Dougherty, “From Anecdote to Analysis: Oral Interviews and New Scholarship in Educational History,” The Journal of American History 86, no. 2 (1999): 712–23, <http://www.jstor.org/stable/2567055>.
 
-#### Preserving oral history in collaboration with libraries, archives, museums
+#### Preserving oral history in collaboration with libraries, archives, museums {-}
+
+- more to come, see CTDA <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>
