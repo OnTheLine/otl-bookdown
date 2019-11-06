@@ -8,7 +8,9 @@ TODO: Text to come on the continual redrawing of town boundaries in Hartford reg
 ```{r 1600s-otl-town-borders, echo=FALSE, fig.cap="(ref:1600s-otl-town-borders)"}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-town-borders/") else knitr::include_graphics("images/1600s-otl-town-borders.jpg")
 ```
+<!-- Move this into Divided School Districts chapter 2.5? -->
 TODO: Text to come on CT 1909 school district consolidation, which redrew school district boundaries to match town boundaries
+
 
 TODO: Fix basemaps and narrative for <https://ontheline.github.io/otl-redraw-lines-hartford/index-frame.html>
 
