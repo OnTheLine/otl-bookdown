@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>9.4 On The Line Style Guide for Bookdown + RMarkdown | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines." />
-  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
   <meta property="og:title" content="9.4 On The Line Style Guide for Bookdown + RMarkdown | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
@@ -175,7 +175,7 @@ $(document).ready(function() {
 <h4>General Goals</h4>
 <p>For this book, the goal is to compose one version of the text that Bookdown will generate into multiple products: the Web/HTML edition, the PDF edition, and other formats such as ePub and MS Word if requested by the publisher. Only the Web edition will display interactive content and clickable links. But the text is designed so that readers of the printed PDF pages will see static images in place of interactive content. Also, readers of both the printed PDF pages and the Web edition will see footnotes with URLs, to supplement links that are clickable only in the Web edition. <em>(Since pages like this contain primarily technical details for authors, it does not include footnotes.)</em> Also, to ensure that the Web edition is accessible to visually-impaired readers, run tests and fix errors flagged by the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>.</p>
 </div>
-<div id="markdown-vs.r-markdown" class="section level4 unnumbered">
+<div id="markdown-vs.-r-markdown" class="section level4 unnumbered">
 <h4>Markdown vs. R Markdown</h4>
 <p>The text is based on the easy-to-read Markdown syntax, which is summarized in this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">popular cheatsheet</a> and this <a href="https://www.markdowntutorial.com">interactive tutorial</a>.</p>
 <p>But Bookdown uses its own flavor: <a href="https://rmarkdown.rstudio.com/">R Markdown by R Studio</a>.</p>
@@ -236,7 +236,7 @@ $(document).ready(function() {
 - Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown cites and links, as shown below. For details, see Bookdown sections on Figures <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a> and Markdown extensions <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.
 - Insert a BLANK LINE between the text reference and the R code chunk coming up.
 - Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown below.
-- To reduce the width (or height) of the output, add <code>out.width=&quot;30%&quot;</code> to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert <code>fig.align=&quot;center&quot;</code>.
+- To reduce the width (or height) of the output, add <code>out.width="30%"</code> to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert <code>fig.align="center"</code>.
 - To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)
 - If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in <code>custom-scripts.html</code> and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.
 - Optional: In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Sample dynamic reference to a figure further below: … as shown in Figure <a href="style-guide.html#fig:sample-interactive">9.3</a>.
@@ -245,7 +245,7 @@ $(document).ready(function() {
 <p>TODO for final PDF edition:</p>
 <ul>
 <li>About auto_pdf: “include_graphics() can be smart enough to use PDF graphics automatically when the output format is LaTeX and the PDF graphics files exist, e.g., an image path foo/bar.png can be automatically replaced with foo/bar.pdf if the latter exists. PDF images often have better qualities than raster images in LaTeX/PDF output. To make use of this feature, set the argument auto_pdf = TRUE, or set the global option options(knitr.graphics.auto_pdf = TRUE) to enable this feature globally in an R session.” from <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a></li>
-<li>Decide if ‘out.width’ and ‘out.height’ is preferable in all cases to <code>&quot;fig_height=7&quot;</code></li>
+<li>Decide if ‘out.width’ and ‘out.height’ is preferable in all cases to <code>"fig_height=7"</code></li>
 </ul>
 <div id="static-image-in-all-editions-half-size-output-no-interactive-version" class="section level5 unnumbered">
 <h5>Static image in all editions, half-size output, no interactive version</h5>
@@ -374,7 +374,7 @@ Figure 9.7: Here’s a sample Vimeo caption, with option to add Markdown links a
 <ul>
 <li><a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
 <li><a href="https://bookdown.org/yihui/rmarkdown/r-code.html#figures" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html#figures</a>, which states:</li>
-<li>“PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desparately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = ‘h’). See <a href="https://www.sharelatex.com/learn/Positioning_images_and_tables" class="uri">https://www.sharelatex.com/learn/Positioning_images_and_tables</a> for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output.&quot;</li>
+<li>“PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desparately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = ‘h’). See <a href="https://www.sharelatex.com/learn/Positioning_images_and_tables" class="uri">https://www.sharelatex.com/learn/Positioning_images_and_tables</a> for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."</li>
 </ul></li>
 <li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
 <li>On R code chunks in RMarkdown <a href="https://bookdown.org/yihui/rmarkdown/r-code.html" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html</a></li>
@@ -382,18 +382,18 @@ Figure 9.7: Here’s a sample Vimeo caption, with option to add Markdown links a
 <li>On positioning images in LaTeX <a href="https://www.overleaf.com/learn/latex/Positioning_images_and_tables" class="uri">https://www.overleaf.com/learn/latex/Positioning_images_and_tables</a></li>
 <li>Tips and tricks <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
 </ul>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2019-11-06</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2019-12-07</em></p>
 
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol start="222">
-<li id="fn222"><p>This is a footnote, with no reference.<a href="style-guide.html#fnref222" class="footnote-back">↩</a></p></li>
-<li id="fn223"><p>Hirsch, <em>Making the Second Ghetto</em>; Jackson, <em>Crabgrass Frontier</em>; Tyack, <em>The One Best System</em>.<a href="style-guide.html#fnref223" class="footnote-back">↩</a></p></li>
-<li id="fn224"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Dougherty et al., “School Choice in Suburbia.”</span>, pp. 33-35<a href="style-guide.html#fnref224" class="footnote-back">↩</a></p></li>
-<li id="fn225"><p><span class="citation">Ilyankou and Dougherty, “Map,” 2017</span><a href="style-guide.html#fnref225" class="footnote-back">↩</a></p></li>
-<li id="fn226"><p>Ilyankou and Dougherty, “Leaflet Map of HOLC &quot;Redlining&quot; Security Map for Hartford CT Area, 1937.”<a href="style-guide.html#fnref226" class="footnote-back">↩</a></p></li>
+<li id="fn222"><p>This is a footnote, with no reference.<a href="style-guide.html#fnref222" class="footnote-back">↩︎</a></p></li>
+<li id="fn223"><p>Hirsch, <em>Making the Second Ghetto</em>; Jackson, <em>Crabgrass Frontier</em>; Tyack, <em>The One Best System</em>.<a href="style-guide.html#fnref223" class="footnote-back">↩︎</a></p></li>
+<li id="fn224"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" role="doc-biblioref">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Dougherty et al., “School Choice in Suburbia.”</span>, pp. 33-35<a href="style-guide.html#fnref224" class="footnote-back">↩︎</a></p></li>
+<li id="fn225"><p><span class="citation">Ilyankou and Dougherty, “Map,” 2017</span><a href="style-guide.html#fnref225" class="footnote-back">↩︎</a></p></li>
+<li id="fn226"><p>Ilyankou and Dougherty, “Leaflet Map of HOLC "Redlining" Security Map for Hartford CT Area, 1937.”<a href="style-guide.html#fnref226" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -421,12 +421,11 @@ gitbook.start({
 "github": true,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -439,6 +438,10 @@ gitbook.start({
 },
 "history": {
 "link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ontheline/otl-bookdown/blog/master/09.4-style-guide.Rmd",
 "text": null
 },
 "download": ["Dougherty-etal-OnTheLine.pdf"],
