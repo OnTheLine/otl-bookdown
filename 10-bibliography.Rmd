@@ -4,7 +4,9 @@
 
 The text and images for the *On The Line* book, including data files and source code for interactive charts and maps, is located in our open-source GitHub repository at <https://github.com/ontheline>. The text is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). See individual images and captions for information about copyrights held by others.
 
-See also digitized documents, oral history interviews, and videos related to this book, stored in the On The Line Digital Archives, Connecticut Digital Archives, <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>
+See also digitized documents, oral history interviews, and videos related to this book, stored in the On The Line Digital Archives, Connecticut Digital Archives, <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>.
+
+<!-- REMOVE AFTER MIGRATION --> Note that several items currently in the Trinity Digital Repository <https://digitalrepository.trincoll.edu/cssp/> will be migrated into the CTDA.
 
 Since 2002, over 30 Trinity College student researchers have co-authored publications and/or research presentations with faculty, staff, and community partners through the Cities Suburbs and Schools Project <http://commons.trincoll.edu/cssp>. CSSP is both an undergraduate seminar and a research team for independent studies. Their works listed below include articles, book chapters, papers, and presentations, and many of these have been stored in the Papers and Publications section, Cities Suburbs and Schools Project, Trinity College Digital Repository, <http://digitalrepository.trincoll.edu/cssp_papers>.
 
@@ -71,7 +73,7 @@ Map and Geographic Information Center (MAGIC), University of Connecticut Librari
 
 Map Warper, New York Public Library. <http://maps.nypl.org/warper/>.
 
-Map Warper, Topomancy LLC). <http://mapwarper.net/>.
+Map Warper, Topomancy LLC. <http://mapwarper.net/>.
 
 National Center for Education Statistics, US Department of Education. <https://nces.ed.gov/ccd/>.
 
@@ -95,4 +97,4 @@ West Hartford History Online, West Hartford Public Library. <https://history.wes
 
 WorldCat. <https://www.worldcat.org/>.
 
-#### Automated list of sources cited in book-in-progress {-}
+#### Automated list of sources cited in book-in-progress, continually updated {-}

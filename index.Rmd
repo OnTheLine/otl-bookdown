@@ -229,7 +229,9 @@ All past and present editions of On The Line include the stable web address (htt
 
 The web edition of the book also includes internal links to different pages within the book (e.g. selected chapters, bibliography, etc.) If any internal links break, this platform has been set up to automatically redirect readers to the book's home page.
 
-The book also contains external links (such as endnotes that refer to other articles, books, or websites). If any external links break, each endnote contains a full citation and external web address, which readers may search in the "Way Back Machine" at (http://archive.org) to see the most recent version of this site. [Donate to the Internet Archive](http://archive.org/donate/), the non-profit organization that maintains this valuable collection of our digital history as a free public service.
+The book also contains external links (such as endnotes that refer to other articles, books, or websites). Whenever possible, external links point to open-access sources. When only paywall-protected sources are available, external links may include a web address specific to readers on the Trinity College network.
+
+If any external links break, each endnote contains a full citation and external web address, which readers may search in the "Way Back Machine" at (http://archive.org) to see the most recent version of this site. [Donate to the Internet Archive](http://archive.org/donate/), the non-profit organization that maintains this valuable collection of our digital history as a free public service.
 
 ## Copyright with Open Access {-}
 
