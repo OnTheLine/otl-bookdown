@@ -6,7 +6,7 @@ The text and images for the *On The Line* book, including data files and source 
 
 See also digitized documents, oral history interviews, and videos related to this book, stored in the On The Line Digital Archives, Connecticut Digital Archives, <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>.
 
-<!-- REMOVE AFTER MIGRATION --> Note that several items currently in the Trinity Digital Repository <https://digitalrepository.trincoll.edu/cssp/> will be migrated into the CTDA.
+<!-- AFTER MIGRATION, remove this note, and perhaps Zotero entry and ref to citiessuburbsandschoolsprojectarchivestrinitycollegedigitalrepository --> Note that several items currently in the Trinity Digital Repository <https://digitalrepository.trincoll.edu/cssp/> will be migrated into the CTDA.
 
 Since 2002, over 30 Trinity College student researchers have co-authored publications and/or research presentations with faculty, staff, and community partners through the Cities Suburbs and Schools Project <http://commons.trincoll.edu/cssp>. CSSP is both an undergraduate seminar and a research team for independent studies. Their works listed below include articles, book chapters, papers, and presentations, and many of these have been stored in the Papers and Publications section, Cities Suburbs and Schools Project, Trinity College Digital Repository, <http://digitalrepository.trincoll.edu/cssp_papers>.
 

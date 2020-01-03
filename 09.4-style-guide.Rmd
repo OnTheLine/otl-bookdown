@@ -73,7 +73,7 @@ In body of the book, avoid inserting images with simple Markdown syntax, because
 - scrolling PDF files in the Web edition, with static screenshots in the PDF edition
 - videos in Web edition, with static images in PDF edition
 
-**Overview**
+##### Overview {-}
 - Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown cites and links, as shown below. For details, see Bookdown sections on Figures <https://bookdown.org/yihui/bookdown/figures.html> and Markdown extensions <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.
 - Insert a BLANK LINE between the text reference and the R code chunk coming up.
 - Insert an R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, with NO SPACES between ref:chunk-label, as shown below.
@@ -115,7 +115,7 @@ if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else kni
 (ref:sample-clip) Here's a sample local video clip caption, with option to add Markdown link and footnote.
 
 ```{r sample-clip, echo=FALSE, fig.cap="(ref:sample-clip)"}
-if(knitr::is_html_output()) knitr::include_url("images/BernsteinSimon2011clip.mp4") else knitr::include_graphics("images/2014-lumpkin-mae-willie-screenshot.png")
+if(knitr::is_html_output()) knitr::include_url("images/2011-bernstein-demo-clip.mp4") else knitr::include_graphics("images/2011-bernstein-demo-screenshot.png")
 ```
 
 ##### YouTube video iframe in web edition, static image in PDF edition {-}
@@ -131,7 +131,6 @@ if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/Nu
 ```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
 ```
-
 
 
 Since CTDA and Kaltura video feeds appear in the browser in autoplay mode, as of August 2019, do not embed these feeds in the book.
