@@ -181,12 +181,11 @@ $(document).ready(function() {
 <p>Also, this style guide was created primarily for the web edition <a href="http://OnTheLine.trincoll.edu" class="uri">http://OnTheLine.trincoll.edu</a>, and may require additional modifications for the final PDF print edition.</p>
 <div id="general-goals" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">General Goals</h4>
-<p>For this book, the goal is to compose one version of the text that Bookdown will generate into multiple products: the Web/HTML edition, the PDF edition, and other formats such as ePub and MS Word if requested by the publisher. Only the Web edition will display interactive content and clickable links. But the text is designed so that readers of the printed PDF pages will see static images in place of interactive content. Also, readers of both the printed PDF pages and the Web edition will see footnotes with URLs, to supplement links that are clickable only in the Web edition. <em>(Since pages like this contain primarily technical details for authors, it does not include footnotes.)</em> Also, to ensure that the Web edition is accessible to visually-impaired readers, run tests and fix errors flagged by the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>.</p>
+<p>The broad goal is to compose one version of the text that Bookdown will generate into multiple book products: Web HTML edition, PDF edition, MS Word edition, etc. The Web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips). But the PDF and MS Word editions are designed to display static screenshots of interactive content, as well as clickable links and footnotes/endnotes for source materials. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested using the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>.</p>
 </div>
 <div id="markdown-vs.-r-markdown" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Markdown vs. R Markdown</h4>
-<p>The text is based on the easy-to-read Markdown syntax, which is summarized in this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">popular cheatsheet</a> and this <a href="https://www.markdowntutorial.com">interactive tutorial</a>.</p>
-<p>But Bookdown uses its own flavor: <a href="https://rmarkdown.rstudio.com/">R Markdown by R Studio</a>.</p>
+<p>The text is based on the easy-to-read Markdown syntax, which is summarized in this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">popular cheatsheet</a> and this <a href="https://www.markdowntutorial.com">interactive tutorial</a>. But Bookdown uses its own flavor: <a href="https://rmarkdown.rstudio.com/">RMarkdown by RStudio</a>.</p>
 </div>
 <div id="formatting" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Formatting</h4>
@@ -197,7 +196,8 @@ $(document).ready(function() {
 <p>Use HTML-style code comments to insert notes that are invisible to most readers, yet visible to authors (or anyone) viewing the public GitHub repo, such as TODO reminders:</p>
 <pre><code>&lt;!-- TODO this comment appears in the source code, but not the book products --&gt;</code></pre>
 <!-- TODO confirm this em-dash syntax -->
-<p>For an em-dash, use three hyphens—like this—rather than two hyphens.</p>
+<p>For an em-dash, use three hyphens—like this—and compare with below.</p>
+<p>For an en-dash, use only two hyphens–like this–and compare with above.</p>
 <p>For a block quote, start each line with a caret <strong>AND</strong> add two spaces to insert a line break:</p>
 <blockquote>
 <p>I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.<br />
@@ -216,140 +216,124 @@ $(document).ready(function() {
 </ul>
 <p>Since the <code>index.Rmd</code> settings add numbers to chapters/sections, remember to block numbers from appearing in fourth- and fifth-level headers by adding curly brackets arounds a hyphen: <code>#### Subheader non-numbered {-}</code></p>
 <p>In Bookdown, a short chapter/section title <code># Introduction</code> has a short default reference: <code>#introduction</code>. But a longer chapter/section title <code># Defining City and Suburban Lines</code> has a longer default reference: <code>#defining-city-and-suburban-lines</code>.</p>
-<p>In this book, we simplify each chapter/section title references by adding a short ID name in curly brackets, like this: <code># Defining City and Suburban Lines {#defining}</code>.</p>
-<p>Also, we match the short ID name <code>{#defining}</code> to the file name <code>02-defining.Rmd</code>. Although Bookdown does not require the file name and short ID to match, this method helps authors to organize all cross-references.</p>
+<p>This book simplifies each chapter/section title references by adding a short ID name in curly brackets, like this: <code># Defining City and Suburban Lines {#defining}</code>.</p>
+<p>Also, this book matches the short ID name <code>{#defining}</code> to the file name <code>02-defining.Rmd</code>. Although Bookdown does not require the file name and short ID to match, this method helps authors to organize all cross-references.</p>
 <p>To embed a cross-reference to another chapter/section in the book, add an HTML link using brackets and parentheses. See code: <code>*by [Ilya Ilyankou and Jack Dougherty](authors-and-contributors.html)*</code> with demo: <em>by <a href="authors-and-contributors.html">Ilya Ilyankou and Jack Dougherty</a></em>. This method works best for the HTML edition.</p>
 </div>
 <div id="preface-and-footers" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Preface and Footers</h4>
 <p>In this book, <code>index.Rmd</code> begins with a non-numbered first-level header <code># Preface {-}</code>, followed by non-numbered second-level headers such as <code>## Authors and Contributors {-}</code> and <code>## Acknowledgements {-}</code>. All of this content is placed in the <code>index.Rmd</code> file because creating zero-numbered files (such as 0.1-about.Rmd) generated Bookdown errors.</p>
-<p>Also, at the end of each section in the main text, a footer has been manually pasted that includes HTML links to sections in the Preface. The purpose of the footer is to ensure that each long web page contains author and copyright information, in case readers print out individual web pages from their browsers. Also, manually inserting a footer is not ideal, but we have not yet created a custom-script that performs the same function.</p>
+<p>Also, at the end of each section in the main text, a footer has been manually pasted that includes HTML links to sections in the Preface. The purpose of the footer is to ensure that each long web page contains author and copyright information, in case readers print out individual web pages from their browsers. TODO: since manually inserting a footer is not ideal, create a custom-script that performs the same function.</p>
 </div>
-<div id="footnotes" class="section level4 unnumbered" number="">
-<h4 class="unnumbered" number="">Footnotes</h4>
-<p>A text-only footnote.<a href="#fn222" class="footnote-ref" id="fnref222"><sup>222</sup></a></p>
-<p>To create a footnote with citations only, separate BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn223" class="footnote-ref" id="fnref223"><sup>223</sup></a></span></p>
-<p>Since footnotes also may include text and punctionation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:<a href="#fn224" class="footnote-ref" id="fnref224"><sup>224</sup></a></p>
-</div>
-<div id="static-images-and-interactive-iframes" class="section level4 unnumbered" number="">
-<h4 class="unnumbered" number="">Static Images and Interactive iFrames</h4>
-<p>In body of the book, avoid inserting images with simple Markdown syntax, because it does not support Bookdown figure auto-numbering and caption formatting. Instead, follow this R “code chunk” method, which supports figure auto-numbering and caption formatting for:</p>
+<div id="footnotesendnotes" class="section level4 unnumbered" number="">
+<h4 class="unnumbered" number="">Footnotes/Endnotes</h4>
+<p>A text-only footnote.<a href="#fn197" class="footnote-ref" id="fnref197"><sup>197</sup></a></p>
+<p>To create a footnote with citations only, separate BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn198" class="footnote-ref" id="fnref198"><sup>198</sup></a></span></p>
+<p>Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:<a href="#fn199" class="footnote-ref" id="fnref199"><sup>199</sup></a></p>
+<div id="known-issues-in-this-book-re-footnotesendnotes" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">KNOWN ISSUES in this book re: footnotes/endnotes</h5>
+<p>TODO: Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:</p>
 <ul>
-<li>static images, in both Web and PDF editions</li>
-<li>interactive maps and charts in Web edition, with static images in PDF edition</li>
-<li>scrolling PDF files in the Web edition, with static screenshots in the PDF edition</li>
-<li>videos in Web edition, with static images in PDF edition</li>
+<li><p>In the Web HTML edition, customized code in <code>style.css</code> renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.</p></li>
+<li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code.</p></li>
+<li><p>In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.</p></li>
+<li><p>Also, avoid placing footnotes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.</p></li>
 </ul>
-<div id="overview" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Overview</h5>
+</div>
+</div>
+<div id="r-code-chunks-to-display-interactive-iframes-and-static-images" class="section level4 unnumbered" number="">
+<h4 class="unnumbered" number="">R Code Chunks to Display Interactive iFrames and Static Images</h4>
+<p>In the body of the book, avoid inserting images with simple Markdown syntax, because it does not support Bookdown figure auto-numbering and caption formatting, and does not translate well into PDF and MS Word formats. Instead, follow this R “code chunk” method, as shown in the examples further below for:</p>
+<ol style="list-style-type: decimal">
+<li>Static images, in Web and PDF and MS Word editions</li>
+<li>Interactive maps and charts in Web edition, with static images in PDF and MS Word editions</li>
+<li>Scrolling PDF files in the Web edition, with static screenshots in the PDF and MS Word editions</li>
+<li>Playable videos in Web edition, with static screenshots in PDF and MS Word editions</li>
+</ol>
+<div id="overview-of-r-code-chunks" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Overview of R Code Chunks</h5>
 <ul>
-<li>Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown cites and links, as shown below. For details, see Bookdown sections on Figures <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a> and Markdown extensions <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.</li>
-<li>Insert a BLANK LINE between the text reference and the R code chunk coming up.</li>
-<li>Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown below.</li>
-<li>To reduce the width (or height) of the output, add <code>out.width="30%"</code> to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert <code>fig.align="center"</code>.</li>
+<li>Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.</li>
+<li>Insert a BLANK LINE between the text reference and the R code chunk that follows.</li>
+<li>Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown in the examples below below.</li>
+<li>To reduce the width (or height) of the output, add <code>out.width="50%"</code> to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert <code>fig.align="center"</code>.</li>
 <li>To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)</li>
-<li>If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in <code>custom-scripts.html</code> and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.</li>
-<li>Optional: In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Sample dynamic reference to a figure further below: … as shown in Figure <a href="style-guide.html#fig:sample-interactive">49</a>.</li>
+<li>If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the <code>custom-scripts.html</code> file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.</li>
+<li>In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Figure <a href="style-guide.html#fig:sample-interactive">49</a>.<a href="#fn200" class="footnote-ref" id="fnref200"><sup>200</sup></a></li>
 <li>Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.</li>
-<li>Note: Bookdown does not auto-number figures in the <code>index.Rmd</code> file, which serves as a preface or introduction.</li>
-</ul>
-<p>TODO for final PDF edition:</p>
+<li>Reminder: Bookdown does not auto-number figures in the <code>index.Rmd</code> file, which serves as a preface or introduction.</li>
+<li><strong>TODO prior to final PDF edition</strong>:
 <ul>
-<li>About auto_pdf: “include_graphics() can be smart enough to use PDF graphics automatically when the output format is LaTeX and the PDF graphics files exist, e.g., an image path foo/bar.png can be automatically replaced with foo/bar.pdf if the latter exists. PDF images often have better qualities than raster images in LaTeX/PDF output. To make use of this feature, set the argument auto_pdf = TRUE, or set the global option options(knitr.graphics.auto_pdf = TRUE) to enable this feature globally in an R session.” from <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a></li>
-<li>Decide if ‘out.width’ and ‘out.height’ is preferable in all cases to <code>"fig_height=7"</code></li>
+<li>Reminder from <a href="https://bookdown.org/yihui/rmarkdown/r-code.html#figures">Yihui Xie</a>: “PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desperately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = ‘h’). See <a href="https://www.sharelatex.com/learn/Positioning_images_and_tables" class="uri">https://www.sharelatex.com/learn/Positioning_images_and_tables</a> for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."</li>
+<li>Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set <code>auto_pdf = TRUE</code> inside <code>include_graphics()</code>. Read more at <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a></li>
+<li>Decide if ‘out.width’ and ‘out.height’ are preferable in all cases to <code>"fig_height=7"</code></li>
+</ul></li>
 </ul>
 </div>
-<div id="static-image-in-all-editions-half-size-output-no-interactive-version" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Static image in all editions, half-size output, no interactive version</h5>
+<div id="example-1-static-image-in-all-editions-half-size-output-no-interactive-version" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Example 1: Static image in all editions, half-size output, no interactive version</h5>
 
 <div class="figure"><span id="fig:sample-static-image"></span>
-<img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting, links, citation." width="50%" />
+<img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting and links." width="50%" />
 <p class="caption">
-Figure 48: Caption for sample static image, with Markdown formatting, links, citation.
+Figure 48: Caption for sample static image, with Markdown formatting and links.
 </p>
 </div>
 </div>
-<div id="interactive-iframe-in-web-edition-with-adjusted-height-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Interactive iframe in web edition (with adjusted height), static image in PDF edition</h5>
+<div id="example-2-interactive-iframe-in-web-edition-with-adjusted-height-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Example 2: Interactive iframe in web edition (with adjusted height), static image in PDF edition</h5>
 
 <!-- set iframe 600px height 100% width in custom-scripts.html -->
 <div class="figure"><span id="fig:sample-interactive"></span>
 <iframe src="https://ontheline.github.io/otl-redlining/" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 49: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to sources and the code View <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty, with footnote.<a href="#fn225" class="footnote-ref" id="fnref225"><sup>225</sup></a>
+Figure 49: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.
 </p>
 </div>
 </div>
-<div id="locally-stored-pdf-scrolling-in-web-edition-static-screenshot-in-pdf-edition" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Locally stored PDF scrolling in web edition, static screenshot in PDF edition</h5>
+<div id="example-3-locally-stored-pdf-scrolling-in-web-edition-static-screenshot-in-pdf-edition" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Example 3: Locally stored PDF scrolling in web edition, static screenshot in PDF edition</h5>
 
 <div class="figure"><span id="fig:pdf-sample-local"></span>
 <iframe src="images/sample-3pp.pdf" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 50: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link and footnote.
+Figure 50: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 </p>
 </div>
 </div>
-<div id="locally-stored-video-clip-with-custom-script" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Locally stored video clip, with custom script</h5>
-
-<div class="figure"><span id="fig:sample-clip"></span>
-<iframe src="images/2011-bernstein-demo-clip.mp4" width="672" height="400px">
-</iframe>
-<p class="caption">
-Figure 51: Here’s a sample local video clip caption, with option to add Markdown link and footnote.
-</p>
-</div>
-</div>
-<div id="youtube-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">YouTube video iframe in web edition, static image in PDF edition</h5>
+<div id="example-4a-youtube-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Example 4a: YouTube video iframe in web edition, static image in PDF edition</h5>
 
 <div class="figure"><span id="fig:youtube-sample-video"></span>
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 52: Here’s a sample YouTube caption, with option to add Markdown links and footnote.
+Figure 51: Here’s a sample YouTube clip caption, with option to add Markdown link (to the full video on CTDA). YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 </p>
 </div>
 </div>
-<div id="vimeo-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Vimeo video iframe in web edition, static image in PDF edition</h5>
+<div id="example-4b-vimeo-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level5 unnumbered" number="">
+<h5 class="unnumbered" number="">Example 4b: Vimeo video iframe in web edition, static image in PDF edition</h5>
 
 <div class="figure"><span id="fig:vimeo-sample-vimeo"></span>
 <iframe src="https://player.vimeo.com/video/27299734" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 53: Here’s a sample Vimeo caption, with option to add Markdown links and footnote.
+Figure 52: Here’s a sample Vimeo clip caption, with option to add Markdown link (to the full video on CTDA).
 </p>
 </div>
-<p>Since CTDA and Kaltura video feeds appear in the browser in autoplay mode, as of August 2019, do not embed these feeds in the book.</p>
-<p>Instead, embed a short relevant video clips in YouTube or Vimeo, and insert link to “the full video on CTDA/Kaltura” in the caption and footnote.</p>
-<p>An alternative method is to store the video locally and display with HTML5 video tags, with a custom-script to stop auto-play. But Bookdown does not recognize this so no figure auto-numbering and captions will be displayed, as illustrated below.</p>
+<p>Reminder: As of January 2020, CTDA and Kaltura video feeds both appear in the browser in autoplay mode, so do not embed these feeds directly in iframes in the book. Instead, upload a short relevant video clip to YouTube or Vimeo to display in the book, and insert a link “to the full video on CTDA or Kaltura” in the caption and footnote.</p>
 </div>
-</div>
-<div id="trying-html5-video-tag-solution" class="section level4 unnumbered" number="">
-<h4 class="unnumbered" number="">Trying HTML5 video tag solution</h4>
-<p>Here’s a solution using the <a href="https://www.w3schools.com/tags/tag_video.asp">HTML5 video tag</a>, which simply says NOT to insert “autoplay”.</p>
-<video width="640" height="360" controls>
-<source src="https://collections.ctdigitalarchive.org/islandora/object/120002:191/datastream/MP4" type="video/mp4">
-</video>
-<p>The HMTL5 video tag solution stops autoplay, but it is NOT ideal for Bookdown-generated books because:</p>
-<ul>
-<li>Bookdown/knitr does not <em>appear</em> to support the HMTL 5 video tag in the same way as it supports knitr::include_url. I could submit a request to Bookdown to support HTML5 video tag, but it’s not likely to happen soon….</li>
-<li>This means that I cannot use Bookdown built-in support for figures using the HMTL5 video tag, such as:
-<ul>
-<li>the if-else statement in the R code-chunk that places the interactive iframe in HTML and the static floating image in the PDF, but the same caption for both</li>
-<li>figure auto-numbering, such as Figure 1.2, 1.3, etc.</li>
-</ul></li>
-</ul>
 </div>
 <div id="tables" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Tables</h4>
-<p>For now, use Markdown table formatting, with header above and caption (in italicized text) below. See <a href="http://www.tablesgenerator.com/" class="uri">http://www.tablesgenerator.com/</a> with Markdown output. TODO: Decide on Bookdown-recommended kable package for tables, link to CSV in GitHub repo, and so on.</p>
+<p>This book currently uses Markdown table formatting, with header above and caption (in italicized text) below, using <a href="http://www.tablesgenerator.com/" class="uri">http://www.tablesgenerator.com/</a> to generate Markdown output. Reminder: this does not create a Bookdown-generated auto-numbered figure, so cannot (yet) create dynamic reference.
+- TODO prior to final publication: decide whether to use the Bookdown-recommended kable package for tables, and add link to CSV in GitHub repo, and so on.</p>
 <div id="sample-table" class="section level5 unnumbered" number="">
 <h5 class="unnumbered" number="">Sample table</h5>
+<p>Sample body text immediately above the table, with optional links and footnote.<a href="#fn201" class="footnote-ref" id="fnref201"><sup>201</sup></a>.</p>
 <table>
 <thead>
 <tr class="header">
@@ -376,23 +360,19 @@ Figure 53: Here’s a sample Vimeo caption, with option to add Markdown links an
 </tr>
 </tbody>
 </table>
-<p><em>In the table above, insert a caption in italics, with optional links and footnote.</em><span class="citation"><a href="#fn226" class="footnote-ref" id="fnref226"><sup>226</sup></a></span></p>
 </div>
 </div>
-<div id="references-for-above" class="section level4 unnumbered" number="">
-<h4 class="unnumbered" number="">References for above</h4>
+<div id="further-reading" class="section level4 unnumbered" number="">
+<h4 class="unnumbered" number="">Further Reading</h4>
 <ul>
-<li>R Markdown book section on figures
-<ul>
-<li><a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
-<li><a href="https://bookdown.org/yihui/rmarkdown/r-code.html#figures" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html#figures</a>, which states:</li>
-<li>“PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desparately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = ‘h’). See <a href="https://www.sharelatex.com/learn/Positioning_images_and_tables" class="uri">https://www.sharelatex.com/learn/Positioning_images_and_tables</a> for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."</li>
-</ul></li>
-<li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
+<li>Bookdown sections on Figures <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a> and Markdown extensions <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.</li>
 <li>On R code chunks in RMarkdown <a href="https://bookdown.org/yihui/rmarkdown/r-code.html" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html</a></li>
 <li>On R code chunk options in knitr package <a href="https://yihui.name/knitr/options/#code-chunk" class="uri">https://yihui.name/knitr/options/#code-chunk</a></li>
+<li>R Markdown book section on figures <a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
+<li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
 <li>On positioning images in LaTeX <a href="https://www.overleaf.com/learn/latex/Positioning_images_and_tables" class="uri">https://www.overleaf.com/learn/latex/Positioning_images_and_tables</a></li>
-<li>Tips and tricks <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
+<li>Tips and tricks for working with images and figures in rmarkdown <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
+<li>Hints on using auto_pdf: <a href="https://blog.earo.me/2019/10/26/reduce-frictions-rmd/" class="uri">https://blog.earo.me/2019/10/26/reduce-frictions-rmd/</a></li>
 </ul>
 <p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-03</em></p>
 
@@ -400,12 +380,12 @@ Figure 53: Here’s a sample Vimeo caption, with option to add Markdown links an
 </div>
 <div class="footnotes">
 <hr />
-<ol start="222">
-<li id="fn222"><p>This is a footnote, with no reference.<a href="style-guide.html#fnref222" class="footnote-back">↩︎</a></p></li>
-<li id="fn223"><p>Hirsch, <em>Making the Second Ghetto</em>; Jackson, <em>Crabgrass Frontier</em>; Tyack, <em>The One Best System</em>.<a href="style-guide.html#fnref223" class="footnote-back">↩︎</a></p></li>
-<li id="fn224"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" role="doc-biblioref">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Dougherty et al., “School Choice in Suburbia.”</span>, pp. 33-35<a href="style-guide.html#fnref224" class="footnote-back">↩︎</a></p></li>
-<li id="fn225"><p><span class="citation">Ilyankou and Dougherty, “Map,” 2017</span><a href="style-guide.html#fnref225" class="footnote-back">↩︎</a></p></li>
-<li id="fn226"><p>Ilyankou and Dougherty, “Leaflet Map of HOLC "Redlining" Security Map for Hartford CT Area, 1937.”<a href="style-guide.html#fnref226" class="footnote-back">↩︎</a></p></li>
+<ol start="197">
+<li id="fn197"><p>This is a footnote, with no reference.<a href="style-guide.html#fnref197" class="footnote-back">↩︎</a></p></li>
+<li id="fn198"><p>Hirsch, <em>Making the Second Ghetto</em>; Jackson, <em>Crabgrass Frontier</em>; Tyack, <em>The One Best System</em>.<a href="style-guide.html#fnref198" class="footnote-back">↩︎</a></p></li>
+<li id="fn199"><p>On this theme, see <span class="citation">Jack Dougherty, “Review of ’Connecticut’s Public Schools: A History, 1650-2000’ by Christopher Collier,” <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" role="doc-biblioref">http://digitalrepository.trincoll.edu/cssp_papers/41</a></span>. On a different theme, see <span class="citation">Dougherty et al., “School Choice in Suburbia.”</span>, pp. 33-35<a href="style-guide.html#fnref199" class="footnote-back">↩︎</a></p></li>
+<li id="fn200"><p><span class="citation">Clark, “The Charter Oak City.”</span><a href="style-guide.html#fnref200" class="footnote-back">↩︎</a></p></li>
+<li id="fn201"><p><span class="citation">Ilyankou and Dougherty, “Leaflet Map of HOLC "Redlining" Security Map for Hartford CT Area, 1937.”</span><a href="style-guide.html#fnref201" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>

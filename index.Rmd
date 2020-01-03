@@ -46,10 +46,11 @@ output:
         twitter: yes
 
   bookdown::pdf_book:
-    latex_engine: xelatex
     citation_package: none
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 
+  bookdown::word_document2:
+    default
 ---
 # Preface {-}
 
@@ -208,21 +209,21 @@ To cite this book-in-progress, please refer to the web edition (rather than the 
 For general citations of the book, see these samples of common academic styles:
 
 >**Chicago-style footnote or endnote:**  
->Jack Dougherty and contributors, *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs* (Trinity College, book-in-progress, 2019), http://ontheline.trincoll.edu.
+>Jack Dougherty and contributors, *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs* (Trinity College, book-in-progress, 2020), http://ontheline.trincoll.edu.
 >
 >**Chicago-style bibliography entry:**  
->Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2019. http://ontheline.trincoll.edu.
+>Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. http://ontheline.trincoll.edu.
 >
 >**MLA bibliography entry (with web address):**  
->Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2019. Web. <http://ontheline.trincoll.edu/>.
+>Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. Web. <http://ontheline.trincoll.edu/>.
 >
 >**APA reference entry:**  
->Dougherty, J., & contributors. (2019). *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress. Retrieved from http://ontheline.trincoll.edu
+>Dougherty, J., & contributors. (2020). *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress. Retrieved from http://ontheline.trincoll.edu
 
 To cite a specific passage, insert the author/title/web address of the relevant chapter as a "book section" in your preferred citation style. Since the web edition does not include page numbers, rely on the URL to point to the specific page.
 
 >Sample Chicago-style note for a specific chapter:  
->Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, "Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org," in *On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs* (Trinity College, book-in-progress, 2019), https://ontheline.trincoll.edu/writing.
+>Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, "Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org," in *On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs* (Trinity College, book-in-progress, 2020), https://ontheline.trincoll.edu/writing.
 
 What if web links break?
 All past and present editions of On The Line include the stable web address (http://OnTheLine.trincoll.edu), which redirects readers to the current version of the book.

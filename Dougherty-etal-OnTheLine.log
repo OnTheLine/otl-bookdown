@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.15)  15 DEC 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  3 JAN 2020 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,238 +125,16 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 )) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math
-.sty (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-11-07 L3 programming layer (loader) 
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count101
-\l_tmpa_int=\count102
-\l_tmpb_int=\count103
-\g_tmpa_int=\count104
-\g_tmpb_int=\count105
-\l__seq_internal_a_int=\count106
-\l__seq_internal_b_int=\count107
-\g__kernel_prg_map_int=\count108
-\c__ior_term_noprompt_ior=\count109
-\c_log_iow=\count110
-\l_iow_line_count_int=\count111
-\l__iow_line_target_int=\count112
-\l__iow_one_indent_int=\count113
-\l__iow_indent_int=\count114
-\c_zero_dim=\dimen112
-\c_max_dim=\dimen113
-\l_tmpa_dim=\dimen114
-\l_tmpb_dim=\dimen115
-\g_tmpa_dim=\dimen116
-\g_tmpb_dim=\dimen117
-\c_zero_skip=\skip46
-\c_max_skip=\skip47
-\l_tmpa_skip=\skip48
-\l_tmpb_skip=\skip49
-\g_tmpa_skip=\skip50
-\g_tmpb_skip=\skip51
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count115
-\l__intarray_loop_int=\count116
-\c__intarray_sp_dim=\dimen118
-\g__intarray_font_int=\count117
-\c__fp_leading_shift_int=\count118
-\c__fp_middle_shift_int=\count119
-\c__fp_trailing_shift_int=\count120
-\c__fp_big_leading_shift_int=\count121
-\c__fp_big_middle_shift_int=\count122
-\c__fp_big_trailing_shift_int=\count123
-\c__fp_Bigg_leading_shift_int=\count124
-\c__fp_Bigg_middle_shift_int=\count125
-\c__fp_Bigg_trailing_shift_int=\count126
-\g__fp_array_int=\count127
-\l__fp_array_loop_int=\count128
-\l__sort_length_int=\count129
-\l__sort_min_int=\count130
-\l__sort_top_int=\count131
-\l__sort_max_int=\count132
-\l__sort_true_max_int=\count133
-\l__sort_block_int=\count134
-\l__sort_begin_int=\count135
-\l__sort_end_int=\count136
-\l__sort_A_int=\count137
-\l__sort_B_int=\count138
-\l__sort_C_int=\count139
-\l__str_internal_int=\count140
-\l__tl_analysis_normal_int=\count141
-\l__tl_analysis_index_int=\count142
-\l__tl_analysis_nesting_int=\count143
-\l__tl_analysis_type_int=\count144
-\l__regex_internal_a_int=\count145
-\l__regex_internal_b_int=\count146
-\l__regex_internal_c_int=\count147
-\l__regex_balance_int=\count148
-\l__regex_group_level_int=\count149
-\l__regex_mode_int=\count150
-\c__regex_cs_in_class_mode_int=\count151
-\c__regex_cs_mode_int=\count152
-\l__regex_catcodes_int=\count153
-\l__regex_default_catcodes_int=\count154
-\c__regex_catcode_L_int=\count155
-\c__regex_catcode_O_int=\count156
-\c__regex_catcode_A_int=\count157
-\c__regex_all_catcodes_int=\count158
-\l__regex_show_lines_int=\count159
-\l__regex_min_state_int=\count160
-\l__regex_max_state_int=\count161
-\l__regex_left_state_int=\count162
-\l__regex_right_state_int=\count163
-\l__regex_capturing_group_int=\count164
-\l__regex_min_pos_int=\count165
-\l__regex_max_pos_int=\count166
-\l__regex_curr_pos_int=\count167
-\l__regex_start_pos_int=\count168
-\l__regex_success_pos_int=\count169
-\l__regex_curr_char_int=\count170
-\l__regex_curr_catcode_int=\count171
-\l__regex_last_char_int=\count172
-\l__regex_case_changed_char_int=\count173
-\l__regex_curr_state_int=\count174
-\l__regex_step_int=\count175
-\l__regex_min_active_int=\count176
-\l__regex_max_active_int=\count177
-\l__regex_replacement_csnames_int=\count178
-\l__regex_match_count_int=\count179
-\l__regex_min_submatch_int=\count180
-\l__regex_submatch_int=\count181
-\l__regex_zeroth_submatch_int=\count182
-\g__regex_trace_regex_int=\count183
-\c_empty_box=\box29
-\l_tmpa_box=\box30
-\l_tmpb_box=\box31
-\g_tmpa_box=\box32
-\g_tmpb_box=\box33
-\l__box_top_dim=\dimen119
-\l__box_bottom_dim=\dimen120
-\l__box_left_dim=\dimen121
-\l__box_right_dim=\dimen122
-\l__box_top_new_dim=\dimen123
-\l__box_bottom_new_dim=\dimen124
-\l__box_left_new_dim=\dimen125
-\l__box_right_new_dim=\dimen126
-\l__box_internal_box=\box34
-\l__coffin_internal_box=\box35
-\l__coffin_internal_dim=\dimen127
-\l__coffin_offset_x_dim=\dimen128
-\l__coffin_offset_y_dim=\dimen129
-\l__coffin_x_dim=\dimen130
-\l__coffin_y_dim=\dimen131
-\l__coffin_x_prime_dim=\dimen132
-\l__coffin_y_prime_dim=\dimen133
-\c_empty_coffin=\box36
-\l__coffin_aligned_coffin=\box37
-\l__coffin_aligned_internal_coffin=\box38
-\l_tmpa_coffin=\box39
-\l_tmpb_coffin=\box40
-\g_tmpa_coffin=\box41
-\g_tmpb_coffin=\box42
-\l__coffin_bounding_shift_dim=\dimen134
-\l__coffin_left_corner_dim=\dimen135
-\l__coffin_right_corner_dim=\dimen136
-\l__coffin_bottom_corner_dim=\dimen137
-\l__coffin_top_corner_dim=\dimen138
-\l__coffin_scaled_total_height_dim=\dimen139
-\l__coffin_scaled_width_dim=\dimen140
-\c__coffin_empty_coffin=\box43
-\l__coffin_display_coffin=\box44
-\l__coffin_display_coord_coffin=\box45
-\l__coffin_display_pole_coffin=\box46
-\l__coffin_display_offset_dim=\dimen141
-\l__coffin_display_x_dim=\dimen142
-\l__coffin_display_y_dim=\dimen143
-\g__char_data_ior=\read1
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/l3deprecation.de
-f
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xdvip
-dfmx.def
-File: l3backend-xdvipdfmx.def 2019-04-06 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count184
-\l__pdf_internal_box=\box47
-\g__pdf_backend_object_int=\count185
-\g__pdf_backend_annotation_int=\count186
-))
-Package: unicode-math 2019/09/26 v0.8p Unicode maths in XeLaTeX and LuaLaTeX
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math
--xetex.sty
-Package: unicode-math-xetex 2019/09/26 v0.8p Unicode maths in XeLaTeX and LuaLa
-TeX
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.
-sty
-Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count187
-\g__xparse_grabber_int=\count188
-\l__xparse_m_args_int=\count189
-\l__xparse_v_nesting_int=\count190
-)
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3key
-s2e.sty
-Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2019/10/19 v2.7d Font selection for XeLaTeX and LuaLaTeX
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.s
-ty
-Package: fontspec-xetex 2019/10/19 v2.7d Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count191
-\l__fontspec_language_int=\count192
-\l__fontspec_strnum_int=\count193
-\l__fontspec_tmp_int=\count194
-\l__fontspec_tmpa_int=\count195
-\l__fontspec_tmpb_int=\count196
-\l__fontspec_tmpc_int=\count197
-\l__fontspec_em_int=\count198
-\l__fontspec_emdef_int=\count199
-\l__fontspec_strong_int=\count266
-\l__fontspec_strongdef_int=\count267
-\l__fontspec_tmpa_dim=\dimen144
-\l__fontspec_tmpb_dim=\dimen145
-\l__fontspec_tmpc_dim=\dimen146
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 4047.
-LaTeX Info: Redefining \slshape on input line 4052.
-LaTeX Info: Redefining \scshape on input line 4057.
-LaTeX Info: Redefining \upshape on input line 4062.
-LaTeX Info: Redefining \em on input line 4092.
-LaTeX Info: Redefining \emph on input line 4117.
-)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-))
-\g__um_fam_int=\count268
-\g__um_fonts_used_int=\count269
-\l__um_primecount_int=\count270
-\g__um_primekern_muskip=\muskip17
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math
--table.tex))) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/upquote/upq
-uote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -372,8 +150,83 @@ Package textcomp Info: Sub-encoding information:
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -437,16 +290,20 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -456,8 +313,8 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
@@ -468,53 +325,56 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/kvsetkeys.st
-y
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-))
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/kvdefinekeys.s
-ty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+\KV@toks@=\toks22
+)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefineke
+ys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2016/05/16 xcolor patch
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hycolor/xcolor-patch.sty
+Package: xcolor-patch 2019/12/15 xcolor patch
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hopatch.sty
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 )))
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.s
 ty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen147
-\Hy@linkcounter=\count271
-\Hy@pagecounter=\count272
+\@linkdim=\dimen112
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count273
+\Hy@SavedSpaceFactor=\count103
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4409.
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2019/11/10 v7.00c Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4535.
 Package hyperref Info: Link nesting OFF on input line 4540.
@@ -523,23 +383,24 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count274
+\c@Hy@tempcnt=\count104
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5147.
-\XeTeXLinkMargin=\dimen148
+\XeTeXLinkMargin=\dimen113
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count275
-\Field@Width=\dimen149
-\Fld@charsize=\dimen150
+\Fld@menulength=\count105
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
 Package hyperref Info: Hyper figures OFF on input line 6418.
 Package hyperref Info: Link nesting OFF on input line 6423.
 Package hyperref Info: Hyper index ON on input line 6426.
@@ -552,82 +413,75 @@ LaTeX Info: Redefining \pageref on input line 6492.
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count276
-\c@Item=\count277
-\c@Hfootnote=\count278
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
-Package hyperref Info: Driver (autodetected): hxetex.
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2019/11/10 v7.00c Hyperref driver for XeTeX
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box48
-\c@Hy@AnnotLevel=\count279
-\HyField@AnnotCount=\count280
-\Fld@listcount=\count281
-\c@bookmark@seq@number=\count282
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilec
-heck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/uniquecounter.
-sty
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilec
+heck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecou
+nter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip46
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
-\LTleft=\skip53
-\LTright=\skip54
-\LTpre=\skip55
-\LTpost=\skip56
-\LTchunksize=\count283
-\LTcapwidth=\dimen151
-\LT@head=\box49
-\LT@firsthead=\box50
-\LT@foot=\box51
-\LT@lastfoot=\box52
-\LT@cols=\count284
-\LT@rows=\count285
-\c@LT@tables=\count286
-\c@LT@chunks=\count287
-\LT@p@ftn=\toks21
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count111
+\LTcapwidth=\dimen116
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count112
+\LT@rows=\count113
+\c@LT@tables=\count114
+\c@LT@chunks=\count115
+\LT@p@ftn=\toks23
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
-\heavyrulewidth=\dimen152
-\lightrulewidth=\dimen153
-\cmidrulewidth=\dimen154
-\belowrulesep=\dimen155
-\belowbottomsep=\dimen156
-\aboverulesep=\dimen157
-\abovetopsep=\dimen158
-\cmidrulesep=\dimen159
-\cmidrulekern=\dimen160
-\defaultaddspace=\dimen161
-\@cmidla=\count288
-\@cmidlb=\count289
-\@aboverulesep=\dimen162
-\@belowrulesep=\dimen163
-\@thisruleclass=\count290
-\@lastruleclass=\count291
-\@thisrulewidth=\dimen164
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count116
+\@cmidlb=\count117
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count118
+\@lastruleclass=\count119
+\@thisrulewidth=\dimen129
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count292
+\etb@tempcnta=\count120
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box53
-\fn@width=\dimen165
+\fn@notes=\box33
+\fn@width=\dimen130
 ) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
@@ -638,436 +492,142 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen166
-\Gin@req@width=\dimen167
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
-Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
-y)
-Package grffile Info: This package is an empty stub for compatibility on input 
-line 40.
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/12/08 3.37 The Babel package
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
 )
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/polyglossia/polyglossia.s
-ty
-Package: polyglossia 2019/11/15 v1.46 Alternative to Babel for XeLaTeX and LuaL
-aTeX
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/makecmds/makecmds.sty
-Package: makecmds 2009/09/03 v1.0a extra command making commands
-) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/U
-sers/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
-)
-\XKV@depth=\count293
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2019/10/03 v0.6 Hooks for input files
-)
-\xpg@normalclass=\XeTeXcharclass1
-
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/polyglossia/gloss-latex.l
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel-english/english.l
 df
-File: gloss-latex.ldf polyglossia: module for default language
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Language: english 2017/06/06 v3.3r English support from the babel system
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count121
+\U@D=\dimen133
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count122
 )
-Package polyglossia Info: Default language is latex.
-Package polyglossia Info: Option: localmarks.
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
 )
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/polyglossia/gloss-english
-.ldf
-File: gloss-english.ldf polyglossia: module for english
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/script}  =>  {latin}
->  {english/lcscript}  =>  {latin}
->  {english/scripttag}  =>  {}
->  {english/language}  =>  {English}
->  {english/langtag}  =>  {ENG}
->  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
->  {english/direction}  =>  {LR}
->  {english/hyphenmins}  =>  {2,3}
->  {english/frenchspacing}  =>  {false}
->  {english/indentfirst}  =>  {false}
->  {english/fontsetup}  =>  {true}
->  {english/envname}  =>  {english}
->  {english/babelname}  =>  {english}
->  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-)
-Package polyglossia Info: Default language is english.
-No file Dougherty-etal-OnTheLine.aux.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/babel-english/english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+))
+\cslhangindent=\skip51
+(./Dougherty-etal-OnTheLine.aux)
 \openout1 = `Dougherty-etal-OnTheLine.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 84.
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
-allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=
-DFLT;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=
-DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
-allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
-rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
-ptScript}},BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[1]"[latinmodern-math.otf]/OT:script=math;langua
-ge=DFLT;"<6-8.5>s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty
-=0;"<-6>s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=
-DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 84.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/bx/n on inp
-ut line 84.
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 1.0001.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
-allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
-rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
-ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
-ontdimen
-(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
-(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
-(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
-(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
-(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
-(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
-(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
-(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
-(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;l
-anguage=DFLT;"<6-8.5>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=
-DFLT;+ssty=0;"<-6>s*[1.0001]"[latinmodern-math.otf]/OT:script=math;language=DFL
-T;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
-(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
-(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
-(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
-(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
-(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
-(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
-(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
-(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
-(fontspec)             \fontdimen 21\font =0pt\relax 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->s*[1.0001]"[latinmodern-math.otf]/OT:script=math;lang
-uage=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
-(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
-(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
-(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
-(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
-(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
-(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
-(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
-(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
-(fontspec)             \fontdimen 21\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 84.
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 84.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inp
-ut line 84.
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: latinmodern-math scale = 1.
-
-
-Package fontspec Info: latinmodern-math scale = 0.9999.
-
-
-Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
-allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
-rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
-ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
-ontdimen
-(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
-(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
-(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;l
-anguage=DFLT;"<6-8.5>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=
-DFLT;+ssty=0;"<-6>s*[0.9999]"[latinmodern-math.otf]/OT:script=math;language=DFL
-T;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
-(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
-(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
-(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999]"[latinmodern-math.otf]/OT:script=math;lang
-uage=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
-(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
-(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
-(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
-
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 8
-4.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 84.
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 84.
-
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inp
-ut line 84.
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+0.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 90
+.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-bas
+e.sty
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 90.
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/refcount.sty
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gettitlestring
-.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitle
+string.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count123
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
+(./Dougherty-etal-OnTheLine.out) (./Dougherty-etal-OnTheLine.out)
 \@outlinefile=\write3
 \openout3 = `Dougherty-etal-OnTheLine.out'.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 87.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-7.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+3.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+3.
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 87.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 87.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+93.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+93.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
 
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
 
 (/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1075,129 +635,1705 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] [2
+{/Users/jdoughe2/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
-]
+] (./Dougherty-etal-OnTheLine.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
+[3])
 \tf@toc=\write4
 \openout4 = `Dougherty-etal-OnTheLine.toc'.
 
-[3] [4
-
-]
-File: images/coverOTL300x300.png Graphic file (type bmp)
-<images/coverOTL300x300.png>
+[4]
+<images/coverOTL300x300.png, id=228, 150.5625pt x 150.5625pt>
+File: images/coverOTL300x300.png Graphic file (type png)
+<use images/coverOTL300x300.png>
+Package pdftex.def Info: images/coverOTL300x300.png  used on input line 103.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
 [1
 
-]
-File: images/dougherty-jack.jpg Graphic file (type bmp)
-<images/dougherty-jack.jpg>
+
+ <./images/coverOTL300x300.png>]
+<images/dougherty-jack.jpg, id=237, 150.5625pt x 150.5625pt>
+File: images/dougherty-jack.jpg Graphic file (type jpg)
+<use images/dougherty-jack.jpg>
+Package pdftex.def Info: images/dougherty-jack.jpg  used on input line 127.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [2]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 123.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 123.
-File: images/agosto-jasmin.jpg Graphic file (type bmp)
-<images/agosto-jasmin.jpg>
-File: images/ilyankou-ilya.jpg Graphic file (type bmp)
-<images/ilyankou-ilya.jpg>
-[3]
-File: images/iorio-vianna.jpg Graphic file (type bmp)
-<images/iorio-vianna.jpg>
-File: images/levasseur-katie.jpg Graphic file (type bmp)
-<images/levasseur-katie.jpg>
+<images/agosto-jasmin.jpg, id=246, 150.5625pt x 150.5625pt>
+File: images/agosto-jasmin.jpg Graphic file (type jpg)
+<use images/agosto-jasmin.jpg>
+Package pdftex.def Info: images/agosto-jasmin.jpg  used on input line 135.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+<images/ilyankou-ilya.jpg, id=248, 150.5625pt x 150.5625pt>
+File: images/ilyankou-ilya.jpg Graphic file (type jpg)
+<use images/ilyankou-ilya.jpg>
+Package pdftex.def Info: images/ilyankou-ilya.jpg  used on input line 139.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+[3 <./images/dougherty-jack.jpg> <./images/agosto-jasmin.jpg>]
+<images/iorio-vianna.jpg, id=258, 150.5625pt x 150.5625pt>
+File: images/iorio-vianna.jpg Graphic file (type jpg)
+<use images/iorio-vianna.jpg>
+Package pdftex.def Info: images/iorio-vianna.jpg  used on input line 143.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+<images/levasseur-katie.jpg, id=262, 150.5625pt x 150.5625pt>
+File: images/levasseur-katie.jpg Graphic file (type jpg)
+<use images/levasseur-katie.jpg>
+Package pdftex.def Info: images/levasseur-katie.jpg  used on input line 147.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[4]
-File: images/lee-jiyun.jpg Graphic file (type bmp)
-<images/lee-jiyun.jpg>
-File: images/mcgann-shaun.jpg Graphic file (type bmp)
-<images/mcgann-shaun.jpg>
-[5]
-File: images/simpson-candace.jpg Graphic file (type bmp)
-<images/simpson-candace.jpg>
-File: images/wilson-tracey.jpg Graphic file (type bmp)
-<images/wilson-tracey.jpg>
-[6]
-File: images/cover-datavizforall.jpg Graphic file (type bmp)
-<images/cover-datavizforall.jpg>
+[4 <./images/ilyankou-ilya.jpg> <./images/iorio-vianna.jpg>]
+<images/lee-jiyun.jpg, id=269, 150.5625pt x 150.5625pt>
+File: images/lee-jiyun.jpg Graphic file (type jpg)
+<use images/lee-jiyun.jpg>
+Package pdftex.def Info: images/lee-jiyun.jpg  used on input line 151.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+<images/mcgann-shaun.jpg, id=271, 150.5625pt x 150.5625pt>
+File: images/mcgann-shaun.jpg Graphic file (type jpg)
+<use images/mcgann-shaun.jpg>
+Package pdftex.def Info: images/mcgann-shaun.jpg  used on input line 155.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+[5 <./images/levasseur-katie.jpg> <./images/lee-jiyun.jpg> <./images/mcgann-sha
+un.jpg>]
+<images/simpson-candace.jpg, id=277, 150.5625pt x 150.5625pt>
+File: images/simpson-candace.jpg Graphic file (type jpg)
+<use images/simpson-candace.jpg>
+Package pdftex.def Info: images/simpson-candace.jpg  used on input line 159.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+<images/wilson-tracey.jpg, id=279, 150.5625pt x 150.5625pt>
+File: images/wilson-tracey.jpg Graphic file (type jpg)
+<use images/wilson-tracey.jpg>
+Package pdftex.def Info: images/wilson-tracey.jpg  used on input line 163.
+(pdftex.def)             Requested size: 150.5759pt x 150.5759pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+78.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [6 <./images/simpson-candace.jpg> <./images/wilson-tracey.jpg>]
+<images/cover-datavizforall.jpg, id=292, 165.61874pt x 216.81pt>
+File: images/cover-datavizforall.jpg Graphic file (type jpg)
+<use images/cover-datavizforall.jpg>
+Package pdftex.def Info: images/cover-datavizforall.jpg  used on input line 201
+.
+(pdftex.def)             Requested size: 165.6259pt x 216.81938pt.
 
-Underfull \hbox (badness 1783) in paragraph at lines 197--198
-[]\TU/lmr/m/it/10 Data Visualization for All\TU/lmr/m/n/10 , with Ilya Ilyankou
-, book-in-progress, []$[][][][] []
+Underfull \hbox (badness 2134) in paragraph at lines 203--204
+[]\T1/lmr/m/it/10 Data Vi-su-al-iza-tion for All\T1/lmr/m/n/10 , with Ilya Ilya
+nkou, book-in-progress, []$http :
  []
 
-File: images/cover-webwriting.jpg Graphic file (type bmp)
-<images/cover-webwriting.jpg>
+<images/cover-webwriting.jpg, id=294, 165.61874pt x 248.93pt>
+File: images/cover-webwriting.jpg Graphic file (type jpg)
+<use images/cover-webwriting.jpg>
+Package pdftex.def Info: images/cover-webwriting.jpg  used on input line 205.
+(pdftex.def)             Requested size: 165.62085pt x 248.93317pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7]
-File: images/cover-whda.jpg Graphic file (type bmp)
-<images/cover-whda.jpg>
-File: images/cover-mtos.jpg Graphic file (type bmp)
-<images/cover-mtos.jpg>
+[7 <./images/cover-datavizforall.jpg>]
+<images/cover-whda.jpg, id=304, 119.2455pt x 180.675pt>
+File: images/cover-whda.jpg Graphic file (type jpg)
+<use images/cover-whda.jpg>
+Package pdftex.def Info: images/cover-whda.jpg  used on input line 209.
+(pdftex.def)             Requested size: 119.2452pt x 180.67455pt.
+<images/cover-mtos.jpg, id=306, 165.61874pt x 249.93375pt>
+File: images/cover-mtos.jpg Graphic file (type jpg)
+<use images/cover-mtos.jpg>
+Package pdftex.def Info: images/cover-mtos.jpg  used on input line 213.
+(pdftex.def)             Requested size: 165.62338pt x 249.94075pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[8] [9]
-File: images/how-to-read.png Graphic file (type bmp)
-<images/how-to-read.png>
-[10]
-Underfull \hbox (badness 1442) in paragraph at lines 289--290
-\TU/lmr/m/n/10 On The Line is an open-access, born-digital, book-in-progress by
+[8 <./images/cover-webwriting.jpg> <./images/cover-whda.jpg>] [9 <./images/cove
+r-mtos.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+48.
+(/Users/jdoughe2/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<images/how-to-read.png, id=325, 676.5275pt x 178.6675pt>
+File: images/how-to-read.png Graphic file (type png)
+<use images/how-to-read.png>
+Package pdftex.def Info: images/how-to-read.png  used on input line 251.
+(pdftex.def)             Requested size: 241.49544pt x 63.77773pt.
+[10 <./images/how-to-read.png>]
+Underfull \hbox (badness 1436) in paragraph at lines 297--298
+\T1/lmr/m/n/10 On The Line is an open-access, born-digital, book-in-progress by
  Jack
  []
 
-File: images/github-logo-90x37.png Graphic file (type bmp)
-<images/github-logo-90x37.png>
-[11] [12]
+<images/github-logo-90x37.png, id=344, 90.3375pt x 37.13875pt>
+File: images/github-logo-90x37.png Graphic file (type png)
+<use images/github-logo-90x37.png>
+Package pdftex.def Info: images/github-logo-90x37.png  used on input line 299.
+(pdftex.def)             Requested size: 90.33727pt x 37.13866pt.
+[11 <./images/github-logo-90x37.png>] [12]
 Chapter 1.
 [13
 
 ]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
-<images/cc-by-nc-sa-88x31.png>
-[14] [15]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
-<images/cc-by-nc-sa-88x31.png>
+<images/cc-by-nc-sa-88x31.png, id=367, 88.33pt x 31.11626pt>
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 339.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[14] [15 <./images/cc-by-nc-sa-88x31.png>]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 348.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
 [16] [17] [18]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type bmp)
-<images/cc-by-nc-sa-88x31.png>
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 375.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
 [19] [20]
 Chapter 2.
 [21
 
 ]
-File: images/1876-scribners-monthly.png Graphic file (type bmp)
-<images/1876-scribners-monthly.png>
-! Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.386 ...gitized by Google Books.\footnote{Clark}}
-                                                   
-Here is how much of TeX's memory you used:
- 27176 strings out of 494458
- 500720 string characters out of 6172541
- 708827 words of memory out of 5000000
- 31245 multiletter control sequences out of 15000+600000
- 538756 words of font info for 80 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 55i,8n,115p,2203b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+<images/1876-scribners-monthly.png, id=449, 602.25pt x 540.0175pt>
+File: images/1876-scribners-monthly.png Graphic file (type png)
+<use images/1876-scribners-monthly.png>
+Package pdftex.def Info: images/1876-scribners-monthly.png  used on input line 
+393.
+(pdftex.def)             Requested size: 345.0137pt x 309.36229pt.
 
-Output written on Dougherty-etal-OnTheLine.pdf (25 pages).
+Underfull \hbox (badness 1603) in paragraph at lines 397--397
+[][][]\T1/lmr/m/n/8 Steve Court-ney, ``Com-men-tary: Was Hart-ford 'the Rich-es
+t City in the United
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 397--397
+[][][]\T1/lmr/m/n/8 Alexander R. Mer-riam, \T1/lmr/m/it/8 The So-cial Sig-nif-i
+-cance of the Smaller City \T1/lmr/m/n/8 (Hart-ford,
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 397--397
+\T1/lmr/m/n/8 as Alexan-der R. Mer-riam, ``The So-cial Con-di-tions of the Smal
+ler City,'' \T1/lmr/m/it/8 The Hart-
+ []
+
+[22] [23 <./images/1876-scribners-monthly.png (PNG copy)>] [24] [25] [26]
+<images/1910-2010-otl-home-value.jpg, id=529, 913.4125pt x 491.8375pt>
+File: images/1910-2010-otl-home-value.jpg Graphic file (type jpg)
+<use images/1910-2010-otl-home-value.jpg>
+Package pdftex.def Info: images/1910-2010-otl-home-value.jpg  used on input lin
+e 415.
+(pdftex.def)             Requested size: 344.99579pt x 185.76695pt.
+[27 <./images/1910-2010-otl-home-value.jpg>]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 423.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+LaTeX Warning: Reference `fig:1600s-otl-town-borders' on page 28 undefined on i
+nput line 428.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[28]
+<images/1600s-otl-town-borders.jpg, id=556, 684.5575pt x 521.95pt>
+File: images/1600s-otl-town-borders.jpg Graphic file (type jpg)
+<use images/1600s-otl-town-borders.jpg>
+Package pdftex.def Info: images/1600s-otl-town-borders.jpg  used on input line 
+432.
+(pdftex.def)             Requested size: 345.00418pt x 263.05304pt.
+<images/2014-otl-compare-school-districts.png, id=558, 1068.99374pt x 569.12625
+pt>
+File: images/2014-otl-compare-school-districts.png Graphic file (type png)
+<use images/2014-otl-compare-school-districts.png>
+Package pdftex.def Info: images/2014-otl-compare-school-districts.png  used on 
+input line 441.
+(pdftex.def)             Requested size: 345.00475pt x 183.67857pt.
+[29 <./images/1600s-otl-town-borders.jpg>] [30 <./images/2014-otl-compare-schoo
+l-districts.png>]
+<images/1925-one-room-schools.png, id=588, 873.2625pt x 640.3925pt>
+File: images/1925-one-room-schools.png Graphic file (type png)
+<use images/1925-one-room-schools.png>
+Package pdftex.def Info: images/1925-one-room-schools.png  used on input line 4
+63.
+(pdftex.def)             Requested size: 344.99486pt x 252.99623pt.
+<images/1901-csde-one-room-school-p3.jpg, id=592, 1530.71875pt x 3064.44875pt>
+File: images/1901-csde-one-room-school-p3.jpg Graphic file (type jpg)
+<use images/1901-csde-one-room-school-p3.jpg>
+Package pdftex.def Info: images/1901-csde-one-room-school-p3.jpg  used on input
+ line 472.
+(pdftex.def)             Requested size: 172.49039pt x 345.32011pt.
+[31] [32 <./images/1925-one-room-schools.png>] [33 <./images/1901-csde-one-room
+-school-p3.jpg>] [34
+
+]
+Chapter 3.
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
+\T1/lmr/m/n/8 / / realestateresearch . frbatlanta . org / rer / 2012 / 04 / deb
+unking -[] popular -[] myth -[] about -[] mortgage -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
+\T1/lmr/m/n/8 mortgage -[] 2809 . html$[] and []$http : / / answers . google . 
+com / answers / threadview / id / 533059 . html$[]
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--514
+
+ []
+
+[37]
+<images/1937-holc-hartford-map-scan.jpg, id=647, 1358.07375pt x 1102.1175pt>
+File: images/1937-holc-hartford-map-scan.jpg Graphic file (type jpg)
+<use images/1937-holc-hartford-map-scan.jpg>
+Package pdftex.def Info: images/1937-holc-hartford-map-scan.jpg  used on input 
+line 527.
+(pdftex.def)             Requested size: 344.98834pt x 279.96837pt.
+[38 <./images/1937-holc-hartford-map-scan.jpg>]
+<images/1937-otl-redlining.png, id=658, 701.62125pt x 489.83pt>
+File: images/1937-otl-redlining.png Graphic file (type png)
+<use images/1937-otl-redlining.png>
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 537.
+
+(pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
+[39] [40 <./images/1937-otl-redlining.png>]
+<images/1937-holc-inhabitants-c10.png, id=681, 733.74126pt x 103.38625pt>
+File: images/1937-holc-inhabitants-c10.png Graphic file (type png)
+<use images/1937-holc-inhabitants-c10.png>
+Package pdftex.def Info: images/1937-holc-inhabitants-c10.png  used on input li
+ne 549.
+(pdftex.def)             Requested size: 345.00398pt x 48.61205pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[41 <./images/1937-holc-inhabitants-c10.png>]
+<images/1936-fha-manual-247.png, id=694, 949.5475pt x 322.20375pt>
+File: images/1936-fha-manual-247.png Graphic file (type png)
+<use images/1936-fha-manual-247.png>
+Package pdftex.def Info: images/1936-fha-manual-247.png  used on input line 565
+.
+(pdftex.def)             Requested size: 344.99542pt x 117.06503pt.
+[42 <./images/1936-fha-manual-247.png (PNG copy)>]
+<images/1936-fha-manual-226.png, id=707, 1066.98625pt x 357.335pt>
+File: images/1936-fha-manual-226.png Graphic file (type png)
+<use images/1936-fha-manual-226.png>
+Package pdftex.def Info: images/1936-fha-manual-226.png  used on input line 575
+.
+(pdftex.def)             Requested size: 344.9918pt x 115.53818pt.
+<images/1938-fha-manual-1849.png, id=713, 578.16pt x 149.55875pt>
+File: images/1938-fha-manual-1849.png Graphic file (type png)
+<use images/1938-fha-manual-1849.png>
+Package pdftex.def Info: images/1938-fha-manual-1849.png  used on input line 58
+5.
+(pdftex.def)             Requested size: 344.99312pt x 89.24301pt.
+[43 <./images/1936-fha-manual-226.png>]
+Overfull \hbox (25.25092pt too wide) in alignment at lines 597--601
+ [] [] [] 
+ []
+
+
+Overfull \hbox (25.25092pt too wide) in alignment at lines 601--622
+ [] [] [] 
+ []
+
+[44 <./images/1938-fha-manual-1849.png (PNG copy)>]
+Overfull \hbox (25.25092pt too wide) in alignment at lines 622--624
+ [] [] [] 
+ []
+
+[45]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 636.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[46]
+<images/1940-otl-covenants.png, id=780, 822.07124pt x 446.66875pt>
+File: images/1940-otl-covenants.png Graphic file (type png)
+<use images/1940-otl-covenants.png>
+Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 654.
+
+(pdftex.def)             Requested size: 344.99161pt x 187.44965pt.
+[47] [48 <./images/1940-otl-covenants.png>] [49] [50]
+<images/1940-03-31-hc-high-ledge-homes-ad.jpg, id=873, 913.4125pt x 1358.07375p
+t>
+File: images/1940-03-31-hc-high-ledge-homes-ad.jpg Graphic file (type jpg)
+<use images/1940-03-31-hc-high-ledge-homes-ad.jpg>
+Package pdftex.def Info: images/1940-03-31-hc-high-ledge-homes-ad.jpg  used on 
+input line 675.
+(pdftex.def)             Requested size: 172.49092pt x 256.46178pt.
+[51 <./images/1940-03-31-hc-high-ledge-homes-ad.jpg>]
+Underfull \hbox (badness 3989) in paragraph at lines 682--682
+[][][]\T1/lmr/m/n/8 ``Bernstein Seeks End of Re-stric-tive Clauses,'' \T1/lmr/m
+/it/8 The Hart-ford Courant\T1/lmr/m/n/8 , March
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 682--682
+\T1/lmr/m/n/8 2, 1947, []$https : / / search -[] proquest -[] com . ezproxy . t
+rincoll . edu / docview / 560760502 ? accountid =
+ []
+
+[52] [53]
+<images/2011-walsh-debra.jpg, id=925, 629.35126pt x 354.32375pt>
+File: images/2011-walsh-debra.jpg Graphic file (type jpg)
+<use images/2011-walsh-debra.jpg>
+Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 694.
+(pdftex.def)             Requested size: 345.00148pt x 194.23528pt.
+[54 <./images/2011-walsh-debra.jpg>]
+<images/2011-hansen-susan.jpg, id=940, 628.3475pt x 352.31625pt>
+File: images/2011-hansen-susan.jpg Graphic file (type jpg)
+<use images/2011-hansen-susan.jpg>
+Package pdftex.def Info: images/2011-hansen-susan.jpg  used on input line 704.
+(pdftex.def)             Requested size: 344.99774pt x 193.44122pt.
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 710.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[55 <./images/2011-hansen-susan.jpg>]
+
+LaTeX Warning: Reference `fig:1954-02-17-ht-oakwood-acres' on page 56 undefined
+ on input line 719.
+
+[56]
+<images/1954-02-17-ht-oakwood-acres.jpg, id=974, 749.80125pt x 635.37375pt>
+File: images/1954-02-17-ht-oakwood-acres.jpg Graphic file (type jpg)
+<use images/1954-02-17-ht-oakwood-acres.jpg>
+Package pdftex.def Info: images/1954-02-17-ht-oakwood-acres.jpg  used on input 
+line 723.
+(pdftex.def)             Requested size: 345.00429pt x 292.35303pt.
+[57 <./images/1954-02-17-ht-oakwood-acres.jpg>]
+<images/1943-12-16-metro-news-oakwood.jpg, id=986, 461.47406pt x 111.41624pt>
+File: images/1943-12-16-metro-news-oakwood.jpg Graphic file (type jpg)
+<use images/1943-12-16-metro-news-oakwood.jpg>
+Package pdftex.def Info: images/1943-12-16-metro-news-oakwood.jpg  used on inpu
+t line 734.
+(pdftex.def)             Requested size: 344.99916pt x 83.29506pt.
+<images/1951-2013-aerial-oakwood.jpg, id=988, 647.41875pt x 448.67625pt>
+File: images/1951-2013-aerial-oakwood.jpg Graphic file (type jpg)
+<use images/1951-2013-aerial-oakwood.jpg>
+Package pdftex.def Info: images/1951-2013-aerial-oakwood.jpg  used on input lin
+e 744.
+(pdftex.def)             Requested size: 344.99739pt x 239.09122pt.
+[58 <./images/1943-12-16-metro-news-oakwood.jpg>] [59 <./images/1951-2013-aeria
+l-oakwood.jpg>] [60]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 758.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[61]
+<images/1924-Whitten-page10-underlined.png, id=1043, 622.325pt x 280.04625pt>
+File: images/1924-Whitten-page10-underlined.png Graphic file (type png)
+<use images/1924-Whitten-page10-underlined.png>
+Package pdftex.def Info: images/1924-Whitten-page10-underlined.png  used on inp
+ut line 775.
+(pdftex.def)             Requested size: 345.00513pt x 155.25229pt.
+<images/1924-west-hartford-zoning-map-excerpt.png, id=1044, 412.54124pt x 319.1
+925pt>
+File: images/1924-west-hartford-zoning-map-excerpt.png Graphic file (type png)
+<use images/1924-west-hartford-zoning-map-excerpt.png>
+Package pdftex.def Info: images/1924-west-hartford-zoning-map-excerpt.png  used
+ on input line 781.
+(pdftex.def)             Requested size: 345.00262pt x 266.93634pt.
+[62] [63 <./images/1924-Whitten-page10-underlined.png (PNG copy)> <./images/192
+4-west-hartford-zoning-map-excerpt.png>]
+Underfull \hbox (badness 1142) in paragraph at lines 819--820
+[]\T1/lmr/m/n/10 TO DO: re-view slides and trans-form into text []$https : / / 
+docs . google . com /
+ []
+
+
+Overfull \hbox (6.27779pt too wide) in paragraph at lines 819--820
+\T1/lmr/m/n/10 presentation / d / 1yYDQTzNoUBzCW6tCSH21beUrwsYQVwVTQO3Ctqf2BPM 
+/
+ []
+
+[64] [65] [66
+
+]
+Chapter 4.
+[67] [68
+
+]
+Chapter 5.
+
+Underfull \hbox (badness 1953) in paragraph at lines 836--836
+[]\T1/lmr/bx/n/14.4 Mobilizing Against Racial Steer-ing and
+ []
+
+[69]
+Underfull \hbox (badness 2035) in paragraph at lines 842--842
+\T1/lmr/m/n/8 edu / aboutamherst / magazine / in _ memory / 1961 / aboydhinds$[
+]; Ed-u-ca-tion/Instruccion, ``Co-
+ []
+
+[70]
+<images/1974circa-education_instruccion_dixon-papers.jpg, id=1126, 3146.75626pt
+ x 2036.60875pt>
+File: images/1974circa-education_instruccion_dixon-papers.jpg Graphic file (typ
+e jpg)
+<use images/1974circa-education_instruccion_dixon-papers.jpg>
+Package pdftex.def Info: images/1974circa-education_instruccion_dixon-papers.jp
+g  used on input line 848.
+(pdftex.def)             Requested size: 344.99188pt x 223.28183pt.
+
+Underfull \hbox (badness 4353) in paragraph at lines 852--852
+[][][]\T1/lmr/m/n/8 Grenier, ``Oral His-tory In-ter-view on Ed-u-ca-tion/Instru
+ccion, Part 1.''; Ed-u-ca-
+ []
+
+[71 <./images/1974circa-education_instruccion_dixon-papers.jpg>] [72]
+<images/1973-ya-basta-hinds-box5.png, id=1152, 758.835pt x 507.8975pt>
+File: images/1973-ya-basta-hinds-box5.png Graphic file (type png)
+<use images/1973-ya-basta-hinds-box5.png>
+Package pdftex.def Info: images/1973-ya-basta-hinds-box5.png  used on input lin
+e 866.
+(pdftex.def)             Requested size: 345.00415pt x 230.91548pt.
+[73 <./images/1973-ya-basta-hinds-box5.png>] [74] [75]
+<images/1974-YaBastaExcerpts-screenshot.png, id=1185, 999.735pt x 456.70625pt>
+File: images/1974-YaBastaExcerpts-screenshot.png Graphic file (type png)
+<use images/1974-YaBastaExcerpts-screenshot.png>
+Package pdftex.def Info: images/1974-YaBastaExcerpts-screenshot.png  used on in
+put line 893.
+(pdftex.def)             Requested size: 345.00047pt x 157.60564pt.
+[76] [77 <./images/1974-YaBastaExcerpts-screenshot.png>] [78]
+<images/1974-fairhousingreports-ctda.png, id=1227, 807.015pt x 237.88875pt>
+File: images/1974-fairhousingreports-ctda.png Graphic file (type png)
+<use images/1974-fairhousingreports-ctda.png>
+Package pdftex.def Info: images/1974-fairhousingreports-ctda.png  used on input
+ line 931.
+(pdftex.def)             Requested size: 345.0025pt x 101.69849pt.
+<images/1972-74-EI-images.png, id=1228, 1003.75pt x 411.5375pt>
+File: images/1972-74-EI-images.png Graphic file (type png)
+<use images/1972-74-EI-images.png>
+Package pdftex.def Info: images/1972-74-EI-images.png  used on input line 939.
+(pdftex.def)             Requested size: 345.00758pt x 141.45311pt.
+[79 <./images/1974-fairhousingreports-ctda.png>] [80 <./images/1972-74-EI-image
+s.png>] [81] [82] [83] [84]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 998.
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+Underfull \hbox (badness 1694) in paragraph at lines 1005--1005
+\T1/lmr/m/n/8 vi-sion broad-cast video, Au-gust 31, 1985), []$http : / / www . 
+criticalcommons . org / Members /
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 1007--1007
+[][][]\T1/lmr/m/n/8 Dave Drury, ``Bloom-field Crack-ing down on Non-Residents i
+n Schools,'' \T1/lmr/m/it/8 Hart-
+ []
+
+[85]
+<images/quick-B-H-WH-map.png, id=1327, 250.9375pt x 250.9375pt>
+File: images/quick-B-H-WH-map.png Graphic file (type png)
+<use images/quick-B-H-WH-map.png>
+Package pdftex.def Info: images/quick-B-H-WH-map.png  used on input line 1011.
+(pdftex.def)             Requested size: 250.94835pt x 250.94835pt.
+<images/1985-foster-saundra.png, id=1328, 777.90625pt x 598.235pt>
+File: images/1985-foster-saundra.png Graphic file (type png)
+<use images/1985-foster-saundra.png>
+Package pdftex.def Info: images/1985-foster-saundra.png  used on input line 101
+9.
+(pdftex.def)             Requested size: 345.00987pt x 265.32372pt.
+[86 <./images/quick-B-H-WH-map.png>] [87 <./images/1985-foster-saundra.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+\T1/lmr/m/n/8 July 18, 1976, []$https : / / search -[] proquest -[] com . ezpro
+xy . trincoll . edu / docview / 544588627 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+[]$\T1/lmr/m/n/8 https : / / search -[] proquest -[] com . ezproxy . trincoll .
+ edu / docview / 544716872 ? accountid = 14405$[].
+ []
+
+
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+[88]
+Underfull \hbox (badness 2213) in paragraph at lines 1033--1033
+[][][]\T1/lmr/m/n/8 Bloomfield, \T1/lmr/m/it/8 Town of Bloom-field An-nual Re-p
+ort. \T1/lmr/m/n/8 (Bloom-field, Conn.: Bloom-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1033--1033
+\T1/lmr/m/n/8 f / 148en6t / 01CSCU _ NETWORK _ ALMA991001105679703452$[], p. 20
+, Con-necti-cut State
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 1033--1033
+\T1/lmr/m/n/8 Li-brary; ``Kicks on Schools in Wethers-field: Dis-sat-is-fac-tio
+n Ex-pressed at Par-
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 1033--1033
+\T1/lmr/m/n/8 ents' Meet-ing: City Gets Sons of Board Mem-bers,'' \T1/lmr/m/it/
+8 Hart-ford Courant\T1/lmr/m/n/8 , April
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 1033--1033
+\T1/lmr/m/n/8 14405$[]; ``Schools Jump Tu-ition Fees for Out-of-Town Res-i-dent
+s,'' \T1/lmr/m/it/8 Hart-ford Courant\T1/lmr/m/n/8 ,
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 1033--1033
+\T1/lmr/m/n/8 Jan-uary 4, 1952, []$https : / / search -[] proquest -[] com . ez
+proxy . trincoll . edu / docview / 561696118 /
+ []
+
+[89]
+Underfull \hbox (badness 4981) in paragraph at lines 1035--1035
+[][][]\T1/lmr/m/n/8 Wayne Porter, ``Non-Resident Stu-dents Long a Prob-lem,'' \
+T1/lmr/m/it/8 Hart-ford Courant:
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 1035--1035
+\T1/lmr/m/it/8 B\T1/lmr/m/n/8 , May 21, 1985, []$https : / / search -[] proques
+t -[] com . ezproxy . trincoll . edu / docview / 758689031 /
+ []
+
+[90]
+<images/1967-1984-bloomfield-by-race.png, id=1393, 617.30624pt x 334.24875pt>
+File: images/1967-1984-bloomfield-by-race.png Graphic file (type png)
+<use images/1967-1984-bloomfield-by-race.png>
+Package pdftex.def Info: images/1967-1984-bloomfield-by-race.png  used on input
+ line 1045.
+(pdftex.def)             Requested size: 345.01094pt x 186.81079pt.
+[91 <./images/1967-1984-bloomfield-by-race.png>]
+Underfull \hbox (badness 2277) in paragraph at lines 1051--1051
+\T1/lmr/m/it/8 B\T1/lmr/m/n/8 , April 7, 1985, []$https : / / search -[] proque
+st -[] com . ezproxy . trincoll . edu / docview / 758695451 ?
+ []
+
+[92]
+Underfull \hbox (badness 1648) in paragraph at lines 1057--1057
+\T1/lmr/m/n/8 5, 1985, []$https : / / search -[] proquest -[] com . ezproxy . t
+rincoll . edu / docview / 755822125 ? accountid =
+ []
+
+<images/1985-04-05-hc-englehart.png, id=1424, 498.86375pt x 369.38pt>
+File: images/1985-04-05-hc-englehart.png Graphic file (type png)
+<use images/1985-04-05-hc-englehart.png>
+Package pdftex.def Info: images/1985-04-05-hc-englehart.png  used on input line
+ 1063.
+(pdftex.def)             Requested size: 345.00801pt x 255.45863pt.
+[93] [94 <./images/1985-04-05-hc-englehart.png>]
+Underfull \hbox (badness 2205) in paragraph at lines 1077--1077
+[][][]\T1/lmr/m/n/8 Dave Drury, ``Bloom-field Al-ters Its Pol-icy for School Re
+s-i-dence Cases,'' \T1/lmr/m/it/8 Hart-
+ []
+
+[95]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1083.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[96]
+Chapter 6.
+[97
+
+] [98
+
+]
+Chapter 7.
+[99] [100
+
+]
+Chapter 8.
+[101] [102]
+Underfull \hbox (badness 1043) in paragraph at lines 1117--1117
+[][][]\T1/lmr/m/n/8 ``Average Fam-ily In-come in the Past 12 Months in 2009 Inf
+lation-Adjusted Dol-
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 1117--1117
+\T1/lmr/m/n/8 lars, Ta-ble SE:T:59'' (Amer-i-can Com-mu-nity Sur-vey 1-year es-
+ti-mates via So-cial Ex-
+ []
+
+
+Overfull \vbox (0.23282pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 103
+ []
+
+[103]
+Overfull \hbox (81.18988pt too wide) in alignment at lines 1150--1154
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.18988pt too wide) in alignment at lines 1154--1171
+ [] [] [] 
+ []
+
+File: images/1876-scribners-monthly.png Graphic file (type png)
+<use images/1876-scribners-monthly.png>
+Package pdftex.def Info: images/1876-scribners-monthly.png  used on input line 
+1179.
+(pdftex.def)             Requested size: 345.0137pt x 309.36229pt.
+[104]
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 105
+ []
+
+[105]
+File: images/1910-2010-otl-home-value.jpg Graphic file (type jpg)
+<use images/1910-2010-otl-home-value.jpg>
+Package pdftex.def Info: images/1910-2010-otl-home-value.jpg  used on input lin
+e 1191.
+(pdftex.def)             Requested size: 344.99579pt x 185.76695pt.
+[106]
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 107
+ []
+
+[107]
+<images/1847-otl-hphs.png, id=1581, 948.54375pt x 591.20876pt>
+File: images/1847-otl-hphs.png Graphic file (type png)
+<use images/1847-otl-hphs.png>
+Package pdftex.def Info: images/1847-otl-hphs.png  used on input line 1205.
+(pdftex.def)             Requested size: 344.99257pt x 215.02711pt.
+[108 <./images/1847-otl-hphs.png>]
+File: images/1937-otl-redlining.png Graphic file (type png)
+<use images/1937-otl-redlining.png>
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 1215
+.
+(pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
+File: images/1940-otl-covenants.png Graphic file (type png)
+<use images/1940-otl-covenants.png>
+Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 1225
+.
+(pdftex.def)             Requested size: 344.99161pt x 187.44965pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 109
+ []
+
+[109] [110]
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 111
+ []
+
+[111] [112]
+<images/1960-05-01-HC-branding-homes.png, id=1660, 880.28876pt x 346.29375pt>
+File: images/1960-05-01-HC-branding-homes.png Graphic file (type png)
+<use images/1960-05-01-HC-branding-homes.png>
+Package pdftex.def Info: images/1960-05-01-HC-branding-homes.png  used on input
+ line 1241.
+(pdftex.def)             Requested size: 344.99025pt x 135.71451pt.
+<images/2003-shaw-spencer.jpg, id=1662, 1606.0pt x 1204.5pt>
+File: images/2003-shaw-spencer.jpg Graphic file (type jpg)
+<use images/2003-shaw-spencer.jpg>
+Package pdftex.def Info: images/2003-shaw-spencer.jpg  used on input line 1251.
+
+(pdftex.def)             Requested size: 344.98921pt x 258.7419pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 113
+ []
+
+[113 <./images/1960-05-01-HC-branding-homes.png>] [114 <./images/2003-shaw-spen
+cer.jpg>]
+<images/2005-wright-adelle.jpg, id=1680, 1156.32pt x 867.24pt>
+File: images/2005-wright-adelle.jpg Graphic file (type jpg)
+<use images/2005-wright-adelle.jpg>
+Package pdftex.def Info: images/2005-wright-adelle.jpg  used on input line 1263
+.
+(pdftex.def)             Requested size: 344.99312pt x 258.74484pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 115
+ []
+
+[115] [116 <./images/2005-wright-adelle.jpg>]
+File: images/1974circa-education_instruccion_dixon-papers.jpg Graphic file (typ
+e jpg)
+<use images/1974circa-education_instruccion_dixon-papers.jpg>
+Package pdftex.def Info: images/1974circa-education_instruccion_dixon-papers.jp
+g  used on input line 1273.
+(pdftex.def)             Requested size: 344.99188pt x 223.28183pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 117
+ []
+
+[117] [118]
+<images/2009-aje-visual.png, id=1721, 401.5pt x 296.10625pt>
+File: images/2009-aje-visual.png Graphic file (type png)
+<use images/2009-aje-visual.png>
+Package pdftex.def Info: images/2009-aje-visual.png  used on input line 1289.
+(pdftex.def)             Requested size: 345.02596pt x 254.45663pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 119
+ []
+
+[119] [120 <./images/2009-aje-visual.png>]
+<images/2011-sheff-elizabeth.jpg, id=1740, 631.35875pt x 352.31625pt>
+File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
+<use images/2011-sheff-elizabeth.jpg>
+Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 13
+05.
+(pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 121
+ []
+
+[121] [122 <./images/2011-sheff-elizabeth.jpg>]
+Underfull \hbox (badness 1163) in paragraph at lines 1317--1317
+[][][]\T1/lmr/m/n/8 Learn about the SmartChoices pub-lic school search tool, wh
+ich the Cities Sub-
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1317--1317
+\T1/lmr/m/n/8 219--37, []$https : / / books . google . com / books ? id = x9AlD
+QAAQBAJ & lpg = PR1 & pg = PA219 # v =
+ []
+
+
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 123
+ []
+
+[123]
+<images/2014-smartchoices-screencast.png, id=1786, 1006.76125pt x 790.955pt>
+File: images/2014-smartchoices-screencast.png Graphic file (type png)
+<use images/2014-smartchoices-screencast.png>
+Package pdftex.def Info: images/2014-smartchoices-screencast.png  used on input
+ line 1321.
+(pdftex.def)             Requested size: 344.99799pt x 271.04529pt.
+<images/2009-smartchoices-workshop-adaavila-courtneycoyne.png, id=1787, 1003.75
+pt x 376.40625pt>
+File: images/2009-smartchoices-workshop-adaavila-courtneycoyne.png Graphic file
+ (type png)
+<use images/2009-smartchoices-workshop-adaavila-courtneycoyne.png>
+Package pdftex.def Info: images/2009-smartchoices-workshop-adaavila-courtneycoy
+ne.png  used on input line 1326.
+(pdftex.def)             Requested size: 345.00758pt x 129.37784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[124]
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 125
+ []
+
+[125 <./images/2014-smartchoices-screencast.png> <./images/2009-smartchoices-wo
+rkshop-adaavila-courtneycoyne.png (PNG copy)>] [126]
+Overfull \hbox (152.53181pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
+AND SCHOOLS PROJECT \T1/lmr/m/n/10 127
+ []
+
+[127]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1346.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+Underfull \hbox (badness 1163) in paragraph at lines 1349--1349
+[]\T1/lmr/bx/n/14.4 Writing Greater Hart-ford's Civil Rights
+ []
+
+[128]
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 129
+ []
+
+[129] [130]
+<images/2013-ceglio-teaches-meehan-mcgann.jpg, id=1896, 2591.6825pt x 2312.64pt
+>
+File: images/2013-ceglio-teaches-meehan-mcgann.jpg Graphic file (type jpg)
+<use images/2013-ceglio-teaches-meehan-mcgann.jpg>
+Package pdftex.def Info: images/2013-ceglio-teaches-meehan-mcgann.jpg  used on 
+input line 1371.
+(pdftex.def)             Requested size: 344.99791pt x 307.85251pt.
+
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 131
+ []
+
+[131] [132 <./images/2013-ceglio-teaches-meehan-mcgann.jpg>]
+<images/2013-seminar-googledoc.jpg, id=1914, 952.55875pt x 483.8075pt>
+File: images/2013-seminar-googledoc.jpg Graphic file (type jpg)
+<use images/2013-seminar-googledoc.jpg>
+Package pdftex.def Info: images/2013-seminar-googledoc.jpg  used on input line 
+1396.
+(pdftex.def)             Requested size: 344.99937pt x 175.22623pt.
+
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 133
+ []
+
+[133 <./images/2013-seminar-googledoc.jpg>]
+Underfull \hbox (badness 1005) in paragraph at lines 1402--1402
+[][][]\T1/lmr/m/n/8 Elaina Rollins, ``Five Min-utes That Changed Con-necti-cut:
+ Si-mon Bern-stein and
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 1402--1402
+\T1/lmr/m/n/8 the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment,'' Con-necti-cutHi
+s-tory.org, Jan-uary 2014,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
+[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / ^^\ve -[] minutes -[] th
+at -[] changed -[] connecticut -[] simon -[] bernstein -[] and -[]
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 1402--1402
+\T1/lmr/m/n/8 the -[] 1965 -[] connecticut -[] education -[] amendment/$[]; Bri
+git Ri-oual, ``Sheff V. O'Neill Set-tle-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
+[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / she^^[ -[] v -[] oneill 
+-[] settlements -[] target -[] educational -[] segregation -[] in -[]
+ []
+
+[134]
+<images/2013-cthistory-video-screenshot.png, id=1936, 1403.2425pt x 764.8575pt>
+
+File: images/2013-cthistory-video-screenshot.png Graphic file (type png)
+<use images/2013-cthistory-video-screenshot.png>
+Package pdftex.def Info: images/2013-cthistory-video-screenshot.png  used on in
+put line 1412.
+(pdftex.def)             Requested size: 344.98576pt x 188.03944pt.
+
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 135
+ []
+
+[135] [136 <./images/2013-cthistory-video-screenshot.png>]
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 137
+ []
+
+[137]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1446.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[138] [139] [140] [141] [142]
+Underfull \hbox (badness 5741) in paragraph at lines 1564--1565
+[]\T1/lmr/m/n/10 more to come, see CTDA []$https : / / collections . ctdigitala
+rchive . org /
+ []
+
+
+Overfull \hbox (11.151pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
+r/m/n/10 143
+ []
+
+[143]
+Underfull \hbox (badness 1152) in paragraph at lines 1580--1580
+[][][]\T1/lmr/m/n/8 Jack Dougherty, \T1/lmr/m/it/8 More Than One Strug-gle: The
+ Evo-lu-tion of Black School Re-
+ []
+
+[144]
+Overfull \hbox (11.151pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
+r/m/n/10 145
+ []
+
+[145] [146]
+Overfull \hbox (11.151pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
+r/m/n/10 147
+ []
+
+[147]
+<images/2012-cc-licenses.jpg, id=2122, 1027.84pt x 770.88pt>
+File: images/2012-cc-licenses.jpg Graphic file (type jpg)
+<use images/2012-cc-licenses.jpg>
+Package pdftex.def Info: images/2012-cc-licenses.jpg  used on input line 1608.
+(pdftex.def)             Requested size: 345.00685pt x 258.75514pt.
+[148 <./images/2012-cc-licenses.jpg>]
+Overfull \hbox (11.151pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
+r/m/n/10 149
+ []
+
+[149]
+File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
+<use images/2011-sheff-elizabeth.jpg>
+Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 16
+34.
+(pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1642.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[150] [151]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1673.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+<images/2011-covenants-video.png, id=2179, 859.21pt x 479.7925pt>
+File: images/2011-covenants-video.png Graphic file (type png)
+<use images/2011-covenants-video.png>
+Package pdftex.def Info: images/2011-covenants-video.png  used on input line 16
+88.
+(pdftex.def)             Requested size: 345.00208pt x 192.65302pt.
+[152] [153 <./images/2011-covenants-video.png>] [154]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1708.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[155] [156
+
+]
+Chapter 9.
+[157] [158] [159] [160] [161]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1790.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 1801--1802
+\T1/lmr/m/n/10 in Hart-ford area, 1937, []$https : / / ontheline . github . io 
+/ otl -[] redlining / index -[]
+ []
+
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1809.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+Underfull \hbox (badness 1776) in paragraph at lines 1812--1812
+[]\T1/lmr/bx/n/14.4 Building with Book-down, GitHub, and
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 1816--1817
+\T1/lmr/m/n/10 this page []$https : / / github . com / OnTheLine / otl -[] book
+down / blob / master / 09 . 3 -[]
+ []
+
+[163]
+<images/bookdown/0-bookdown-desktop.png, id=2361, 1445.4pt x 810.02625pt>
+File: images/bookdown/0-bookdown-desktop.png Graphic file (type png)
+<use images/bookdown/0-bookdown-desktop.png>
+Package pdftex.def Info: images/bookdown/0-bookdown-desktop.png  used on input 
+line 1834.
+(pdftex.def)             Requested size: 344.9843pt x 193.33495pt.
+
+Underfull \vbox (badness 4024) has occurred while \output is active []
+
+[164]
+Underfull \hbox (badness 1895) in paragraph at lines 1847--1849
+[]\T1/lmr/m/n/10 Install R Project sta-tis-ti-cal pro-gram-ming lan-guage []$ht
+tps : / / www . r -[]
+ []
+
+[165 <./images/bookdown/0-bookdown-desktop.png>]
+Overfull \hbox (56.41663pt too wide) in paragraph at lines 1859--1861
+[]\T1/lmr/m/n/10 To fin-ish in-stalling tiny-tex, in the RStu-dio con-sole, typ
+e \T1/lmtt/m/n/10 tinytex::install_tinytex()
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 1868--1869
+ \T1/lmr/bx/n/10 9.3.0.0.1 Side-note: About the PDF edi-tion, and Tiny-TeX vs
+ []
+
+
+Overfull \hbox (34.49518pt too wide) in paragraph at lines 1883--1885
+[]\T1/lmr/m/n/10 Carefully type (with-out ``sudo'') \T1/lmtt/m/n/10 ~/Library/T
+inyTeX/bin/x86_64-darwin/tlmgr
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 1887--1888
+[]\T1/lmr/m/n/10 In the RStu-dio con-sole, type \T1/lmtt/m/n/10 tinytex::instal
+l_tinytex(force =
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1899--1901
+[]\T1/lmr/m/n/10 In your web browser, log into your GitHub ac-count, go to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1899--1901
+\T1/lmr/m/n/10 Book-down de-vel-oper's \T1/lmtt/m/n/10 bookdown-minimal \T1/lmr
+/m/n/10 repo []$https : / / github .
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 1899--1901
+\T1/lmr/m/n/10 com / yihui / bookdown -[] minimal$[], and fork a copy to your G
+itHub
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 1899--1901
+\T1/lmr/m/n/10 ac-count. To learn about fork-ing in GitHub, see this chap-ter
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 1899--1901
+[]$\T1/lmr/m/n/10 http : / / datavizforall . org / github . html$[] in the \T1/
+lmr/m/it/10 Data Vi-su-al-iza-tion for
+ []
+
+[166] [167]
+Overfull \hbox (42.3044pt too wide) in paragraph at lines 1937--1939
+\T1/lmr/m/n/10 sim-i-lar to: \T1/lmtt/m/n/10 https://USERNAME.github.io/bookdow
+n-minimal/_book/index.html 
+ []
+
+[168]
+Underfull \hbox (badness 10000) in paragraph at lines 2004--2005
+[]$\T1/lmr/m/n/10 https : / / help . github . com / articles / using -[] a -[] 
+custom -[] domain -[] with -[] github -[] pages/$[].
+ []
+
+[169]
+Underfull \hbox (badness 1354) in paragraph at lines 2027--2028
+\T1/lmr/m/n/10 notes and a bib-li-og-ra-phy from a Zotero-Better BibLa-TeX ex-p
+orted file
+ []
+
+[170]
+Underfull \hbox (badness 1325) in paragraph at lines 2047--2048
+\T1/lmr/m/n/10 This work-flow uses the open-source Zotero bib-li-og-ra-phy man-
+ager ([]$http :
+ []
+
+
+Overfull \hbox (21.9669pt too wide) in paragraph at lines 2068--2070
+\T1/lmr/m/n/10 add a caret, square brack-ets, and the at sym-bol \T1/lmtt/m/n/1
+0 ^^B[@tyackOneBestSystem1974]\T1/lmr/m/n/10 ,
+ []
+
+[171]
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 2100.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+[172]
+Underfull \hbox (badness 1348) in paragraph at lines 2107--2108
+[]\T1/lmr/m/n/10 Also, this style guide was cre-ated pri-mar-ily for the web ed
+i-tion []$http :
+ []
+
+
+Overfull \hbox (74.99878pt too wide) in paragraph at lines 2135--2135
+[]\T1/lmtt/m/n/10 <!-- TODO this comment appears in the source code, but not th
+e book products -->[] 
+ []
+
+
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 173
+ []
+
+[173]
+Underfull \hbox (badness 1728) in paragraph at lines 2169--2170
+\T1/lmr/m/n/10 de-fault ref-er-ence: \T1/lmtt/m/n/10 #introduction\T1/lmr/m/n/1
+0 . But a longer chap-ter/section ti-tle
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 2169--2170
+\T1/lmtt/m/n/10 # Defining City and Suburban Lines \T1/lmr/m/n/10 has a longer 
+de-fault ref-er-ence:
+ []
+
+[174]
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 175
+ []
+
+[175] [176]
+Underfull \hbox (badness 4366) in paragraph at lines 2263--2265
+[]\T1/lmr/m/n/10 Decide whether to cre-ate PDF ver-sions of JPG/PNG im-
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 2263--2265
+\T1/lmr/m/n/10 ages to im-prove qual-ity of out-put, and if so, set \T1/lmtt/m/
+n/10 auto_pdf
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 2263--2265
+\T1/lmtt/m/n/10 = TRUE \T1/lmr/m/n/10 in-side \T1/lmtt/m/n/10 include_graphics(
+)\T1/lmr/m/n/10 . Read more at []$https :
+ []
+
+File: images/1937-holc-hartford-map-scan.jpg Graphic file (type jpg)
+<use images/1937-holc-hartford-map-scan.jpg>
+Package pdftex.def Info: images/1937-holc-hartford-map-scan.jpg  used on input 
+line 2276.
+(pdftex.def)             Requested size: 172.49417pt x 139.98418pt.
+File: images/1937-otl-redlining.png Graphic file (type png)
+<use images/1937-otl-redlining.png>
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 2287
+.
+(pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
+<images/sample-pdf-screenshot.png, id=2549, 1009.7725pt x 452.69125pt>
+File: images/sample-pdf-screenshot.png Graphic file (type png)
+<use images/sample-pdf-screenshot.png>
+Package pdftex.def Info: images/sample-pdf-screenshot.png  used on input line 2
+299.
+(pdftex.def)             Requested size: 344.99756pt x 154.6659pt.
+File: images/2013-cthistory-video-screenshot.png Graphic file (type png)
+<use images/2013-cthistory-video-screenshot.png>
+Package pdftex.def Info: images/2013-cthistory-video-screenshot.png  used on in
+put line 2311.
+(pdftex.def)             Requested size: 344.98576pt x 188.03944pt.
+File: images/2011-walsh-debra.jpg Graphic file (type jpg)
+<use images/2011-walsh-debra.jpg>
+Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 2323.
+(pdftex.def)             Requested size: 345.00148pt x 194.23528pt.
+
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 177
+ []
+
+[177] [178]
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 179
+ []
+
+[179 <./images/sample-pdf-screenshot.png>] [180]
+Underfull \hbox (badness 2556) in paragraph at lines 2360--2362
+\T1/lmr/m/n/10 ^^\gures . html$[] and Mark-down ex-ten-sions []$https : / / boo
+kdown . org / yihui /
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 2362--2364
+[]\T1/lmr/m/n/10 On R code chunks in RMark-down []$https : / / bookdown . org /
+ yihui /
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 2366--2368
+[]\T1/lmr/m/n/10 R Mark-down book sec-tion on fig-ures []$https : / / bookdown 
+. org / yihui /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2372--2374
+[]$\T1/lmr/m/n/10 http : / / zevross . com / blog / 2017 / 06 / 19 / tips -[] a
+nd -[] tricks -[] for -[] working -[] with -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2372--2374
+\T1/lmr/m/n/10 images -[] and -[] ^^\gures -[] in -[] r -[] markdown -[] docume
+nts / #arguments -[] out . width -[]
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 2374--2375
+[]\T1/lmr/m/n/10 Hints on us-ing auto_pdf: []$https : / / blog . earo . me / 20
+19 / 10 / 26 / reduce -[]
+ []
+
+File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
+<use images/cc-by-nc-sa-88x31.png>
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 2377.
+
+(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+[181]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+[182] [183] [184]
+Chapter 10.
+[185
+
+] [186]
+Underfull \hbox (badness 4899) in paragraph at lines 2489--2490
+[]\T1/lmr/m/n/10 Research-It CT, Con-necti-cut State Li-brary. []$https : / / r
+esearchitct . org /
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 2495--2496
+[]\T1/lmr/m/n/10 Trinity Col-lege Li-brary. []$http : / / www . trincoll . edu 
+/ LITC / Library / Pages /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2522--2524
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 559295803 ?
+ []
+
+[187]
+Underfull \hbox (badness 1824) in paragraph at lines 2537--2539
+[][]\T1/lmr/m/n/10 ``A Sug-ges-tive Con-trast.'' \T1/lmr/m/it/10 Hart-ford Dail
+y Courant\T1/lmr/m/n/10 , Oc-to-ber 15, 1878.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2537--2539
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 554105478 ?
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 2540--2542
+[][]\T1/lmr/m/n/10 Bailey, Chauncey. ``Non-Resident Stu-dents Again At-tend-ing
+ Bloom-
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 2540--2542
+\T1/lmr/m/n/10 field Schools.'' \T1/lmr/m/it/10 Hart-ford Courant: City/Town\T1
+/lmr/m/n/10 , Septem-ber 16, 1976.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2542
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 544716872 ?
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 2543--2545
+[][]\T1/lmr/m/n/10 Banks, Dana, and Jack Dougherty. ``City-Suburban De-seg-re-g
+a-tion and
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 2543--2545
+\T1/lmr/m/n/10 Forced Choices: Re-view Es-say of 'the Other Boston Bus-ing Stor
+y'
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 2543--2545
+\T1/lmr/m/n/10 by Su-san Eaton.'' \T1/lmr/m/it/10 Teach-ers Col-lege Record \T1
+/lmr/m/n/10 105 (2004): 985--98.
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 2558--2560
+\T1/lmr/m/n/10 28, 1947. []$https : / / search -[] proquest -[] com . ezproxy .
+ trincoll . edu / docview /
+ []
+
+[188]
+Underfull \hbox (badness 2310) in paragraph at lines 2579--2581
+[][]\T1/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. ``How We Found Re-stric
+-tive
+ []
+
+[189]
+Underfull \hbox (badness 1960) in paragraph at lines 2603--2605
+\T1/lmr/m/n/10 1 (Novem-ber 1876): 1--21. []$https : / / books . google . com /
+ books ? id = 2q _
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 2615--2617
+[][]\T1/lmr/m/n/10 Condon, Tom. ```Troubled City' a Vic-tim of Ge-og-ra-phy.'' 
+\T1/lmr/m/it/10 Hart-ford
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 2615--2617
+\T1/lmr/m/it/10 Courant\T1/lmr/m/n/10 . Septem-ber 12, 2002. []$http : / / arti
+cles . courant . com / 2002 -[] 09 -[]
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 2633--2635
+[][]\T1/lmr/m/n/10 ``Couple Ask Tuition-Free School-ing for Girl but Res-i-denc
+y Is Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2633--2635
+\T1/lmr/m/n/10 com . ezproxy . trincoll . edu / docview / 553011819 / 18F2091DE
+B304451PQ / 1 ?
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 2636--2638
+[][]\T1/lmr/m/n/10 Courtney, Steve. ``Com-men-tary: Was Hart-ford 'the Rich-est
+ City in
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 2636--2638
+\T1/lmr/m/n/10 the United States'?'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m
+/n/10 , Oc-to-ber 10, 2014. []$http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2636--2638
+\T1/lmr/m/n/10 / / www . courant . com / opinion / op -[] ed / hc -[] op -[] co
+urtney -[] was -[] hartford -[] richest -[]
+ []
+
+[190]
+Underfull \hbox (badness 1742) in paragraph at lines 2642--2644
+\T1/lmr/m/n/10 tory.org, Jan-uary 2013. []$http : / / connecticuthistory . org 
+/ race -[] restrictive -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2657--2659
+\T1/lmr/m/n/10 / / search -[] proquest -[] com . ezproxy . trincoll . edu / hnp
+hartfordcourant / docview /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2672--2674
+\T1/lmr/m/n/10 f / ^^\ndaid / ^^\ndaid -[] idx ? c = wiarchives ; view = reslis
+t ; subview = standard ; didno =
+ []
+
+[191] [192]
+Underfull \hbox (badness 2027) in paragraph at lines 2714--2716
+[][]\T1/lmr/m/n/10 Dougherty, Jack, Di-ane Zan-noni, Marissa Block, and Stephen
+ Spirou.
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 2714--2716
+\T1/lmr/m/n/10 ``Who Chooses in Hart-ford? Re-port 1: Sta-tis-ti-cal Anal-y-sis
+ of Re-
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 2714--2716
+\T1/lmr/m/n/10 gional School Choice Of-fice Ap-pli-cants and Non-Applicants Amo
+ng
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 2732--2734
+\T1/lmr/m/it/10 B\T1/lmr/m/n/10 . April 7, 1985. []$https : / / search -[] proq
+uest -[] com . ezproxy . trincoll . edu /
+ []
+
+[193] [194]
+Underfull \hbox (badness 1895) in paragraph at lines 2792--2794
+[][]\T1/lmr/m/n/10 Estevez, Naralys, and Jack Dougherty. ``Do Mag-net Schools A
+t-tract
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 2798--2800
+[][]\T1/lmr/m/n/10 ``FBI Probes Charges of Racial Bias: Com-plaints Filed Again
+st Re-al-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2810--2812
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 555144638 ?
+ []
+
+[195] [196]
+Underfull \hbox (badness 1009) in paragraph at lines 2873--2875
+[][]\T1/lmr/m/n/10 Hirsh, Linda B. ``Schools to Use New Poli-cies to Ex-clude O
+ut-of-Town
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 2879--2881
+\T1/lmr/m/it/10 Case Study of SmartChoices\T1/lmr/m/n/10 . Hart-ford, Con-necti
+-cut, 2009. []$http :
+ []
+
+[197]
+Underfull \hbox (badness 6284) in paragraph at lines 2921--2923
+\T1/lmr/m/n/10 26, 1974. []$https : / / search -[] proquest -[] com . ezproxy .
+ trincoll . edu / docview /
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 2924--2926
+\T1/lmr/m/n/10 11, 1917. []$https : / / search -[] proquest -[] com . ezproxy .
+ trincoll . edu / docview /
+ []
+
+[198]
+Overfull \hbox (7.45944pt too wide) in paragraph at lines 2945--2947
+\T1/lmr/m/n/10 1972. []$https : / / scholar . google . com / scholar _ case ? c
+ase = 15478926121065691421$[]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2951--2953
+[]$\T1/lmr/m/n/10 http : / / connecticuthistory . org / the -[] debate -[] over
+ -[] who -[] could -[] occupy -[] world -[]
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 2975--2977
+\T1/lmr/m/n/10 Panorama, Dig-i-tal Schol-ar-ship Lab, Uni-ver-sity of Rich-mond
+, 2016.
+ []
+
+[199]
+Underfull \hbox (badness 2012) in paragraph at lines 2999--3001
+\T1/lmr/m/it/10 Agenda for Com-mu-nity and Pros-per-ity in Con-necti-cut\T1/lmr
+/m/n/10 . Min-neapo-
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 3014--3016
+\T1/lmr/m/it/10 B\T1/lmr/m/n/10 , May 21, 1985. []$https : / / search -[] proqu
+est -[] com . ezproxy . trincoll . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3014--3016
+\T1/lmr/m/n/10 docview / 758689031 / fulltextPDF / 2FA3B34AF5BD4A2EPQ / 1 ? acc
+ountid =
+ []
+
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3022
+[]$\T1/lmr/m/n/10 https : / / connecticuthistory . org / yung -[] wing -[] the 
+-[] chinese -[] educational -[] mission -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3026--3028
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 552254027 ?
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 3035--3037
+\T1/lmr/m/n/10 Study.'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m/n/10 , July 
+18, 1974. []$https : / / search -[] proquest -[]
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 3041--3043
+\T1/lmr/m/n/10 Febru-ary 22, 1974. []$https : / / search -[] proquest -[] com .
+ ezproxy . trincoll . edu /
+ []
+
+[201]
+Underfull \hbox (badness 2126) in paragraph at lines 3056--3058
+\T1/lmr/m/n/10 Mas-ter's the-sis, Trin-ity Col-lege, 1994. []$http : / / ctwweb
+ . wesleyan . edu :
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 3062--3064
+\T1/lmr/m/n/10 and the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment.'' Con-necti-
+cutHis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3062--3064
+\T1/lmr/m/n/10 changed -[] connecticut -[] simon -[] bernstein -[] and -[] the 
+-[] 1965 -[] connecticut -[] education -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3065--3067
+\T1/lmr/m/n/10 teaching -[] researching . html # writing -[] greater -[] hartfo
+rds -[] civil -[] rights -[] past -[] with -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3074--3076
+[]$\T1/lmr/m/n/10 http : / / connecticuthistory . org / how -[] real -[] estate
+ -[] practices -[] in^^]uenced -[] the -[]
+ []
+
+[202]
+Underfull \hbox (badness 6284) in paragraph at lines 3101--3103
+\T1/lmr/m/n/10 23, 1920. []$https : / / search -[] proquest -[] com . ezproxy .
+ trincoll . edu / docview /
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 3104--3106
+[][]\T1/lmr/m/n/10 Smith-Ellison, Vic-to-ria. ``Hart-ford's Great Mi-gra-tion T
+hrough Charles
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 3104--3106
+\T1/lmr/m/n/10 S. John-son's Eyes.'' Con-necti-cutHis-tory.org, Febru-ary 2013.
+ []$http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3104--3106
+\T1/lmr/m/n/10 / / connecticuthistory . org / hartfords -[] great -[] migration
+ -[] through -[] charles -[] s -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3122--3124
+[]$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
+. edu / docview / 555173471 ?
+ []
+
+[203] [204]
+Underfull \hbox (badness 1460) in paragraph at lines 3182--3184
+[][]\T1/lmr/m/n/10 Wilson, Tracey. ``Tak-ing Stock of High Ledge Homes and Re-s
+tricted
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 3182--3184
+\T1/lmr/m/n/10 Covenants.'' \T1/lmr/m/it/10 West Hart-ford Life \T1/lmr/m/n/10 
+13, no. 2 (June 2010): 36--37.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3188--3190
+\T1/lmr/m/n/10 war -[] ii -[] era . html # resistance -[] to -[] public -[] hou
+sing -[] and -[] integration -[] during -[]
+ []
+
+[205]
+Underfull \hbox (badness 1237) in paragraph at lines 3203--3205
+\T1/lmr/m/n/10 cover?'' \T1/lmr/m/it/10 The New York Times: N.Y. / Re-gion\T1/l
+mr/m/n/10 , Au-gust 26, 2002.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3203--3205
+[]$\T1/lmr/m/n/10 https : / / www . nytimes . com / 2002 / 08 / 26 / nyregion /
+ poverty -[] in -[] a -[] land -[] of -[]
+ []
+
+[206]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3208.
+(./Dougherty-etal-OnTheLine.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3208.
+
+Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
+d.
+(rerunfilecheck)             Checksum: 1DCBCCBD1C5F78F54E99ADB0D3131B99;8669.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3208.
+ ) 
+Here is how much of TeX's memory you used:
+ 13043 strings out of 494107
+ 201270 string characters out of 6172706
+ 336167 words of memory out of 5000000
+ 15940 multiletter control sequences out of 15000+600000
+ 92737 words of font info for 67 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,8n,37p,3891b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/jdoughe2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Us
+ers/jdoughe2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/j
+doughe2/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/jdo
+ughe2/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/jdoug
+he2/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></Users/jdough
+e2/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/jdoughe2/
+Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/jdoughe2/Lib
+rary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/jdoughe2/Librar
+y/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/jdoughe2/Library/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/jdoughe2/Library/TinyTe
+X/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/jdoughe2/Library/TinyTeX/te
+xmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/jdoughe2/Library/TinyTeX/texm
+f-dist/fonts/type1/public/lm/lmri8.pfb></Users/jdoughe2/Library/TinyTeX/texmf-d
+ist/fonts/type1/public/lm/lmro10.pfb></Users/jdoughe2/Library/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Dougherty-etal-OnTheLine.pdf (210 pages, 22429332 bytes).
+PDF statistics:
+ 3666 PDF objects out of 4296 (max. 8388607)
+ 3285 compressed objects within 33 object streams
+ 919 named destinations out of 1000 (max. 500000)
+ 623 words of extra memory for PDF output out of 10000 (max. 10000000)
+
