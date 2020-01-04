@@ -87,7 +87,7 @@ In the body of the book, avoid inserting images with simple Markdown syntax, bec
 1. Static images, in Web and PDF and MS Word editions
 2. Interactive maps and charts in Web edition, with static images in PDF and MS Word editions
 3. Scrolling PDF files in the Web edition, with static screenshots in the PDF and MS Word editions
-4. Playable videos in Web edition, with static screenshots in PDF and MS Word editions
+4. Playable videos (from different servers) in Web edition, with static screenshots in PDF and MS Word editions
 
 #### Overview of R Code Chunks {-}
 - Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.
@@ -126,22 +126,30 @@ if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-
 ```{r pdf-sample-local, echo=FALSE, fig.cap="(ref:pdf-sample-local)"}
 if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else knitr::include_graphics("images/sample-pdf-screenshot.png")
 ```
+<!-- TODO: test all video examples below in Windows Edge and Android devices -->
 
 #### Example 4a: YouTube video iframe in web edition, static image in PDF edition {-}
-(ref:youtube-sample-video) Here's a sample YouTube clip caption, with option to add Markdown link (to the full video on CTDA). YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
+(ref:youtube-sample-video) Here's a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 
 ```{r youtube-sample-video, echo=FALSE, fig.cap="(ref:youtube-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/NuWg9Jrkrpw?start=64") else knitr::include_graphics("images/2013-cthistory-video-screenshot.png")
 ```
 
 #### Example 4b: Vimeo video iframe in web edition, static image in PDF edition {-}
-(ref:vimeo-sample-video) Here's a sample Vimeo clip caption, with option to add Markdown link (to the full video on CTDA).
+(ref:vimeo-sample-video) Here's a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 
-```{r vimeo-sample-vimeo, echo=FALSE, fig.cap="(ref:vimeo-sample-video)"}
+```{r vimeo-sample-video, echo=FALSE, fig.cap="(ref:vimeo-sample-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
 ```
 
-Reminder: As of January 2020, CTDA and Kaltura video feeds both appear in the browser in autoplay mode, so do not embed these feeds directly in iframes in the book. Instead, upload a short relevant video clip to YouTube or Vimeo to display in the book, and insert a link "to the full video on CTDA or Kaltura" in the caption and footnote.
+#### Example 4c: Kaltura video iframe in web edition, static image in PDF edition {-}
+(ref:kaltura-sample-video) Here's a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura "share" embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
+
+```{r kaltura-sample-video, echo=FALSE, fig.cap="(ref:kaltura-sample-video)"}
+if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
+```
+
+Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4> and read more <https://confluence.uconn.edu/display/CTDA/Datastreams>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.
 
 #### Tables {-}
 This book currently uses Markdown table formatting, with header above and caption (in italicized text) below, using <http://www.tablesgenerator.com/> to generate Markdown output. Reminder: this does not create a Bookdown-generated auto-numbered figure, so cannot (yet) create dynamic reference.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  4 JAN 2020 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  4 JAN 2020 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1732,438 +1732,453 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: images/sample-pdf-screenshot.png Graphic file (type png)
 <use images/sample-pdf-screenshot.png>
 Package pdftex.def Info: images/sample-pdf-screenshot.png  used on input line 2
-199.
+197.
 (pdftex.def)             Requested size: 344.99756pt x 154.6659pt.
 File: images/2013-cthistory-video-screenshot.png Graphic file (type png)
 <use images/2013-cthistory-video-screenshot.png>
 Package pdftex.def Info: images/2013-cthistory-video-screenshot.png  used on in
-put line 2211.
+put line 2207.
 (pdftex.def)             Requested size: 344.98576pt x 188.03944pt.
 File: images/2011-walsh-debra.jpg Graphic file (type jpg)
 <use images/2011-walsh-debra.jpg>
-Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 2223.
+Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 2219.
 (pdftex.def)             Requested size: 345.00148pt x 194.23528pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \hbox (1.91473pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
 R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 175
  []
 
-[175] [176 <./images/sample-pdf-screenshot.png>]
+[175 <./images/sample-pdf-screenshot.png>] [176]
+File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
+<use images/2011-sheff-elizabeth.jpg>
+Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 22
+31.
+(pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
+
+Underfull \hbox (badness 3323) in paragraph at lines 2235--2236
+\T1/lmr/m/n/10 ctdigitalarchive . org / islandora / object / 120002 : 172 / dat
+astream / MP4$[] and read
+ []
+
+
 Overfull \hbox (1.91473pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
 R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 177
  []
 
 [177]
-Underfull \hbox (badness 2556) in paragraph at lines 2252--2254
+Underfull \hbox (badness 2556) in paragraph at lines 2260--2262
 \T1/lmr/m/n/10 ^^\gures . html$[] and Mark-down ex-ten-sions []$https : / / boo
 kdown . org / yihui /
  []
 
-
-Underfull \hbox (badness 6173) in paragraph at lines 2254--2256
+[178]
+Underfull \hbox (badness 6173) in paragraph at lines 2262--2264
 []\T1/lmr/m/n/10 On R code chunks in RMark-down []$https : / / bookdown . org /
  yihui /
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 2258--2260
+Underfull \hbox (badness 2111) in paragraph at lines 2266--2268
 []\T1/lmr/m/n/10 R Mark-down book sec-tion on fig-ures []$https : / / bookdown 
 . org / yihui /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2264--2266
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2274
 []$\T1/lmr/m/n/10 http : / / zevross . com / blog / 2017 / 06 / 19 / tips -[] a
 nd -[] tricks -[] for -[] working -[] with -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2264--2266
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2274
 \T1/lmr/m/n/10 images -[] and -[] ^^\gures -[] in -[] r -[] markdown -[] docume
 nts / #arguments -[] out . width -[]
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 2266--2267
+Underfull \hbox (badness 1852) in paragraph at lines 2274--2275
 []\T1/lmr/m/n/10 Hints on us-ing auto_pdf: []$https : / / blog . earo . me / 20
 19 / 10 / 26 / reduce -[]
  []
 
-[178]
+[179]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
-[179] [180] [181] [182
+[180] [181] [182
 
 ]
 Chapter 10.
 [183] [184]
-Underfull \hbox (badness 4899) in paragraph at lines 2379--2380
+Underfull \hbox (badness 4899) in paragraph at lines 2387--2388
 []\T1/lmr/m/n/10 Research-It CT, Con-necti-cut State Li-brary. []$https : / / r
 esearchitct . org /
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 2385--2386
+Underfull \hbox (badness 4686) in paragraph at lines 2393--2394
 []\T1/lmr/m/n/10 Trinity Col-lege Li-brary. []$http : / / www . trincoll . edu 
 / LITC / Library / Pages /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2412--2414
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2422
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 559295803 ?
  []
 
 [185]
-Underfull \hbox (badness 1824) in paragraph at lines 2427--2429
+Underfull \hbox (badness 1824) in paragraph at lines 2435--2437
 [][]\T1/lmr/m/n/10 ``A Sug-ges-tive Con-trast.'' \T1/lmr/m/it/10 Hart-ford Dail
 y Courant\T1/lmr/m/n/10 , Oc-to-ber 15, 1878.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2427--2429
+Underfull \hbox (badness 10000) in paragraph at lines 2435--2437
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 554105478 ?
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 2430--2432
+Underfull \hbox (badness 3769) in paragraph at lines 2438--2440
 [][]\T1/lmr/m/n/10 Bailey, Chauncey. ``Non-Resident Stu-dents Again At-tend-ing
  Bloom-
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 2430--2432
+Underfull \hbox (badness 1281) in paragraph at lines 2438--2440
 \T1/lmr/m/n/10 field Schools.'' \T1/lmr/m/it/10 Hart-ford Courant: City/Town\T1
 /lmr/m/n/10 , Septem-ber 16, 1976.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2430--2432
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2440
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 544716872 ?
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 2433--2435
+Underfull \hbox (badness 1072) in paragraph at lines 2441--2443
 [][]\T1/lmr/m/n/10 Banks, Dana, and Jack Dougherty. ``City-Suburban De-seg-re-g
 a-tion and
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 2433--2435
+Underfull \hbox (badness 1412) in paragraph at lines 2441--2443
 \T1/lmr/m/n/10 Forced Choices: Re-view Es-say of 'the Other Boston Bus-ing Stor
 y'
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 2433--2435
+Underfull \hbox (badness 2735) in paragraph at lines 2441--2443
 \T1/lmr/m/n/10 by Su-san Eaton.'' \T1/lmr/m/it/10 Teach-ers Col-lege Record \T1
 /lmr/m/n/10 105 (2004): 985--98.
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 2448--2450
+Underfull \hbox (badness 6284) in paragraph at lines 2456--2458
 \T1/lmr/m/n/10 28, 1947. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 [186]
-Underfull \hbox (badness 2310) in paragraph at lines 2469--2471
+Underfull \hbox (badness 2310) in paragraph at lines 2477--2479
 [][]\T1/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. ``How We Found Re-stric
 -tive
  []
 
 [187]
-Underfull \hbox (badness 1960) in paragraph at lines 2493--2495
+Underfull \hbox (badness 1960) in paragraph at lines 2501--2503
 \T1/lmr/m/n/10 1 (Novem-ber 1876): 1--21. []$https : / / books . google . com /
  books ? id = 2q _
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 2505--2507
+Underfull \hbox (badness 1895) in paragraph at lines 2513--2515
 [][]\T1/lmr/m/n/10 Condon, Tom. ```Troubled City' a Vic-tim of Ge-og-ra-phy.'' 
 \T1/lmr/m/it/10 Hart-ford
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 2505--2507
+Underfull \hbox (badness 1365) in paragraph at lines 2513--2515
 \T1/lmr/m/it/10 Courant\T1/lmr/m/n/10 . Septem-ber 12, 2002. []$http : / / arti
 cles . courant . com / 2002 -[] 09 -[]
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 2523--2525
+Underfull \hbox (badness 4713) in paragraph at lines 2531--2533
 [][]\T1/lmr/m/n/10 ``Couple Ask Tuition-Free School-ing for Girl but Res-i-denc
 y Is Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2523--2525
+Underfull \hbox (badness 10000) in paragraph at lines 2531--2533
 \T1/lmr/m/n/10 com . ezproxy . trincoll . edu / docview / 553011819 / 18F2091DE
 B304451PQ / 1 ?
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 2526--2528
+Underfull \hbox (badness 1975) in paragraph at lines 2534--2536
 [][]\T1/lmr/m/n/10 Courtney, Steve. ``Com-men-tary: Was Hart-ford 'the Rich-est
  City in
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2526--2528
+Underfull \hbox (badness 1430) in paragraph at lines 2534--2536
 \T1/lmr/m/n/10 the United States'?'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m
 /n/10 , Oc-to-ber 10, 2014. []$http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2528
+Underfull \hbox (badness 10000) in paragraph at lines 2534--2536
 \T1/lmr/m/n/10 / / www . courant . com / opinion / op -[] ed / hc -[] op -[] co
 urtney -[] was -[] hartford -[] richest -[]
  []
 
 [188]
-Underfull \hbox (badness 1742) in paragraph at lines 2532--2534
+Underfull \hbox (badness 1742) in paragraph at lines 2540--2542
 \T1/lmr/m/n/10 tory.org, Jan-uary 2013. []$http : / / connecticuthistory . org 
 / race -[] restrictive -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2547--2549
+Underfull \hbox (badness 10000) in paragraph at lines 2555--2557
 \T1/lmr/m/n/10 / / search -[] proquest -[] com . ezproxy . trincoll . edu / hnp
 hartfordcourant / docview /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2562--2564
+Underfull \hbox (badness 10000) in paragraph at lines 2570--2572
 \T1/lmr/m/n/10 f / ^^\ndaid / ^^\ndaid -[] idx ? c = wiarchives ; view = reslis
 t ; subview = standard ; didno =
  []
 
 [189] [190]
-Underfull \hbox (badness 2027) in paragraph at lines 2604--2606
+Underfull \hbox (badness 2027) in paragraph at lines 2612--2614
 [][]\T1/lmr/m/n/10 Dougherty, Jack, Di-ane Zan-noni, Marissa Block, and Stephen
  Spirou.
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 2604--2606
+Underfull \hbox (badness 1048) in paragraph at lines 2612--2614
 \T1/lmr/m/n/10 ``Who Chooses in Hart-ford? Re-port 1: Sta-tis-ti-cal Anal-y-sis
  of Re-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 2604--2606
+Underfull \hbox (badness 2799) in paragraph at lines 2612--2614
 \T1/lmr/m/n/10 gional School Choice Of-fice Ap-pli-cants and Non-Applicants Amo
 ng
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 2622--2624
+Underfull \hbox (badness 3514) in paragraph at lines 2630--2632
 \T1/lmr/m/it/10 B\T1/lmr/m/n/10 . April 7, 1985. []$https : / / search -[] proq
 uest -[] com . ezproxy . trincoll . edu /
  []
 
 [191] [192]
-Underfull \hbox (badness 1895) in paragraph at lines 2682--2684
+Underfull \hbox (badness 1895) in paragraph at lines 2690--2692
 [][]\T1/lmr/m/n/10 Estevez, Naralys, and Jack Dougherty. ``Do Mag-net Schools A
 t-tract
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 2688--2690
+Underfull \hbox (badness 2285) in paragraph at lines 2696--2698
 [][]\T1/lmr/m/n/10 ``FBI Probes Charges of Racial Bias: Com-plaints Filed Again
 st Re-al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2700--2702
+Underfull \hbox (badness 10000) in paragraph at lines 2708--2710
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 555144638 ?
  []
 
 [193] [194]
-Underfull \hbox (badness 1009) in paragraph at lines 2763--2765
+Underfull \hbox (badness 1009) in paragraph at lines 2771--2773
 [][]\T1/lmr/m/n/10 Hirsh, Linda B. ``Schools to Use New Poli-cies to Ex-clude O
 ut-of-Town
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 2769--2771
+Underfull \hbox (badness 1622) in paragraph at lines 2777--2779
 \T1/lmr/m/it/10 Case Study of SmartChoices\T1/lmr/m/n/10 . Hart-ford, Con-necti
 -cut, 2009. []$http :
  []
 
 [195]
-Underfull \hbox (badness 6284) in paragraph at lines 2811--2813
+Underfull \hbox (badness 6284) in paragraph at lines 2819--2821
 \T1/lmr/m/n/10 26, 1974. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 2814--2816
+Underfull \hbox (badness 6284) in paragraph at lines 2822--2824
 \T1/lmr/m/n/10 11, 1917. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 [196]
-Overfull \hbox (7.45944pt too wide) in paragraph at lines 2835--2837
+Overfull \hbox (7.45944pt too wide) in paragraph at lines 2843--2845
 \T1/lmr/m/n/10 1972. []$https : / / scholar . google . com / scholar _ case ? c
 ase = 15478926121065691421$[]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2841--2843
+Underfull \hbox (badness 10000) in paragraph at lines 2849--2851
 []$\T1/lmr/m/n/10 http : / / connecticuthistory . org / the -[] debate -[] over
  -[] who -[] could -[] occupy -[] world -[]
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 2865--2867
+Underfull \hbox (badness 2460) in paragraph at lines 2873--2875
 \T1/lmr/m/n/10 Panorama, Dig-i-tal Schol-ar-ship Lab, Uni-ver-sity of Rich-mond
 , 2016.
  []
 
 [197]
-Underfull \hbox (badness 2012) in paragraph at lines 2889--2891
+Underfull \hbox (badness 2012) in paragraph at lines 2897--2899
 \T1/lmr/m/it/10 Agenda for Com-mu-nity and Pros-per-ity in Con-necti-cut\T1/lmr
 /m/n/10 . Min-neapo-
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 2904--2906
+Underfull \hbox (badness 3039) in paragraph at lines 2912--2914
 \T1/lmr/m/it/10 B\T1/lmr/m/n/10 , May 21, 1985. []$https : / / search -[] proqu
 est -[] com . ezproxy . trincoll . edu /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
+Underfull \hbox (badness 10000) in paragraph at lines 2912--2914
 \T1/lmr/m/n/10 docview / 758689031 / fulltextPDF / 2FA3B34AF5BD4A2EPQ / 1 ? acc
 ountid =
  []
 
 [198]
-Underfull \hbox (badness 10000) in paragraph at lines 2910--2912
+Underfull \hbox (badness 10000) in paragraph at lines 2918--2920
 []$\T1/lmr/m/n/10 https : / / connecticuthistory . org / yung -[] wing -[] the 
 -[] chinese -[] educational -[] mission -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2916--2918
+Underfull \hbox (badness 10000) in paragraph at lines 2924--2926
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 552254027 ?
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 2925--2927
+Underfull \hbox (badness 1127) in paragraph at lines 2933--2935
 \T1/lmr/m/n/10 Study.'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m/n/10 , July 
 18, 1974. []$https : / / search -[] proquest -[]
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 2931--2933
+Underfull \hbox (badness 2460) in paragraph at lines 2939--2941
 \T1/lmr/m/n/10 Febru-ary 22, 1974. []$https : / / search -[] proquest -[] com .
  ezproxy . trincoll . edu /
  []
 
 [199]
-Underfull \hbox (badness 2126) in paragraph at lines 2946--2948
+Underfull \hbox (badness 2126) in paragraph at lines 2954--2956
 \T1/lmr/m/n/10 Mas-ter's the-sis, Trin-ity Col-lege, 1994. []$http : / / ctwweb
  . wesleyan . edu :
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 2952--2954
+Underfull \hbox (badness 1348) in paragraph at lines 2960--2962
 \T1/lmr/m/n/10 and the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment.'' Con-necti-
 cutHis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2952--2954
+Underfull \hbox (badness 10000) in paragraph at lines 2960--2962
 \T1/lmr/m/n/10 changed -[] connecticut -[] simon -[] bernstein -[] and -[] the 
 -[] 1965 -[] connecticut -[] education -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2955--2957
+Underfull \hbox (badness 10000) in paragraph at lines 2963--2965
 \T1/lmr/m/n/10 teaching -[] researching . html # writing -[] greater -[] hartfo
 rds -[] civil -[] rights -[] past -[] with -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2964--2966
+Underfull \hbox (badness 10000) in paragraph at lines 2972--2974
 []$\T1/lmr/m/n/10 http : / / connecticuthistory . org / how -[] real -[] estate
  -[] practices -[] in^^]uenced -[] the -[]
  []
 
 [200]
-Underfull \hbox (badness 6284) in paragraph at lines 2991--2993
+Underfull \hbox (badness 6284) in paragraph at lines 2999--3001
 \T1/lmr/m/n/10 23, 1920. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 2994--2996
+Underfull \hbox (badness 1762) in paragraph at lines 3002--3004
 [][]\T1/lmr/m/n/10 Smith-Ellison, Vic-to-ria. ``Hart-ford's Great Mi-gra-tion T
 hrough Charles
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 2994--2996
+Underfull \hbox (badness 1635) in paragraph at lines 3002--3004
 \T1/lmr/m/n/10 S. John-son's Eyes.'' Con-necti-cutHis-tory.org, Febru-ary 2013.
  []$http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2994--2996
+Underfull \hbox (badness 10000) in paragraph at lines 3002--3004
 \T1/lmr/m/n/10 / / connecticuthistory . org / hartfords -[] great -[] migration
  -[] through -[] charles -[] s -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3012--3014
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3022
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 555173471 ?
  []
 
 [201] [202]
-Underfull \hbox (badness 1460) in paragraph at lines 3072--3074
+Underfull \hbox (badness 1460) in paragraph at lines 3080--3082
 [][]\T1/lmr/m/n/10 Wilson, Tracey. ``Tak-ing Stock of High Ledge Homes and Re-s
 tricted
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 3072--3074
+Underfull \hbox (badness 1596) in paragraph at lines 3080--3082
 \T1/lmr/m/n/10 Covenants.'' \T1/lmr/m/it/10 West Hart-ford Life \T1/lmr/m/n/10 
 13, no. 2 (June 2010): 36--37.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3078--3080
+Underfull \hbox (badness 10000) in paragraph at lines 3086--3088
 \T1/lmr/m/n/10 war -[] ii -[] era . html # resistance -[] to -[] public -[] hou
 sing -[] and -[] integration -[] during -[]
  []
 
 [203]
-Underfull \hbox (badness 1237) in paragraph at lines 3093--3095
+Underfull \hbox (badness 1237) in paragraph at lines 3101--3103
 \T1/lmr/m/n/10 cover?'' \T1/lmr/m/it/10 The New York Times: N.Y. / Re-gion\T1/l
 mr/m/n/10 , Au-gust 26, 2002.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3093--3095
+Underfull \hbox (badness 10000) in paragraph at lines 3101--3103
 []$\T1/lmr/m/n/10 https : / / www . nytimes . com / 2002 / 08 / 26 / nyregion /
  poverty -[] in -[] a -[] land -[] of -[]
  []
 
 [204]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3098.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3098.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3106.
 (./Dougherty-etal-OnTheLine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3098.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3098.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3106.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
@@ -2171,13 +2186,13 @@ d.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3098.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3106.
  ) 
 Here is how much of TeX's memory you used:
- 12997 strings out of 494107
- 197672 string characters out of 6172706
- 327515 words of memory out of 5000000
- 15924 multiletter control sequences out of 15000+600000
+ 13000 strings out of 494107
+ 197837 string characters out of 6172706
+ 328032 words of memory out of 5000000
+ 15925 multiletter control sequences out of 15000+600000
  92737 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  40i,8n,37p,3891b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2196,10 +2211,10 @@ xmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/jdoughe2/Library/TinyTeX/texm
 f-dist/fonts/type1/public/lm/lmri8.pfb></Users/jdoughe2/Library/TinyTeX/texmf-d
 ist/fonts/type1/public/lm/lmro10.pfb></Users/jdoughe2/Library/TinyTeX/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Dougherty-etal-OnTheLine.pdf (208 pages, 22409966 bytes).
+Output written on Dougherty-etal-OnTheLine.pdf (208 pages, 22411479 bytes).
 PDF statistics:
- 3449 PDF objects out of 3580 (max. 8388607)
- 3072 compressed objects within 31 object streams
- 889 named destinations out of 1000 (max. 500000)
+ 3457 PDF objects out of 3580 (max. 8388607)
+ 3080 compressed objects within 31 object streams
+ 891 named destinations out of 1000 (max. 500000)
  623 words of extra memory for PDF output out of 10000 (max. 10000000)
 
