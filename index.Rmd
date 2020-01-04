@@ -74,7 +74,7 @@ In sum, *On The Line* blends the best aspects of conventional publishing and web
 
 ## Authors and Contributors {-}
 
-<!-- Best display method so far is uniform 150x150 300dpi JPG (not PNG) images, not in table -->
+<!-- TODO: try auto_pdf? maybe in table again? Best display method so far is uniform 150x150 300dpi JPG (not PNG) images, not in table -->
 ```{r dougherty-jack, echo=FALSE}
  knitr::include_graphics("images/dougherty-jack.jpg")
 ```

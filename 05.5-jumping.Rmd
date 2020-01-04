@@ -71,4 +71,6 @@ Saundra Foster gladly stepped away from the spotlight when her case was dismisse
 
 *[About the authors and contributors:](authors-and-contributors.html) Vianna Iorio (Trinity 2019) and JiYun Lee (Trinity 2017) both wrote essays on this topic for the Cities Suburbs and Schools seminar, which Vianna later merged and revised for this book, in collaboration with Jack Dougherty. Also, Jasmin Agosto (Trinity 2010) and Richelle Benjamin (Trinity 2015) researched school residency sources.*
 
+`r if (knitr::is_latex_output()) '<!--'`
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+`r if (knitr::is_latex_output()) '-->'`

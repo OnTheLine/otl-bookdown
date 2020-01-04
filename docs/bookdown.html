@@ -205,21 +205,6 @@ Figure 47: Overview of the workflow on a Mac desktop: Compose and build the book
 <li>To finish installing tinytex, in the RStudio console, type <code>tinytex::install_tinytex()</code> and press return. <a href="images/bookdown/7-finish-install-tinytex.png">See screenshot</a></li>
 <li>When you installed RStudio, it also should have installed its own version of Pandoc, the package that converts files from Markdown format to HMTL and other formats. To confirm the Pandoc installation and version number, in the RStudio console, type <code>rmarkdown::pandoc_version()</code> and press return. The resulting version number should be <code>2.3.1</code> or higher. To learn more about Pandoc or to install a newer version, go to <a href="https://pandoc.org" class="uri">https://pandoc.org</a>.</li>
 </ul>
-<div id="sidenote-about-the-pdf-edition-and-tinytex-vs-xelatex" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Sidenote: About the PDF edition, and TinyTeX vs XelaTex</h5>
-<p>The PDF edition of this Bookdown-generated publication is still a work-in-progress, and the settings are not yet finalized. Read more about various options at <a href="https://bookdown.org/yihui/rmarkdown/pdf-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/pdf-document.html</a>. To avoid some unicode error messages when generating the PDF edition for this book, we installed a different engine, XelaTex, rather than TinyTeX. If you do the same, be sure to modify this line in your Bookdown index.Rmd settings: <code>latex_engine: xelatex</code></p>
-</div>
-<div id="sidenote-if-tinytex-installation-error" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Sidenote: If TinyTeX installation error</h5>
-<ul>
-<li>Once upon a time, this error message appeared when attempting to install tinytex in RStudio on our Mac: <code>/usr/local/bin not writeable</code>. We resolved by reading the software developer’s GitHub issue <a href="https://github.com/yihui/tinytex/issues/24" class="uri">https://github.com/yihui/tinytex/issues/24</a> and following these steps:</li>
-<li>In the Mac Applications &gt; Utilities folder, open the Terminal application.</li>
-<li>Carefully type <code>sudo chown -R</code>whoami<code>:admin /usr/local/bin</code> and press return.</li>
-<li>Carefully type (without “sudo”) <code>~/Library/TinyTeX/bin/x86_64-darwin/tlmgr path add</code> and press return.</li>
-<li>Close the Terminal application.</li>
-<li>In the RStudio console, type <code>tinytex::install_tinytex(force = TRUE)</code> and press return.</li>
-</ul>
-</div>
 </div>
 <div id="download-and-build-a-sample-bookdown-book" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Download and Build a Sample Bookdown Book</h4>
@@ -302,9 +287,8 @@ chapter_name: &quot;Chapter &quot;</code></pre>
 <p>In this book, the <code>index.Rmd</code> file also contains instructions to create footnotes and a bibliography from a Zotero-Better BibLaTeX exported file named <code>ontheline.bib</code>, in a specific Chicago-style format. Other <code>.csl</code> files are downloadable from the Zotero Styles Repository <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>.</p>
 <pre><code>bibliography: ontheline.bib
 citation-style: chicago-fullnote-bibliography.csl</code></pre>
-<p>Also in this book, the <code>index.Rmd</code> file is set to produce a PDF edition of the book using the xelatex engine (or see tinytex or latex alternatives described above). Furthermore, additional PanDoc settings are required to create the desired Chicago-style footnotes and bibliography in the PDF edition. See more details at <a href="https://pandoc.org/" class="uri">https://pandoc.org/</a>.</p>
+<p>Also in this book, the <code>index.Rmd</code> file is set to produce a PDF edition of the book with PanDoc settings for the desired Chicago-style footnotes and bibliography in the PDF edition. See more details at <a href="https://pandoc.org/" class="uri">https://pandoc.org/</a>. See additional PDF setting options at <a href="https://bookdown.org/yihui/rmarkdown/pdf-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/pdf-document.html</a>.</p>
 <pre><code>  bookdown::pdf_book:
-    latex_engine: xelatex
     citation_package: none
     pandoc_args: [ &quot;--csl&quot;, &quot;chicago-fullnote-bibliography.csl&quot; ]</code></pre>
 </div>
@@ -316,8 +300,9 @@ citation-style: chicago-fullnote-bibliography.csl</code></pre>
 - Better BibTex generates a unique citation key for each source (example: <code>^[@tyackOneBestSystem1974]</code>), which authors insert into the Markdown text to create a full reference (such as a footnote) and a bibliography.
 - The author identifies their preferred citation style at <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>, uploads the file (example: chicago-fullnote-bibliography.csl) to the local book repo, and lists it in the <code>index.Rmd</code> settings for both the Web edition and the PDF edition.
 - Before each build in Bookdown, the author sets their Zotero preferences, and exports the Zotero library or specific collection to the root level of the local book repo (example: ontheline.bib).</p>
-<div id="installation-and-settings" class="section level5 unnumbered" number="">
-<h5 class="unnumbered" number="">Installation and Settings</h5>
+</div>
+<div id="installation-and-settings" class="section level4 unnumbered" number="">
+<h4 class="unnumbered" number="">Installation and Settings</h4>
 <ul>
 <li>Download and install <a href="http://zotero.org">Zotero</a> for Mac, Windows, Linux, and add connectors to your browsers.</li>
 <li>Install the <a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX extension</a> and follow all of the site’s instructions for initial setup.</li>
@@ -343,9 +328,8 @@ citation-style: chicago-fullnote-bibliography.csl</code></pre>
 - Document – Use this all-purpose entry in place of other types: Law case, Presentation, Interview, Video recording, Television broadcast, etc. Insert important details (such as the archival location information) in the Publisher field.</p>
 <p>To help other researchers find items cited in this book, URLs should be included in Zotero entries whenever feasible, even if not required by convention. For example, some print-only books and documents are hard to locate, so include an OCLC WorldCat permalink to make them easier to find (example: <a href="http://www.worldcat.org/oclc/20683509" class="uri">http://www.worldcat.org/oclc/20683509</a>). Also, if a print source has been digitized by HathiTrust, Google Books, or the Internet Archive, add one of these URLs to the Zotero entry.</p>
 <p>Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in <em>every</em> instance in the web version, so that users do not need to scroll to find the complete source info.</p>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-03</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-04</em></p>
 
-</div>
 </div>
 </div>
 <div class="footnotes">

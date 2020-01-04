@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  3 JAN 2020 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  4 JAN 2020 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,301 +781,263 @@ Package pdftex.def Info: images/github-logo-90x37.png  used on input line 299.
 Chapter 1.
 [13
 
-]
-<images/cc-by-nc-sa-88x31.png, id=367, 88.33pt x 31.11626pt>
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 339.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[14] [15 <./images/cc-by-nc-sa-88x31.png>]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 348.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[16] [17] [18]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 375.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[19] [20]
-Chapter 2.
-[21
+] [14] [15] [16] [17] [18] [19] [20
 
 ]
-<images/1876-scribners-monthly.png, id=449, 602.25pt x 540.0175pt>
+Chapter 2.
+[21]
+<images/1876-scribners-monthly.png, id=424, 602.25pt x 540.0175pt>
 File: images/1876-scribners-monthly.png Graphic file (type png)
 <use images/1876-scribners-monthly.png>
 Package pdftex.def Info: images/1876-scribners-monthly.png  used on input line 
-393.
+387.
 (pdftex.def)             Requested size: 345.0137pt x 309.36229pt.
 
-Underfull \hbox (badness 1603) in paragraph at lines 397--397
+Underfull \hbox (badness 1603) in paragraph at lines 391--391
 [][][]\T1/lmr/m/n/8 Steve Court-ney, ``Com-men-tary: Was Hart-ford 'the Rich-es
 t City in the United
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 397--397
+Underfull \hbox (badness 2020) in paragraph at lines 391--391
 [][][]\T1/lmr/m/n/8 Alexander R. Mer-riam, \T1/lmr/m/it/8 The So-cial Sig-nif-i
 -cance of the Smaller City \T1/lmr/m/n/8 (Hart-ford,
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 397--397
+Underfull \hbox (badness 1057) in paragraph at lines 391--391
 \T1/lmr/m/n/8 as Alexan-der R. Mer-riam, ``The So-cial Con-di-tions of the Smal
 ler City,'' \T1/lmr/m/it/8 The Hart-
  []
 
 [22] [23 <./images/1876-scribners-monthly.png (PNG copy)>] [24] [25] [26]
-<images/1910-2010-otl-home-value.jpg, id=529, 913.4125pt x 491.8375pt>
+<images/1910-2010-otl-home-value.jpg, id=505, 913.4125pt x 491.8375pt>
 File: images/1910-2010-otl-home-value.jpg Graphic file (type jpg)
 <use images/1910-2010-otl-home-value.jpg>
 Package pdftex.def Info: images/1910-2010-otl-home-value.jpg  used on input lin
-e 415.
+e 409.
 (pdftex.def)             Requested size: 344.99579pt x 185.76695pt.
 [27 <./images/1910-2010-otl-home-value.jpg>]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 423.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
 
 LaTeX Warning: Reference `fig:1600s-otl-town-borders' on page 28 undefined on i
-nput line 428.
+nput line 420.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[28]
-<images/1600s-otl-town-borders.jpg, id=556, 684.5575pt x 521.95pt>
+<images/1600s-otl-town-borders.jpg, id=519, 684.5575pt x 521.95pt>
 File: images/1600s-otl-town-borders.jpg Graphic file (type jpg)
 <use images/1600s-otl-town-borders.jpg>
 Package pdftex.def Info: images/1600s-otl-town-borders.jpg  used on input line 
-432.
+424.
 (pdftex.def)             Requested size: 345.00418pt x 263.05304pt.
-<images/2014-otl-compare-school-districts.png, id=558, 1068.99374pt x 569.12625
+
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+[28]
+<images/2014-otl-compare-school-districts.png, id=527, 1068.99374pt x 569.12625
 pt>
 File: images/2014-otl-compare-school-districts.png Graphic file (type png)
 <use images/2014-otl-compare-school-districts.png>
 Package pdftex.def Info: images/2014-otl-compare-school-districts.png  used on 
-input line 441.
+input line 433.
 (pdftex.def)             Requested size: 345.00475pt x 183.67857pt.
 [29 <./images/1600s-otl-town-borders.jpg>] [30 <./images/2014-otl-compare-schoo
 l-districts.png>]
-<images/1925-one-room-schools.png, id=588, 873.2625pt x 640.3925pt>
+<images/1925-one-room-schools.png, id=556, 873.2625pt x 640.3925pt>
 File: images/1925-one-room-schools.png Graphic file (type png)
 <use images/1925-one-room-schools.png>
 Package pdftex.def Info: images/1925-one-room-schools.png  used on input line 4
-63.
+55.
 (pdftex.def)             Requested size: 344.99486pt x 252.99623pt.
-<images/1901-csde-one-room-school-p3.jpg, id=592, 1530.71875pt x 3064.44875pt>
+<images/1901-csde-one-room-school-p3.jpg, id=560, 1530.71875pt x 3064.44875pt>
 File: images/1901-csde-one-room-school-p3.jpg Graphic file (type jpg)
 <use images/1901-csde-one-room-school-p3.jpg>
 Package pdftex.def Info: images/1901-csde-one-room-school-p3.jpg  used on input
- line 472.
+ line 464.
 (pdftex.def)             Requested size: 172.49039pt x 345.32011pt.
-[31] [32 <./images/1925-one-room-schools.png>] [33 <./images/1901-csde-one-room
--school-p3.jpg>] [34
+[31 <./images/1925-one-room-schools.png>] [32 <./images/1901-csde-one-room-scho
+ol-p3.jpg>] [33
+
+] [34
 
 ]
 Chapter 3.
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 492--494
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--498
+Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/lmr/m/n/8 / / realestateresearch . frbatlanta . org / rer / 2012 / 04 / deb
 unking -[] popular -[] myth -[] about -[] mortgage -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/lmr/m/n/8 mortgage -[] 2809 . html$[] and []$http : / / answers . google . 
 com / answers / threadview / id / 533059 . html$[]
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 508--510
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--514
+Underfull \hbox (badness 10000) in paragraph at lines 504--506
 
  []
 
 [37]
-<images/1937-holc-hartford-map-scan.jpg, id=647, 1358.07375pt x 1102.1175pt>
+<images/1937-holc-hartford-map-scan.jpg, id=616, 1358.07375pt x 1102.1175pt>
 File: images/1937-holc-hartford-map-scan.jpg Graphic file (type jpg)
 <use images/1937-holc-hartford-map-scan.jpg>
 Package pdftex.def Info: images/1937-holc-hartford-map-scan.jpg  used on input 
-line 527.
+line 519.
 (pdftex.def)             Requested size: 344.98834pt x 279.96837pt.
 [38 <./images/1937-holc-hartford-map-scan.jpg>]
-<images/1937-otl-redlining.png, id=658, 701.62125pt x 489.83pt>
+<images/1937-otl-redlining.png, id=627, 701.62125pt x 489.83pt>
 File: images/1937-otl-redlining.png Graphic file (type png)
 <use images/1937-otl-redlining.png>
-Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 537.
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 529.
 
 (pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
 [39] [40 <./images/1937-otl-redlining.png>]
-<images/1937-holc-inhabitants-c10.png, id=681, 733.74126pt x 103.38625pt>
+<images/1937-holc-inhabitants-c10.png, id=649, 733.74126pt x 103.38625pt>
 File: images/1937-holc-inhabitants-c10.png Graphic file (type png)
 <use images/1937-holc-inhabitants-c10.png>
 Package pdftex.def Info: images/1937-holc-inhabitants-c10.png  used on input li
-ne 549.
+ne 541.
 (pdftex.def)             Requested size: 345.00398pt x 48.61205pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [41 <./images/1937-holc-inhabitants-c10.png>]
-<images/1936-fha-manual-247.png, id=694, 949.5475pt x 322.20375pt>
+<images/1936-fha-manual-247.png, id=662, 949.5475pt x 322.20375pt>
 File: images/1936-fha-manual-247.png Graphic file (type png)
 <use images/1936-fha-manual-247.png>
-Package pdftex.def Info: images/1936-fha-manual-247.png  used on input line 565
+Package pdftex.def Info: images/1936-fha-manual-247.png  used on input line 557
 .
 (pdftex.def)             Requested size: 344.99542pt x 117.06503pt.
 [42 <./images/1936-fha-manual-247.png (PNG copy)>]
-<images/1936-fha-manual-226.png, id=707, 1066.98625pt x 357.335pt>
+<images/1936-fha-manual-226.png, id=675, 1066.98625pt x 357.335pt>
 File: images/1936-fha-manual-226.png Graphic file (type png)
 <use images/1936-fha-manual-226.png>
-Package pdftex.def Info: images/1936-fha-manual-226.png  used on input line 575
+Package pdftex.def Info: images/1936-fha-manual-226.png  used on input line 567
 .
 (pdftex.def)             Requested size: 344.9918pt x 115.53818pt.
-<images/1938-fha-manual-1849.png, id=713, 578.16pt x 149.55875pt>
+<images/1938-fha-manual-1849.png, id=681, 578.16pt x 149.55875pt>
 File: images/1938-fha-manual-1849.png Graphic file (type png)
 <use images/1938-fha-manual-1849.png>
-Package pdftex.def Info: images/1938-fha-manual-1849.png  used on input line 58
-5.
+Package pdftex.def Info: images/1938-fha-manual-1849.png  used on input line 57
+7.
 (pdftex.def)             Requested size: 344.99312pt x 89.24301pt.
-[43 <./images/1936-fha-manual-226.png>]
-Overfull \hbox (25.25092pt too wide) in alignment at lines 597--601
- [] [] [] 
- []
-
-
-Overfull \hbox (25.25092pt too wide) in alignment at lines 601--622
- [] [] [] 
- []
-
-[44 <./images/1938-fha-manual-1849.png (PNG copy)>]
-Overfull \hbox (25.25092pt too wide) in alignment at lines 622--624
- [] [] [] 
- []
-
-[45]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 636.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[46]
-<images/1940-otl-covenants.png, id=780, 822.07124pt x 446.66875pt>
+[43 <./images/1936-fha-manual-226.png>] [44 <./images/1938-fha-manual-1849.png 
+(PNG copy)>] [45] [46]
+<images/1940-otl-covenants.png, id=741, 822.07124pt x 446.66875pt>
 File: images/1940-otl-covenants.png Graphic file (type png)
 <use images/1940-otl-covenants.png>
-Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 654.
+Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 636.
 
 (pdftex.def)             Requested size: 344.99161pt x 187.44965pt.
-[47] [48 <./images/1940-otl-covenants.png>] [49] [50]
-<images/1940-03-31-hc-high-ledge-homes-ad.jpg, id=873, 913.4125pt x 1358.07375p
+[47] [48 <./images/1940-otl-covenants.png>] [49]
+<images/1940-03-31-hc-high-ledge-homes-ad.jpg, id=774, 913.4125pt x 1358.07375p
 t>
 File: images/1940-03-31-hc-high-ledge-homes-ad.jpg Graphic file (type jpg)
 <use images/1940-03-31-hc-high-ledge-homes-ad.jpg>
 Package pdftex.def Info: images/1940-03-31-hc-high-ledge-homes-ad.jpg  used on 
-input line 675.
+input line 657.
 (pdftex.def)             Requested size: 172.49092pt x 256.46178pt.
-[51 <./images/1940-03-31-hc-high-ledge-homes-ad.jpg>]
-Underfull \hbox (badness 3989) in paragraph at lines 682--682
+[50] [51 <./images/1940-03-31-hc-high-ledge-homes-ad.jpg>]
+Underfull \hbox (badness 3989) in paragraph at lines 664--664
 [][][]\T1/lmr/m/n/8 ``Bernstein Seeks End of Re-stric-tive Clauses,'' \T1/lmr/m
 /it/8 The Hart-ford Courant\T1/lmr/m/n/8 , March
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 682--682
+Underfull \hbox (badness 1648) in paragraph at lines 664--664
 \T1/lmr/m/n/8 2, 1947, []$https : / / search -[] proquest -[] com . ezproxy . t
 rincoll . edu / docview / 560760502 ? accountid =
  []
 
 [52] [53]
-<images/2011-walsh-debra.jpg, id=925, 629.35126pt x 354.32375pt>
+<images/2011-walsh-debra.jpg, id=833, 629.35126pt x 354.32375pt>
 File: images/2011-walsh-debra.jpg Graphic file (type jpg)
 <use images/2011-walsh-debra.jpg>
-Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 694.
+Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 676.
 (pdftex.def)             Requested size: 345.00148pt x 194.23528pt.
 [54 <./images/2011-walsh-debra.jpg>]
-<images/2011-hansen-susan.jpg, id=940, 628.3475pt x 352.31625pt>
+<images/2011-hansen-susan.jpg, id=848, 628.3475pt x 352.31625pt>
 File: images/2011-hansen-susan.jpg Graphic file (type jpg)
 <use images/2011-hansen-susan.jpg>
-Package pdftex.def Info: images/2011-hansen-susan.jpg  used on input line 704.
+Package pdftex.def Info: images/2011-hansen-susan.jpg  used on input line 686.
 (pdftex.def)             Requested size: 344.99774pt x 193.44122pt.
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 710.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
+
+Underfull \vbox (badness 2856) has occurred while \output is active []
+
 [55 <./images/2011-hansen-susan.jpg>]
 
 LaTeX Warning: Reference `fig:1954-02-17-ht-oakwood-acres' on page 56 undefined
- on input line 719.
+ on input line 699.
 
-[56]
-<images/1954-02-17-ht-oakwood-acres.jpg, id=974, 749.80125pt x 635.37375pt>
+<images/1954-02-17-ht-oakwood-acres.jpg, id=869, 749.80125pt x 635.37375pt>
 File: images/1954-02-17-ht-oakwood-acres.jpg Graphic file (type jpg)
 <use images/1954-02-17-ht-oakwood-acres.jpg>
 Package pdftex.def Info: images/1954-02-17-ht-oakwood-acres.jpg  used on input 
-line 723.
+line 703.
 (pdftex.def)             Requested size: 345.00429pt x 292.35303pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[56]
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
 [57 <./images/1954-02-17-ht-oakwood-acres.jpg>]
-<images/1943-12-16-metro-news-oakwood.jpg, id=986, 461.47406pt x 111.41624pt>
+<images/1943-12-16-metro-news-oakwood.jpg, id=887, 461.47406pt x 111.41624pt>
 File: images/1943-12-16-metro-news-oakwood.jpg Graphic file (type jpg)
 <use images/1943-12-16-metro-news-oakwood.jpg>
 Package pdftex.def Info: images/1943-12-16-metro-news-oakwood.jpg  used on inpu
-t line 734.
+t line 714.
 (pdftex.def)             Requested size: 344.99916pt x 83.29506pt.
-<images/1951-2013-aerial-oakwood.jpg, id=988, 647.41875pt x 448.67625pt>
+<images/1951-2013-aerial-oakwood.jpg, id=889, 647.41875pt x 448.67625pt>
 File: images/1951-2013-aerial-oakwood.jpg Graphic file (type jpg)
 <use images/1951-2013-aerial-oakwood.jpg>
 Package pdftex.def Info: images/1951-2013-aerial-oakwood.jpg  used on input lin
-e 744.
+e 724.
 (pdftex.def)             Requested size: 344.99739pt x 239.09122pt.
 [58 <./images/1943-12-16-metro-news-oakwood.jpg>] [59 <./images/1951-2013-aeria
-l-oakwood.jpg>] [60]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 758.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[61]
-<images/1924-Whitten-page10-underlined.png, id=1043, 622.325pt x 280.04625pt>
+l-oakwood.jpg>] [60] [61]
+<images/1924-Whitten-page10-underlined.png, id=937, 622.325pt x 280.04625pt>
 File: images/1924-Whitten-page10-underlined.png Graphic file (type png)
 <use images/1924-Whitten-page10-underlined.png>
 Package pdftex.def Info: images/1924-Whitten-page10-underlined.png  used on inp
-ut line 775.
+ut line 753.
 (pdftex.def)             Requested size: 345.00513pt x 155.25229pt.
-<images/1924-west-hartford-zoning-map-excerpt.png, id=1044, 412.54124pt x 319.1
-925pt>
+<images/1924-west-hartford-zoning-map-excerpt.png, id=938, 412.54124pt x 319.19
+25pt>
 File: images/1924-west-hartford-zoning-map-excerpt.png Graphic file (type png)
 <use images/1924-west-hartford-zoning-map-excerpt.png>
 Package pdftex.def Info: images/1924-west-hartford-zoning-map-excerpt.png  used
- on input line 781.
+ on input line 759.
 (pdftex.def)             Requested size: 345.00262pt x 266.93634pt.
-[62] [63 <./images/1924-Whitten-page10-underlined.png (PNG copy)> <./images/192
+[62 <./images/1924-Whitten-page10-underlined.png (PNG copy)>] [63 <./images/192
 4-west-hartford-zoning-map-excerpt.png>]
-Underfull \hbox (badness 1142) in paragraph at lines 819--820
+Underfull \hbox (badness 1142) in paragraph at lines 797--798
 []\T1/lmr/m/n/10 TO DO: re-view slides and trans-form into text []$https : / / 
 docs . google . com /
  []
 
 
-Overfull \hbox (6.27779pt too wide) in paragraph at lines 819--820
+Overfull \hbox (6.27779pt too wide) in paragraph at lines 797--798
 \T1/lmr/m/n/10 presentation / d / 1yYDQTzNoUBzCW6tCSH21beUrwsYQVwVTQO3Ctqf2BPM 
 /
  []
@@ -1089,188 +1051,178 @@ Chapter 4.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 1953) in paragraph at lines 836--836
+Underfull \hbox (badness 1953) in paragraph at lines 814--814
 []\T1/lmr/bx/n/14.4 Mobilizing Against Racial Steer-ing and
  []
 
 [69]
-Underfull \hbox (badness 2035) in paragraph at lines 842--842
+Underfull \hbox (badness 2035) in paragraph at lines 820--820
 \T1/lmr/m/n/8 edu / aboutamherst / magazine / in _ memory / 1961 / aboydhinds$[
 ]; Ed-u-ca-tion/Instruccion, ``Co-
  []
 
 [70]
-<images/1974circa-education_instruccion_dixon-papers.jpg, id=1126, 3146.75626pt
+<images/1974circa-education_instruccion_dixon-papers.jpg, id=1020, 3146.75626pt
  x 2036.60875pt>
 File: images/1974circa-education_instruccion_dixon-papers.jpg Graphic file (typ
 e jpg)
 <use images/1974circa-education_instruccion_dixon-papers.jpg>
 Package pdftex.def Info: images/1974circa-education_instruccion_dixon-papers.jp
-g  used on input line 848.
+g  used on input line 826.
 (pdftex.def)             Requested size: 344.99188pt x 223.28183pt.
 
-Underfull \hbox (badness 4353) in paragraph at lines 852--852
+Underfull \hbox (badness 4353) in paragraph at lines 830--830
 [][][]\T1/lmr/m/n/8 Grenier, ``Oral His-tory In-ter-view on Ed-u-ca-tion/Instru
 ccion, Part 1.''; Ed-u-ca-
  []
 
 [71 <./images/1974circa-education_instruccion_dixon-papers.jpg>] [72]
-<images/1973-ya-basta-hinds-box5.png, id=1152, 758.835pt x 507.8975pt>
+<images/1973-ya-basta-hinds-box5.png, id=1046, 758.835pt x 507.8975pt>
 File: images/1973-ya-basta-hinds-box5.png Graphic file (type png)
 <use images/1973-ya-basta-hinds-box5.png>
 Package pdftex.def Info: images/1973-ya-basta-hinds-box5.png  used on input lin
-e 866.
+e 844.
 (pdftex.def)             Requested size: 345.00415pt x 230.91548pt.
 [73 <./images/1973-ya-basta-hinds-box5.png>] [74] [75]
-<images/1974-YaBastaExcerpts-screenshot.png, id=1185, 999.735pt x 456.70625pt>
+<images/1974-YaBastaExcerpts-screenshot.png, id=1079, 999.735pt x 456.70625pt>
 File: images/1974-YaBastaExcerpts-screenshot.png Graphic file (type png)
 <use images/1974-YaBastaExcerpts-screenshot.png>
 Package pdftex.def Info: images/1974-YaBastaExcerpts-screenshot.png  used on in
-put line 893.
+put line 871.
 (pdftex.def)             Requested size: 345.00047pt x 157.60564pt.
 [76] [77 <./images/1974-YaBastaExcerpts-screenshot.png>] [78]
-<images/1974-fairhousingreports-ctda.png, id=1227, 807.015pt x 237.88875pt>
+<images/1974-fairhousingreports-ctda.png, id=1121, 807.015pt x 237.88875pt>
 File: images/1974-fairhousingreports-ctda.png Graphic file (type png)
 <use images/1974-fairhousingreports-ctda.png>
 Package pdftex.def Info: images/1974-fairhousingreports-ctda.png  used on input
- line 931.
+ line 909.
 (pdftex.def)             Requested size: 345.0025pt x 101.69849pt.
-<images/1972-74-EI-images.png, id=1228, 1003.75pt x 411.5375pt>
+<images/1972-74-EI-images.png, id=1122, 1003.75pt x 411.5375pt>
 File: images/1972-74-EI-images.png Graphic file (type png)
 <use images/1972-74-EI-images.png>
-Package pdftex.def Info: images/1972-74-EI-images.png  used on input line 939.
+Package pdftex.def Info: images/1972-74-EI-images.png  used on input line 917.
 (pdftex.def)             Requested size: 345.00758pt x 141.45311pt.
 [79 <./images/1974-fairhousingreports-ctda.png>] [80 <./images/1972-74-EI-image
 s.png>] [81] [82] [83] [84]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 998.
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-
-Underfull \hbox (badness 1694) in paragraph at lines 1005--1005
+Underfull \hbox (badness 1694) in paragraph at lines 981--981
 \T1/lmr/m/n/8 vi-sion broad-cast video, Au-gust 31, 1985), []$http : / / www . 
 criticalcommons . org / Members /
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 1007--1007
+Underfull \hbox (badness 2922) in paragraph at lines 983--983
 [][][]\T1/lmr/m/n/8 Dave Drury, ``Bloom-field Crack-ing down on Non-Residents i
 n Schools,'' \T1/lmr/m/it/8 Hart-
  []
 
 [85]
-<images/quick-B-H-WH-map.png, id=1327, 250.9375pt x 250.9375pt>
+<images/quick-B-H-WH-map.png, id=1214, 250.9375pt x 250.9375pt>
 File: images/quick-B-H-WH-map.png Graphic file (type png)
 <use images/quick-B-H-WH-map.png>
-Package pdftex.def Info: images/quick-B-H-WH-map.png  used on input line 1011.
+Package pdftex.def Info: images/quick-B-H-WH-map.png  used on input line 987.
 (pdftex.def)             Requested size: 250.94835pt x 250.94835pt.
-<images/1985-foster-saundra.png, id=1328, 777.90625pt x 598.235pt>
+<images/1985-foster-saundra.png, id=1215, 777.90625pt x 598.235pt>
 File: images/1985-foster-saundra.png Graphic file (type png)
 <use images/1985-foster-saundra.png>
-Package pdftex.def Info: images/1985-foster-saundra.png  used on input line 101
-9.
+Package pdftex.def Info: images/1985-foster-saundra.png  used on input line 995
+.
 (pdftex.def)             Requested size: 345.00987pt x 265.32372pt.
 [86 <./images/quick-B-H-WH-map.png>] [87 <./images/1985-foster-saundra.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
 \T1/lmr/m/n/8 July 18, 1976, []$https : / / search -[] proquest -[] com . ezpro
 xy . trincoll . edu / docview / 544588627 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
 []$\T1/lmr/m/n/8 https : / / search -[] proquest -[] com . ezproxy . trincoll .
  edu / docview / 544716872 ? accountid = 14405$[].
  []
 
-
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
 [88]
-Underfull \hbox (badness 2213) in paragraph at lines 1033--1033
+Underfull \hbox (badness 2213) in paragraph at lines 1009--1009
 [][][]\T1/lmr/m/n/8 Bloomfield, \T1/lmr/m/it/8 Town of Bloom-field An-nual Re-p
 ort. \T1/lmr/m/n/8 (Bloom-field, Conn.: Bloom-
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 1033--1033
+Underfull \hbox (badness 1466) in paragraph at lines 1009--1009
 \T1/lmr/m/n/8 f / 148en6t / 01CSCU _ NETWORK _ ALMA991001105679703452$[], p. 20
 , Con-necti-cut State
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 1033--1033
+Underfull \hbox (badness 5771) in paragraph at lines 1009--1009
 \T1/lmr/m/n/8 Li-brary; ``Kicks on Schools in Wethers-field: Dis-sat-is-fac-tio
 n Ex-pressed at Par-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 1033--1033
+Underfull \hbox (badness 5696) in paragraph at lines 1009--1009
 \T1/lmr/m/n/8 ents' Meet-ing: City Gets Sons of Board Mem-bers,'' \T1/lmr/m/it/
 8 Hart-ford Courant\T1/lmr/m/n/8 , April
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 1033--1033
+Underfull \hbox (badness 1874) in paragraph at lines 1009--1009
 \T1/lmr/m/n/8 14405$[]; ``Schools Jump Tu-ition Fees for Out-of-Town Res-i-dent
 s,'' \T1/lmr/m/it/8 Hart-ford Courant\T1/lmr/m/n/8 ,
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 1033--1033
+Underfull \hbox (badness 5050) in paragraph at lines 1009--1009
 \T1/lmr/m/n/8 Jan-uary 4, 1952, []$https : / / search -[] proquest -[] com . ez
 proxy . trincoll . edu / docview / 561696118 /
  []
 
-[89]
-Underfull \hbox (badness 4981) in paragraph at lines 1035--1035
+
+Underfull \hbox (badness 4981) in paragraph at lines 1011--1011
 [][][]\T1/lmr/m/n/8 Wayne Porter, ``Non-Resident Stu-dents Long a Prob-lem,'' \
 T1/lmr/m/it/8 Hart-ford Courant:
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 1035--1035
+Underfull \hbox (badness 1715) in paragraph at lines 1011--1011
 \T1/lmr/m/it/8 B\T1/lmr/m/n/8 , May 21, 1985, []$https : / / search -[] proques
 t -[] com . ezproxy . trincoll . edu / docview / 758689031 /
  []
 
-[90]
-<images/1967-1984-bloomfield-by-race.png, id=1393, 617.30624pt x 334.24875pt>
+[89]
+<images/1967-1984-bloomfield-by-race.png, id=1268, 617.30624pt x 334.24875pt>
 File: images/1967-1984-bloomfield-by-race.png Graphic file (type png)
 <use images/1967-1984-bloomfield-by-race.png>
 Package pdftex.def Info: images/1967-1984-bloomfield-by-race.png  used on input
- line 1045.
+ line 1021.
 (pdftex.def)             Requested size: 345.01094pt x 186.81079pt.
-[91 <./images/1967-1984-bloomfield-by-race.png>]
-Underfull \hbox (badness 2277) in paragraph at lines 1051--1051
+[90]
+Underfull \hbox (badness 2277) in paragraph at lines 1027--1027
 \T1/lmr/m/it/8 B\T1/lmr/m/n/8 , April 7, 1985, []$https : / / search -[] proque
 st -[] com . ezproxy . trincoll . edu / docview / 758695451 ?
  []
 
-[92]
-Underfull \hbox (badness 1648) in paragraph at lines 1057--1057
+[91 <./images/1967-1984-bloomfield-by-race.png>]
+Underfull \hbox (badness 1648) in paragraph at lines 1033--1033
 \T1/lmr/m/n/8 5, 1985, []$https : / / search -[] proquest -[] com . ezproxy . t
 rincoll . edu / docview / 755822125 ? accountid =
  []
 
-<images/1985-04-05-hc-englehart.png, id=1424, 498.86375pt x 369.38pt>
+[92]
+<images/1985-04-05-hc-englehart.png, id=1311, 498.86375pt x 369.38pt>
 File: images/1985-04-05-hc-englehart.png Graphic file (type png)
 <use images/1985-04-05-hc-englehart.png>
 Package pdftex.def Info: images/1985-04-05-hc-englehart.png  used on input line
- 1063.
+ 1039.
 (pdftex.def)             Requested size: 345.00801pt x 255.45863pt.
-[93] [94 <./images/1985-04-05-hc-englehart.png>]
-Underfull \hbox (badness 2205) in paragraph at lines 1077--1077
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[93 <./images/1985-04-05-hc-englehart.png>]
+Underfull \hbox (badness 2205) in paragraph at lines 1053--1053
 [][][]\T1/lmr/m/n/8 Dave Drury, ``Bloom-field Al-ters Its Pol-icy for School Re
 s-i-dence Cases,'' \T1/lmr/m/it/8 Hart-
  []
 
-[95]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1083.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[96]
+[94] [95] [96]
 Chapter 6.
 [97
 
@@ -1283,19 +1235,16 @@ Chapter 7.
 ]
 Chapter 8.
 [101] [102]
-Underfull \hbox (badness 1043) in paragraph at lines 1117--1117
+Underfull \hbox (badness 1043) in paragraph at lines 1091--1091
 [][][]\T1/lmr/m/n/8 ``Average Fam-ily In-come in the Past 12 Months in 2009 Inf
 lation-Adjusted Dol-
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1117--1117
+Underfull \hbox (badness 1430) in paragraph at lines 1091--1091
 \T1/lmr/m/n/8 lars, Ta-ble SE:T:59'' (Amer-i-can Com-mu-nity Sur-vey 1-year es-
 ti-mates via So-cial Ex-
  []
-
-
-Overfull \vbox (0.23282pt too high) has occurred while \output is active []
 
 
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
@@ -1304,19 +1253,10 @@ AND SCHOOLS PROJECT \T1/lmr/m/n/10 103
  []
 
 [103]
-Overfull \hbox (81.18988pt too wide) in alignment at lines 1150--1154
- [] [] [] 
- []
-
-
-Overfull \hbox (81.18988pt too wide) in alignment at lines 1154--1171
- [] [] [] 
- []
-
 File: images/1876-scribners-monthly.png Graphic file (type png)
 <use images/1876-scribners-monthly.png>
 Package pdftex.def Info: images/1876-scribners-monthly.png  used on input line 
-1179.
+1137.
 (pdftex.def)             Requested size: 345.0137pt x 309.36229pt.
 [104]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
@@ -1328,32 +1268,32 @@ AND SCHOOLS PROJECT \T1/lmr/m/n/10 105
 File: images/1910-2010-otl-home-value.jpg Graphic file (type jpg)
 <use images/1910-2010-otl-home-value.jpg>
 Package pdftex.def Info: images/1910-2010-otl-home-value.jpg  used on input lin
-e 1191.
+e 1149.
 (pdftex.def)             Requested size: 344.99579pt x 185.76695pt.
 [106]
+<images/1847-otl-hphs.png, id=1450, 948.54375pt x 591.20876pt>
+File: images/1847-otl-hphs.png Graphic file (type png)
+<use images/1847-otl-hphs.png>
+Package pdftex.def Info: images/1847-otl-hphs.png  used on input line 1163.
+(pdftex.def)             Requested size: 344.99257pt x 215.02711pt.
+
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 107
  []
 
 [107]
-<images/1847-otl-hphs.png, id=1581, 948.54375pt x 591.20876pt>
-File: images/1847-otl-hphs.png Graphic file (type png)
-<use images/1847-otl-hphs.png>
-Package pdftex.def Info: images/1847-otl-hphs.png  used on input line 1205.
-(pdftex.def)             Requested size: 344.99257pt x 215.02711pt.
-[108 <./images/1847-otl-hphs.png>]
 File: images/1937-otl-redlining.png Graphic file (type png)
 <use images/1937-otl-redlining.png>
-Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 1215
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 1173
 .
 (pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
 File: images/1940-otl-covenants.png Graphic file (type png)
 <use images/1940-otl-covenants.png>
-Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 1225
+Package pdftex.def Info: images/1940-otl-covenants.png  used on input line 1183
 .
 (pdftex.def)             Requested size: 344.99161pt x 187.44965pt.
-
+[108 <./images/1847-otl-hphs.png>]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 109
@@ -1365,88 +1305,105 @@ Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 111
  []
 
-[111] [112]
-<images/1960-05-01-HC-branding-homes.png, id=1660, 880.28876pt x 346.29375pt>
+[111]
+<images/1960-05-01-HC-branding-homes.png, id=1530, 880.28876pt x 346.29375pt>
 File: images/1960-05-01-HC-branding-homes.png Graphic file (type png)
 <use images/1960-05-01-HC-branding-homes.png>
 Package pdftex.def Info: images/1960-05-01-HC-branding-homes.png  used on input
- line 1241.
+ line 1199.
 (pdftex.def)             Requested size: 344.99025pt x 135.71451pt.
-<images/2003-shaw-spencer.jpg, id=1662, 1606.0pt x 1204.5pt>
+<images/2003-shaw-spencer.jpg, id=1532, 1606.0pt x 1204.5pt>
 File: images/2003-shaw-spencer.jpg Graphic file (type jpg)
 <use images/2003-shaw-spencer.jpg>
-Package pdftex.def Info: images/2003-shaw-spencer.jpg  used on input line 1251.
+Package pdftex.def Info: images/2003-shaw-spencer.jpg  used on input line 1209.
 
 (pdftex.def)             Requested size: 344.98921pt x 258.7419pt.
-
+[112 <./images/1960-05-01-HC-branding-homes.png>]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 113
  []
 
-[113 <./images/1960-05-01-HC-branding-homes.png>] [114 <./images/2003-shaw-spen
-cer.jpg>]
-<images/2005-wright-adelle.jpg, id=1680, 1156.32pt x 867.24pt>
+[113 <./images/2003-shaw-spencer.jpg>]
+<images/2005-wright-adelle.jpg, id=1550, 1156.32pt x 867.24pt>
 File: images/2005-wright-adelle.jpg Graphic file (type jpg)
 <use images/2005-wright-adelle.jpg>
-Package pdftex.def Info: images/2005-wright-adelle.jpg  used on input line 1263
+Package pdftex.def Info: images/2005-wright-adelle.jpg  used on input line 1221
 .
 (pdftex.def)             Requested size: 344.99312pt x 258.74484pt.
-
+[114]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 115
  []
 
-[115] [116 <./images/2005-wright-adelle.jpg>]
+[115 <./images/2005-wright-adelle.jpg>]
 File: images/1974circa-education_instruccion_dixon-papers.jpg Graphic file (typ
 e jpg)
 <use images/1974circa-education_instruccion_dixon-papers.jpg>
 Package pdftex.def Info: images/1974circa-education_instruccion_dixon-papers.jp
-g  used on input line 1273.
+g  used on input line 1231.
 (pdftex.def)             Requested size: 344.99188pt x 223.28183pt.
-
+[116]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 117
  []
 
-[117] [118]
-<images/2009-aje-visual.png, id=1721, 401.5pt x 296.10625pt>
+[117]
+<images/2009-aje-visual.png, id=1591, 401.5pt x 296.10625pt>
 File: images/2009-aje-visual.png Graphic file (type png)
 <use images/2009-aje-visual.png>
-Package pdftex.def Info: images/2009-aje-visual.png  used on input line 1289.
+Package pdftex.def Info: images/2009-aje-visual.png  used on input line 1247.
 (pdftex.def)             Requested size: 345.02596pt x 254.45663pt.
-
+[118]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 119
  []
 
-[119] [120 <./images/2009-aje-visual.png>]
-<images/2011-sheff-elizabeth.jpg, id=1740, 631.35875pt x 352.31625pt>
+[119 <./images/2009-aje-visual.png>]
+<images/2011-sheff-elizabeth.jpg, id=1609, 631.35875pt x 352.31625pt>
 File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
 <use images/2011-sheff-elizabeth.jpg>
-Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 13
-05.
+Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 12
+63.
 (pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
-
+[120]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 121
  []
 
-[121] [122 <./images/2011-sheff-elizabeth.jpg>]
-Underfull \hbox (badness 1163) in paragraph at lines 1317--1317
+[121 <./images/2011-sheff-elizabeth.jpg>]
+Underfull \hbox (badness 1163) in paragraph at lines 1275--1275
 [][][]\T1/lmr/m/n/8 Learn about the SmartChoices pub-lic school search tool, wh
 ich the Cities Sub-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 1317--1317
+Underfull \hbox (badness 1342) in paragraph at lines 1275--1275
 \T1/lmr/m/n/8 219--37, []$https : / / books . google . com / books ? id = x9AlD
 QAAQBAJ & lpg = PR1 & pg = PA219 # v =
  []
+
+[122]
+<images/2014-smartchoices-screencast.png, id=1655, 1006.76125pt x 790.955pt>
+File: images/2014-smartchoices-screencast.png Graphic file (type png)
+<use images/2014-smartchoices-screencast.png>
+Package pdftex.def Info: images/2014-smartchoices-screencast.png  used on input
+ line 1279.
+(pdftex.def)             Requested size: 344.99799pt x 271.04529pt.
+<images/2009-smartchoices-workshop-adaavila-courtneycoyne.png, id=1656, 1003.75
+pt x 376.40625pt>
+File: images/2009-smartchoices-workshop-adaavila-courtneycoyne.png Graphic file
+ (type png)
+<use images/2009-smartchoices-workshop-adaavila-courtneycoyne.png>
+Package pdftex.def Info: images/2009-smartchoices-workshop-adaavila-courtneycoy
+ne.png  used on input line 1284.
+(pdftex.def)             Requested size: 345.00758pt x 129.37784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
@@ -1454,141 +1411,112 @@ Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 123
  []
 
-[123]
-<images/2014-smartchoices-screencast.png, id=1786, 1006.76125pt x 790.955pt>
-File: images/2014-smartchoices-screencast.png Graphic file (type png)
-<use images/2014-smartchoices-screencast.png>
-Package pdftex.def Info: images/2014-smartchoices-screencast.png  used on input
- line 1321.
-(pdftex.def)             Requested size: 344.99799pt x 271.04529pt.
-<images/2009-smartchoices-workshop-adaavila-courtneycoyne.png, id=1787, 1003.75
-pt x 376.40625pt>
-File: images/2009-smartchoices-workshop-adaavila-courtneycoyne.png Graphic file
- (type png)
-<use images/2009-smartchoices-workshop-adaavila-courtneycoyne.png>
-Package pdftex.def Info: images/2009-smartchoices-workshop-adaavila-courtneycoy
-ne.png  used on input line 1326.
-(pdftex.def)             Requested size: 345.00758pt x 129.37784pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[124]
+[123] [124 <./images/2014-smartchoices-screencast.png> <./images/2009-smartchoi
+ces-workshop-adaavila-courtneycoyne.png (PNG copy)>]
 Overfull \hbox (152.53181pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
 AND SCHOOLS PROJECT \T1/lmr/m/n/10 125
  []
 
-[125 <./images/2014-smartchoices-screencast.png> <./images/2009-smartchoices-wo
-rkshop-adaavila-courtneycoyne.png (PNG copy)>] [126]
-Overfull \hbox (152.53181pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 8.1.  INVESTIGATING SPATIAL INEQUALITY WITH THE CITIES SUBURBS 
-AND SCHOOLS PROJECT \T1/lmr/m/n/10 127
- []
-
-[127]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1346.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-
-Underfull \hbox (badness 1163) in paragraph at lines 1349--1349
+[125] [126]
+Underfull \hbox (badness 1163) in paragraph at lines 1305--1305
 []\T1/lmr/bx/n/14.4 Writing Greater Hart-ford's Civil Rights
  []
 
-[128]
+
+Overfull \hbox (141.14493pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
+ICUTHISTORY.ORG \T1/lmr/m/n/10 127
+ []
+
+[127] [128]
 Overfull \hbox (141.14493pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
 ICUTHISTORY.ORG \T1/lmr/m/n/10 129
  []
 
-[129] [130]
-<images/2013-ceglio-teaches-meehan-mcgann.jpg, id=1896, 2591.6825pt x 2312.64pt
+[129]
+<images/2013-ceglio-teaches-meehan-mcgann.jpg, id=1759, 2591.6825pt x 2312.64pt
 >
 File: images/2013-ceglio-teaches-meehan-mcgann.jpg Graphic file (type jpg)
 <use images/2013-ceglio-teaches-meehan-mcgann.jpg>
 Package pdftex.def Info: images/2013-ceglio-teaches-meehan-mcgann.jpg  used on 
-input line 1371.
+input line 1327.
 (pdftex.def)             Requested size: 344.99791pt x 307.85251pt.
-
+[130]
 Overfull \hbox (141.14493pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
 ICUTHISTORY.ORG \T1/lmr/m/n/10 131
  []
 
-[131] [132 <./images/2013-ceglio-teaches-meehan-mcgann.jpg>]
-<images/2013-seminar-googledoc.jpg, id=1914, 952.55875pt x 483.8075pt>
+[131 <./images/2013-ceglio-teaches-meehan-mcgann.jpg>]
+<images/2013-seminar-googledoc.jpg, id=1780, 952.55875pt x 483.8075pt>
 File: images/2013-seminar-googledoc.jpg Graphic file (type jpg)
 <use images/2013-seminar-googledoc.jpg>
 Package pdftex.def Info: images/2013-seminar-googledoc.jpg  used on input line 
-1396.
+1352.
 (pdftex.def)             Requested size: 344.99937pt x 175.22623pt.
+[132 <./images/2013-seminar-googledoc.jpg>]
+Underfull \hbox (badness 1005) in paragraph at lines 1358--1358
+[][][]\T1/lmr/m/n/8 Elaina Rollins, ``Five Min-utes That Changed Con-necti-cut:
+ Si-mon Bern-stein and
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 1358--1358
+\T1/lmr/m/n/8 the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment,'' Con-necti-cutHi
+s-tory.org, Jan-uary 2014,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / ^^\ve -[] minutes -[] th
+at -[] changed -[] connecticut -[] simon -[] bernstein -[] and -[]
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 1358--1358
+\T1/lmr/m/n/8 the -[] 1965 -[] connecticut -[] education -[] amendment/$[]; Bri
+git Ri-oual, ``Sheff V. O'Neill Set-tle-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / she^^[ -[] v -[] oneill 
+-[] settlements -[] target -[] educational -[] segregation -[] in -[]
+ []
+
 
 Overfull \hbox (141.14493pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
 ICUTHISTORY.ORG \T1/lmr/m/n/10 133
  []
 
-[133 <./images/2013-seminar-googledoc.jpg>]
-Underfull \hbox (badness 1005) in paragraph at lines 1402--1402
-[][][]\T1/lmr/m/n/8 Elaina Rollins, ``Five Min-utes That Changed Con-necti-cut:
- Si-mon Bern-stein and
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 1402--1402
-\T1/lmr/m/n/8 the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment,'' Con-necti-cutHi
-s-tory.org, Jan-uary 2014,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
-[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / ^^\ve -[] minutes -[] th
-at -[] changed -[] connecticut -[] simon -[] bernstein -[] and -[]
- []
-
-
-Underfull \hbox (badness 2582) in paragraph at lines 1402--1402
-\T1/lmr/m/n/8 the -[] 1965 -[] connecticut -[] education -[] amendment/$[]; Bri
-git Ri-oual, ``Sheff V. O'Neill Set-tle-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
-[]$\T1/lmr/m/n/8 http : / / connecticuthistory . org / she^^[ -[] v -[] oneill 
--[] settlements -[] target -[] educational -[] segregation -[] in -[]
- []
-
-[134]
-<images/2013-cthistory-video-screenshot.png, id=1936, 1403.2425pt x 764.8575pt>
+[133]
+<images/2013-cthistory-video-screenshot.png, id=1800, 1403.2425pt x 764.8575pt>
 
 File: images/2013-cthistory-video-screenshot.png Graphic file (type png)
 <use images/2013-cthistory-video-screenshot.png>
 Package pdftex.def Info: images/2013-cthistory-video-screenshot.png  used on in
-put line 1412.
+put line 1368.
 (pdftex.def)             Requested size: 344.98576pt x 188.03944pt.
-
+[134]
 Overfull \hbox (141.14493pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
 ICUTHISTORY.ORG \T1/lmr/m/n/10 135
  []
 
-[135] [136 <./images/2013-cthistory-video-screenshot.png>]
-Overfull \hbox (141.14493pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 8.2.  WRITING GREATER HARTFORD'S CIVIL RIGHTS PAST WITH CONNECT
-ICUTHISTORY.ORG \T1/lmr/m/n/10 137
- []
-
-[137]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1446.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[138] [139] [140] [141] [142]
-Underfull \hbox (badness 5741) in paragraph at lines 1564--1565
+[135 <./images/2013-cthistory-video-screenshot.png>] [136] [137] [138] [139] [1
+40] [141]
+Underfull \hbox (badness 5741) in paragraph at lines 1518--1519
 []\T1/lmr/m/n/10 more to come, see CTDA []$https : / / collections . ctdigitala
 rchive . org /
+ []
+
+[142]
+Underfull \hbox (badness 1152) in paragraph at lines 1534--1534
+[][][]\T1/lmr/m/n/8 Jack Dougherty, \T1/lmr/m/it/8 More Than One Strug-gle: The
+ Evo-lu-tion of Black School Re-
  []
 
 
@@ -1597,252 +1525,191 @@ Overfull \hbox (11.151pt too wide) has occurred while \output is active
 r/m/n/10 143
  []
 
-[143]
-Underfull \hbox (badness 1152) in paragraph at lines 1580--1580
-[][][]\T1/lmr/m/n/8 Jack Dougherty, \T1/lmr/m/it/8 More Than One Strug-gle: The
- Evo-lu-tion of Black School Re-
- []
-
-[144]
+[143] [144]
 Overfull \hbox (11.151pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
 r/m/n/10 145
  []
 
-[145] [146]
+[145]
+<images/2012-cc-licenses.jpg, id=1971, 1027.84pt x 770.88pt>
+File: images/2012-cc-licenses.jpg Graphic file (type jpg)
+<use images/2012-cc-licenses.jpg>
+Package pdftex.def Info: images/2012-cc-licenses.jpg  used on input line 1562.
+(pdftex.def)             Requested size: 345.00685pt x 258.75514pt.
+[146]
 Overfull \hbox (11.151pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
 r/m/n/10 147
  []
 
-[147]
-<images/2012-cc-licenses.jpg, id=2122, 1027.84pt x 770.88pt>
-File: images/2012-cc-licenses.jpg Graphic file (type jpg)
-<use images/2012-cc-licenses.jpg>
-Package pdftex.def Info: images/2012-cc-licenses.jpg  used on input line 1608.
-(pdftex.def)             Requested size: 345.00685pt x 258.75514pt.
-[148 <./images/2012-cc-licenses.jpg>]
+[147 <./images/2012-cc-licenses.jpg>] [148]
+File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
+<use images/2011-sheff-elizabeth.jpg>
+Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 15
+88.
+(pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
+
 Overfull \hbox (11.151pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 8.4.  WHO OWNS ORAL HISTORY? A CREATIVE COMMONS SOLUTION \T1/lm
 r/m/n/10 149
  []
 
-[149]
-File: images/2011-sheff-elizabeth.jpg Graphic file (type jpg)
-<use images/2011-sheff-elizabeth.jpg>
-Package pdftex.def Info: images/2011-sheff-elizabeth.jpg  used on input line 16
-34.
-(pdftex.def)             Requested size: 345.00372pt x 192.52194pt.
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1642.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[150] [151]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1673.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-<images/2011-covenants-video.png, id=2179, 859.21pt x 479.7925pt>
+[149] [150]
+<images/2011-covenants-video.png, id=2024, 859.21pt x 479.7925pt>
 File: images/2011-covenants-video.png Graphic file (type png)
 <use images/2011-covenants-video.png>
 Package pdftex.def Info: images/2011-covenants-video.png  used on input line 16
-88.
+38.
 (pdftex.def)             Requested size: 345.00208pt x 192.65302pt.
-[152] [153 <./images/2011-covenants-video.png>] [154]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1708.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[155] [156
-
-]
+[151 <./images/2011-covenants-video.png>] [152] [153] [154]
 Chapter 9.
-[157] [158] [159] [160] [161]
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1790.
+[155
 
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[162]
-Underfull \hbox (badness 10000) in paragraph at lines 1801--1802
+] [156] [157] [158] [159]
+Underfull \hbox (badness 10000) in paragraph at lines 1725--1726
 \T1/lmr/m/n/10 in Hart-ford area, 1937, []$https : / / ontheline . github . io 
 / otl -[] redlining / index -[]
  []
 
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1809.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-
-Underfull \hbox (badness 1776) in paragraph at lines 1812--1812
+[160]
+Underfull \hbox (badness 1776) in paragraph at lines 1734--1734
 []\T1/lmr/bx/n/14.4 Building with Book-down, GitHub, and
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 1816--1817
+Underfull \hbox (badness 6876) in paragraph at lines 1738--1739
 \T1/lmr/m/n/10 this page []$https : / / github . com / OnTheLine / otl -[] book
 down / blob / master / 09 . 3 -[]
  []
 
-[163]
-<images/bookdown/0-bookdown-desktop.png, id=2361, 1445.4pt x 810.02625pt>
+[161]
+<images/bookdown/0-bookdown-desktop.png, id=2164, 1445.4pt x 810.02625pt>
 File: images/bookdown/0-bookdown-desktop.png Graphic file (type png)
 <use images/bookdown/0-bookdown-desktop.png>
 Package pdftex.def Info: images/bookdown/0-bookdown-desktop.png  used on input 
-line 1834.
+line 1756.
 (pdftex.def)             Requested size: 344.9843pt x 193.33495pt.
-
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
-[164]
-Underfull \hbox (badness 1895) in paragraph at lines 1847--1849
+[162 <./images/bookdown/0-bookdown-desktop.png>]
+Underfull \hbox (badness 1895) in paragraph at lines 1769--1771
 []\T1/lmr/m/n/10 Install R Project sta-tis-ti-cal pro-gram-ming lan-guage []$ht
 tps : / / www . r -[]
  []
 
-[165 <./images/bookdown/0-bookdown-desktop.png>]
-Overfull \hbox (56.41663pt too wide) in paragraph at lines 1859--1861
+
+Overfull \hbox (56.41663pt too wide) in paragraph at lines 1781--1783
 []\T1/lmr/m/n/10 To fin-ish in-stalling tiny-tex, in the RStu-dio con-sole, typ
 e \T1/lmtt/m/n/10 tinytex::install_tinytex()
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1868--1869
- \T1/lmr/bx/n/10 9.3.0.0.1 Side-note: About the PDF edi-tion, and Tiny-TeX vs
- []
-
-
-Overfull \hbox (34.49518pt too wide) in paragraph at lines 1883--1885
-[]\T1/lmr/m/n/10 Carefully type (with-out ``sudo'') \T1/lmtt/m/n/10 ~/Library/T
-inyTeX/bin/x86_64-darwin/tlmgr
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 1887--1888
-[]\T1/lmr/m/n/10 In the RStu-dio con-sole, type \T1/lmtt/m/n/10 tinytex::instal
-l_tinytex(force =
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 1899--1901
+Underfull \hbox (badness 1748) in paragraph at lines 1795--1797
 []\T1/lmr/m/n/10 In your web browser, log into your GitHub ac-count, go to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1899--1901
+Underfull \hbox (badness 10000) in paragraph at lines 1795--1797
 \T1/lmr/m/n/10 Book-down de-vel-oper's \T1/lmtt/m/n/10 bookdown-minimal \T1/lmr
 /m/n/10 repo []$https : / / github .
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 1899--1901
+Underfull \hbox (badness 3815) in paragraph at lines 1795--1797
 \T1/lmr/m/n/10 com / yihui / bookdown -[] minimal$[], and fork a copy to your G
 itHub
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 1899--1901
+Underfull \hbox (badness 2922) in paragraph at lines 1795--1797
 \T1/lmr/m/n/10 ac-count. To learn about fork-ing in GitHub, see this chap-ter
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 1899--1901
+Underfull \hbox (badness 6268) in paragraph at lines 1795--1797
 []$\T1/lmr/m/n/10 http : / / datavizforall . org / github . html$[] in the \T1/
 lmr/m/it/10 Data Vi-su-al-iza-tion for
  []
 
-[166] [167]
-Overfull \hbox (42.3044pt too wide) in paragraph at lines 1937--1939
+[163] [164]
+Overfull \hbox (42.3044pt too wide) in paragraph at lines 1833--1835
 \T1/lmr/m/n/10 sim-i-lar to: \T1/lmtt/m/n/10 https://USERNAME.github.io/bookdow
 n-minimal/_book/index.html 
  []
 
-[168]
-Underfull \hbox (badness 10000) in paragraph at lines 2004--2005
+[165]
+Underfull \hbox (badness 10000) in paragraph at lines 1900--1901
 []$\T1/lmr/m/n/10 https : / / help . github . com / articles / using -[] a -[] 
 custom -[] domain -[] with -[] github -[] pages/$[].
  []
 
-[169]
-Underfull \hbox (badness 1354) in paragraph at lines 2027--2028
+[166]
+Underfull \hbox (badness 1354) in paragraph at lines 1923--1924
 \T1/lmr/m/n/10 notes and a bib-li-og-ra-phy from a Zotero-Better BibLa-TeX ex-p
 orted file
  []
 
-[170]
-Underfull \hbox (badness 1325) in paragraph at lines 2047--2048
+
+Underfull \hbox (badness 1325) in paragraph at lines 1942--1943
 \T1/lmr/m/n/10 This work-flow uses the open-source Zotero bib-li-og-ra-phy man-
 ager ([]$http :
  []
 
-
-Overfull \hbox (21.9669pt too wide) in paragraph at lines 2068--2070
+[167]
+Overfull \hbox (21.9669pt too wide) in paragraph at lines 1963--1965
 \T1/lmr/m/n/10 add a caret, square brack-ets, and the at sym-bol \T1/lmtt/m/n/1
 0 ^^B[@tyackOneBestSystem1974]\T1/lmr/m/n/10 ,
  []
 
-[171]
+[168]
+<images/cc-by-nc-sa-88x31.png, id=2256, 88.33pt x 31.11626pt>
 File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
 <use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 2100.
+Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 1995.
 
 (pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
 
-Underfull \vbox (badness 4001) has occurred while \output is active []
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 169
+ []
 
-[172]
-Underfull \hbox (badness 1348) in paragraph at lines 2107--2108
-[]\T1/lmr/m/n/10 Also, this style guide was cre-ated pri-mar-ily for the web ed
-i-tion []$http :
+[169 <./images/cc-by-nc-sa-88x31.png>] [170]
+Underfull \hbox (badness 1067) in paragraph at lines 2062--2063
+\T1/lmr/m/n/10 de-fault ref-er-ence: \T1/lmtt/m/n/10 #introduction\T1/lmr/m/n/1
+0 . Also, a longer chap-ter/section ti-tle
  []
 
 
-Overfull \hbox (74.99878pt too wide) in paragraph at lines 2135--2135
-[]\T1/lmtt/m/n/10 <!-- TODO this comment appears in the source code, but not th
-e book products -->[] 
+Underfull \hbox (badness 5607) in paragraph at lines 2062--2063
+\T1/lmtt/m/n/10 # Defining City and Suburban Lines \T1/lmr/m/n/10 has a longer 
+de-fault ref-er-ence:
  []
 
 
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 171
+ []
+
+[171] [172]
 Overfull \hbox (1.91473pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
 R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 173
  []
 
 [173]
-Underfull \hbox (badness 1728) in paragraph at lines 2169--2170
-\T1/lmr/m/n/10 de-fault ref-er-ence: \T1/lmtt/m/n/10 #introduction\T1/lmr/m/n/1
-0 . But a longer chap-ter/section ti-tle
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 2169--2170
-\T1/lmtt/m/n/10 # Defining City and Suburban Lines \T1/lmr/m/n/10 has a longer 
-de-fault ref-er-ence:
- []
-
-[174]
-Overfull \hbox (1.91473pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
-R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 175
- []
-
-[175] [176]
-Underfull \hbox (badness 4366) in paragraph at lines 2263--2265
+Underfull \hbox (badness 4366) in paragraph at lines 2163--2165
 []\T1/lmr/m/n/10 Decide whether to cre-ate PDF ver-sions of JPG/PNG im-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 2263--2265
+Underfull \hbox (badness 1603) in paragraph at lines 2163--2165
 \T1/lmr/m/n/10 ages to im-prove qual-ity of out-put, and if so, set \T1/lmtt/m/
 n/10 auto_pdf
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 2263--2265
+Underfull \hbox (badness 3780) in paragraph at lines 2163--2165
 \T1/lmtt/m/n/10 = TRUE \T1/lmr/m/n/10 in-side \T1/lmtt/m/n/10 include_graphics(
 )\T1/lmr/m/n/10 . Read more at []$https :
  []
@@ -1850,454 +1717,453 @@ Underfull \hbox (badness 3780) in paragraph at lines 2263--2265
 File: images/1937-holc-hartford-map-scan.jpg Graphic file (type jpg)
 <use images/1937-holc-hartford-map-scan.jpg>
 Package pdftex.def Info: images/1937-holc-hartford-map-scan.jpg  used on input 
-line 2276.
+line 2176.
 (pdftex.def)             Requested size: 172.49417pt x 139.98418pt.
 File: images/1937-otl-redlining.png Graphic file (type png)
 <use images/1937-otl-redlining.png>
-Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 2287
+Package pdftex.def Info: images/1937-otl-redlining.png  used on input line 2187
 .
 (pdftex.def)             Requested size: 345.00717pt x 240.86337pt.
-<images/sample-pdf-screenshot.png, id=2549, 1009.7725pt x 452.69125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[174]
+<images/sample-pdf-screenshot.png, id=2353, 1009.7725pt x 452.69125pt>
 File: images/sample-pdf-screenshot.png Graphic file (type png)
 <use images/sample-pdf-screenshot.png>
 Package pdftex.def Info: images/sample-pdf-screenshot.png  used on input line 2
-299.
+199.
 (pdftex.def)             Requested size: 344.99756pt x 154.6659pt.
 File: images/2013-cthistory-video-screenshot.png Graphic file (type png)
 <use images/2013-cthistory-video-screenshot.png>
 Package pdftex.def Info: images/2013-cthistory-video-screenshot.png  used on in
-put line 2311.
+put line 2211.
 (pdftex.def)             Requested size: 344.98576pt x 188.03944pt.
 File: images/2011-walsh-debra.jpg Graphic file (type jpg)
 <use images/2011-walsh-debra.jpg>
-Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 2323.
+Package pdftex.def Info: images/2011-walsh-debra.jpg  used on input line 2223.
 (pdftex.def)             Requested size: 345.00148pt x 194.23528pt.
 
+Overfull \hbox (1.91473pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
+R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 175
+ []
+
+[175] [176 <./images/sample-pdf-screenshot.png>]
 Overfull \hbox (1.91473pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
 R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 177
  []
 
-[177] [178]
-Overfull \hbox (1.91473pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 9.4.  \T1/lmr/m/n/10 ON THE LINE \T1/lmr/m/sl/10 STYLE GUIDE FO
-R BOOKDOWN + RMARKDOWN \T1/lmr/m/n/10 179
- []
-
-[179 <./images/sample-pdf-screenshot.png>] [180]
-Underfull \hbox (badness 2556) in paragraph at lines 2360--2362
+[177]
+Underfull \hbox (badness 2556) in paragraph at lines 2252--2254
 \T1/lmr/m/n/10 ^^\gures . html$[] and Mark-down ex-ten-sions []$https : / / boo
 kdown . org / yihui /
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 2362--2364
+Underfull \hbox (badness 6173) in paragraph at lines 2254--2256
 []\T1/lmr/m/n/10 On R code chunks in RMark-down []$https : / / bookdown . org /
  yihui /
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 2366--2368
+Underfull \hbox (badness 2111) in paragraph at lines 2258--2260
 []\T1/lmr/m/n/10 R Mark-down book sec-tion on fig-ures []$https : / / bookdown 
 . org / yihui /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2372--2374
+Underfull \hbox (badness 10000) in paragraph at lines 2264--2266
 []$\T1/lmr/m/n/10 http : / / zevross . com / blog / 2017 / 06 / 19 / tips -[] a
 nd -[] tricks -[] for -[] working -[] with -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2372--2374
+Underfull \hbox (badness 10000) in paragraph at lines 2264--2266
 \T1/lmr/m/n/10 images -[] and -[] ^^\gures -[] in -[] r -[] markdown -[] docume
 nts / #arguments -[] out . width -[]
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 2374--2375
+Underfull \hbox (badness 1852) in paragraph at lines 2266--2267
 []\T1/lmr/m/n/10 Hints on us-ing auto_pdf: []$https : / / blog . earo . me / 20
 19 / 10 / 26 / reduce -[]
  []
 
-File: images/cc-by-nc-sa-88x31.png Graphic file (type png)
-<use images/cc-by-nc-sa-88x31.png>
-Package pdftex.def Info: images/cc-by-nc-sa-88x31.png  used on input line 2377.
-
-(pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-[181]
+[178]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
-[182] [183] [184]
-Chapter 10.
-[185
+[179] [180] [181] [182
 
-] [186]
-Underfull \hbox (badness 4899) in paragraph at lines 2489--2490
+]
+Chapter 10.
+[183] [184]
+Underfull \hbox (badness 4899) in paragraph at lines 2379--2380
 []\T1/lmr/m/n/10 Research-It CT, Con-necti-cut State Li-brary. []$https : / / r
 esearchitct . org /
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 2495--2496
+Underfull \hbox (badness 4686) in paragraph at lines 2385--2386
 []\T1/lmr/m/n/10 Trinity Col-lege Li-brary. []$http : / / www . trincoll . edu 
 / LITC / Library / Pages /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2522--2524
+Underfull \hbox (badness 10000) in paragraph at lines 2412--2414
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 559295803 ?
  []
 
-[187]
-Underfull \hbox (badness 1824) in paragraph at lines 2537--2539
+[185]
+Underfull \hbox (badness 1824) in paragraph at lines 2427--2429
 [][]\T1/lmr/m/n/10 ``A Sug-ges-tive Con-trast.'' \T1/lmr/m/it/10 Hart-ford Dail
 y Courant\T1/lmr/m/n/10 , Oc-to-ber 15, 1878.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2537--2539
+Underfull \hbox (badness 10000) in paragraph at lines 2427--2429
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 554105478 ?
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 2540--2542
+Underfull \hbox (badness 3769) in paragraph at lines 2430--2432
 [][]\T1/lmr/m/n/10 Bailey, Chauncey. ``Non-Resident Stu-dents Again At-tend-ing
  Bloom-
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 2540--2542
+Underfull \hbox (badness 1281) in paragraph at lines 2430--2432
 \T1/lmr/m/n/10 field Schools.'' \T1/lmr/m/it/10 Hart-ford Courant: City/Town\T1
 /lmr/m/n/10 , Septem-ber 16, 1976.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2540--2542
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2432
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 544716872 ?
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 2543--2545
+Underfull \hbox (badness 1072) in paragraph at lines 2433--2435
 [][]\T1/lmr/m/n/10 Banks, Dana, and Jack Dougherty. ``City-Suburban De-seg-re-g
 a-tion and
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 2543--2545
+Underfull \hbox (badness 1412) in paragraph at lines 2433--2435
 \T1/lmr/m/n/10 Forced Choices: Re-view Es-say of 'the Other Boston Bus-ing Stor
 y'
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 2543--2545
+Underfull \hbox (badness 2735) in paragraph at lines 2433--2435
 \T1/lmr/m/n/10 by Su-san Eaton.'' \T1/lmr/m/it/10 Teach-ers Col-lege Record \T1
 /lmr/m/n/10 105 (2004): 985--98.
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 2558--2560
+Underfull \hbox (badness 6284) in paragraph at lines 2448--2450
 \T1/lmr/m/n/10 28, 1947. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
-[188]
-Underfull \hbox (badness 2310) in paragraph at lines 2579--2581
+[186]
+Underfull \hbox (badness 2310) in paragraph at lines 2469--2471
 [][]\T1/lmr/m/n/10 Campbell, Katie, and Jack Dougherty. ``How We Found Re-stric
 -tive
  []
 
-[189]
-Underfull \hbox (badness 1960) in paragraph at lines 2603--2605
+[187]
+Underfull \hbox (badness 1960) in paragraph at lines 2493--2495
 \T1/lmr/m/n/10 1 (Novem-ber 1876): 1--21. []$https : / / books . google . com /
  books ? id = 2q _
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 2615--2617
+Underfull \hbox (badness 1895) in paragraph at lines 2505--2507
 [][]\T1/lmr/m/n/10 Condon, Tom. ```Troubled City' a Vic-tim of Ge-og-ra-phy.'' 
 \T1/lmr/m/it/10 Hart-ford
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 2615--2617
+Underfull \hbox (badness 1365) in paragraph at lines 2505--2507
 \T1/lmr/m/it/10 Courant\T1/lmr/m/n/10 . Septem-ber 12, 2002. []$http : / / arti
 cles . courant . com / 2002 -[] 09 -[]
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 2633--2635
+Underfull \hbox (badness 4713) in paragraph at lines 2523--2525
 [][]\T1/lmr/m/n/10 ``Couple Ask Tuition-Free School-ing for Girl but Res-i-denc
 y Is Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2633--2635
+Underfull \hbox (badness 10000) in paragraph at lines 2523--2525
 \T1/lmr/m/n/10 com . ezproxy . trincoll . edu / docview / 553011819 / 18F2091DE
 B304451PQ / 1 ?
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 2636--2638
+Underfull \hbox (badness 1975) in paragraph at lines 2526--2528
 [][]\T1/lmr/m/n/10 Courtney, Steve. ``Com-men-tary: Was Hart-ford 'the Rich-est
  City in
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2636--2638
+Underfull \hbox (badness 1430) in paragraph at lines 2526--2528
 \T1/lmr/m/n/10 the United States'?'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m
 /n/10 , Oc-to-ber 10, 2014. []$http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2636--2638
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2528
 \T1/lmr/m/n/10 / / www . courant . com / opinion / op -[] ed / hc -[] op -[] co
 urtney -[] was -[] hartford -[] richest -[]
  []
 
-[190]
-Underfull \hbox (badness 1742) in paragraph at lines 2642--2644
+[188]
+Underfull \hbox (badness 1742) in paragraph at lines 2532--2534
 \T1/lmr/m/n/10 tory.org, Jan-uary 2013. []$http : / / connecticuthistory . org 
 / race -[] restrictive -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2657--2659
+Underfull \hbox (badness 10000) in paragraph at lines 2547--2549
 \T1/lmr/m/n/10 / / search -[] proquest -[] com . ezproxy . trincoll . edu / hnp
 hartfordcourant / docview /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2672--2674
+Underfull \hbox (badness 10000) in paragraph at lines 2562--2564
 \T1/lmr/m/n/10 f / ^^\ndaid / ^^\ndaid -[] idx ? c = wiarchives ; view = reslis
 t ; subview = standard ; didno =
  []
 
-[191] [192]
-Underfull \hbox (badness 2027) in paragraph at lines 2714--2716
+[189] [190]
+Underfull \hbox (badness 2027) in paragraph at lines 2604--2606
 [][]\T1/lmr/m/n/10 Dougherty, Jack, Di-ane Zan-noni, Marissa Block, and Stephen
  Spirou.
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 2714--2716
+Underfull \hbox (badness 1048) in paragraph at lines 2604--2606
 \T1/lmr/m/n/10 ``Who Chooses in Hart-ford? Re-port 1: Sta-tis-ti-cal Anal-y-sis
  of Re-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 2714--2716
+Underfull \hbox (badness 2799) in paragraph at lines 2604--2606
 \T1/lmr/m/n/10 gional School Choice Of-fice Ap-pli-cants and Non-Applicants Amo
 ng
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 2732--2734
+Underfull \hbox (badness 3514) in paragraph at lines 2622--2624
 \T1/lmr/m/it/10 B\T1/lmr/m/n/10 . April 7, 1985. []$https : / / search -[] proq
 uest -[] com . ezproxy . trincoll . edu /
  []
 
-[193] [194]
-Underfull \hbox (badness 1895) in paragraph at lines 2792--2794
+[191] [192]
+Underfull \hbox (badness 1895) in paragraph at lines 2682--2684
 [][]\T1/lmr/m/n/10 Estevez, Naralys, and Jack Dougherty. ``Do Mag-net Schools A
 t-tract
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 2798--2800
+Underfull \hbox (badness 2285) in paragraph at lines 2688--2690
 [][]\T1/lmr/m/n/10 ``FBI Probes Charges of Racial Bias: Com-plaints Filed Again
 st Re-al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2810--2812
+Underfull \hbox (badness 10000) in paragraph at lines 2700--2702
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 555144638 ?
  []
 
-[195] [196]
-Underfull \hbox (badness 1009) in paragraph at lines 2873--2875
+[193] [194]
+Underfull \hbox (badness 1009) in paragraph at lines 2763--2765
 [][]\T1/lmr/m/n/10 Hirsh, Linda B. ``Schools to Use New Poli-cies to Ex-clude O
 ut-of-Town
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 2879--2881
+Underfull \hbox (badness 1622) in paragraph at lines 2769--2771
 \T1/lmr/m/it/10 Case Study of SmartChoices\T1/lmr/m/n/10 . Hart-ford, Con-necti
 -cut, 2009. []$http :
  []
 
-[197]
-Underfull \hbox (badness 6284) in paragraph at lines 2921--2923
+[195]
+Underfull \hbox (badness 6284) in paragraph at lines 2811--2813
 \T1/lmr/m/n/10 26, 1974. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 2924--2926
+Underfull \hbox (badness 6284) in paragraph at lines 2814--2816
 \T1/lmr/m/n/10 11, 1917. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
-[198]
-Overfull \hbox (7.45944pt too wide) in paragraph at lines 2945--2947
+[196]
+Overfull \hbox (7.45944pt too wide) in paragraph at lines 2835--2837
 \T1/lmr/m/n/10 1972. []$https : / / scholar . google . com / scholar _ case ? c
 ase = 15478926121065691421$[]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2951--2953
+Underfull \hbox (badness 10000) in paragraph at lines 2841--2843
 []$\T1/lmr/m/n/10 http : / / connecticuthistory . org / the -[] debate -[] over
  -[] who -[] could -[] occupy -[] world -[]
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 2975--2977
+Underfull \hbox (badness 2460) in paragraph at lines 2865--2867
 \T1/lmr/m/n/10 Panorama, Dig-i-tal Schol-ar-ship Lab, Uni-ver-sity of Rich-mond
 , 2016.
  []
 
-[199]
-Underfull \hbox (badness 2012) in paragraph at lines 2999--3001
+[197]
+Underfull \hbox (badness 2012) in paragraph at lines 2889--2891
 \T1/lmr/m/it/10 Agenda for Com-mu-nity and Pros-per-ity in Con-necti-cut\T1/lmr
 /m/n/10 . Min-neapo-
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 3014--3016
+Underfull \hbox (badness 3039) in paragraph at lines 2904--2906
 \T1/lmr/m/it/10 B\T1/lmr/m/n/10 , May 21, 1985. []$https : / / search -[] proqu
 est -[] com . ezproxy . trincoll . edu /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3014--3016
+Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
 \T1/lmr/m/n/10 docview / 758689031 / fulltextPDF / 2FA3B34AF5BD4A2EPQ / 1 ? acc
 ountid =
  []
 
-[200]
-Underfull \hbox (badness 10000) in paragraph at lines 3020--3022
+[198]
+Underfull \hbox (badness 10000) in paragraph at lines 2910--2912
 []$\T1/lmr/m/n/10 https : / / connecticuthistory . org / yung -[] wing -[] the 
 -[] chinese -[] educational -[] mission -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3026--3028
+Underfull \hbox (badness 10000) in paragraph at lines 2916--2918
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 552254027 ?
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 3035--3037
+Underfull \hbox (badness 1127) in paragraph at lines 2925--2927
 \T1/lmr/m/n/10 Study.'' \T1/lmr/m/it/10 Hart-ford Courant\T1/lmr/m/n/10 , July 
 18, 1974. []$https : / / search -[] proquest -[]
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 3041--3043
+Underfull \hbox (badness 2460) in paragraph at lines 2931--2933
 \T1/lmr/m/n/10 Febru-ary 22, 1974. []$https : / / search -[] proquest -[] com .
  ezproxy . trincoll . edu /
  []
 
-[201]
-Underfull \hbox (badness 2126) in paragraph at lines 3056--3058
+[199]
+Underfull \hbox (badness 2126) in paragraph at lines 2946--2948
 \T1/lmr/m/n/10 Mas-ter's the-sis, Trin-ity Col-lege, 1994. []$http : / / ctwweb
  . wesleyan . edu :
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 3062--3064
+Underfull \hbox (badness 1348) in paragraph at lines 2952--2954
 \T1/lmr/m/n/10 and the 1965 Con-necti-cut Ed-u-ca-tion Amend-ment.'' Con-necti-
 cutHis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3062--3064
+Underfull \hbox (badness 10000) in paragraph at lines 2952--2954
 \T1/lmr/m/n/10 changed -[] connecticut -[] simon -[] bernstein -[] and -[] the 
 -[] 1965 -[] connecticut -[] education -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3065--3067
+Underfull \hbox (badness 10000) in paragraph at lines 2955--2957
 \T1/lmr/m/n/10 teaching -[] researching . html # writing -[] greater -[] hartfo
 rds -[] civil -[] rights -[] past -[] with -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3074--3076
+Underfull \hbox (badness 10000) in paragraph at lines 2964--2966
 []$\T1/lmr/m/n/10 http : / / connecticuthistory . org / how -[] real -[] estate
  -[] practices -[] in^^]uenced -[] the -[]
  []
 
-[202]
-Underfull \hbox (badness 6284) in paragraph at lines 3101--3103
+[200]
+Underfull \hbox (badness 6284) in paragraph at lines 2991--2993
 \T1/lmr/m/n/10 23, 1920. []$https : / / search -[] proquest -[] com . ezproxy .
  trincoll . edu / docview /
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 3104--3106
+Underfull \hbox (badness 1762) in paragraph at lines 2994--2996
 [][]\T1/lmr/m/n/10 Smith-Ellison, Vic-to-ria. ``Hart-ford's Great Mi-gra-tion T
 hrough Charles
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 3104--3106
+Underfull \hbox (badness 1635) in paragraph at lines 2994--2996
 \T1/lmr/m/n/10 S. John-son's Eyes.'' Con-necti-cutHis-tory.org, Febru-ary 2013.
  []$http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3104--3106
+Underfull \hbox (badness 10000) in paragraph at lines 2994--2996
 \T1/lmr/m/n/10 / / connecticuthistory . org / hartfords -[] great -[] migration
  -[] through -[] charles -[] s -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3122--3124
+Underfull \hbox (badness 10000) in paragraph at lines 3012--3014
 []$\T1/lmr/m/n/10 https : / / search -[] proquest -[] com . ezproxy . trincoll 
 . edu / docview / 555173471 ?
  []
 
-[203] [204]
-Underfull \hbox (badness 1460) in paragraph at lines 3182--3184
+[201] [202]
+Underfull \hbox (badness 1460) in paragraph at lines 3072--3074
 [][]\T1/lmr/m/n/10 Wilson, Tracey. ``Tak-ing Stock of High Ledge Homes and Re-s
 tricted
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 3182--3184
+Underfull \hbox (badness 1596) in paragraph at lines 3072--3074
 \T1/lmr/m/n/10 Covenants.'' \T1/lmr/m/it/10 West Hart-ford Life \T1/lmr/m/n/10 
 13, no. 2 (June 2010): 36--37.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3188--3190
+Underfull \hbox (badness 10000) in paragraph at lines 3078--3080
 \T1/lmr/m/n/10 war -[] ii -[] era . html # resistance -[] to -[] public -[] hou
 sing -[] and -[] integration -[] during -[]
  []
 
-[205]
-Underfull \hbox (badness 1237) in paragraph at lines 3203--3205
+[203]
+Underfull \hbox (badness 1237) in paragraph at lines 3093--3095
 \T1/lmr/m/n/10 cover?'' \T1/lmr/m/it/10 The New York Times: N.Y. / Re-gion\T1/l
 mr/m/n/10 , Au-gust 26, 2002.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3203--3205
+Underfull \hbox (badness 10000) in paragraph at lines 3093--3095
 []$\T1/lmr/m/n/10 https : / / www . nytimes . com / 2002 / 08 / 26 / nyregion /
  poverty -[] in -[] a -[] land -[] of -[]
  []
 
-[206]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3208.
+[204]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3098.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3098.
 (./Dougherty-etal-OnTheLine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3098.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3098.
 
 Package rerunfilecheck Info: File `Dougherty-etal-OnTheLine.out' has not change
 d.
@@ -2305,16 +2171,16 @@ d.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3098.
  ) 
 Here is how much of TeX's memory you used:
- 13043 strings out of 494107
- 201270 string characters out of 6172706
- 336167 words of memory out of 5000000
- 15940 multiletter control sequences out of 15000+600000
+ 12997 strings out of 494107
+ 197672 string characters out of 6172706
+ 327515 words of memory out of 5000000
+ 15924 multiletter control sequences out of 15000+600000
  92737 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,8n,37p,3891b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,8n,37p,3891b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/jdoughe2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Us
 ers/jdoughe2/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/j
 doughe2/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/jdo
@@ -2330,10 +2196,10 @@ xmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/jdoughe2/Library/TinyTeX/texm
 f-dist/fonts/type1/public/lm/lmri8.pfb></Users/jdoughe2/Library/TinyTeX/texmf-d
 ist/fonts/type1/public/lm/lmro10.pfb></Users/jdoughe2/Library/TinyTeX/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Dougherty-etal-OnTheLine.pdf (210 pages, 22429332 bytes).
+Output written on Dougherty-etal-OnTheLine.pdf (208 pages, 22409966 bytes).
 PDF statistics:
- 3666 PDF objects out of 4296 (max. 8388607)
- 3285 compressed objects within 33 object streams
- 919 named destinations out of 1000 (max. 500000)
+ 3449 PDF objects out of 3580 (max. 8388607)
+ 3072 compressed objects within 31 object streams
+ 889 named destinations out of 1000 (max. 500000)
  623 words of extra memory for PDF output out of 10000 (max. 10000000)
 

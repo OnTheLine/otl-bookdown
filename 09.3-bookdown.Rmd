@@ -27,17 +27,6 @@ Below are steps we followed to set up the publishing platform for this book, usi
 - To finish installing tinytex, in the RStudio console, type `tinytex::install_tinytex()` and press return. [See screenshot](images/bookdown/7-finish-install-tinytex.png)
 - When you installed RStudio, it also should have installed its own version of Pandoc, the package that converts files from Markdown format to HMTL and other formats. To confirm the Pandoc installation and version number, in the RStudio console, type `rmarkdown::pandoc_version()` and press return. The resulting version number should be `2.3.1` or higher. To learn more about Pandoc or to install a newer version, go to <https://pandoc.org>.
 
-##### Sidenote: About the PDF edition, and TinyTeX vs XelaTex {-}
-The PDF edition of this Bookdown-generated publication is still a work-in-progress, and the settings are not yet finalized. Read more about various options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>. To avoid some unicode error messages when generating the PDF edition for this book, we installed a different engine, XelaTex, rather than TinyTeX. If you do the same, be sure to modify this line in your Bookdown index.Rmd settings: `latex_engine: xelatex`
-
-##### Sidenote: If TinyTeX installation error {-}
-- Once upon a time, this error message appeared when attempting to install tinytex in RStudio on our Mac: `/usr/local/bin not writeable`. We resolved by reading the software developer's GitHub issue <https://github.com/yihui/tinytex/issues/24> and following these steps:
-- In the Mac Applications > Utilities folder, open the Terminal application.
-- Carefully type `sudo chown -R `whoami`:admin /usr/local/bin` and press return.
-- Carefully type (without "sudo") `~/Library/TinyTeX/bin/x86_64-darwin/tlmgr path add` and press return.
-- Close the Terminal application.
-- In the RStudio console, type `tinytex::install_tinytex(force = TRUE)` and press return.
-
 #### Download and Build a Sample Bookdown Book {-}
 - Create a free GitHub account <https://github.com> to simplify steps for the next two sections. While Bookdown does not require you to use GitHub, the workflow described below features GitHub to copy a Bookdown template and to host your own Bookdown editions online.
 - In your web browser, log into your GitHub account, go to the Bookdown developer's `bookdown-minimal` repo <https://github.com/yihui/bookdown-minimal>, and fork a copy to your GitHub account. To learn about forking in GitHub, see this chapter <http://datavizforall.org/github.html> in the *Data Visualization for All* book.
@@ -120,11 +109,10 @@ In this book, the `index.Rmd` file also contains instructions to create footnote
 bibliography: ontheline.bib
 citation-style: chicago-fullnote-bibliography.csl
 ```
-Also in this book, the `index.Rmd` file is set to produce a PDF edition of the book using the xelatex engine (or see tinytex or latex alternatives described above). Furthermore, additional PanDoc settings are required to create the desired Chicago-style footnotes and bibliography in the PDF edition. See more details at <https://pandoc.org/>.
+Also in this book, the `index.Rmd` file is set to produce a PDF edition of the book with PanDoc settings for the desired Chicago-style footnotes and bibliography in the PDF edition. See more details at <https://pandoc.org/>. See additional PDF setting options at <https://bookdown.org/yihui/rmarkdown/pdf-document.html>.
 
 ```
   bookdown::pdf_book:
-    latex_engine: xelatex
     citation_package: none
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 ```
@@ -138,7 +126,7 @@ With these tools installed, here's an outline of the author's workflow:
 - The author identifies their preferred citation style at <https://www.zotero.org/styles>, uploads the file (example: chicago-fullnote-bibliography.csl) to the local book repo, and lists it in the `index.Rmd` settings for both the Web edition and the PDF edition.
 - Before each build in Bookdown, the author sets their Zotero preferences, and exports the Zotero library or specific collection to the root level of the local book repo (example: ontheline.bib).
 
-##### Installation and Settings {-}
+#### Installation and Settings {-}
 - Download and install [Zotero](http://zotero.org) for Mac, Windows, Linux, and add connectors to your browsers.
 - Install the [Better BibTeX extension](https://retorque.re/zotero-better-bibtex/installation/) and follow all of the site's instructions for initial setup.
 - At the top of each entry in Zotero, the extension will generate a unique citation code (example: tyackOneBestSystem1974).
