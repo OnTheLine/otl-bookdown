@@ -56,12 +56,11 @@ output:
 
 ![ ](images/coverOTL300x300.png)
 
-**This book-in-progress** was last updated on `r Sys.Date()`
+**This book-in-progress was last updated on `r Sys.Date()`**
 
 *On The Line*, an open-access digital and print history book, makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines.
 
 ## About the Book {-}
-
 *On The Line* tells the story of schooling and housing boundaries that shaped American metropolitan life over the past century, and also the civil rights struggles of families and activists to cross over, redraw, or erase these powerful lines. Set in the city of Hartford, Connecticut, and its emerging suburbs, the book explains how this metropolitan area became one of the most racially and economically polarized regions in the northeastern United States. The story highlights how government, business, and white middle-class families drew lines to distance themselves from others, and the evolving coalitions that have sought to reform the relationship between private housing and public education.  
 
 This **digital-first book** was designed for the open web. The narrative is wrapped around digital evidence---including interactive maps, videos, and documents---to make hidden boundaries more visible, and to amplify the voices of people who challenged these lines. *On The Line* is best read in your web browser, where readers may fully explore the evidence, follow links to related sources, and connect with the author and other readers through comments. In addition to the web edition, the same text (with static images and links) also appears in the downloadable e-book versions, and an inexpensive print edition to come.  
@@ -73,16 +72,13 @@ Written **for the liberal arts**, the book blends interdisciplinary scholarship 
 In sum, *On The Line* blends the best aspects of conventional publishing and web innovation. The main narrative still looks and feels like a scholarly book, divided into chapters and backed up by endnotes. But the web platform allows us to embed digital evidence on the page, and to link directly to external resources located elsewhere. As a result, this book delivers a more comprehensive, coherent, and connected work of scholarship than what was previously possible in print-only publications, or scattered online journal articles and blog posts, at no cost to the reader. Flip the page---in whatever format you prefer---and find out for yourself.  
 
 ## Authors and Contributors {-}
-
 <!-- TODO: try auto_pdf? maybe in table again? Best display method so far is uniform 150x150 300dpi JPG (not PNG) images, not in table -->
 ```{r dougherty-jack, echo=FALSE}
  knitr::include_graphics("images/dougherty-jack.jpg")
 ```
-
 Jack Dougherty, the lead author of *On The Line*, is Professor of Educational Studies and Director of the Center for Hartford Engagement and Research (CHER) at Trinity College. He collaborates with students, colleagues, and community partners to explore cities, suburbs, and schools in metropolitan Hartford, Connecticut, using data visualization, digital history, and web writing tools. Contact him on his [faculty profile page](http://internet2.trincoll.edu/facprofiles/Default.aspx?fid=1004266), or follow him [on Twitter](http://twitter.com/doughertyjack) or on his blog <http://jackdougherty.org>.
 
 #### Co-Authors {-}
-
 <!-- TODO: add text about the number of Trinity College undergraduates who co-authored papers or co-presented works -->
 
 ```{r agosto-jasmin, echo=FALSE}
@@ -187,16 +183,18 @@ TO COME
 
 <!-- TODO - remind readers to open links in new tabs, usually with a right-click or two-finger click, and illustrate this based on DataVizForall -->
 
-In your web browser, these reading features are visible near the top of the page:
+In your web browser, these toolbar features are available near the top of the page:
 
 - Menu
 - Search
-- Font (adjust text size and display)
-- Edit (to suggest edits or comment; requires free [GitHub](http://github.com) account)
-- Download (PDF edition)
-- Keyboard Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
+- Font to adjust text size and display
+- Edit / View source code on GitHub
+- Download PDF
+- Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
+- Social Media
+- Share
 
-```{r how-to-read, echo=FALSE, out.width="70%", fig.align="center"}
+```{r how-to-read, echo=FALSE}
  knitr::include_graphics("images/how-to-read.png")
 ```
 

@@ -189,7 +189,7 @@ $(document).ready(function() {
 <div class="figure"><span id="fig:0-bookdown-desktop"></span>
 <img src="images/bookdown/0-bookdown-desktop.png" alt="Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right)."  />
 <p class="caption">
-Figure 47: Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
+Image 47: Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
 </p>
 </div>
 <div id="install-bookdown-with-r-rstudio-and-a-latex-engine" class="section level4 unnumbered" number="">
@@ -239,19 +239,19 @@ Figure 47: Overview of the workflow on a Mac desktop: Compose and build the book
 <ul>
 <li>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>.</li>
 <li>See details about configuration settings in Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.<a href="#fn196" class="footnote-ref" id="fnref196"><sup>196</sup></a></li>
-<li>In this publication, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.)</li>
+<li>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO prior to PDF publication</strong>, find LaTeX setting to convert “Figure” to “Image” in each caption. See <a href="https://bookdown.org/yihui/bookdown/latexpdf.html" class="uri">https://bookdown.org/yihui/bookdown/latexpdf.html</a> and <a href="https://pandoc.org/MANUAL.html#variables-for-latex" class="uri">https://pandoc.org/MANUAL.html#variables-for-latex</a>.</li>
 </ul>
 <pre><code>output_dir: &quot;docs&quot;
 book_filename: &quot;Dougherty-etal-OnTheLine&quot;
-edit: https://github.com/ontheline/otl-bookdown/edit/master/%s
+view: https://github.com/ontheline/otl-bookdown/blob/master/%s
 language:
   label:
-    fig: &quot;Figure &quot;
+    fig: &quot;Image &quot;
 ui:
     edit: &quot;Edit&quot;
 chapter_name: &quot;Chapter &quot;</code></pre>
 <p>In this book, the Bookdown setting has been changed from the default <code>_books</code> folder to the <code>docs</code> folder to take advantage of the GitHub Pages setting that allows hosting online content from the <code>master/docs</code> folder, rather than the entire <code>master</code> branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the <code>master</code> branch, <strong>and</strong> host online the Web and ebook editions from the <code>master/docs</code> subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called <code>master</code> and <code>gh-pages</code>, but now users can do both through one branch, which is simpler.) Also, following this <code>master/docs</code> method simplifies the address of your GitHub Pages published web edition to this format: <code>https://USERNAME.github.com/REPONAME</code>. (See further below about customizing the web address.)</p>
-<p>In this publication, the <code>index.Rmd</code> file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)</p>
+<p>In this book, the <code>index.Rmd</code> file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)</p>
 <pre><code>output:
   bookdown::gitbook:
     dev: svglite
@@ -264,8 +264,8 @@ chapter_name: &quot;Chapter &quot;</code></pre>
 <p>In the GitHub repo for this book, here is the root file structure:</p>
 <ul>
 <li>Preface of the book with non-numbered sections: <code>index.Rmd</code></li>
-<li>Chapters with first-level headers, such as: <code>01-introduction.Rmd</code></li>
-<li>Sections with second-level headers, which belong to chapters, such as <code>01.1-section.Rmd</code> and <code>01.2-section.Rmd</code></li>
+<li>Chapters with first-level headers, such as: <code>01-chapter.Rmd</code></li>
+<li>Subchapters with second-level headers such as <code>01.1-subchapter.Rmd</code> and <code>01.2-subchapter.Rmd</code>. While Bookdown refers to these as sections, in this book they are referred to as subchapters.</li>
 <li>The <code>images</code> folder, where JPG, PNG, and PDFs to display in chapters are located.</li>
 <li>The <code>docs</code> folder, which contains the published book products, such as Web edition (<code>index.html</code>, <code>introduction.html</code>, etc.), the PDF edition (<code>Dougherty-etal-OnTheLine.pdf</code>), etc.</li>
 <li>Additional helper files described further below.</li>
@@ -282,8 +282,8 @@ chapter_name: &quot;Chapter &quot;</code></pre>
 <ul>
 <li>the <code>custom-scripts.html</code> file includes specific instructions to set the height or width of iframes for specific interactive maps and charts in the web edition, which is explained further in the Style Guide section of this book. (Thanks to Michael Dorman for this tip.)</li>
 <li>the <code>google-analytics-otl.html</code> file records web traffic with Google Analytics, if you create a free account and insert your code.</li>
-<li>The web edition of this book also includes a custom <code>404.html</code> file that redirects any bad web addresses under the domain back to <code>index.html</code> page. A copy of this file must be manually transferred into the <code>docs</code> subfolder, because it is not automatically built by Bookdown.</li>
 </ul>
+<p>The web edition of this book also includes a custom <code>404.html</code> file that redirects any bad web addresses under the domain back to <code>index.html</code> page. A copy of this file must be manually transferred into the <code>docs</code> subfolder, because it is not automatically built by Bookdown.</p>
 <p>In this book, the <code>index.Rmd</code> file also contains instructions to create footnotes and a bibliography from a Zotero-Better BibLaTeX exported file named <code>ontheline.bib</code>, in a specific Chicago-style format. Other <code>.csl</code> files are downloadable from the Zotero Styles Repository <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>.</p>
 <pre><code>bibliography: ontheline.bib
 citation-style: chicago-fullnote-bibliography.csl</code></pre>
@@ -328,7 +328,7 @@ citation-style: chicago-fullnote-bibliography.csl</code></pre>
 - Document – Use this all-purpose entry in place of other types: Law case, Presentation, Interview, Video recording, Television broadcast, etc. Insert important details (such as the archival location information) in the Publisher field.</p>
 <p>To help other researchers find items cited in this book, URLs should be included in Zotero entries whenever feasible, even if not required by convention. For example, some print-only books and documents are hard to locate, so include an OCLC WorldCat permalink to make them easier to find (example: <a href="http://www.worldcat.org/oclc/20683509" class="uri">http://www.worldcat.org/oclc/20683509</a>). Also, if a print source has been digitized by HathiTrust, Google Books, or the Internet Archive, add one of these URLs to the Zotero entry.</p>
 <p>Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in <em>every</em> instance in the web version, so that users do not need to scroll to find the complete source info.</p>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-04</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-06</em></p>
 
 </div>
 </div>

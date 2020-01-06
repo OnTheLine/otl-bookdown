@@ -237,11 +237,11 @@ This line appears in the PDF edition, and is commented-out in the HTML edition.
 <p>A text-only footnote.<a href="#fn197" class="footnote-ref" id="fnref197"><sup>197</sup></a></p>
 <p>To create a footnote with citations only, separate BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn198" class="footnote-ref" id="fnref198"><sup>198</sup></a></span></p>
 <p>Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:<a href="#fn199" class="footnote-ref" id="fnref199"><sup>199</sup></a></p>
-<p><strong>KNOWN ISSUE in this book re: footnotes/endnotes</strong>
-TODO: Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:</p>
+<p><strong>TODO: KNOWN ISSUE in this book re: footnotes/endnotes</strong>
+Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:</p>
 <ul>
 <li><p>In the Web HTML edition, customized code in <code>style.css</code> renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.</p></li>
-<li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code.</p></li>
+<li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.</p></li>
 <li><p>In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.</p></li>
 <li><p>Also, avoid placing footnotes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.</p></li>
 </ul>
@@ -262,18 +262,19 @@ TODO: Using Bookdown version 0.16 as of January 2020, note numbering appears dif
 <li>Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.</li>
 <li>Insert a BLANK LINE between the text reference and the R code chunk that follows.</li>
 <li>Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown in the examples below below.</li>
-<li>To reduce the width (or height) of the output, add <code>out.width="50%"</code> to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert <code>fig.align="center"</code>.</li>
+<li>To reduce the width (or height) of the output, add <code>out.width="50%"</code> to the code chunk, which works for Web edition and also PDF edition.</li>
 <li>To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)</li>
 <li>If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the <code>custom-scripts.html</code> file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.</li>
-<li>In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Figure <a href="style-guide.html#fig:sample-interactive">49</a>.<a href="#fn200" class="footnote-ref" id="fnref200"><sup>200</sup></a></li>
+<li>In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Image <a href="style-guide.html#fig:sample-interactive">49</a>.<a href="#fn200" class="footnote-ref" id="fnref200"><sup>200</sup></a></li>
 <li>Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.</li>
 <li>Reminder: Bookdown does not auto-number figures in the <code>index.Rmd</code> file, which serves as a preface or introduction.</li>
-<li><strong>KNOWN ISSUES TODO prior to final PDF edition</strong>:
+<li><strong>TODO: KNOWN ISSUES to address prior to final PDF edition</strong>:
 <ul>
-<li>HTML edition labels images by sequential number across the entire book (1, 2, 3 etc.), while PDF edition labels images by chapter number (1.1, 1.2, 2.1, etc.).</li>
+<li>HTML edition labels images by sequential number across the entire book (1, 2, 3 etc.), while PDF edition labels images by chapter number (1.1, 1.2, 2.1, etc.). See <a href="https://bookdown.org/yihui/bookdown/latexpdf.html" class="uri">https://bookdown.org/yihui/bookdown/latexpdf.html</a> and <a href="https://pandoc.org/MANUAL.html#variables-for-latex" class="uri">https://pandoc.org/MANUAL.html#variables-for-latex</a>.</li>
 <li>Reminder from <a href="https://bookdown.org/yihui/rmarkdown/r-code.html#figures">Yihui Xie</a>: “PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desperately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = ‘h’). See <a href="https://www.sharelatex.com/learn/Positioning_images_and_tables" class="uri">https://www.sharelatex.com/learn/Positioning_images_and_tables</a> for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."</li>
-<li>Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set <code>auto_pdf = TRUE</code> inside <code>include_graphics()</code>. Read more at <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a></li>
-<li>Decide if ‘out.width’ and ‘out.height’ are preferable in all cases to <code>"fig_height=7"</code></li>
+<li>Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set <code>auto_pdf = TRUE</code> inside <code>include_graphics()</code>. Read more at <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a>.</li>
+<li>Decide if ‘out.width’ and ‘out.height’ are preferable in all cases to <code>"fig_height=7"</code>.</li>
+<li>For images less than full-width, decide whether to insert <code>fig.align="center"</code> for PDF output, since this currently throws an error in MS Word output.</li>
 </ul></li>
 </ul>
 </div>
@@ -283,7 +284,7 @@ TODO: Using Bookdown version 0.16 as of January 2020, note numbering appears dif
 <div class="figure"><span id="fig:sample-static-image"></span>
 <img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting and links." width="50%" />
 <p class="caption">
-Figure 48: Caption for sample static image, with Markdown formatting and links.
+Image 48: Caption for sample static image, with Markdown formatting and links.
 </p>
 </div>
 </div>
@@ -295,7 +296,7 @@ Figure 48: Caption for sample static image, with Markdown formatting and links.
 <iframe src="https://ontheline.github.io/otl-redlining/" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 49: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.
+Image 49: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.
 </p>
 </div>
 </div>
@@ -306,7 +307,7 @@ Figure 49: Caption for all versions here, with link to <a href="https://onthelin
 <iframe src="images/sample-3pp.pdf" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 50: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
+Image 50: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 </p>
 </div>
 <!-- TODO: test all video examples below in Windows Edge and Android devices -->
@@ -318,7 +319,7 @@ Figure 50: Here’s a sample PDF that is locally stored in the GitHub repo, with
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 51: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
+Image 51: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 </p>
 </div>
 </div>
@@ -329,7 +330,7 @@ Figure 51: Here’s a sample caption for a YouTube video, with option to add Mar
 <iframe src="https://player.vimeo.com/video/27299734" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 52: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
+Image 52: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 </p>
 </div>
 </div>
@@ -340,7 +341,7 @@ Figure 52: Here’s a sample caption for Vimeo video, with option to add Markdow
 <iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="672" height="400px">
 </iframe>
 <p class="caption">
-Figure 53: Here’s a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura “share” embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
+Image 53: Here’s a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura “share” embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
 </p>
 </div>
 <p>Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <a href="https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4" class="uri">https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4</a> and read more <a href="https://confluence.uconn.edu/display/CTDA/Datastreams" class="uri">https://confluence.uconn.edu/display/CTDA/Datastreams</a>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.</p>
@@ -369,7 +370,7 @@ Figure 53: Here’s a sample caption for a video on Trinity Kaltura server, usin
 <li>Tips and tricks for working with images and figures in rmarkdown <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
 <li>Hints on using auto_pdf: <a href="https://blog.earo.me/2019/10/26/reduce-frictions-rmd/" class="uri">https://blog.earo.me/2019/10/26/reduce-frictions-rmd/</a></li>
 </ul>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-04</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 2020-01-06</em></p>
 
 </div>
 </div>

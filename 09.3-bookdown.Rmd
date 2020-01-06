@@ -52,21 +52,22 @@ Below are steps we followed to set up the publishing platform for this book, usi
 #### Customize Bookdown and GitHub Settings and Domain Name {-}
 - To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>.
 - See details about configuration settings in Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).^[@xieBookdownAuthoringBooks2018]
-- In this publication, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.)
+- In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book. **TODO prior to PDF publication**, find LaTeX setting to convert "Figure" to "Image" in each caption. See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
 ```
 output_dir: "docs"
 book_filename: "Dougherty-etal-OnTheLine"
-edit: https://github.com/ontheline/otl-bookdown/edit/master/%s
+view: https://github.com/ontheline/otl-bookdown/blob/master/%s
 language:
   label:
-    fig: "Figure "
+    fig: "Image "
 ui:
     edit: "Edit"
 chapter_name: "Chapter "
 ```
+
 In this book, the Bookdown setting has been changed from the default `_books` folder to the `docs` folder to take advantage of the GitHub Pages setting that allows hosting online content from the `master/docs` folder, rather than the entire `master` branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the `master` branch, **and** host online the Web and ebook editions from the `master/docs` subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called `master` and `gh-pages`, but now users can do both through one branch, which is simpler.) Also, following this `master/docs` method simplifies the address of your GitHub Pages published web edition to this format: `https://USERNAME.github.com/REPONAME`. (See further below about customizing the web address.)
 
-In this publication, the `index.Rmd` file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)
+In this book, the `index.Rmd` file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)
 ```
 output:
   bookdown::gitbook:
@@ -81,8 +82,8 @@ output:
 In the GitHub repo for this book, here is the root file structure:
 
 - Preface of the book with non-numbered sections: `index.Rmd`
-- Chapters with first-level headers, such as: `01-introduction.Rmd`
-- Sections with second-level headers, which belong to chapters, such as `01.1-section.Rmd` and `01.2-section.Rmd`
+- Chapters with first-level headers, such as: `01-chapter.Rmd`
+- Subchapters with second-level headers such as `01.1-subchapter.Rmd` and `01.2-subchapter.Rmd`. While Bookdown refers to these as sections, in this book they are referred to as subchapters.
 - The `images` folder, where JPG, PNG, and PDFs to display in chapters are located.
 - The `docs` folder, which contains the published book products, such as Web edition (`index.html`, `introduction.html`, etc.), the PDF edition (`Dougherty-etal-OnTheLine.pdf`), etc.
 - Additional helper files described further below.
@@ -102,7 +103,8 @@ output:
 ```
 - the `custom-scripts.html` file includes specific instructions to set the height or width of iframes for specific interactive maps and charts in the web edition, which is explained further in the Style Guide section of this book. (Thanks to Michael Dorman for this tip.)
 - the `google-analytics-otl.html` file records web traffic with Google Analytics, if you create a free account and insert your code.
-- The web edition of this book also includes a custom `404.html` file that redirects any bad web addresses under the domain back to `index.html` page. A copy of this file must be manually transferred into the `docs` subfolder, because it is not automatically built by Bookdown.
+
+The web edition of this book also includes a custom `404.html` file that redirects any bad web addresses under the domain back to `index.html` page. A copy of this file must be manually transferred into the `docs` subfolder, because it is not automatically built by Bookdown.
 
 In this book, the `index.Rmd` file also contains instructions to create footnotes and a bibliography from a Zotero-Better BibLaTeX exported file named `ontheline.bib`, in a specific Chicago-style format. Other `.csl` files are downloadable from the Zotero Styles Repository <https://www.zotero.org/styles>.
 ```
@@ -152,4 +154,6 @@ To help other researchers find items cited in this book, URLs should be included
 
 Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in *every* instance in the web version, so that users do not need to scroll to find the complete source info.
 
+`r if (knitr::is_latex_output()) '<!--'`
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+`r if (knitr::is_latex_output()) '-->'`

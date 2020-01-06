@@ -72,11 +72,11 @@ To create a footnote with citations only, separate BibTeX citation keys with sem
 
 Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 
-**KNOWN ISSUE in this book re: footnotes/endnotes**
-TODO: Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:
+**TODO: KNOWN ISSUE in this book re: footnotes/endnotes**
+Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:
 
 - In the Web HTML edition, customized code in `style.css` renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.
-- But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code.
+- But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
 - In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.
 
 - Also, avoid placing footnotes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.
@@ -93,17 +93,18 @@ In the body of the book, avoid inserting images with simple Markdown syntax, bec
 - Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.
 - Insert a BLANK LINE between the text reference and the R code chunk that follows.
 - Insert an R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, with NO SPACES between ref:chunk-label, as shown in the examples below below.
-- To reduce the width (or height) of the output, add `out.width="50%"` to the code chunk, which works for Web edition and also PDF edition. If width is less than full, also insert `fig.align="center"`.
+- To reduce the width (or height) of the output, add `out.width="50%"` to the code chunk, which works for Web edition and also PDF edition.
 - To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)
 - If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the `custom-scripts.html` file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the `index.Rmd` file includes the custom script in the header, as described in the section above.
-- In the body text, insert a dynamic reference to the figure in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote:  ...as shown in Figure \@ref(fig:sample-interactive).^[@clarkCharterOakCity1876]
+- In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote:  ...as shown in Image \@ref(fig:sample-interactive).^[@clarkCharterOakCity1876]
 - Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.
 - Reminder: Bookdown does not auto-number figures in the `index.Rmd` file, which serves as a preface or introduction.
-- **KNOWN ISSUES TODO prior to final PDF edition**:
-  - HTML edition labels images by sequential number across the entire book (1, 2, 3 etc.), while PDF edition labels images by chapter number (1.1, 1.2, 2.1, etc.).
+- **TODO: KNOWN ISSUES to address prior to final PDF edition**:
+  - HTML edition labels images by sequential number across the entire book (1, 2, 3 etc.), while PDF edition labels images by chapter number (1.1, 1.2, 2.1, etc.). See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
   - Reminder from [Yihui Xie](https://bookdown.org/yihui/rmarkdown/r-code.html#figures): "PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desperately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = 'h'). See https://www.sharelatex.com/learn/Positioning_images_and_tables for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."
-  - Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set `auto_pdf = TRUE` inside `include_graphics()`. Read more at <https://bookdown.org/yihui/bookdown/figures.html>
-  - Decide if 'out.width' and 'out.height' are preferable in all cases to `"fig_height=7"`
+  - Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set `auto_pdf = TRUE` inside `include_graphics()`. Read more at <https://bookdown.org/yihui/bookdown/figures.html>.
+  - Decide if 'out.width' and 'out.height' are preferable in all cases to `"fig_height=7"`.
+  - For images less than full-width, decide whether to insert `fig.align="center"` for PDF output, since this currently throws an error in MS Word output.
 
 #### Example 1: Static image in all editions, half-size output, no interactive version {-}
 (ref:sample-static-image) Caption for sample static image, with Markdown formatting and links.
