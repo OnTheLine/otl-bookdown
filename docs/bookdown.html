@@ -236,11 +236,8 @@ Image 47: Overview of the workflow on a Mac desktop: Compose and build the book 
 </div>
 <div id="customize-bookdown-and-github-settings-and-domain-name" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Customize Bookdown and GitHub Settings and Domain Name</h4>
-<ul>
-<li>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>.</li>
-<li>See details about configuration settings in Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.<a href="#fn196" class="footnote-ref" id="fnref196"><sup>196</sup></a></li>
-<li>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO prior to PDF publication</strong>, find LaTeX setting to convert “Figure” to “Image” in each caption. See <a href="https://bookdown.org/yihui/bookdown/latexpdf.html" class="uri">https://bookdown.org/yihui/bookdown/latexpdf.html</a> and <a href="https://pandoc.org/MANUAL.html#variables-for-latex" class="uri">https://pandoc.org/MANUAL.html#variables-for-latex</a>.</li>
-</ul>
+<p>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>. See details about configuration settings in Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.<a href="#fn196" class="footnote-ref" id="fnref196"><sup>196</sup></a></p>
+<p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO prior to PDF publication</strong>, find LaTeX setting to convert “Figure” to “Image” in each caption. See <a href="https://bookdown.org/yihui/bookdown/latexpdf.html" class="uri">https://bookdown.org/yihui/bookdown/latexpdf.html</a> and <a href="https://pandoc.org/MANUAL.html#variables-for-latex" class="uri">https://pandoc.org/MANUAL.html#variables-for-latex</a>.</p>
 <pre><code>output_dir: &quot;docs&quot;
 book_filename: &quot;Dougherty-etal-OnTheLine&quot;
 view: https://github.com/ontheline/otl-bookdown/blob/master/%s
@@ -250,7 +247,7 @@ language:
 ui:
     edit: &quot;Edit&quot;
 chapter_name: &quot;Chapter &quot;</code></pre>
-<p>In this book, the Bookdown setting has been changed from the default <code>_books</code> folder to the <code>docs</code> folder to take advantage of the GitHub Pages setting that allows hosting online content from the <code>master/docs</code> folder, rather than the entire <code>master</code> branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the <code>master</code> branch, <strong>and</strong> host online the Web and ebook editions from the <code>master/docs</code> subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called <code>master</code> and <code>gh-pages</code>, but now users can do both through one branch, which is simpler.) Also, following this <code>master/docs</code> method simplifies the address of your GitHub Pages published web edition to this format: <code>https://USERNAME.github.com/REPONAME</code>. (See further below about customizing the web address.)</p>
+<p>In this book, the Bookdown setting has been changed from the default <code>_books</code> folder to the <code>docs</code> folder to take advantage of the GitHub Pages setting that allows hosting online content from the <code>master/docs</code> folder, rather than the entire <code>master</code> branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the <code>master</code> branch, <strong>and</strong> host online the Web and ebook editions from the <code>master/docs</code> subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called <code>master</code> and <code>gh-pages</code>, but now users can do both through one branch, which is simpler.) Also, following this <code>master/docs</code> method simplifies the address of your GitHub Pages published web edition to this format: <code>https://USERNAME.github.com/REPONAME</code>. (See further below about customizing the web address.) Finally, the <code>docs</code> folder contains an empty <code>.nojekyll</code> file so that GitHub Pages does not attempt to process these static HTML pages in Jekyll.</p>
 <p>In this book, the <code>index.Rmd</code> file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)</p>
 <pre><code>output:
   bookdown::gitbook:
@@ -291,6 +288,10 @@ citation-style: chicago-fullnote-bibliography.csl</code></pre>
 <pre><code>  bookdown::pdf_book:
     citation_package: none
     pandoc_args: [ &quot;--csl&quot;, &quot;chicago-fullnote-bibliography.csl&quot; ]</code></pre>
+<p>Also in this book, the <code>index.Rmd</code> file includes R global options to display each R chunk image without code (no echo), and to display the PDF version of an image file instead of JPG/PNG version whenever available.</p>
+<pre><code>{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.graphics.auto_pdf = TRUE)</code></pre>
 </div>
 <div id="zotero-and-better-bibtex-for-footnotes-and-bibliography" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Zotero and Better BibTex for Footnotes and Bibliography</h4>
