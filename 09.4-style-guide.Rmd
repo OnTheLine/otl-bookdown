@@ -2,13 +2,13 @@
 
 **Important: See the code used in the examples on this page** by viewing it directly on the GitHub repo at <https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd>.
 
-#### General Goals {-}
-The broad goal is to compose one version of the text that Bookdown will generate into multiple book products: Web HTML edition, PDF edition, MS Word edition, etc. The Web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips). But the PDF and MS Word editions are designed to display static screenshots of interactive content, as well as clickable links and footnotes/endnotes for source materials. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/).
+#### Goal {-}
+The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). The web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online.
 
-Also, this style guide was created primarily for the web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and may require additional modifications prior to publishing the final PDF print edition.
+This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/).
 
 #### Markdown vs. R Markdown {-}
-The text is based on the easy-to-read Markdown syntax, which is summarized in this [popular cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and this [interactive tutorial](https://www.markdowntutorial.com). But Bookdown uses its own flavor: [RMarkdown by RStudio](https://rmarkdown.rstudio.com/).
+The text is based on the easy-to-read Markdown syntax, which is summarized in this [popular cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and this [interactive tutorial](https://www.markdowntutorial.com). But Bookdown uses its own flavor: [RMarkdown by RStudio](https://rmarkdown.rstudio.com/). See also Yihui Xie's [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/).
 
 #### Formatting {-}
 Use brackets and parentheses for an [embedded link](http://example.com), and remember to add a footnote as shown below.
@@ -80,6 +80,8 @@ Using Bookdown version 0.16 as of January 2020, note numbering appears different
 - In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.
 
 - Also, avoid placing footnotes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.
+
+- See more bibliography options <https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html>
 
 #### R Code Chunks to Display Interactive iFrames and Static Images{-}
 In the body of the book, avoid inserting images with simple Markdown syntax, because it does not support Bookdown figure auto-numbering and caption formatting, and does not translate well into PDF and MS Word formats. Instead, follow this R "code chunk" method, as shown in the examples further below for:

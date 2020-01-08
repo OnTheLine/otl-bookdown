@@ -1,10 +1,19 @@
 ## Building with Bookdown, GitHub, and Zotero {#bookdown}
-*by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html)*
+*by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html) Technical feedback on this page is welcome on [Twitter](https://twitter.com/doughertyjack) or directly on the public GitHub repo for this chapter<https://github.com/OnTheLine/otl-bookdown/blob/master/09.3-bookdown.Rmd>.*
 
-This open-access book is built with open-source tools---namely Bookdown, GitHub, and Zotero---and this chapter explains how, so that other authors may do it themselves and share their knowledge to improve the process. Feedback on these notes is welcome on [Twitter](https://twitter.com/doughertyjack) or directly on the GitHub repo for this page <https://github.com/OnTheLine/otl-bookdown/blob/master/09.3-bookdown.Rmd>.
+This open-access book is built with free-to-use, open-source tools---primarily Bookdown, GitHub, and Zotero---and this chapter explains how, so that readers may do it themselves and share their knowledge to improve the process. The broad goal of this workflow is for authors to compose one document that is generated into multiple book products: an HTML web edition to read online, a PDF print edition for traditional book publishing, and a Microsoft Word edition for editors who insist on it for copyediting. For this book, the web edition is preferably because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials in body chapters are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online. (In technical chapters like this one, some source notes are hidden inside links.) See more details in the [On The Line style guide](style-guide.html) in the next chapter.
 
-- [Bookdown](http://bookdown.org), an open-source software package by Yihui Xie at RStudio, allows authors to compose in version of [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy-to-read-and-write cross-platform syntax, and create one workflow that produces books in multiple formats, such as Web edition, PDF edition, ePUB ebook edition, and Microsoft Word. Furthermore, Bookdown generates the Web edition as a set of static-site HTML files, which display digital elements (such as interactive maps and videos) and load very quickly into readers' web browsers. Individual authors can install Bookdown on their Mac, Windows, or Linux computers, and publish their work through a free and simple GitHub Pages account, rather than a separate and complex web server. Interestingly, Bookdown requires installing the open-source [R Project](https://www.r-project.org/) and [RStudio console and editor](https://www.rstudio.com/), which typically are used for statistical data analysis. Behind the scenes, Bookdown converts the text of the book from R-flavored Markdown files into multiple editions of the book (Web HTML, PDF, MS Word, etc.) using [PanDoc](https://pandoc.org/), an open-source universal document converter, without requiring authors to learn complex Pandoc instructions. Although Bookdown may not be the best choice for novice computer users, installation steps are outlined below, along with a recommended workflow for authoring and publishing with GitHub and Zotero.^[For a detailed guide, see @xieBookdownAuthoringBooks2018]
-- [GitHub](http://github.com) is an open-source repository that enables us to publicly share the text and code in this book, with a version-control system that allows collaborators to work on different sections at the same time. Also, the [GitHub Pages](http://pages.github.com) feature allows us to freely host online all of the book editions (Web, PDF, etc.), with a custom domain name purchased through another service, [Reclaim Hosting](http://reclaimhosting.com). Since this is an open-access publication, the contents are intentionally public while working on the book, which is consistent with the contract signed with our open-access publisher. Note that GitHub also allows users the option to make their repositories private if desired.
+<!--TODO: Diagram adapted from https://bookdown.org/yihui/rmarkdown-cookbook/r-markdown-components.html. Additional icons with rights statements from https://www.zotero.org/support/brand, https://www.r-project.org/logo/, and https://blog.rstudio.com/2018/07/25/revamped-bookdown-org/. TODO: Due to more restrictive policies, did not include logos for https://github.com/logos or https://rstudio.com/about/logos/ but can revisit in future. -->
+
+(ref:0-workflow) Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, *R Markdown Cookbook*, chapter 2.1.
+
+```{r 0-workflow, fig.cap="(ref:0-workflow)"}
+ knitr::include_graphics("images/bookdown/0-workflow.png")
+```
+
+#### Overview {-}
+- [Bookdown](http://bookdown.org), an open-source software package by Yihui Xie at RStudio, allows authors to compose in [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy-to-read-and-write cross-platform syntax, and create one workflow that produces books in multiple formats, such as HTML Web edition, PDF print edition, MS Word edition, ePUB edition, etc. Furthermore, Bookdown generates the Web edition as a set of static-site HTML files, which display interactive digital elements (such as zoomable maps, scrollable documents, and video clips) and load very quickly into readers' web browsers. Individual authors can install Bookdown on their Mac, Windows, or Linux computers, and publish their work through a free and simple GitHub Pages account, rather alternative book publishing platforms that require maintaining a complex web server. Bookdown requires installing the open-source [R Project](https://www.r-project.org/) and [RStudio console and editor](https://www.rstudio.com/), which are commonly used in the field of statistical data analysis. Behind the scenes, Bookdown converts the text of the book from R-flavored Markdown files into multiple editions of the book using software packages such as [PanDoc](https://pandoc.org/), an open-source universal document converter, without requiring authors to learn complex Pandoc instructions. Although Bookdown may not be the best choice for novice computer users, installation steps are outlined below, along with a recommended workflow for authoring and publishing with GitHub and Zotero.^[For more detailed guides to these tools, see @xieBookdownAuthoringBooks2018; @xieMarkdownCookbook2020]
+- [GitHub](http://github.com) is an open-source repository that enables us to publicly share the text and code in this book, with a version-control system that allows collaborators to work on different sections at the same time. Also, the [GitHub Pages](http://pages.github.com) feature allows us to freely host online all of the book editions (Web, PDF, etc.), with a custom domain name purchased through another service, [Reclaim Hosting](http://reclaimhosting.com). Since this is an open-access publication, the contents are intentionally public while working on the book, which is consistent with the contract signed with the open-access publisher. Note that GitHub also allows users the option, if desired, to make their repositories private.
 - [Zotero](http://zotero.org) is an open-source bibliography manager to collect sources and organize citations, created by the Roy Rosenzweig Center for History and New Media at George Mason University. [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex) is an extension by Emiliano Heynes that makes Zotero citation keys work better with Markdown text workflows. While Bookdown does not require using Zotero, scholars who need to manage multiple source materials and citations will benefit from the Bookdown---Zotero---Better BibTeX workflow described below.
 
 Before leaping into Bookdown or any software tool, see [Alternative Publishing Platforms](alternative.html) in this book.
@@ -15,11 +24,11 @@ Before leaping into Bookdown or any software tool, see [Alternative Publishing P
  knitr::include_graphics("images/bookdown/0-bookdown-desktop.png")
 ```
 
-#### Install Bookdown with R, RStudio, and a LaTex Engine {-}
+#### Install Bookdown with R, RStudio, and a LaTeX Engine {-}
 Below are steps we followed to set up the publishing platform for this book, using our Macintosh OS 10.14 computers. The same general principles also should apply to Windows computers. No special knowledge is required, but this may not be recommended for novice computer users. Installation steps---and inevitable problems that pop up---will be easier if users are willing to feel adventurous with their computers, or already have some familiarity with text editors, GitHub, or R Studio.
 
-- Install R Project statistical programming language <https://www.r-project.org>, which Bookdown requires. [See screenshot](images/bookdown/1-r-download.png)
-- Install the free RStudio Desktop to make R easier to use with a visual editor. [See screenshot](images/bookdown/2-download-rstudio.png)
+- Install R Project statistical programming language <https://www.r-project.org>, which is required by Bookdown. [See screenshot](images/bookdown/1-r-download.png)
+- Install the free version of RStudio Desktop to make R easier to use with a visual editor. [See screenshot](images/bookdown/2-download-rstudio.png). Some authors compose their books in RStudio, but you may use any text editor; our personal preference is the [Atom editor](https://atom.io/) from GitHub.
 - Inside RStudio, select the Packages tab, and select Install. [See screenshot](images/bookdown/3-packages-install.png)
 - Inside RStudio, install the "bookdown" package to build your book, and select Install Dependencies. [See screenshot](images/bookdown/4-install-bookdown.png)
 - Bookdown now should be successfully installed in RStudio. [See screenshot](images/bookdown/5-installed.png)
@@ -28,7 +37,7 @@ Below are steps we followed to set up the publishing platform for this book, usi
 - When you installed RStudio, it also should have installed its own version of Pandoc, the package that converts files from Markdown format to HMTL and other formats. To confirm the Pandoc installation and version number, in the RStudio console, type `rmarkdown::pandoc_version()` and press return. The resulting version number should be `2.3.1` or higher. To learn more about Pandoc or to install a newer version, go to <https://pandoc.org>.
 
 #### Download and Build a Sample Bookdown Book {-}
-- Create a free GitHub account <https://github.com> to simplify steps for the next two sections. While Bookdown does not require you to use GitHub, the workflow described below features GitHub to copy a Bookdown template and to host your own Bookdown editions online.
+- Create a free GitHub account <https://github.com> to simplify steps for the next two sections. While Bookdown does not require you to use GitHub, the workflow described below features GitHub to copy a sample Bookdown template and to host your own Bookdown editions online.
 - In your web browser, log into your GitHub account, go to the Bookdown developer's `bookdown-minimal` repo <https://github.com/yihui/bookdown-minimal>, and fork a copy to your GitHub account. To learn about forking in GitHub, see this chapter <http://datavizforall.org/github.html> in the *Data Visualization for All* book.
 - Install GitHub Desktop <https://desktop.github.com> to transfer files between your online GitHub repo and local computer. While software developers may prefer to access GitHub by typing commands in their terminal, GitHub Desktop provides easier point-and-click access for most users.
 - In your web browser, go to your forked copy of `bookdown-minimal`, click the green `Clone or Download` button, and select `Open in Desktop`. This should automatically open the GitHub Desktop application, and you can navigate where you wish to store a copy of your code repo on a folder in your local computer.
@@ -37,11 +46,11 @@ Below are steps we followed to set up the publishing platform for this book, usi
 - Optional: If you wish, you can modify your `bookdown-minimal` files outside of RStudio, by using your preferred text editor, such as Atom editor <https://atom.io>.
 - In RStudio, upper-right corner, select the Build tab, select Build Book, and choose All Formats to build both the gitbook-style static web edition and PDF edition.
 - If RStudio successfully builds both editions of your minimal book, the output will be saved into your `bookdown-minimal` folder, in a subfolder named `_book`, because that's how this sample is configured. The RStudio internal browser should automatically open your web edition (but it's not a very good browser, so we typically close it and manually open the `index.html` file with Firefox or Chrome browser.)
-- Also, open the subfolder and inspect the PDF edition of your book. If RStudio found any errors, they will appear in the Build viewer. [See screenshot](images/bookdown/11-successful-build.png)
-- Hint: In future sessions with RStudio, you may need to select Packages tab and click Update to keep bookdown and other software packages up to date. [See screenshot](images/bookdown/12-packages-update.png)
-- Close RStudio.
+- Also, open the subfolder and inspect the PDF edition of your book. If any errors were generated in the process, error messages will appear in red type in the RStudio Build viewer, which may require you to debug errors and delete temporary files as instructed. [See screenshot](images/bookdown/11-successful-build.png)
+- Hint: In future sessions with RStudio, you should select the Packages tab and click Update to keep Bookdown and other software packages up to date. [See screenshot](images/bookdown/12-packages-update.png)
+- Close your project, and quit RStudio.
 
-#### Host your Book with GitHub Pages {-}
+#### Host Your Sample Book Online with GitHub Pages {-}
 - Open GitHub Desktop and navigate to the `bookdown-minimal` folder on your local computer. Write a quick summary to commit (or save) the changes you made above to your master branch, and push this version to your online GitHub repo.
 - In your web browser, go to your online GitHub repo, with a web address similar to `https://github.com/USERNAME/bookdown-minimal` (insert your own GitHub username).
 - In your GitHub repo, select Settings, and scroll down to the GitHub Pages section, which is a free web hosting service to publish your code and book editions on the public web. Select Master Branch as your source, and Save.
@@ -50,12 +59,18 @@ Below are steps we followed to set up the publishing platform for this book, usi
 - Reminder: You may need to wait up to one minute for edits to your GitHub online repo to appear live at your GitHub Pages web address. Also, after waiting for GitHub Pages to make changes, be sure to "force reload" or "hard refresh" your web browser to update directly from the GitHub Pages server, not the browser's internal cache. On Mac, press shift + command + R. On Windows, press ctrl + F5.
 
 #### Customize Bookdown and GitHub Settings and Domain Name {-}
-To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>. See details about configuration settings in Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).^[@xieBookdownAuthoringBooks2018]
+To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>. See more details about configuration settings, see Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).
 
-In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book. **TODO prior to PDF publication**, find LaTeX setting to convert "Figure" to "Image" in each caption. See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
+In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book.
+
+**TODO prior to PDF publication**
+
+- Find LaTeX setting to convert "Figure" to "Image" in each caption. See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
+- Display only "view" icon, not "edit" icon. As of January 2020, removing the "edit" field in the sample below did not remove the "edit" icon from the web browser. Bug?
 ```
 output_dir: "docs"
 book_filename: "Dougherty-etal-OnTheLine"
+edit: https://github.com/ontheline/otl-bookdown/blob/master/%s
 view: https://github.com/ontheline/otl-bookdown/blob/master/%s
 language:
   label:
@@ -79,7 +94,7 @@ output:
     split_bib: true
     number_sections: true
 ```
-In the GitHub repo for this book, here is the root file structure:
+Here is a simplified description of the root file structure in the GitHub repo for this book:
 
 - Preface of the book with non-numbered sections: `index.Rmd`
 - Chapters with first-level headers, such as: `01-chapter.Rmd`
@@ -90,7 +105,7 @@ In the GitHub repo for this book, here is the root file structure:
 
 When you change the names of chapters/sections, Bookdown builds new HMTL pages based on those new names, but old HMTL pages based on old chapter/section names may still exist in the same subfolder. To avoid confusion, you may wish to carefully delete old HTML pages in `docs` whenever you significantly alter names and build a new version of the book.
 
-In addition, this GitHub Pages repo is published with a custom domain name <https://OnTheLine.trincoll.edu>. Learn more about custom domain names at <https://help.github.com/articles/using-a-custom-domain-with-github-pages/>. Typically, a custom domain name is purchased from a web hosting service, such as [ReclaimHosting](http://reclaimhosting.com), and you may need customer support to access the Manage DNS (domain name system) to point your new URL to your GitHub Pages online site. For this book's custom domain name, <https://ontheline.trincoll.edu>, the IT staff at Trinity College created a subdomain on their .edu domain, which shows that my scholarship is affiliated with an academic institution. Adding a GitHub Pages custom domain name creates an additional `CNAME` file in the `docs` subfolder. Avoid accidentally erasing the `CNAME` file if you need to clear out any old HTML files in your subfolder.
+In addition, this GitHub Pages repo is published with a custom domain name <https://OnTheLine.trincoll.edu>. Learn more about custom domain names at <https://help.github.com/articles/using-a-custom-domain-with-github-pages/>. Typically, a custom domain name is purchased from a web hosting service, such as [ReclaimHosting](http://reclaimhosting.com), and you may need customer support to access the Manage DNS (domain name system) to point your new URL to your GitHub Pages online site. For this book's custom domain name, <https://ontheline.trincoll.edu>, the IT staff at Trinity College created a subdomain on their .edu domain, which shows that my scholarship is affiliated with an academic institution. For comparison, see our other Bookdown book, <https://datavizforall.org>, for which we intentionally purchased our own domain name. Adding a GitHub Pages custom domain name creates an additional `CNAME` file in the `docs` subfolder. Avoid accidentally erasing the `CNAME` file if you need to clear out any old HTML files in your subfolder.
 
 The web edition of this book includes two custom files that are referenced in the `index.Rmd` file header, and are generated into the web edition when building the book:
 ```
@@ -127,7 +142,7 @@ knitr::opts_chunk$set(echo = FALSE)
 options(knitr.graphics.auto_pdf = TRUE)
 ```
 
-#### Zotero and Better BibTex for Footnotes and Bibliography {-}
+#### Zotero and Better BibTeX for Notes and Bibliography {-}
 This workflow uses the open-source Zotero bibliography manager (http://zotero.org), with the Better BibTeX extension (https://retorque.re/zotero-better-bibtex/) to work more easily with Markdown and Bookdown. Rather than typing full references directly into the text, authors can insert a short citation key to each source, and the tools will automatically generate the desired references (such as Chicago-style footnotes, which historians love) and an alphabetized bibliography for the book. Furthermore, since authoring this *On The Line* book has been a multi-year process with multimedia sources whose web addresses have changed over time, this workflow ensures that the most up-to-date information in your Zotero database also appears in all editions of your book.
 
 With these tools installed, here's an outline of the author's workflow:
@@ -136,7 +151,7 @@ With these tools installed, here's an outline of the author's workflow:
 - The author identifies their preferred citation style at <https://www.zotero.org/styles>, uploads the file (example: chicago-fullnote-bibliography.csl) to the local book repo, and lists it in the `index.Rmd` settings for both the Web edition and the PDF edition.
 - Before each build in Bookdown, the author sets their Zotero preferences, and exports the Zotero library or specific collection to the root level of the local book repo (example: ontheline.bib).
 
-#### Installation and Settings {-}
+#### Zotero and Better BibTeX Installation and Settings {-}
 - Download and install [Zotero](http://zotero.org) for Mac, Windows, Linux, and add connectors to your browsers.
 - Install the [Better BibTeX extension](https://retorque.re/zotero-better-bibtex/installation/) and follow all of the site's instructions for initial setup.
 - At the top of each entry in Zotero, the extension will generate a unique citation code (example: tyackOneBestSystem1974).
