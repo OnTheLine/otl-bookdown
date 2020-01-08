@@ -31,7 +31,7 @@ Foster Milliken Jr., the HOLC field agent assigned to Hartford, was no stranger 
 
 (ref:1937-holc-hartford-map-scan) View the [Residential Security Map for Hartford and West Hartford, 1937](http://mapwarper.net/maps/15096), from the Home Owners' Loan Corporation records at the National Archives. HOLC staff transformed neighborhood appraisals for over 200 cities into color-coded maps. Green indicated the best neighborhoods for mortgage investment, followed by blue and yellow, and then red to mark the riskiest areas, hence the name "redlining."
 
-```{r 1937-holc-hartford-map-scan, echo=FALSE, fig.cap="(ref:1937-holc-hartford-map-scan)"}
+```{r 1937-holc-hartford-map-scan, fig.cap="(ref:1937-holc-hartford-map-scan)"}
  knitr::include_graphics("images/1937-holc-hartford-map-scan.jpg")
 ```
 
@@ -42,7 +42,7 @@ Milliken submitted his confidential report to the HOLC central office, where sta
 (ref:1937-otl-redlining) Click on color-coded areas in the [full-screen interactive map](https://ontheline.github.io/otl-redlining/index-caption.html) to view neighborhood appraisals by the Home Owners' Loan Corporation (HOLC) in the Hartford area, 1937. HOLC prioritized neighborhoods to receive mortgage lending from the highest level (A, in green) to the lowest (D, in red). This federal agency worked with local banks and lenders to evaluate Hartford and over 200 other cities during the Great Depression. They measured not only physical conditions, but also the "social status of the population," and downgraded neighborhoods with non-white, immigrant, and poor residents. In later decades, activists labeled these discriminatory lending practices as "redlining." View [historical sources and code](https://github.com/OnTheLine/otl-redlining) for this map, developed by Ilya Ilyankou and Jack Dougherty, based on an earlier version with UConn MAGIC and the Kirwin Institute.
 
 <!-- set iframe 600px height 100% width in custom-scripts.html -->
-```{r 1937-otl-redlining, echo=FALSE, fig.cap="(ref:1937-otl-redlining)"}
+```{r 1937-otl-redlining, fig.cap="(ref:1937-otl-redlining)"}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-redlining/") else knitr::include_graphics("images/1937-otl-redlining.png")
 ```
 
@@ -52,7 +52,7 @@ Which factors influenced Milliken's mortgage risk ratings? Although his report c
 
 (ref:1937-holc-inhabitants-c10) Explore the [HOLC area descriptions](https://github.com/ontheline/otl-redlining/blob/master/sources/holc-hartford-1937-appraisal.pdf), with forms that required appraisers to report the social composition of the neighborhood as a factor to measure mortgage risk. Source: Hartford area C-10, 1937, from the National Archives.
 
-```{r 1937-holc-inhabitants-c10, echo=FALSE, fig.cap="(ref:1937-holc-inhabitants-c10)"}
+```{r 1937-holc-inhabitants-c10, fig.cap="(ref:1937-holc-inhabitants-c10)"}
  knitr::include_graphics("images/1937-holc-inhabitants-c10.png")
 ```
 
@@ -64,7 +64,7 @@ Around the same time that HOLC created these color-coded maps, a second agency, 
 
 (ref:1936-fha-manual-247) Explore the [1936 Federal Housing Administration Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=246'), which illustrated how a poor location rating would result in a rejected mortgage application. Digitized by HathiTrust.
 
-```{r 1936-fha-manual-247, echo=FALSE, fig.cap="(ref:1936-fha-manual-247)"}
+```{r 1936-fha-manual-247, fig.cap="(ref:1936-fha-manual-247)"}
  knitr::include_graphics("images/1936-fha-manual-247.png")
 ```
 
@@ -72,7 +72,7 @@ In the Location category, the FHA *Underwriting Manual* instructed evaluators to
 
 (ref:1936-fha-manual-226) Scroll through the [1936 FHA Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=195'), which required lower scores for mortgage applications located in neighborhoods or near schools that might experience changes in the racial or social class composition of residents. Digitized by HathiTrust.
 
-```{r 1936-fha-manual-226, echo=FALSE, fig.cap="(ref:1936-fha-manual-226)"}
+```{r 1936-fha-manual-226, fig.cap="(ref:1936-fha-manual-226)"}
 if(knitr::is_html_output()) knitr::include_url("images/1936-fha-manual-226.pdf") else knitr::include_graphics("images/1936-fha-manual-226.png")
 ```
 
@@ -80,7 +80,7 @@ When the FHA expanded its *Manual* in 1938, it added a four-level neighborhood r
 
 (ref:1938-fha-manual-1849) The FHA introduced racial codes in its [1938 Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409261;view=1up;seq=476). Digitized by HathiTrust.
 
-```{r 1938-fha-manual-1849, echo=FALSE, fig.cap="(ref:1938-fha-manual-1849)"}
+```{r 1938-fha-manual-1849, fig.cap="(ref:1938-fha-manual-1849)"}
  knitr::include_graphics("images/1938-fha-manual-1849.png")
 ```
 
@@ -124,5 +124,5 @@ We do not know whether Hillier's claims about HOLC and FHA lending patterns also
 *[About the authors and contributors:](authors-and-contributors.html) Shaun McGann (Trinity 2014) wrote the first draft of this essay in the Cities Suburbs and Schools seminar, and published it in ConnecticutHistory.org.[@mcgannEffectsRedliningHartford2014] Jack Dougherty expanded the essay for publication in this book. Ilya Ilyankou (Trinity 2018) and Jack Dougherty developed the interactive map, based on an earlier version created with contributors from UConn MAGIC and the Kirwin Institute.*^[@ilyankouMapFederalHOLC2017; @universityofconnecticutlibrariesmapandgeographicinformationcenterFederalHOLCRedlining2012]
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

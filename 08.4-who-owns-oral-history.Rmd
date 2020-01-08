@@ -34,7 +34,7 @@ Candace: When I began working with the *On The Line* public history web-book pr
 
 (ref:2012-cc-licenses) Six types of Creative Commons licenses. [Image source](http://education-copyright.org/creative-commons), 2012.
 
-```{r 2012-cc-licenses, echo=FALSE, fig.cap="(ref:2012-cc-licenses)"}
+```{r 2012-cc-licenses, fig.cap="(ref:2012-cc-licenses)"}
  knitr::include_graphics("images/2012-cc-licenses.jpg")
 ```
 
@@ -58,7 +58,7 @@ In Hartford, a specific oral history interview we conducted with school integrat
 <!-- TODO - if moving all interviews to CTDA, then drop reference to Trinity repository above and below, but keep kaltura html5 embed  -->
 (ref:2011-sheff-elizabeth3) View the [oral history video interview and transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with Elizabeth Horton Sheff in 2011.
 
-```{r 2011-sheff-elizabeth3, echo=FALSE, fig.cap="(ref:2011-sheff-elizabeth3)"}
+```{r 2011-sheff-elizabeth3, fig.cap="(ref:2011-sheff-elizabeth3)"}
 if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
 ```
 
@@ -67,5 +67,5 @@ We do not contend that Creative Commons has resolved all of our questions about 
 *[About the authors](authors-and-contributors.html): Jack Dougherty and Candace Simpson (Trinity 2012) developed these ideas while conducting oral history interviews for this book, and co-presented at the 2012 joint meeting of the Organization of American Historians/National Council on Public History. Jack later expanded the essay for publication.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

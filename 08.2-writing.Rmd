@@ -17,7 +17,7 @@ For the past two years, Dougherty and Ceglio have collaborated on this Connectic
 
 (ref:2013-ceglio-teaches) Clarissa Ceglio teaches Trinity students Emily Meehan and Sean McGann how to write for ConnecticutHistory.org.
 
-```{r 2013-ceglio-teaches, echo=FALSE, fig.cap="(ref:2013-ceglio-teaches)"}
+```{r 2013-ceglio-teaches, fig.cap="(ref:2013-ceglio-teaches)"}
  knitr::include_graphics("images/2013-ceglio-teaches-meehan-mcgann.jpg")
 ```
 
@@ -32,7 +32,7 @@ After students revise their second drafts and embed links and images to relevant
 
 (ref:2013-seminar-googledoc) Students and mentors comment on draft essays using Google Documents.
 
-```{r 2013-seminar-googledoc, echo=FALSE, fig.cap="(ref:2013-seminar-googledoc)"}
+```{r 2013-seminar-googledoc, fig.cap="(ref:2013-seminar-googledoc)"}
  knitr::include_graphics("images/2013-seminar-googledoc.jpg")
 ```
 
@@ -46,7 +46,7 @@ Collaborating with ConnecticutHistory.org also encouraged undergraduate students
 
 (ref:2013-cthistory-video) Watch the [video clip](https://www.youtube.com/embed/NuWg9Jrkrpw?start=64) on Trinity students reflecting on their writing process with ConnecticutHistory.org in 2013.
 
-```{r 2013-cthistory-video, echo=FALSE, fig.cap="(ref:2013-cthistory-video)"}
+```{r 2013-cthistory-video, fig.cap="(ref:2013-cthistory-video)"}
 if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/NuWg9Jrkrpw?start=64") else knitr::include_graphics("images/2013-cthistory-video-screenshot.png")
 ```
 
@@ -78,5 +78,5 @@ Education/Instrucción Combats Housing Discrimination, by Savahna Reuben '15. Th
 *[About the authors:](authors-and-contributors.html) Elaina Rollins (Trinity 2016), Clarissa Ceglio, and Jack Dougherty co-wrote this essay based on their collaboration in the Cities Suburbs and Schools seminar.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

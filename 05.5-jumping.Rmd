@@ -15,7 +15,7 @@ Saundra Foster decided to "jump the line" by enrolling Trevor, a resident of the
 
 (ref:1985-foster-saundra) Watch this 1985 [television excerpt](https://vimeo.com/296304521) about how Saundra Foster, a Hartford resident, and three other Black parents were arrested by the suburban Bloomfield public school district for "stealing" a public education for their children. Although this video reveals her discomfort in discussing her case, local and national activists publicized her arrest to draw attention to broader issues of city-suburban inequity. Source: Mendoza and Saunders, *The Public File*, copyrighted by WVIT 1985, and included here under fair-use guidelines.
 
-```{r 1985-foster-saundra, echo=FALSE, fig.cap="(ref:1985-foster-saundra)"}
+```{r 1985-foster-saundra, fig.cap="(ref:1985-foster-saundra)"}
 if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/296304521") else knitr::include_graphics("images/1985-foster-saundra.png")
 ```
 
@@ -38,7 +38,7 @@ White racial anxiety at Bloomfield High was driven by the dramatic shift in raci
 
 (ref:1967-1984-bloomfield-by-race) This chart of racial change at Bloomfield High School, 1967-84, shows how it tipped from a White-majority to a Black-majority student population in the early 1980s, just before Bloomfield town leaders authorized the arrest of Saundra Foster and other parents.
 
-```{r 1967-1984-bloomfield-by-race, echo=FALSE, fig.cap="(ref:1967-1984-bloomfield-by-race)"}
+```{r 1967-1984-bloomfield-by-race, fig.cap="(ref:1967-1984-bloomfield-by-race)"}
  knitr::include_graphics("images/1967-1984-bloomfield-by-race.png")
 ```
 
@@ -54,7 +54,7 @@ Some news reporters  also played into suburban readers’ anxieties over non-res
 
 (ref:1985-04-05-hc-englehart) Amid the controversial arrest of Saundra Foster, *Hartford Courant* political cartoonist Bob Englehart portrayed Black Hartford students arriving at Bloomfield High School hidden in the trunks of cars, conjuring imagery of "illegal aliens" crossing the US-Mexico border. Source: Hartford Courant, copyrighted 1985, included here under fair-use guidelines.
 
-```{r 1985-04-05-hc-englehart, echo=FALSE, fig.cap="(ref:1985-04-05-hc-englehart)"}
+```{r 1985-04-05-hc-englehart, fig.cap="(ref:1985-04-05-hc-englehart)"}
  knitr::include_graphics("images/1985-04-05-hc-englehart.png")
 ```
 
@@ -72,5 +72,5 @@ Saundra Foster gladly stepped away from the spotlight when her case was dismisse
 *[About the authors and contributors:](authors-and-contributors.html) Vianna Iorio (Trinity 2019) and JiYun Lee (Trinity 2017) both wrote essays on this topic for the Cities Suburbs and Schools seminar, which Vianna later merged and revised for this book, in collaboration with Jack Dougherty. Also, Jasmin Agosto (Trinity 2010) and Richelle Benjamin (Trinity 2015) researched school residency sources.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

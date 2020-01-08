@@ -7,7 +7,7 @@ Ramos, Dixon, and Hinds co-founded Education/Instrucción, an innovative team wi
 
 (ref:1974circa-ei) Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos McKay, Ben Dixon, circa 1974.
 
-```{r 1974circa-ei, echo=FALSE, fig.cap="(ref:1974circa-ei)"}
+```{r 1974circa-ei, fig.cap="(ref:1974circa-ei)"}
  knitr::include_graphics("images/1974circa-education_instruccion_dixon-papers.jpg")
 ```
 
@@ -20,7 +20,7 @@ In 1973, the EI trio launched its ambitious campaign against racial steering in 
 
 (ref:1973-ya-basta-hinds-box5) Scroll the [full-screen document](http://ontheline.trincoll.edu/images/1973-ya-basta-hinds-box5.pdf) to read instructions for housing discrimination testers in the Ya Basta: Sue the Bastards project, 1973.
 
-```{r 1973-ya-basta-hinds-box5, echo=FALSE, fig.cap="(ref:1973-ya-basta-hinds-box5)"}
+```{r 1973-ya-basta-hinds-box5, fig.cap="(ref:1973-ya-basta-hinds-box5)"}
 if(knitr::is_html_output()) knitr::include_url("images/1973-ya-basta-hinds-box5.pdf") else knitr::include_graphics("images/1973-ya-basta-hinds-box5.png")
 ```
 
@@ -43,7 +43,7 @@ About 45 minutes after the White tester left, a Black female tester approached t
 
 (ref:1974-YaBastaExcerpts) Scroll the [full-screen document](http://ontheline.trincoll.edu/images/1974-YaBastaExcerpts-Hinds-box5.pdf) to read the transcript of housing tester secret tape-recordings in the Ya Basta: Sue the Bastards project, 1974.
 
-```{r 1974-YaBastaExcerpts, echo=FALSE, fig.cap="(ref:1974-YaBastaExcerpts)"}
+```{r 1974-YaBastaExcerpts, fig.cap="(ref:1974-YaBastaExcerpts)"}
 if(knitr::is_html_output()) knitr::include_url("images/1974-YaBastaExcerpts-Hinds-box5.pdf") else knitr::include_graphics("images/1974-YaBastaExcerpts-screenshot.png")
 ```
 
@@ -66,13 +66,13 @@ Education/Instrucción did not cease with its limited legal victory against raci
 
 (ref:1974-fairhousingreports-ctda.png) Explore the ["Fair Housing At Its Worst" series of ten reports](http://hdl.handle.net/11134/120002:otl-ei-fairhousingworst), based on originals in the Boyd Hinds Papers at the Hartford History Center, and shared online through the Connecticut Digital Archive.
 
-```{r 1974-fairhousingreports-ctda, echo=FALSE, fig.cap="(ref:1974-fairhousingreports-ctda)"}
+```{r 1974-fairhousingreports-ctda, fig.cap="(ref:1974-fairhousingreports-ctda)"}
  knitr::include_graphics("images/1974-fairhousingreports-ctda.png")
 ```
 
 (ref:1972-74-EI-images) Education/Instrucción creatively communicated its message by placing ads in the 1972 Hartford Courant Sunday real estate section to ask "What Creates, Maintains, and Condones over 99% White Population in the Hartford Suburbs?" and "Can You Understand Institutional White Racism?" (left). Its 1974 *Fair Housing At Its Worst* report 4 placed 1970s racial census data on a map to illustrate segregated housing (center), and report 2 showed layers of corporate and governmental control over the housing market (right).
 
-```{r 1972-74-EI-images, echo=FALSE, fig.cap="(ref:1972-74-EI-images)"}
+```{r 1972-74-EI-images, fig.cap="(ref:1972-74-EI-images)"}
  knitr::include_graphics("images/1972-74-EI-images.png")
  ```
 
@@ -115,5 +115,5 @@ Did the work of Education/Instrucción produce lasting reforms against racism? O
 *[About the authors and contributors:](authors-and-contributors.html) Jasmin Agosto (Trinity 2010) wrote the first draft as her senior thesis, researched additional sources, and conducted oral history interviews.[@agostoFightingSegregationTeaching2010] Vianna Iorio (Trinity 2019) and Jack Dougherty expanded on her work for the final draft. Special thanks to Ben Dixon and Lisa Hinds Humphreys (daughter of Boyd Hinds), who both contributed their archives, which were combined into the [Boyd Hinds Papers](http://hhc2.hplct.org/boyd_hinds_pdf.pdf) at the Hartford History Center, Hartford Public Library.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

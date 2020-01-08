@@ -11,7 +11,7 @@ Before leaping into Bookdown or any software tool, see [Alternative Publishing P
 
 (ref:0-bookdown-desktop) Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
 
-```{r 0-bookdown-desktop, echo=FALSE, fig.cap="(ref:0-bookdown-desktop)"}
+```{r 0-bookdown-desktop, fig.cap="(ref:0-bookdown-desktop)"}
  knitr::include_graphics("images/bookdown/0-bookdown-desktop.png")
 ```
 
@@ -163,5 +163,5 @@ To help other researchers find items cited in this book, URLs should be included
 Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in *every* instance in the web version, so that users do not need to scroll to find the complete source info.
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r Sys.Date()`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`
