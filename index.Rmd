@@ -36,9 +36,7 @@ output:
             <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
             <li><a href="https://bookdown.org" target="_blank">Built with Bookdown</a></li>
       download: [pdf]
-      edit:
-        link: https://github.com/ontheline/otl-bookdown/edit/master/%s
-        text: "Edit on GitHub"
+      view: https://github.com/ontheline/otl-bookdown/blob/master/%s
       search: yes
       sharing:
         facebook: yes
@@ -132,7 +130,7 @@ In your web browser, these toolbar features are available near the top of the pa
 - Menu
 - Search
 - Font to adjust text size and display
-- Edit / View source code on GitHub
+- View source code on GitHub
 - Download PDF
 - Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
 - Social Media

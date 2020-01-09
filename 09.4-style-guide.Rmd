@@ -5,7 +5,7 @@
 #### Goal {-}
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). The web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online.
 
-This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/).
+This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/). This publication has customized `style.css` to improve visual contrast. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L7).
 
 #### Markdown vs. R Markdown {-}
 The text is based on the easy-to-read Markdown syntax, which is summarized in this [popular cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and this [interactive tutorial](https://www.markdowntutorial.com). But Bookdown uses its own flavor: [RMarkdown by RStudio](https://rmarkdown.rstudio.com/). See also Yihui Xie's [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/).
@@ -29,6 +29,8 @@ For a block quote, start each line with a caret **AND** add two spaces to insert
 > I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.    
 > --- Mark Twain  
 > --- notable American author  
+
+Note that this book has customized `style.css` code for block quotes. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L37).
 
 #### Headers and Cross-reference links {-}
 In this book, we refer to both chapters (1, 2, etc.) and subchapters (1.1, 1.2, etc.) as "chapters" for simplicity. But Bookdown refers to these as chapters and sections, respectively.
@@ -66,14 +68,16 @@ In this book, `index.Rmd` begins with a non-numbered first-level header `# Prefa
 Also, at the end of each section in the main text, an HTML-only footer has been manually pasted, to ensure that each long web page contains author and copyright information, with links to key sections in the Preface, in case readers print out individual chapters from their browsers. TODO: Find a way to replace manually-pasted footers with a block that is global to the entire book.
 
 #### Footnotes/Endnotes {-}
-A text-only footnote.^[This is a footnote, with no reference.]
+This book uses endnotes that appear at the end of each chapter. Here's a text-only footnote, with no Zotero citation.^[This is a footnote, with no reference.]
 
-To create a footnote with citations only, separate BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
+To create a footnote with citations only, separate Zotero/BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
 
 Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 
+Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
+
 **TODO: KNOWN ISSUE in this book re: footnotes/endnotes**
-Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:
+Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final publication:
 
 - In the Web HTML edition, customized code in `style.css` renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.
 - But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
@@ -93,12 +97,13 @@ In the body of the book, avoid inserting images with simple Markdown syntax, bec
 
 #### Overview of R Code Chunks {-}
 - Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.
-- Insert a BLANK LINE between the text reference and the R code chunk that follows.
+- Insert a BLANK LINE between the text reference and the R code chunk that follows (or else you may see errors).
 - Insert an R code chunk <https://bookdown.org/yihui/bookdown/r-code.html>, with NO SPACES between ref:chunk-label, as shown in the examples below below.
 - To reduce the width (or height) of the output, add `out.width="50%"` to the code chunk, which works for Web edition and also PDF edition.
 - To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)
 - If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the `custom-scripts.html` file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the `index.Rmd` file includes the custom script in the header, as described in the section above.
 - In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote:  ...as shown in Image \@ref(fig:sample-interactive).^[@clarkCharterOakCity1876]
+- Insert another BLANK LINE immediately after the R code chunk (or else you may see errors).
 - Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.
 - Reminder: Bookdown does not auto-number figures in the `index.Rmd` file, which serves as a preface or introduction.
 - **TODO: KNOWN ISSUES to address prior to final PDF edition**:
@@ -129,6 +134,7 @@ if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-
 ```{r pdf-sample-local, fig.cap="(ref:pdf-sample-local)"}
 if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else knitr::include_graphics("images/sample-pdf-screenshot.png")
 ```
+
 <!-- TODO: test all video examples below in Windows Edge and Android devices -->
 
 #### Example 4a: YouTube video iframe in web edition, static image in PDF edition {-}
@@ -155,17 +161,26 @@ if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/ht
 Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4> and read more <https://confluence.uconn.edu/display/CTDA/Datastreams>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.
 
 #### Tables {-}
-This book currently uses Markdown table formatting, with header above and caption (in italicized text) below, using <http://www.tablesgenerator.com/> to generate Markdown output. Reminder: this does not create a Bookdown-generated auto-numbered figure, so cannot (yet) create dynamic reference.
-- TODO prior to final publication: decide whether to use the Bookdown-recommended kable package for tables, and add link to CSV in GitHub repo, and so on.
+Currently, this book uses Markdown table formatting, rather than a R code chunk solution, which means that tables are not auto-numbered, so numbers and cross-references must be inserted manually prior to final publication. Overall, Markdown seems to provide sufficient control for the types of tables in this publication, compared to R packages such as kable and huxtable.
 
-Sample body text immediately above the table, with optional links and footnote.^[@ilyankouMapFederalHOLC2017] Currently, use bold type for table header, not hashtags.
+Use a tool such as <https://www.tablesgenerator.com/markdown_tables> to import a significant amount of data in CSV format, format column alignment as desired, and press Generate button to create table in Markdown code.  
 
-**Sample table**
-| **Header 1**              | **Header 2**               | **Header 3**             |
-|---------------------------|----------------------------|--------------------------|
-| Security Grade            | Second                     | Third                    |
-| Location                  | Hartford                   | Hartford                 |
-| Trend Next Decade         | Stable                     | Stable                   |
+Place body text immediately above the table. Add a manual cross reference (...as shown in Table TODO #), with source note to data, and optional link to data in GitHub repo if available, preferably in CSV format.^[@ilyankouMapFederalHOLC2017]
+
+**Table TODO #: Title Here (and insert blank line before table begins)**
+
+| Much Much Longer Header | Short Header | Short Header |
+|:---------|:---|:---|
+| Use left-colons to left-justify text content | Less  | Here |
+| Use more hyphens to grant more space to some columns | Less | Here |
+
+**Table TODO #: Title Here (and insert blank line before table begins)**
+
+| Header1 | Header2 | Header3 |
+|-----:|-----:|-----:|
+| 123 | 456 | 789 |
+| Use right-colons | to right-justify  | numerical content |
+| Use equal hyphens | to grant similar space | to all columns |
 
 #### Further Reading {-}
 - Bookdown sections on Figures <https://bookdown.org/yihui/bookdown/figures.html> and Markdown extensions <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.

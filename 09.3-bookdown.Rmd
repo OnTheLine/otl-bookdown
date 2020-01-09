@@ -63,20 +63,14 @@ To see the file structure, settings, and content for this *On The Line* book, vi
 
 In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book.
 
-**TODO prior to PDF publication**
+**TODO prior to PDF publication** Find LaTeX setting to convert "Figure" to "Image" in each caption in PDF. See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
 
-- Find LaTeX setting to convert "Figure" to "Image" in each caption. See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
-- Display only "view" icon, not "edit" icon. As of January 2020, removing the "edit" field in the sample below did not remove the "edit" icon from the web browser. Bug?
 ```
 output_dir: "docs"
 book_filename: "Dougherty-etal-OnTheLine"
-edit: https://github.com/ontheline/otl-bookdown/blob/master/%s
-view: https://github.com/ontheline/otl-bookdown/blob/master/%s
 language:
   label:
     fig: "Image "
-ui:
-    edit: "Edit"
 chapter_name: "Chapter "
 ```
 

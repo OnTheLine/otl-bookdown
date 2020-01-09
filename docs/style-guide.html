@@ -181,7 +181,7 @@ $(document).ready(function() {
 <div id="goal" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Goal</h4>
 <p>The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the <a href="bookdown.html">previous chapter in this book</a>. The web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online.</p>
-<p>This style guide was created primarily for the HTML web edition of <em>On The Line</em> at <a href="http://OnTheLine.trincoll.edu" class="uri">http://OnTheLine.trincoll.edu</a>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>.</p>
+<p>This style guide was created primarily for the HTML web edition of <em>On The Line</em> at <a href="http://OnTheLine.trincoll.edu" class="uri">http://OnTheLine.trincoll.edu</a>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>. This publication has customized <code>style.css</code> to improve visual contrast. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L7">relevant code on GitHub</a>.</p>
 </div>
 <div id="markdown-vs.-r-markdown" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Markdown vs. R Markdown</h4>
@@ -202,6 +202,7 @@ $(document).ready(function() {
 — Mark Twain<br />
 — notable American author</p>
 </blockquote>
+<p>Note that this book has customized <code>style.css</code> code for block quotes. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L37">relevant code on GitHub</a>.</p>
 </div>
 <div id="headers-and-cross-reference-links" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Headers and Cross-reference links</h4>
@@ -234,11 +235,12 @@ This line appears in the PDF edition, and is commented-out in the HTML edition.
 </div>
 <div id="footnotesendnotes" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Footnotes/Endnotes</h4>
-<p>A text-only footnote.<a href="#fn196" class="footnote-ref" id="fnref196"><sup>196</sup></a></p>
-<p>To create a footnote with citations only, separate BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn197" class="footnote-ref" id="fnref197"><sup>197</sup></a></span></p>
+<p>This book uses endnotes that appear at the end of each chapter. Here’s a text-only footnote, with no Zotero citation.<a href="#fn196" class="footnote-ref" id="fnref196"><sup>196</sup></a></p>
+<p>To create a footnote with citations only, separate Zotero/BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn197" class="footnote-ref" id="fnref197"><sup>197</sup></a></span></p>
 <p>Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:<a href="#fn198" class="footnote-ref" id="fnref198"><sup>198</sup></a></p>
+<p>Note that this publication contains customized code in <code>style.css</code> to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80">relevant code on GitHub</a>.</p>
 <p><strong>TODO: KNOWN ISSUE in this book re: footnotes/endnotes</strong>
-Using Bookdown version 0.16 as of January 2020, note numbering appears differently across editions, and needs to be addressed prior to final publication:</p>
+Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final publication:</p>
 <ul>
 <li><p>In the Web HTML edition, customized code in <code>style.css</code> renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.</p></li>
 <li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.</p></li>
@@ -261,12 +263,13 @@ Using Bookdown version 0.16 as of January 2020, note numbering appears different
 <h4 class="unnumbered" number="">Overview of R Code Chunks</h4>
 <ul>
 <li>Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.</li>
-<li>Insert a BLANK LINE between the text reference and the R code chunk that follows.</li>
+<li>Insert a BLANK LINE between the text reference and the R code chunk that follows (or else you may see errors).</li>
 <li>Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown in the examples below below.</li>
 <li>To reduce the width (or height) of the output, add <code>out.width="50%"</code> to the code chunk, which works for Web edition and also PDF edition.</li>
 <li>To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)</li>
 <li>If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the <code>custom-scripts.html</code> file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.</li>
 <li>In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Image <a href="style-guide.html#fig:sample-interactive">50</a>.<a href="#fn199" class="footnote-ref" id="fnref199"><sup>199</sup></a></li>
+<li>Insert another BLANK LINE immediately after the R code chunk (or else you may see errors).</li>
 <li>Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.</li>
 <li>Reminder: Bookdown does not auto-number figures in the <code>index.Rmd</code> file, which serves as a preface or introduction.</li>
 <li><strong>TODO: KNOWN ISSUES to address prior to final PDF edition</strong>:
@@ -349,15 +352,58 @@ Image 54: Here’s a sample caption for a video on Trinity Kaltura server, using
 </div>
 <div id="tables" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Tables</h4>
-<p>This book currently uses Markdown table formatting, with header above and caption (in italicized text) below, using <a href="http://www.tablesgenerator.com/" class="uri">http://www.tablesgenerator.com/</a> to generate Markdown output. Reminder: this does not create a Bookdown-generated auto-numbered figure, so cannot (yet) create dynamic reference.
-- TODO prior to final publication: decide whether to use the Bookdown-recommended kable package for tables, and add link to CSV in GitHub repo, and so on.</p>
-<p>Sample body text immediately above the table, with optional links and footnote.<a href="#fn200" class="footnote-ref" id="fnref200"><sup>200</sup></a> Currently, use bold type for table header, not hashtags.</p>
-<p><strong>Sample table</strong>
-| <strong>Header 1</strong> | <strong>Header 2</strong> | <strong>Header 3</strong> |
-|—————————|—————————-|————————–|
-| Security Grade | Second | Third |
-| Location | Hartford | Hartford |
-| Trend Next Decade | Stable | Stable |</p>
+<p>Currently, this book uses Markdown table formatting, rather than a R code chunk solution, which means that tables are not auto-numbered, so numbers and cross-references must be inserted manually prior to final publication. Overall, Markdown seems to provide sufficient control for the types of tables in this publication, compared to R packages such as kable and huxtable.</p>
+<p>Use a tool such as <a href="https://www.tablesgenerator.com/markdown_tables" class="uri">https://www.tablesgenerator.com/markdown_tables</a> to import a significant amount of data in CSV format, format column alignment as desired, and press Generate button to create table in Markdown code.</p>
+<p>Place body text immediately above the table. Add a manual cross reference (…as shown in Table TODO #), with source note to data, and optional link to data in GitHub repo if available, preferably in CSV format.<a href="#fn200" class="footnote-ref" id="fnref200"><sup>200</sup></a></p>
+<p><strong>Table TODO #: Title Here (and insert blank line before table begins)</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Much Much Longer Header</th>
+<th align="left">Short Header</th>
+<th align="left">Short Header</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Use left-colons to left-justify text content</td>
+<td align="left">Less</td>
+<td align="left">Here</td>
+</tr>
+<tr class="even">
+<td align="left">Use more hyphens to grant more space to some columns</td>
+<td align="left">Less</td>
+<td align="left">Here</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table TODO #: Title Here (and insert blank line before table begins)</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Header1</th>
+<th align="right">Header2</th>
+<th align="right">Header3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">123</td>
+<td align="right">456</td>
+<td align="right">789</td>
+</tr>
+<tr class="even">
+<td align="right">Use right-colons</td>
+<td align="right">to right-justify</td>
+<td align="right">numerical content</td>
+</tr>
+<tr class="odd">
+<td align="right">Use equal hyphens</td>
+<td align="right">to grant similar space</td>
+<td align="right">to all columns</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="further-reading" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Further Reading</h4>
@@ -424,8 +470,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/ontheline/otl-bookdown/edit/master/09.4-style-guide.Rmd",
-"text": "Edit on GitHub"
+"link": null,
+"text": null
 },
 "history": {
 "link": null,

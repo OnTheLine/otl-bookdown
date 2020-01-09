@@ -121,9 +121,3 @@ blockquote > p:first-child {
   .footnotes p::before {
     content: counter(fn-number) '. ';
   }
-
-
- /* increase table width */
-   table {
-     width: 100% !important;
-   }
