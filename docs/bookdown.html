@@ -149,7 +149,7 @@ $(document).ready(function() {
 <li class="chapter" data-level="9.1" data-path="digital-history-dialogue.html"><a href="digital-history-dialogue.html"><i class="fa fa-check"></i><b>9.1</b> A Digital History Dialogue</a></li>
 <li class="chapter" data-level="9.2" data-path="maps-and-charts.html"><a href="maps-and-charts.html"><i class="fa fa-check"></i><b>9.2</b> List of Interactive Maps and Charts</a></li>
 <li class="chapter" data-level="9.3" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i><b>9.3</b> Building with Bookdown, GitHub, and Zotero</a></li>
-<li class="chapter" data-level="9.4" data-path="style-guide.html"><a href="style-guide.html"><i class="fa fa-check"></i><b>9.4</b> <em>On The Line</em> Style Guide for Bookdown + RMarkdown</a></li>
+<li class="chapter" data-level="9.4" data-path="style-guide.html"><a href="style-guide.html"><i class="fa fa-check"></i><b>9.4</b> Style Guide for Bookdown + RMarkdown in <em>On The Line</em></a></li>
 <li class="chapter" data-level="9.5" data-path="alternative.html"><a href="alternative.html"><i class="fa fa-check"></i><b>9.5</b> Alternative Publishing Platforms</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>10</b> Bibliography</a></li>
@@ -248,8 +248,7 @@ Image 48: Overview of the workflow on a Mac desktop: Compose and build the book 
 <div id="customize-bookdown-and-github-settings-and-domain-name" class="section level4 unnumbered" number="">
 <h4 class="unnumbered" number="">Customize Bookdown and GitHub Settings and Domain Name</h4>
 <p>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>. See more details about configuration settings, see Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.</p>
-<p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book.</p>
-<p><strong>TODO prior to PDF publication</strong> Find LaTeX setting to convert “Figure” to “Image” in each caption in PDF. See <a href="https://bookdown.org/yihui/bookdown/latexpdf.html" class="uri">https://bookdown.org/yihui/bookdown/latexpdf.html</a> and <a href="https://pandoc.org/MANUAL.html#variables-for-latex" class="uri">https://pandoc.org/MANUAL.html#variables-for-latex</a>.</p>
+<p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO: change for PDF output prior to PDF publication, see Style Guide.</strong></p>
 <pre><code>output_dir: &quot;docs&quot;
 book_filename: &quot;Dougherty-etal-OnTheLine&quot;
 language:
@@ -326,19 +325,21 @@ options(knitr.graphics.auto_pdf = TRUE)</code></pre>
 <li>Save the output as FILENAME.bib, save into your book repo, and be sure to match the settings in <code>index.Rmd</code>.</li>
 </ul></li>
 </ul>
-<p>These Zotero types appear correctly with this Bookdown workflow:
-- Book
-- Book chapter
-- Journal article
-- Newspaper
-- Thesis
-- Report
-- Blog post
-- Web page
-- Document – Use this all-purpose entry in place of other types: Law case, Presentation, Interview, Video recording, Television broadcast, etc. Insert important details (such as the archival location information) in the Publisher field.</p>
+<p>These Zotero types appear correctly with this Bookdown workflow:</p>
+<ul>
+<li>Book</li>
+<li>Book chapter</li>
+<li>Journal article</li>
+<li>Newspaper</li>
+<li>Thesis</li>
+<li>Report</li>
+<li>Web page</li>
+<li>Blog post – Avoid because Zotero Chicago-style entry inserts “(blog)” into citation title. Instead, use Web page.</li>
+<li>Document – Use this all-purpose entry in place of other types: Law case, Presentation, Interview, Video recording, Television broadcast, etc. Insert important details (such as the archival location information) in the Publisher field.</li>
+</ul>
 <p>To help other researchers find items cited in this book, URLs should be included in Zotero entries whenever feasible, even if not required by convention. For example, some print-only books and documents are hard to locate, so include an OCLC WorldCat permalink to make them easier to find (example: <a href="http://www.worldcat.org/oclc/20683509" class="uri">http://www.worldcat.org/oclc/20683509</a>). Also, if a print source has been digitized by HathiTrust, Google Books, or the Internet Archive, add one of these URLs to the Zotero entry.</p>
 <p>Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in <em>every</em> instance in the web version, so that users do not need to scroll to find the complete source info.</p>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 08 Jan 2020</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn about our <a href="copyright-with-open-access.html">open-access policy and code repository</a> and <a href="how-to-read-and-cite.html">how to read and cite</a> our work. This book-in-progress was last updated on: 11 Jan 2020</em></p>
 
 </div>
 </div>

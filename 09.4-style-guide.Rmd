@@ -1,11 +1,19 @@
-## *On The Line* Style Guide for Bookdown + RMarkdown {#style-guide}
+## Style Guide for Bookdown + RMarkdown in *On The Line* {#style-guide}
 
 **Important: See the code used in the examples on this page** by viewing it directly on the GitHub repo at <https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd>.
 
 #### Goal {-}
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). The web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online.
 
-This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and will require additional modifications prior to publishing the final PDF print edition. Also, to make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/). This publication has customized `style.css` to improve visual contrast. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L7).
+**TODO: make further Bookdown/LaTeX edits prior to final PDF publication**
+This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and will require additional modifications prior to publishing the final PDF print edition. See especially
+
+- <https://bookdown.org/yihui/bookdown/publishers.html>
+- <https://bookdown.org/yihui/bookdown/internationalization.html>
+- <https://bookdown.org/yihui/bookdown/latexpdf.html>
+- <https://pandoc.org/MANUAL.html#variables-for-latex>
+
+To make the Web edition as accessible as feasible for visually-impaired readers, this book is continually tested and improved using the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/). As a result, this publication has customized `style.css` to improve visual contrast. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L7).
 
 #### Markdown vs. R Markdown {-}
 The text is based on the easy-to-read Markdown syntax, which is summarized in this [popular cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and this [interactive tutorial](https://www.markdowntutorial.com). But Bookdown uses its own flavor: [RMarkdown by RStudio](https://rmarkdown.rstudio.com/). See also Yihui Xie's [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/).
@@ -23,6 +31,12 @@ Use HTML-style code comments to insert notes that are invisible in the book prod
 For an en-dash, use only two hyphens--like this--and compare with below.
 
 For an em-dash, use three hyphens---like this---and compare with above.
+
+Lists after headers are fine, but when they follow regular text like this:
+
+- Always
+- Insert
+- A Blank Line
 
 For a block quote, start each line with a caret **AND** add two spaces to insert a line break:
 
@@ -77,7 +91,7 @@ Since footnotes also may include text and punctuation in Markdown syntax, always
 Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
 
 **TODO: KNOWN ISSUE in this book re: footnotes/endnotes**
-Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final publication:
+Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:
 
 - In the Web HTML edition, customized code in `style.css` renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.
 - But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
@@ -106,7 +120,7 @@ In the body of the book, avoid inserting images with simple Markdown syntax, bec
 - Insert another BLANK LINE immediately after the R code chunk (or else you may see errors).
 - Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.
 - Reminder: Bookdown does not auto-number figures in the `index.Rmd` file, which serves as a preface or introduction.
-- **TODO: KNOWN ISSUES to address prior to final PDF edition**:
+- **TODO: KNOWN ISSUES to address prior to final PDF edition, and see links at top**:
   - HTML edition labels images by sequential number across the entire book (1, 2, 3 etc.), while PDF edition labels images by chapter number (1.1, 1.2, 2.1, etc.). See <https://bookdown.org/yihui/bookdown/latexpdf.html> and <https://pandoc.org/MANUAL.html#variables-for-latex>.
   - Reminder from [Yihui Xie](https://bookdown.org/yihui/rmarkdown/r-code.html#figures): "PDF documents are generated through the LaTeX files generated from R Markdown. A highly surprising fact to LaTeX beginners is that figures float by default: even if you generate a plot in a code chunk on the first page, the whole figure environment may float to the next page. This is just how LaTeX works by default. It has a tendency to float figures to the top or bottom of pages. Although it can be annoying and distracting, we recommend that you refrain from playing the “Whac-A-Mole” game in the beginning of your writing, i.e., desperately trying to position figures “correctly” while they seem to be always dodging you. You may wish to fine-tune the positions once the content is complete using the fig.pos chunk option (e.g., fig.pos = 'h'). See https://www.sharelatex.com/learn/Positioning_images_and_tables for possible values of fig.pos and more general tips about this behavior in LaTeX. In short, this can be a difficult problem for PDF output."
   - Decide whether to create PDF versions of JPG/PNG images to improve quality of output, and if so, set `auto_pdf = TRUE` inside `include_graphics()`. Read more at <https://bookdown.org/yihui/bookdown/figures.html>.
@@ -161,20 +175,20 @@ if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/ht
 Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4> and read more <https://confluence.uconn.edu/display/CTDA/Datastreams>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.
 
 #### Tables {-}
-Currently, this book uses Markdown table formatting, rather than a R code chunk solution, which means that tables are not auto-numbered, so numbers and cross-references must be inserted manually prior to final publication. Overall, Markdown seems to provide sufficient control for the types of tables in this publication, compared to R packages such as kable and huxtable.
+Currently, this book uses Markdown table formatting, rather than a R code chunk solution, which provides sufficient control for the types of tables in this publication, while requiring less time than more complex R table packages such as kable or huxtable. As a result, Markdown tables are not auto-numbered, so numbers and cross-references must be inserted manually prior to final publication, and there is no automatically generated List of Tables. **TODO prior to final PDF print publication**: decide if there is sufficient reason to switch to other table formats, see <https://bookdown.org/yihui/bookdown/tables.html>.
 
 Use a tool such as <https://www.tablesgenerator.com/markdown_tables> to import a significant amount of data in CSV format, format column alignment as desired, and press Generate button to create table in Markdown code.  
 
-Place body text immediately above the table. Add a manual cross reference (...as shown in Table TODO #), with source note to data, and optional link to data in GitHub repo if available, preferably in CSV format.^[@ilyankouMapFederalHOLC2017]
+Place body text immediately above the table. Add a manual cross-reference (...as shown in Table TODO #), with source note to data, and optional link to data in GitHub repo if available, preferably in CSV format.^[@ilyankouMapFederalHOLC2017]
 
-**Table TODO #: Title Here (and insert blank line before table begins)**
+**Table TODO #: Title Here in bold, and insert blank line before table begins**
 
 | Much Much Longer Header | Short Header | Short Header |
 |:---------|:---|:---|
 | Use left-colons to left-justify text content | Less  | Here |
 | Use more hyphens to grant more space to some columns | Less | Here |
 
-**Table TODO #: Title Here (and insert blank line before table begins)**
+**Table TODO #: Title Here in bold, and insert blank line before table begins**
 
 | Header1 | Header2 | Header3 |
 |-----:|-----:|-----:|
