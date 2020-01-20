@@ -181,20 +181,20 @@ Use a tool such as <https://www.tablesgenerator.com/markdown_tables> to import a
 
 Place body text immediately above the table. Add a manual cross-reference (...as shown in Table TODO #), with source note to data, and optional link to data in GitHub repo if available, preferably in CSV format.^[@ilyankouMapFederalHOLC2017]
 
-**Table TODO #: Title Here in bold, and insert blank line before table begins**
+**Table #: Title Here in bold, and insert blank line before table begins**
 
 | Much Much Longer Header | Short Header | Short Header |
 |:---------|:---|:---|
-| Use left-colons to left-justify text content | Less  | Here |
+| Left-justify text content with left-colons | Less  | Here |
 | Use more hyphens to grant more space to some columns | Less | Here |
 
-**Table TODO #: Title Here in bold, and insert blank line before table begins**
+**Table #: Title Here in bold, and insert blank line before table begins**
 
 | Header1 | Header2 | Header3 |
 |-----:|-----:|-----:|
 | 123 | 456 | 789 |
-| Use right-colons | to right-justify  | numerical content |
-| Use equal hyphens | to grant similar space | to all columns |
+| Right-justify | numerical content  | with right-colons |
+| Use equal hyphens | to make equal space | for all columns |
 
 #### Further Reading {-}
 - Bookdown sections on Figures <https://bookdown.org/yihui/bookdown/figures.html> and Markdown extensions <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.

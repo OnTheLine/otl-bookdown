@@ -1,0 +1,19 @@
+## List of Maps and Charts {#maps-and-charts}
+*by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html)*
+
+Interactive maps and charts created for the [*On The Line* book](http://ontheline.trincoll.edu), listed by year. Click on links to explore the full-size interactive versions on the web, access the source data and code, and read in context in this book.
+
+| Screenshot | Description and Links |
+|:---|:------|
+| ![map image](images/1600s-otl-town-borders.jpg) | Town Borders in Hartford County, CT, from 1600s to Present.</br>  Explore full-size interactive map at <https://ontheline.github.io/otl-town-borders>, with source data at <https://github.com/ontheline/otl-town-borders>. Read in context in the [Carving Up Town Boundaries chapter](carving.html). |
+| ![map image](images/1910-2010-otl-home-value.jpg) | Home Value Index in Hartford County, CT, from 1910-2010.</br>  Explore full-size interactive map at <https://ontheline.github.io/otl-home-value/index-caption.html>, with source data at <https://github.com/ontheline/otl-home-value>. Read in context in the [Richest City in the Nation chapter](richest.html). |
+| ![map image](images/1937-otl-redlining.png) | Federal Home Owners' Loan Corporation "Redlining" in Hartford area, 1937.</br> Explore full-size interactive map at <https://ontheline.github.io/otl-redlining/index-caption.html>, with source data at <https://github.com/ontheline/otl-redlining>. Read in context in the [Federal Lending and Redlining chapter](lending.html). |
+| ![map image](images/1940-otl-covenants.png) | Restrictive Covenants in Hartford area, 1940s.</br> Explore full-size interactive map at <https://ontheline.github.io/otl-covenants/index-caption.html>, with source data at <https://github.com/ontheline/otl-covenants>. Read in context in the [Restricting with Racial Covenants chapter](restricting.html).|
+|   |   |
+
+TODO: Add more maps and charts
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn about our [open-access policy and code repository](copyright-with-open-access.html) and [how to read and cite](how-to-read-and-cite.html) our work. This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
+`r if (knitr::is_latex_output()) '-->'`
