@@ -73,10 +73,63 @@ Written **for the liberal arts**, the book blends interdisciplinary scholarship 
 
 In sum, *On The Line* blends the best aspects of conventional publishing and web innovation. The main narrative still looks and feels like a scholarly book, divided into chapters and backed up by endnotes. But the web platform allows us to embed digital evidence on the page, and to link directly to external resources located elsewhere. As a result, this book delivers a more comprehensive, coherent, and connected work of scholarship than what was previously possible in print-only publications, or scattered online journal articles and blog posts, at no cost to the reader. Flip the page---in whatever format you prefer---and find out for yourself.  
 
+<!-- TODO - INSERT screencast of book features, such as text, notes, interactives. Remind readers to open links in new tabs, usually with a right-click or two-finger click, and illustrate this based on DataVizForall -->
+
+## How to Read and Cite {-}
+This open-access book-in-progress is freely available in **two formats:** Web and PDF. **Read the online Web edition** at (http://ontheline.trincoll.edu) to fully experience the interactive maps, video clips, and clickable source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones). In your web browser, try these toolbar features near the top of the page:
+
+- Menu
+- Search
+- Font to adjust text size and display
+- View source code on GitHub
+- Download PDF
+- Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
+- Social Media
+- Share
+
+```{r how-to-read}
+ knitr::include_graphics("images/preface/how-to-read.png")
+```
+<!-- TODO - after completion, revise text about book-in-progress -->
+A second option is to freely [download the PDF edition](https://ontheline.trincoll.edu/Dougherty-etal-OnTheLine.pdf), which you can print out on paper for off-line reading. Although static images will appear in place of interactive maps and videos, the text and source notes in the PDF version are nearly identical to the web version. Since this digital-first has been created primarily for the web, some aspects of the book-in-progress may appear incomplete in the PDF edition.  After the final manuscript is completed, a cleaner PDF version will be formatted, which the publisher will use to create an inexpensive paperback edition for sale.
+
+Finally, the book consists of several chapters, such as [Chapter 2: Defining City and Suburban Lines](defining.html). Each of these contains several sub-chapters, such as [2.1: The Richest City in the Nation](richest.html). For simplicity, refer to any of these as "chapters" of the book.
+
+#### How to Cite {-}
+To cite this book-in-progress, please refer to the web edition (rather than the PDF editions), since this online version is easiest for all readers to access instantly.
+
+For general citations of the book, see these samples of common academic styles:
+
+>**Chicago-style footnote or endnote:**  
+>Jack Dougherty and contributors, *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs* (Trinity College, book-in-progress, 2020), http://ontheline.trincoll.edu.
+>
+>**Chicago-style bibliography entry:**  
+>Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. http://ontheline.trincoll.edu.
+>
+>**MLA bibliography entry (with web address):**  
+>Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. Web. <http://ontheline.trincoll.edu/>.
+>
+>**APA reference entry:**  
+>Dougherty, J., & contributors. (2020). *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress. Retrieved from http://ontheline.trincoll.edu
+
+To cite a specific passage, insert the author/title/web address of the relevant chapter as a "book section" in your preferred citation style. Since the web edition does not include page numbers, rely on the URL to point to the specific page.
+
+>Sample Chicago-style note for a specific chapter:  
+>Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, "Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org," in *On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs* (Trinity College, book-in-progress, 2020), https://ontheline.trincoll.edu/writing.
+
+What if web links break?
+All past and present editions of On The Line include the stable web address (http://OnTheLine.trincoll.edu), which redirects readers to the current version of the book.
+
+The web edition of the book also includes internal links to different pages within the book (e.g. selected chapters, bibliography, etc.) If any internal links break, this platform has been set up to automatically redirect readers to the book's home page.
+
+The book also contains external links (such as endnotes that refer to other articles, books, or websites). Whenever possible, external links point to open-access sources. When only paywall-protected sources are available, external links may include a web address specific to readers on the Trinity College network.
+
+If any external links break, each endnote contains a full citation and external web address, which readers may search in the "Way Back Machine" at (http://archive.org) to see the most recent version of this site. [Donate to the Internet Archive](http://archive.org/donate/), the non-profit organization that maintains this valuable collection of our digital history as a free public service.
+
 ## Authors and Contributors {-}
-<!-- TODO: add text here about the number of Trinity College undergraduates who co-authored papers or co-presented works -->
-<!-- TODO: improve table output for PDF, and refer to many readings on tables with images for HTML and LaTeX -->
+<!-- TODO: improve table output for PDF? See posts on tables with images for HTML and LaTeX -->
 <!-- current method: create uniform 150x150 at 300dpi JPG (not PNG) images; use colon to left-justify, and hyphens to set relative width (2 vs. 10) -->
+While teaching and researching this book at Trinity College, over 25 undergraduate students have co-authored publications or co-presented conference papers with the lead author. Several also were invited to co-author chapters or make other significant contributions to this publication, and are listed below.
 
 |  | Lead Author |
 | :-- | :---------- |
@@ -117,65 +170,7 @@ Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographi
 ## Acknowledgements {-}
 TODO
 
-## How to Read and Cite {-}
-
-#### Two free editions: Web and PDF {-}
-
-**Read the web edition** at (http://ontheline.trincoll.edu) to fully experience the interactive maps, video clips, and source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones).
-
-<!-- TODO - remind readers to open links in new tabs, usually with a right-click or two-finger click, and illustrate this based on DataVizForall -->
-
-In your web browser, these toolbar features are available near the top of the page:
-
-- Menu
-- Search
-- Font to adjust text size and display
-- View source code on GitHub
-- Download PDF
-- Shortcuts (arrow keys to navigate; `s` to toggle sidebar; `f` to toggle search)
-- Social Media
-- Share
-
-```{r how-to-read}
- knitr::include_graphics("images/preface/how-to-read.png")
-```
-
-Also, readers may freely download the PDF edition and print it out on paper for off-line reading. Static images will appear in place of interactive maps and videos, with links to the online versions. After this book-in-progress is completed, a cleaner PDF file will be available to download, and an inexpensive paperback edition will be sold by the publisher.
-
-#### How to Cite {-}
-
-To cite this book-in-progress, please refer to the web edition (rather than the PDF editions), since this online version is easiest for all readers to access instantly.
-
-For general citations of the book, see these samples of common academic styles:
-
->**Chicago-style footnote or endnote:**  
->Jack Dougherty and contributors, *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs* (Trinity College, book-in-progress, 2020), http://ontheline.trincoll.edu.
->
->**Chicago-style bibliography entry:**  
->Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. http://ontheline.trincoll.edu.
->
->**MLA bibliography entry (with web address):**  
->Dougherty, Jack, and contributors. *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress, 2020. Web. <http://ontheline.trincoll.edu/>.
->
->**APA reference entry:**  
->Dougherty, J., & contributors. (2020). *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress. Retrieved from http://ontheline.trincoll.edu
-
-To cite a specific passage, insert the author/title/web address of the relevant chapter as a "book section" in your preferred citation style. Since the web edition does not include page numbers, rely on the URL to point to the specific page.
-
->Sample Chicago-style note for a specific chapter:  
->Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, "Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org," in *On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs* (Trinity College, book-in-progress, 2020), https://ontheline.trincoll.edu/writing.
-
-What if web links break?
-All past and present editions of On The Line include the stable web address (http://OnTheLine.trincoll.edu), which redirects readers to the current version of the book.
-
-The web edition of the book also includes internal links to different pages within the book (e.g. selected chapters, bibliography, etc.) If any internal links break, this platform has been set up to automatically redirect readers to the book's home page.
-
-The book also contains external links (such as endnotes that refer to other articles, books, or websites). Whenever possible, external links point to open-access sources. When only paywall-protected sources are available, external links may include a web address specific to readers on the Trinity College network.
-
-If any external links break, each endnote contains a full citation and external web address, which readers may search in the "Way Back Machine" at (http://archive.org) to see the most recent version of this site. [Donate to the Internet Archive](http://archive.org/donate/), the non-profit organization that maintains this valuable collection of our digital history as a free public service.
-
 ## Copyright with Open Access {-}
-
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a href="http://ontheline.trincoll.edu"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">On The Line</span></a> is an open-access, born-digital, book-in-progress by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ontheline.trincoll.edu" property="cc:attributionName" rel="cc:attributionURL">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See exceptions for specific items noted as copyrighted by others and included here under fair-use guidelines.
 
 ![github logo](images/github-logo-90x37.png)
