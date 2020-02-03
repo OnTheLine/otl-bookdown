@@ -9,7 +9,7 @@ Saundra Foster decided to "jump the line" by enrolling Trevor, a resident of the
 
 <!-- TODO - replace this quick static map with a link to specific location and decade in interactive racial map, to come. -->
 
-![City-suburban school district boundaries between Hartford and Bloomfield](images/quick-B-H-WH-map.png)
+![City-suburban school district boundaries between Hartford and Bloomfield](images/quick-b-h-wh-map.png)
 
 <!-- TODO - insert link and reference to the full-length version of the video below, and decide where it should be uploaded -->
 
