@@ -18,10 +18,16 @@ This open-access book is built with free-to-use, open-source tools---primarily B
 
 Before leaping into Bookdown or any software tool, see [Alternative Publishing Platforms](alternative.html) in this book.
 
-(ref:0-bookdown-desktop) Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
+(ref:0-workflow2-desktop) Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
 
-```{r 0-bookdown-desktop, fig.cap="(ref:0-bookdown-desktop)"}
- knitr::include_graphics("images/bookdown/0-bookdown-desktop.png")
+```{r 0-workflow2-desktop, fig.cap="(ref:0-workflow2-desktop)"}
+ knitr::include_graphics("images/bookdown/0-workflow2-desktop.png")
+```
+
+(ref:0-workflow3-atom) Optional variation on the workflow above: Use your preferred text editor, such as Atom, to compose Bookdown files in .Rmd format, as shown on the left side of the screen, and save all files on your local drive. Then use RStudio only to build the book products, as shown in the bottom-right corner of the screen, into the `docs` subfolder of your local drive. All changes saved with Atom editor to the local drive automatically appear in the RStudio pre-build files.  
+
+```{r 0-workflow3-atom, fig.cap="(ref:0-workflow3-atom)"}
+ knitr::include_graphics("images/bookdown/0-workflow3-atom.png")
 ```
 
 #### Install Bookdown with R, RStudio, and a LaTeX Engine {-}
@@ -61,7 +67,7 @@ Below are steps we followed to set up the publishing platform for this book, usi
 #### Customize Bookdown and GitHub Settings and Domain Name {-}
 To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>. See more details about configuration settings, see Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).
 
-In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book. **TODO: change for PDF output prior to PDF publication, see Style Guide.** 
+In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book. **TODO: change for PDF output prior to PDF publication, see Style Guide.**
 
 ```
 output_dir: "docs"

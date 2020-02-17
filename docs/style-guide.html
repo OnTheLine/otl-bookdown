@@ -279,10 +279,11 @@ Using Bookdown version 0.16 as of January 2020, note numbering with customized c
 <li>Define a text reference for captions, because this method accepts complex syntax, such as RMarkdown links, as shown in the examples below. Do NOT insert footnote references in the caption. Instead, place them in the body text, as explained above.</li>
 <li>Insert a BLANK LINE between the text reference and the R code chunk that follows (or else you may see errors).</li>
 <li>Insert an R code chunk <a href="https://bookdown.org/yihui/bookdown/r-code.html" class="uri">https://bookdown.org/yihui/bookdown/r-code.html</a>, with NO SPACES between ref:chunk-label, as shown in the examples below below.</li>
+<li>Use shorter chunk-labels, not longer chunk-labels-with-many-hyphens-like-this.</li>
 <li>To reduce the width (or height) of the output, add <code>out.width="50%"</code> to the code chunk, which works for Web edition and also PDF edition.</li>
 <li>To display interactive content in the Web edition and a static image in the PDF edition, create both elements and insert an if-else statement in the R code chunk to display these elements in different outputs, as shown below. (Thanks to Michael Dorman for this tip.)</li>
 <li>If the interactive content includes an iframe (for a map or chart), the default height will be 400 pixels. To adjust the iframe height (or width), insert a line of code in the <code>custom-scripts.html</code> file and add a code comment to the text to serve as a reminder, as shown below. Also, make sure that the <code>index.Rmd</code> file includes the custom script in the header, as described in the section above.</li>
-<li>In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Image <a href="style-guide.html#fig:sample-interactive">9.4</a>.<a href="#fn199" class="footnote-ref" id="fnref199"><sup>199</sup></a></li>
+<li>In the body text, insert a dynamic reference to the image in the same file, because PDF engine creates floating images that may be placed on the next page. Example of dynamic ref followed by footnote: …as shown in Image <a href="style-guide.html#fig:sample-interactive">9.5</a>.<a href="#fn199" class="footnote-ref" id="fnref199"><sup>199</sup></a></li>
 <li>Insert another BLANK LINE immediately after the R code chunk (or else you may see errors).</li>
 <li>Reminder: If the image appears a second time in the book, in a separate chapter, be sure to relabel the text ref: year-title2.</li>
 <li>Reminder: Bookdown does not auto-number figures in the <code>index.Rmd</code> file, which serves as a preface or introduction.</li>
@@ -302,7 +303,7 @@ Using Bookdown version 0.16 as of January 2020, note numbering with customized c
 <div class="figure"><span id="fig:sample-static-image"></span>
 <img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting and links." width="50%" />
 <p class="caption">
-Image 9.3: Caption for sample static image, with Markdown formatting and links.
+Image 9.4: Caption for sample static image, with Markdown formatting and links.
 </p>
 </div>
 </div>
@@ -314,7 +315,7 @@ Image 9.3: Caption for sample static image, with Markdown formatting and links.
 <iframe src="https://ontheline.github.io/otl-redlining/" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 9.4: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.
+Image 9.5: Caption for all versions here, with link to <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map with its own caption</a>, and link to <a href="https://github.com/ontheline/otl-redlining/">map historical sources, known issues, and the code</a>, developed by Ilya Ilyankou and Jack Dougherty.
 </p>
 </div>
 </div>
@@ -325,7 +326,7 @@ Image 9.4: Caption for all versions here, with link to <a href="https://onthelin
 <iframe src="images/sample-3pp.pdf" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 9.5: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
+Image 9.6: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 </p>
 </div>
 <!-- TODO: test all video examples below in Windows Edge and Android devices -->
@@ -337,7 +338,7 @@ Image 9.5: Here’s a sample PDF that is locally stored in the GitHub repo, with
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 9.6: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
+Image 9.7: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 </p>
 </div>
 </div>
@@ -348,7 +349,7 @@ Image 9.6: Here’s a sample caption for a YouTube video, with option to add Mar
 <iframe src="https://player.vimeo.com/video/27299734" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 9.7: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
+Image 9.8: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 </p>
 </div>
 </div>
@@ -359,7 +360,7 @@ Image 9.7: Here’s a sample caption for Vimeo video, with option to add Markdow
 <iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 9.8: Here’s a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura “share” embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
+Image 9.9: Here’s a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura “share” embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
 </p>
 </div>
 <p>Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <a href="https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4" class="uri">https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4</a> and read more <a href="https://confluence.uconn.edu/display/CTDA/Datastreams" class="uri">https://confluence.uconn.edu/display/CTDA/Datastreams</a>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.</p>
@@ -433,7 +434,7 @@ Image 9.8: Here’s a sample caption for a video on Trinity Kaltura server, usin
 <li>Summary of image and table approaches <a href="https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a" class="uri">https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a</a></li>
 <li>Using “hold position” in kable extra to prevent tables being displayed at bottom of page <a href="https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf" class="uri">https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf</a></li>
 </ul>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 03 Feb 2020</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 17 Feb 2020</em></p>
 
 </div>
 </div>
