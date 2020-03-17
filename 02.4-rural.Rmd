@@ -19,8 +19,9 @@ In 1901, the Connecticut State Board of Education attempted to shame towns by pr
 ```{r 1901-csde-one-room-school-p3, fig.cap="(ref:1901-csde-one-room-school-p3)", out.width="50%"}
  knitr::include_graphics("images/1901-csde-one-room-school-p3.jpg")
 ```
+TODO: add index-caption
 
-(ref:2020-otl-oldschoolct) Click thumbnail photos in this [full-screen interactive map](https://ontheline.github.io/otl-oldschoolct) to view larger present-day photos from [Instragram photographer Johnna Kaplan](https://www.instagram.com/oldschoolct), shown here with her permission. View the [map data and code](https://github.com/ontheline/otl-oldschoolct), developed by Ilya Ilyankou and Jack Dougherty, with research by Elizabeth Rose.
+(ref:2020-otl-oldschoolct) Click thumbnail photos in this [full-screen interactive map](https://ontheline.github.io/otl-oldschoolct/index.html) to view larger present-day photos from [Instragram photographer Johnna Kaplan](https://www.instagram.com/oldschoolct), shown here with her permission. Map developed by Ilya Ilyankou and Jack Dougherty, with research by Elizabeth Rose. View [map data and code on GitHub](https://github.com/ontheline/otl-oldschoolct).
 
 <!-- set iframe 625px height 100% width in custom-scripts.html -->
 ```{r 2020-otl-oldschoolct, fig.cap="(ref:2020-otl-oldschoolct)"}
