@@ -153,17 +153,24 @@ When the FHA expanded its *Manual* in 1938, it added a four-level ranking for th
  knitr::include_graphics("images/1938-fha-manual-1849.png")
 ```
 
-START AGAIN HERE -- add paragraph to emphasize the lasting influence of FHA over time...
+While the HOLC program became less active as a mortgage lender during its consolidation phase (1935-1951), the FHA program grew during the Depression era by insuring mortgage repayments to lenders, thereby using public funds to cooperate with, rather than compete against, private enterprise. Since FHA guidelines favored newer construction in all-White areas, the federal government funded mass suburbanization outside of major cities. After World War II, the GI Bill created the Veterans Administration, which launched a closely related VA-guaranteed mortgage program to make it more affordable for returning soldiers and sailors to purchase their homes. While the discriminatory policies have been changed as a result of the 1968 Fair Housing Act, the FHA continues to exist today and currently insures mortgage repayments for over 8 million single-family homes.^[@jacksonCrabgrassFrontierSuburbanization1985, p. 206-07; @ @FederalHousingAdministration2020] 
 
+#### Comparing the Impact of HOLC and FHA {-}
 
-#### Comparing the Impact of HOLC and FHA in the Hartford Area {-}
+Although both of these New Deal mortgage programs---the Home Owners' Loan Corporation and the Federal Housing Administration---clearly illustrate the segregationist intent of the public officials who administered them, their impact in people in places such as the Hartford region were not identical. While the HOLC "redlining" maps visually capture our attention as stark evidence of government-sponsored discrimination, many readers are surprised to learn that HOLC did, in fact, offer mortgage loans to Black homeowners in "hazardous" neighborhoods, and in some cases at higher proportions than to White homeowners. By contrast, the discriminatory power of FHA-insured mortgage policy has been buried inside lengthy bureaucratic government documents such as the *Underwriting Manual*, which have not yet attracted similar levels of public attention, perhaps because the details are more difficult for novices to understand. The remainder of this chapter seeks to clearly lay out some of the key differences between the relative impact of HOLC versus FHA.
+
+When Kenneth Jackson effectively launched the field of US suburban history with the publication of *Crabgrass Frontier* in 1985, he drew scholarly attention to the discriminatory practice of both the HOLC and the FHA mortgage programs. Jackson's book reprinted a sample HOLC "redlining" map in black and white, and pointed out how field agents and local bankers rated neighborhood investment risks based on the presence of "Negro" or "Jewish" residents.
+
+RESTATE BROAD POINT: But as the origins of redlining have become popularized, important distinctions between these 1930s federal programs have become blurred. The latter portion of this chapter draws on recent works by historians Amy Hillier, as well as [insert names] Michney and Winling, to revise common misunderstandings. Although the HOLC color-coded "redlining" maps provide the most visually striking portrayal of discrimination in government policy, the FHA created more powerful and enduring tools of segregation through its more bureaucratic *Underwriting Manual*, which have had far more influence in shaping the lines that have divided us over time.
 
 
 While some lenders avoided the third- and fourth-grade areas, Milliken's report was cautious to avoid implying that good mortgage investments could not be made there. Rather, "we do think [mortgages] should be made and serviced [but] on a different basis than in the First and Second grade areas." In this way, the HOLC did not refuse to offer loans in the "redlined" areas, but acknowledged that this practice existed among some lenders, and justified doing business differently in these areas.^[TODO: quotes from 1937 report, p. 1; pp. 3-4]
 
 From Mapping America: "Mapping with geographic information systems (GIS) and quantitative statistical methods from the social sciences, scholars including Amy Hillier and James Greer have countered Jackson’s initial assessment. Some African Americans did gain access to HOLC financing, and a neighborhood rating was neither a blanket guarantee nor proscription for New Deal aid—“C” and “D”-rated neighborhoods often received more mortgages than nearby “A” neighborhoods."
 
-Conclusions about HOLC in Hartford
+Conclusions about Homeownership and HOLC in Hartford
+
+- Homeownership rates increased for all Americans during the New Deal era... [data] but they increased at a higher rate for Whites compared to Blacks ...[data]
 
 - In the City of Hartford, the Black single-family homeownership rate was around 6 percent in 1940, about half the rate of White homeownership.
 - The number of Black single-family homeowners in Hartford was small -- only 119 -- compared to over 7577 White single-family homeowners.
