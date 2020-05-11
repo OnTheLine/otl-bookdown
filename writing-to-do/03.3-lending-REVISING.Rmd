@@ -150,15 +150,34 @@ Federal housing policy also shaped local educational policy. FHA guidelines effe
 
 The FHA *Underwriting Manual* readily encouraged other legal strategies to racially segregate housing, such as race restrictive covenants, described in more detail [in a later chapter](restricting.html) in this book.  also approved of restrictive deeds that prohibited "the occupancy of properties except by the race for which they are intended" for at least twenty years. In fact, when restrictive property covenants covered an entire housing development or neighborhood, the *Manual* judged them to be more effective than zoning ordinances, which municipalities may have adopted "with little or no real understanding of its purpose." ^[@federalhousingadministrationUnderwritingManualUnderwriting1936, part II, sections 233, 229, 289, 284, 227-28. TODO: check which pages numbers are relevant]
 
-When the FHA expanded its *Manual* in 1938, it added a four-level ranking for the neighborhood location, on a scale from A to D, based largely on the HOLC City Security Map ratings. Updated FHA evaluation forms also included specific codes to designate the predominant racial composition of the neighborhood: White, Mixed, Foreign, and Negro, as shown in Image \@ref(fig:1938-fha-manual-1849).^[@federalhousingadministrationUnderwritingManualUnderwriting1938a, section 1849-50; TO DO: expand from Rothstein book HOW THIS RACIAL LANGUAGE CONTINUED EXPLICITLY thru 1952, then still implicitly later, see Rothstein p 64]
+When the FHA expanded its *Manual* in 1938, it added a four-level ranking for the neighborhood location, on a scale from A to D, based largely on the HOLC City Security Map ratings. Updated FHA evaluation forms also included specific codes to designate the predominant racial composition of the neighborhood: White, Mixed, Foreign, and Negro, as shown in Image \@ref(fig:1938-fha-manual-1849).^[@federalhousingadministrationUnderwritingManualUnderwriting1938a, section 1849-50]
 
 (ref:1938-fha-manual-1849) The FHA introduced racial codes in its [1938 Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409261;view=1up;seq=476). Digitized by HathiTrust.
 
 ```{r 1938-fha-manual-1849, fig.cap="(ref:1938-fha-manual-1849)"}
  knitr::include_graphics("images/1938-fha-manual-1849.png")
 ```
+One lasting difference between HOLC and FHA was the volume of loans serviced over time. During its rescue phase from 1933-1935, HOLC purchased mortgages with a total value of over $3 billion, but that dropped off during its consolidation phase from 1935-1951. By contrast, the FHA program steadily grew and backed over $5 billion in total loans from the 1930s Depression until World War II, then soared in the post-war years, supporting over $3 billion in loans in 1948 alone, as shown in Image \@ref(fig:1933-chart-holc-fha).^[@ilyankouChartValueHOLC2020, with data sources from @harrissHistoryPoliciesHome1951, Table 4: Loans Closed by HOLC, 1933-1936, p. 30, and @federalhousingadministrationFifteenthAnnualReport1949, Table 1: Yearly Volume of Mortgages and Loans Insured by FHA Under All Titles: Face amount of mortgages written and net proceeds of loans insured, 1934-1948, p. 8. Note that the chart compares HOLC mortgages versus all types of FHA-insured loans and mortgages. The majority of FHA is home mortgage insurance, but the total also includes property improvements and rental housing, which can be disaggregated in the source table.] While HOLC directly funded mortgages, FHA insured mortgage payments to banks and other lenders, thereby using public funding to cooperate with, rather than compete against, private enterprise. After World War II, the federal government created another FHA-style program through the GI Bill and the Veteran's Administration, called the VA-guaranteed mortgage program, which made it more affordable for returning soldiers and sailors to purchase homes.^[@jacksonCrabgrassFrontierSuburbanization1985, p. 206-07]
 
-While the HOLC program became less active as a mortgage lender during its consolidation phase (1935-1951), the FHA program grew during the Depression era by insuring mortgage repayments to lenders, thereby using public funds to cooperate with, rather than compete against, private enterprise. Since FHA guidelines favored newer construction in all-White areas, the federal government funded mass suburbanization outside of major cities. After World War II, the GI Bill created the Veterans Administration, which launched a closely related VA-guaranteed mortgage program to make it more affordable for returning soldiers and sailors to purchase their homes. While the discriminatory policies have been changed as a result of the 1968 Fair Housing Act, the FHA continues to exist today and currently insures mortgage repayments for over 8 million single-family homes.^[@jacksonCrabgrassFrontierSuburbanization1985, p. 206-07; @ @FederalHousingAdministration2020]
+(ref:1933-chart-holc-fha) Explore the [full-screen interactive chart](https://ontheline.github.io/otl-chart-holc-fha/index.html) to compare the value of HOLC mortgages versus all types of FHA-insured loans and mortgages sponsored by year from 1933 to 1948. While HOLC mortgage lending peaked at $2.25 billion in 1934, FHA-insured loans have had a longer-lasting influence that surpassed HOLC in the post-war era and continues to the present. See [historical sources, data, and code on GitHub](https://github.com/ontheline/otl-chart-holc-fha/).
+
+<!-- set iframe 450px height in custom-scripts.html -->
+```{r 1933-chart-holc-fha, fig.cap="(ref:1933-chart-holc-fha)"}
+if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-chart-holc-fha/") else knitr::include_graphics("images/1933-chart-holc-fha.png")
+```
+
+**** START HERE
+
+Critics of racist policies and practices in federal home lending programs have spoken out for decades.
+
+- Michney et al on Black voices against HOLC
+- expand from Rothstein book HOW THIS RACIAL LANGUAGE CONTINUED EXPLICITLY thru 1952, then still implicitly later, see Rothstein p 64]
+- TEXT and CITES ABOVE for Abrams 1955
+
+While the discriminatory policies have been changed as a result of the 1968 Fair Housing Act, the FHA continues to exist today and currently insures mortgage repayments for over 8 million single-family homes.
+While explicitly racist language was removed from the *Underwriting Manual* in the early 1950s, the FHA continues to be the largest federal home lending program in the present day, by actively insuring over 8 million single-family mortgages. Overall, while the HOLC redlining maps reveal more visually striking evidence of government-sponsored discrimination, the more bureaucratic language tucked inside the FHA guidelines had a deeper and longer-lasting influence in shaping the housing lines that divide us today.^[@FederalHousingAdministration2020]
+
+
 
 #### Comparing the Impact of HOLC and FHA {-}
 
@@ -172,27 +191,16 @@ Historical geographer Amy Hillier investigated HOLC and FHA rating and lending p
 
 FHA lending also was more influential than HOLC in shaping racial and social class boundaries in the Hartford region, based on available evidence. Homeownership rates steadily increased in the City of Hartford for Whites (18 to 23 percent) and Blacks (6 to 10 percent) from 1940 to 1950. White and Black single-family city homeowners primarily obtained mortgages through savings banks (54 percent) and commercial banks (19 percent), with the federal HOLC program far behind other providers (7 percent) in 1940. While the total number of Black Hartford single-family homeowners was very small (only 119) in Hartford, they were *more likely* than Whites to hold HOLC mortgages (13 percent versus 7 percent) relative to the population. This pattern of Black accessibility to HOLC matches trends in several other US cities [cite Michney? and Winling].
 
-The key factor here is not Black access to HOLC mortgages, but White access to FHA mortgages for single-family homes in the rapidly expanding suburbs. Nearly all-White towns such as West Hartford had homeownership rates of 59 percent in 1940. While the federal government did not release detailed data on FHA loans in the Hartford region, patterns were probably similar what they revealed for the Northeast. In 1950, about 17 percent of White single-family homeowners benefitted from a government-subsidized FHA-insured mortgage, compared to only 9 percent of Black homeowners. US Census officials tried to explain this racial gap by noting that "nonwhite owners" tended to live in "older structures" with a "lower median purchase price" than White owners, and therefore were "not so likely to meet the requirements for government insurance as newer properties with a higher purchase price." [cite p XLI] The official report was silent on the role played by federal mortgage policymakers who intentionally segregated racial and social classes by design.
+To grasp the big picture of federal lending, we should look not only at Black access to HOLC mortgages in cities like Hartford, but White access to FHA-insured mortgages in the rapidly-expanding suburbs.
+- **** START AGAIN HERE and CHECK DATA
+- In 1940, towns adjacent to Hartford were nearly all-White  (insert town and data) and their homeownership rates were rising (Nearly all-White towns such as West Hartford had homeownership rates of 59 percent in 1940.)
+- Since FHA guidelines favored newer construction in all-White areas, the federal government funded mass suburbanization outside of major cities.
+
+While the federal government did not release detailed data on FHA loans in the Hartford region, patterns were probably similar what they revealed for the Northeast region at large. In 1950, about 17 percent of Northeastern White single-family homeowners benefitted from a government-subsidized FHA-insured mortgage, compared to only 9 percent of Black homeowners. US Census officials tried to explain this racial gap by noting that "nonwhite owners" tended to live in "older structures" with a "lower median purchase price" than White owners, and therefore were "not so likely to meet the requirements for government insurance as newer properties with a higher purchase price." The official report was silent on the role played by federal mortgage policymakers who intentionally segregated racial and social classes by design.^[Summary of Findings, Volume IV: Residential Financing in @uscensusbureauCensusHousing19501952, PDF chapter 2, p. XLI]
 
 
 
-Summary of Findings, p. XLI (in PDF ch2)  [Summary of Findings, Volume IV: Residential Financing in @uscensusbureauCensusHousing19501952, p. XLI]
-- in the Northeast region, about 2 percent of 1-family owner-occupied mortgaged homes are owned by nonwhite owners. Rate is about 10 percent in the Southern region.
-- "Nonwhite owners did not borrow on government-issued mortgages, either VA-guaranteed or FHA-insured, to as great an extent as did white owners... Properties with FHA-insured mortgages constituted 9 percent of those owned by nonwhite and 17 percent of those owned by whites."
-VA = 8% nonwhite, 15% white
-Conventional first mortages =  83% nonwhite, 68% white
-
-"Several circumstances are related to the fact that nonwhite owners have relatively fewer FHA-insured and VA-guaranteed mortgages than have white owners. One reason is that mortgaged houses with nonwhite owners were, on the average, older structures than those with white owners. About 56 percent of the structures with nonwhite owners were built in 1929 or earlier, while only 41 percent with white owners were built in those years."
-
-"A second reason is that the properties of nonwhite owners had a lower median purchase price than did properties of white owners" ($3,300 nonwhite vs $6300 white)
-
-"Older and less expensive houses are not so likely to meet the requirements for government insurance as newer properties with a higher purchase price. Both FHA-insurance and VA-guaranteed mortgages are characteristically found on properties which are not at either extreme in value..." pXLI
-
-
-
-
-
-
+But the impact of federal home lending was powerful, and based on the evidence available, FHA had a more influential role than HOLC in shaping boundary lines that have continued to divide the Hartford city-suburban region since the 1930s Depression.
 
 *[About the authors and contributors:](authors-and-contributors.html) Shaun McGann (Trinity 2014) wrote the first draft of this essay in the Cities Suburbs and Schools seminar, and published it in ConnecticutHistory.org.[@mcgannEffectsRedliningHartford2014] Jack Dougherty expanded the essay for publication in this book. Ilya Ilyankou (Trinity 2018) and Jack Dougherty developed the interactive map, based on an earlier version created with contributors from UConn MAGIC and the Kirwin Institute.*^[@ilyankouMapFederalHOLC2017; @universityofconnecticutlibrariesmapandgeographicinformationcenterFederalHOLCRedlining2012]
 
