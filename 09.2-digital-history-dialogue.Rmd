@@ -3,7 +3,7 @@
 
 *The editors of the "Digital Summer School" series of [The Metropole](https://themetropole.blog), the official blog of the Urban History Association, invited me to dialogue with them about the process of creating On The Line, and gave me permission to republish the essay and add footnotes.*[@DigitalSummerSchool2019]
 
-#### Digital Summer School: On The Line in Metropolitan Hartford, Connecticut {-}
+### Digital Summer School: On The Line in Metropolitan Hartford, Connecticut {-}
 This is the second installment in our annual Digital Summer School series which highlights digital humanities projects focusing on urban history...
 
 Featured Project: Jack Dougherty, On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs

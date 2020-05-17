@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>8.3 Teaching Oral History | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines." />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
   <meta property="og:title" content="8.3 Teaching Oral History | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
@@ -66,6 +66,9 @@ $(document).ready(function() {
   $("#fig\\:2020-otl-oldschoolct~iframe").attr("width", "100%");
   $("#fig\\:1937-otl-redlining~iframe").attr("height", "600px");
   $("#fig\\:1937-otl-redlining~iframe").attr("width", "100%");
+  $("#fig\\:2018-redlining-america~iframe").attr("height", "600px");
+  $("#fig\\:2018-redlining-america~iframe").attr("width", "100%");
+  $("#fig\\:1933-chart-holc-fha~iframe").attr("height", "460px");
   $("#fig\\:1940-otl-covenants~iframe").attr("height", "500px");
   $("#fig\\:1940-otl-covenants2~iframe").attr("height", "500px");
 
@@ -127,7 +130,7 @@ $(document).ready(function() {
 <li class="chapter" data-level="3.1" data-path="lending.html"><a href="lending.html"><i class="fa fa-check"></i><b>3.1</b> Federal Lending and Redlining</a></li>
 <li class="chapter" data-level="3.2" data-path="restricting.html"><a href="restricting.html"><i class="fa fa-check"></i><b>3.2</b> Restricting with Property Covenants</a></li>
 <li class="chapter" data-level="3.3" data-path="public-housing.html"><a href="public-housing.html"><i class="fa fa-check"></i><b>3.3</b> Racial Barriers to Public Housing</a></li>
-<li class="chapter" data-level="3.4" data-path="origins-zoning.html"><a href="origins-zoning.html"><i class="fa fa-check"></i><b>3.4</b> Origins of Exclusionary Zoning</a></li>
+<li class="chapter" data-level="3.4" data-path="zoning.html"><a href="zoning.html"><i class="fa fa-check"></i><b>3.4</b> Origins of Exclusionary Zoning</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="selling.html"><a href="selling.html"><i class="fa fa-check"></i><b>4</b> Selling and Shopping the Lines</a></li>
 <li class="chapter" data-level="5" data-path="challenging.html"><a href="challenging.html"><i class="fa fa-check"></i><b>5</b> Challenging the Power Lines</a>
@@ -182,8 +185,8 @@ $(document).ready(function() {
 <p><em>This chapter-in-progress was prepared for the “Panel Discussion on Oral History and African American Educational History,” with Nicholas Kryczka, Dionti Davis, Jackie Blount, and Dionne Danns at the History of Education Society meeting in November 2019. The need for a chapter on ways of teaching oral history was inspired by a conversation a year earlier with Pamela Grundy, Jake Hardesty, and Kevin Zayed at the History of Education Society meeting in November 2018.</em></p>
 <p>Organizations such as the Oral History Association and other authors have published many helpful guides, including the <a href="https://www.oralhistory.org/principles-and-best-practices-revised-2018/">OHA Principles and Best Practices</a>. Most of these guides emphasize the logistics and legalities of collecting and curating interviews, primarily for directors of oral history centers, archivists, and scholars. But relatively few focus on the pedagogical planning for teaching students how to prepare and interpret oral histories, particularly in the context of a college-level course. This DRAFT chapter seeks to offer both strategic and pragmatic advice.</p>
 <p>Historians can learn a great deal from ethnographers, journalists, podcasters, and others who have been trained or gained valuable experience in interviewing people and listening carefully to how they tell their stories …. and we can add to their work by emphasizing what historians do best: listening to how people tell stories about the past as a way to analyze change and continuity over time, and linking individual testimonies to the broader context. Overall, start small – teaching with oral history will become much easier the second and third time, when you will have sample interview guides, transcripts, and essays to share with future classes</p>
-<div id="integrating-oral-history-into-your-course" class="section level4 unnumbered" number="">
-<h4>Integrating oral history into your course</h4>
+<div id="integrating-oral-history-into-your-course" class="section level3 unnumbered" number="">
+<h3>Integrating oral history into your course</h3>
 <p>This chapter is written primarily for history educators who wish to incorporate oral history into their courses, with examples drawn from college-level courses. But before we leap too far ahead in the planning process, it’s important for instructors to gain first-hand experience in the steps we ask of our students – such as interviewing, transcribing, and analyzing – before creating an oral history assignment for an entire class. If these steps are new to you, then perhaps the best way to start is to assign yourself some oral history homework, and consider inviting a colleague or a small number of students to accompany you in the process.</p>
 <p>Over the years I’ve coached several faculty who are ready to take the next step of integrating oral history into their class, most often for a history and/or education class, but also for courses in sociology, anthropology, economics, and religion. Most of these faculty faced an important curricular decision: How might an oral history project fit into my existing course? Or, how should I reorganize my course to fit better with an oral history project? Either way, a common goal is to deepen student learning about the past by engaging with people whose lived experiences may differ from our own, and/or whose perspectives may challenge us to reconsider previously published accounts.</p>
 <p>At least five conceptual models for integrating oral history into courses stand out in my mind (and I encourage readers to email me with others that I have overlooked).</p>
@@ -197,14 +200,14 @@ $(document).ready(function() {
 <p>Since these are conceptual models, educators can mix and match to suit their learning goals. For example, I have arranged for my class to conduct a <strong>group interview as a practice session with a dual-role narrator</strong>, prior to their individual interviews using a common questionnaire. A dual-role narrator belongs to the community our class seeks to interview, but also is familiar with our academic mission and need to teach novice interviewers. One dual-role narrator who partnered with my Cities Suburbs and Schools seminar was Renita Satchell. During the 1970s, she was a young African-American student enrolled in the Project Concern city-suburb interdistrict busing program for racial integration. Decades later, she worked as a staff member in Open Choice, the successor program to Project Concern. In 2002, she agreed to partner with my seminar on our Project Concern Alumni oral history project. To help my students improve their interview questionnaire and skills, she agreed to participate in a group practice interview during our class. During the practice portion, a series of students each asked Renita a question that their class had prepared in advance, with the recorder running and everyone listening. Immediately afterwards, during the talk-back portion, Renita reflect with us on what worked well, and what we needed to improve. Typical reflection questions include: Did the interview questions make sense? Or use words or terms that narrators may not understand? Did interviewers follow-up when appropriate, and refrain from interrupting? Did the interview encourage storytelling by the narrator? Even when only a small number of students ask interview questions during our practice session, the entire class learns by listening closely and imagining what they would have done if they were in their classmates’ shoes.</p>
 <p>Several years later, my Cities Suburbs and Schools seminar and I co-hosted a “Civil Rights History Harvest” event with the Sheff Movement for school integration on their 25th anniversary public celebration. Describe more from this link</p>
 </div>
-<div id="decide-who-will-be-interviewed-and-why" class="section level4 unnumbered" number="">
-<h4>Decide who will be interviewed, and why</h4>
+<div id="decide-who-will-be-interviewed-and-why" class="section level3 unnumbered" number="">
+<h3>Decide who will be interviewed, and why</h3>
 <ul>
 <li>Think carefully about how and why you are selecting interview participants. There is nothing wrong with a selected sample or even a snowball sample, as long as you recognize and write out limitations.</li>
 </ul>
 </div>
-<div id="preparing-students-to-interview-and-listen" class="section level4 unnumbered" number="">
-<h4>Preparing students to interview and listen</h4>
+<div id="preparing-students-to-interview-and-listen" class="section level3 unnumbered" number="">
+<h3>Preparing students to interview and listen</h3>
 <p>Previously I searched for the “best oral history” article or chapter to assign to my students, thinking that knowledge would help them become better interviewers. But I now believe that interviewing is best taught as <em>experiential</em> learning, where students engage in the process and reflect on their successes and mistakes.</p>
 <ul>
 <li>Check privilege at the door. Describe more about crafting interview question about race, perspective, and power…</li>
@@ -222,28 +225,28 @@ $(document).ready(function() {
 </ul>
 <p>Perhaps Mira and I were mistaken to “jokingly” label these guidelines, because in all seriousness, it’s exactly what our students — and perhaps yours — need to hear.</p>
 </div>
-<div id="ethical-questions-who-owns-oral-history" class="section level4 unnumbered" number="">
-<h4>Ethical questions: Who owns oral history?</h4>
+<div id="ethical-questions-who-owns-oral-history" class="section level3 unnumbered" number="">
+<h3>Ethical questions: Who owns oral history?</h3>
 <p>Whether or not “individualized” oral history interviews are subject to IRB review has been debated for decades, and in 2015, the US federal government effectively made oral history interviewing exempt, DESCRIBE more from <a href="https://www.oralhistory.org/information-about-irbs/" class="uri">https://www.oralhistory.org/information-about-irbs/</a>. But even if your oral history class project is not subject to IRB review, oral historians still contend that there are ethical obligations for participants to voluntarily consent and know what will become of their interview recordings and transcripts, particularly with vulnerable populations.</p>
 <p>One of the most important and overlooked questions is “who owns the oral history interview?” See this chapter in this volume <a href="https://ontheline.trincoll.edu/who-owns-oral-history.html" class="uri">https://ontheline.trincoll.edu/who-owns-oral-history.html</a></p>
 </div>
-<div id="recording-and-transcribing-oral-history" class="section level4 unnumbered" number="">
-<h4>Recording and transcribing oral history</h4>
+<div id="recording-and-transcribing-oral-history" class="section level3 unnumbered" number="">
+<h3>Recording and transcribing oral history</h3>
 <p>Everything I taught has now been replaced by <a href="http://Trint.com" class="uri">http://Trint.com</a></p>
 </div>
-<div id="teaching-students-to-analyze-and-write-about-oral-history" class="section level4 unnumbered" number="">
-<h4>Teaching students to analyze and write about oral history</h4>
+<div id="teaching-students-to-analyze-and-write-about-oral-history" class="section level3 unnumbered" number="">
+<h3>Teaching students to analyze and write about oral history</h3>
 <ul>
 <li><p>Here’s where reading helps greatly, compared to the experience of interviewing</p></li>
 <li><p>Review key concepts from Jack Dougherty, “From Anecdote to Analysis: Oral Interviews and New Scholarship in Educational History,” The Journal of American History 86, no. 2 (1999): 712–23, <a href="http://www.jstor.org/stable/2567055" class="uri">http://www.jstor.org/stable/2567055</a>.</p></li>
 </ul>
 </div>
-<div id="preserving-oral-history-in-collaboration-with-libraries-archives-museums" class="section level4 unnumbered" number="">
-<h4>Preserving oral history in collaboration with libraries, archives, museums</h4>
+<div id="preserving-oral-history-in-collaboration-with-libraries-archives-museums" class="section level3 unnumbered" number="">
+<h3>Preserving oral history in collaboration with libraries, archives, museums</h3>
 <ul>
 <li>more to come, see CTDA <a href="https://collections.ctdigitalarchive.org/islandora/object/120002:otl" class="uri">https://collections.ctdigitalarchive.org/islandora/object/120002:otl</a></li>
 </ul>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 03 Apr 2020</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 17 May 2020</em></p>
 
 </div>
 </div>

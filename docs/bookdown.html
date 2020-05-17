@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>9.3 Building with Bookdown, GitHub, and Zotero | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines." />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
   <meta property="og:title" content="9.3 Building with Bookdown, GitHub, and Zotero | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
@@ -66,6 +66,9 @@ $(document).ready(function() {
   $("#fig\\:2020-otl-oldschoolct~iframe").attr("width", "100%");
   $("#fig\\:1937-otl-redlining~iframe").attr("height", "600px");
   $("#fig\\:1937-otl-redlining~iframe").attr("width", "100%");
+  $("#fig\\:2018-redlining-america~iframe").attr("height", "600px");
+  $("#fig\\:2018-redlining-america~iframe").attr("width", "100%");
+  $("#fig\\:1933-chart-holc-fha~iframe").attr("height", "460px");
   $("#fig\\:1940-otl-covenants~iframe").attr("height", "500px");
   $("#fig\\:1940-otl-covenants2~iframe").attr("height", "500px");
 
@@ -127,7 +130,7 @@ $(document).ready(function() {
 <li class="chapter" data-level="3.1" data-path="lending.html"><a href="lending.html"><i class="fa fa-check"></i><b>3.1</b> Federal Lending and Redlining</a></li>
 <li class="chapter" data-level="3.2" data-path="restricting.html"><a href="restricting.html"><i class="fa fa-check"></i><b>3.2</b> Restricting with Property Covenants</a></li>
 <li class="chapter" data-level="3.3" data-path="public-housing.html"><a href="public-housing.html"><i class="fa fa-check"></i><b>3.3</b> Racial Barriers to Public Housing</a></li>
-<li class="chapter" data-level="3.4" data-path="origins-zoning.html"><a href="origins-zoning.html"><i class="fa fa-check"></i><b>3.4</b> Origins of Exclusionary Zoning</a></li>
+<li class="chapter" data-level="3.4" data-path="zoning.html"><a href="zoning.html"><i class="fa fa-check"></i><b>3.4</b> Origins of Exclusionary Zoning</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="selling.html"><a href="selling.html"><i class="fa fa-check"></i><b>4</b> Selling and Shopping the Lines</a></li>
 <li class="chapter" data-level="5" data-path="challenging.html"><a href="challenging.html"><i class="fa fa-check"></i><b>5</b> Challenging the Power Lines</a>
@@ -189,8 +192,8 @@ $(document).ready(function() {
 Image 9.1: Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, <em>R Markdown Cookbook</em>, chapter 2.1.
 </p>
 </div>
-<div id="overview" class="section level4 unnumbered" number="">
-<h4>Overview</h4>
+<div id="overview" class="section level3 unnumbered" number="">
+<h3>Overview</h3>
 <ul>
 <li><a href="http://bookdown.org">Bookdown</a>, an open-source software package by Yihui Xie at RStudio, allows authors to compose in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>, an easy-to-read-and-write cross-platform syntax, and create one workflow that produces books in multiple formats, such as HTML Web edition, PDF print edition, MS Word edition, ePUB edition, etc. Furthermore, Bookdown generates the Web edition as a set of static-site HTML files, which display interactive digital elements (such as zoomable maps, scrollable documents, and video clips) and load very quickly into readers’ web browsers. Individual authors can install Bookdown on their Mac, Windows, or Linux computers, and publish their work through a free and simple GitHub Pages account, rather alternative book publishing platforms that require maintaining a complex web server. Bookdown requires installing the open-source <a href="https://www.r-project.org/">R Project</a> and <a href="https://www.rstudio.com/">RStudio console and editor</a>, which are commonly used in the field of statistical data analysis. Behind the scenes, Bookdown converts the text of the book from R-flavored Markdown files into multiple editions of the book using software packages such as <a href="https://pandoc.org/">PanDoc</a>, an open-source universal document converter, without requiring authors to learn complex Pandoc instructions. Although Bookdown may not be the best choice for novice computer users, installation steps are outlined below, along with a recommended workflow for authoring and publishing with GitHub and Zotero.<a href="#fn195" class="footnote-ref" id="fnref195"><sup>195</sup></a></li>
 <li><a href="http://github.com">GitHub</a> is an open-source repository that enables us to publicly share the text and code in this book, with a version-control system that allows collaborators to work on different sections at the same time. Also, the <a href="http://pages.github.com">GitHub Pages</a> feature allows us to freely host online all of the book editions (Web, PDF, etc.), with a custom domain name purchased through another service, <a href="http://reclaimhosting.com">Reclaim Hosting</a>. Since this is an open-access publication, the contents are intentionally public while working on the book, which is consistent with the contract signed with the open-access publisher. Note that GitHub also allows users the option, if desired, to make their repositories private.</li>
@@ -212,8 +215,8 @@ Image 9.3: Optional variation on the workflow above: Use your preferred text edi
 </p>
 </div>
 </div>
-<div id="install-bookdown-with-r-rstudio-and-a-latex-engine" class="section level4 unnumbered" number="">
-<h4>Install Bookdown with R, RStudio, and a LaTeX Engine</h4>
+<div id="install-bookdown-with-r-rstudio-and-a-latex-engine" class="section level3 unnumbered" number="">
+<h3>Install Bookdown with R, RStudio, and a LaTeX Engine</h3>
 <p>Below are steps we followed to set up the publishing platform for this book, using our Macintosh OS 10.14 computers. The same general principles also should apply to Windows computers. No special knowledge is required, but this may not be recommended for novice computer users. Installation steps—and inevitable problems that pop up—will be easier if users are willing to feel adventurous with their computers, or already have some familiarity with text editors, GitHub, or R Studio.</p>
 <ul>
 <li>Install R Project statistical programming language <a href="https://www.r-project.org" class="uri">https://www.r-project.org</a>, which is required by Bookdown. <a href="images/bookdown/1-r-download.png">See screenshot</a></li>
@@ -226,8 +229,8 @@ Image 9.3: Optional variation on the workflow above: Use your preferred text edi
 <li>When you installed RStudio, it also should have installed its own version of Pandoc, the package that converts files from Markdown format to HMTL and other formats. To confirm the Pandoc installation and version number, in the RStudio console, type <code>rmarkdown::pandoc_version()</code> and press return. The resulting version number should be <code>2.3.1</code> or higher. To learn more about Pandoc or to install a newer version, go to <a href="https://pandoc.org" class="uri">https://pandoc.org</a>.</li>
 </ul>
 </div>
-<div id="download-and-build-a-sample-bookdown-book" class="section level4 unnumbered" number="">
-<h4>Download and Build a Sample Bookdown Book</h4>
+<div id="download-and-build-a-sample-bookdown-book" class="section level3 unnumbered" number="">
+<h3>Download and Build a Sample Bookdown Book</h3>
 <ul>
 <li>Create a free GitHub account <a href="https://github.com" class="uri">https://github.com</a> to simplify steps for the next two sections. While Bookdown does not require you to use GitHub, the workflow described below features GitHub to copy a sample Bookdown template and to host your own Bookdown editions online.</li>
 <li>In your web browser, log into your GitHub account, go to the Bookdown developer’s <code>bookdown-minimal</code> repo <a href="https://github.com/yihui/bookdown-minimal" class="uri">https://github.com/yihui/bookdown-minimal</a>, and fork a copy to your GitHub account. To learn about forking in GitHub, see this chapter <a href="http://datavizforall.org/github.html" class="uri">http://datavizforall.org/github.html</a> in the <em>Data Visualization for All</em> book.</li>
@@ -243,8 +246,8 @@ Image 9.3: Optional variation on the workflow above: Use your preferred text edi
 <li>Close your project, and quit RStudio.</li>
 </ul>
 </div>
-<div id="host-your-sample-book-online-with-github-pages" class="section level4 unnumbered" number="">
-<h4>Host Your Sample Book Online with GitHub Pages</h4>
+<div id="host-your-sample-book-online-with-github-pages" class="section level3 unnumbered" number="">
+<h3>Host Your Sample Book Online with GitHub Pages</h3>
 <ul>
 <li>Open GitHub Desktop and navigate to the <code>bookdown-minimal</code> folder on your local computer. Write a quick summary to commit (or save) the changes you made above to your master branch, and push this version to your online GitHub repo.</li>
 <li>In your web browser, go to your online GitHub repo, with a web address similar to <code>https://github.com/USERNAME/bookdown-minimal</code> (insert your own GitHub username).</li>
@@ -254,8 +257,8 @@ Image 9.3: Optional variation on the workflow above: Use your preferred text edi
 <li>Reminder: You may need to wait up to one minute for edits to your GitHub online repo to appear live at your GitHub Pages web address. Also, after waiting for GitHub Pages to make changes, be sure to “force reload” or “hard refresh” your web browser to update directly from the GitHub Pages server, not the browser’s internal cache. On Mac, press shift + command + R. On Windows, press ctrl + F5.</li>
 </ul>
 </div>
-<div id="customize-bookdown-and-github-settings-and-domain-name" class="section level4 unnumbered" number="">
-<h4>Customize Bookdown and GitHub Settings and Domain Name</h4>
+<div id="customize-bookdown-and-github-settings-and-domain-name" class="section level3 unnumbered" number="">
+<h3>Customize Bookdown and GitHub Settings and Domain Name</h3>
 <p>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>. See more details about configuration settings, see Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.</p>
 <p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO: change for PDF output prior to PDF publication, see Style Guide.</strong></p>
 <pre><code>output_dir: &quot;docs&quot;
@@ -310,8 +313,8 @@ citation-style: chicago-fullnote-bibliography.csl</code></pre>
 knitr::opts_chunk$set(echo = FALSE)
 options(knitr.graphics.auto_pdf = TRUE)</code></pre>
 </div>
-<div id="zotero-and-better-bibtex-for-notes-and-bibliography" class="section level4 unnumbered" number="">
-<h4>Zotero and Better BibTeX for Notes and Bibliography</h4>
+<div id="zotero-and-better-bibtex-for-notes-and-bibliography" class="section level3 unnumbered" number="">
+<h3>Zotero and Better BibTeX for Notes and Bibliography</h3>
 <p>This workflow uses the open-source Zotero bibliography manager (<a href="http://zotero.org" class="uri">http://zotero.org</a>), with the Better BibTeX extension (<a href="https://retorque.re/zotero-better-bibtex/" class="uri">https://retorque.re/zotero-better-bibtex/</a>) to work more easily with Markdown and Bookdown. Rather than typing full references directly into the text, authors can insert a short citation key to each source, and the tools will automatically generate the desired references (such as Chicago-style footnotes, which historians love) and an alphabetized bibliography for the book. Furthermore, since authoring this <em>On The Line</em> book has been a multi-year process with multimedia sources whose web addresses have changed over time, this workflow ensures that the most up-to-date information in your Zotero database also appears in all editions of your book.</p>
 <p>With these tools installed, here’s an outline of the author’s workflow:
 - An entry for each source (book, journal article, document, etc.) must be created in the author’s Zotero library (or a specific collection), either automatically from the web or manually.
@@ -319,8 +322,8 @@ options(knitr.graphics.auto_pdf = TRUE)</code></pre>
 - The author identifies their preferred citation style at <a href="https://www.zotero.org/styles" class="uri">https://www.zotero.org/styles</a>, uploads the file (example: chicago-fullnote-bibliography.csl) to the local book repo, and lists it in the <code>index.Rmd</code> settings for both the Web edition and the PDF edition.
 - Before each build in Bookdown, the author sets their Zotero preferences, and exports the Zotero library or specific collection to the root level of the local book repo (example: ontheline.bib).</p>
 </div>
-<div id="zotero-and-better-bibtex-installation-and-settings" class="section level4 unnumbered" number="">
-<h4>Zotero and Better BibTeX Installation and Settings</h4>
+<div id="zotero-and-better-bibtex-installation-and-settings" class="section level3 unnumbered" number="">
+<h3>Zotero and Better BibTeX Installation and Settings</h3>
 <ul>
 <li>Download and install <a href="http://zotero.org">Zotero</a> for Mac, Windows, Linux, and add connectors to your browsers.</li>
 <li>Install the <a href="https://retorque.re/zotero-better-bibtex/installation/">Better BibTeX extension</a> and follow all of the site’s instructions for initial setup.</li>
@@ -348,7 +351,7 @@ options(knitr.graphics.auto_pdf = TRUE)</code></pre>
 </ul>
 <p>To help other researchers find items cited in this book, URLs should be included in Zotero entries whenever feasible, even if not required by convention. For example, some print-only books and documents are hard to locate, so include an OCLC WorldCat permalink to make them easier to find (example: <a href="http://www.worldcat.org/oclc/20683509" class="uri">http://www.worldcat.org/oclc/20683509</a>). Also, if a print source has been digitized by HathiTrust, Google Books, or the Internet Archive, add one of these URLs to the Zotero entry.</p>
 <p>Reminder: Chicago full-note works exactly as it was designed, meaning that the second instance of a citation currently appears as an abbreviated note (author, with title when appropriate). TODO: Find or create a modified .CSL file to display the full footnote entry in <em>every</em> instance in the web version, so that users do not need to scroll to find the complete source info.</p>
-<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 03 Apr 2020</em></p>
+<p><img src="images/cc-by-nc-sa-88x31.png" alt="creative commons by-nc-sa icon" /> <em><a href="http://ontheline.trincoll.edu">On The Line</a> is an open-access, born-digital, book-in-progress by <a href="authors-and-contributors.html">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Learn more <a href="about-the-book.html">about the book</a>, including <a href="how-to-read-and-cite.html">how to read and cite</a> and our <a href="copyright-with-open-access.html">copyright with open-access policy and code repository</a>. This book-in-progress was last updated on: 17 May 2020</em></p>
 
 </div>
 </div>

@@ -54,7 +54,7 @@ What are the essential ingredients behind successful public history writing coll
 
 For many historians, the digital era raises fears about the future of our profession. What does it mean when anyone can instantly publish their historical interpretation, whether good or bad, on the Internet? How do newer technologies change—and perhaps challenge—what it means to do history? Rather than avoiding the digital turn, we believe that it also provides an ideal opportunity—if wisely exercised—to bring a younger generation to the table and to fully engage them in doing what historians have always done: telling true and meaningful stories about the past for audiences broader than ourselves.^[@doughertyWritingHistoryDigital2013]
 
-#### Trinity College Student Contributions to ConnecticutHistory.org {-}
+### Trinity College Student Contributions to ConnecticutHistory.org {-}
 See [link to all essays](http://connecticuthistory.org/trinity-college-students-call-attention-to-histories-of-inequality).^[@TrinityCollegeStudents2013]
 
 Race Restrictive Covenants in Property Deeds, by Mary Daly '15. “No persons of any race except the white race shall use or occupy any building on any lot… .” Language such as this still appears in Hartford-area housing covenants today.[@dalyRaceRestrictiveCovenants2013]

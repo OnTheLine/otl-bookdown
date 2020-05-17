@@ -1,6 +1,6 @@
 # Bibliography
 
-#### Primary Digital Repositories {-}
+### Primary Digital Repositories {-}
 
 The text and images for the *On The Line* book, including data files and source code for interactive charts and maps, is located in our open-source GitHub repository at <https://github.com/ontheline>. The text is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). See individual images and captions for information about copyrights held by others.
 
@@ -12,7 +12,7 @@ Since 2002, over 30 Trinity College student researchers have co-authored publica
 
 <!-- REMINDER - remove the 3 items above from Zotero if not entries in the book???; save in Zotero as web pages, title and URL, no accessed dates, export biblio with Chicago angle brackets, and find/replace to swap "." for "." [not sure what I meant there]; and separate each line with a return -->
 
-#### Additional Archival and Digital Collections {-}
+### Additional Archival and Digital Collections {-}
 Aerial Photographs of Connecticut, Connecticut State Library. <http://cslib.cdmhost.com/digital/collection/p4005coll10>.
 
 Avon History Collection, Avon Public Library. <http://avonhistory.info>.
@@ -97,4 +97,4 @@ West Hartford History Online, West Hartford Public Library. <https://history.wes
 
 WorldCat. <https://www.worldcat.org/>.
 
-#### Automated list of sources cited in book-in-progress, continually updated {-}
+### Automated list of sources cited in book-in-progress, continually updated {-}

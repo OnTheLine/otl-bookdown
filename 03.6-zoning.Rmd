@@ -1,4 +1,4 @@
-## Origins of Exclusionary Zoning {#origins-zoning}
+## Origins of Exclusionary Zoning {#zoning}
 
 <!-- TODO revise and expand draft with notes from repo, Scriv, update maps, images -->
 
@@ -16,7 +16,7 @@ Whitten also recommended a system of dividing residential areas by minimum home 
 
 ![West Hartford zoning map excerpt, 1924](images/1924-west-hartford-zoning-map-excerpt.png)
 
-#### Explore interactive West Hartford zoning maps, 1924 and present {-}
+### Explore interactive West Hartford zoning maps, 1924 and present {-}
 
 <http://magic.lib.uconn.edu/otl/dualcontrol_zoning_westhartford.html>
 
@@ -28,7 +28,7 @@ Drafting local ordinances this way made zoning an exclusionary tool to restrict 
 
 Today in Connecticut, we continue to struggle with this legacy of our restrictive land-use laws. Exclusionary zoning has been criticized in multiple reports as a barrier to fair housing and equal opportunity.[@suburbanactioninstituteStudyZoningConnecticut1978; @reecePeoplePlaceOpportunity2009] In 2013, the Connecticut Fair Housing Center and Trinity College student researcher Fionnuala Darby-Hudgens and I compiled all of the local zoning ordinances for towns across Connecticut and evaluated them on their degree of restrictions against affordable housing for the Connecticut Zoning Initiative.[@connecticutfairhousingcenterConnecticutZoningInitiative2013; @connecticutfairhousingcenterGuideZoningFair2013; @connecticutfairhousingcenterAnalysisImpedimentsFair2015]
 
-#### Explore Connecticut Zoning Initiative maps and data {-}
+### Explore Connecticut Zoning Initiative maps and data {-}
 
 TODO: Coming soon -- Residential Zoning Analysis by CT Fair Housing Center <https://fionnualadh.github.io/cfhc-residential-zoning-analysis/> to replace older version <http://commons.trincoll.edu/cssp/zoning>
 

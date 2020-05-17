@@ -21,6 +21,7 @@ output:
     css: css/style.css
     includes:
       in_header: [custom-scripts.html, google-analytics-otl.html]
+    toc_depth: 2
     split_by: section
     split_bib: true
     number_sections: true
@@ -95,7 +96,7 @@ A second option is to freely [download the PDF edition](https://ontheline.trinco
 
 Finally, the book consists of several chapters, such as [Chapter 2: Defining City and Suburban Lines](defining.html). Each of these contains several sub-chapters, such as [2.1: The Richest City in the Nation](richest.html). For simplicity, refer to any of these as "chapters" of the book.
 
-#### How to Cite {-}
+### How to Cite {-}
 To cite this book-in-progress, please refer to the web edition (rather than the PDF editions), since this online version is easiest for all readers to access instantly.
 
 For general citations of the book, see these samples of common academic styles:
@@ -147,7 +148,7 @@ While teaching and researching this book at Trinity College, over 25 undergradua
 More co-authors to come...
 <!-- TODO - add more coauthors: Elaina Rollins, Clarissa Ceglio, Emily Meehan; list research contributors -->
 
-#### Additional contributors {-}
+### Additional contributors {-}
 Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [Google interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
 
 - Michael Howser, Project Director and Map Interface Development

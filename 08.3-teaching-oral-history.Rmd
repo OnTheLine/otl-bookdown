@@ -6,7 +6,7 @@ Organizations such as the Oral History Association and other authors have publis
 
 Historians can learn a great deal from ethnographers, journalists, podcasters, and others who have been trained or gained valuable experience in interviewing people and listening carefully to how they tell their stories .... and we can add to their work by emphasizing what historians do best: listening to how people tell stories about the past as a way to analyze change and continuity over time, and linking individual testimonies to the broader context. Overall, start small -- teaching with oral history will become much easier the second and third time, when you will have sample interview guides, transcripts, and essays to share with future classes
 
-#### Integrating oral history into your course {-}
+### Integrating oral history into your course {-}
 This chapter is written primarily for history educators who wish to incorporate oral history into their courses, with examples drawn from college-level courses. But before we leap too far ahead in the planning process, it's important for instructors to gain first-hand experience in the steps we ask of our students -- such as interviewing, transcribing, and analyzing -- before creating an oral history assignment for an entire class. If these steps are new to you, then perhaps the best way to start is to assign yourself some oral history homework, and consider inviting a colleague or a small number of students to accompany you in the process.
 
 Over the years I've coached several faculty who are ready to take the next step of integrating oral history into their class, most often for a history and/or education class, but also for courses in sociology, anthropology, economics, and religion. Most of these faculty faced an important curricular decision: How might an oral history project fit into my existing course? Or, how should I reorganize my course to fit better with an oral history project? Either way, a common goal is to deepen student learning about the past by engaging with people whose lived experiences may differ from our own, and/or whose perspectives may challenge us to reconsider previously published accounts.
@@ -23,11 +23,11 @@ Since these are conceptual models, educators can mix and match to suit their lea
 
 Several years later, my Cities Suburbs and Schools seminar and I co-hosted a "Civil Rights History Harvest" event with the Sheff Movement for school integration on their 25th anniversary public celebration. Describe more from this link
 
-#### Decide who will be interviewed, and why {-}
+### Decide who will be interviewed, and why {-}
 
 - Think carefully about how and why you are selecting interview participants. There is nothing wrong with a selected sample or even a snowball sample, as long as you recognize and write out limitations.
 
-#### Preparing students to interview and listen {-}
+### Preparing students to interview and listen {-}
 
 Previously I searched for the "best oral history" article or chapter to assign to my students, thinking that knowledge would help them become better interviewers. But I now believe that interviewing is best taught as *experiential* learning, where students engage in the process and reflect on their successes and mistakes.
 
@@ -46,21 +46,21 @@ When my colleague Mira Debs, a sociologist of education at Yale University, visi
 
 Perhaps Mira and I were mistaken to "jokingly" label these guidelines, because in all seriousness, it's exactly what our students --- and perhaps yours --- need to hear.
 
-#### Ethical questions: Who owns oral history? {-}
+### Ethical questions: Who owns oral history? {-}
 Whether or not "individualized" oral history interviews are subject to IRB review has been debated for decades, and in 2015, the US federal government effectively made oral history interviewing exempt, DESCRIBE more from https://www.oralhistory.org/information-about-irbs/. But even if your oral history class project is not subject to IRB review, oral historians still contend that there are ethical obligations for participants to voluntarily consent and know what will become of their interview recordings and transcripts, particularly with vulnerable populations.
 
 One of the most important and overlooked questions is "who owns the oral history interview?" See this chapter in this volume <https://ontheline.trincoll.edu/who-owns-oral-history.html>
 
-#### Recording and transcribing oral history {-}
+### Recording and transcribing oral history {-}
 Everything I taught has now been replaced by <http://Trint.com>
 
-#### Teaching students to analyze and write about oral history {-}
+### Teaching students to analyze and write about oral history {-}
 
 - Here's where reading helps greatly, compared to the experience of interviewing
 
 - Review key concepts from Jack Dougherty, “From Anecdote to Analysis: Oral Interviews and New Scholarship in Educational History,” The Journal of American History 86, no. 2 (1999): 712–23, <http://www.jstor.org/stable/2567055>.
 
-#### Preserving oral history in collaboration with libraries, archives, museums {-}
+### Preserving oral history in collaboration with libraries, archives, museums {-}
 
 - more to come, see CTDA <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>
 
