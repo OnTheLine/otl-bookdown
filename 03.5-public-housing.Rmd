@@ -1,4 +1,4 @@
-## Racial Barriers to Public Housing {#public-housing}
+## Racial Barriers to Public Housing {- #public-housing}
 *by [Emily Meehan and Jack Dougherty](authors-and-contributors.html)*
 
 <!-- TODO - update and expand this introduction; add notes to Zotero -->

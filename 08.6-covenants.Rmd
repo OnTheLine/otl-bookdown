@@ -1,4 +1,4 @@
-## How We Found Restrictive Covenants {#covenants}
+## How We Found Restrictive Covenants {- #covenants}
 *by [Katie Campbell Levasseur and Jack Dougherty](authors-and-contributors.html)*
 
 The [Restricting with Property Covenants](restricting.html) section in this book was inspired by the [Seattle Civil Rights & Labor History Project](http://depts.washington.edu/civilr/segregated.htm). Students and faculty at the University of Washington-Seattle uncovered the largely forgotten story of White-only restrictions that landowners wrote into more than 400 property deeds from the 1910s to the 1960s, which shaped the racially segregated metropolitan region that exists today. Their public history project launched a campaign that led the governor to sign a 2006 bill that made it easier for neighborhoods to officially remove these covenants, which became unenforceable in 1948, but persisted on legal documents.^[@gregorySegregatedSeattle2010]

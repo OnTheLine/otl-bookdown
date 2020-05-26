@@ -1,4 +1,4 @@
-## Alternative Publishing Platforms {#alternative}
+## Alternative Publishing Platforms {- #alternative}
 
 Before leaping into Bookdown or any other software platform, consider the costs and benefits of using tools to achieve your goals, such as writing and publishing a web-and-print book like this one.
 

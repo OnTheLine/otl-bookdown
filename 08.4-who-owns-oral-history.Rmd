@@ -1,4 +1,4 @@
-## Who Owns Oral History? A Creative Commons Solution {#who-owns-oral-history}
+## Who Owns Oral History? A Creative Commons Solution {- #who-owns-oral-history}
 *by [Jack Dougherty and Candace Simpson](authors-and-contributors.html)*
 
 *This is an updated version of an essay that was previously published in 2012 in an open-access book, [Oral History in the Digital Age](http://ohda.matrix.msu.edu/2012/06/a-creative-commons-solution/).^[@doughertyWhoOwnsOral2012]*

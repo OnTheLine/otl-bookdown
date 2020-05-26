@@ -1,4 +1,4 @@
-## Carving Up Town Boundaries {#carving}
+## Carving Up Town Boundaries {- #carving}
 
 Text to come on the continual redrawing of town boundaries in Hartford region thru 1880s, as shown in Image \@ref(fig:1600s-otl-town-borders).^[@ilyankouMapTownBorders2017]
 

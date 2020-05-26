@@ -1,6 +1,5 @@
-## Style Guide for Bookdown + RMarkdown in *On The Line* {#style-guide}
-
-**Important: See the code used in the examples on this page** by viewing it directly on the GitHub repo at <https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd>.
+## Style Guide for *On The Line* {#style-guide}
+View the source code for this page on the GitHub repo at <https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd>.
 
 ### Goal {-}
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). The web edition is preferred because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But endnotes to source materials are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online.
@@ -79,12 +78,14 @@ In this book, `index.Rmd` begins with a non-numbered first-level header `# Prefa
 
 Also, at the end of each section in the main text, an HTML-only footer has been manually pasted, to ensure that each long web page contains author and copyright information, with links to key sections in the Preface, in case readers print out individual chapters from their browsers. TODO: Find a way to replace manually-pasted footers with a block that is global to the entire book.
 
-### Footnotes/Endnotes {-}
-This book uses endnotes that appear at the end of each chapter. Here's a text-only footnote, with no Zotero citation.^[This is a footnote, with no reference.]
+### Endnotes with Bibliography {-}
+This book uses endnotes that appear at the end of each chapter, with a bibliography of all references cited at the end of the book. See Zotero/BibTeX setup in the previous chapter.
 
-To create a footnote with citations only, separate Zotero/BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
+Here's a text-only note, with no Zotero citation.^[This is a note, with no bibliographic reference.]
 
-Since footnotes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a footnote:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
+To create a note with citations only, separate Zotero/BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
+
+Since notes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a note:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
 
 Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
 
@@ -95,7 +96,7 @@ Using Bookdown version 0.16 as of January 2020, note numbering with customized c
 - But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
 - In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.
 
-- Also, avoid placing footnotes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.
+- Also, avoid placing notes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.
 
 - See more bibliography options <https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html>
 

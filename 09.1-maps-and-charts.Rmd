@@ -1,4 +1,4 @@
-## Maps and Charts by Year {#maps-and-charts}
+## Maps and Charts by Year {- #maps-and-charts}
 *by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html)*
 
 List of maps and charts created for *On The Line*, listed by earliest year of data. Click links to explore the full-size interactive versions on the web, access the source data and code, and read in context in this book.
