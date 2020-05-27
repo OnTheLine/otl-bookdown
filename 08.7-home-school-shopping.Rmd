@@ -1,0 +1,32 @@
+## Home and School Shopping Simulation {- home-school-shopping}
+Learning exercise developed for Ed 308: Cities, Suburbs & Schools by Jack Dougherty
+
+Goal: Given a demographic profile of a Hartford family, where can you afford to rent or buy a home in the surrounding suburbs, and what kind of public school access would this residence provide? This simplified role-playing scenario is designed to simulate the experience of home and school shopping, in order to deepen our understanding of the relationship between education and housing policy in the metropolitan US.
+
+Scenario:
+
+- the parent(s) currently work and rent an apartment (or live with relatives) in Hartford
+- each family has two children (grades 3 & 6), currently in Hartford Public Schools
+- you have heard that “life will be better if you move to the suburbs”
+
+Google Sheet -- Random Assignment of Family Economic Profiles: https://docs.google.com/spreadsheets/d/1yq5lw2uJcZ3FpPZ5oKor_TdCxbmphocHk1EvYzD_W7U/edit#gid=0
+
+1) How much housing can you afford to rent or buy? Explore this CNN Money home affordability calculator:
+http://money.cnn.com/calculator/real_estate/home-afford/index.html
+
+2) In what suburban towns does your monthly housing costs allow you to rent or buy?
+Remember that the space must house you (the parent), plus two children, which means 2 bedrooms minimum. Search for actual properties using tools such as http://Zillow.com. Write your top 2 choices in the Google Sheet
+
+Extra: Learn more about 30-year conventional mortgage payment schedule of payments
+http://www.bankrate.com/calculators/mortgages/amortization-calculator.aspx
+
+3) Given your housing choices, what is the average public school performance level? Explore interactive chart on this web page
+https://handsondataviz.org/scatter-chart-tableau.html
+
+Or download the spreadsheet to find your district https://handsondataviz.org/data/ct-districts-income-grades-2009-13.xlsx
+
+Write the percent of students performing at test goal in the Google Sheet
+
+4) If you moved to a suburban residence, what additional challenges might you face?
+
+5) Who wins and who loses under current US housing policies and practices?
