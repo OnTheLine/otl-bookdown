@@ -1,4 +1,4 @@
-## Style Guide for *On The Line* {#style-guide}
+## Style Guide for *On The Line* {- #style-guide}
 View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd.
 
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and the PDF version will require additional modifications prior to final publication of the print edition.
