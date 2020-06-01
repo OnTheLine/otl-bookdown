@@ -4,9 +4,8 @@ Text to come on the continual redrawing of town boundaries in Hartford region th
 
 (ref:1600s-otl-town-borders) Scroll down (or click the narrative and use keyboard down arrow) in this [full-size interactive map](https://ontheline.github.io/otl-town-borders/index-caption.html) of town borders in Hartford County, Connecticut. From the early 1600s to the late 1880s, local and state government divided the region into 29 separate towns as the European settler population grew. Boundaries shown here are not exact, but approximated from the best available digital sources: [UConn Libraries MAGIC historical maps](http://magic.lib.uconn.edu), [Atlas of Historical County Boundaries at Newberry Library](http://publications.newberry.org/ahcbp/pages/Connecticut.html), and the [Connecticut State Register and Manual](http://www.ct.gov/sots/cwp/view.asp?a=3188&q=392440). Map developed by Ilya Ilyankou and Jack Dougherty, with [historical sources, known issues, and code on GitHub](https://github.com/ontheline/otl-town-borders/).
 
-<!-- set iframe height to 600px in custom-scripts.html -->
 ```{r 1600s-otl-town-borders, fig.cap="(ref:1600s-otl-town-borders)"}
-if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-town-borders/") else knitr::include_graphics("images/1600s-otl-town-borders.jpg")
+if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-town-borders/", height="600px") else knitr::include_graphics("images/1600s-otl-town-borders.jpg")
 ```
 
 <!-- Move this into Divided School Districts chapter 2.5? -->
@@ -19,7 +18,6 @@ TODO: Text to come on rigidity of CT school district boundaries today, and their
 
 (ref:2017-otl-compare-school-districts) Compare any US elementary school district boundaries side-by-side, at the same scale, in this [full-size interactive map](https://ontheline.github.io/otl-compare-school-districts/index-caption.html). Hover over districts to view student population and poverty data. Click any district to freeze its data panel when moving between maps. In the Northeast, many school districts are narrowly drawn along city and suburban boundaries, which concentrates student poverty, as shown in Hartford, Connecticut and its surrounding towns. By contrast, metropolitan and county-wide school districts are more common in Southern and Western states, as shown in Charlotte-Mecklenberg, North Carolina. Map data from [EdBuild.org Dividing Lines](https://edbuild.org/content/dividing-lines/main), as described in their [methodology](https://edbuild.org/content/dividing-lines/main/methodology). Map developed by Ilya Ilyankou and Jack Dougherty, with [code on GitHub](http://github.com/ontheline/otl-compare-school-districts).
 
-<!-- set iframe height to 600px in custom-scripts.html -->
 ```{r 2017-otl-compare-school-districts, fig.cap="(ref:2017-otl-compare-school-districts)"}
-if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-compare-school-districts/") else knitr::include_graphics("images/2017-otl-compare-school-districts.png")
+if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-compare-school-districts/", height="600px") else knitr::include_graphics("images/2017-otl-compare-school-districts.png")
 ```

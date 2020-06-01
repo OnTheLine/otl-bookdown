@@ -112,10 +112,10 @@ output:
     dev: svglite
     css: css/style.css
     includes:
-      in_header: [custom-scripts.html, google-analytics-otl.html]
+      in_header: google-analytics-otl.html
 ```
-- the `custom-scripts.html` file includes specific instructions to set the height or width of iframes for specific interactive maps and charts in the web edition, which is explained further in the Style Guide section of this book. (Thanks to Michael Dorman for this tip.)
-- the `google-analytics-otl.html` file records web traffic with Google Analytics, if you create a free account and insert your code.
+
+The `google-analytics-otl.html` file records web traffic with Google Analytics, if you create a free account and insert your code.
 
 The web edition of this book also includes a custom `404.html` file that redirects any bad web addresses under the domain back to `index.html` page. A copy of this file must be manually transferred into the `docs` subfolder, because it is not automatically built by Bookdown.
 

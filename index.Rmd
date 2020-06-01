@@ -20,7 +20,7 @@ output:
     dev: svglite
     css: css/style.css
     includes:
-      in_header: [custom-scripts.html, google-analytics-otl.html]
+      in_header: google-analytics-otl.html
     toc_depth: 2
     split_by: section
     split_bib: true
@@ -45,17 +45,19 @@ output:
         twitter: yes
 
   bookdown::pdf_book:
-    citation_package: none
+    citation_package: default
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 
   bookdown::word_document2:
     default
+
+  bookdown::markdown_document2:
+    default
 ---
 # Preface {-}
-<!-- R global options: R chunk images display without code (no echo); show PDF image over JPG/PNG when available -->
+<!-- R global options: R chunk images display without code (no echo) -->
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-options(knitr.graphics.auto_pdf = TRUE)
 ```
 ![ ](images/coverOTL300x300.png)
 
