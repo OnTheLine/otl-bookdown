@@ -180,19 +180,27 @@ if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/Nu
 (ref:vimeo-sample-video) Here's a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 
 ```{r vimeo-sample-video, fig.cap="(ref:vimeo-sample-video)"}
-if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/27299734") else knitr::include_graphics("images/2011-walsh-debra.jpg")
+if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/220562166") else knitr::include_graphics("images/2011-covenants-video.png")
 ```
 
 #### Demo: Kaltura video iframe in web edition, static image in PDF edition {-}
+- Work with Trinity Library to upload items to their Kaltura [Hartford History channel](https://trincoll.mediaspace.kaltura.com/channel/Hartford%2BHistory/144729181) or your personal channel.
+- Go to Kaltura video entry > share button > embed, extract the long URL, and paste in R code-chunk below.
+- Option: This method allows you to select a video start time, such as 8:00, which will be appended to the embed code URL in seconds like this: `[mediaProxy.mediaPlayFrom]=480"`
+- This method successfully avoids auto-play in Mac browsers. TODO: test in Windows browsers and other devices.
+- Note: If you paste the long URL directly into a modern browser, the early portion of the link transforms into HTML5-specific code, which you also could use if needed.
+- TODO: Since Kaltura player setup auto-displays captions, which are faulty in the automated video upload process, need to insert corrected captions directly from the transcript. Prioritize videos that need caption revisions.
+
 ...as shown in Image \@ref(fig:kaltura-sample-video).
 
-(ref:kaltura-sample-video) Here's a sample caption for a video on Trinity Kaltura server, using an HTML5 embed code that is unclear if is currently supported, but still works as of January 2020. (The default Kaltura "share" embed code is not properly formatted in the iframe.) Successfully avoids auto-play issue.
+(ref:kaltura-sample-video) Here's a sample caption for a video on Trinity Kaltura server.
 
 ```{r kaltura-sample-video, fig.cap="(ref:kaltura-sample-video)"}
-if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
+if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kplayer&entry_id=1_66aksvf1&flashvars") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
 ```
 
-Note that as of January 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so not appropriate to display in the browser in this book. See sample video datastream: <https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4> and read more <https://confluence.uconn.edu/display/CTDA/Datastreams>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.
+#### Note about CTDA videos {-}
+As of 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so are not appropriate to display in the browser in this book. See sample video datastream: <https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4> and read more <https://confluence.uconn.edu/display/CTDA/Datastreams>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.
 
 ### Tables {-}
 Create tables in Markdown format, since it produces good output for HTML, PDF, Word, and Markdown. Use a tool such as [Tables Generator](https://www.tablesgenerator.com/markdown_tables) to import significant table data in CSV format, format the column alignment as desired, and press Generate button to create table in Markdown format. For significant table data, save the CSV version in a GitHub repo for potential later use.

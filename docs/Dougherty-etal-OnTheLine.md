@@ -5,7 +5,7 @@ Preface
 
 ![](images/coverOTL300x300.png)
 
-**This book-in-progress was last updated on 01 Jun 2020**
+**This book-in-progress was last updated on 03 Jun 2020**
 
 *On The Line*, an open-access digital and print history book, makes
 visible the hidden schooling and housing boundaries that divide
@@ -441,7 +441,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:01-introduction.Rmd-->
 
@@ -503,7 +503,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:01.1-bridging.Rmd-->
 
@@ -699,7 +699,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:01.2-outline.Rmd-->
 
@@ -977,7 +977,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:02.1-richest.Rmd-->
 
@@ -2018,7 +2018,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:03.3-lending.Rmd-->
 
@@ -2303,14 +2303,14 @@ the feel of the neighborhood.” Walsh acknowledged how the explicit
 racism of the covenants in her own neighborhood made her feel
 uncomfortable with the White privilege she experiences. “It’s really
 hard to look really deep within and answer those questions,” she
-explained, “… when you live in the dominant class. Like you don’t know
+explained, “…when you live in the dominant class. Like you don’t know
 how to answer it.” Even though she knew the covenants are no longer
 enforceable, Walsh could see how “the legacy of the piece of land gets
 passed on to a feeling of a neighborhood,” a sense of White exclusivity
 that pervades even today, when barriers take on less overtly racial
 language.[55]
 
-<iframe src="https://player.vimeo.com/video/27299734" width="100%" height="400px">
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_cqi53nct&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
 Image 19: Watch the [oral history video or read the transcript of the
@@ -2336,7 +2336,7 @@ whitewashed out of memory. As Hansen concluded, “We need to know that we
 were being idiots up here, too, and it wasn’t somewhere else. It was
 here. It’s still here.”[56]
 
-<iframe src="https://player.vimeo.com/video/27300618" width="100%" height="400px">
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_1lgpzx7x&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
 Image 20: Watch the [oral history video or read the transcript of the
@@ -2368,7 +2368,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:03.4-restricting.Rmd-->
 
@@ -2553,7 +2553,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:03.5-public-housing.Rmd-->
 
@@ -2693,7 +2693,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:03.6-zoning.Rmd-->
 
@@ -3380,7 +3380,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:05.3-mobilizing.Rmd-->
 
@@ -3788,7 +3788,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:05.5-jumping.Rmd-->
 
@@ -4835,7 +4835,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.1-investigating.Rmd-->
 
@@ -5230,7 +5230,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.2-writing.Rmd-->
 
@@ -5486,7 +5486,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.3-teaching-oral-history.Rmd-->
 
@@ -5799,7 +5799,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.4-who-owns-oral-history.Rmd-->
 
@@ -5863,7 +5863,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.5-oral-history-consent.Rmd-->
 
@@ -6021,7 +6021,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:08.6-covenants.Rmd-->
 
@@ -6172,7 +6172,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:09.1-maps-and-charts.Rmd-->
 
@@ -6464,7 +6464,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:09.2-digital-history-dialogue.Rmd-->
 
@@ -6960,7 +6960,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:09.3-bookdown.Rmd-->
 
@@ -7254,7 +7254,7 @@ video formatting in HMTL seems to be cleaner than Vimeo formatting.
 
 …as shown in Image <a href="#fig:vimeo-sample-video">59</a>.
 
-<iframe src="https://player.vimeo.com/video/27299734" width="100%" height="400px">
+<iframe src="https://player.vimeo.com/video/220562166" width="100%" height="400px">
 </iframe>
 <p class="caption">
 Image 59: Here’s a sample caption for Vimeo video, with option to add
@@ -7265,22 +7265,39 @@ in HTML is not always clean.
 
 #### Demo: Kaltura video iframe in web edition, static image in PDF edition
 
+-   Work with Trinity Library to upload items to their Kaltura [Hartford
+    History
+    channel](https://trincoll.mediaspace.kaltura.com/channel/Hartford%2BHistory/144729181)
+    or your personal channel.
+-   Go to Kaltura video entry &gt; share button &gt; embed, extract the
+    long URL, and paste in R code-chunk below.
+-   Option: This method allows you to select a video start time, such as
+    8:00, which will be appended to the embed code URL in seconds like
+    this: `[mediaProxy.mediaPlayFrom]=480"`
+-   This method successfully avoids auto-play in Mac browsers. TODO:
+    test in Windows browsers and other devices.
+-   Note: If you paste the long URL directly into a modern browser, the
+    early portion of the link transforms into HTML5-specific code, which
+    you also could use if needed.
+-   TODO: Since Kaltura player setup auto-displays captions, which are
+    faulty in the automated video upload process, need to insert
+    corrected captions directly from the transcript. Prioritize videos
+    that need caption revisions.
+
 …as shown in Image <a href="#fig:kaltura-sample-video">60</a>.
 
-<iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="100%" height="400px">
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_66aksvf1&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 60: Here’s a sample caption for a video on Trinity Kaltura server,
-using an HTML5 embed code that is unclear if is currently supported, but
-still works as of January 2020. (The default Kaltura “share” embed code
-is not properly formatted in the iframe.) Successfully avoids auto-play
-issue.
+Image 60: Here’s a sample caption for a video on Trinity Kaltura server.
 </p>
 
-Note that as of January 2020, videos uploaded to CTDA have datastreams
-generated in MP4 video format, but these run in auto-play format in the
-browser, which CTDA cannot turn off, so not appropriate to display in
-the browser in this book. See sample video datastream:
+#### Note about CTDA videos
+
+As of 2020, videos uploaded to CTDA have datastreams generated in MP4
+video format, but these run in auto-play format in the browser, which
+CTDA cannot turn off, so are not appropriate to display in the browser
+in this book. See sample video datastream:
 <a href="https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4" class="uri">https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4</a>
 and read more
 <a href="https://confluence.uconn.edu/display/CTDA/Datastreams" class="uri">https://confluence.uconn.edu/display/CTDA/Datastreams</a>.
@@ -7435,7 +7452,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:09.4-style-guide.Rmd-->
 
@@ -7577,7 +7594,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jun 2020*
+book-in-progress was last updated on: 03 Jun 2020*
 
 <!--chapter:end:09.5-alternative.Rmd-->
 
