@@ -5,7 +5,7 @@ Preface
 
 ![](images/coverOTL300x300.png)
 
-**This book-in-progress was last updated on 01 Jul 2020**
+**This book-in-progress was last updated on 17 Aug 2020**
 
 *On The Line*, an open-access digital and print history book, makes
 visible the hidden schooling and housing boundaries that divide
@@ -441,7 +441,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:01-introduction.Rmd-->
 
@@ -503,7 +503,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:01.1-bridging.Rmd-->
 
@@ -699,7 +699,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:01.2-outline.Rmd-->
 
@@ -977,7 +977,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:02.1-richest.Rmd-->
 
@@ -2018,7 +2018,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:03.3-lending.Rmd-->
 
@@ -2368,7 +2368,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:03.4-restricting.Rmd-->
 
@@ -2553,7 +2553,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:03.5-public-housing.Rmd-->
 
@@ -2693,7 +2693,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:03.6-zoning.Rmd-->
 
@@ -3380,7 +3380,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:05.3-mobilizing.Rmd-->
 
@@ -3788,7 +3788,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:05.5-jumping.Rmd-->
 
@@ -4835,7 +4835,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.1-investigating.Rmd-->
 
@@ -5230,7 +5230,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.2-writing.Rmd-->
 
@@ -5486,7 +5486,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.3-teaching-oral-history.Rmd-->
 
@@ -5799,7 +5799,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.4-who-owns-oral-history.Rmd-->
 
@@ -5863,7 +5863,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.5-oral-history-consent.Rmd-->
 
@@ -6021,12 +6021,12 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:08.6-covenants.Rmd-->
 
-Home and School Shopping Simulation {- home-school-shopping}
-------------------------------------------------------------
+Home and School Shopping Simulation
+-----------------------------------
 
 Learning exercise developed for Ed 308: Cities, Suburbs & Schools by
 Jack Dougherty
@@ -6172,7 +6172,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:09.1-maps-and-charts.Rmd-->
 
@@ -6464,7 +6464,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:09.2-digital-history-dialogue.Rmd-->
 
@@ -6960,7 +6960,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:09.3-bookdown.Rmd-->
 
@@ -7452,7 +7452,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:09.4-style-guide.Rmd-->
 
@@ -7594,7 +7594,7 @@ License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more
 [about the book](about-the-book.html), including [how to read and
 cite](how-to-read-and-cite.html) and our [copyright with open-access
 policy and code repository](copyright-with-open-access.html). This
-book-in-progress was last updated on: 01 Jul 2020*
+book-in-progress was last updated on: 17 Aug 2020*
 
 <!--chapter:end:09.5-alternative.Rmd-->
 

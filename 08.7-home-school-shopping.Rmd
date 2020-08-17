@@ -1,4 +1,4 @@
-## Home and School Shopping Simulation {- home-school-shopping}
+## Home and School Shopping Simulation {- #home-school-shopping}
 Learning exercise developed for Ed 308: Cities, Suburbs & Schools by Jack Dougherty
 
 Goal: Given a demographic profile of a Hartford family, where can you afford to rent or buy a home in the surrounding suburbs, and what kind of public school access would this residence provide? This simplified role-playing scenario is designed to simulate the experience of home and school shopping, in order to deepen our understanding of the relationship between education and housing policy in the metropolitan US.
