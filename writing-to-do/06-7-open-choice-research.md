@@ -1,0 +1,62 @@
+Project Concern & Open Choice research review
+
+Copy of my Jan 2021 email to Kim Stevenson:
+
+You asked for data on the long-term outcomes of Hartford students in Open Choice suburban schools versus their peers in Hartford schools, and other students. That’s a long question, so you’re going to get a long answer! Here’s my summary, with links for more details if you’re interested.
+
+1) In general across the nation, the research literature shows that racial and socioeconomic diversity in schools provides academic benefits and longer-term positive outcomes for all students, particularly low-income students and students of color. For a reader-friendly research summary, see:
+
+Jennifer Ayscue, Erica Frankenberg, and Genevieve Siegel-Hawley, “The Complementary Benefits of Racial and Socioeconomic Diversity in Schools, Research Brief Number 10” (National Coalition on School Diversity, March 2017), https://school-diversity.org/pdf/DiversityResearchBriefNo10.pdf.
+
+2) During the 1970s-1990s, high-quality research on Project Concern (old program name) in the Hartford region contributed to the national research literature on school integration. Robert (Bob) Crain was a leading sociologist of education at Teachers College, Columbia University, who published several several studies on school desegregation in many locations across the nation, including  long-term outcomes of Black Hartford students who were selected by lottery to participate in Project Concern. Here is one of the final reports from 1992 that you can read online:
+
+Robert L Crain et al., “Finding Niches: Desegregated Students Sixteen Years Later. Final Report on the Educational Outcomes of Project Concern, Hartford, Connecticut” (New York: Institute for Urban and Minority Education, Teachers College, Columbia University, 1992), ERIC Document 396035, http://eric.ed.gov/?id=ED396035.
+
+Summary: This report compares the educational attainment and present attitudes of young black adults who did and did not participate in a program that allowed inner-city students to attend suburban schools. The desegregation program, Project Concern in Hartford, Connecticut, began in 1966 by randomly selecting one group of students to be offered the opportunity to attend suburban schools and a second group as controls. Both groups, along with other Project Concern participants, were traced. In 1982, some 700 students and their parents were surveyed, after they had finished secondary school. It was concluded that attending suburban schools reduced high school dropout rates, increased adult contacts with whites socially, and increased the number of blacks choosing to live in interracial housing. Male participants had fewer difficulties with police, perceived less discrimination in colleges and in employment, and were more likely to succeed in college. Female participants were less likely to have a child before age 18. It seems likely that, for a male, the chance of obtaining 2 or more years of college was at least one and one-half times greater if he received a desegregated education. Appendix A discusses data collection methodology, and Appendix B is an analysis of self-selection and response bias.
+
+3) But in recent decades, very little high-quality research on Open Choice students has been conducted in the Hartford region. One reason is that direct comparisons are not easy, due to self-selection bias. This means that Hartford students whose families apply to Open Choice (or other interdistrict magnet schools or ag-tech schools) are not a random sample of the Hartford population, but a self-selected sample whose may have motivations that differ from their non-applicant peers and are not easily measured. See more about self-selection bias in one of my other books, Hands-On Data Visualization. Another reason is that the CT Dept of Ed has not readily shared student-level data with all researchers.
+
+Here’s two higher-quality studies about Open Choice that have been conducted since 2000:
+
+3a) Erin Jacobs, a Cornell undergraduate, conducted a smaller study of Open Choice middle-school students in 2003, and found differences in academic achievement by the income level of Hartford students:
+
+Erin Jacobs, “Educating Inner-City Children in Suburban Schools: A Randomized Study of Majority-to-Minority Transfer and Achievement in Connecticut” (Senior Honors Thesis, Department of Sociology, Ithaca, New York, Cornell University, 2003), http://digitalrepository.trincoll.edu/cssp_papers/21/.
+
+Summary: This quantitative study measures achievement differences between students who enrolled in Open Choice (a city-to-suburb voluntary school integration busing program, previously known as Project Concern, and a key remedy in the Sheff case), versus applicants who were not admitted by lottery. The study was based on 140 students who applied to enter the Choice program for the 1999-2000 academic year, in grades 5-8. Through the random lottery, 42 were accepted into the Choice program, while 98 remained in a control group. Using students' CMT scores, the author wrote the following: "In this study, I compare standardized achievement test scores of Choice and control students in order to estimate the effects of majority-to-minority transfer on the academic performance of Hartford students.  I find that treatment students perform better than controls in reading and, to a lesser extent, in math.  Writing scores, however, are lower for Choice students than for controls.  Although there is a trend toward more positive effects as the number of years in treatment increases, this change is largely the result of the movement of students between treatment and control after the initial allocation of groups.  When the sample is divided into lower- and higher-income groups, new patterns of achievement emerge.  Lower-income Choice students perform worse in all subject areas compared to lower-income controls.  Achievement for higher income students, however, appears to be affected more positively by participation in Open Choice, as these treatment students perform better than controls in both reading and math, though not in writing.  These findings suggest that while participation in the program academically benefits higher-income students, it has a more negative effect on the achievement of lower-income students.  Despite the intentions of policy makers, those students who are most disadvantaged do not appear to benefit from Open Choice. " p8-9
+
+3b) In 2015, researchers at the CT Dept of Education published a very technical study about academic performance of CT students in public choice programs (charters, magnets, and Open Choice). But they did not reveal all of the details about their methods, and have not made their datasets available to other researchers.
+
+Richard F. Mooney et al., Evaluating the Academic Performance of Choice Programs in Connecticut: A Pretest-Posttest Evaluation Using Matched Multiple Quasi-Control Comparison Groups (Hartford CT: Connecticut State Department of Education, 2015), https://s3.amazonaws.com/s3.documentcloud.org/documents/2093290/choice-evaluation-report.pdf.
+
+Summary: Public charter schools, interdistrict magnet schools, and the Open Choice program are collectively
+called Choice programs. One of their key missions is to improve educational outcomes of historically
+underperforming students from Connecticut’s urban public schools. This analysis examines the academic
+growth and outcome performance based on the Connecticut Mastery Tests (CMT) for Choice program
+attendees from Connecticut’s four largest cities—Bridgeport, Hartford, New Haven, and Waterbury—over
+a two-year period (2010 to 2012).
+To conduct the most effective examination of ex post facto or pre-existing data where random assignment
+is either impossible or unethical (Murnane, R.J. and Willett, J.B., 2011), 30 stratified random samples of
+quasi-controls were generated from the co-present population of CMT test-takers. Then, the academic
+results for urban Choice program attendees were compared with results from the 30 samples. To counter
+known biasing influences such as higher baseline test performance, these quasi-control samples were
+matched with their respective Choice program “treatment group” on baseline test performance as well as
+on student background characteristics known to be related to test performance (Behuniak, P., Mooney, R.
+F., Cloud, R., 1990).
+Results for each Choice program group and its respective quasi-control groups were tracked and compared
+longitudinally for the same students in two grade cohorts:
+1. Grade 3 in 2010 to Grade 5 in 2012
+2. Grade 6 in 2010 to Grade 8 in 2012
+The use of longitudinal data allows us to ascribe academic performance gains over time to the educational
+interventions that have taken place; additionally, comparing gains achieved by the Choice program groups
+to their respective quasi-control groups enables us to control for gains that might have occurred naturally
+due to student maturation.
+In the Grades 3 to 5 cohort, the analysis reveals statistically meaningful gains at or above the CMT
+Proficient level in interdistrict magnet schools operated by regional educational service centers (RESCs)
+and for the Open Choice program, and nearly statistically meaningful gains at or above the CMT Goal
+level for the RESC-operated interdistrict magnet schools.
+In the Grades 6 to 8 cohort, public charter schools alone showed statistically meaningful gains at or above
+Proficient and Goal levels on the CMT.
+This study remains an ex post facto, or “after the fact” analysis, thus not allowing causal attribution of the
+program outcomes. Hence, in practice it cannot be said with certainty that clones of these Choice programs,
+or an exportation of specific pedagogical techniques and strategies used, will necessarily ensure
+similar performance successes for urban students in general.
