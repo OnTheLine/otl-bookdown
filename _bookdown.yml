@@ -1,6 +1,8 @@
 output_dir: "docs"
+delete_merged_file: true
 book_filename: "Dougherty-etal-OnTheLine"
 language:
   label:
-    fig: "Image "
+    fig: "Figure "
+    tab: "Table "
 chapter_name: "Chapter "

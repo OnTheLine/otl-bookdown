@@ -22,6 +22,6 @@ NOTE: the PDF above now includes this text and link:
 - See a newer version of this 2011 consent form in the *On The Line* book
 - https://ontheline.trincoll.edu/oral-history-consent.html
 
-Image of CC licenses: http://ontheline.trincoll.edu/wp-content/uploads/2012/02/cc-licenses-terms.png
+Figure of CC licenses: http://ontheline.trincoll.edu/wp-content/uploads/2012/02/cc-licenses-terms.png
 
-Image of Elizabeth Horton Sheff: http://ontheline.trincoll.edu/wp-content/uploads/2011/08/Sheff629x351.jpg
+Figure of Elizabeth Horton Sheff: http://ontheline.trincoll.edu/wp-content/uploads/2011/08/Sheff629x351.jpg

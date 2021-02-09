@@ -765,7 +765,7 @@ Hartford school buildings are said to the finest in the State,” Clark
 added, and called special attention to his alma mater, Hartford Public
 High School, the second oldest in the nation, which also enjoyed “a
 reputation with all the leading colleges as one of the best of all the
-preparatory schools,” as shown in Image
+preparatory schools,” as shown in Figure
 <a href="#fig:1876-scribners-monthly">1</a>.[2] In fact, the education
 that young people received in the city’s public school system far
 surpassed what was available in the outlying rural towns, known today as
@@ -774,7 +774,7 @@ the suburbs.
 <iframe src="https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html" width="100%" height="660px">
 </iframe>
 <p class="caption">
-Image 1: Scroll [the full-screen
+Figure 1: Scroll [the full-screen
 document](https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html)
 from *Scribner’s Monthly* in 1876, which declared Hartford as “the
 richest city in the United States,” relative to its population.
@@ -900,12 +900,12 @@ $536,000, more than three times the average $178,000 sales price in
 Hartford. In some eyes, the once-powerful city-based economic powerhouse
 had become a doughnut—a fiscally depressed center surrounded by an
 affluent suburban ring—though with wide variation in the middle, as
-shown in Image <a href="#fig:1910-2010-otl-home-value">2</a>.[10]
+shown in Figure <a href="#fig:1910-2010-otl-home-value">2</a>.[10]
 
 <iframe src="https://ontheline.github.io/otl-home-value/" width="100%" height="640px">
 </iframe>
 <p class="caption">
-Image 2: Explore this [full-screen interactive
+Figure 2: Explore this [full-screen interactive
 map](https://ontheline.github.io/otl-home-value/index-caption.html) of
 home values in Hartford County, 1910-2010. The most valuable
 single-family homes (in dark green) shifted from the capital city to
@@ -985,13 +985,13 @@ Carving Up Town Boundaries
 --------------------------
 
 Text to come on the continual redrawing of town boundaries in Hartford
-region thru 1880s, as shown in Image
+region thru 1880s, as shown in Figure
 <a href="#fig:1600s-otl-town-borders">3</a>.[11]
 
 <iframe src="https://ontheline.github.io/otl-town-borders/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 3: Scroll down (or click the narrative and use keyboard down
+Figure 3: Scroll down (or click the narrative and use keyboard down
 arrow) in this [full-size interactive
 map](https://ontheline.github.io/otl-town-borders/index-caption.html) of
 town borders in Hartford County, Connecticut. From the early 1600s to
@@ -1024,7 +1024,7 @@ county-wide school districts in many other states
 <iframe src="https://ontheline.github.io/otl-compare-school-districts/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 4: Compare any US elementary school district boundaries
+Figure 4: Compare any US elementary school district boundaries
 side-by-side, at the same scale, in this [full-size interactive
 map](https://ontheline.github.io/otl-compare-school-districts/index-caption.html).
 Hover over districts to view student population and poverty data. Click
@@ -1073,25 +1073,25 @@ transport the pupils, and lose this grant when no compensating grant to
 help meet the costs of conveyance is provided,” stated the report
 authors. “The present scheme of grants is all too evidently hindering
 rather than aiding the small towns to improve their schools,” as shown
-in Image <a href="#fig:1925-one-room-schools">5</a>.[12]
+in Figure <a href="#fig:1925-one-room-schools">5</a>.[12]
 
 TODO - expand chapter
 
 <img src="images/1925-one-room-schools.png" alt="This map illustrated the gradual decline of one-room schools across Connecticut from 1921 to 1925, according to the State Board of Education."  />
 <p class="caption">
-Image 5: This map illustrated the gradual decline of one-room schools
+Figure 5: This map illustrated the gradual decline of one-room schools
 across Connecticut from 1921 to 1925, according to the State Board of
 Education.
 </p>
 
 In 1901, the Connecticut State Board of Education attempted to shame
 towns by printing photos of low-quality one-room schools, without the
-name of the town, as shown in Image
+name of the town, as shown in Figure
 <a href="#fig:1901-csde-one-room-school-p3">6</a>.[13]
 
 <img src="images/1901-csde-one-room-school-p3.jpg" alt="The Connecticut State Board of Education shamed towns by printing photos of low-quality one-room rural schools in its 1901 report." width="50%" />
 <p class="caption">
-Image 6: The Connecticut State Board of Education shamed towns by
+Figure 6: The Connecticut State Board of Education shamed towns by
 printing photos of low-quality one-room rural schools in its 1901
 report.
 </p>
@@ -1101,7 +1101,7 @@ TODO: add index-caption
 <iframe src="https://ontheline.github.io/otl-oldschoolct/" width="100%" height="625px">
 </iframe>
 <p class="caption">
-Image 7: Click thumbnail photos in this [full-screen interactive
+Figure 7: Click thumbnail photos in this [full-screen interactive
 map](https://ontheline.github.io/otl-oldschoolct/index.html) to view
 larger present-day photos from [Instragram photographer Johnna
 Kaplan](https://www.instagram.com/oldschoolct), shown here with her
@@ -1327,11 +1327,11 @@ visually illustrate their perceived levels of mortgage investment risk.
 Green signaled the safest areas for lenders to offer home loans,
 followed by blue and yellow, and then red to mark the most “hazardous”
 areas. Years later, these became more widely known as “redlining” maps,
-as shown in Image <a href="#fig:1937-holc-hartford-map-scan">8</a>.[21]
+as shown in Figure <a href="#fig:1937-holc-hartford-map-scan">8</a>.[21]
 
 <img src="images/1937-holc-hartford-map-scan.jpg" alt="Explore the [original 1937 Residential Security Map for Hartford and West Hartford](http://mapwarper.net/maps/15096), and the [adjacent Map for East Hartford](http://mapwarper.net/maps/15097), scanned from the Home Owners' Loan Corporation records at the National Archives. Green indicated the HOLC's view of the safest neighborhoods for mortgage investment, followed by blue and yellow, and then red to signal the riskiest areas."  />
 <p class="caption">
-Image 8: Explore the [original 1937 Residential Security Map for
+Figure 8: Explore the [original 1937 Residential Security Map for
 Hartford and West Hartford](http://mapwarper.net/maps/15096), and the
 [adjacent Map for East Hartford](http://mapwarper.net/maps/15097),
 scanned from the Home Owners’ Loan Corporation records at the National
@@ -1436,12 +1436,12 @@ forms asked Milliken to report the percentage of “Foreign-born” and
 received Depression-era federal income assistance. In the subsequent
 section asking about the “Infiltration” of outside groups, Milliken
 occasionally listed “Italians” or “Mixed foreign” residents for specific
-neighborhoods, as shown in Image
+neighborhoods, as shown in Figure
 <a href="#fig:1937-holc-inhabitants-c10">9</a>.[24]
 
 <img src="images/1937-holc-inhabitants-c10.png" alt="Explore the [HOLC area descriptions](https://github.com/ontheline/otl-redlining/blob/master/sources/holc-hartford-1937-appraisal.pdf), based on forms that instructed field agents to report on the social composition of the neighborhood as a factor to measure mortgage risk. Source: Hartford area C-10, 1937, from the National Archives."  />
 <p class="caption">
-Image 9: Explore the [HOLC area
+Figure 9: Explore the [HOLC area
 descriptions](https://github.com/ontheline/otl-redlining/blob/master/sources/holc-hartford-1937-appraisal.pdf),
 based on forms that instructed field agents to report on the social
 composition of the neighborhood as a factor to measure mortgage risk.
@@ -1473,7 +1473,7 @@ Street neighborhoods (Red D-1) as “the city’s oldest residential
 section, which has gradually drifted into a slum area” occupied
 primarily by Black and Italian residents. See all of the HOLC
 neighborhood appraisals by clicking on the interactive map shown in
-Image <a href="#fig:1937-otl-redlining">10</a>. Through the process of
+Figure <a href="#fig:1937-otl-redlining">10</a>. Through the process of
 rating and mapping the Hartford region, the invisible color and class
 lines in the minds of Hartford’s financial leaders were transformed into
 a visible color-coded map, endorsed by the federal government, yet
@@ -1482,7 +1482,7 @@ hidden from public view.[25]
 <iframe src="https://ontheline.github.io/otl-redlining/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 10: Click on color-coded areas in the [full-screen interactive
+Figure 10: Click on color-coded areas in the [full-screen interactive
 map](https://ontheline.github.io/otl-redlining/index-caption.html) to
 view one-page HOLC appraisals for each neighborhood in 1937, and the
 factors that field agents and local banks and lenders considered. They
@@ -1653,7 +1653,7 @@ Nelson and colleagues have compiled the most comprehensive digital
 collection of HOLC maps and appraisal reports at [Mapping Inequality:
 Redlining in New Deal
 America](https://dsl.richmond.edu/panorama/redlining/#loc=4/39.1/-94.58),
-as shown in Image <a href="#fig:2018-redlining-america">11</a>. Looking
+as shown in Figure <a href="#fig:2018-redlining-america">11</a>. Looking
 across HOLC reports, they found multiple instances of HOLC field agents
 stating that “infiltration” by various groups—in the pejorative language
 used at that time, such as “Colored” or “Italian” or “Jewish” or
@@ -1667,7 +1667,7 @@ another matter, to be addressed further below.
 <iframe src="https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 11: Zoom in and click on HOLC maps and appraisals for cities
+Figure 11: Zoom in and click on HOLC maps and appraisals for cities
 across the US in the [full-screen interactive version of Mapping
 Inequality: Redlining in New Deal
 America](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58)
@@ -1710,11 +1710,11 @@ was “Location,” and the factor bearing the most weight on that rating
 was “Protection from Adverse Influences.” The FHA *Manual* warned that
 “where little or no protection is provided against adverse influences,
 the Valuator must not hesitate to make a reject rating,” as shown in
-Image <a href="#fig:1936-fha-247">12</a>.[28]
+Figure <a href="#fig:1936-fha-247">12</a>.[28]
 
 <img src="images/1936-fha-247.png" alt="Explore the [1936 Federal Housing Administration Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=246'), which illustrated how an unfavorable location rating could cause a mortgage application to be rejected. Hosted by HathiTrust."  />
 <p class="caption">
-Image 12: Explore the [1936 Federal Housing Administration Underwriting
+Figure 12: Explore the [1936 Federal Housing Administration Underwriting
 Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=246'),
 which illustrated how an unfavorable location rating could cause a
 mortgage application to be rejected. Hosted by HathiTrust.
@@ -1748,7 +1748,7 @@ of”inharmonious" racial groups should be negatively factored into FHA
 mortgage applications. Photo digitized by [Library of
 Congress](https://www.loc.gov/pictures/item/2016871684/)." /&gt;
 <p class="caption">
-Image 13: Frederick M. Babcock, shown here as Director of the
+Figure 13: Frederick M. Babcock, shown here as Director of the
 Underwriting Division of the Federal Housing Administration in 1937,
 codified how the presence of “inharmonious” racial groups should be
 negatively factored into FHA mortgage applications. Photo digitized by
@@ -1766,7 +1766,7 @@ future threats to its stability. The *Underwriting Manual* instructed
 appraisers to “investigate areas surrounding the location to determine
 whether or not incompatible racial and social groups are present,” such
 as Black, immigrant, or lower-income residents, as any intrusions would
-provoke “instability and a reduction in values,” as shown in Image
+provoke “instability and a reduction in values,” as shown in Figure
 <a href="#fig:1936-fha-manual-226">14</a>. Neighborhoods received higher
 scores if they were protected by “natural or artificially established
 barriers,” such as hills, parks, highways, or college campuses that
@@ -1786,7 +1786,7 @@ older urban neighborhoods.[30]
 <iframe src="images/1936-fha-manual-226.pdf" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 14: Scroll through the [1936 FHA Underwriting
+Figure 14: Scroll through the [1936 FHA Underwriting
 Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=195'),
 which required evaluators to assign lower scores to mortgage
 applications located in or near racially or socioeconomically diverse
@@ -1809,12 +1809,12 @@ added a four-level ranking for the neighborhood location, on a scale
 from A to D, based largely on the HOLC City Security Map ratings.
 Updated FHA evaluation forms also included specific codes to designate
 the predominant racial composition of the neighborhood: White, Mixed,
-Foreign, and Negro, as shown in Image
+Foreign, and Negro, as shown in Figure
 <a href="#fig:1938-fha-manual-1849">15</a>.[32]
 
 <img src="images/1938-fha-manual-1849.png" alt="The FHA introduced codes to indicate the predominant racial composition of neighborhoods in its [1938 Underwriting Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409261;view=1up;seq=476). Digitized by HathiTrust."  />
 <p class="caption">
-Image 15: The FHA introduced codes to indicate the predominant racial
+Figure 15: The FHA introduced codes to indicate the predominant racial
 composition of neighborhoods in its [1938 Underwriting
 Manual](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409261;view=1up;seq=476).
 Digitized by HathiTrust.
@@ -1962,7 +1962,7 @@ dropped off during its consolidation phase from 1935-1951. By contrast,
 the FHA program steadily grew and backed over $5 billion in total loans
 from the 1930s Depression until World War II, then soared in the
 post-war years, supporting over $3 billion in loans in 1948 alone, as
-shown in Image <a href="#fig:1933-chart-holc-fha">16</a>.[40] While HOLC
+shown in Figure <a href="#fig:1933-chart-holc-fha">16</a>.[40] While HOLC
 directly funded mortgages, FHA insured mortgage payments to banks and
 other lenders, thereby using public funding to cooperate with, rather
 than compete against, private enterprise. After World War II, the
@@ -1974,7 +1974,7 @@ sailors to purchase homes.[41]
 <iframe src="https://ontheline.github.io/otl-chart-holc-fha/" width="100%" height="500px">
 </iframe>
 <p class="caption">
-Image 16: Explore the [full-screen interactive
+Figure 16: Explore the [full-screen interactive
 chart](https://ontheline.github.io/otl-chart-holc-fha/index.html) to
 compare the value of HOLC mortgages versus all types of FHA-insured
 loans and mortgages sponsored by year from 1933 to 1948. While HOLC
@@ -2055,13 +2055,13 @@ present-day residents to imagine this kind of explicit racism in the
 heart of New England, this chapter uncovers the missing history of
 state-supported discrimination in multiple housing developments in
 suburban West Hartford, and most likely many other towns across
-Connecticut, as shown in Image
+Connecticut, as shown in Figure
 <a href="#fig:1940-otl-covenants">17</a>.[46]
 
 <iframe src="https://ontheline.github.io/otl-covenants/" width="100%" height="500px">
 </iframe>
 <p class="caption">
-Image 17: Click on colored rectangles in the [full-screen interactive
+Figure 17: Click on colored rectangles in the [full-screen interactive
 map](https://ontheline.github.io/otl-covenants/index-caption.html) to
 view racially restrictive covenants in the Hartford area in the 1940s.
 Real estate developers wrote restrictions into property deeds that
@@ -2178,7 +2178,7 @@ restriction over the next year.[48]
 
 Advertising for High Ledge Homes did not mention its racial barrier, but
 emphasized its exclusivity. The 1940 newspaper advertisement shown in
-Image <a href="#fig:1940-high-ledge-homes">18</a> listed the development
+Figure <a href="#fig:1940-high-ledge-homes">18</a> listed the development
 for “anyone interested in a low or medium home price of the better
 class,” located in the “A” region of town’s zoning ordinance, which
 required single-family building lots to be at least 9,000 square feet,
@@ -2195,7 +2195,7 @@ covenant, their 1940 advertising promised homebuyers that”you’ll like
 your neighbors." Copyrighted by the *Hartford Courant*, reprinted under
 fair-use copyright guidelines." width=“50%” /&gt;
 <p class="caption">
-Image 18: Although High Ledge Homes did not openly publicize their
+Figure 18: Although High Ledge Homes did not openly publicize their
 Whites-only property covenant, their 1940 advertising promised
 homebuyers that “you’ll like your neighbors.” Copyrighted by the
 *Hartford Courant*, reprinted under fair-use copyright guidelines.
@@ -2294,7 +2294,7 @@ development were shocked to learn that their neighborhood had been
 protected by a 1940s White-only covenant, and sought to make sense of
 its meaning on their lives. Debra Walsh, an educator and actor,
 reflected on the White privilege that was attached to her decision to
-buy her home in 2010, shown in Image
+buy her home in 2010, shown in Figure
 <a href="#fig:2011-walsh-debra">19</a>. Although she had believed that
 the North had not exhibited such explicit racist policies, the direct
 evidence of race restrictive covenants convinced her that “West Hartford
@@ -2313,7 +2313,7 @@ language.[55]
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_cqi53nct&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 19: Watch the [oral history video or read the transcript of the
+Figure 19: Watch the [oral history video or read the transcript of the
 interview with Debra
 Walsh](http://digitalrepository.trincoll.edu/cssp_ohistory/21) to hear
 how she learned about a race restrictive covenant in her West Hartford
@@ -2325,7 +2325,7 @@ uncomfortable about the past, they remain an important piece of history,
 a hidden chapter that deserves more attention. Susan Hansen, a librarian
 and White resident who bought her home in the High Ledge Homes
 neighborhood in the 1990s, reflected on this theme during a present-day
-oral history interview, shown in Image
+oral history interview, shown in Figure
 <a href="#fig:2011-hansen-susan">20</a>. “I think this is something that
 people should know,” Hansen observed, “because there are people still
 living on my street who were here then, who must have been fully aware.”
@@ -2339,7 +2339,7 @@ here. It’s still here.”[56]
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_1lgpzx7x&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 20: Watch the [oral history video or read the transcript of the
+Figure 20: Watch the [oral history video or read the transcript of the
 interview with Susan
 Hansen](http://digitalrepository.trincoll.edu/cssp_ohistory/17) to hear
 her reflections about a race restrictive covenant in her West Hartford
@@ -2399,7 +2399,7 @@ back, local leaders prevailed by finding a legal loophole to block
 non-whites from moving in.
 
 In 1943, a dispute arose in West Hartford over the Oakwood Acres public
-housing development, shown in Image
+housing development, shown in Figure
 <a href="#fig:1954-02-17-ht-oakwood-acres">21</a>.[59] Federal housing
 officials and West Hartford leaders clashed on whether or not African
 Americans should be allowed to live in this World War II public housing
@@ -2418,7 +2418,7 @@ other towns in the state.
 
 <img src="images/1954-02-17-ht-oakwood-acres.jpg" alt="Photo of Oakwood Acres public housing in West Hartford, from the *Hartford Times*, February 17, 1954, digitized by the Hartford History Center, Hartford Public Library."  />
 <p class="caption">
-Image 21: Photo of Oakwood Acres public housing in West Hartford, from
+Figure 21: Photo of Oakwood Acres public housing in West Hartford, from
 the *Hartford Times*, February 17, 1954, digitized by the Hartford
 History Center, Hartford Public Library.
 </p>
@@ -2455,14 +2455,14 @@ Negroes,” it was thought that “temporary dormitories” might be built if
 additional government grants could be obtained. Berkley Cox, chairman of
 the HHA called this situation “satisfactory.”[62]
 
-<!-- TODO: rewrite above-below to integrate: as shown in Image <a href="#fig:1943-12-16-metro-news-oakwood">22</a>.^[@NegroesMayNot1943] -->
+<!-- TODO: rewrite above-below to integrate: as shown in Figure <a href="#fig:1943-12-16-metro-news-oakwood">22</a>.^[@NegroesMayNot1943] -->
 
 &lt;img src=“images/1943-12-16-metro-news-oakwood.jpg” alt=“Headline
 from 1943 *Metropolitan News* stated that”Negroes may not move into
 Oakwood" wartime public housing in West Hartford. Digitized by West
 Hartford Public Library." /&gt;
 <p class="caption">
-Image 22: Headline from 1943 *Metropolitan News* stated that “Negroes
+Figure 22: Headline from 1943 *Metropolitan News* stated that “Negroes
 may not move into Oakwood” wartime public housing in West Hartford.
 Digitized by West Hartford Public Library.
 </p>
@@ -2477,11 +2477,11 @@ only find substandard accommodations. The federal government planned to
 use the complex to provide housing for these workers and their
 families.[63]
 
-<!-- TODO: rewrite above-below to integrate: as shown in Image <a href="#fig:1951-2013-aerial-oakwood">23</a>.^[TODO: add footnote] -->
+<!-- TODO: rewrite above-below to integrate: as shown in Figure <a href="#fig:1951-2013-aerial-oakwood">23</a>.^[TODO: add footnote] -->
 
 <img src="images/1951-2013-aerial-oakwood.jpg" alt="Aerial images of Oakwood Acres Housing Tract, in 1951 and today, on the West Hartford border with Hartford, from MAGIC UConn Libraries."  />
 <p class="caption">
-Image 23: Aerial images of Oakwood Acres Housing Tract, in 1951 and
+Figure 23: Aerial images of Oakwood Acres Housing Tract, in 1951 and
 today, on the West Hartford border with Hartford, from MAGIC UConn
 Libraries.
 </p>
@@ -2806,7 +2806,7 @@ College, developed his organizational skills in the telecommunications
 business world and also as an educator. Later, he and his wife Wendy
 moved their family from an all-White suburb to live in Blue Hills, a
 racially-mixed neighborhood in Hartford’s North End. People called their
-trio, as pictured in Image <a href="#fig:1974circa-ei">24</a>, the “Mod
+trio, as pictured in Figure <a href="#fig:1974circa-ei">24</a>, the “Mod
 Squad,” referring to the late-1960s television show starring three
 multicultural undercover crime fighters, because as Ramos recalls, “when
 they saw us coming, they always expected some kind of problem or issue
@@ -2814,7 +2814,7 @@ to arise.”[76]
 
 <img src="images/1974circa-education_instruccion_dixon-papers.jpg" alt="Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos McKay, Ben Dixon, circa 1974."  />
 <p class="caption">
-Image 24: Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos
+Figure 24: Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos
 McKay, Ben Dixon, circa 1974.
 </p>
 
@@ -2897,7 +2897,7 @@ steering.[79]
 <iframe src="images/1973-ya-basta-hinds-box5.pdf" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 25: Scroll the [full-screen
+Figure 25: Scroll the [full-screen
 document](http://ontheline.trincoll.edu/images/1973-ya-basta-hinds-box5.pdf)
 to read instructions for housing discrimination testers in the Ya Basta:
 Sue the Bastards project, 1973.
@@ -3033,7 +3033,7 @@ regulators, and federal housing officials, as shown in
 <iframe src="images/1974-YaBastaExcerpts-Hinds-box5.pdf" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 26: Scroll the [full-screen
+Figure 26: Scroll the [full-screen
 document](http://ontheline.trincoll.edu/images/1974-YaBastaExcerpts-Hinds-box5.pdf)
 to read the transcript of housing tester secret tape-recordings in the
 Ya Basta: Sue the Bastards project, 1974.
@@ -3133,7 +3133,7 @@ Center, and shared online through the Connecticut Digital Archive.
 
 <img src="images/1974-fairhousingreports-ctda.png" alt="(ref:1974-fairhousingreports-ctda)"  />
 <p class="caption">
-Image 27: (ref:1974-fairhousingreports-ctda)
+Figure 27: (ref:1974-fairhousingreports-ctda)
 </p>
 
 &lt;img src=“images/1972-74-EI-images.png” alt=“Education/Instrucción
@@ -3146,7 +3146,7 @@ to illustrate segregated housing (center), and report 2 showed layers of
 corporate and governmental control over the housing market (right)."
 /&gt;
 <p class="caption">
-Image 28: Education/Instrucción creatively communicated its message by
+Figure 28: Education/Instrucción creatively communicated its message by
 placing ads in the 1972 Hartford Courant Sunday real estate section to
 ask “What Creates, Maintains, and Condones over 99% White Population in
 the Hartford Suburbs?” and “Can You Understand Institutional White
@@ -3424,12 +3424,12 @@ this deck of cards,” she later explained, “I just have to play them,”
 and her son Trevor “should be able to go where he can to get the best
 education.”[97]
 
-<!-- TODO: rewrite above-below to integrate: As shown in Image <a href="#fig:1985-foster-saundra">29</a>...although this video reveals her discomfort in discussing her case, local and national activists publicized her arrest to draw attention to broader issues of city-suburban inequity.^[@mendozaJumpingLine1985; TODO: insert link to full video somewhere, either CTDA or Kaltura] ALSO insert link and reference to the full-length version of the video below, and decide where it should be uploaded -->
+<!-- TODO: rewrite above-below to integrate: As shown in Figure <a href="#fig:1985-foster-saundra">29</a>...although this video reveals her discomfort in discussing her case, local and national activists publicized her arrest to draw attention to broader issues of city-suburban inequity.^[@mendozaJumpingLine1985; TODO: insert link to full video somewhere, either CTDA or Kaltura] ALSO insert link and reference to the full-length version of the video below, and decide where it should be uploaded -->
 
 <iframe src="https://player.vimeo.com/video/296304521" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 29: Watch this 1985 [television
+Figure 29: Watch this 1985 [television
 excerpt](https://vimeo.com/296304521) about how Saundra Foster, a
 Hartford resident, and three other Black parents were arrested by the
 suburban Bloomfield public school district for “stealing” a public
@@ -3494,7 +3494,7 @@ boundaries that divided Hartford and suburban students.
 
 <img src="images/quick-bloomfield-map.png" alt="Boundary between the adjacent school districts of Hartford and Bloomfield CT."  />
 <p class="caption">
-Image 30: Boundary between the adjacent school districts of Hartford and
+Figure 30: Boundary between the adjacent school districts of Hartford and
 Bloomfield CT.
 </p>
 
@@ -3575,7 +3575,7 @@ prosecuted Black Hartford parents in the 1980s for taking the same
 actions that they condoned by White Hartford parents in the 1960s.
 
 White racial anxiety at Bloomfield High was driven by the dramatic shift
-in racial demographics during this period, as shown in Image
+in racial demographics during this period, as shown in Figure
 <a href="#fig:1967-84-bloomfield-race">31</a>.[102] The school enrolled
 only 13 percent Black students in 1967, which rose to 37 percent by
 1977, then climbed to 62 percent by 1984. But the primary driver of this
@@ -3590,7 +3590,7 @@ broader conflicts around the case of Saundra Foster.[103]
 
 <img src="images/1967-84-bloomfield-race.png" alt="This chart of racial change at Bloomfield High School, 1967-84, shows how it tipped from a White-majority to a Black-majority student population in the early 1980s, just before Bloomfield town leaders authorized the arrest of Saundra Foster and other parents."  />
 <p class="caption">
-Image 31: This chart of racial change at Bloomfield High School,
+Figure 31: This chart of racial change at Bloomfield High School,
 1967-84, shows how it tipped from a White-majority to a Black-majority
 student population in the early 1980s, just before Bloomfield town
 leaders authorized the arrest of Saundra Foster and other parents.
@@ -3676,7 +3676,7 @@ School hidden in the trunks of cars, conjuring imagery of”illegal
 aliens" crossing the US-Mexico border. Source: Hartford Courant,
 copyrighted 1985, included here under fair-use guidelines." /&gt;
 <p class="caption">
-Image 32: Amid the controversial arrest of Saundra Foster, *Hartford
+Figure 32: Amid the controversial arrest of Saundra Foster, *Hartford
 Courant* political cartoonist Bob Englehart portrayed Black Hartford
 students arriving at Bloomfield High School hidden in the trunks of
 cars, conjuring imagery of “illegal aliens” crossing the US-Mexico
@@ -4132,7 +4132,7 @@ twentieth century.[124]
 <iframe src="https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html" width="100%" height="660px">
 </iframe>
 <p class="caption">
-Image 33: Explore this [scrolling
+Figure 33: Explore this [scrolling
 version](https://ontheline.github.io/otl-google-books-api/scribners-monthly-1876.html)
 of *Scribner’s Monthly* in 1876, which declared Hartford as “the richest
 city in the United States,” relative to its population. Digitized by
@@ -4173,7 +4173,7 @@ tax revenues.[126]
 <iframe src="https://ontheline.github.io/otl-home-value/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 34: Explore the [full-screen interactive
+Figure 34: Explore the [full-screen interactive
 map](https://ontheline.github.io/otl-home-value/index-caption.html) of
 home values in Hartford County, 1910-2010. The most valuable
 single-family homes (in dark green) shifted from the capital city to
@@ -4223,7 +4223,7 @@ most prestigious public secondary education in the Hartford region.[127]
 <iframe src="https://ontheline.github.io/otl-hphs" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 35: Scroll down this [interactive
+Figure 35: Scroll down this [interactive
 storymap](https://ontheline.github.io/otl-hphs) to view images of
 Hartford Public High School as it moved to different locations over
 time. View [historical sources and
@@ -4258,7 +4258,7 @@ from moving into federally subsidized wartime public housing.[129]
 <iframe src="https://ontheline.github.io/otl-redlining/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 36: Click on color-coded areas in this [interactive
+Figure 36: Click on color-coded areas in this [interactive
 map](https://ontheline.github.io/otl-redlining/index-caption.html) to
 view neighborhood appraisals by the Home Owners’ Loan Corporation (HOLC)
 in the Hartford area, 1937. HOLC prioritized neighborhoods to receive
@@ -4293,7 +4293,7 @@ Tracey Wilson and Vianna Iorio, both in this book.[131]
 <iframe src="https://ontheline.github.io/otl-covenants/" width="100%" height="500px">
 </iframe>
 <p class="caption">
-Image 37: Click on colored rectangles in the [full-screen interactive
+Figure 37: Click on colored rectangles in the [full-screen interactive
 map](https://ontheline.github.io/otl-covenants/index-caption.html) of
 restrictive covenants in the Hartford area in the 1940s. Real estate
 developers wrote restrictions into property deeds that prohibited
@@ -4374,7 +4374,7 @@ school.[136]
 
 <img src="images/1960-05-01-HC-branding-homes.png" alt="Three West Hartford private real estate ads in 1960, with public schools highlighted in red. Copyrighted by the *Hartford Courant*, reprinted here under Fair Use guidelines."  />
 <p class="caption">
-Image 38: Three West Hartford private real estate ads in 1960, with
+Figure 38: Three West Hartford private real estate ads in 1960, with
 public schools highlighted in red. Copyrighted by the *Hartford
 Courant*, reprinted here under Fair Use guidelines.
 </p>
@@ -4393,7 +4393,7 @@ Jacqueline Katz.[137]
 
 <img src="images/2003-shaw-spencer.jpg" alt="Spencer Shaw, a Black Hartford resident, successfully purchased a home in a White neighborhood in Bloomfield in the early 1960s. Photo by Jacqueline Katz."  />
 <p class="caption">
-Image 39: Spencer Shaw, a Black Hartford resident, successfully
+Figure 39: Spencer Shaw, a Black Hartford resident, successfully
 purchased a home in a White neighborhood in Bloomfield in the early
 1960s. Photo by Jacqueline Katz.
 </p>
@@ -4436,7 +4436,7 @@ front of private homes.[139]
 
 <img src="images/2005-wright-adelle.jpg" alt="Adelle Wright organized Bloomfield residents against real estate block-busting in the early 1970s."  />
 <p class="caption">
-Image 40: Adelle Wright organized Bloomfield residents against real
+Figure 40: Adelle Wright organized Bloomfield residents against real
 estate block-busting in the early 1970s.
 </p>
 
@@ -4470,7 +4470,7 @@ Jasmin Agosto and Vianna Iorio, also in this book.[141]
 
 <img src="images/1974circa-education_instruccion_dixon-papers.jpg" alt="Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos McKay, Ben Dixon, circa 1974."  />
 <p class="caption">
-Image 41: Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos
+Figure 41: Education/Instrucción Co-Directors Boyd Hinds, Julia Ramos
 McKay, Ben Dixon, circa 1974.
 </p>
 
@@ -4566,7 +4566,7 @@ children’s future classmates than their test scores.[145]
 
 <img src="images/2009-aje-visual.png" alt="Our study compared home prices on opposite sides of public school attendance zones in West Hartford over time."  />
 <p class="caption">
-Image 42: Our study compared home prices on opposite sides of public
+Figure 42: Our study compared home prices on opposite sides of public
 school attendance zones in West Hartford over time.
 </p>
 
@@ -4622,7 +4622,7 @@ the intended urban beneficiaries.[147]
 <iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 43: View the [oral history video interview and
+Figure 43: View the [oral history video interview and
 transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with
 Elizabeth Horton Sheff in 2011.
 </p>
@@ -4724,7 +4724,7 @@ racial groups other than their own.[152]
 <iframe src="https://www.youtube.com/embed/0su0t0PFNdk" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 44: View this [silent video
+Figure 44: View this [silent video
 clip](https://www.youtube.com/embed/0su0t0PFNdk) of the SmartChoices
 public school choice search tool, produced by the Cities Suburbs and
 Schools Project from 2008-2014.
@@ -4732,7 +4732,7 @@ Schools Project from 2008-2014.
 
 <img src="images/2009-smartchoices-workshop-adaavila-courtneycoyne.png" alt="Trinity student researchers Ada Avila '11 (left) and Courtney Coyne '10 (right) interview Hartford parents as they explore SmartChoices during a workshop focus group in 2009."  />
 <p class="caption">
-Image 45: Trinity student researchers Ada Avila ’11 (left) and Courtney
+Figure 45: Trinity student researchers Ada Avila ’11 (left) and Courtney
 Coyne ’10 (right) interview Hartford parents as they explore
 SmartChoices during a workshop focus group in 2009.
 </p>
@@ -4970,7 +4970,7 @@ history coverage on ConnecticutHistory.org.
 
 <img src="images/2013-ceglio-teaches-meehan-mcgann.jpg" alt="Clarissa Ceglio teaches Trinity students Emily Meehan and Sean McGann how to write for ConnecticutHistory.org."  />
 <p class="caption">
-Image 46: Clarissa Ceglio teaches Trinity students Emily Meehan and Sean
+Figure 46: Clarissa Ceglio teaches Trinity students Emily Meehan and Sean
 McGann how to write for ConnecticutHistory.org.
 </p>
 
@@ -5015,7 +5015,7 @@ to contribute to an education larger than their own.
 
 <img src="images/2013-seminar-googledoc.jpg" alt="Students and mentors comment on draft essays using Google Documents."  />
 <p class="caption">
-Image 47: Students and mentors comment on draft essays using Google
+Figure 47: Students and mentors comment on draft essays using Google
 Documents.
 </p>
 
@@ -5124,7 +5124,7 @@ as published contributors to Connecticut’s online history.[170]
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 48: Watch the [video
+Figure 48: Watch the [video
 clip](https://www.youtube.com/embed/NuWg9Jrkrpw?start=64) on Trinity
 students reflecting on their writing process with ConnecticutHistory.org
 in 2013.
@@ -5687,9 +5687,9 @@ combinations of licensing terms for source attribution (BY), no
 derivative works (ND), share alike (SA), and non-commercial (NC)
 use.[194]
 
-<img src="images/2012-cc-licenses.jpg" alt="Six types of Creative Commons licenses. [Image source](http://education-copyright.org/creative-commons), 2012."  />
+<img src="images/2012-cc-licenses.jpg" alt="Six types of Creative Commons licenses. [Figure source](http://education-copyright.org/creative-commons), 2012."  />
 <p class="caption">
-Image 49: Six types of Creative Commons licenses. [Image
+Figure 49: Six types of Creative Commons licenses. [Figure
 source](http://education-copyright.org/creative-commons), 2012.
 </p>
 
@@ -5769,7 +5769,7 @@ guidelines.[196]
 <iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 50: View the [oral history video interview and
+Figure 50: View the [oral history video interview and
 transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with
 Elizabeth Horton Sheff in 2011.
 </p>
@@ -5887,7 +5887,7 @@ persisted on legal documents.[197]
 
 Our goal was to search for restrictive covenants of any type, racial or
 religious, in the metropolitan Hartford area, as described in the video
-in Image <a href="#fig:2011-covenants-video">51</a>.[198] But no one we
+in Figure <a href="#fig:2011-covenants-video">51</a>.[198] But no one we
 consulted had ever seen such a document, nor did we have any experience
 searching property deeds. So we read about the history of these barriers
 in other cities and learned as much as we could about the research
@@ -5898,7 +5898,7 @@ may have more helpful advice to offer.
 <iframe src="https://player.vimeo.com/video/220562166" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 51: In this [video](https://player.vimeo.com/video/220562166),
+Figure 51: In this [video](https://player.vimeo.com/video/220562166),
 Katie Campbell Levasseur describes how we found restrictive covenants in
 the Town of West Hartford property records in 2011.
 </p>
@@ -6500,7 +6500,7 @@ guide](style-guide.html) in the next chapter.
 
 <img src="images/bookdown/0-workflow.png" alt="Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, *R Markdown Cookbook*, chapter 2.1."  />
 <p class="caption">
-Image 52: Simplified diagram of workflow to compose, compile, and
+Figure 52: Simplified diagram of workflow to compose, compile, and
 publish this book, adapted from Yihui Xie, *R Markdown Cookbook*,
 chapter 2.1.
 </p>
@@ -6560,7 +6560,7 @@ Publishing Platforms](alternative.html) in this book.
 
 <img src="images/bookdown/0-workflow2-desktop.png" alt="Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right)."  />
 <p class="caption">
-Image 53: Overview of the workflow on a Mac desktop: Compose and build
+Figure 53: Overview of the workflow on a Mac desktop: Compose and build
 the book in RStudio with Bookdown (top left), manage sources and insert
 citation keys with Zotero + BetterBibTex (bottom left), and push the
 built book files to GitHub Pages with settings shown via web browser to
@@ -6577,7 +6577,7 @@ local drive automatically appear in the RStudio pre-build files.
 
 <img src="images/bookdown/0-workflow3-atom.png" alt="(ref:0-workflow3-atom)"  />
 <p class="caption">
-Image 54: (ref:0-workflow3-atom)
+Figure 54: (ref:0-workflow3-atom)
 </p>
 
 ### Install Bookdown with R, RStudio, and a LaTeX Engine
@@ -6724,7 +6724,7 @@ technical guide](https://bookdown.org/yihui/bookdown).
 In this book, the `_bookdown.yml` file is set to build all of the book
 outputs (Web edition, PDF edition, etc.) in directory folder named
 `docs` in the GitHub repo as shown below. (Proper indenting is important
-here.) Also note that the default “Figure” has been renamed to “Image”
+here.) Also note that the default “Figure” has been renamed to “Figure”
 in the HTML edition of this book. **TODO: change for PDF output prior to
 PDF publication, see Style Guide.**
 
@@ -6732,7 +6732,7 @@ PDF publication, see Style Guide.**
     book_filename: "Dougherty-etal-OnTheLine"
     language:
       label:
-        fig: "Image "
+        fig: "Figure "
     chapter_name: "Chapter "
 
 In this book, the Bookdown setting has been changed from the default
@@ -7126,7 +7126,7 @@ Cross-reference interactivity varies by output:
 -   In PDF, all cross-refs are clickable (except chapter-level HTML
     links).
 
-### Images
+### Figures
 
 Create high-resolution color static images in .jpg or .png form and save
 them into the `images` subfolder. Make sure that color images can be
@@ -7149,7 +7149,7 @@ When inserting image filenames into the text, use the version minus
 add a code-comment with the image width, height, and resolution as a
 reminder to make others match up, like this:
 
-`<!-- Images below are 200x200 at 300 resolution -->`
+`<!-- Figures below are 200x200 at 300 resolution -->`
 
 In this book, use *Markdown formatting only for images that appear
 inside tables* or *do not require captions or figure numbering*, and
@@ -7194,11 +7194,11 @@ chapter](https://bookdown.org/yihui/bookdown/figures.html).
 
 #### Demo: R code-chunk for static image
 
-…as shown in Image <a href="#fig:sample-static-image">55</a>.
+…as shown in Figure <a href="#fig:sample-static-image">55</a>.
 
 <img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting and links."  />
 <p class="caption">
-Image 55: Caption for sample static image, with Markdown formatting and
+Figure 55: Caption for sample static image, with Markdown formatting and
 links.
 </p>
 
@@ -7212,12 +7212,12 @@ add a line in a `custom-scripts.html` file.
 
 #### Demo: R code-chunk for HTML iframe and static image
 
-…as shown in Image <a href="#fig:sample-interactive">56</a>.
+…as shown in Figure <a href="#fig:sample-interactive">56</a>.
 
 <iframe src="https://ontheline.github.io/otl-redlining/" width="100%" height="600px">
 </iframe>
 <p class="caption">
-Image 56: Explore the [full-screen interactive
+Figure 56: Explore the [full-screen interactive
 map](https://ontheline.github.io/otl-redlining/index-caption.html) and
 point to the captioned version. Add full caption text here. Map
 developed by Ilya Ilyankou and Jack Dougherty. See [historical data and
@@ -7226,12 +7226,12 @@ code on GitHub](https://github.com/ontheline/otl-redlining/).
 
 #### Demo: R code-chunk for locally-stored PDF scrolling in web edition, static screenshot in PDF edition
 
-…as shown in Image <a href="#fig:pdf-sample-local">57</a>.
+…as shown in Figure <a href="#fig:pdf-sample-local">57</a>.
 
 <iframe src="images/sample-3pp.pdf" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 57: Here’s a sample PDF that is locally stored in the GitHub repo,
+Figure 57: Here’s a sample PDF that is locally stored in the GitHub repo,
 with option to add Markdown link.
 </p>
 
@@ -7239,12 +7239,12 @@ with option to add Markdown link.
 
 #### Demo: R code-chunk for YouTube video iframe in web edition, static image in PDF edition
 
-…as shown in Image <a href="#fig:youtube-sample-video">58</a>.
+…as shown in Figure <a href="#fig:youtube-sample-video">58</a>.
 
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 58: Here’s a sample caption for a YouTube video, with option to
+Figure 58: Here’s a sample caption for a YouTube video, with option to
 add Markdown link (to the full video on a historical preservation
 server, such as CTDA). Successfully avoids auto-play issue. YouTube
 video formatting in HMTL seems to be cleaner than Vimeo formatting.
@@ -7252,12 +7252,12 @@ video formatting in HMTL seems to be cleaner than Vimeo formatting.
 
 #### Demo: R code-chunk for Vimeo video iframe in web edition, static image in PDF edition
 
-…as shown in Image <a href="#fig:vimeo-sample-video">59</a>.
+…as shown in Figure <a href="#fig:vimeo-sample-video">59</a>.
 
 <iframe src="https://player.vimeo.com/video/220562166" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 59: Here’s a sample caption for Vimeo video, with option to add
+Figure 59: Here’s a sample caption for Vimeo video, with option to add
 Markdown link (to the full video on a historical preservation server,
 such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting
 in HTML is not always clean.
@@ -7284,12 +7284,12 @@ in HTML is not always clean.
     corrected captions directly from the transcript. Prioritize videos
     that need caption revisions.
 
-…as shown in Image <a href="#fig:kaltura-sample-video">60</a>.
+…as shown in Figure <a href="#fig:kaltura-sample-video">60</a>.
 
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_66aksvf1&amp;flashvars" width="100%" height="400px">
 </iframe>
 <p class="caption">
-Image 60: Here’s a sample caption for a video on Trinity Kaltura server.
+Figure 60: Here’s a sample caption for a video on Trinity Kaltura server.
 </p>
 
 #### Note about CTDA videos
@@ -8242,7 +8242,7 @@ Floyd, Clifford. “Oral History Interview on Avon, CT.” Cities, Suburbs,
 Schools Project, Trinity College Digital Repository, June 2003.
 
 “Foster Milliken Jr., 1930 US Census Manuscript, New York, NY, Manhattan
-ED 1215, Image 10 of 70.” FamilySearch, 1930.
+ED 1215, Figure 10 of 70.” FamilySearch, 1930.
 <https://www.familysearch.org/ark:/61903/3:1:33S7-9R89-DCW>.
 
 Freund, David. *Colored Property: State Policy and White Racial Politics
@@ -9038,7 +9038,7 @@ Americans,” *Journal of Urban History* 46, no. 1 (January 1, 2020):
 1907,
 <https://search-proquest-com.ezproxy.trincoll.edu/docview/96770976?accountid=14405>;
 “Foster Milliken Jr., 1930 US Census Manuscript, New York, NY, Manhattan
-ED 1215, Image 10 of 70” (FamilySearch, 1930),
+ED 1215, Figure 10 of 70” (FamilySearch, 1930),
 <https://www.familysearch.org/ark:/61903/3:1:33S7-9R89-DCW>; “Milliken –
 Durell.” *New York Times*, January 20, 1935,
 <https://search-proquest-com.ezproxy.trincoll.edu/docview/101500203?accountid=14405>;

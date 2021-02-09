@@ -32,7 +32,7 @@ Given my understanding of oral history and copyright law as a graduate student i
 
 Candace: When I began working with the *On The Line* public history web-book project in the summer of 2011, one of my tasks was to conduct oral history interviews with Hartford civil rights activists. At this point, our research team had stopped using conventional consent forms (which asked participants to “sign over” all rights to their interviews) and had begun using a new form that Jack developed with Creative Commons language. Basically, Creative Commons (CC) is a standardized license that maintains the original copyright for the creator of a work, and allows it to be shared more widely with the public, with certain restrictions if desired. Initially released in 2002 with support from the Center for the Public Domain, there are now [six types of CC licenses](https://creativecommons.org/licenses/) that offer different combinations of licensing terms for source attribution (BY), no derivative works (ND), share alike (SA), and non-commercial (NC) use.^[https://creativecommons.org/licenses/]
 
-(ref:2012-cc-licenses) Six types of Creative Commons licenses. [Image source](http://education-copyright.org/creative-commons), 2012.
+(ref:2012-cc-licenses) Six types of Creative Commons licenses. [Figure source](http://education-copyright.org/creative-commons), 2012.
 
 ```{r 2012-cc-licenses, fig.cap="(ref:2012-cc-licenses)"}
  knitr::include_graphics("images/2012-cc-licenses.jpg")

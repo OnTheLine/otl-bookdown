@@ -166,7 +166,7 @@
 <div class="figure"><span id="fig:0-workflow"></span>
 <img src="images/bookdown/0-workflow.png" alt="Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, R Markdown Cookbook, chapter 2.1."  />
 <p class="caption">
-Image 8.1: Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, <em>R Markdown Cookbook</em>, chapter 2.1.
+Figure 8.1: Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, <em>R Markdown Cookbook</em>, chapter 2.1.
 </p>
 </div>
 <div id="overview" class="section level3 unnumbered" number="">
@@ -181,14 +181,14 @@ Image 8.1: Simplified diagram of workflow to compose, compile, and publish this 
 <div class="figure"><span id="fig:0-workflow2-desktop"></span>
 <img src="images/bookdown/0-workflow2-desktop.png" alt="Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right)."  />
 <p class="caption">
-Image 8.2: Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
+Figure 8.2: Overview of the workflow on a Mac desktop: Compose and build the book in RStudio with Bookdown (top left), manage sources and insert citation keys with Zotero + BetterBibTex (bottom left), and push the built book files to GitHub Pages with settings shown via web browser to share online (right).
 </p>
 </div>
 
 <div class="figure"><span id="fig:0-workflow3-atom"></span>
 <img src="images/bookdown/0-workflow3-atom.png" alt="Optional variation on the workflow above: Use your preferred text editor, such as Atom, to compose Bookdown files in .Rmd format, as shown on the left side of the screen, and save all files on your local drive. Then use RStudio only to build the book products, as shown in the bottom-right corner of the screen, into the docs subfolder of your local drive. All changes saved with Atom editor to the local drive automatically appear in the RStudio pre-build files."  />
 <p class="caption">
-Image 8.3: Optional variation on the workflow above: Use your preferred text editor, such as Atom, to compose Bookdown files in .Rmd format, as shown on the left side of the screen, and save all files on your local drive. Then use RStudio only to build the book products, as shown in the bottom-right corner of the screen, into the <code>docs</code> subfolder of your local drive. All changes saved with Atom editor to the local drive automatically appear in the RStudio pre-build files.
+Figure 8.3: Optional variation on the workflow above: Use your preferred text editor, such as Atom, to compose Bookdown files in .Rmd format, as shown on the left side of the screen, and save all files on your local drive. Then use RStudio only to build the book products, as shown in the bottom-right corner of the screen, into the <code>docs</code> subfolder of your local drive. All changes saved with Atom editor to the local drive automatically appear in the RStudio pre-build files.
 </p>
 </div>
 </div>
@@ -237,12 +237,12 @@ Image 8.3: Optional variation on the workflow above: Use your preferred text edi
 <div id="customize-bookdown-and-github-settings-and-domain-name" class="section level3 unnumbered" number="">
 <h3>Customize Bookdown and GitHub Settings and Domain Name</h3>
 <p>To see the file structure, settings, and content for this <em>On The Line</em> book, view its online repository at <a href="https://github.com/ontheline/ontheline-bookdown" class="uri">https://github.com/ontheline/ontheline-bookdown</a>. See more details about configuration settings, see Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown">Bookdown technical guide</a>.</p>
-<p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Image” in the HTML edition of this book. <strong>TODO: change for PDF output prior to PDF publication, see Style Guide.</strong></p>
+<p>In this book, the <code>_bookdown.yml</code> file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named <code>docs</code> in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default “Figure” has been renamed to “Figure” in the HTML edition of this book. <strong>TODO: change for PDF output prior to PDF publication, see Style Guide.</strong></p>
 <pre><code>output_dir: &quot;docs&quot;
 book_filename: &quot;Dougherty-etal-OnTheLine&quot;
 language:
   label:
-    fig: &quot;Image &quot;
+    fig: &quot;Figure &quot;
 chapter_name: &quot;Chapter &quot;</code></pre>
 <p>In this book, the Bookdown setting has been changed from the default <code>_books</code> folder to the <code>docs</code> folder to take advantage of the GitHub Pages setting that allows hosting online content from the <code>master/docs</code> folder, rather than the entire <code>master</code> branch. Choosing these Bookdown and GitHub Pages settings allows authors to publicly share their book source code and raw text on the <code>master</code> branch, <strong>and</strong> host online the Web and ebook editions from the <code>master/docs</code> subfolder of that branch. (Years earlier, GitHub previously required users to separate these tasks on two different branches, typically called <code>master</code> and <code>gh-pages</code>, but now users can do both through one branch, which is simpler.) Also, following this <code>master/docs</code> method simplifies the address of your GitHub Pages published web edition to this format: <code>https://USERNAME.github.com/REPONAME</code>. (See further below about customizing the web address.) Finally, the <code>docs</code> folder contains an empty <code>.nojekyll</code> file so that GitHub Pages does not attempt to process these static HTML pages in Jekyll.</p>
 <p>In this book, the <code>index.Rmd</code> file is set to produce the Web edition in the GitBook style, with additional settings explained further below. (Proper indenting is important here.)</p>

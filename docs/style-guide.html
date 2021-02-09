@@ -237,13 +237,13 @@ This line appears in the PDF verion, and is commented-out in the HTML version.
 </ul>
 </div>
 <div id="images" class="section level3 unnumbered" number="">
-<h3>Images</h3>
+<h3>Figures</h3>
 <p>Create high-resolution color static images in .jpg or .png form and save them into the <code>images</code> subfolder. Make sure that color images can be rendered into grayscale by the publisher for the print book. Write file names in lowercase with dashes (not spaces) and begin with the relevant year to stay organized. Add <code>-original</code> to the end of the file name prior to resizing or adding more text or artwork.</p>
 <p>Use Photoshop or a similar photo-editing tool (<em>not</em> Preview) to add any additional text or artwork if desired. Try to maintain a high resolution (300 dpi) and reduce size if desired to fit into the HTML book (measured in pixels) and PDF book (measured in inches). Save into the same folder with the same file name, minus <code>-original</code>, like this:</p>
 <pre><code>images/1937-sample-original.png
 images/1937-sample.png</code></pre>
 <p>When inserting image filenames into the text, use the version minus <code>-original</code>. If creating images to appear as the same size in sequence, add a code-comment with the image width, height, and resolution as a reminder to make others match up, like this:</p>
-<p><code>&lt;!-- Images below are 200x200 at 300 resolution --&gt;</code></p>
+<p><code>&lt;!-- Figures below are 200x200 at 300 resolution --&gt;</code></p>
 <p>In this book, use <em>Markdown formatting only for images that appear inside tables</em> or <em>do not require captions or figure numbering</em>, and leave the caption field blank, such as the table of images for authors and contributors.</p>
 <p>Although Markdown formatting offers a simple syntax that easily converts into other formats with Bookdown/Pandoc, there is no auto-numbering in the HTML edition, while auto-numbering appears in the PDF edition, and numbered figures are required by the publisher. Furthermore, Markdown formatting does not allow conditional output.</p>
 <p>For these reasons, this book <em>primarily uses R code-chunk formatting for images</em>. The syntax is more complex but supports auto-numbering in HTML and PDF, and conditional output for interactive and static images.</p>
@@ -259,62 +259,62 @@ images/1937-sample.png</code></pre>
 knitr::opts_chunk$set(echo = FALSE)</code></pre>
 <div id="demo-r-code-chunk-for-static-image" class="section level4 unnumbered" number="">
 <h4>Demo: R code-chunk for static image</h4>
-<p>…as shown in Image <a href="style-guide.html#fig:sample-static-image">8.4</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:sample-static-image">8.4</a>.</p>
 
 <div class="figure"><span id="fig:sample-static-image"></span>
 <img src="images/1937-holc-hartford-map-scan.jpg" alt="Caption for sample static image, with Markdown formatting and links."  />
 <p class="caption">
-Image 8.4: Caption for sample static image, with Markdown formatting and links.
+Figure 8.4: Caption for sample static image, with Markdown formatting and links.
 </p>
 </div>
 <p>R code-chunks allow more complex conditional formatting, where an interactive map or animated GIF or YouTube video clip appears in the web version, and a static image with an embedded link appears in the PDF and MS Word outputs. To change the height of the default 400px iframe, add the new height to <code>include_url</code> as shown in the examples. However, to change the width of the default 675px iframe to less than 100 percent, add a line in a <code>custom-scripts.html</code> file.</p>
 </div>
 <div id="demo-r-code-chunk-for-html-iframe-and-static-image" class="section level4 unnumbered" number="">
 <h4>Demo: R code-chunk for HTML iframe and static image</h4>
-<p>…as shown in Image <a href="style-guide.html#fig:sample-interactive">8.5</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:sample-interactive">8.5</a>.</p>
 
 <div class="figure"><span id="fig:sample-interactive"></span>
 <iframe src="https://ontheline.github.io/otl-redlining/" width="672" height="600px">
 </iframe>
 <p class="caption">
-Image 8.5: Explore the <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map</a> and point to the captioned version. Add full caption text here. Map developed by Ilya Ilyankou and Jack Dougherty. See <a href="https://github.com/ontheline/otl-redlining/">historical data and code on GitHub</a>.
+Figure 8.5: Explore the <a href="https://ontheline.github.io/otl-redlining/index-caption.html">full-screen interactive map</a> and point to the captioned version. Add full caption text here. Map developed by Ilya Ilyankou and Jack Dougherty. See <a href="https://github.com/ontheline/otl-redlining/">historical data and code on GitHub</a>.
 </p>
 </div>
 </div>
 <div id="demo-r-code-chunk-for-locally-stored-pdf-scrolling-in-web-edition-static-screenshot-in-pdf-edition" class="section level4 unnumbered" number="">
 <h4>Demo: R code-chunk for locally-stored PDF scrolling in web edition, static screenshot in PDF edition</h4>
-<p>…as shown in Image <a href="style-guide.html#fig:pdf-sample-local">8.6</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:pdf-sample-local">8.6</a>.</p>
 
 <div class="figure"><span id="fig:pdf-sample-local"></span>
 <iframe src="images/sample-3pp.pdf" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 8.6: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
+Figure 8.6: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 </p>
 </div>
 <!-- TODO: test all video examples below in Windows Edge and Android devices -->
 </div>
 <div id="demo-r-code-chunk-for-youtube-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level4 unnumbered" number="">
 <h4>Demo: R code-chunk for YouTube video iframe in web edition, static image in PDF edition</h4>
-<p>…as shown in Image <a href="style-guide.html#fig:youtube-sample-video">8.7</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:youtube-sample-video">8.7</a>.</p>
 
 <div class="figure"><span id="fig:youtube-sample-video"></span>
 <iframe src="https://www.youtube.com/embed/NuWg9Jrkrpw?start=64" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 8.7: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
+Figure 8.7: Here’s a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 </p>
 </div>
 </div>
 <div id="demo-r-code-chunk-for-vimeo-video-iframe-in-web-edition-static-image-in-pdf-edition" class="section level4 unnumbered" number="">
 <h4>Demo: R code-chunk for Vimeo video iframe in web edition, static image in PDF edition</h4>
-<p>…as shown in Image <a href="style-guide.html#fig:vimeo-sample-video">8.8</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:vimeo-sample-video">8.8</a>.</p>
 
 <div class="figure"><span id="fig:vimeo-sample-video"></span>
 <iframe src="https://player.vimeo.com/video/220562166" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 8.8: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
+Figure 8.8: Here’s a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 </p>
 </div>
 </div>
@@ -328,13 +328,13 @@ Image 8.8: Here’s a sample caption for Vimeo video, with option to add Markdow
 <li>Note: If you paste the long URL directly into a modern browser, the early portion of the link transforms into HTML5-specific code, which you also could use if needed.</li>
 <li>TODO: Since Kaltura player setup auto-displays captions, which are faulty in the automated video upload process, need to insert corrected captions directly from the transcript. Prioritize videos that need caption revisions.</li>
 </ul>
-<p>…as shown in Image <a href="style-guide.html#fig:kaltura-sample-video">8.9</a>.</p>
+<p>…as shown in Figure <a href="style-guide.html#fig:kaltura-sample-video">8.9</a>.</p>
 
 <div class="figure"><span id="fig:kaltura-sample-video"></span>
 <iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_66aksvf1&amp;flashvars" width="672" height="400px">
 </iframe>
 <p class="caption">
-Image 8.9: Here’s a sample caption for a video on Trinity Kaltura server.
+Figure 8.9: Here’s a sample caption for a video on Trinity Kaltura server.
 </p>
 </div>
 </div>

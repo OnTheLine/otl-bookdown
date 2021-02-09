@@ -93,7 +93,7 @@ Cross-reference interactivity varies by output:
 - In PDF, all cross-refs are clickable (except chapter-level HTML links).
 
 
-### Images {-}
+### Figures {-}
 Create high-resolution color static images in .jpg or .png form and save them into the `images` subfolder. Make sure that color images can be rendered into grayscale by the publisher for the print book. Write file names in lowercase with dashes (not spaces) and begin with the relevant year to stay organized. Add `-original` to the end of the file name prior to resizing or adding more text or artwork.
 
 Use Photoshop or a similar photo-editing tool (*not* Preview) to add any additional text or artwork if desired. Try to maintain a high resolution (300 dpi) and reduce size if desired to fit into the HTML book (measured in pixels) and PDF book (measured in inches). Save into the same folder with the same file name, minus `-original`, like this:
@@ -105,7 +105,7 @@ images/1937-sample.png
 
 When inserting image filenames into the text, use the version minus `-original`. If creating images to appear as the same size in sequence, add a code-comment with the image width, height, and resolution as a reminder to make others match up, like this:
 
-`<!-- Images below are 200x200 at 300 resolution -->`
+`<!-- Figures below are 200x200 at 300 resolution -->`
 
 In this book, use *Markdown formatting only for images that appear inside tables* or *do not require captions or figure numbering*, and leave the caption field blank, such as the table of images for authors and contributors.
 
@@ -135,7 +135,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 #### Demo: R code-chunk for static image {-}
-...as shown in Image \@ref(fig:sample-static-image).
+...as shown in Figure \@ref(fig:sample-static-image).
 
 (ref:sample-static-image) Caption for sample static image, with Markdown formatting and links.
 
@@ -146,7 +146,7 @@ knitr::opts_chunk$set(echo = FALSE)
 R code-chunks allow more complex conditional formatting, where an interactive map or animated GIF or YouTube video clip appears in the web version, and a static image with an embedded link appears in the PDF and MS Word outputs. To change the height of the default 400px iframe, add the new height to `include_url` as shown in the examples. However, to change the width of the default 675px iframe to less than 100 percent, add a line in a `custom-scripts.html` file.
 
 #### Demo: R code-chunk for HTML iframe and static image {-}
-...as shown in Image \@ref(fig:sample-interactive).
+...as shown in Figure \@ref(fig:sample-interactive).
 
 (ref:sample-interactive) Explore the [full-screen interactive map](https://ontheline.github.io/otl-redlining/index-caption.html) and point to the captioned version. Add full caption text here. Map developed by Ilya Ilyankou and Jack Dougherty. See [historical data and code on GitHub](https://github.com/ontheline/otl-redlining/).
 
@@ -155,7 +155,7 @@ if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-
 ```
 
 #### Demo: R code-chunk for locally-stored PDF scrolling in web edition, static screenshot in PDF edition {-}
-...as shown in Image \@ref(fig:pdf-sample-local).
+...as shown in Figure \@ref(fig:pdf-sample-local).
 
 (ref:pdf-sample-local) Here's a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 
@@ -166,7 +166,7 @@ if(knitr::is_html_output()) knitr::include_url("images/sample-3pp.pdf") else kni
 <!-- TODO: test all video examples below in Windows Edge and Android devices -->
 
 #### Demo: R code-chunk for YouTube video iframe in web edition, static image in PDF edition {-}
-...as shown in Image \@ref(fig:youtube-sample-video).
+...as shown in Figure \@ref(fig:youtube-sample-video).
 
 (ref:youtube-sample-video) Here's a sample caption for a YouTube video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. YouTube video formatting in HMTL seems to be cleaner than Vimeo formatting.
 
@@ -175,7 +175,7 @@ if(knitr::is_html_output()) knitr::include_url("https://www.youtube.com/embed/Nu
 ```
 
 #### Demo: R code-chunk for Vimeo video iframe in web edition, static image in PDF edition {-}
-...as shown in Image \@ref(fig:vimeo-sample-video).
+...as shown in Figure \@ref(fig:vimeo-sample-video).
 
 (ref:vimeo-sample-video) Here's a sample caption for Vimeo video, with option to add Markdown link (to the full video on a historical preservation server, such as CTDA). Successfully avoids auto-play issue. But Vimeo formatting in HTML is not always clean.
 
@@ -191,7 +191,7 @@ if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/2
 - Note: If you paste the long URL directly into a modern browser, the early portion of the link transforms into HTML5-specific code, which you also could use if needed.
 - TODO: Since Kaltura player setup auto-displays captions, which are faulty in the automated video upload process, need to insert corrected captions directly from the transcript. Prioritize videos that need caption revisions.
 
-...as shown in Image \@ref(fig:kaltura-sample-video).
+...as shown in Figure \@ref(fig:kaltura-sample-video).
 
 (ref:kaltura-sample-video) Here's a sample caption for a video on Trinity Kaltura server.
 

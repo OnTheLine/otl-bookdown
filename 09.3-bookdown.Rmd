@@ -3,9 +3,7 @@
 
 This open-access book is built with free-to-use, open-source tools---primarily Bookdown, GitHub, and Zotero---and this chapter explains how, so that readers may do it themselves and share their knowledge to improve the process. The broad goal of this workflow is for authors to compose one document that is generated into multiple book products: an HTML web edition to read online, a PDF print edition for traditional book publishing, and a Microsoft Word edition for editors who insist on it for copyediting. For this book, the web edition is preferably because only it displays interactive online content (such as interactive maps, scrollable sources, and video clips), which appear as static images in the print edition. But bibliographic notes to source materials in body chapters are clearly visible in both the web and print editions, rather than hidden inside links, so that either version is a complete stand-alone text for future generations. Whenever possible, clickable links have been added to help readers view sources that are available online. (In technical chapters like this one, some source notes are hidden inside links.) See more details in the [On The Line style guide](style-guide.html) in the next chapter.
 
-<!--TODO: Diagram adapted from https://bookdown.org/yihui/rmarkdown-cookbook/r-markdown-components.html. Additional icons with rights statements from https://www.zotero.org/support/brand, https://www.r-project.org/logo/, and https://blog.rstudio.com/2018/07/25/revamped-bookdown-org/. TODO: Due to more restrictive policies, did not include logos for https://github.com/logos or https://rstudio.com/about/logos/ but can revisit in future. -->
-
-(ref:0-workflow) Simplified diagram of workflow to compose, compile, and publish this book, adapted from Yihui Xie, *R Markdown Cookbook*, chapter 2.1.
+(ref:0-workflow) Simplified workflow to compose, compile, and publish with Bookdown. Images from [Daniel Hendricks](https://fileicons.org), [RStudio](https://github.com/rstudio/hex-stickers/), and [Zotero](https://www.zotero.org/support/brand).
 
 ```{r 0-workflow, fig.cap="(ref:0-workflow)"}
  knitr::include_graphics("images/bookdown/0-workflow.png")
@@ -67,14 +65,15 @@ Below are steps we followed to set up the publishing platform for this book, usi
 ### Customize Bookdown and GitHub Settings and Domain Name {-}
 To see the file structure, settings, and content for this *On The Line* book, view its online repository at <https://github.com/ontheline/ontheline-bookdown>. See more details about configuration settings, see Yihui Xie's [Bookdown technical guide](https://bookdown.org/yihui/bookdown).
 
-In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) Also note that the default "Figure " has been renamed to "Image " in the HTML edition of this book. **TODO: change for PDF output prior to PDF publication, see Style Guide.**
+In this book, the `_bookdown.yml` file is set to build all of the book outputs (Web edition, PDF edition, etc.) in directory folder named `docs` in the GitHub repo as shown below. (Proper indenting is important here.) **TODO: change for PDF output prior to PDF publication, see Style Guide.**
 
 ```
 output_dir: "docs"
 book_filename: "Dougherty-etal-OnTheLine"
 language:
   label:
-    fig: "Image "
+    fig: "Figure "
+    tab: "Table "
 chapter_name: "Chapter "
 ```
 
