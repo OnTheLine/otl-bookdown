@@ -1,5 +1,5 @@
 ## Rewriting Equality in Connecticut's Constitution {#rewriting}
-*by [Elaina Rollins and Jack Dougherty](authors-and-contributors.html)*
+*by [Elaina Rollins and Jack Dougherty](authors.html)*
 
 TODO: REFRAME and expand the chapter background
 
@@ -56,8 +56,8 @@ Although the world “equal” is not explicitly written in the amendment, its i
 After his years as a lawyer, Bernstein served as a Connecticut Superior Court Judge for 27 years. He passed away on May 27, 2013, at his home in Sarasota, Florida, at the age of 100. His contribution to Connecticut lives on through the 1965 education amendment that continues to serve as a foundation for educational inequality lawsuits throughout the state.
 
 
-*[About the authors and contributors:](authors-and-contributors.html) Elaina Rollins (Trinity 2016) wrote the first draft of this essay in the Cities Suburbs and Schools seminar and published it in ConnecticutHistory.org, which Jack Dougherty later expanded for publication in this book*.^[@rollinsFiveMinutesThat2014]
+*[About the authors and contributors:](authors.html) Elaina Rollins (Trinity 2016) wrote the first draft of this essay in the Cities Suburbs and Schools seminar and published it in ConnecticutHistory.org, which Jack Dougherty later expanded for publication in this book*.^[@rollinsFiveMinutesThat2014]
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

@@ -1,5 +1,5 @@
 ## Racial Barriers to Public Housing {- #public-housing}
-*by [Emily Meehan and Jack Dougherty](authors-and-contributors.html)*
+*by [Emily Meehan and Jack Dougherty](authors.html)*
 
 <!-- TODO - update and expand this introduction; add notes to Zotero -->
 
@@ -45,8 +45,8 @@ The United States Housing Authority responded with an ultimatum. They stated tha
 
 In 1956, Oakwood Acres was demolished. It had become dilapidated and the people of West Hartford feared it made their neighborhood look like a “slum.”[@wilsonResistancePublicHousing2018] By destroying the unit, West Hartford also erased the physical remnants of this racist chapter in the town’s housing history. Today, West Hartford remains a predominately white community. One can argue that its demographics have been shaped, in part, by discriminatory housing practices of which the standoff over Oakwood Acres is but one example.
 
-*[About the authors and contributors:](authors-and-contributors.html) Emily Meehan (Trinity 2016) wrote the first draft of this essay in the Cities Suburbs and Schools seminar, and published it in ConnecticutHistory.org.[@meehanDebateWhoCould2014] Jack Dougherty expanded the essay for publication in this book.*
+*[About the authors and contributors:](authors.html) Emily Meehan (Trinity 2016) wrote the first draft of this essay in the Cities Suburbs and Schools seminar, and published it in ConnecticutHistory.org.[@meehanDebateWhoCould2014] Jack Dougherty expanded the essay for publication in this book.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

@@ -1,5 +1,5 @@
 ## Style Guide for *On The Line* {- #style-guide}
-View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/master/09.4-style-guide.Rmd.
+View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/master/8.4-style-guide.Rmd.
 
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R Markdown format, which Bookdown generates into multiple book products (HTML web edition, PDF print edition, etc.), as explained in the [previous chapter in this book](bookdown.html). This style guide was created primarily for the HTML web edition of *On The Line* at <http://OnTheLine.trincoll.edu>, and the PDF version will require additional modifications prior to final publication of the print edition.
 
@@ -258,5 +258,5 @@ TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numb
 - Using "hold position" in kable extra to prevent tables being displayed at bottom of page <https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf>
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

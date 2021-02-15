@@ -1,5 +1,5 @@
 ## Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org {- #writing}
-*by [Elaina Rollins, Clarissa Ceglio, and Jack Dougherty](authors-and-contributors.html)*
+*by [Elaina Rollins, Clarissa Ceglio, and Jack Dougherty](authors.html)*
 
 *This chapter originally appeared in Connecticut History Review, whose editor granted permission to republish here with digital links and images.^[@rollinsWritingGreaterHartford2014] Several Trinity students' ConnecticutHistory.org essays have been expanded into chapters in this book.*
 
@@ -55,7 +55,7 @@ What are the essential ingredients behind successful public history writing coll
 For many historians, the digital era raises fears about the future of our profession. What does it mean when anyone can instantly publish their historical interpretation, whether good or bad, on the Internet? How do newer technologies change—and perhaps challenge—what it means to do history? Rather than avoiding the digital turn, we believe that it also provides an ideal opportunity—if wisely exercised—to bring a younger generation to the table and to fully engage them in doing what historians have always done: telling true and meaningful stories about the past for audiences broader than ourselves.^[@doughertyWritingHistoryDigital2013]
 
 ### Trinity College Student Contributions to ConnecticutHistory.org {-}
-See [link to all essays](http://connecticuthistory.org/trinity-college-students-call-attention-to-histories-of-inequality).^[@TrinityCollegeStudents2013]
+See [link to all essays](http://connecticuthistory.org/trinity-college-students-call-attention-to-histories-of-inequality).^[@connecticuthistoryTrinityCollegeStudents2013]
 
 Race Restrictive Covenants in Property Deeds, by Mary Daly '15. “No persons of any race except the white race shall use or occupy any building on any lot… .” Language such as this still appears in Hartford-area housing covenants today.[@dalyRaceRestrictiveCovenants2013]
 
@@ -75,8 +75,8 @@ Hartford’s Great Migration through Charles S. Johnson’s Eyes, by Victoria Sm
 
 Education/Instrucción Combats Housing Discrimination, by Savahna Reuben '15. This group's bilingual name reflected its educational mission as well as its dedication to unified, multicultural cooperation for the common good.[@reubenEducationInstruccionCombats2014]
 
-*[About the authors:](authors-and-contributors.html) Elaina Rollins (Trinity 2016), Clarissa Ceglio, and Jack Dougherty co-wrote this essay based on their collaboration in the Cities Suburbs and Schools seminar.*
+*[About the authors:](authors.html) Elaina Rollins (Trinity 2016), Clarissa Ceglio, and Jack Dougherty co-wrote this essay based on their collaboration in the Cities Suburbs and Schools seminar.*
 
 `r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors-and-contributors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
+![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
 `r if (knitr::is_latex_output()) '-->'`

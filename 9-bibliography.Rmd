@@ -1,0 +1,167 @@
+# Bibliography
+
+The text and images for the _On The Line_ book, including data files and source code for interactive charts and maps, is located in our open-source GitHub repository at <https://github.com/ontheline>. The text is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). See individual images and captions for information about copyrights held by others.
+
+See also digitized documents, oral history interviews, and videos related to this book, stored in the On The Line Digital Archives, Connecticut Digital Archives, <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>.
+
+Since 2002, over 30 Trinity College student researchers have co-authored publications and/or research presentations with faculty, staff, and community partners through the Cities Suburbs and Schools Project <http://commons.trincoll.edu/cssp>. CSSP is both an undergraduate seminar and a research team for independent studies. Their works listed below include articles, book chapters, papers, and presentations, and many of these have been stored in the Papers and Publications section, Cities Suburbs and Schools Project, Trinity College Digital Repository, <http://digitalrepository.trincoll.edu/cssp_papers>. Note that several items currently in the Trinity Digital Repository <https://digitalrepository.trincoll.edu/cssp/> will be migrated into the CTDA.
+
+### Archival and Digital Collections {-}
+
+<!-- REMINDER - save all archival+digital collections in Zotero as web pages. Create main entries with author (institution), and when necessary add titles (collection names), and add URLs, with no accessed dates. Insert asterisk for title to force main entry above sub entries. Select all and copy as biblio with Chicago style. Paste below and find/replace in buffer to remove curly quotation marks, remove asterisk, and replace comma-no-date with period, and replace period-space-period with single-period. Manually add line breaks -->
+
+Avon Free Public Library. Avon History Collection. https://history.avonctlibrary.info.
+
+———. Connecticut Digital Archive Collection. https://collections.ctdigitalarchive.org/islandora/object/150002:001.
+
+———. Map Collection Master Index. https://archives.library.wcsu.edu/cao/ctavfpl/mapcollection.xml.
+
+———. Marian Hunter History Room. https://www.avonctlibrary.info/services/history-room/.
+
+Avon Historical Society. https://avonhistoricalsociety.org.
+
+Connecticut Digital Archive. http://collections.ctdigitalarchive.org/.
+
+Connecticut Historical Society. https://chs.org/.
+
+———. Connecticut Digital Archive Collection. http://hdl.handle.net/11134/40002:CHS001.
+
+Connecticut History Illustrated. http://hdl.handle.net/11134/480002:collection.
+
+Connecticut Judicial Branch. Case Look-Up. https://www.jud.ct.gov/jud2.htm.
+
+Connecticut Open Data. https://data.ct.gov/.
+
+Connecticut State Library. https://ctstatelibrary.org/.
+
+———. Aerial Photographs of Connecticut, 1934-Present. http://libguides.ctstatelibrary.org/hg/aerialphotos/home.
+
+———. Connecticut Digital Archive Collection. http://hdl.handle.net/11134/30002:csl.
+
+———. ResearchIT Newspapers (Available with a Public Library Card). https://researchitct.org/newspapers/.
+
+———. Treasures of Connecticut Libraries. https://cslib.contentdm.oclc.org/digital/collection/p128501coll0.
+
+CT Mirror. https://ctmirror.org.
+
+CTHumanities. https://cthumanities.org/.
+
+———. Connecticut History. https://connecticuthistory.org/.
+
+———. TeachIt Curriculum Projects. https://teachitct.org.
+
+Google Books. https://books.google.com/.
+
+Google Scholar. https://scholar.google.com/.
+
+Hartford Courant. https://courant.com.
+
+———. 1764-1995, ProQuest Historical Newspapers. https://search.proquest.com/hnphartfordcourant.
+
+———. 1764-1995, ProQuest Historical Newspapers, CT State Library Access with a Public Library Card. https://search.proquest.com/hnphartfordcourant/?accountid=46995.
+
+———. 1764-1995, ProQuest Historical Newspapers, Trinity College Library Subscription. https://search-proquest-com.ezproxy.trincoll.edu/hnphartfordcourant/?accountid=14405.
+
+———. 1992-Present, ProQuest Newspapers. https://search.proquest.com/hartfordcourant.
+
+———. 1992-Present, ProQuest Newspapers, CT State Library with a Public Library Card. https://search.proquest.com/hartfordcourant?accountid=46995.
+
+———. 1992-Present, ProQuest Newspapers, Trinity College Library Subscription. https://search-proquest-com/hartfordcourant?accountid=14405.
+
+Hartford Data. https://data.hartford.gov/.
+
+Hartford Public High School Museum & Archive. https://hphs1638.wordpress.com/.
+
+———. Connecticut Digital Archive Collection. http://hdl.handle.net/11134/620002:HPHSMA.
+
+Hartford Public Library. https://www.hplct.org.
+
+Hartford Public Library, Hartford History Center. https://hhc.hplct.org.
+
+———. ArchivesSpace. http://hhc2.hplct.org.
+
+———. Boyd Hinds Papers. http://hhc2.hplct.org/repositories/2/resources/29.
+
+———. Butch Lewis Video Collection. https://collections.ctdigitalarchive.org/islandora/object/50002:butch_lewis.
+
+———. Connecticut Digital Archive. http://hdl.handle.net/11134/50002:AdminJME02.
+
+———. Hartford Changemakers. https://hplct.libguides.com/changemakers.
+
+———. Hartford Housing Resources. https://hplct.libguides.com/hhc-resources/housing.
+
+———. Map Collection. http://hhc2.hplct.org/repositories/2/resources/19.
+
+HathiTrust Digital Library. https://www.hathitrust.org/.
+
+Internet Archive. https://archive.org/.
+
+Jewish Historical Society of Greater Hartford. https://jhsgh.org/.
+
+Life in West Hartford. Essays by Tracey M. Wilson. http://lifeinwesthartford.org.
+
+Map Warper by Topomancy LLC. http://mapwarper.net/.
+
+New York Public Library. Map Warper. http://maps.nypl.org/warper/.
+
+On The Line. GitHub Repository. https://github.com/ontheline.
+
+On The Line Digital Archives. Connecticut Digital Archive Collection. http://hdl.handle.net/11134/120002:otl.
+
+Public Access to Court Electronic Records (PACER). https://www.pacer.gov/pcl.html.
+
+Shoeleather History Project. Stories from Hartford’s Grassroots. Essays by Steve Thornton. https://shoeleatherhistoryproject.com.
+
+Social Explorer. Trinity College Library Subscription. https://www.socialexplorer.com/.
+
+Trinity College Library. https://www.trincoll.edu/lits/.
+
+———. Digital Repository. https://digitalrepository.trincoll.edu/.
+
+———. Digital Repository, Cities, Suburbs, and Schools Project. https://digitalrepository.trincoll.edu/cssp/.
+
+———. Digital Repository, Hartford Studies Papers. https://digitalrepository.trincoll.edu/hartford_papers/.
+
+———. Hartford Collection [Hartford Times Photos]. https://www.jstor.org/site/trinity/hartford/.
+
+———. Watkinson Library, Hartford Studies Project Collection. https://trinitywatkinson.libraryhost.com/repositories/3/resources/58.
+
+University of Connecticut Library. https://lib.uconn.edu.
+
+———. Archives and Special Collections, Connecticut Digital Archive Collection. http://hdl.handle.net/11134/20002:UniversityofConnecticut.
+
+———. Map and Geographic Information Center (MAGIC). http://magic.lib.uconn.edu/.
+
+———. Thomas J. Dodd Research Center, Archives and Special Collections. https://dodd.uconn.edu/thomas-j-dodd-research-center/.
+
+University of Hartford. Connecticut Digital Archive Collection. http://hdl.handle.net/11134/550002:UniversityofHartford.
+
+University of Pennsylvania Library. Online Books Page. https://onlinebooks.library.upenn.edu/.
+
+US Census Bureau. Decennial Publications. https://www.census.gov/prod/www/decennial.html.
+
+US Department of Education. National Center for Education Statistics. https://nces.ed.gov.
+
+US Department of Housing and Urban Development (HUD). Historical and Archived Reports. https://www.huduser.gov/portal/taxonomy/term/2520.
+
+US Government Publishing Office. GovInfo. https://www.govinfo.gov/.
+
+US Library of Congress. https://www.loc.gov/.
+
+———. Sanborn Maps Collection. https://www.loc.gov/collections/sanborn-maps.
+
+US National Archives. https://www.archives.gov/.
+
+Wadsworth Atheneum. Connecticut Digital Archives Collection. http://hdl.handle.net/11134/250002:WA001.
+
+West Hartford Public Library. West Hartford History Online. https://history.westhartfordlibrary.org/.
+
+———. West Hartford Life. https://history.westhartfordlibrary.org/collections/show/1.
+
+———. West Hartford Local History Resources. https://www.westhartfordlibrary.org/local-history/.
+
+———. West Hartford News and Predecessors. https://history.westhartfordlibrary.org/collections/show/6.
+
+WorldCat. https://www.worldcat.org/.
+
+### Automated list of sources cited in book-in-progress {-}

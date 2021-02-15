@@ -433,7 +433,7 @@ on each of our lives.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -495,7 +495,7 @@ generally stopped at the schoolhouse door.[1]
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -691,7 +691,7 @@ build more digital books to tell their own stories.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -969,7 +969,7 @@ different ways.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -1145,7 +1145,7 @@ supported by local and state government.
 Federal Lending and Redlining
 -----------------------------
 
-*by [Shaun McGann and Jack Dougherty](authors-and-contributors.html)*
+*by [Shaun McGann and Jack Dougherty](authors.html)*
 
 Racial and economic segregation in American housing was not simply
 caused by the prejudices of individual property owners. In addition,
@@ -1998,7 +1998,7 @@ cities, a more important story lies inside the bureaucratic FHA policies
 that fueled the growth of new single-family homes in virtually all-White
 suburbs.[42]
 
-*[About the authors and contributors:](authors-and-contributors.html)
+*[About the authors and contributors:](authors.html)
 Shaun McGann (Trinity 2014) wrote the first draft of this essay in the
 Cities Suburbs and Schools seminar, and published it in
 ConnecticutHistory.org.[43] Jack Dougherty expanded the essay for
@@ -2010,7 +2010,7 @@ Institute.*[44]
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -2026,7 +2026,7 @@ Restricting with Property Covenants
 -----------------------------------
 
 *by [Tracey Wilson, Vianna Iorio, and Jack
-Dougherty](authors-and-contributors.html)*
+Dougherty](authors.html)*
 
 > No persons of any race except the white race shall use or occupy any
 > building on any lot except that this covenant shall not prevent
@@ -2346,7 +2346,7 @@ her reflections about a race restrictive covenant in her West Hartford
 neighborhood.
 </p>
 
-*[About the authors and contributors:](authors-and-contributors.html)
+*[About the authors and contributors:](authors.html)
 Tracey Wilson (Trinity 1976) wrote the first draft of this essay for a
 monthly newspaper, and also published it in her book, Life in West
 Hartford.[57] Vianna Iorio (Trinity 2019) and Jack Dougherty expanded
@@ -2360,7 +2360,7 @@ restrictive property covenants, and both she and Candace Simpson
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -2375,7 +2375,7 @@ book-in-progress was last updated on: 17 Aug 2020*
 Racial Barriers to Public Housing
 ---------------------------------
 
-*by [Emily Meehan and Jack Dougherty](authors-and-contributors.html)*
+*by [Emily Meehan and Jack Dougherty](authors.html)*
 
 <!-- TODO - update and expand this introduction; add notes to Zotero -->
 
@@ -2536,7 +2536,7 @@ argue that its demographics have been shaped, in part, by discriminatory
 housing practices of which the standoff over Oakwood Acres is but one
 example.
 
-*[About the authors and contributors:](authors-and-contributors.html)
+*[About the authors and contributors:](authors.html)
 Emily Meehan (Trinity 2016) wrote the first draft of this essay in the
 Cities Suburbs and Schools seminar, and published it in
 ConnecticutHistory.org.[68] Jack Dougherty expanded the essay for
@@ -2545,7 +2545,7 @@ publication in this book.*
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -2685,7 +2685,7 @@ health of our communities?
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -2756,7 +2756,7 @@ Mobilizing Against Racial Steering and Redlining
 ------------------------------------------------
 
 *by [Jasmin Agosto, Vianna Iorio, and Jack
-Dougherty](authors-and-contributors.html)*
+Dougherty](authors.html)*
 
 In the early 1970’s, Julia Ramos, Ben Dixon, and Boyd Hinds gathered in
 a small storefront office at 1170 Albany Avenue, located in a
@@ -3359,7 +3359,7 @@ that still favored White suburban interests. Civil rights victories had
 been won, but the larger struggle remained unfinished, with new
 challenges to be taken up by the next generation of activists.[94]
 
-*[About the authors and contributors:](authors-and-contributors.html)
+*[About the authors and contributors:](authors.html)
 Jasmin Agosto (Trinity 2010) wrote the first draft as her senior thesis,
 researched additional sources, and conducted oral history
 interviews.[95] Vianna Iorio (Trinity 2019) and Jack Dougherty expanded
@@ -3372,7 +3372,7 @@ History Center, Hartford Public Library.*
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -3388,7 +3388,7 @@ Jumping the School District Line
 --------------------------------
 
 *by [Vianna Iorio, JiYun Lee, and Jack
-Dougherty](authors-and-contributors.html)*
+Dougherty](authors.html)*
 
 In 1984, Saundra Foster, a Black single mother living in Hartford, was
 searching for a better school for her teenage son, Trevor. She described
@@ -3770,7 +3770,7 @@ attorneys, filed their lawsuit to challenge racial and economic
 segregation in metropolitan Hartford, which came to be known as the
 Sheff v. O’Neill case.
 
-*[About the authors and contributors:](authors-and-contributors.html)
+*[About the authors and contributors:](authors.html)
 Vianna Iorio (Trinity 2019) and JiYun Lee (Trinity 2017) both wrote
 essays on this topic for the Cities Suburbs and Schools seminar, which
 Vianna later merged and revised for this book, in collaboration with
@@ -3780,7 +3780,7 @@ Jack Dougherty. Also, Jasmin Agosto (Trinity 2010) and Richelle Benjamin
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -4616,7 +4616,7 @@ the popular slogan of “choice,” that effectively protect the interests
 of privileged suburban families while delivering only partial justice to
 the intended urban beneficiaries.[147]
 
-<!-- TODO: rewrite to integrate Elizabeth Horton Sheff into the main text, with dynamic reference, and footnotes like this.^[@sheffOralHistoryInterview2011]. See additional oral histories with participants in the Sheff v O'Neill school desegregation lawsuit.^[@citiessuburbsandschoolsprojectarchivestrinitycollegedigitalrepository; @onthelinedigitalarchivesconnecticutdigitalarchives.] -->
+<!-- TODO: rewrite to integrate Elizabeth Horton Sheff into the main text, with dynamic reference, and footnotes like this.^[@sheffOralHistoryInterview2011]. See additional oral histories with participants in the Sheff v O'Neill school desegregation lawsuit.^[@trinitycollegelibraryDigitalRepositoryCities; @onthelinedigitalarchivesconnecticutdigitalarchives.] -->
 <!-- TODO - if moving all interviews to CTDA, then drop footnote to Trinity repository below, but keep link to Kaltura because it avoids autoplay -->
 
 <iframe src="https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&amp;iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_66aksvf1" width="100%" height="400px">
@@ -4827,7 +4827,7 @@ moving all of us a few steps forward.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -4843,7 +4843,7 @@ Writing Greater Hartford’s Civil Rights Past with ConnecticutHistory.org
 ------------------------------------------------------------------------
 
 *by [Elaina Rollins, Clarissa Ceglio, and Jack
-Dougherty](authors-and-contributors.html)*
+Dougherty](authors.html)*
 
 *This chapter originally appeared in Connecticut History Review, whose
 editor granted permission to republish here with digital links and
@@ -5215,14 +5215,14 @@ Education/Instrucción Combats Housing Discrimination, by Savahna Reuben
 well as its dedication to unified, multicultural cooperation for the
 common good.[182]
 
-*[About the authors:](authors-and-contributors.html) Elaina Rollins
+*[About the authors:](authors.html) Elaina Rollins
 (Trinity 2016), Clarissa Ceglio, and Jack Dougherty co-wrote this essay
 based on their collaboration in the Cities Suburbs and Schools seminar.*
 
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -5478,7 +5478,7 @@ Everything I taught has now been replaced by
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -5493,7 +5493,7 @@ book-in-progress was last updated on: 17 Aug 2020*
 Who Owns Oral History? A Creative Commons Solution
 --------------------------------------------------
 
-*by [Jack Dougherty and Candace Simpson](authors-and-contributors.html)*
+*by [Jack Dougherty and Candace Simpson](authors.html)*
 
 *This is an updated version of an essay that was previously published in
 2012 in an open-access book, [Oral History in the Digital
@@ -5781,7 +5781,7 @@ we believe that this combination—–traditional copyright with Creative
 Commons licensing—–fulfills our dual needs to maintain the rights of
 individual participants while sharing history with the public.
 
-*[About the authors](authors-and-contributors.html): Jack Dougherty and
+*[About the authors](authors.html): Jack Dougherty and
 Candace Simpson (Trinity 2012) developed these ideas while conducting
 oral history interviews for this book, and co-presented at the 2012
 joint meeting of the Organization of American Historians/National
@@ -5791,7 +5791,7 @@ publication.*
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -5855,7 +5855,7 @@ participant for their records*
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -5871,7 +5871,7 @@ How We Found Restrictive Covenants
 ----------------------------------
 
 *by [Katie Campbell Levasseur and Jack
-Dougherty](authors-and-contributors.html)*
+Dougherty](authors.html)*
 
 The [Restricting with Property Covenants](restricting.html) section in
 this book was inspired by the [Seattle Civil Rights & Labor History
@@ -6006,14 +6006,14 @@ paper). To be clear, our study of West Hartford was not comprehensive,
 and we suspect that more race and religious restrictions exist on paper
 in this and other cities and towns across the state.
 
-*[About the authors:](authors-and-contributors.html) Katie Campbell
+*[About the authors:](authors.html) Katie Campbell
 Levasseur (Trinity 2011) conducted research on restrictive property
 records and co-authored this essay with Jack Dougherty.*
 
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -6101,7 +6101,7 @@ stories.
 Maps and Charts by Year
 -----------------------
 
-*by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html)*
+*by [Jack Dougherty and Ilya Ilyankou](authors.html)*
 
 List of maps and charts created for *On The Line*, listed by earliest
 year of data. Click links to explore the full-size interactive versions
@@ -6164,7 +6164,7 @@ TODO: Add more maps and charts
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -6179,7 +6179,7 @@ book-in-progress was last updated on: 17 Aug 2020*
 A Digital History Dialogue
 --------------------------
 
-*by [Jack Dougherty](authors-and-contributors.html) with editors of The
+*by [Jack Dougherty](authors.html) with editors of The
 Metropole blog of the Urban History Association*
 
 *The editors of the “Digital Summer School” series of [The
@@ -6456,7 +6456,7 @@ less time talking with his hands. (Photo by Andy Hart)*
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -6471,7 +6471,7 @@ book-in-progress was last updated on: 17 Aug 2020*
 Building with Bookdown, GitHub, and Zotero
 ------------------------------------------
 
-*by [Jack Dougherty and Ilya Ilyankou](authors-and-contributors.html)
+*by [Jack Dougherty and Ilya Ilyankou](authors.html)
 Technical feedback on this page is welcome on
 [Twitter](https://twitter.com/doughertyjack) or directly on the public
 GitHub repo for this
@@ -6952,7 +6952,7 @@ to find the complete source info.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -7444,7 +7444,7 @@ and needs to be addressed prior to final PDF publication:
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
@@ -7586,7 +7586,7 @@ writing and publishing a web-and-print book like this one.
 ![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The
 Line](http://ontheline.trincoll.edu) is an open-access, born-digital,
 book-in-progress by [Jack Dougherty and
-contributors](authors-and-contributors.html) at Trinity College,
+contributors](authors.html) at Trinity College,
 Hartford CT, USA. This work is copyrighted by the authors and freely
 distributed under a [Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International
