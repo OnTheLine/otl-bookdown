@@ -107,7 +107,7 @@ TODO: FIX this scrolling PDF issue
 (ref:sample-local-pdf) Here's a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
 
 ```{r sample-local-pdf, fig.cap="(ref:sample-local-pdf)"}
-if(knitr::is_html_output(excludes="markdown")) knitr::include_url("images/sample-local-pdf.pdf") else knitr::include_graphics("images/sample-local-pdf-screenshot.png")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("images/bookdown/sample-local-pdf.pdf") else knitr::include_graphics("images/bookdown/sample-local-pdf-screenshot.png")
 ```
 
 ### Demo: R code-chunk for animated GIF in HTML, static image in PDF, DOCX, MD {-}
