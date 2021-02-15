@@ -1,6 +1,6 @@
 output_dir: "docs"
 delete_merged_file: true
-book_filename: "Dougherty-etal-OnTheLine"
+book_filename: "OnTheLine"
 language:
   label:
     fig: "Figure "

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Images and R Code-chunk formatting | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
+  <meta name="description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Images and R Code-chunk formatting | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="http://ontheline.trincoll.edu/" />
+  <meta property="og:image" content="http://ontheline.trincoll.edu/images/coverOTL300x300.png" />
+  <meta property="og:description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
+  <meta name="github-repo" content="ontheline/otl-bookdown" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Images and R Code-chunk formatting | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
+  <meta name="twitter:site" content="@doughertyjack" />
+  <meta name="twitter:description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
+  <meta name="twitter:image" content="http://ontheline.trincoll.edu/images/coverOTL300x300.png" />
+
+<meta name="author" content="Jack Dougherty" />
+<meta name="author" content="and contributors" />
+
+
+<meta name="date" content="2021-02-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="style-guide.html"/>
+<link rel="next" href="tables.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5488840-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><strong>On The Line</strong><br>by Jack Dougherty & contributors</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
+<ul>
+<li class="chapter" data-level="" data-path="about-the-book.html"><a href="about-the-book.html"><i class="fa fa-check"></i>About the Book</a></li>
+<li class="chapter" data-level="" data-path="how-to-read-and-cite.html"><a href="how-to-read-and-cite.html"><i class="fa fa-check"></i>How to Read and Cite</a></li>
+<li class="chapter" data-level="" data-path="authors.html"><a href="authors.html"><i class="fa fa-check"></i>Authors and Contributors</a></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>My Introduction to the Lines</a>
+<ul>
+<li class="chapter" data-level="" data-path="bridging.html"><a href="bridging.html"><i class="fa fa-check"></i>Bridging the History Gap</a></li>
+<li class="chapter" data-level="" data-path="outline.html"><a href="outline.html"><i class="fa fa-check"></i>Outline of the Book</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="defining.html"><a href="defining.html"><i class="fa fa-check"></i><b>1</b> Defining City and Suburban Lines</a>
+<ul>
+<li class="chapter" data-level="" data-path="richest.html"><a href="richest.html"><i class="fa fa-check"></i>The Richest City in the Nation</a></li>
+<li class="chapter" data-level="" data-path="carving.html"><a href="carving.html"><i class="fa fa-check"></i>Carving Up Town Boundaries</a></li>
+<li class="chapter" data-level="" data-path="golden.html"><a href="golden.html"><i class="fa fa-check"></i>A Golden Age for City Schools</a></li>
+<li class="chapter" data-level="" data-path="rural.html"><a href="rural.html"><i class="fa fa-check"></i>Challenges for Rural and Early Suburban Schools</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="separating.html"><a href="separating.html"><i class="fa fa-check"></i><b>2</b> Separating with Color and Class Lines</a>
+<ul>
+<li class="chapter" data-level="" data-path="lending.html"><a href="lending.html"><i class="fa fa-check"></i>Federal Lending and Redlining</a></li>
+<li class="chapter" data-level="" data-path="restricting.html"><a href="restricting.html"><i class="fa fa-check"></i>Restricting with Property Covenants</a></li>
+<li class="chapter" data-level="" data-path="public-housing.html"><a href="public-housing.html"><i class="fa fa-check"></i>Racial Barriers to Public Housing</a></li>
+<li class="chapter" data-level="" data-path="zoning.html"><a href="zoning.html"><i class="fa fa-check"></i>Origins of Exclusionary Zoning</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="selling.html"><a href="selling.html"><i class="fa fa-check"></i><b>3</b> Selling and Shopping the Lines</a></li>
+<li class="chapter" data-level="4" data-path="challenging.html"><a href="challenging.html"><i class="fa fa-check"></i><b>4</b> Challenging the Power Lines</a>
+<ul>
+<li class="chapter" data-level="" data-path="mobilizing.html"><a href="mobilizing.html"><i class="fa fa-check"></i>Mobilizing Against Racial Steering and Redlining</a></li>
+<li class="chapter" data-level="" data-path="jumping.html"><a href="jumping.html"><i class="fa fa-check"></i>Jumping the School District Line</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="choosing.html"><a href="choosing.html"><i class="fa fa-check"></i><b>5</b> Choosing to Cross the Lines</a></li>
+<li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Where Do We Draw the Line?</a></li>
+<li class="chapter" data-level="7" data-path="teaching-researching.html"><a href="teaching-researching.html"><i class="fa fa-check"></i><b>7</b> Teaching and Researching <em>On The Line</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="investigating.html"><a href="investigating.html"><i class="fa fa-check"></i>Investigating Spatial Inequality with the Cities Suburbs and Schools Project</a></li>
+<li class="chapter" data-level="" data-path="writing.html"><a href="writing.html"><i class="fa fa-check"></i>Writing Greater Hartford’s Civil Rights Past with ConnecticutHistory.org</a></li>
+<li class="chapter" data-level="" data-path="teaching-oral-history.html"><a href="teaching-oral-history.html"><i class="fa fa-check"></i>Teaching Oral History</a></li>
+<li class="chapter" data-level="" data-path="who-owns-oral-history.html"><a href="who-owns-oral-history.html"><i class="fa fa-check"></i>Who Owns Oral History? A Creative Commons Solution</a></li>
+<li class="chapter" data-level="" data-path="oral-history-consent.html"><a href="oral-history-consent.html"><i class="fa fa-check"></i>Oral History Consent Form</a></li>
+<li class="chapter" data-level="" data-path="covenants.html"><a href="covenants.html"><i class="fa fa-check"></i>How We Found Restrictive Covenants</a></li>
+<li class="chapter" data-level="" data-path="home-school-shopping.html"><a href="home-school-shopping.html"><i class="fa fa-check"></i>Home and School Shopping Simulation</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="mapping-publishing.html"><a href="mapping-publishing.html"><i class="fa fa-check"></i><b>8</b> Mapping and Publishing <em>On The Line</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="digital-history-dialogue.html"><a href="digital-history-dialogue.html"><i class="fa fa-check"></i>A Digital History Dialogue</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i>Bookdown, GitHub, and Zotero</a></li>
+<li class="chapter" data-level="" data-path="install.html"><a href="install.html"><i class="fa fa-check"></i>Install and Set Up Bookdown</a></li>
+<li class="chapter" data-level="" data-path="structure.html"><a href="structure.html"><i class="fa fa-check"></i>File Structure and Headers</a></li>
+<li><a href="style-guide.html#style-guide">Style Guide for <em>On The Line</em></a></li>
+<li class="chapter" data-level="" data-path="images.html"><a href="images.html"><i class="fa fa-check"></i>Images and R Code-chunk formatting</a></li>
+<li class="chapter" data-level="" data-path="tables.html"><a href="tables.html"><i class="fa fa-check"></i>Tables in Markdown Format</a></li>
+<li class="chapter" data-level="" data-path="zotero.html"><a href="zotero.html"><i class="fa fa-check"></i>Zotero and Better BibTeX</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html"><i class="fa fa-check"></i>Alternative Book Publishing Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>9</b> Bibliography</a></li>
+<li class="divider"></li>
+<li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
+<li><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons BY-NC-SA 4.0<br><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></li>
+<li><a href="https://bookdown.org" target="_blank">Built with Bookdown</a></li>  
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="images" class="section level2 unnumbered">
+<h2>Images and R Code-chunk formatting</h2>
+<p>View the underlying source code to understand how this page was composed at: <a href="https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd" class="uri">https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd</a></p>
+<p>In general, create high-resolution color images and save in PNG format (preferred over JPG due to image loss).</p>
+<p>Save items into the <code>images</code> folder and write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.</p>
+<p>If the original image is larger than 2MB, use photo editor to reduce size but maintain 300 dpi resolution, and add <code>-reduced</code> to file name to avoid confusion with original.</p>
+<p>If we add any artwork to images, insert <code>-annotated</code> to file name to avoid confusion with original.</p>
+<p>To create screenshots, use high-resolution Retina monitor (144 ppi) with tight cropping.</p>
+<p>If we need to create side-by-side images, save each element using the root file name plus a suffix, and use Photoshop or <a href="http://Photopea.com" class="uri">http://Photopea.com</a> to combine images and also save in Photoshop format (.psd) in the images subfolder.</p>
+<p>Since large PNG images sometimes appear too large in the PDF edition, convert a copy into a smaller PDF image to fit better. In Preview, open the copy and reduce image size by 50% (or more), and double resolution (up to 300 dpi if feasible), and save. Then File &gt; Export, with Option to change file format to PDF, but keep same file name as PNG.</p>
+<p>As a result, one image may have different versions:</p>
+<pre><code>images/1937-sample.png
+images/1937-sample-reduced.png
+images/1937-sample-reduced.pdf</code></pre>
+<p>In writing this book, one of key goals was to create R Markdown syntax to display different versions of images for different Bookdown editions. For each image, we wanted one set of instructions to display an interactive chart/map/video using an embedded iframe in the HTML web edition, but display a static PNG image in the full-length Markdown edition, or to substitute a smaller PDF static image when available in the PDF book edition. Also, we wanted auto-numbering of images by chapter.</p>
+<p>Our solution relies on R code-chunk formatting for <em>most</em> images, with some exceptions. This R Markdown/Bookdown syntax is more complex than basic Markdown image formatting, but supports conditional formatting and captions in all of our editions, and auto-numbering in HMTL and LaTeX/PDF editions. Our <em>general</em> R code-chunk image format looks <em>roughly</em> like this, minus some code tics that have been removed for simplicity:</p>
+<pre><code>...as shown in Figure \@ref(fig:keyword).
+
+(ref:keyword) Caption, with optional Markdown links, but no endnotes.
+
+{r keyword, fig.cap=&quot;(ref:keyword)&quot;}
+if(knitr::is_html_output(excludes=&quot;markdown&quot;)) knitr::include_url(&quot;http://pathname-to-interactive-version-keyword.html&quot;)
+else knitr::include_graphics(&quot;pathname-to-static-version-keyword.png&quot;)</code></pre>
+<p>The first line generates an auto-numbered and clickable figure cross-reference call-out. Auto-numbering appears in <code>Figure x.x</code> format in HTML, PDF, and Word, but <code>Figure x</code> format in Markdown. (Word auto-number formatting can be changed with a reference.docx file.) This call-out is important because images in PDF output will “float” by design and may appear before or after the desired page.</p>
+<p>The second line contains the caption, with optional links in Markdown format. But do not insert endnotes with Zotero citation keys, since those will cause errors in the PDF edition. Insert detailed endnotes about sources for images in the body of the text, and use the caption for only a brief “Source:” mention.</p>
+<p>The third block is the R code-chunk. (In practice, the code-chunk is set off from the other two lines using 3 code tic marks, as shown in later demos, which we omitted here for simplicity.) The first portion references keyword in the call-out and also the caption above. The latter portion may simply instruct Bookdown to include a static image (when there is no interactive version), or it may include an if-else statement for conditional formatting when both interactive and static versions exist.</p>
+<p>The if statement for HTML output contains <code>(excludes="markdown")</code> because <code>markdown</code> is considered an HTML format, as described in the <a href="https://bookdown.org/yihui/rmarkdown-cookbook/latex-html.html">R Markdown Cookbook</a>. Since the publisher’s platform will accept a full-length Markdown version of the book, which displays static images rather than interactive visualizations, we need to generate the “markdown” file differently than the HTML web edition.</p>
+<p>Write R code-chunk labels that use the same year and keywords as the image file name. Avoid duplicate labels across the book. Use only letters, numbers, and hyphens (not underscores):</p>
+<pre><code>ref:1901-keywords-with-hyphens
+
+images/1901-keywords-with-hyphens.png</code></pre>
+<p>Do not insert spaces inside the <code>ref:chunk-label</code> for the caption. But do add a blank line to separate it from the code-chunk. After the code-chunk, add <em>another</em> blank line to avoid “undefined reference” Bookdown errors.</p>
+<p>Inside the R code-chunk ref caption, do NOT use mischievous characters (such as <code>&lt;</code> or <code>&gt;</code> or <code>"</code>) that will throw HTML errors into the Markdown output images. Do not insert footnotes in the R code-chunk ref caption, which will throw PDF errors.</p>
+<p>Our Bookdown <code>index.Rmd</code> file includes global R code-chunk settings immediately after the first header. One setting displays each code-chunk image without a code echo, meaning that only the image is displayed, and not the code used to generate that image. The other setting automatically inserts the PDF version of an PNG/JPG image, whenever it exists, in the PDF output, which allows us to manually reduce the size of large images displayed in the PDF book. Read more about these options in this Bookdown chapter: <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a>.</p>
+<pre><code>{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+options(knitr.graphics.auto_pdf = TRUE)</code></pre>
+<div id="demo-r-code-chunk-for-static-image-for-all-editions-html-pdf-docx-md" class="section level3 unnumbered">
+<h3>Demo: R code-chunk for static image for all editions: HTML, PDF, DOCX, MD</h3>
+<p>…as shown in Figure <a href="images.html#fig:sample-image">8.4</a>.</p>
+
+<div class="figure"><span id="fig:sample-image"></span>
+<img src="images/bookdown/sample-image.png" alt="Caption with optional Markdown links but no endnotes. Source: “Hippo and crocodile” by Stig Nygaard, CC-BY."  />
+<p class="caption">
+Figure 8.4: Caption with optional Markdown links but no endnotes. Source: “Hippo and crocodile” by <a href="https://www.flickr.com/photos/10259776@N00">Stig Nygaard</a>, CC-BY.
+</p>
+</div>
+</div>
+<div id="demo-r-code-chunk-to-reduce-size-of-static-image-for-all-editions" class="section level3 unnumbered">
+<h3>Demo: R code-chunk to reduce size of static image for all editions</h3>
+<p>First, create a copy of the original PNG image. Use Preview or any image editor to reduce size by 50 percent or more, and if needed, increase the resolution (from 72 to 144 dpi or higher), and save. Export as PDF image with same filename as PNG file, to produce two image files: keyword.png (original) and keyword.pdf (smaller size). The global setting will auto-substitute the smaller PDF image in place of the original PNG image.</p>
+<p>Second, insert an <code>out.width=...</code> in the second line to reduce the PNG display size as needed in the HTML edition. Note that this method keeps the original PNG image intact, which is ideal when working with historical images of a reasonable file size. Images larger than 3MB may be delayed in the HTML web edition for readers with slow internet connections.</p>
+<p>…as shown in Figure <a href="images.html#fig:sample-image2">8.5</a>.</p>
+
+<div class="figure"><span id="fig:sample-image2"></span>
+<img src="images/bookdown/sample-image2.png" alt="This version reduces HTML display size using out.width=300 and auto-substitutes a smaller PDF image. Source: “Hippo and crocodile” by Stig Nygaard, CC-BY." width="300" />
+<p class="caption">
+Figure 8.5: This version reduces HTML display size using <code>out.width=300</code> and auto-substitutes a smaller PDF image. Source: “Hippo and crocodile” by <a href="https://www.flickr.com/photos/10259776@N00">Stig Nygaard</a>, CC-BY.
+</p>
+</div>
+<p>R code-chunks allow more complex conditional formatting, where an interactive map or animated GIF or streaming video clip appears in the HTML version, and a manually-produced static image with an embedded link appears in the PDF, MS Word, and full-length Markdown outputs. To change the height of the default 400px iframe, add the new height to <code>include_url</code> as shown in the examples. (Note: Changing the width of the default 675px iframe to less than 100 percent requires adding a line in a <code>custom-scripts.html</code> file, and including this in the <code>index.Rmd</code> file).</p>
+</div>
+<div id="demo-r-code-chunk-for-iframe-in-html-static-image-in-pdf-docx-md" class="section level3 unnumbered">
+<h3>Demo: R code-chunk for iframe in HTML, static image in PDF, DOCX, MD</h3>
+<p>…as shown in Figure <a href="images.html#fig:sample-map">8.6</a>.</p>
+
+<div class="figure"><span id="fig:sample-map"></span>
+<iframe src="https://handsondataviz.github.io/leaflet-map-simple/" width="672" height="375px">
+</iframe>
+<p class="caption">
+Figure 8.6: Explore the <a href="https://handsondataviz.github.io/leaflet-map-simple/">interactive map</a>, which enables readers of non-HTML editions to view it.
+</p>
+</div>
+<div id="demo-r-code-chunk-for-locally-stored-scrolling-pdf-in-html-static-screenshot-in-pdf-docx-md" class="section level4 unnumbered">
+<h4>Demo: R code-chunk for locally-stored scrolling PDF in HTML, static screenshot in PDF, DOCX, MD</h4>
+<p>…as shown in Figure <a href="images.html#fig:sample-local-pdf">8.7</a>.</p>
+
+<div class="figure"><span id="fig:sample-local-pdf"></span>
+<iframe src="images/sample-local-pdf.pdf" width="672" height="400px">
+</iframe>
+<p class="caption">
+Figure 8.7: Here’s a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
+</p>
+</div>
+</div>
+</div>
+<div id="demo-r-code-chunk-for-animated-gif-in-html-static-image-in-pdf-docx-md" class="section level3 unnumbered">
+<h3>Demo: R code-chunk for animated GIF in HTML, static image in PDF, DOCX, MD</h3>
+<p>When appropriate, create animated GIF files using the free <a href="https://giphy.com/apps/giphycapture">Giphy Capture</a> or the paid <a href="https://www.techsmith.com/video-editor.html">Camtasia</a> application, which allows the option to add fade-to-black to mark the end-point in the looped version.</p>
+<p>…as shown in Figure <a href="images.html#fig:sample-gif">8.8</a>.</p>
+
+<div class="figure"><span id="fig:sample-gif"></span>
+<iframe src="images/bookdown/sample-gif.gif" width="672" height="250px">
+</iframe>
+<p class="caption">
+Figure 8.8: View the <a href="https://handsondataviz.org/images/bookdown/sample.gif">animated GIF</a>, which enables readers of non-HTML editions to view it.
+</p>
+</div>
+</div>
+<div id="note-about-ctda-videos" class="section level3 unnumbered">
+<h3>Note about CTDA Videos</h3>
+<p>As of 2020, videos uploaded to CTDA have datastreams generated in MP4 video format, but these run in auto-play format in the browser, which CTDA cannot turn off, so are not appropriate to display in the browser in this book. See sample video datastream: <a href="https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4" class="uri">https://collections.ctdigitalarchive.org/islandora/object/120002:172/datastream/MP4</a> and read more <a href="https://confluence.uconn.edu/display/CTDA/Datastreams" class="uri">https://confluence.uconn.edu/display/CTDA/Datastreams</a>. Therefore, CTDA should be used as a historical preservation video server, but must use either YouTube, Vimeo, or Kaltura examples above to display secondary video clips for display in this book.</p>
+</div>
+<div id="demo-r-code-chunk-for-youtube-video-in-html-static-image-in-pdf-docx-md" class="section level3 unnumbered">
+<h3>Demo: R code-chunk for YouTube video in HTML, static image in PDF, DOCX, MD</h3>
+<p>Be sure to use the <em>embed</em> link from a YouTube or Vimeo <em>share</em> button.</p>
+<p>…as shown in the video <a href="images.html#fig:sample-video">8.9</a>.</p>
+
+<div class="figure"><span id="fig:sample-video"></span>
+<iframe src="https://www.youtube.com/embed/M3_TWyva5yc" width="672" height="400px">
+</iframe>
+<p class="caption">
+Figure 8.9: View the <a href="https://youtu.be/M3_TWyva5yc">YouTube video</a>, which enables readers of non-HTML editions to view it. YouTube formatting in Bookdown seems cleaner than Vimeo formatting. Add link to full video on a historical preservation server (such as CTDA) to avoid auto-play issue.
+</p>
+</div>
+<div id="demo-r-code-chunk-for-kaltura-video-in-html-edition-static-image-in-pdf-docx-md" class="section level4 unnumbered">
+<h4>Demo: R code-chunk for Kaltura video in HTML edition, static image in PDF, DOCX, MD</h4>
+<ul>
+<li>Work with Trinity Library to upload items to their Kaltura <a href="https://trincoll.mediaspace.kaltura.com/channel/Hartford%2BHistory/144729181">Hartford History channel</a> or your personal channel.</li>
+<li>Go to Kaltura video entry &gt; share button &gt; embed, extract the long URL, and paste in R code-chunk below.</li>
+<li>Option: This method allows you to select a video start time, such as 8:00, which will be appended to the embed code URL in seconds like this: <code>[mediaProxy.mediaPlayFrom]=480"</code></li>
+<li>This method successfully avoids auto-play in Mac browsers. TODO: test in Windows browsers and other devices.</li>
+<li>Note: If you paste the long URL directly into a modern browser, the early portion of the link transforms into HTML5-specific code, which you also could use if needed.</li>
+<li>TODO: Since Kaltura player setup auto-displays captions, which are faulty in the automated video upload process, need to insert corrected captions directly from the transcript. Prioritize videos that need caption revisions.</li>
+</ul>
+<p>…as shown in Figure <a href="images.html#fig:sample-kaltura">8.10</a>.</p>
+
+<div class="figure"><span id="fig:sample-kaltura"></span>
+<iframe src="https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&amp;playerId=kplayer&amp;entry_id=1_66aksvf1&amp;flashvars" width="672" height="400px">
+</iframe>
+<p class="caption">
+Figure 8.10: Here’s a sample caption for a video on Trinity Kaltura server. Option to add Markdown link to historical preservation version in CTDA.
+</p>
+</div>
+</div>
+</div>
+<div id="demo-r-code-chunk-for-streaming-video-only-in-html" class="section level3 unnumbered">
+<h3>Demo: R code-chunk for streaming video ONLY in HTML</h3>
+<p>This option is useful if you wish to display a video only in the HTML edition, with no screenshot in the other editions. Note that this will alter figure auto-numbering between the HTML and other editions. To avoid auto-numbering issues, use conventional iframe formatting without the R code-chunk.</p>
+
+<div class="figure"><span id="fig:sample-video2"></span>
+<iframe src="https://www.youtube.com/embed/_hmhEr1s7F0" width="672" height="400px">
+</iframe>
+<p class="caption">
+Figure 8.11: Caption only appears in HTML version. View link to <a href="https://youtu.be/_hmhEr1s7F0">YouTube video</a>.
+</p>
+</div>
+</div>
+<div id="demo-markdown-image-formatting-without-auto-numbering-for-all-editions" class="section level3 unnumbered">
+<h3>Demo: Markdown image formatting without auto-numbering, for all editions</h3>
+<p>While we normally use R code-chunk image formatting, there are some exceptions. For example, we use Markdown formatting for tables or grids of images that are relatively small and do not require captions or auto-numbering.</p>
+<p>When creating images to appear as the same size in sequence, temporarily add a code-comment with the image width, height, and resolution as a reminder to match up with others, as shown below. Use PNG images (rather than JPG), and if appropriate, add a numerical suffix to the filename (image-200.png) to distinguish this 200px-wide version from the larger original.</p>
+<p><code>&lt;!-- Images below are 200x200 at 300 resolution --&gt;</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Co-Authors</th>
+<th>About Us</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="images/bookdown/dougherty-jack-200.png" /></td>
+<td>About <a href="http://jackdougherty.org">Jack Dougherty</a></td>
+</tr>
+<tr class="even">
+<td><img src="images/bookdown/ilyankou-ilya-200.png" /></td>
+<td>About <a href="https://github.com/ilyankou">Ilya Ilyankou</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="endnotes-with-bibliography" class="section level3 unnumbered">
+<h3>Endnotes with Bibliography</h3>
+<p>This book uses endnotes that appear at the end of each chapter, with a bibliography of all references cited at the end of the book. See Zotero/BibTeX setup in the previous chapter.</p>
+<p>Here’s a text-only note, with no Zotero citation.<a href="#fn208" class="footnote-ref" id="fnref208"><sup>208</sup></a></p>
+<p>To create a note with citations only, separate Zotero/BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn209" class="footnote-ref" id="fnref209"><sup>209</sup></a></span></p>
+<p>Since notes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a note:<a href="#fn210" class="footnote-ref" id="fnref210"><sup>210</sup></a></p>
+<p>Note that this publication contains customized code in <code>style.css</code> to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80">relevant code on GitHub</a>.</p>
+<p>TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:</p>
+<ul>
+<li><p>In the Web HTML edition, customized code in <code>style.css</code> renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.</p></li>
+<li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.</p></li>
+<li><p>In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.</p></li>
+<li><p>Also, avoid placing notes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.</p></li>
+<li><p>See more bibliography options <a href="https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html" class="uri">https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html</a></p></li>
+</ul>
+</div>
+<div id="further-reading" class="section level3 unnumbered">
+<h3>Further Reading</h3>
+<ul>
+<li>Bookdown sections on Figures <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a> and Markdown extensions <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.</li>
+<li>On R code chunks in RMarkdown <a href="https://bookdown.org/yihui/rmarkdown/r-code.html" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html</a></li>
+<li>On R code chunk options in knitr package <a href="https://yihui.name/knitr/options/#code-chunk" class="uri">https://yihui.name/knitr/options/#code-chunk</a></li>
+<li>R Markdown book section on figures <a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
+<li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
+<li>On positioning images in LaTeX <a href="https://www.overleaf.com/learn/latex/Positioning_images_and_tables" class="uri">https://www.overleaf.com/learn/latex/Positioning_images_and_tables</a></li>
+<li>Tips and tricks for working with images and figures in rmarkdown <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
+<li>Hints on using auto_pdf: <a href="https://blog.earo.me/2019/10/26/reduce-frictions-rmd/" class="uri">https://blog.earo.me/2019/10/26/reduce-frictions-rmd/</a></li>
+<li>Summary of image and table approaches <a href="https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a" class="uri">https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a</a></li>
+<li>Using “hold position” in kable extra to prevent tables being displayed at bottom of page <a href="https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf" class="uri">https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf</a></li>
+</ul>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="208">
+<li id="fn208"><p>This is a note, with no bibliographic reference.<a href="images.html#fnref208" class="footnote-back">↩︎</a></p></li>
+<li id="fn209"><p><a href="bibliography.html#ref-hirschMakingSecondGhetto1983" role="doc-biblioref">Hirsch, <em>Making the <span>Second Ghetto</span></em></a>; <a href="bibliography.html#ref-jacksonCrabgrassFrontierSuburbanization1985" role="doc-biblioref">Jackson, <em>Crabgrass <span>Frontier</span></em></a>; <a href="bibliography.html#ref-tyackOneBestSystem1974" role="doc-biblioref">Tyack, <em>The <span>One Best System</span></em></a>.<a href="images.html#fnref209" class="footnote-back">↩︎</a></p></li>
+<li id="fn210"><p>On this theme, see <span class="citation"><a href="bibliography.html#ref-doughertyReviewConnecticutPublic2011" role="doc-biblioref">Jack Dougherty</a>, <a href="bibliography.html#ref-doughertyReviewConnecticutPublic2011" role="doc-biblioref"><span>“Review of ’<span>Connecticut</span>’s <span>Public Schools</span>: <span>A History</span>, 1650-2000’ by <span>Christopher Collier</span>,”</span> <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" role="doc-biblioref">http://digitalrepository.trincoll.edu/cssp_papers/41</a></a></span>. On a different theme, see <span class="citation"><a href="bibliography.html#ref-doughertySchoolChoiceSuburbia2009" role="doc-biblioref">Dougherty et al.</a>, <a href="bibliography.html#ref-doughertySchoolChoiceSuburbia2009" role="doc-biblioref"><span>“School <span>Choice</span> in <span>Suburbia</span>”</span></a></span>, pp. 33-35<a href="images.html#fnref210" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+<html>
+  <head>
+    <title>footer</title>
+  </head>
+  <body>
+  <div><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="http://OnTheLine.trincoll.edu">On The Line</a> &copy 2021 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://ontheline.trincoll.edu/authors.html">Jack Dougherty and contributors</a> is freely shared under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.<br><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+  </body>
+</html>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="style-guide.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tables.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>

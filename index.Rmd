@@ -20,13 +20,13 @@ output:
   bookdown::gitbook:
     dev: svglite
     css: css/style.css
+    toc_depth: 2
+    split_by: section
+    number_sections: true
+    split_bib: true
     includes:
       in_header: google-analytics-otl.html
       after_body: footer.html
-    toc_depth: 2
-    split_by: section
-    split_bib: true
-    number_sections: true
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
     config:
       toc:
@@ -69,6 +69,8 @@ options(knitr.graphics.auto_pdf = TRUE)
 **Book-in-progress last updated on `r format (Sys.Date(), '%d %b %Y')`**
 
 *On The Line*, an open-access digital book, makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines.
+
+Feedback and corrections are welcome on this book-in-progress. Please email the [lead author](author.html), or if you are familiar with the technology, suggest edits by sending a pull request to [our GitHub repository](https://github.com/ontheline/otl-bookdown).
 
 This text of this book is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Specific images in this book are copyrighted by others as noted and included here under fair-use guidelines. You may re-use and modify our text for non-commercial purposes, with a source credit to: [OnTheLine.trincoll.edu](http://OnTheLine.trincoll.edu) by Jack Dougherty and contributors. Our [open-source GitHub repository](https://github.com/ontheline) contains all of the source code for the book, including interactive charts and maps, which are shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in [Hands-On Data Visualization](http://HandsOnDataViz.org) by Jack Dougherty and Ilya Ilyankou.
 
