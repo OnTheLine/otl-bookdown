@@ -256,7 +256,3 @@ TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numb
 - Hints on using auto_pdf: <https://blog.earo.me/2019/10/26/reduce-frictions-rmd/>
 - Summary of image and table approaches <https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a>
 - Using "hold position" in kable extra to prevent tables being displayed at bottom of page <https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf>
-
-`r if (knitr::is_latex_output()) '<!--'`
-![creative commons by-nc-sa icon](images/cc-by-nc-sa-88x31.png) *[On The Line](http://ontheline.trincoll.edu) is an open-access, born-digital, book-in-progress by [Jack Dougherty and contributors](authors.html) at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Learn more [about the book](about-the-book.html), including [how to read and cite](how-to-read-and-cite.html) and our [copyright with open-access policy and code repository](copyright-with-open-access.html). This book-in-progress was last updated on: `r format (Sys.Date(), '%d %b %Y')`*
-`r if (knitr::is_latex_output()) '-->'`

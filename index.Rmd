@@ -13,7 +13,7 @@ link-citations: true
 
 url: 'http\://ontheline.trincoll.edu/'
 github-repo: ontheline/otl-bookdown
-description: 'This open-access digital and print history book makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines.'
+description: 'This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines.'
 cover-image: "images/coverOTL300x300.png"
 
 output:
@@ -22,6 +22,7 @@ output:
     css: css/style.css
     includes:
       in_header: google-analytics-otl.html
+      after_body: footer.html
     toc_depth: 2
     split_by: section
     split_bib: true
@@ -35,8 +36,8 @@ output:
             <li><a href="./"><strong>On The Line</strong><br>by Jack Dougherty & contributors</a></li>
         after: |
             <li><a href="https://acpress.amherst.edu/" target="_blank">Open access book-in-progress</br>for Amherst College Press</a></li>
-            <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
-            <li><a href="https://bookdown.org" target="_blank">Built with Bookdown</a></li>
+            <li><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons BY-NC-SA 4.0<br><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></li>
+            <li><a href="https://bookdown.org" target="_blank">Built with Bookdown</a></li>  
       view: https://github.com/ontheline/otl-bookdown/blob/master/%s
       search: yes
       sharing:
@@ -65,13 +66,11 @@ options(knitr.graphics.auto_pdf = TRUE)
 
 ![ ](images/coverOTL300x300.png)
 
-**This book-in-progress was last updated on `r format (Sys.Date(), '%d %b %Y')`**
+**Book-in-progress last updated on `r format (Sys.Date(), '%d %b %Y')`**
 
-*On The Line*, an open-access digital and print history book, makes visible the hidden schooling and housing boundaries that divide metropolitan Hartford, Connecticut, and tells the stories of civil rights activists and everyday families who sought to cross over, redraw, or erase these lines.
+*On The Line*, an open-access digital book, makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a href="http://ontheline.trincoll.edu"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">On The Line</span></a> is an open-access, born-digital, book-in-progress by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ontheline.trincoll.edu" property="cc:attributionName" rel="cc:attributionURL">Jack Dougherty and contributors</a> at Trinity College, Hartford CT, USA. This work is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See exceptions for specific items noted as copyrighted by others and included here under fair-use guidelines. You may re-use and modify our work for non-commercial purposes, with a source credit to: http://OnTheLine.trincoll.edu by Jack Dougherty and contributors.
-
-Our GitHub open-source repository (https://github.com/ontheline) contains all of the text and source code for the book, including data, images, and interactive charts and maps. The text of the book is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in *Hands-On Data Visualization* by Jack Dougherty and Ilya Ilyankou at http://HandsOnDataViz.org.
+This text of this book is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Specific images in this book are copyrighted by others as noted and included here under fair-use guidelines. You may re-use and modify our text for non-commercial purposes, with a source credit to: [OnTheLine.trincoll.edu](http://OnTheLine.trincoll.edu) by Jack Dougherty and contributors. Our [open-source GitHub repository](https://github.com/ontheline) contains all of the source code for the book, including interactive charts and maps, which are shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in [Hands-On Data Visualization](http://HandsOnDataViz.org) by Jack Dougherty and Ilya Ilyankou.
 
 ## About the Book {-}
 *On The Line* tells the story of schooling and housing boundaries that shaped American metropolitan life over the past century, and also the civil rights struggles of families and activists to cross over, redraw, or erase these powerful lines. Set in the city of Hartford, Connecticut, and its emerging suburbs, the book explains how this metropolitan area became one of the most racially and economically polarized regions in the northeastern United States. The story highlights how government, business, and white middle-class families drew lines to distance themselves from others, and the evolving coalitions that have sought to reform the relationship between private housing and public education.  
