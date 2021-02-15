@@ -69,3 +69,15 @@ To create a note with citations only, separate Zotero/BibTeX citation keys with 
 Since notes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a note:^[Compare how urban education appears in @tyackOneBestSystem1974, p. 123 versus suburban schooling in @jacksonCrabgrassFrontierSuburbanization1985, p. 234.]
 
 Remember that the `chicago-fullnote-bibliography.csl` format is designed to automatically shorten the note after it its first reference.
+
+### Customized to restart endnote numbering in each chapter & subchapter {-}
+
+Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
+
+TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:
+
+- In the Web HTML edition, customized code in `style.css` renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.
+- But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
+- In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.
+
+- Also, avoid placing notes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.

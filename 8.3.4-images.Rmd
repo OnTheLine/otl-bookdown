@@ -99,6 +99,9 @@ if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://hands
 ```
 
 #### Demo: R code-chunk for locally-stored scrolling PDF in HTML, static screenshot in PDF, DOCX, MD {-}
+
+TODO: FIX this scrolling PDF issue
+
 ...as shown in Figure \@ref(fig:sample-local-pdf).
 
 (ref:sample-local-pdf) Here's a sample PDF that is locally stored in the GitHub repo, with option to add Markdown link.
@@ -168,43 +171,3 @@ When creating images to appear as the same size in sequence, temporarily add a c
 | --------------- | ------------- |
 | ![](images/bookdown/dougherty-jack-200.png) | About [Jack Dougherty](http://jackdougherty.org) |
 | ![](images/bookdown/ilyankou-ilya-200.png) | About [Ilya Ilyankou](https://github.com/ilyankou) |  
-
-
-
-
-
-
-
-
-### Endnotes with Bibliography {-}
-This book uses endnotes that appear at the end of each chapter, with a bibliography of all references cited at the end of the book. See Zotero/BibTeX setup in the previous chapter.
-
-Here's a text-only note, with no Zotero citation.^[This is a note, with no bibliographic reference.]
-
-To create a note with citations only, separate Zotero/BibTeX citation keys with semi-colons: [@hirschMakingSecondGhetto1983; @jacksonCrabgrassFrontierSuburbanization1985; @tyackOneBestSystem1974]
-
-Since notes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a note:^[On this theme, see @doughertyReviewConnecticutPublic2011. On a different theme, see @doughertySchoolChoiceSuburbia2009, pp. 33-35]
-
-Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
-
-TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:
-
-- In the Web HTML edition, customized code in `style.css` renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.
-- But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.
-- In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.
-
-- Also, avoid placing notes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.
-
-- See more bibliography options <https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html>
-
-### Further Reading {-}
-- Bookdown sections on Figures <https://bookdown.org/yihui/bookdown/figures.html> and Markdown extensions <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.
-- On R code chunks in RMarkdown https://bookdown.org/yihui/rmarkdown/r-code.html
-- On R code chunk options in knitr package https://yihui.name/knitr/options/#code-chunk
-- R Markdown book section on figures <https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options>
-- R Markdown reference <https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf>
-- On positioning images in LaTeX <https://www.overleaf.com/learn/latex/Positioning_images_and_tables>
-- Tips and tricks for working with images and figures in rmarkdown <http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures>
-- Hints on using auto_pdf: <https://blog.earo.me/2019/10/26/reduce-frictions-rmd/>
-- Summary of image and table approaches <https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a>
-- Using "hold position" in kable extra to prevent tables being displayed at bottom of page <https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf>

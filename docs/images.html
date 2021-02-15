@@ -331,47 +331,8 @@ Figure 8.11: Caption only appears in HTML version. View link to <a href="https:/
 </tr>
 </tbody>
 </table>
-</div>
-<div id="endnotes-with-bibliography" class="section level3 unnumbered">
-<h3>Endnotes with Bibliography</h3>
-<p>This book uses endnotes that appear at the end of each chapter, with a bibliography of all references cited at the end of the book. See Zotero/BibTeX setup in the previous chapter.</p>
-<p>Here’s a text-only note, with no Zotero citation.<a href="#fn208" class="footnote-ref" id="fnref208"><sup>208</sup></a></p>
-<p>To create a note with citations only, separate Zotero/BibTeX citation keys with semi-colons:<span class="citation"><a href="#fn209" class="footnote-ref" id="fnref209"><sup>209</sup></a></span></p>
-<p>Since notes also may include text and punctuation in Markdown syntax, always insert a caret symbol prior to the brackets to demarcate a note:<a href="#fn210" class="footnote-ref" id="fnref210"><sup>210</sup></a></p>
-<p>Note that this publication contains customized code in <code>style.css</code> to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80">relevant code on GitHub</a>.</p>
-<p>TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:</p>
-<ul>
-<li><p>In the Web HTML edition, customized code in <code>style.css</code> renumbers endnotes at the beginning of each chapter (e.g. 2) and subchapter (e.g. 2.1), as desired by the author.</p></li>
-<li><p>But in the PDF edition, endnote renumbering begins only at each chapter, not subchapter, regardless of the custom CSS code. Probably need to change a Pandoc LaTeX setting.</p></li>
-<li><p>In the MS Word edition, footnotes (rather than endnotes) are continuously numbered without breaks across the entire document, regardless of the custom CSS code.</p></li>
-<li><p>Also, avoid placing notes in image captions, since URLs cause an extra } symbol to appear when generating PDF version, which crashes the build. Instead, place dynamic reference in the body text immediately before the image, along with footnote ref.</p></li>
-<li><p>See more bibliography options <a href="https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html" class="uri">https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html</a></p></li>
-</ul>
-</div>
-<div id="further-reading" class="section level3 unnumbered">
-<h3>Further Reading</h3>
-<ul>
-<li>Bookdown sections on Figures <a href="https://bookdown.org/yihui/bookdown/figures.html" class="uri">https://bookdown.org/yihui/bookdown/figures.html</a> and Markdown extensions <a href="https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html" class="uri">https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html</a>.</li>
-<li>On R code chunks in RMarkdown <a href="https://bookdown.org/yihui/rmarkdown/r-code.html" class="uri">https://bookdown.org/yihui/rmarkdown/r-code.html</a></li>
-<li>On R code chunk options in knitr package <a href="https://yihui.name/knitr/options/#code-chunk" class="uri">https://yihui.name/knitr/options/#code-chunk</a></li>
-<li>R Markdown book section on figures <a href="https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options" class="uri">https://bookdown.org/yihui/rmarkdown/html-document.html#figure-options</a></li>
-<li>R Markdown reference <a href="https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf" class="uri">https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf</a></li>
-<li>On positioning images in LaTeX <a href="https://www.overleaf.com/learn/latex/Positioning_images_and_tables" class="uri">https://www.overleaf.com/learn/latex/Positioning_images_and_tables</a></li>
-<li>Tips and tricks for working with images and figures in rmarkdown <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures" class="uri">http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/#arguments-out.width-and-out.height-apply-to-both-existing-images-and-r-generated-figures</a></li>
-<li>Hints on using auto_pdf: <a href="https://blog.earo.me/2019/10/26/reduce-frictions-rmd/" class="uri">https://blog.earo.me/2019/10/26/reduce-frictions-rmd/</a></li>
-<li>Summary of image and table approaches <a href="https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a" class="uri">https://stackoverflow.com/questions/58204272/r-markdown-how-to-create-a-table-with-images-and-text-which-should-be-knitted-a</a></li>
-<li>Using “hold position” in kable extra to prevent tables being displayed at bottom of page <a href="https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf" class="uri">https://stackoverflow.com/questions/44850011/how-to-stop-bookdown-tables-from-floating-to-bottom-of-the-page-in-pdf</a></li>
-</ul>
 
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="208">
-<li id="fn208"><p>This is a note, with no bibliographic reference.<a href="images.html#fnref208" class="footnote-back">↩︎</a></p></li>
-<li id="fn209"><p><a href="bibliography.html#ref-hirschMakingSecondGhetto1983" role="doc-biblioref">Hirsch, <em>Making the <span>Second Ghetto</span></em></a>; <a href="bibliography.html#ref-jacksonCrabgrassFrontierSuburbanization1985" role="doc-biblioref">Jackson, <em>Crabgrass <span>Frontier</span></em></a>; <a href="bibliography.html#ref-tyackOneBestSystem1974" role="doc-biblioref">Tyack, <em>The <span>One Best System</span></em></a>.<a href="images.html#fnref209" class="footnote-back">↩︎</a></p></li>
-<li id="fn210"><p>On this theme, see <span class="citation"><a href="bibliography.html#ref-doughertyReviewConnecticutPublic2011" role="doc-biblioref">Jack Dougherty</a>, <a href="bibliography.html#ref-doughertyReviewConnecticutPublic2011" role="doc-biblioref"><span>“Review of ’<span>Connecticut</span>’s <span>Public Schools</span>: <span>A History</span>, 1650-2000’ by <span>Christopher Collier</span>,”</span> <em>Connecticut History</em> 50, no. 1 (2011): 120–22, <a href="http://digitalrepository.trincoll.edu/cssp_papers/41" role="doc-biblioref">http://digitalrepository.trincoll.edu/cssp_papers/41</a></a></span>. On a different theme, see <span class="citation"><a href="bibliography.html#ref-doughertySchoolChoiceSuburbia2009" role="doc-biblioref">Dougherty et al.</a>, <a href="bibliography.html#ref-doughertySchoolChoiceSuburbia2009" role="doc-biblioref"><span>“School <span>Choice</span> in <span>Suburbia</span>”</span></a></span>, pp. 33-35<a href="images.html#fnref210" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
 <html>
   <head>
