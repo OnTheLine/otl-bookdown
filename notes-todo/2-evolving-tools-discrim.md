@@ -1,4 +1,4 @@
-There are different ways that property owners and the housing industry have created racial or religious or social class barriers over the past century in Connecticut. 
+There are different ways that property owners and the housing industry have created racial or religious or social class barriers over the past century in Connecticut.
 
 1) Restrictive covenants in property deeds
 My co-authors and I describe several race restrictive covenants in 1940s real estate developments in this chapter on West Hartford, and see also this methods chapter on how we found them in the town property records office. See also David Ware’s 2020 essay on similar covenants he found in Manchester. To see the original sources that Dave and my students and I found, click on any colored region in our interactive map that’s also embedded in our book chapter, or click on the PDF folder in our open-source code repo.
