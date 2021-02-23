@@ -1,5 +1,89 @@
 ## Origins of Exclusionary Zoning {#origins-zoning}
 
+In Connecticut, the origins of exclusionary zoning can be traced back to a suburban town's attempt to block an urban Jewish grocer from building a new store in 1923. Jacob Solomon Goldberg was a young businessman from Hartford. After coming home from military service during World War I, Jacob, his brother Barney, and their brother-in-law Hyman M. Cohen bought their first grocery store near city hall in downtown Hartford, which they managed together during the early 1920s. Like other entrepreneurs of their era, they "followed the trend of business to the west" and dreamed of opening a second grocery store in the emerging suburb of West Hartford. The town's population was growing at a faster rate than Hartford and nearly doubled to almost 9,000 residents during the 1910s. West Hartford granted more than 300 building permits for single- and two-family homes in 1922, more than any other town in Connecticut that year. Located next door to Connecticut's capital city, with its corporate headquarters for the nation's leading insurance and banking industries, West Hartford seemed primed to become an ideal destination for the rising middle class.
+^[@SecondAnniversaryCity1921; @KingswoodMarketHas1924; @connecticutstateboardofeducationSurveySchoolsWest1923, p. 103. Jacob Solomon Goldberg (1891-1939) should not be confused with other Hartford residents with similar names. @JacobGoldbergObituary1939]
+
+Goldberg looked for the perfect location to launch his second grocery store. He bought two parcels of undeveloped land on Farmington Avenue, at the corner of Ardmore Avenue, on the trolley line that linked downtown Hartford to West Hartford's town center. In 1923, the immediate neighborhood included only around 50 houses---with room for more to come---according to the Sanborn map and city directory. Next door stood the only other type of building, the West Hartford Armory, the horse stables for the Connecticut National Guard Troop B Calvary. The smell probably explained why no one had built a house on the property. Only a dozen small grocers served the entire town, and the two closest competitors were about a half-mile away in opposite directions.^[@sanbornmapcompanySanbornFireInsurance1923; @GeerHartfordDirectory1922; @GeerHartfordDirectory1923; @rossanoBuiltServeConnecticut2003. The closest grocers in West Hartford were M.J. Burnham at 19 South Main Street and West Hill Grocery at 765 Farmington Avenue.]
+
+INSERT MAP, past and present, with marker for Goldberg's land
+
+But when Goldberg applied for a building permit, the West Hartford building inspector refused to grant one. When the inspector called a public hearing on the issue in January 1923, "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's proposed grocery to be located in "one of West Hartford's exclusive residential sections," as described by the *Hartford Courant*. Although Goldberg had hired respected local architect William T. Marchant to design the store to conform with the town's building code, local officials and property owners challenged Goldberg's right to build his store in their neighborhood.
+
+Goldberg fought back. He was not shy about making bold real estate investments in downtown Hartford.[@NewTheaterState1923] Goldberg found a lawyer, perhaps through his brother-in-law, Judge TODO CHECK Nathan Schatz.  Goldberg's lawyer went to court in February 1923 to challenge the authority of town officials to arbitrarily block construction of the building.  [@LegalFightStore1923]
+
+
+
+TODO: Same Jacob Goldberg involved in Junior Young Men's Hebrew Association in 1922, which spoke out against anti-semitism? @JuniorYMHAFormed1922; see also @ZionistsHereWill1928
+
+
+
+West Hartford fought back against Goldberg. In March 1923, Town Council members tasked their corporate counsel (Carlyle C. Thomson), as well as a second attorney (John T. Robinson), to defend their building inspector's refusal to grant the permit.[@DemandEconomyWest1923] But the Town Council's own attorneys advised them that they lacked legal authority to block the building permit. Initially, the Town Council relented and voted in favor of granting Goldberg the permit on June 5th. Two weeks later (June 19th), West Hartford property owners and Hartford real estate agent M. M. Kupperstein [TODO: check him out] urged the Town Council to reverse its decision and continue to block Goldberg's building permit. Once again, the Town's attorneys explained that West Hartford currently lacked the legal authority to block construction of an appropriately-designed building on the grounds that residents simply did not want it.[@WestHartfordStore1923]
+
+Jacob Goldberg won this round. The Kingswood Market opened its doors in November 1924 [@KingswoodMarketHas1924; @CorporationPapersFiled1924]. Kingswood advertised jointly with Goldberg's downtown Hartford store [@CityHallMarket1924]
+
+Goldberg purchased a nearby home on Outlook Avenue....[@BuildingPermitsWorth1924] Goldberg sold the business for $100,000 in 1926 to W.J. Gengras. [@KingswoodBuildingFarmington1926] In 1928, the store celebrated its 3rd anniversary with a full-page newspaper advertisement with photos of its expanded services, which now included a small cafe next door. [@KingswoodMarket3rd1928] Neighborhood residents shopped at their local grocery for decades until the business closed in 2007 due to increasing rents and tougher competition with newer competitors, such as Whole Foods [TODO confirm competition opening year].
+
+
+
+TODO: Insert Kingswood Market 3rd anniversary advertisement here to show building style
+
+
+THESIS
+the dispute led the emerging suburb to become the first municipality in Connecticut to enact a zoning ordinance, which created exclusionary land-use policies......
+
+
+
+
+## Anti-Semitism in Hartford Region, 1920s {-}
+
+Why did West Hartford residents and town officials oppose the building permit? Did they object to a grocery store on a commercial street in their neighborhood -- or to Goldberg, the Jewish grocer from Hartford?
+
+In Connecticut, Jews were not permitted to worship publicly or form congregations for public worship until 1843(?), when Jews petitioned the State Legislature for (insert law) and created the state's first synagogues in Hartford and New Haven. (TODO: prohibitive text remained in state law until 1960s?)
+
+Housing restrictions -- check Charter Oak Cultural Center; Tracey Wilson
+
+Hutton book preface: CT Bar Association excluded Jewish lawyers, Gerald Auerbach
+
+When local hospitals barred Jewish doctors from practicing or having hospital privileges, they created Mt Sinai Hospital (insert date 1924?)
+
+Jews generally not hired for Hartford's major white-collar professions -- insurance companies, banks, etc., even when they had college educations, which is why some Jews instead turned towards professions such as law, medicine, and started small businesses.
+
+
+
+Higher education quotas or de facto limits -- see Peter Knapp on Trinity
+
+When Christians barred Jews from social clubs, they responded by forming Tumblebrook Golf and Country Club in 1922 (Dalin 73)
+
+
+Rabbi Abraham Feldman, 22 pages; interview with Matthew Magda, 21 October 1974 [@feldmanOralHistoryInterview1974]  - came to lead congregation Beth Israel on Charter Oak in Hartford1925; first Jewish congregation in CT org 1843; "When I came here they were a small group, 200-odd families, mostly middle aged. Very small religious school I think we had 75 children then. I came on the condition that they would build, otherwise I wouldn’t' have come" p15; families occupied as merchants, insurance; pop centered on Hartford North End; recently retired, congreg over 1400 families, 1100 children in school at peak;
+
+"When I came here Mt Sinai Hospital was just beginning. Why was a Mt. Sinai Hospital begun? I remember I asked. There were two fine hospitals, St. Francis Hospital and Hartford Hospital. Why did we need a Jewish hospital? Well, our young people were just coming into medicine. They couldn't get on the staffs [of the other hospitals]" p18-19; St Francis more liberal but Hartford Hosp "pretty closed institution"; "I remember once West Hartford was a closed community politically. It was the most Republican Town in the U.S. Jews were beginning to move in here, just around the time when I came here. ["after 1925, '26, '27"] There was no chance for a young Jew, or a Jewish lawyer, and others, for instance, who wanted to enter the political life of the community. There was no chance….By the way, the same was true of Catholics." p19 "But in time of course the Catholic community grew more rapidly, and so they were able to make their impact earlier. Jews couldn't get into any public office or anything of that sort." p 20
+
+spoke in many Christian churches as Jewish rep; story set at dedication of Christian church in West Hartford around 1925-27, a town chairman for one of the pol parties followed him and asked point-blank "What do you want?"; Rabbi "You're asking me what I want from your people? there isn't a darn thing I want….I'm not running for anything…You can't give me anything…There isn't a damn thing that I want from you as a Jew. I have never come to ask you to appoint a Jew, to give a job to a Jew, or do to anything else for a Jew. But heaven help you, if I ever get a report that you have denied a job to a man because he was a Jew' I said, "All heck will break loose, and I'll see to it that it breaks over your neck ….Do I make myself clear, sir?"… He said, "I think I understand you"
+
+
+TODO:
+
+- Does WH town clerk have any records of this public hearing?
+- Where there any nearby businesses along Farmington Ave in city directory?
+- Did any families with Jewish names live in the neighborhood?
+- Contextualize anti-semitism in 1920s West Hartford (see oral history with rabbi at Beth Israel during this period?)
+
+
+
+
+
+
+
+
+
+
+
+
+DEFINE zoning and exclusionary zoning
+CLARIFY that Jacob Goldberg sought to build a store, not a residence, but the conflict raised broader question: how much control should government exert over land-use, and how?
+
+
 During the 1920s, several states granted local governments a new policy tool—known as municipal zoning—to exert greater control over land development. But tools can be used to achieve different goals. We can use them to help people or cause harm. Evaluating the history of zoning requires a closer look at how local governments implemented this policy, and to what ends.
 
 Progressive advocates saw zoning as a necessary tool for government to regulate the free market and to protect the health and safety of its citizens. For example, zoning gave municipalities the power to draw lines on the land and create separate spaces for residential, commercial, and industrial development. Family homes could be legally separated from potentially harmful businesses or factories. When the Connecticut General Assembly approved zoning enabling law in 1923, it stated that local regulations should be designed for this purpose: "... to prevent a close arrangement or constructions of buildings upon the streets, to secure safety from fire and other dangers, to avoid undue concentration of population and to provide health, comfort and general welfare in living and working conditions."^[TODO: check original source, cited in @whittenWestHartfordZoning1924, p. 8; @PlansApportionPopulation1923]
