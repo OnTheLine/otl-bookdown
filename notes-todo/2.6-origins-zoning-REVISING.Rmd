@@ -1,15 +1,17 @@
 ## Origins of Exclusionary Zoning {#origins-zoning}
 
-Exclusionary zoning refers to land-use policies that restrict what types of buildings can be constructed in designated areas, and by extension, who can afford to live there. In Connecticut, the origins of exclusionary zoning can be traced back to a suburban town's attempt to block an urban Jewish grocer from building a new store in 1924. This conflict signaled a broader dispute over who determined the future of residential space, and motivated state and suburban leaders to enact powerful laws---still with us today---that effectively restricted who could move into designated neighborhoods. But rather than directly prohibiting residents by race, these more modern tools of housing discrimination cleverly restricted them by wealth.
+In Connecticut today, the phrase *exclusionary zoning* refers to local government land-use policies that require the construction of single-family homes, using large amounts of property, which limits who can afford to live there. The origins of exclusionary zoning in Connecticut can be traced back to one suburban town's attempt to block an urban Jewish grocer from building a store in a residential area in 1924. This conflict signaled a broader dispute over who controlled real estate development and what kinds of people could move into newer suburban neighborhoods. But unlike other racially-restrictive barriers from this era, Connecticut's exclusionary zoning laws cleverly carved up suburban neighborhoods with home-size requirements that served as wealth barriers. By avoiding any mention of the color line, exclusionary zoning became a modern tool of housing discrimination that largely resisted subsequent civil rights legislation and continues to divide us into the present day.
 
 When Jacob Solomon Goldberg returned home to Hartford after military service in World War I, he sought to advance himself from a butcher into a businessman. He partnered with his brother Barney and their brother-in-law Hyman M. Cohen to buy their first grocery store, located near City Hall in downtown Hartford, which they managed together during the early 1920s. Like other entrepreneurs of their era, they "followed the trend of business to the west" and dreamed of opening a second grocery store in the emerging suburb of West Hartford. The town's population grew at a faster rate than Hartford during the 1910s and had nearly doubled in size to almost 9,000 residents. In addition, West Hartford town officials granted more than 300 building permits for single- and two-family homes in 1922, more than any other town in Connecticut that year. Linked by convenient trolley lines to the capital city and its corporate headquarters for the nation's leading banks and insurance companies, West Hartford was quickly becoming an ideal destination for the rising middle class.
 ^[Jacob Solomon Goldberg (1891-1939) should not be confused with other Hartford residents with similar names. @JacobGoldbergObituary1939; @SecondAnniversaryCity1921; @KingswoodMarketHas1924; @connecticutstateboardofeducationSurveySchoolsWest1923, p. 103. ]
 
-Goldberg looked for the perfect location to launch a second grocery store. He bought two parcels of undeveloped land on Farmington Avenue at the corner of Ardmore Avenue, on the trolley line that linked downtown Hartford to West Hartford's town center. Only a dozen small grocers served the entire town, and Goldberg's two closest competitors were about a half-mile way in each direction. While only about 50 homes appeared on a 1923 map of the immediate neighborhood, real estate developers had divided the land up into many more parcels in anticipation of future homes to be built. Next door to Goldberg's empty lot stood the only non-residential building in the area: the West Hartford Armory for the Connecticut National Guard Troop B Cavalry. The smell from its horse stables may have explained why no one had yet built a house on the adjacent empty lot now owned by Goldberg.^[@sanbornmapcompanySanbornFireInsurance1923; @GeerHartfordDirectory1922; @GeerHartfordDirectory1923; @rossanoBuiltServeConnecticut2003. The closest grocers in West Hartford were M.J. Burnham at 19 South Main Street and West Hill Grocery at 765 Farmington Avenue.]
+Goldberg looked for the perfect location to launch a second grocery store. He bought two parcels of undeveloped land on Farmington Avenue at the corner of Ardmore Avenue, on the trolley line that linked downtown Hartford to West Hartford's town center. Only a dozen small grocers served the entire town, and Goldberg's two closest competitors were about a half-mile way in each direction. While only 60 homes appeared on a 1923 Sanborn fire insurance map and the city directory listings of the immediate neighborhood, real estate developers and town officials had already divided up the land into property parcels in anticipation of future homebuyers. Next door to Goldberg's empty lot stood the only non-residential building in the area: the West Hartford Armory for the Connecticut National Guard Troop B Cavalry. The smell from its horse stables may have explained why no one had yet built a house on the adjacent empty lot now owned by Goldberg.^[@sanbornmapcompanySanbornFireInsurance1923; @GeerHartfordDirectory1922; @GeerHartfordDirectory1923; @rossanoBuiltServeConnecticut2003. The closest grocers in West Hartford were M.J. Burnham at 19 South Main Street and West Hill Grocery at 765 Farmington Avenue.]
 
 INSERT MAP, past and present, with marker for Goldberg's land
 
-But when Goldberg applied for a building permit, the Town of West Hartford refused him. Instead, the building inspector called a public hearing on the issue in January 1923, where "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's proposed grocery to be located in "one of West Hartford's exclusive residential sections," as described by the *Hartford Courant*. Although Goldberg had hired respected local architect William T. Marchant to design the store to conform with the town's building code, local officials and property owners challenged Goldberg's right to build his store in their neighborhood.[@LegalFightStore1923]
+But when Goldberg applied for a building permit, the Town of West Hartford refused him. Instead, the building inspector called for a public hearing on the issue in January 1923, where "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's proposed grocery, which the *Hartford Courant* described would be located in "one of West Hartford's exclusive residential sections." Even though Goldberg had hired respected local architect William T. Marchant to design the store to conform with the town's building code, local officials and property owners challenged Goldberg's right to build a store in their neighborhood.[@LegalFightStore1923]
+
+INSERT ABOVE -- describe more about size, 80 feet by 60 feet, two-story, but far smaller than the next-door Armory building with its horse stables.
 
 Goldberg fought back. He was not shy about making bold real estate investments in downtown Hartford.[@NewTheaterState1923] Goldberg found a lawyer, perhaps through his brother-in-law, Judge TODO CHECK Nathan Schatz.  Goldberg's lawyer went to court in February 1923 to challenge the authority of town officials to arbitrarily block construction of the building.  [@LegalFightStore1923]
 
@@ -30,13 +32,9 @@ Goldberg purchased a nearby home on Outlook Avenue....[@BuildingPermitsWorth1924
 TODO: Insert Kingswood Market 3rd anniversary advertisement here to show building style
 
 
-THESIS
-the dispute led the emerging suburb to become the first municipality in Connecticut to enact a zoning ordinance, which created exclusionary land-use policies......
 
 
-
-
-## Anti-Semitism in Hartford Region, 1920s {-}
+## Anti-Semitism in Hartford Region, 1920s {- #anti-semitism}
 
 Why did West Hartford residents and town officials oppose the building permit? Did they object to a grocery store on a commercial street in their neighborhood -- or to Goldberg, the Jewish grocer from Hartford?
 
@@ -79,7 +77,7 @@ TODO:
 
 
 
-
+## Designing Zoning to Divide Social Classes {- #designing-zoning}
 
 
 DEFINE zoning and exclusionary zoning
