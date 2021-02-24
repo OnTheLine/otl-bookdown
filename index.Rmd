@@ -70,7 +70,7 @@ options(knitr.graphics.auto_pdf = TRUE)
 
 *On The Line*, an open-access digital book, makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines.
 
-Feedback and corrections are welcome on this book-in-progress. Please email the [lead author](author.html), or if you are familiar with the technology, suggest edits by sending a pull request to [our GitHub repository](https://github.com/ontheline/otl-bookdown).
+Feedback and corrections on this book-in-progress are welcome [by email to the lead author](author.html), or GitHub users can submit a pull request to [our repository](https://github.com/ontheline/otl-bookdown).
 
 This text of this book is copyrighted by the authors and freely distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Specific images in this book are copyrighted by others as noted and included here under fair-use guidelines. You may re-use and modify our text for non-commercial purposes, with a source credit to: [OnTheLine.trincoll.edu](http://OnTheLine.trincoll.edu) by Jack Dougherty and contributors. Our [open-source GitHub repository](https://github.com/ontheline) contains all of the source code for the book, including interactive charts and maps, which are shared under an [MIT license](https://choosealicense.com/licenses/mit/). Learn how to work with GitHub and create your own charts and maps in [Hands-On Data Visualization](http://HandsOnDataViz.org) by Jack Dougherty and Ilya Ilyankou.
 
@@ -88,7 +88,7 @@ In sum, *On The Line* blends the best aspects of conventional publishing and web
 ## How to Read and Cite {-}
 <!-- TODO - INSERT screencast of book features, such as text, notes, interactives. Remind readers to open links in new tabs, usually with a right-click or two-finger click, from HODV -->
 
-This open-access book-in-progress is freely available in **two formats:** Web and PDF. **Read the online Web edition** at (http://ontheline.trincoll.edu) to fully experience the interactive maps, video clips, and clickable source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones). In your web browser, try these toolbar features near the top of the page:
+This open-access book-in-progress is freely available on the web at <http://ontheline.trincoll.edu>. The web edition allows readers to fully experience the interactive maps, video clips, and clickable source links. Any modern web browser will display the book, but readers may prefer larger screens (desktop, laptop, tablet) over smaller screens (such as smartphones). In your web browser, try these toolbar features near the top of the page:
 
 - Menu
 - Search
@@ -103,14 +103,14 @@ This open-access book-in-progress is freely available in **two formats:** Web an
  knitr::include_graphics("images/preface/how-to-read.png")
 ```
 <!-- TODO - after completion, revise text about book-in-progress -->
-A second option is to freely [download the PDF edition](https://ontheline.trincoll.edu/Dougherty-etal-OnTheLine.pdf), which you can print out on paper for off-line reading. Although static images will appear in place of interactive maps and videos, the text and source notes in the PDF version are nearly identical to the web version. Since this digital-first has been created primarily for the web, some aspects of the book-in-progress may appear incomplete in the PDF edition.  After the final manuscript is completed, a cleaner PDF version will be formatted, which the publisher will use to create an inexpensive paperback edition for sale.
+<!-- A second option is to freely [download the PDF edition](https://ontheline.trincoll.edu/Dougherty-etal-OnTheLine.pdf), which you can print out on paper for off-line reading. Although static images will appear in place of interactive maps and videos, the text and source notes in the PDF version are nearly identical to the web version. Since this digital-first has been created primarily for the web, some aspects of the book-in-progress may appear incomplete in the PDF edition.  After the final manuscript is completed, a cleaner PDF version will be formatted, which the publisher will use to create an inexpensive paperback edition for sale.
 
-Finally, the book consists of several chapters, such as [Chapter 2: Defining City and Suburban Lines](defining.html). Each of these contains several sub-chapters, such as [2.1: The Richest City in the Nation](richest.html). For simplicity, refer to any of these as "chapters" of the book.
+Finally, the book consists of several chapters, such as [Chapter 2: Defining City and Suburban Lines](defining.html). Each of these contains several sub-chapters, such as [2.1: The Richest City in the Nation](richest.html). For simplicity, refer to any of these as "chapters" of the book. -->
 
 ### How to Cite {-}
-To cite this book-in-progress, please refer to the web edition (rather than the PDF editions), since this online version is easiest for all readers to access instantly.
+<!-- To cite this book-in-progress, please refer to the web edition (rather than the PDF editions), since this online version is easiest for all readers to access instantly. -->
 
-For general citations of the book, see these samples of common academic styles:
+For general citations of the book-in-progress, see these samples of common academic styles:
 
 >**Chicago-style footnote or endnote:**  
 >Jack Dougherty and contributors, *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs* (Trinity College, book-in-progress, 2021), http://ontheline.trincoll.edu.
@@ -124,7 +124,7 @@ For general citations of the book, see these samples of common academic styles:
 >**APA reference entry:**  
 >Dougherty, J., & contributors. (2021). *On the Line: How Schooling, Housing, and Civil Rights Shaped Hartford and Its Suburbs*. Trinity College, book-in-progress. Retrieved from http://ontheline.trincoll.edu
 
-To cite a specific passage, insert the author/title/web address of the relevant chapter as a "book section" in your preferred citation style. Since the web edition does not include page numbers, rely on the URL to point to the specific page.
+To cite a specific passage, insert the author/title/web address of the relevant chapter as a "book section" in your preferred citation style. Since the web edition does not include page numbers, include the chapter-level web address to point readers to the specific page.
 
 >Sample Chicago-style note for a specific chapter:  
 >Elaina Rollins, Clarissa Ceglio, and Jack Dougherty, "Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org," in *On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs* (Trinity College, book-in-progress, 2021), https://ontheline.trincoll.edu/writing.
@@ -160,7 +160,7 @@ More co-authors to come...
 <!-- TODO - add more coauthors: Elaina Rollins, Clarissa Ceglio, Emily Meehan; list research contributors -->
 
 ### Additional contributors {-}
-Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [Google interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
+Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [first edition of interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
 
 - Michael Howser, Project Director and Map Interface Development
 - Curtis Denton, Project Management and Interface Design
@@ -172,12 +172,14 @@ Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographi
 - Benjamin Spaulding, Dual Map Interface WMS Code Development
 - Josh Strunk, Aerial Photography Mosaic and Digitization
 
+<!-- book cover images at 165px width, 300 dpi, PNG files -->
+
 |  | Other books by Jack Dougherty |
 | :-- | :---------- |
-| ![HandsOnDataViz](images/preface/cover-handsondataviz.jpg) | *Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code*, with Ilya Ilyankou, book-in-progress under contract with O'Reilly Media, openly accessible at <http://HandsOnDataViz.org.> </br>Tell your story and show it with data, using free and easy-to-learn tools on the web. This introductory book teaches you how to design interactive charts and customized maps for your website, beginning with easy drag-and-drop tools, such as Google Sheets, Datawrapper, and Tableau Public. You'll also gradually learn how to edit open-source code templates like Chart.js, Highcharts, and Leaflet on GitHub. |
-| ![WebWriting](images/preface/cover-webwriting.jpg) | *Web Writing: Why and How for Liberal Arts Teaching and Learning*, co-edited with Tennyson O'Donnell. Ann Arbor: University of Michigan Press, 2015.</br> This open-access publication is freely available online <http://WebWriting.trincoll.edu> and in print for sale <https://www.press.umich.edu/8291956/web_writing>.</br>See also over 1,000 comments by 70 readers and 4 expert reviewers commissioned by the press during the open peer review phase on the draft manuscript at <https://webwriting2013.trincoll.edu/>. |
-| ![WritingHistoryInTheDigitalAge](images/preface/cover-whda.jpg) | *Writing History in the Digital Age*, co-edited with Kristen Nawrotzki. Ann Arbor: University of Michigan Press, 2013.</br> This open-access publication is freely available online and in print for sale at <https://www.press.umich.edu/4766562/writing_history_in_the_digital_age>.</br>See also over 940 comments by 65 readers and 4 expert reviewers commissioned by the press during the open peer review phase on the draft manuscript at <http://WritingHistory.trincoll.edu>.  |
-| ![MoreThanOneStruggle](images/preface/cover-mtos.jpg) | *More Than One Struggle: The Evolution of Black School Reform in Milwaukee*. Chapel Hill: University of North Carolina Press, 2004, <https://www.uncpress.org/book/9780807855249/more-than-one-struggle/>.</br> See also over [60 oral history interviews donated to the University of Wisconsin-Milwaukee Archives](http://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives;view=reslist;subview=standard;didno=uw-mil-uwmmss0217), and several that were included in the [UWM Libraries March on Milwaukee digital history project](https://uwm.edu/marchonmilwaukee/). |
+| ![HandsOnDataViz](images/preface/cover-hodv.png) | *Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code*, with Ilya Ilyankou. O'Reilly Media, 2021.</br> This open-access publication is freely available online and for sale in print at <http://HandsOnDataViz.org.> </br>Learn how to tell your story with data and use many of the tools we used to create interactive charts and maps for the *On The Line*, such as Chart.js and Leaflet map code templates on GitHub. |
+| ![WebWriting](images/preface/cover-webwriting.png) | *Web Writing: Why and How for Liberal Arts Teaching and Learning*, co-edited with Tennyson O'Donnell. Ann Arbor: University of Michigan Press, 2015.</br> This open-access publication is freely available online at <http://WebWriting.trincoll.edu> and for sale in print at <https://www.press.umich.edu/8291956/web_writing>.</br>See also more than 1,000 comments by 70 readers and 4 expert reviewers commissioned by the publisher during the open peer review phase on the draft manuscript at <https://webwriting2013.trincoll.edu/>. |
+| ![WritingHistoryInTheDigitalAge](images/preface/cover-whda.png) | *Writing History in the Digital Age*, co-edited with Kristen Nawrotzki. Ann Arbor: University of Michigan Press, 2013.</br> This open-access publication is freely available online and for sale in print at <https://www.press.umich.edu/4766562/writing_history_in_the_digital_age>.</br>See also more than 940 comments by 65 readers and 4 expert reviewers commissioned by the publisher during the open peer review phase on the draft manuscript at <http://WritingHistory.trincoll.edu>.  |
+| ![MoreThanOneStruggle](images/preface/cover-mtos.png) | *More Than One Struggle: The Evolution of Black School Reform in Milwaukee*. Chapel Hill: University of North Carolina Press, 2004, <https://www.uncpress.org/book/9780807855249/more-than-one-struggle/>.</br> See also more than [60 oral history interviews donated to the University of Wisconsin-Milwaukee Archives](http://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives;view=reslist;subview=standard;didno=uw-mil-uwmmss0217), and several that were included in the [UWM Libraries March on Milwaukee digital history project](https://uwm.edu/marchonmilwaukee/). |
 
 ## Acknowledgements {-}
 TODO
