@@ -7,17 +7,23 @@ When Jacob Solomon Goldberg returned home to Hartford after military service in 
 
 Goldberg looked for the perfect location to launch a second grocery store. He bought two parcels of undeveloped land on Farmington Avenue at the corner of Ardmore Avenue, on the trolley line that linked downtown Hartford to West Hartford's town center. Only a dozen small grocers served the entire town, and Goldberg's two closest competitors were about a half-mile way in each direction. While only 60 homes appeared on a 1923 Sanborn fire insurance map and the city directory listings of the immediate neighborhood, real estate developers and town officials had already divided up the land into property parcels in anticipation of future homebuyers. Next door to Goldberg's empty lot stood the only non-residential building in the area: the West Hartford Armory for the Connecticut National Guard Troop B Cavalry. The smell from its horse stables may have explained why no one had yet built a house on the adjacent empty lot now owned by Goldberg.^[@sanbornmapcompanySanbornFireInsurance1923; @GeerHartfordDirectory1923; @rossanoBuiltServeConnecticut2003. The closest grocers in West Hartford were M.J. Burnham at 19 South Main Street and West Hill Grocery at 765 Farmington Avenue.]
 
-INSERT MAP, past and present, with rectangular marker for Goldberg's future building, drawn based on later aerial photos of building footprint (80 x 60 feet)
+TODO: Insert maps of 1923 Sanborn and present-day aerial imagery, with rectangular marker for Goldberg's future building, drawn based on later aerial photos of building footprint (80 x 60 feet)
 
 But when Goldberg applied for a building permit in January 1923, the West Hartford building inspector objected. Instead, the inspector called a public hearing, where "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's plan to build a grocery in what the newspaper described as "one of West Hartford's exclusive residential sections." To them, it made no difference that Goldberg had followed all of the legal procedures and hired a respected local architect, William T. Marchant, to design the store to conform with the town's building code. The proposed store would measure 80 x 60 feet, which would be larger than houses on adjacent side streets, but far smaller than the West Hartford Armory next door that also faced Farmington Avenue. Property owners challenged Goldberg's right to build a store in *their* neighborhood, and the town government refused to grant him a permit.^[@LegalFightStore1923; @WilliamMarchantCollection2021]
 
-## Anti-Semitism or Anti-Development? {- #anti-semitism}
+## Anti-Semitism or Anti-Development? {- #anti-semitism-development}
 
-Why did West Hartford residents and town officials oppose the building permit? Did they fundamentally object to a grocery in their residential neighborhood---or to Goldberg, the Jewish grocer from Hartford? ...The sources do not
+Why did West Hartford residents and town officials oppose the building permit? Were their objections motivated primarily against a grocery store in their residential neighborhood---or against Goldberg, the Jewish grocer from Hartford? We lack sources that tell us exactly who "protested" at the January 1923 public hearing, what words they said aloud, or what they said privately to one another.^[TODO: describe sources consulted...]
+
+To be clear, there is no evidence of overt anti-Semitism against Goldberg in this early zoning controversy in West Hartford. In fact, the building inspector had similarly rejected a permit requested by Fred Kenyon, a Protestant local businessman/real estate agent?, who applied to build a public garage (rename: automobile repair garage business?) in the rear of Lancaster Road just one month earlier in December 1922. Property owners also spoke out against Kenyon's request.^[@WestHartfordHas1923] On the surface, if both Jewish and Protestant businessmen had commercial developments turned down by town officials, it would demonstrate that these policies were not driven by anti-Jewish sentiment.
+
+But we cannot overlook that the Goldberg grocery store controversy took place within a broader context of anti-Semitic barriers against Jews in professional employment and social life in the Hartford region during the 1920s. Protest against Goldberg's grocery store happened during a period of rapid growth in the Ardmore Road neighborhood, which drew a disproportionately larger number of middle-class Jewish homebuyers to this area than other parts of this traditionally Protestant town. While no one publicly uttered an anti-Jewish slur during this debate, it happened during an intensely anti-Semitic period in Hartford-area and US history. Goldberg's grocery store controversy attracted more attention from newspapers than Kenyon's garage. Finally, this event motivated the West Hartford Town Council to adopt an exclusionary zoning policy that intentionally segregated neighborhoods by social class, with an explicit goal of defend the town from [insert urban words about Hartford from 1924 Whitten report].
+
+
 
 In Connecticut, Jews were not permitted to worship publicly or form congregations for public worship until 1843(?), when Jews petitioned the State Legislature for (insert law) and created the state's first synagogues in Hartford and New Haven. (TODO: prohibitive text remained in state law until 1960s?)
 
-Housing restrictions -- check Charter Oak Cultural Center; Tracey Wilson
+
 
 Hutton book preface: CT Bar Association excluded Jewish lawyers, Gerald Auerbach
 
@@ -42,15 +48,19 @@ spoke in many Christian churches as Jewish rep; story set at dedication of Chris
 
 Goldberg fought back. He was not shy about making bold real estate investments in downtown Hartford.[@NewTheaterState1923] Goldberg found a lawyer, perhaps through his brother-in-law, Judge TODO CHECK Nathan Schatz.  Goldberg's lawyer went to court in February 1923 to challenge the authority of town officials to arbitrarily block construction of the building.  [@LegalFightStore1923]
 
-
-
 TODO: Same Jacob Goldberg involved in Junior Young Men's Hebrew Association in 1922, which spoke out against anti-semitism? @JuniorYMHAFormed1922; see also @ZionistsHereWill1928
 
 
 
-West Hartford fought back against Goldberg. In March 1923, Town Council members tasked their corporate counsel (Carlyle C. Thomson), as well as a second attorney (John T. Robinson), to defend their building inspector's refusal to grant the permit.[@DemandEconomyWest1923] But the Town Council's own attorneys advised them that they lacked legal authority to block the building permit. Initially, the Town Council relented and voted in favor of granting Goldberg the permit on June 5th. Two weeks later (June 19th), West Hartford property owners and Hartford real estate agent M. M. Kupperstein urged the Town Council to reverse its decision and continue to block Goldberg's building permit. Once again, the Town's attorneys explained that West Hartford currently lacked the legal authority to block construction of an appropriately-designed building on the grounds that residents simply did not want it.[@WestHartfordStore1923]
+West Hartford fought back against Goldberg. In March 1923, Town Council members tasked their corporate counsel (Carlyle C. Thomson), as well as a second attorney (John T. Robinson), to defend their building inspector's refusal to grant the permit.[@DemandEconomyWest1923] But the Town Council's own attorneys advised them that they lacked legal authority to block the building permit. The Town Council relented and voted in favor of granting Goldberg the permit on June 5th.
 
-Jacob Goldberg won this round. The Kingswood Market opened its doors in November 1924 [@KingswoodMarketHas1924; @CorporationPapersFiled1924]. Kingswood advertised jointly with Goldberg's downtown Hartford store [@CityHallMarket1924]
+But West Hartford property owners (or neighborhood residents?) did not give up. Two weeks later (June 19th), a group of TODO???label, led by Hartford real estate agent M. Martin Kupperstein, urged the Town Council to reverse its decision and continue to block Goldberg's building permit.
+TODO ADD:
+Once again, the Town's attorneys explained that West Hartford currently lacked the legal authority to block construction of an appropriately-designed building on the grounds that residents simply did not want it.[@WestHartfordStore1923]
+
+
+
+Jacob Goldberg won this round and obtained his building permit to construct a grocery store. The Kingswood Market opened its doors in November 1924 [@KingswoodMarketHas1924; @CorporationPapersFiled1924]. Kingswood advertised jointly with Goldberg's downtown Hartford store [@CityHallMarket1924]
 
 Goldberg purchased a nearby home on Outlook Avenue....[@BuildingPermitsWorth1924] Goldberg sold the business for $100,000 in 1926 to W.J. Gengras. [@KingswoodBuildingFarmington1926] In 1928, the store celebrated its 3rd anniversary with a full-page newspaper advertisement with photos of its expanded services, which now included a small cafe next door. [@KingswoodMarket3rd1928] Neighborhood residents shopped at their local grocery for decades until the business closed in 2007 due to increasing rents and tougher competition with newer competitors, such as Whole Foods [TODO confirm competition opening year].
 
@@ -58,27 +68,13 @@ Goldberg purchased a nearby home on Outlook Avenue....[@BuildingPermitsWorth1924
 
 TODO: Insert Kingswood Market 3rd anniversary advertisement here to show building style
 
+TODO: WH town council responded to this controversy by establishing a Zoning Commission in July 1923 @WestHartfordHas1923
+At that same meeting, an attorney re-presented the case for his client Fred Kenyon, the real estate agent(?) whose application to build a garage also was rejected by the town building inspector a few months earlier
+"The attorneys now feel that because the town recently granted a permit for a store on Farmington avenue at the corner of a residential street, and which permit had previously been refused, it should grant Mr. Kenyon's request." Council member moved to refer request to zoning commission, but attorney objects "because the commission had not yet consulted any regulations." Then referred to building inspector which "to all intents and purposes this kills the permit - at least for the present." @WestHartfordHas1923
 
+West Hartford town leaders and vocal property owners desperately wanted to control the shape of real estate development in their rapidly-growing suburb... and they needed a defensible legal framework to protect their interests..... they sought expert advice from outside consultants on the relatively new field of zoning.
 
-
-
-
-TODO:
-
-- Does WH town clerk have any records of this public hearing?
-- Where there any nearby businesses along Farmington Ave in city directory?
-- Did any families with Jewish names live in the neighborhood?
-- Contextualize anti-semitism in 1920s West Hartford (see oral history with rabbi at Beth Israel during this period?)
-
-
-
-
-
-
-
-
-
-## Designing Zoning to Divide Social Classes {- #designing-zoning}
+## Zoning to Separate Social Classes {- #zoning-to-separate}
 
 
 DEFINE zoning and exclusionary zoning
