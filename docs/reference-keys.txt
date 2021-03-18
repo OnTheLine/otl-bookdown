@@ -23,6 +23,7 @@ fig:2011-hansen-susan
 fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
+fig:otl-ardmore-1923
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts
