@@ -1,4 +1,4 @@
-## Challenges for Rural and Early Suburban Schools {- #rural}
+## Consolidating Rural School Districts {- #consolidating}
 
 PREVIEW: In contrast to the golden age of urban schools, most rural and suburban schools faced deep challenges to educational quality during the early 1900s. Several had no high schools and relied on regional arrangements with neighboring towns--funded by state subsidies--to educate their teenage students. Decades ago, Connecticut students routinely and legally crossed school district boundaries to receive a public education, and the entire system was arguably more regionalized than it is today, with rigidly divided districts.
 
@@ -26,3 +26,5 @@ TODO: add index-caption
 ```{r 2020-otl-oldschoolct, fig.cap="(ref:2020-otl-oldschoolct)"}
 if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-oldschoolct/", height="625px") else knitr::include_graphics("images/2020-otl-oldschoolct.png")
 ```
+
+To come: CT legislation in 1909 to consolidate rural school districts and solidify boundaries for town-level school governance, role of Luther S. Flavel
