@@ -24,6 +24,8 @@ fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
 fig:otl-ardmore-1923
+fig:1918-luther-roosevelt-tripod
+fig:1915-1922-trinity-excerpts
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts
@@ -67,6 +69,7 @@ tab:left-table
 tab:right-table
 defining
 separating
+additional-digital-history-projects-on-restrictive-covenants--
 selling
 challenging
 choosing
