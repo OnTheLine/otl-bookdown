@@ -24,6 +24,7 @@ output:
     split_by: section
     number_sections: true
     split_bib: true
+    anchor_sections: true
     includes:
       in_header: google-analytics-otl.html
       after_body: footer.html
