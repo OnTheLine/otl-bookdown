@@ -11,9 +11,9 @@ fig:1937-holc-inhabitants-c10
 fig:1937-otl-redlining
 tab:1937-holc-app
 fig:2018-redlining-america
-fig:1936-fha-247
 fig:1937-babcock-frederick
-fig:1936-fha-manual-226
+fig:1936-fha-manual-247
+fig:1936-fha-manual-226-excerpts
 fig:1938-fha-manual-1849
 fig:1933-chart-holc-fha
 fig:1940-otl-covenants
@@ -69,7 +69,6 @@ tab:left-table
 tab:right-table
 defining
 separating
-additional-digital-history-projects-on-restrictive-covenants--
 selling
 challenging
 choosing
