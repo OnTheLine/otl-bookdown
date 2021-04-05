@@ -6,14 +6,18 @@ When Jacob Solomon Goldberg returned home to Hartford after military service in 
 
 Goldberg and his family searched for the perfect location to open a second grocery store. With funds from Jacob's father David, who previously owned a Jewish meat market in Hartford, they bought two valuable parcels of undeveloped land on Farmington Avenue at the corner of Ardmore Avenue, on the trolley line about halfway between the Hartford border and West Hartford's town center. In the early 1920s, only a dozen grocers served all of West Hartford, including several small shops that sold food products out of their homes. Nearby customers typically made frequent purchases during the week due to limited transportation and refrigeration. The closest competitors were located about a half-mile in opposite directions: West Hill Grocery (also on Farmington Avenue, closer to the Hartford border) and M.J. Burnham's (a larger store in West Hartford Center). Although the immediate area around Goldberg's property had only 60 houses in 1923, real estate developers and town officials had subdivided the land into smaller lots, and were building side streets and sewer lines, in anticipation of many more homebuyers. Next door to Goldberg's vacant lots stood the only non-residential building in the vicinity: the West Hartford Armory for the Connecticut National Guard Troop B Cavalry. Perhaps the odor from its horse stables may have explained why no one had yet built a home on Goldberg's empty property lots.^[When David Goldberg died in 1924, his estate valued the property at $40,000, and Jacob and his mother Rachel became its administrators. @DavidGoldbergObituary1924; @DavidGoldbergEstate1924; @ProbateCourtGoldberg1924; @silvermanHartfordJews165919701970, p. 170. West Hill Grocery was located at 765 Farmington Avenue, near the corner of Whiting Lane, and M.J. Burnham's was located at 19 South Main Street in West Hartford Center. @sanbornmapcompanySanbornFireInsurance1923; @GeerHartfordDirectory1923; @rossanoBuiltServeConnecticut2003.]
 
-But when Goldberg applied for a building permit in January 1923, the West Hartford building inspector declined. Instead, the inspector called a public hearing, where "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's plan to build a grocery store. In their eyes, it made no difference that Goldberg had followed every legal requirement in the town building code. It made no difference that his proposed store would be facing the busier Farmington Avenue, or be much smaller than the Armory building next door, as shown in Figure \@ref(fig:otl-ardmore-1923). What mattered was that property owners challenged Goldberg's right to build a store in *their* neighborhood, and the town government took their side and refused to grant his building permit.^[@LegalFightStore1923]
+But when Goldberg applied for a building permit in January 1923, the West Hartford building inspector declined. Instead, the inspector called a public hearing, where "a score of property owners in the Ardmore road section appeared and protested" against Goldberg's plan to build a grocery store. In their eyes, it made no difference that Goldberg had followed every legal requirement in the town building code. It made no difference that his proposed store would be facing the busier Farmington Avenue, or be much smaller than the Armory building next door, as shown in Figure \@ref(fig:otl-ardmore-1923). What mattered was that property owners challenged Goldberg's right to build a store in *their* neighborhood, and the town government took their side and refused to grant his building permit. Although Goldberg eventually prevailed and opened his Kingswood Market neighborhood grocery store, as shown in Figure \@ref(fig:1928-2004-kingswood-hc-whhs), this legal dispute and the anti-Semitic climate surrounding it reveals how exclusionary zoning arose in Connecticut in the 1920s.^[@LegalFightStore1923. Images of Kingswood Market originally appeared in @KingswoodMarket3rd1928; @faudeWestHartford2004, courtesy of the Noah Webster House & West Hartford Historical Society.]
 
-TODO: reveal the Kingswood Market 2004-era photo here, and add something like: Looking at recent images of Kingwood Market, the small neighborhood grocery store that Goldberg eventually opened, reveals the origins of exclusionary zoning in suburban Connecticut, and questions about anti-Semitism that may have surrounded this particular case...
-
-(ref:otl-ardmore-1923) In 1923, West Hartford property owners and town officials objected to Jacob Goldberg's application to build a grocery store at the corner of Farmington Avenue and Ardmore Road (shown in blue), much smaller than the West Hartford Armory next door (shown in red). This dispute motivated West Hartford to become the first municipality in Connecticut to enact a zoning ordinance in 1924. Source: [Sanborn fire insurance maps](https://www.loc.gov/collections/sanborn-maps/?fa=location:west+hartford) digitized by the Library of Congress. [Interactive map](https://ontheline.github.io/otl-ardmore-road-wh/index-caption.html) developed by Ilya Ilyankou and Jack Dougherty, with [sources and code on GitHub](https://github.com/ontheline/otl-ardmore-road-wh).
+(ref:otl-ardmore-1923) In 1923, West Hartford property owners and town officials objected to Jacob Goldberg's application to build a grocery store at the corner of Farmington Avenue and Ardmore Road (shown in blue), much smaller than the West Hartford Armory next door (shown in red). Source: [Sanborn fire insurance maps](https://www.loc.gov/collections/sanborn-maps/?fa=location:west+hartford) digitized by the Library of Congress. [Interactive map](https://ontheline.github.io/otl-ardmore-road-wh/index-caption.html) developed by Ilya Ilyankou and Jack Dougherty, with [sources and code on GitHub](https://github.com/ontheline/otl-ardmore-road-wh).
 
 ```{r otl-ardmore-1923, fig.cap="(ref:otl-ardmore-1923)"}
 if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://ontheline.github.io/otl-ardmore-road-wh/index.html", height = "400px") else knitr::include_graphics("images/1923-ardmore-road-wh.png")
+```
+
+(ref:1928-2004-kingswood-hc-whhs) Jacob Goldberg eventually won the legal battle to open the Kingswood Market in November 1924, pictured here on its third anniversary (bottom left) and also in 2004. The original first-floor storefronts included Kingswood Market, Kingswood Pharmacy, and Dettenborn Hardware, with small shops and offices on the second floor. Images from Hartford Courant (1928) and Noah Webster House & West Hartford Historical Society (2004).
+
+```{r 1928-2004-kingswood-hc-whhs, fig.cap="(ref:1928-2004-kingswood-hc-whhs)"}
+ knitr::include_graphics("images/1928-2004-kingswood-hc-whhs.png")
 ```
 
 ### Was Opposition Driven by Anti-Semitism? {- #anti-semitism}
@@ -79,30 +83,41 @@ Behind the scenes, West Hartford's attorneys realized that Goldberg had a strong
 
 For a second time, West Hartford residents spoke out against Goldberg's proposed store. A group of 14 local property owners protested at the next Town Council meeting, and were represented by a spokesperson: real estate businessman M. Martin Kupperstein, who also was one of the few Jewish residents in the neighborhood. Perhaps he was selected to counter any perceptions that their opposition was anti-Semitic. After Kupperstein urged the Council to reverse its decision, the Town Council's attorney informed the protesters that they had examined Goldberg's case "from every possible angle" and decided "it would be a poor policy for the town to attempt to withhold the permit." To put it more simply, another council member stated that the Town would not prevail in court.^[@westhartfordTownCouncilMeeting1923, June 19, 1923, p. 211; @WestHartfordStore1923; @MorrisMartinKupperstein1938. Kupperstein resided at 847 Farmington Avenue, West Hartford, @GeerHartfordDirectory1923, p. 466.]
 
-Who were these West Hartford property owners, and what motivated their protests against Goldberg's grocery store? With the exception of Kupperstein, none of their names appear in official minutes or news accounts of the two public hearings in 1923, nor does any record exist of the words they spoke. While the *Hartford Courant* referred to this neighborhood as "one of West Hartford's exclusive residential sections," that description did not match Ardmore Road. In contrast to other streets with more expensive single-family homes, nearly every building on Ardmore Road was a two-family duplex. Perhaps the relative affordability of two-family homes explained why this street developed so rapidly, growing from 1 household in 1922 to over 40 households by 1926, as shown in Table TODO, according to the city directory and town voter registration records. Interestingly, the proportion of households with Jewish names rose from 0 out of 13 in 1923 to 10 out of 43 (over 20 percent) in 1926, meaning that Ardmore Road quickly attracted a larger percentage of Jewish residents than probably any other street in West Hartford. Also, Catholic Church purchased a large parcel of land in October 1923 on Farmington Avenue, near the Ardmore Road intersection, where they quickly built the St. Thomas the Apostle Church. Overall, in the eyes of the first wave of Ardmore Road property owners, the Goldberg grocery store controversy may have symbolized that their neighborhood was rapidly changing, and becoming more Jewish and Catholic. To be perfectly clear, there is no evidence that Ardmore Road property owners in 1923 were overtly anti-Semitic or anti-immigrant in their opposition to the Goldberg's grocery. But the neighborhood in which they had recently invested their money was changing rapidly, and may have influenced their protest. [TODO: Add cites]
+Who were these West Hartford property owners, and what motivated their protests against Goldberg's grocery store? With the exception of Kupperstein, none of their names appear in official minutes or news accounts of the two public hearings in 1923, nor do we have records of the words they spoke. Furthermore, while the *Hartford Courant* referred to this neighborhood as "one of West Hartford's exclusive residential sections," that description did not match Ardmore Road, where nearly every building was a two-family duplex, in contrast to several other nearby streets with more expensive single-family homes. Perhaps the relative affordability of two-family homes explained why Ardmore Road developed so rapidly, growing from 1 household in 1922 to over 40 households by 1926, according to city directory listings as shown in Table \@ref(tab:1922-26-ardmore-road). Interestingly, the proportion of households with Jewish names rose from 0 out of 13 in 1923 to 8 out of 43 (nearly 20 percent) by 1926, meaning that Ardmore Road also attracted a larger percentage of Jewish residents than probably any other street in West Hartford at that time. Moreover, the Catholic Church purchased a large parcel of land in October 1923 on Farmington Avenue, near the Ardmore Road intersection, where they built St. Thomas the Apostle Church, a structure nearly as large as the nearby Armory. To be clear, we do not know precisely which families lived on Ardmore Road in early 1923, nor could they predict the future, but the Goldberg store controversy may have symbolized that *their* neighborhood was rapidly changing.^[@LegalFightStore1923. Out of 54 buildings on Ardmore Road today, all appear to have been constructed as 2-family units except two addresses: 10 and 14. See Ardmore Road household data from Geer's City Directory listings, 1922-26, and West Hartford Voting Registration Records for Ardmore Road (1920-1926; transcribed by Jeff Murray from West Hartford Historical Society archives in 2017), both available at https://github.com/OnTheLine/otl-ardmore-road-wh. TODO: See WH Property records for more accurate dates of when households bought and perhaps moved in.]
 
-ADD TABLE
+Table: (\#tab:1922-26-ardmore-road) Households on Ardmore Road, 1922-26
 
-
-Simply put, West Hartford currently lacked the legal authority to block construction of a building that otherwise met requirements on the grounds that residents simply did not want it.
-
- TODO: WH town council responded to this controversy by establishing a Zoning Commission in July 1923 @WestHartfordHas1923
- At that same meeting, an attorney re-presented the case for his client Fred Kenyon, the real estate agent(?) whose application to build a garage also was rejected by the town building inspector a few months earlier
- "The attorneys now feel that because the town recently granted a permit for a store on Farmington avenue at the corner of a residential street, and which permit had previously been refused, it should grant Mr. Kenyon's request." Council member moved to refer request to zoning commission, but attorney objects "because the commission had not yet consulted any regulations." Then referred to building inspector which "to all intents and purposes this kills the permit - at least for the present." @WestHartfordHas1923
-
-
-
-
-
-
-
-
-
-
+| Year | Households |
+|-----:|-----:|
+| 1922 |    1 |
+| 1923 |   13 |
+| 1924 |   34 |
+| 1925 |   41 |
+| 1926 |   43 |
 
 Jacob Goldberg won this round and obtained his building permit to construct a grocery store. The Kingswood Market opened its doors in November 1924 [@KingswoodMarketHas1924; @CorporationPapersFiled1924]. Kingswood advertised jointly with Goldberg's downtown Hartford store [@CityHallMarket1924]
 
 Goldberg purchased a nearby home on Outlook Avenue....[@BuildingPermitsWorth1924] Goldberg sold the business for $100,000 in 1926 to W.J. Gengras. [@KingswoodBuildingFarmington1926] In 1928, the store celebrated its 3rd anniversary with a full-page newspaper advertisement with photos of its expanded services, which now included a small cafe next door. [@KingswoodMarket3rd1928] Neighborhood residents shopped at their local grocery for decades until the business closed in 2007 due to increasing rents and tougher competition with newer competitors, such as Whole Foods [TODO confirm competition opening year].
+
+
+
+Simply put, West Hartford currently lacked the legal authority to block construction of a building that otherwise met requirements on the grounds that residents simply did not want it.
+
+TODO: WH town council responded to this controversy by establishing a Zoning Commission in July 1923 @WestHartfordHas1923
+At that same meeting, an attorney re-presented the case for his client Fred Kenyon, the real estate agent(?) whose application to build a garage also was rejected by the town building inspector a few months earlier
+"The attorneys now feel that because the town recently granted a permit for a store on Farmington avenue at the corner of a residential street, and which permit had previously been refused, it should grant Mr. Kenyon's request." Council member moved to refer request to zoning commission, but attorney objects "because the commission had not yet consulted any regulations." Then referred to building inspector which "to all intents and purposes this kills the permit - at least for the present." @WestHartfordHas1923
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,6 +134,7 @@ This opposition to Hartford and its symbols -- crowded apartment buildings, pove
 
 ## Zoning to Separate Social Classes {- #zoning-to-separate}
 
+TRY: the Shifting Purpose of Zoning....
 
 
 
