@@ -1,9 +1,9 @@
 ## Style Guide for *On The Line* {- #style-guide}
 View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/master/8.3.3-style-guide.Rmd.
 
-The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, full-length Markdown for conversion, etc.).
+The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, ePUB for electronic publication, full-length Markdown for conversion, etc.).
 
-This style guide was created primarily for the HTML web edition, and the PDF version will require additional modifications prior to final publication of the print edition.
+Note: This style guide was created primarily for the HTML web edition, and the PDF and ePUB versions will require additional modifications prior to final publication of the print and eBook editions.
 
 In general, each subchapter is a separate R-flavored Markdown (.Rmd) file. Each paragraph begins on a separate line.  
 
@@ -67,12 +67,12 @@ This line appears in the HTML, Word, Markdown versions, and is commented-out in 
 ### Cross-references {-}
 In order to cross-reference in Bookdown, assign a unique name or R code-chunk label to each chapter, section, figure, and table. Unique names and labels should contain only _alphanumeric_ characters (a-z, A-Z, 0-9) or dashes (-).
 
-Contrary to the [Bookdown manual](https://bookdown.org/yihui/bookdown/cross-references.html), *avoid* using Bookdown unique ID links to cross-reference chapters or sections, because these create imprecise URLs with extraneous hashtags for sections/subchapters.
-
 To cross-reference any *chapter or section*, and allow readers to jump there, use a HTML link with the unique name, such as `index.html` or `style-guide.html`. Demos:
 
 - See [Preface](index.html)
 - See [Style Guide in Chapter x](style-guide.html).
+
+Note: We use the HTML link method because it works best for the HTML web edition. We *avoid* using Bookdown unique ID links to cross-reference chapters or sections, as recommended in the [Bookdown manual](https://bookdown.org/yihui/bookdown/cross-references.html), for the HTML edition because it creates imprecise URLs with extraneous hashtags for sections/subchapters. However, if your primary goal is to create an ePUB, use the Bookdown unique ID links method, since HTML links will not work.
 
 To cross-reference figures and tables, and display their auto-number and allow readers to jump there, write a call-out with a Bookdown reference to a code-chunk label, such as `See Figure \@ref(fig:sample-image)` or `See Table \@ref(tab:left-table)`. Demos:
 

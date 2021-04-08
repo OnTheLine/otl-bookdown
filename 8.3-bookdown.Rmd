@@ -7,10 +7,11 @@ Why not just write the book in a conventional word processor? We desired an effi
 
 - HMTL web edition for the open-access book, with embedded iframes for interactive charts and maps
 - PDF print edition with static images and book-style layout
+- ePUB electronic publication edition for e-reader devices
 - Microsoft Word edition with static images for editors who prefer to provide feedback this way
 - Markdown file of the full-length book with pathnames to static images for easy conversion into the publisher's platform
 
-A conventional word processor could not continuously generate all of these products, which likely would have resulted in creating entirely separate files and code for different editions. But with our unified Bookdown workflow, all of our writing is done in one manuscript. Whenever we make edits, we push a couple of buttons to publish our updated book products in the HTML, PDF, MS Word, and Markdown formats.
+A conventional word processor could not continuously generate all of these products, which likely would have resulted in creating entirely separate files and code for different editions. But with our unified Bookdown workflow, all of our writing is done in one manuscript. Whenever we make edits, we can push a couple of buttons to publish our updated book products in all formats: HTML, PDF, ePUB, MS Word, and Markdown formats.
 
 (ref:workflow) Simplified workflow to compose, compile, and publish in multiple formats with Bookdown. Images from [Daniel Hendricks](https://fileicons.org), [RStudio](https://github.com/rstudio/hex-stickers/), and [Zotero](https://www.zotero.org/support/brand).
 

@@ -1,11 +1,13 @@
 ## Images and R Code-chunk formatting {- #images}
 View the underlying source code to understand how this page was composed at: https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd
 
+NOTE: These instructions are designed *primarily* for the HTML web edition. Be sure to research and consider options if your primary objective is PDF print edition, ePUB electronic publication, or other formats.
+
 In general, create high-resolution color images and save in PNG format (preferred over JPG due to image loss).
 
-Save items into the `images` folder and write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.
+Write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.
 
-If the original image is larger than 2MB, use photo editor to reduce size but maintain 300 dpi resolution, and add `-reduced` to file name to avoid confusion with original.
+If the original image is larger than 3MB, add `-original` to file name to avoid confusion, then create a duplicate and use photo editor to reduce size but maintain 300 dpi resolution for use in the publication.
 
 If we add any artwork to images, insert `-annotated` to file name to avoid confusion with original.
 
@@ -15,13 +17,18 @@ If we need to create side-by-side images, save each element using the root file 
 
 Since large PNG images sometimes appear too large in the PDF edition, convert a copy into a smaller PDF image to fit better. In Preview, open the copy and reduce image size by 50% (or more), and double resolution (up to 300 dpi if feasible), and save. Then File > Export, with Option to change file format to PDF, but keep same file name as PNG.
 
+Save *all versions* of an image into the `images` folder to keep them together, as long as the overall GitHub repo size remains under 1GB. (Keep extremely large TIFF files elsewhere but use similar file names in order to locate them.) Bookdown will copy only the relevant files into the `docs/images` subfolder.
+
 As a result, one image may have different versions:
 
 ```
 images/1937-sample.png
-images/1937-sample-reduced.png
-images/1937-sample-reduced.pdf
+images/1937-sample.pdf
+images/1937-sample-original.png
+images/1937-sample-annotated.psd
 ```
+
+Include relevant source info in the Zotero library, and include the file name in the Abstract field to manually match up with the manuscript. Since Bookdown does not cleanly process endnotes in image captions, include the Zotero citation in the paragraph that describes the image, typically after a call-out: ...as shown in Figure X.
 
 In writing this book, one of key goals was to create R Markdown syntax to display different versions of images for different Bookdown editions. For each image, we wanted one set of instructions to display an interactive chart/map/video using an embedded iframe in the HTML web edition, but display a static PNG image in the full-length Markdown edition, or to substitute a smaller PDF static image when available in the PDF book edition. Also, we wanted auto-numbering of images by chapter.
 
