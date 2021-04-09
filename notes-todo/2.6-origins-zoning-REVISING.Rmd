@@ -91,50 +91,40 @@ Who were these West Hartford property owners, and what motivated their protests 
 
 Table: (\#tab:1922-26-ardmore-road) Households on Ardmore Road, 1922-26
 
-| Year | Households |
-|-----:|-----:|
-| 1922 |    1 |
-| 1923 |   13 |
-| 1924 |   34 |
-| 1925 |   41 |
-| 1926 |   43 |
+| Year | Households | Percent Jewish |
+|-----:|-----:| -----: |
+| 1922 |    1 |        |
+| 1923 |   13 |        |
+| 1924 |   34 |        |
+| 1925 |   41 |        |
+| 1926 |   43 |   19%  |
 
 After Jacob Goldberg finally won his building permit, Kingswood Market opened its doors for business in November 1924. He incorporated the business with his brother Barney and two brothers-in-law: attorney Nathan Schatz and Hyman M. Cohen, who managed the market. Jacob Goldberg also moved into the West Hartford neighborhood and purchased a single-family home on nearby Outlook Avenue. Two years later, the Goldberg family sold the business, and a series of owners continued to operate Kingswood Market for decades, until it was unable to compete against a much larger and more modern Whole Foods grocery store that opened four blocks away in 2005. Neighborhood residents mourned when Kingswood Market closed its doors in 2007.^[@KingswoodMarketHas1924; @KingswoodMarketCorporation1924; @CityHallMarket1924; @KingswoodMarket3rd1928; @KingswoodBuildingFarmington1926; @WestHartfordMen1952; @wfsbeyewitnessnewsKingswoodMarketClosing2007; @KingswoodMarketClosing2007. Jacob Goldberg resided at 17 Outlook Avenue in late 1924, @BuildingPermitsWorth1924].
 
-West Hartford leaders and vocal property owners sought a legally-defensible policy that would allow them to reject the types of real estate development they did not want in *their* rapidly-growing town. The Town Council concluded this controversial episode over Goldberg's grocery by creating a brand-new Zoning Commission to find better land-use regulations in July 1923. But concept of "zoning" was still new, and most Council members did not yet have a clear idea of how it would happen. At that same meeting, the attorney for Fred Kenyon, the local Protestant businessman whose public garage permit also had been denied, sought to re-open the issue for his client. Since the Town granted a building permit to Goldberg, he argued, shouldn't they also grant a permit to Kenyon? One Council member moved to refer the request to the Zoning Commission, but Kenyon's attorney objected because this brand-new entity "had not yet consulted any regulations." The Council concurred, but then voted to refer Kenyon's request back to the building inspector, which effectively stalled Kenyon's request, at least for the moment. In the meantime, pressure continued to mount on town leaders define exactly what they meant by zoning.
+West Hartford leaders and vocal property owners sought a legally-defensible policy that would allow them to reject certain real estate development they did not want in *their* rapidly-growing town. The Town Council concluded this controversial episode over Goldberg's grocery by creating a brand-new Zoning Commission to find better land-use regulations in July 1923. But concept of "zoning" was still new, and most Council members did not yet have a clear idea of how it would happen. At that same meeting, the attorney for Fred Kenyon, the local Protestant businessman whose public garage permit also had been denied, sought to re-open the issue for his client. Since the Town granted a building permit to Goldberg, he argued, shouldn't they also grant a permit to Kenyon? One Council member moved to refer the request to the Zoning Commission, but Kenyon's attorney objected because this brand-new entity "had not yet consulted any regulations." The Council concurred, but then voted to refer Kenyon's request back to the building inspector, which effectively stalled Kenyon's request, at least for the moment. In the meantime, pressure continued to mount on town leaders define exactly what they meant by zoning.^[@WestHartfordHas1923]
+
+## Defining Zoning to Exclude {-}
+
+Josiah B. Woods, a West Hartford town councilman during the early 1920s, was the strongest advocate for West Hartford to adopt a zoing policy.... Educated at Amherst College and now a businessman, he recognized the problems stirred up by the Goldberg controversy and sought a solution that would not address conflicts in an arbitrary way, and replace it with a system-wide solution. Woods lobbied his West Hartford colleagues---and also legislators at the Capitol---to act on this issue. In June 1923 [CHECK], just as the Goldberg controversy was dying down, Connecticut passed a law that allowed X municipalities to enact local zoning ordinances, and West Hartford became the first in the state to take advantage of this opportunity by enacting its local zoning policy in 1924. But the Progressive-era language of the state law in 1923 became more exclusionary and segregative when adopted at the local level.... Over time, exclusionary zoning became a powerful tool for suburban communities to separate themselves from urban neighbors they deemed a less desirable, and it did so without directly referring to their race or religion.....   mention social class here as a defensible legal category?
+
+On the surface, zoning appeared to be a well-intentioned tool of Progressive-era government to exert greater control over the free market to protect the health and safety of residents. Zoning gave local municipalities the power to draw lines that separated land for different uses, such as keeping toxic factories away from residential homes and schools.
+
+When the Connecticut General Assembly approved zoning enabling law in 1923, it stated that local regulations should be designed for this purpose: "... to prevent a close arrangement or constructions of buildings upon the streets, to secure safety from fire and other dangers, to avoid undue concentration of population and to provide health, comfort and general welfare in living and working conditions."^[TODO: check original source, cited in @whittenWestHartfordZoning1924, p. 8; @PlansApportionPopulation1923]
+
+But text of CT's zoning enabling act did not come from health departments, but rather US Commerce Dept....
+drafted by Edward Bassett in 1921 (Knack et al 1996)
+preface: first distributed in mimeograph in Aug 1922; revised ed made public in same form in Jan 1923; now printed to distribute more widely
+Foreward by Herbert Hoover, US Commerce Secy: zoning grew from only 48 cities and tows when Adv Cmte created in Sept 1921 to 218 municipalities by end of 1923
+
+Josiah Woods pushed 
 
 
-to devise a system to determine what buildings could be built, and where they could be constructed, while preserving the interests of local property owners. Answering this puzzle required them to define zoning.^[@WestHartfordHas1923]
 
-
-
-
-
-..... they sought expert advice from outside consultants on the relatively new field of zoning.
-
-As a result, the Goldberg controversy prompted town leaders to quickly adopt a zoning policy -- the first municipality in Connecticut to do so -- which intentionally segregated newly suburban neighborhoods by social class in order to defend [TODO: insert urban words from 1924 Whitten report]. As a result, exclusionary zoning became the dominant tool to segregate suburbs because it worked without directly referring to race or religion.
-
-But even if no one publicly uttered an anti-Jewish slur, the controversy over Goldberg's grocery store generated a fiercer debate than Kenyon's garage, and directly led West Hartford town leaders to enact local zoning laws---the first municipality in Connecticut to do so---that were driven by a desire to keep *urban life* outside of their *small-town suburb*. OR to keep urban Hartford out of their newly-suburban small town.
-This opposition to Hartford and its symbols -- crowded apartment buildings, poverty, etc. -- was tangled up with local property owners' perceptions of Goldberg as an *outsider* to their Protestant community....
-
-## Zoning to Separate Social Classes {- #zoning-to-separate}
-
-TRY: the Shifting Purpose of Zoning....
-
-
+But Josiah Woods explain the power of zoning differently to his West Hartford colleagues.
 At that same meeting, councilman Josiah B. Woods asked colleagues to support his efforts to persuade the Connecticut state legislature to approve a "zoning act" that would allow municipalities such as West Hartford to draw up local ordinances "to protect the residential character" of specific areas. Although zoning was a relatively new concept for most Council members, the Town attorney sided with Woods and also recommended this strategy, noting that Connecticut's draft legislation was adopted from text proposed by the US Chamber of Commerce.^[Indirect quote on "protect the residential character" attributed to Woods in @DemandEconomyWest1923; @WestHartfordHopes1923. TODO: check WH Town Council minutes from 6 March 1923 meeting for relevant details or quotes.]
 
-TODO: consider merging these two paragraphs and moving zoning discussion to later section below to keep ideas intact
 
 
-
-DEFINE zoning and exclusionary zoning
-CLARIFY that Jacob Goldberg sought to build a store, not a residence, but the conflict raised broader question: how much control should government exert over land-use, and how?
-
-
-During the 1920s, several states granted local governments a new policy tool—known as municipal zoning—to exert greater control over land development. But tools can be used to achieve different goals. We can use them to help people or cause harm. Evaluating the history of zoning requires a closer look at how local governments implemented this policy, and to what ends.
-
-Progressive advocates saw zoning as a necessary tool for government to regulate the free market and to protect the health and safety of its citizens. For example, zoning gave municipalities the power to draw lines on the land and create separate spaces for residential, commercial, and industrial development. Family homes could be legally separated from potentially harmful businesses or factories. When the Connecticut General Assembly approved zoning enabling law in 1923, it stated that local regulations should be designed for this purpose: "... to prevent a close arrangement or constructions of buildings upon the streets, to secure safety from fire and other dangers, to avoid undue concentration of population and to provide health, comfort and general welfare in living and working conditions."^[TODO: check original source, cited in @whittenWestHartfordZoning1924, p. 8; @PlansApportionPopulation1923]
 
 But local governments often crafted zoning ordinances to achieve other, less innocent goals. Some wrote local ordinances that made housing construction in selected neighborhoods affordable only for upper-class families, thereby blocking out lower-income families. Today we call this "exclusionary zoning" and its roots can be traced back nearly a century ago.
 
@@ -160,3 +150,11 @@ Whitten also recommended a system of dividing residential areas by minimum home 
 Drafting local ordinances this way made zoning an exclusionary tool to restrict neighborhoods by wealth, and most likely to pump up high-end real estate sales. Unlike other tools developed around the same time (such as racially restrictive property covenants that prohibited non-white residents, and have since been outlawed by civil rights legislation), class-based zoning remains perfectly legal today.  But it does nothing to promote the health and safety of the citizenry, as promised by the original intent of the state law.
 
 Drafting local ordinances this way made zoning an exclusionary tool to restrict neighborhoods by wealth, and most likely to pump up high-end real estate sales. Unlike other tools developed around the same time (such as racially restrictive property covenants that prohibited non-white residents, and have since been outlawed by civil rights legislation), wealth-based zoning remains perfectly legal today. But it does nothing to promote the health and safety of the citizenry, as promised by the original intent of the state law.
+
+
+..... they sought expert advice from outside consultants on the relatively new field of zoning.
+
+
+
+But even if no one publicly uttered an anti-Jewish slur, the controversy over Goldberg's grocery store generated a fiercer debate than Kenyon's garage, and directly led West Hartford town leaders to enact local zoning laws---the first municipality in Connecticut to do so---that were driven by a desire to keep *urban life* outside of their *small-town suburb*. OR to keep urban Hartford out of their newly-suburban small town.
+This opposition to Hartford and its symbols -- crowded apartment buildings, poverty, etc. -- was tangled up with local property owners' perceptions of Goldberg as an *outsider* to their Protestant community....
