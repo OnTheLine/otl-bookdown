@@ -24,9 +24,12 @@ fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
 fig:otl-ardmore-1923
-fig:1918-luther-roosevelt-tripod
+fig:1928-2004-kingswood-hc-whhs
+fig:1918-roosevelt-luther-2018-walk
 fig:1915-1922-trinity-excerpts
+fig:1919-trinity-supplement
 fig:1923-02-07-goldberg-courant
+tab:1922-26-ardmore-road
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts

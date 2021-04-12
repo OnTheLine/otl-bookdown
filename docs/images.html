@@ -25,7 +25,7 @@
 <meta name="author" content="and contributors" />
 
 
-<meta name="date" content="2021-03-31" />
+<meta name="date" content="2021-04-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -165,17 +165,21 @@
 <div id="images" class="section level2 unnumbered">
 <h2>Images and R Code-chunk formatting</h2>
 <p>View the underlying source code to understand how this page was composed at: <a href="https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd" class="uri">https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd</a></p>
+<p>NOTE: These instructions are designed <em>primarily</em> for the HTML web edition. Be sure to research and consider options if your primary objective is PDF print edition, ePUB electronic publication, or other formats.</p>
 <p>In general, create high-resolution color images and save in PNG format (preferred over JPG due to image loss).</p>
-<p>Save items into the <code>images</code> folder and write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.</p>
-<p>If the original image is larger than 2MB, use photo editor to reduce size but maintain 300 dpi resolution, and add <code>-reduced</code> to file name to avoid confusion with original.</p>
+<p>Write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.</p>
+<p>If the original image is larger than 3MB, add <code>-original</code> to file name to avoid confusion, then create a duplicate and use photo editor to reduce size but maintain 300 dpi resolution for use in the publication.</p>
 <p>If we add any artwork to images, insert <code>-annotated</code> to file name to avoid confusion with original.</p>
 <p>To create screenshots, use high-resolution Retina monitor (144 ppi) with tight cropping.</p>
 <p>If we need to create side-by-side images, save each element using the root file name plus a suffix, and use Photoshop or <a href="http://Photopea.com" class="uri">http://Photopea.com</a> to combine images and also save in Photoshop format (.psd) in the images subfolder.</p>
 <p>Since large PNG images sometimes appear too large in the PDF edition, convert a copy into a smaller PDF image to fit better. In Preview, open the copy and reduce image size by 50% (or more), and double resolution (up to 300 dpi if feasible), and save. Then File &gt; Export, with Option to change file format to PDF, but keep same file name as PNG.</p>
+<p>Save <em>all versions</em> of an image into the <code>images</code> folder to keep them together, as long as the overall GitHub repo size remains under 1GB. (Keep extremely large TIFF files elsewhere but use similar file names in order to locate them.) Bookdown will copy only the relevant files into the <code>docs/images</code> subfolder.</p>
 <p>As a result, one image may have different versions:</p>
 <pre><code>images/1937-sample.png
-images/1937-sample-reduced.png
-images/1937-sample-reduced.pdf</code></pre>
+images/1937-sample.pdf
+images/1937-sample-original.png
+images/1937-sample-annotated.psd</code></pre>
+<p>Include relevant source info in the Zotero library, and include the file name in the Abstract field to manually match up with the manuscript. Since Bookdown does not cleanly process endnotes in image captions, include the Zotero citation in the paragraph that describes the image, typically after a call-out: …as shown in Figure X.</p>
 <p>In writing this book, one of key goals was to create R Markdown syntax to display different versions of images for different Bookdown editions. For each image, we wanted one set of instructions to display an interactive chart/map/video using an embedded iframe in the HTML web edition, but display a static PNG image in the full-length Markdown edition, or to substitute a smaller PDF static image when available in the PDF book edition. Also, we wanted auto-numbering of images by chapter.</p>
 <p>Our solution relies on R code-chunk formatting for <em>most</em> images, with some exceptions. This R Markdown/Bookdown syntax is more complex than basic Markdown image formatting, but supports conditional formatting and captions in all of our editions, and auto-numbering in HMTL and LaTeX/PDF editions. Our <em>general</em> R code-chunk image format looks <em>roughly</em> like this, minus some code tics that have been removed for simplicity:</p>
 <pre><code>...as shown in Figure \@ref(fig:keyword).
@@ -237,6 +241,7 @@ Figure 8.6: Explore the <a href="https://handsondataviz.github.io/leaflet-map-si
 </div>
 <div id="demo-r-code-chunk-for-locally-stored-scrolling-pdf-in-html-static-screenshot-in-pdf-docx-md" class="section level4 unnumbered">
 <h4>Demo: R code-chunk for locally-stored scrolling PDF in HTML, static screenshot in PDF, DOCX, MD</h4>
+<p>Be sure to add “screenshot” to the file name of the static PNG to avoid confusing it with the scrolling PDF, in case the static PNG is converted into a static PDF for better image quality in the PDF book output.</p>
 <p>Note: Currently in 2021 this displays a scrolling PDF in Firefox, Chrome, but not Safari browser. Insert link to local PDF in the caption to provide workaround for readers with Safari browsers.</p>
 <p>…as shown in Figure <a href="images.html#fig:sample-local-pdf">8.7</a>.</p>
 

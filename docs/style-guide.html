@@ -25,7 +25,7 @@
 <meta name="author" content="and contributors" />
 
 
-<meta name="date" content="2021-03-31" />
+<meta name="date" content="2021-04-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -165,8 +165,8 @@
 <div id="style-guide" class="section level2 unnumbered">
 <h2>Style Guide for <em>On The Line</em></h2>
 <p>View the underlying source code to understand how this page was composed at: <a href="https://github.com/OnTheLine/otl-bookdown/blob/master/8.3.3-style-guide.Rmd" class="uri">https://github.com/OnTheLine/otl-bookdown/blob/master/8.3.3-style-guide.Rmd</a>.</p>
-<p>The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, full-length Markdown for conversion, etc.).</p>
-<p>This style guide was created primarily for the HTML web edition, and the PDF version will require additional modifications prior to final publication of the print edition.</p>
+<p>The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, ePUB for electronic publication, full-length Markdown for conversion, etc.).</p>
+<p>Note: This style guide was created primarily for the HTML web edition, and the PDF and ePUB versions will require additional modifications prior to final publication of the print and eBook editions.</p>
 <p>In general, each subchapter is a separate R-flavored Markdown (.Rmd) file. Each paragraph begins on a separate line.</p>
 <p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a>, and remember to add a footnote (as shown further below) for readers of the printed version that does not display embedded links.</p>
 <p>For lists, always insert a blank line <em>before</em> the items, unless they appear directly after hashtag header.</p>
@@ -219,12 +219,12 @@ This line appears in the PDF and Word versions, and is commented-out in the HTML
 <div id="cross-references" class="section level3 unnumbered">
 <h3>Cross-references</h3>
 <p>In order to cross-reference in Bookdown, assign a unique name or R code-chunk label to each chapter, section, figure, and table. Unique names and labels should contain only <em>alphanumeric</em> characters (a-z, A-Z, 0-9) or dashes (-).</p>
-<p>Contrary to the <a href="https://bookdown.org/yihui/bookdown/cross-references.html">Bookdown manual</a>, <em>avoid</em> using Bookdown unique ID links to cross-reference chapters or sections, because these create imprecise URLs with extraneous hashtags for sections/subchapters.</p>
 <p>To cross-reference any <em>chapter or section</em>, and allow readers to jump there, use a HTML link with the unique name, such as <code>index.html</code> or <code>style-guide.html</code>. Demos:</p>
 <ul>
 <li>See <a href="index.html">Preface</a></li>
 <li>See <a href="style-guide.html">Style Guide in Chapter x</a>.</li>
 </ul>
+<p>Note: We use the HTML link method because it works best for the HTML web edition. We <em>avoid</em> using Bookdown unique ID links to cross-reference chapters or sections, as recommended in the <a href="https://bookdown.org/yihui/bookdown/cross-references.html">Bookdown manual</a>, for the HTML edition because it creates imprecise URLs with extraneous hashtags for sections/subchapters. However, if your primary goal is to create an ePUB, use the Bookdown unique ID links method, since HTML links will not work.</p>
 <p>To cross-reference figures and tables, and display their auto-number and allow readers to jump there, write a call-out with a Bookdown reference to a code-chunk label, such as <code>See Figure \@ref(fig:sample-image)</code> or <code>See Table \@ref(tab:left-table)</code>. Demos:</p>
 <ul>
 <li>See Figure <a href="images.html#fig:sample-image">8.4</a>.</li>
