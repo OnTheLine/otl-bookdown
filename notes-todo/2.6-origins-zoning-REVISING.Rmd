@@ -159,23 +159,28 @@ Whitten drafted West Hartford's first zoning guidelines, which emphasized how th
 The original report stated that West Hartford’s primary function was to serve the housing needs of “all classes and all grades of economic ability. . .[including] factory workers, office employees, and the various business and professional groups” who work in Hartford. ^[@whittenWestHartfordZoning1924, preface, other pages?]
 
 
-But deeper inside Whitten's report, his strategy for segregating West Hartford neighborhoods by wealth became clear. Whitten recommended zoning laws that divided residential areas into sections A, B, C, D, and E, listed in decreasing order of the minimum size of land required for home construction. For example, building in the most exclusive "A" zone required the largest amount of land: at least 9,000 square feet (or 1/5 of an acre) for a single-family home, or twice as much land (18,000 square feet or 2/5 acre) for a two-family home. Also, the "A" zone required at least of XX feet of property facing the street, to spread homes further apart. As a result, homes in "A" zones would require more land per family, and therefore become more expensive than identical buildings in lower-rated zones.
+But deeper inside Whitten's report, his strategy for segregating West Hartford neighborhoods by wealth became clear. Whitten recommended zoning laws that divided residential areas into sections A, B, C, D, and E, listed in decreasing order of the minimum size of land required for home construction. For example, building in the most exclusive "A" zone required the largest amount of land: at least 9,000 square feet (or 1/5 of an acre) for a single-family home, or twice as much land (18,000 square feet or 2/5 acre) for a two-family home. Also, the "A" zone required at least of XX feet of property facing the street, to spread homes further apart.
 
-...as shown in Table \@ref(tab:1924-zone).
+Percentage of Lot Occupancy. "Residence buildings are limited to an occupancy of not more than 30 per cent of the area of the lot in A or B area districts;40 per cent in C area dis-tricts; 50 per cent in D area districts and 60 per cent in E area districts." p13
+
+
+As a result, homes in "A" zones would require more land per family, and therefore become more expensive than identical buildings in lower-rated zones.
+
+....as shown in Table \@ref(tab:1924-zone).
 
 Table: (\#tab:1924-zone) Minimum Land Required Per Family in West Hartford Zoning, 1924
 
-| Zone | Intended use | Min land per family | Cost per fam | Scale image         |
-|:----|:-------------|-----------------:|---------:| ---------------------------:|
-| A   | 1-fam home   |     9,000 sq ft  |  `$$$$$` | ![](images/1924-zone-a.png) |
-| B   | 1-fam home   |     6,000 sq ft  |   `$$$$` | ![](images/1924-zone-b.png) |
-| C   | 2-fam duplex |     3,000 sq ft  |    `$$$` | ![](images/1924-zone-c.png) |
-| D   | 3-fam triple |     1,500 sq ft  |     `$$` | ![](images/1924-zone-d.png) |
-| E   | apartments   |       750 sq ft  |      `$` | ![](images/1924-zone-e.png) |
+| Zone | Intended use | Min. land per family | Land cost per family | Scale diagram |
+|:-----|:-------------|--------------:|------------:| ---------------------------:|
+| A    | 1-fam home   |  9,000 sq ft  |  \$\$\$\$\$ | ![](images/1924-zone-a.png) |
+| B    | 1-fam home   |  6,000 sq ft  |    \$\$\$\$ | ![](images/1924-zone-b.png) |
+| C    | 2-fam duplex |  3,000 sq ft  |      \$\$\$ | ![](images/1924-zone-c.png) |
+| D    | 3-fam triple |  1,500 sq ft  |        \$\$ | ![](images/1924-zone-d.png) |
+| E    | apartments   |    750 sq ft  |          \$ | ![](images/1924-zone-e.png) |
 
-*Zoning set minimum land requirements per family, which intentionally made it "uneconomic" to build more affordable multi-family housing in A and B areas. Green shading represents land per family. Icons by [Georgiana Ionescu](https://thenounproject.com/georgiana.ionescu/collection/real-estate-outline/).*
-
-
+*Each zone set a minimum land requirement per family, shown in green, which intentionally made it "uneconomic" to build affordable multi-family housing in the A and B areas. Icons by [Georgiana Ionescu](https://thenounproject.com/georgiana.ionescu/collection/real-estate-outline/).*
+<!-- Design notes: https://docs.google.com/spreadsheets/d/1g58ZaR1lsfr1s5mdvZFru6DAJFnA9jNwDVlrxaQ0rbA/edit#gid=0
+Graphics (export at 4x resolution, then reduce size 25% to return to original dimensions): https://www.figma.com/file/7JitgyYxiT3xR3fyoZttKb/1924-zoning-table-graphics?node-id=5%3A53 -->
 
 The purpose of zoning, as defined by West Hartford's 1924 plan, was to segregate neighborhoods by the wealth of their residents. Exclusionary language bluntly appeared in the body of the report. Zoning would "make it uneconomic to build two-family houses" in the "A" district because home builders would need to buy twice as much land, compared to the amount needed to build a single-family home. As a result of zoning, a typically more-affordable duplex home would become far less-affordable, and never be built in the "A" district.
 
