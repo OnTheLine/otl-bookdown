@@ -161,14 +161,19 @@ The original report stated that West Hartford’s primary function was to serve 
 
 But deeper inside Whitten's report, his strategy for segregating West Hartford neighborhoods by wealth became clear. Whitten recommended zoning laws that divided residential areas into sections A, B, C, D, and E, listed in decreasing order of the minimum size of land required for home construction. For example, building in the most exclusive "A" zone required the largest amount of land: at least 9,000 square feet (or 1/5 of an acre) for a single-family home, or twice as much land (18,000 square feet or 2/5 acre) for a two-family home. Also, the "A" zone required at least of XX feet of property facing the street, to spread homes further apart. As a result, homes in "A" zones would require more land per family, and therefore become more expensive than identical buildings in lower-rated zones.
 
-TODO: Scale diagram of 1924 West Hartford zones, by minimum property size per family and land price
+...as shown in Table \@ref(tab:1924-zone).
 
-Zone  Diagram  Relative Land Price  Intended Use  Minimum property per fam (sq ft)  Min lot width (ft)  
-A  [----- * -----] $$$$$ 9000  single-family 60
-B  [---- * ----]  $$$$ 6000  single-family 50
-C  [--- * ---] $$$ 3000   two-family
-D  [-- * --] $$ 1500      three-family
-E  [- * -] $ 750        apartment house
+Table: (\#tab:1924-zone) Minimum Land Required Per Family in West Hartford Zoning, 1924
+
+| Zone | Intended use | Min land per family | Cost per fam | Scale image         |
+|:----|:-------------|-----------------:|---------:| ---------------------------:|
+| A   | 1-fam home   |     9,000 sq ft  |  `$$$$$` | ![](images/1924-zone-a.png) |
+| B   | 1-fam home   |     6,000 sq ft  |   `$$$$` | ![](images/1924-zone-b.png) |
+| C   | 2-fam duplex |     3,000 sq ft  |    `$$$` | ![](images/1924-zone-c.png) |
+| D   | 3-fam triple |     1,500 sq ft  |     `$$` | ![](images/1924-zone-d.png) |
+| E   | apartments   |       750 sq ft  |      `$` | ![](images/1924-zone-e.png) |
+
+*Zoning set minimum land requirements per family, which intentionally made it "uneconomic" to build more affordable multi-family housing in A and B areas. Green shading represents land per family. Icons by [Georgiana Ionescu](https://thenounproject.com/georgiana.ionescu/collection/real-estate-outline/).*
 
 
 

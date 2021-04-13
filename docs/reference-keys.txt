@@ -30,6 +30,7 @@ fig:1915-1922-trinity-excerpts
 fig:1919-trinity-supplement
 fig:1923-02-07-goldberg-courant
 tab:1922-26-ardmore-road
+tab:1924-zone
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts

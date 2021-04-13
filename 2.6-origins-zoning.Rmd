@@ -122,13 +122,23 @@ Whitten also recommended a system of dividing residential areas by minimum home 
 
 ![Whitten report excerpt, 1924](images/1924-Whitten-page10-underlined.png)
 
-![West Hartford zoning map excerpt, 1924](images/1924-west-hartford-zoning-map-excerpt.png)
+Interactive 1924 zoning map
 
-#### Explore interactive West Hartford zoning maps, 1924 and present {-}
+https://ontheline.github.io/otl-zoning-west-hartford/index.html
 
-<http://magic.lib.uconn.edu/otl/dualcontrol_zoning_westhartford.html>
+...as shown in Table \@ref(tab:1924-zone).
 
-*TODO: rebuild map in Leaflet*
+Table: (\#tab:1924-zone) Minimum Land Required Per Family in West Hartford Zoning, 1924
+
+| Zone | Intended use | Min land per family | Cost per fam | Scale image         |
+|:----|:-------------|-----------------:|---------:| ---------------------------:|
+| A   | 1-fam home   |     9,000 sq ft  |  `$$$$$` | ![](images/1924-zone-a.png) |
+| B   | 1-fam home   |     6,000 sq ft  |   `$$$$` | ![](images/1924-zone-b.png) |
+| C   | 2-fam duplex |     3,000 sq ft  |    `$$$` | ![](images/1924-zone-c.png) |
+| D   | 3-fam triple |     1,500 sq ft  |     `$$` | ![](images/1924-zone-d.png) |
+| E   | apartments   |       750 sq ft  |      `$` | ![](images/1924-zone-e.png) |
+
+*Zoning set minimum land requirements per family, which intentionally made it "uneconomic" to build more affordable multi-family housing in A and B areas. Green shading represents land per family. Icons by [Georgiana Ionescu](https://thenounproject.com/georgiana.ionescu/collection/real-estate-outline/).*
 
 Drafting local ordinances this way made zoning an exclusionary tool to restrict neighborhoods by wealth, and most likely to pump up high-end real estate sales. Unlike other tools developed around the same time (such as racially restrictive property covenants that prohibited non-white residents, and have since been outlawed by civil rights legislation), class-based zoning remains perfectly legal today.  But it does nothing to promote the health and safety of the citizenry, as promised by the original intent of the state law.
 
