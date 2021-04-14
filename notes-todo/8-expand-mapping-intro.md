@@ -48,4 +48,7 @@ Learned how to embed two versions of maps inside books like this one: a static i
 Now my MAGIC colleagues and I have shifted our interactive map creation from Google to Leaflet, an open-source library that requires HTML/JS/CSS coding, but offers greater flexibility with open-source base map providers. Furthermore, learned to share our open-source code on GitHub, and host live websites on GitHub Pages, which makes it much easier to share map templates with others.
 [insert Leaflet map]
 
-To be clear, most of my mapping work focuses primarily on the visual presentation of data. My collaborator Diane Zannoni and I have done some spatial analysis of schooling and housing data. . . .  Other scholars in geography and history have done much more spatial analysis. But in my mind, a primary goal of this book is to tell the story about lines and show them, to 
+To be clear, most of my mapping work focuses primarily on the visual presentation of data. My collaborator Diane Zannoni and I have done some spatial analysis of schooling and housing data. . . .  Other scholars in geography and history have done much more spatial analysis. But in my mind, a primary goal of this book is to tell the story about lines and show them, to
+
+
+US School district boundaries since 1995 at NCES nces.ed.gov/programs/edge/…; School Attendance Boundaries (inside districts) since 2009 at SABINS sabinsdata.org; see github.com/EdBuild for R scripts/data for former EdBuild web.archive.org/web/2020062517…

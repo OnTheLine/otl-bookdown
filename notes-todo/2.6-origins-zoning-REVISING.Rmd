@@ -117,6 +117,8 @@ TODO: Decide if this fits above or not: Over time, exclusionary zoning became a 
 
 Josiah B. Woods, a West Hartford town councilman, realized during the 1923 Goldberg grocery store controversy that a zoning policy was the solution he and others were looking for. .... became one of the town's strongest advocates for zoning and served on its zoning board into the 1940s....was the strongest advocate for West Hartford to adopt a zoning policy.... Educated at Amherst College and now a businessman, he recognized the problems stirred up by the Goldberg controversy and sought a solution that would not address conflicts in an arbitrary way, and replace it with a system-wide solution. Woods lobbied his West Hartford colleagues---and also legislators at the Capitol---to act on this issue. ... Woods lobbied CT legislature to pass a zoning enabling act... that allowed West Hartford and X other municipalities to pass local zoning ordinances.... In June 1923 [CHECK], just as the Goldberg controversy was dying down, Connecticut passed a law that allowed X municipalities to enact local zoning ordinances, and West Hartford became the first in the state to take advantage of this opportunity by enacting its local zoning policy in 1924.
 
+TODO: Insert row of small portrait photos of zoning advocates: Woods, Whitten, Bassett, maybe Hoover
+
 
 Previously, cities like Baltimore, Maryland used *race-based zoning* to exclude Blacks from White neighborhoods, but the US Supreme Court overturned in CASE, not on civil rights grounds, but because the law infringed on White people's rights to sell private property to whomever they chose. CITE  In other words, Supreme Court upheld individual rights in a free-market economy.... in this case....  As a result, race-based zoning no longer was legal... and also unclear whether *any* form of zoning would be permissible under the logic that government should not interfere with free-market economy....
 
@@ -144,29 +146,27 @@ Woods and others persuaded the CT legislature to approve the state's first zonin
 1923 CT text was based on an earlier draft of Hoover and Bassett's text....
 Courts unsure... Euclid case working its way up through lower courts... year?
 Bassett came to CT to advise legislators on creating a stronger statewide CT zoning law, which passed in 1925 and covered all municipalities in the state (except New Haven). Language nearly identical to Bassett's suggested text.
+After passage of the first CT zoning act in 1923, Josiah Woods led West Hartford town leaders in the sprint to be the first to take advantage of this opportunity to create a comprhensive zoning plan and local ordinances....
 ^[@connecticutgeneralassemblyPublicAct2791923, p. 2;  @PlansApportionPopulation1923]
 
-After passage of the first CT zoning act in 1923, Josiah Woods led West Hartford town leaders in the sprint to be the first to take advantage of this opportunity to create a comprhensive zoning plan and local ordinances....
+
+West Hartford leaders hired Robert Harvey Whitten, an urban planning consultant from Cleveland, Ohio, to guide
+
 Town appointed Woods to be zoning commissioner....
 Woods hired Robert Whitten, a consultant from Cleveland, Ohio, to guide West Hartford through the process.
+Whitten was an urban planner who had written similar zoning plans for cities like Cleveland, Ohio; Atlanta, Georgia, and other local governments in New York, Massachusetts, and Rhode Island
+
 Whitten's definition of zoning emphasized *exclusion* more than health and general welfare of the community.
 ADD: Whitten was a member of Hoover's conference on planning new subdivisions and he also "designed Atlanta's racial zoning scheme in 1922 that flouted the Supreme Court's *Buchanan* decision" [Rothstein p62; see details p46]
 Whitten also authored numerous zoning guidelines for cities in New York, Massachusetts, and Rhode Island...
+
+@whittenClevelandZonePlan1921
+@whittenAtlantaZonePlan1922
 @silverRacialOriginsZoning1997
 
-In his preface, Whitten emphasized how West Hartford's zoning laws would bring.....
-Whitten drafted West Hartford's first zoning guidelines, which emphasized how these land-use laws would bring "orderliness" and "efficiency" to real estate development in this rapidly growing suburb, "and an increase of health, comfort and happiness for all people."
-The original report stated that West Hartford’s primary function was to serve the housing needs of “all classes and all grades of economic ability. . .[including] factory workers, office employees, and the various business and professional groups” who work in Hartford. ^[@whittenWestHartfordZoning1924, preface, other pages?]
+Whitten designed the *West Hartford Zoning* report and maps to blend soft rhetoric of inclusion with hard rules of exclusion. The introduction promised that zoning would bring "orderliness" and "efficiency" to the town's rapid growth, with "an increase of health, comfort and happiness for all people." It recognized that the suburb's primary function was to provide housing for people who worked in the adjacent city of Hartford and to serve "all classes and all grades of economic ability," including "factory workers, office employees, and the various business and professional groups."^[@whittenWestHartfordZoning1924, pp. 1-2]
 
-
-But deeper inside Whitten's report, his strategy for segregating West Hartford neighborhoods by wealth became clear. Whitten recommended zoning laws that divided residential areas into sections A, B, C, D, and E, listed in decreasing order of the minimum size of land required for home construction. For example, building in the most exclusive "A" zone required the largest amount of land: at least 9,000 square feet (or 1/5 of an acre) for a single-family home, or twice as much land (18,000 square feet or 2/5 acre) for a two-family home. Also, the "A" zone required at least of XX feet of property facing the street, to spread homes further apart.
-
-Percentage of Lot Occupancy. "Residence buildings are limited to an occupancy of not more than 30 per cent of the area of the lot in A or B area districts;40 per cent in C area dis-tricts; 50 per cent in D area districts and 60 per cent in E area districts." p13
-
-
-As a result, homes in "A" zones would require more land per family, and therefore become more expensive than identical buildings in lower-rated zones.
-
-....as shown in Table \@ref(tab:1924-zone).
+Deep inside the report, Whitten defined a system to economically segregate residents into homogenous neighborhoods with boundary lines that dictated home prices. The 1924 zoning plan divided West Hartford's residential areas into five sections---A, B, C, D, and E---based on the minimum amount of land per family required to build housing, as shown in Table \@ref(tab:1924-zone). The most exclusive A zones were designed for upper-income single-family homes, which required at least 9,000 square feet of land (1/5 of an acre) per family. At the opposite end were the C, D, and E zones, designed for more affordable multi-family duplexes, triples, and apartments, because they required significantly less land per family. Additional rules increased the amount of land needed to build in more exclusive areas: homes in A zones could occupy no more than 30 percent of the property lot, and also must be 60 feet wide on the street-facing side to spread them further apart. While these 1920s rules may seem modest by today's standards (where many Connecticut suburbs now require more than 1 acre of land for a single-family home), Whitten recommended *nearly twice* the amount of land per family in suburban West Hartford's most exclusive zone compared to similar reports he produced for the cities of Cleveland and Atlanta.^[@whittenWestHartfordZoning1924, pp. 10, 13. Whitten recommended a minimum of 5,000 square feet of land per family in A-1 zones in Cleveland and Atlanta, @whittenClevelandZonePlan1921, p. 12; @whittenAtlantaZonePlan1922, p. 13. For current exclusionary zoning rules, see @desegregatectConnecticutZoningAtlas2021]
 
 Table: (\#tab:1924-zone) Minimum Land Required Per Family in West Hartford Zoning, 1924
 
@@ -182,12 +182,46 @@ Table: (\#tab:1924-zone) Minimum Land Required Per Family in West Hartford Zonin
 <!-- Design notes: https://docs.google.com/spreadsheets/d/1g58ZaR1lsfr1s5mdvZFru6DAJFnA9jNwDVlrxaQ0rbA/edit#gid=0
 Graphics (export at 4x resolution, then reduce size 25% to return to original dimensions): https://www.figma.com/file/7JitgyYxiT3xR3fyoZttKb/1924-zoning-table-graphics?node-id=5%3A53 -->
 
-The purpose of zoning, as defined by West Hartford's 1924 plan, was to segregate neighborhoods by the wealth of their residents. Exclusionary language bluntly appeared in the body of the report. Zoning would "make it uneconomic to build two-family houses" in the "A" district because home builders would need to buy twice as much land, compared to the amount needed to build a single-family home. As a result of zoning, a typically more-affordable duplex home would become far less-affordable, and never be built in the "A" district.
+Overall, West Hartford's exclusionary zoning formula used minimum-land rules to create neighborhoods for higher-priced single-family homes, and to physically distance them from affordable multi-family housing. Whitten's report bluntly stated this goal. Zoning would "make it uneconomic to build two-family houses" in A and B areas because real estate developers would need to buy *twice* as much land compared to the amount needed for a single-family home. Given the same land costs, selling two single-family homes would yield higher profits than one two-family home. The politics of zoning rules shaped the economic marketplace by rewarding exclusion. "While three-family houses and apartments houses are not prohibited in the A, B, or C area districts," the minimum-land rules would make them cost-prohibitive to build.
+
+
+START AGAIN HERE
+
+
+
+West Hartford's exclusionary zoning formula would "make it uneconomic to build two-family houses" in the "A" district because home builders would need to buy twice as much land, compared to the amount needed to build a single-family home. As a result of zoning, a typically more-affordable duplex home would become far less-affordable, and never be built in the "A" district.
+
+Exclusionary zoning required more land per family, which increased home prices to levels that only wealthier residents could afford. While zoning did not explicitly ban lower-class citizens, it effectively pushed them downward to the D-level districts (which permitted two-family duplexes with lower minimum property sizes), or out of the suburb entirely. Under the new zoning law, Hartford's tenement houses and apartment buildings, crowded with working-class families, would be "effectively prevented in West Hartford."^[@whittenWestHartfordZoning1924, p. 10.]
+
+Whitten's zoning report warned of the dangers of apartment buildings taking over suburban space that, in his view, should we reserved for single-family homes. His report featured photographs with captions about "large apartment houses [that] are spreading farther west along Farmington Avenue and into side streets."^[@whittenWestHartfordZoning1924, pp. 16, 17] .... Whitten's minimum-land-per-family formulas would limit future growth of large apartment buildings, also making them uneconmimc to build.... some argued to ban them
+
+
+
+1924-whitten-highlight-p10.png
+
+
+(ref:1924-whitten-apartments-p17-16) Robert Whitten's 1924 *West Hartford Zoning* report warned about the dangers of apartment buildings "spreading farther west" from the city into the suburb where, in his view, single-family homes belonged.
+
+```{r 1924-whitten-apartments-p17-16, fig.cap="(ref:1924-whitten-apartments-p17-16)"}
+ knitr::include_graphics("images/1924-whitten-apartments-p17-16.png")
+```
+
+
+TODO: Play the Zoning Game for Real Estate Developers: What Kind of Housing Do the Rules Motivate You to Build?
+- rules: costs for land, costs for home type, typical sale prices
+- undeveloped land (graph paper or digital grid), house size requirements (cut-outs or moveables)
+- is there a SimCity with this type of detail?
+
 
 TODO: How Zoning Made Two-Family Houses "Uneconomic" To Build
 Use the same scale as diagram above and illustrate a single-family versus duplex on twice as much land (red X)
 
-Exclusionary zoning required more land per family, which increased home prices to levels that only wealthier residents could afford. While zoning did not explicitly ban lower-class citizens, it effectively pushed them downward to the D-level districts (which permitted two-family duplexes with lower minimum property sizes), or out of the suburb entirely. Under the new zoning law, Hartford's tenement houses and apartment buildings, crowded with working-class families, would be "effectively prevented in West Hartford."^[@whittenWestHartfordZoning1924, p. 10.]
+
+Since zoning affected only future construction, not existing homes, its real power was revealed in the zoning map.
+DESCRIBE rough area and percentage of undeveloped land that was categorized in the more exclusive A and B zones....
+COMPARE 1923 Sanborn map with 1924 zoning map
+APPROXIMATE how much land was A, B, C, D, E
+Zoning worked best
 
 Zoning policies targeted future real estate development, because existing structures were grandfathered in.....
 MAP
@@ -199,22 +233,15 @@ Ardmore Road....
 
 
 
+POSSIBLY STITCH TOGETHER 1923 Sanborn WH, and redesign to compare with or overlay on WH 1924 zoning
 
-
-In 1924, during its early phase of mass suburbanization, West Hartford became the first Connecticut municipality to enact zoning regulations to manage residential, commercial, and industrial land use. This dual-view interactive tool allows users to compare maps from consultant Robert Whitten’s West Hartford Zoning report (1924) to the present. The original report stated that West Hartford’s primary function was to serve the housing needs of “all classes and all grades of economic ability. . .[including] factory workers, office employees, and the various business and professional groups” who work in Hartford. But it also separated town residents by wealth and excluded others who could not afford to live there. Zoning policies created residential districts with minimum lot sizes to promote more expensive single-family homes, thus making multi-family housing “uneconomic” to build, without expressly prohibiting it. Map developed by MAGIC UConn Libraries and Ilya Ilyankou and Jack Dougherty at Trinity College. View the code on GitHub.
+SIMPLIFY CAPTION: In 1924, during its early phase of mass suburbanization, West Hartford became the first Connecticut municipality to enact zoning regulations to manage residential, commercial, and industrial land use. This dual-view interactive tool allows users to compare maps from consultant Robert Whitten’s West Hartford Zoning report (1924) to the present. The original report stated that West Hartford’s primary function was to serve the housing needs of “all classes and all grades of economic ability. . .[including] factory workers, office employees, and the various business and professional groups” who work in Hartford. But it also separated town residents by wealth and excluded others who could not afford to live there. Zoning policies created residential districts with minimum lot sizes to promote more expensive single-family homes, thus making multi-family housing “uneconomic” to build, without expressly prohibiting it. Map developed by MAGIC UConn Libraries and Ilya Ilyankou and Jack Dougherty at Trinity College. View the code on GitHub.
 
 https://ontheline.github.io/otl-zoning-west-hartford/index.html
 
-Whitten's zoning report warned of the dangers of apartment buildings taking over suburban space that, in his view, should we reserved for single-family homes. His report featured photographs with captions about "large apartment houses [that] are spreading farther west along Farmington Avenue and into side streets."^[@whittenWestHartfordZoning1924, pp. 16, 17] .... Whitten's minimum-land-per-family formulas would limit future growth of large apartment buildings, also making them uneconmimc to build.... some argued to ban them
 
 
-(ref:1924-whitten-apartments-p17-16) Robert Whitten's 1924 *West Hartford Zoning* report warned about the dangers of apartment buildings "spreading farther west" from the city into the suburb where, in his view, single-family homes belonged.
-
-```{r 1924-whitten-apartments-p17-16, fig.cap="(ref:1924-whitten-apartments-p17-16)"}
- knitr::include_graphics("images/1924-whitten-apartments-p17-16.png")
-```
-
-West Hartford town leaders voted to adopt most of their consultant's recommendations.
+Josiah Woods and other West Hartford town leaders signed on to Whitten's zoning report.... voted to adopt nearly all of their consultant's recommendations.
 
 
 
