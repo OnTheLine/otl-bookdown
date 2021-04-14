@@ -72,7 +72,7 @@ Remember that the `chicago-fullnote-bibliography.csl` format is designed to auto
 
 ### Customized to restart endnote numbering in each chapter & subchapter {-}
 
-Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L80).
+Note that this publication contains customized code in `style.css` to restart endnote numbering in each chapter and subchapter (aka section), to match a traditional history book publication. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/main/css/style.css#L80).
 
 TODO: Fix known issue: Using Bookdown version 0.16 as of January 2020, note numbering with customized code appears differently across editions, and needs to be addressed prior to final PDF publication:
 

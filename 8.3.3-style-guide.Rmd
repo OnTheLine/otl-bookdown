@@ -1,5 +1,5 @@
 ## Style Guide for *On The Line* {- #style-guide}
-View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/master/8.3.3-style-guide.Rmd.
+View the underlying source code to understand how this page was composed at: https://github.com/OnTheLine/otl-bookdown/blob/main/8.3.3-style-guide.Rmd.
 
 The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, ePUB for electronic publication, full-length Markdown for conversion, etc.).
 
@@ -31,9 +31,9 @@ For a block quote, start each line with a caret **AND** add two spaces to insert
 > --- Mark Twain  
 > --- notable American author  
 
-Note that the HTML edition has customized `style.css` code for block quotes. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L37).
+Note that the HTML edition has customized `style.css` code for block quotes. See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/main/css/style.css#L37).
 
-Also note that the HTML edition has customized `style.css` code to improve visual contrast and make it more accessible for visually-impaired readers, based on the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/). See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/master/css/style.css#L7).
+Also note that the HTML edition has customized `style.css` code to improve visual contrast and make it more accessible for visually-impaired readers, based on the [Wave Accessibility Evaluation Tool](http://wave.webaim.org/). See [relevant code on GitHub](https://github.com/OnTheLine/otl-bookdown/blob/main/css/style.css#L7).
 
 ### Conditional Formatting {-}
 Conditional formatting offers the option to display text or images in some editions, but not other editions. Options:

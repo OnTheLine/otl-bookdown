@@ -1,5 +1,5 @@
 ## Images and R Code-chunk formatting {- #images}
-View the underlying source code to understand how this page was composed at: https://github.com/ontheline/otl-bookdown/blob/master/8.3.4-images.Rmd
+View the underlying source code to understand how this page was composed at: https://github.com/ontheline/otl-bookdown/blob/main/8.3.4-images.Rmd
 
 NOTE: These instructions are designed *primarily* for the HTML web edition. Be sure to research and consider options if your primary objective is PDF print edition, ePUB electronic publication, or other formats.
 

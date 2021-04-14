@@ -44,7 +44,7 @@ Tip: In future sessions with RStudio, you should select the Packages tab and cli
 
 11. Close your project, and quit RStudio. The next set of steps will focus on pushing your edited book to your GitHub repository using the GitHub Desktop tool.
 
-12. Open GitHub Desktop and navigate to the `bookdown-minimal` folder on your local computer. Write a quick summary to commit (or save) the changes you made above to your master branch, and push this version to your online GitHub repo.
+12. Open GitHub Desktop and navigate to the `bookdown-minimal` folder on your local computer. Write a quick summary to commit (or save) the changes you made above to your main branch, and push this version to your online GitHub repo.
 
 13. In your web browser, go to your online GitHub repo, with a web address similar to `https://github.com/USERNAME/bookdown-minimal`.
 
