@@ -107,39 +107,57 @@ West Hartford leaders and vocal property owners sought a legally-defensible poli
 TODO: improve transition into next section: perserving property values by excluding outsiders... that were driven by a desire to keep *urban life* outside of their *small-town suburb*. OR to keep urban Hartford out of their newly-suburban small town. This opposition to Hartford and its symbols -- crowded apartment buildings, poverty, etc. -- was tangled up with local property owners' perceptions of Goldberg as an *outsider* to their Protestant community... TODO: the controversy over Goldberg's grocery store generated a fiercer debate than Kenyon's garage, and directly led West Hartford town leaders to enact local zoning laws
 
 
-### Defining Zoning to Exclude {-}
+### Defining Exclusionary Zoning {-}
 
-How did leaders of Connecticut suburbs learn about zoning, and how did they define it in their local communities, both in their words and actions? West Hartford's history matters because it became the first municipality in Connecticut to act on the state's authority to create local zoning laws in 1924, and it set precedents that many other suburbs have followed for nearly a century. Like many policies, zoning can be defined to achieve very different goals, positive or negative, depending on whose interests are served. In the context of the controversy over Goldberg's grocery store, West Hartford leaders defined zoning as a legally-defensible strategy to preserve the property values of current suburban landowners by excluding urban outsiders they viewed as undesirable, without directly mentioning their race or religion. Zoning succeeded by using political tools to create higher-priced markets of single-family homes, which segregated communities by their access to wealth and limited who could afford to live there.
+How did Connecticut's suburban leaders define how zoning would happen in their local communities, both in their words and actions? Like any policy, zoning can be designed to achieve very different goals, positive or negative, depending on whose interests are served. West Hartford leaders collaborated with national experts on a zoning plan that produced more expensive neighborhoods with only single-family homes, protected these homebuyers' property values, and physically distanced them from lower-income residents in multi-family housing and apartment buildings. In the aftermath of the Goldberg grocery store controversy, zoning became a legally defensible strategy that enabled suburbs to exclude most urban neighbors they deemed as undesirable on the basis of wealth, without directly referring to their race, religion, or nationality. West Hartford's history matters because it became Connecticut's first municipality to act on the state's authority to establish local zoning in 1924, and set precedents followed by other suburbs in later decades.
 
-TODO: Decide if this fits above or not: Over time, exclusionary zoning became a powerful tool for suburban communities to separate themselves from urban neighbors they deemed a less desirable, and it did so without directly referring to their race or religion.....
+Josiah B. Woods, a West Hartford town councilman, stood out among his peers as the strongest advocate for zoning in the early 1920s, and served as chairman of its zoning commission until 1945. Educated at Amherst College and employed in the business world, he recognized the need for a long-term strategy to manage real estate development in his rapidly growing suburb. While witnessing the heated conflict between Goldberg, property owners, and the building inspector who refused to grant the permit, Woods sought to replace arbitrary decision-making with a town-wide land-use policy that promoted efficient and orderly economic growth. Zoning seemed promising, but the concept was still new across the nation, and relatively unknown in Connecticut. Woods persuaded other members of the town council to create a zoning committee in the fall of 1922, and to appoint him as chair.^[@WestHartfordHopes1923; @WoodsLeaveWest1945; @WoodsDiesWas1948]
 
+Across the US, as local governments began to adopt zoning laws during the 1910s, state and federal courts were still sorting out what types of restrictions they would permit. Traditionally, US law had been established to defend individual property owners and courts were reluctant to infringe on their rights in the free market. In this context, some cities defended their zoning policies on the grounds that local governments had a responsibility to exert some authority over the real estate market to protect the interests of their residents. For example, New York City's 1916 zoning code separated industrial and residential land for health reasons, and limited the height of skyscrapers to ensure that air and sunlight reached people in smaller buildings nearby. Zoning advocates carefully justified New York City's right to exercise limited "police powers" over land use in order to protect the "public health, safety, order, and general welfare" of its residents. The courts gradually seemed to accept this rationale.^[@whittenBuildingZonePlan1917, p. 334; @wolfZoningAmericaEuclid2008]
 
+But the courts objected to other forms of zoning, such as *race-based zoning* that explicitly separated residents into Black or White neighborhoods. Interestingly, the US Supreme Court's ruling in the 1917 Buchanan v. Warley case overturned race-based zoning, but not on the civil rights grounds that we might expect today. Three years earlier, the city of Louisville, Kentucky approved a zoning law that prohibited Blacks from living in residential blocks that were more than 50 percent White, and vice versa. William Warley, the Black president of the local NAACP chapter, tested the zoning law by purchasing vacant property in a White-majority block from Charles Buchanan, a White real estate agent. Warley cleverly inserted a clause that required him to complete the contract only if the law allowed him to occupy the property as a residence, which the zoning law did not permit. Buchanan went to court to demand his right to sell the property to Warley, and the scenario reversed traditional roles, by forcing the White real estate agent to argue *against* the segregationist housing policy. The US Supreme Court agreed and overturned Louisville's racial zoning on grounds that it interfered with the White agent's constitutional right to sell his property as he pleased---which also happened to protect the Black buyer's right to live in a White-majority neighborhood.^[@buchananv.warleyDecision1917; @powerApartheidBaltimoreStyle1983, pp. 311-313]
 
-Josiah B. Woods, a West Hartford town councilman, realized during the 1923 Goldberg grocery store controversy that a zoning policy was the solution he and others were looking for. .... became one of the town's strongest advocates for zoning and served on its zoning board into the 1940s....was the strongest advocate for West Hartford to adopt a zoning policy.... Educated at Amherst College and now a businessman, he recognized the problems stirred up by the Goldberg controversy and sought a solution that would not address conflicts in an arbitrary way, and replace it with a system-wide solution. Woods lobbied his West Hartford colleagues---and also legislators at the Capitol---to act on this issue. ... Woods lobbied CT legislature to pass a zoning enabling act... that allowed West Hartford and X other municipalities to pass local zoning ordinances.... In June 1923 [CHECK], just as the Goldberg controversy was dying down, Connecticut passed a law that allowed X municipalities to enact local zoning ordinances, and West Hartford became the first in the state to take advantage of this opportunity by enacting its local zoning policy in 1924.
-
-TODO: Insert row of small portrait photos of zoning advocates: Woods, Whitten, Bassett, maybe Hoover
-
-
-Previously, cities like Baltimore, Maryland used *race-based zoning* to exclude Blacks from White neighborhoods, but the US Supreme Court overturned in CASE, not on civil rights grounds, but because the law infringed on White people's rights to sell private property to whomever they chose. CITE  In other words, Supreme Court upheld individual rights in a free-market economy.... in this case....  As a result, race-based zoning no longer was legal... and also unclear whether *any* form of zoning would be permissible under the logic that government should not interfere with free-market economy....
+To make sense of the confusing status of zoning laws, Josiah Woods and his West Hartford colleagues sought advice from national leaders. Herbert Hoover, the US Secretary of Commerce (and future US President), led the most activist federal agency of his era by promoting a zoning framework for states and local governments to adopt. The text of the *Standard Zoning Enabling Act* was drafted by New York City attorney and zoning advocate Edward M. Bassett in late 1921, and widely circulated over the next several years by the US Commerce Department.
 
 
-Zoning was redefined and promoted in early 1920s by US Secretary of Commerce Herbert Hoover, who led the most activist federal government agency at this time...US Commerce Dept under Hoover was first activist federal agency; appointed Advisory Committee on City Planning and Zoning around 1921; included lawyer Edward M. Bassett of NY "known as Mr. Zoning"
-Bassett drafted "standard zoning enabling act" in Dec 1921 @knackRealStoryStandard1996
+ that he encouraged state and local governments to adopt. The Commerce Department widely circulated text of the  to offer legally defensible language
+
+
+was drafted by New York City attorney Edward M. Bassett in late 1921, distributed in mimeograph in 1922-23, and later printed for wider distribution by the federal government in 1924.
+
+Foreward by Herbert Hoover, US Commerce Secy: zoning grew from only 48 cities and tows when Adv Cmte created in Sept 1921 to 218 municipalities by end of 1923
+
+Hoover's strategy was succeeding. Only 48 US cities and town had zoning policies when his Commerce Department began working on this topic in late 1921, and that number had grown to 218 by late 1923. Hoover's efforts reached West Hartford, ........
+
+In March 1923, during the height of the Goldberg controversy, Josiah Woods asked West Hartford Town Council members to support a proposed zoning bill in the Connecticut legislature, modeled on this text from the US Commerce Department.^[@DemandEconomyWest1923; @usdepartmentofcommerceStandardStateZoning1924; @knackRealStoryStandard1996]
+
+
+
+Woods and his West Hartford colleagues turned to.....Hoover document.....Zoning was redefined and promoted in early 1920s by US Secretary of Commerce Herbert Hoover, who led the most activist federal government agency at this time...US Commerce Dept under Hoover was first activist federal agency; appointed Advisory Committee on City Planning and Zoning around 1921; included lawyer Edward M. Bassett of NY "known as Mr. Zoning"
+Bassett drafted "standard zoning enabling act" in Dec 1921
 preface: first distributed in mimeograph in Aug 1922; revised ed made public in same form in Jan 1923; now printed to distribute more widely
-Foreward by Herbert Hoover, US Commerce Secy: zoning grew from only 48 cities and tows when Adv Cmte created in Sept 1921 to 218 municipalities by end of 1923 @usdepartmentofcommerceStandardStateZoning1924
 
 
-At one level, zoning could be interpreted as a well-intentioned tool of Progressive-era government to exert greater control over the free market to protect the health and safety of residents. Zoning gave local municipalities the power to draw lines that separated land for different uses, such as keeping toxic factories away from residential homes and schools. [TODO: review to decide whether to cite here: @wolfZoningAmericaEuclid2008] Hoover's suggested text for states began by defining zoning "for the purpose of promoting health, safety, morals, or the general welfare of the community..." (p.4). Giving local governments the power to decide what types of buildings could be constructed would promote the public good by reducing street congestion, ensuring fire safety, prevent overcrowding, and so forth.... p6 @usdepartmentofcommerceStandardStateZoning1924 TODO: check and use???: In fact, Bassett helped make zoning law in NYC in 1916(?) as the solution to the problem of rising skyscrapers that blocked sunlight from smaller homes around them....
+THREAD THE NEEDLE.....
+Hoover's suggested text for states began by defining zoning "for the purpose of promoting health, safety, morals, or the general welfare of the community..." (p.4). Giving local governments the power to decide what types of buildings could be constructed would promote the public good by reducing street congestion, ensuring fire safety, prevent overcrowding, and so forth.... p6 @usdepartmentofcommerceStandardStateZoning1924 TODO: check and use???:
 
 But at a deeper level, Hoover's definition of zoning redefined how local governments could legally exclude certain types of residents by limiting what types of housing could be constructed on the land. Inside Hoover's suggested text for zoning laws, immediately after the section on how zoning would promote the health and general welfare of a community, it also stated that zoning would maintain "the character of the district" and "conserving the value of buildings." p6 @usdepartmentofcommerceStandardStateZoning1924   How exactly would zoning preserve a neighborhood's character and property values?
 
-Back in West Hartford, Josiah Woods translated these concepts to his Town Council colleagues....
+Bassett testified at CT legislature April 1923 @ExpertFavorsGeneral1923
+zoning hearings at CT leg May 1923 @ActFavorablyZoning1923
+voted in cmte? May 1923 @PlansApportionPopulation1923
+
+
+ Woods lobbied his West Hartford colleagues---and also legislators at the Capitol---to act on this issue. ... Woods lobbied CT legislature to pass a zoning enabling act... that allowed West Hartford and X other municipalities to pass local zoning ordinances.... In June 1923 [CHECK], just as the Goldberg controversy was dying down, Connecticut passed a law that allowed X municipalities to enact local zoning ordinances, and West Hartford became the first in the state to take advantage of this opportunity by enacting its local zoning policy in 1924.
+
+
+
+Back in West Hartford, Josiah Woods translated these concepts to his colleagues on the Town Council, during the height of the Goldberg zoning controversy in March 1923.
+
 But Josiah Woods explain the power of zoning differently to his West Hartford colleagues.
 At that same meeting, councilman Josiah B. Woods asked colleagues to support his efforts to persuade the Connecticut state legislature to approve a "zoning act" that would allow municipalities such as West Hartford to draw up local ordinances "to protect the residential character" of specific areas. Although zoning was a relatively new concept for most Council members, the Town attorney sided with Woods and also recommended this strategy, noting that Connecticut's draft legislation was adopted from text proposed by the US Chamber of Commerce.^[Indirect quote on "protect the residential character" attributed to Woods in @DemandEconomyWest1923; @WestHartfordHopes1923. TODO: check WH Town Council minutes from 6 March 1923 meeting for relevant details or quotes.]
 
-MERGE ABOVE: Looking back from 1940s: Zoning for preserving property values -- Zoning should be thought of in the light of protecting existing property values, Josiah B. Woods, veteran chairman of the Town Plan and Zoning Commission declared in a statement Sunday in which he said that personal antagonism to regulation hits been aroused in many cases and gives reasons why there should be no resentment in the future. WH zoing comm underlying policy is "to make West Hartford a suburban town 'for real homes'."
-Direct quote of Woods on 20th anniversary of WH regarding "personal antagonism to regulations": "It is wise to go back to the fundamentals of zoning. The town is given the authority to make zones for the preservation of existing values... Zoning exists to protect those values...If this is fully understood, there should be no antagonism of any kind."
-Recent amendment to zoning regs would give Zoning Board complete authority over all uses of buildings in residential zones except those exclusively used as dwellings, and Town Council turned it back to Comm one week ago. @ProtectionPropertyValues1944
+
 
 
 Woods and others persuaded the CT legislature to approve the state's first zoning enabling law in 1923, which covered West Hartford and X other cities and towns....
@@ -151,10 +169,10 @@ After passage of the first CT zoning act in 1923, Josiah Woods led West Hartford
 
 
 West Hartford leaders hired Robert Harvey Whitten, an urban planning consultant from Cleveland, Ohio, to guide
+...an urban planning expert, served as secretary of New York City's Planning and Zoning Commission, where he helped to create the nation's first citywide zoning code in 1916. Whitten moved on to serve as a zoning consultant for Cleveland, Ohio; Atlanta, Georgia, and several local governments in New England states. @RobertWhittenCity1936
 
 Town appointed Woods to be zoning commissioner....
-Woods hired Robert Whitten, a consultant from Cleveland, Ohio, to guide West Hartford through the process.
-Whitten was an urban planner who had written similar zoning plans for cities like Cleveland, Ohio; Atlanta, Georgia, and other local governments in New York, Massachusetts, and Rhode Island
+
 
 Whitten's definition of zoning emphasized *exclusion* more than health and general welfare of the community.
 ADD: Whitten was a member of Hoover's conference on planning new subdivisions and he also "designed Atlanta's racial zoning scheme in 1922 that flouted the Supreme Court's *Buchanan* decision" [Rothstein p62; see details p46]
@@ -235,3 +253,23 @@ Drafting local ordinances this way made zoning an exclusionary tool to restrict 
 ..... they sought expert advice from outside consultants on the relatively new field of zoning.
 
 Later, West Hartford leaders expanded their exclusionary zoning policies by passing an outright ban against constructing apartment buildings.... [Add paragraph and evidence here, or insert as a parenthetical in the Whitten E zone section above?]
+
+SECTION CONCLUSION
+Josiah B. Woods served on West Hartford's zoning policy boards, in one capacity or another, from its origins in the early 1920s to its maturity in the early 1940s..... --- zoning defined in suburbia as a system to protect property values by defending single-family homes from urban intrusions.... The soft rhetoric of general health and welfare had dropped away...   WOODS........ Looking back from 1940s: Zoning for preserving property values -- Zoning should be thought of in the light of protecting existing property values, Josiah B. Woods, veteran chairman of the Town Plan and Zoning Commission declared in a statement Sunday in which he said that personal antagonism to regulation hits been aroused in many cases and gives reasons why there should be no resentment in the future. WH zoing comm underlying policy is "to make West Hartford a suburban town 'for real homes'."
+Direct quote of Woods on 20th anniversary of WH regarding "personal antagonism to regulations": "It is wise to go back to the fundamentals of zoning. The town is given the authority to make zones for the preservation of existing values... Zoning exists to protect those values...If this is fully understood, there should be no antagonism of any kind."
+Recent amendment to zoning regs would give Zoning Board complete authority over all uses of buildings in residential zones except those exclusively used as dwellings, and Town Council turned it back to Comm one week ago. @ProtectionPropertyValues1944
+
+### Zoning Hartford's Suburbs {-}
+growth of zoning in other municipalities....
+- Avon “General Plan of Development” 1954; etc.)
+- town council meeting minutes/notes/news accounts that created zoning boards above
+- town zoning board minutes/notes/news accounts during their early years of hearing cases
+- public hearings on zoning bills at the CT Gen Assembly
+
+Why did zoning not happen earlier in these towns?
+- zoning infringed on individual rights of residents to use property as they wish, a core principle in rural comm.
+- but as rural towns experienced rapid real estate development, they adopted suburban governments that traded individual rights for group protection against threats of urban life, such as apartment buildings with lower-income outsiders to their community
+
+Why did zoning matter?
+- zoning is built into the environment; once zoned for single-family homes, and those are built out, hard to make change
+- zoning by local government inherently protects the interests of current residents, not interests of the metro region or the state in providing affordable housing opportunities for all residents...
