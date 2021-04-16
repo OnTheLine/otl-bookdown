@@ -28,9 +28,14 @@ fig:1928-2004-kingswood-hc-whhs
 fig:1918-roosevelt-luther-2018-walk
 fig:1915-1922-trinity-excerpts
 fig:1919-trinity-supplement
-fig:1923-02-07-goldberg-courant
+fig:1923-02-07-goldberg-hc
 tab:1922-26-ardmore-road
+fig:1923-03-19-wh-woods-hc
+fig:1921-whitten-cleveland
 tab:1924-zone
+fig:1924-whitten-highlight-10
+fig:1924-whitten-apartments-p17-16
+fig:1924-otl-zoning-west-hartford
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts
