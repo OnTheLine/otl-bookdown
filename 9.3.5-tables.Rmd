@@ -1,5 +1,5 @@
 ## Tables in Markdown Format {- #tables}
-View the underlying source code to understand how this page was composed at: https://github.com/ontheline/otl-bookdown/blob/main/8.3.5-tables.Rmd
+View the underlying source code to understand how this page was composed at: https://github.com/ontheline/otl-bookdown/blob/main/9.3.5-tables.Rmd
 
 Create tables in Markdown format, since it produces good output for HTML, PDF, Word, and Markdown. Use a tool such as [Tables Generator](https://www.tablesgenerator.com/markdown_tables) to import significant table data in CSV format, format the column alignment as desired, and press Generate button to create table in Markdown format. For significant table data, save the CSV version in a GitHub repo for potential later use.
 

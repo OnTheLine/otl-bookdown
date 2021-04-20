@@ -78,11 +78,12 @@ fig:sample-video2
 tab:left-table
 tab:right-table
 defining
-separating
+bibliography
+segregating
+excluding
 selling
 challenging
 choosing
 conclusions
 teaching-researching
 mapping-publishing
-bibliography
