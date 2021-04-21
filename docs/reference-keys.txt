@@ -78,7 +78,6 @@ fig:sample-video2
 tab:left-table
 tab:right-table
 defining
-bibliography
 segregating
 excluding
 selling
@@ -87,3 +86,4 @@ choosing
 conclusions
 teaching-researching
 mapping-publishing
+bibliography
