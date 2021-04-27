@@ -1,4 +1,10 @@
-## NOTES on Origins of Zoning
+## NOTES on Excluding Through Zoning Lines
+
+TODO -- rewrite first paragraph to define *zoning* of residential versus industrial property separately from *exclusionary zoning*
+
+TODO: Insert how lower-court ruling acknowledged (and approved of?) racial & anti-immigrant motivations behind zoning, and rules against city of Euclid. On appeal....
+
+
 TODO -- Check CS Lib, Gen Assemb Committee on Cities and Boroughs, minutes about zoning hearing or votes around Apr 14 1923 HC; May 16, 1923 HC; May 29, 1923 HC.  Did Josiah Woods or West Hartford Zoning Commission initially propose the bill?
 
 TODO -- when zoning chapter is online, ask Fairfield author if his scholarship is public, as I would like to cite it
