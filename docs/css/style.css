@@ -1,7 +1,13 @@
+/* improved image captions */
 p.caption {
   margin-top: 10px;
   margin-left: 10px;
   font-style: italic;
+}
+
+/* added spacing between References */
+div.csl-entry {
+  margin-bottom: 15px
 }
 
 /* added to improve contrast based on WAVE accessibility test */
