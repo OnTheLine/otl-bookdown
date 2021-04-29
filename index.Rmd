@@ -23,7 +23,7 @@ output:
     toc_depth: 2
     split_by: section
     number_sections: true
-    split_bib: true
+    split_bib: false
     anchor_sections: true
     includes:
       in_header: google-analytics-otl.html

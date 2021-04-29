@@ -4,6 +4,8 @@ TODO -- rewrite first paragraph to define *zoning* of residential versus industr
 
 TODO: Insert how lower-court ruling acknowledged (and approved of?) racial & anti-immigrant motivations behind zoning, and rules against city of Euclid. On appeal....
 
+TODO: CREATE zones on top of aerial image to show how relatively small areas allocated for duplexes in C zone (Ardmore Road) versus single-family homes in A-B zones nearby...   
+
 
 TODO -- Check CS Lib, Gen Assemb Committee on Cities and Boroughs, minutes about zoning hearing or votes around Apr 14 1923 HC; May 16, 1923 HC; May 29, 1923 HC.  Did Josiah Woods or West Hartford Zoning Commission initially propose the bill?
 
