@@ -13,16 +13,105 @@ TODO insert map at the top of this page to orient readers to towns mentioned in 
 ... map of TOWNS around Hartford, YEAR when they implemented zoning, and COLORED POLYGONS for minimum-land requirement;
 
 
+## Bloomfield
+trolley line to Center built by Italian laborers and finally opened 1909, with major celebration p90 opening of original 13-stanza poem by Chandler Miller, titled: ON to bloomfield, the Suburbs in the Hills On to bloomfield has, for many a year, Been the cry, till now the trolley is here On to Bloomfield, with its vales and its rills On to Bloomfield, the suburb in the hills "The banquet in the town hall was followed by speeches which revealed some ambivalence, looking at both good and bad features of the 'invasion of the first electric car.' Optimists believed thet people would leave the 'unhealthful tenements' for the good air of the country, only a ten cent fare away from the city. Real estate would boom and there would be a growth in population as new one-family hosues were built. Fear was also expressed, that local businesses would lose out as residents used the trolley to go to Hartford to shop." p92 Trolley line increased Italian immigration into Bloomfield's East Side in 1920
+dedication of new state highway, Rt 189, through center after WWI, with quickened pace of life from auto (development spurred by war) "Increasingly, Bloomfield became a commuter town, as larger numbers of people looked to Hartford for employment, many of them in the insurance companies." p103
+"In the late 1920s, efforts wer made to entice urban residents to Bloomfield. The town was given wide publicity as an attractive suburb of Hartford. In 1928..the town boasted of its residential character - no manufacturing. Emphasis was on fine estates and homes, 'plush' growth, and belief that 'land values will rise by leaps and bounds'.... The Blue Hills area, adjacent to Hartford, was described as 'removed from the center' a section of houses of the 'bungalow' type. Water lines were being laid, a high school site had been purchased, and the town had hired a professional to draw up a zoning plan. The zoning regulations, adopted in 1929, are an example of far-sighted vision and planning. Crucial to its plans was the location of the proposed state highway through town [Rt 189 dedicated in 1935] Its continuation from West Hartford thorugh the center of Bloomfield was vital in bringing to Bloomfield the kind of growth that had been sought." p107 [**by whom?**] "Despite the Depression, the 1937 Town Report noted that more new residences were under construction than at any previous time in the town's history." p107 the post-WWII pop boom "might have left Bloomfield only a 'bedroom' town. Visionary thinking and intense efforts to locate industry here overcame that eventuality. Growth in numbers of schoolage children by 1944 required a new school, a story repeated several times over the next decades." 1947 disc of housing developments; industrial zone set aside 1948 demand for recreational services since "Suburbia suffered from a lack of cultural and recreational opportunities readily available in cities." p110
+
+Bloomfield became one of Connecticut's first towns to create a Planning Commission in 1917, which supervised the layout or new roads and housing subdivisions p193
+Bloomfield created a Zoning Commission in 1926 WHS p193
+
+Bloomfield votes to form Zoning Commission in Aug 1926
+Zoning has been topic for past two years; several years ago Blue Hills land developed by real estate promoters "As a consequence, all kinds and classes of houses were built"
+@WillVoteZoning1926; @ZoneCommissionFive1926
+April 1927 The town of Bloomfield has created a zoning commission in order to get a comprehensive town plan and zoning ordinance. In accordance with a vote of the town, it has engaged Herbert S. Swan of New York as expert.
+@ZoningProblemsBe1927
 
 
+June 1928 Bloomfield's Popularity As City's New Suburb Gains Hold in Hartford
+TODO READ and note
+@BloomfieldPopularityCity1928
+"The eyes of real estate men and those seeking homes in a suburb near a large city are turning to Bloomfield, which holds a unique position in Connecticut in that it is a strictly residential town and has no manufacturing whatever."
+$2M in building permits (but mostly St Thomas Seminary)
+about 900 enrolled in school; 5 percent gain per year
+Blue Hills section expanded and six-room addition added to school, to make 14 rooms; also purchased 7 acres for high school site
+recent creation of zoning commission with NYC expert Herbert Swan
+@BloomfieldBuildingProgram1928
+
+Zoning enforced 1929 - Bloomfield's new zoning laws, which became operative on April 12, 1929, are receiving their first court test by virtue of an action brought by the town against Josephine De Costin of Bloomfield, who is seeking to erect a gasoline station on West Street, a state highway, which runs through a residential area
+Judge granted injunction to stop gas station @BloomfieldActionDecide1929
+
+Bloomfield did not shy away from affordable multi-family housing in 1942
+Within the next week the Bloomfield Town Plan and Zoning Commission will hold a public hearing on the application of the Harry L. Osias Realty Company of Brooklyn, N. Y., to develop a tract of land off Blue Hills Avenue and construct about 120 duplex-type houses... each unit would house two families, each of whom would hold title to the side in which it lived"
+each duplex lot would be about 11k sq ft, meaning 5.5k per family; if granted, will become "D" residential zone; already has city sewers and water
+@HearingPlannedProposal1942
+
+Described 1955 zoning plan update
+TODO read and note -- see also part of a series called The 10-Year Challenge for each town
+@jensonBloomfield10YearChallenge1956
+
+## East Hartford
+In other suburban towns, residents strongly opposed zoning laws. At an East Hartford public meeting in 1927, all but two of the 75 present spoke against town zoning ordinance, seeking to repeal it.  Goerge Goodwin, a member of the EH zoning commission, acknowedged that zoning laws “were enacted whiel some misunderstood them. Many have told me that the zoning code was adopted here 10 or 15 years too late; that the laws are being enforced too late and after the damage has been done.”  A resident of West Hartford, who attended on behalf of a local resident, explained that zoning in his town had [indirect quote] “been the cause of an inordinate assessment and lax levy on certain land here” which caused some property owners to sell at a loss and leave town due to what they viewed as unreasonable property taxes.  -- 19270901HC EH opposition to zoning
+
+## Hartford
+By contrast, in the City of Hartford, retroactively zoning residential, commercial, and industrial development  would be extremely difficult and unwise, says expert; 19251213HC
 
 
-Further outward, the farming community of Avon named its first committee (?) to study zoning plan in 1934 (19341022HC)
-Avon started its zoning board in 1939, but did not implement a major zoning plan until 1954, to maintain low-density (ie. higher-income) single-family housing during the postwar baby boom.
+## Avon
+Further outward, the farming community of Avon named its first committee to study zoning in 1934; selectmen appoint cmte "to make a study of zoning systems in other towns with a view to institutiong a zoning system in the Town of Avon"
+@AvonNamesCommittee1934
+
+town meeting votes 150-59 to repeal zoning commission (established 28 Aug 1935) and zoning ordinances (created 2 Oct 1936); commisioner says due to "misundertanding on the part of some persons in the town who thought they were being deprived of their rights"
+@ZoningOrdinancesAre1936
+
+Avon town leaders tried a second time by appointing a zoning board in March 31, 1939 @mackieAvonConnecticutHistorical1988, p. 246
+
+celebrates two years of zoning in Avon (since 1939); $300k increase in home building; 75 homes built in two years; Zoning Comission chief objective: "making sure that no 'gypsy camps' get started in the town, that no careless, hurried, shack-like building goes on to pull down the value of surrounding property"
+thoughts about improving school facilities
+Zoning Comm "set lot minimums at 100 x 150 feet" = 15,000 sq feet (1/3 acre)
+@AvonReapsBenefits1941
+
+With the encouragement of wealthy property owners, Avon town leaders enforced their zoning laws.
+Photo with subtitle "Cabin among Mansions of Avon Doomed"
+three-room cabin ordered demolished because not up to the standards of nearby estates; "not in character with the other residence in the neighborhood" that cost $25-50k
+owner Lester Scheide is architect in Hartford
+@ScheideBowAvon1940
+
 
 Avon 1951 zoning map and others  [https://archives.library.wcsu.edu/cao/ctavfpl/mapcollection.xml](https://archives.library.wcsu.edu/cao/ctavfpl/mapcollection.xml)
 
+October 1953
+Court of Common Pleas ruled that Zoning Board made "illegal, artibrary" decision to set min lot sizes at 30k sq ft more than a year ago, so zoning reg will revert to original 15k sq ft
+@CourtDecidesPlaintiffs1953
 
+Nov 1953
+Legal voters of the town of Avon at a special town meeting in Towed unanimously in favor of amendments to the zoning regulations adopted by the Zoning Commission.
+East side of town - min lot of 2 acres and 200 ft frontage (in most cases)
+West side of town = min lot of 30,000 sq ft (2/3 acre) and 150 ft frontage (in most cases)
+@VotersApproveAmendments1953
+
+Avon "General Plan of Development" adopted in 18 Dec 1954, based on work started in Dec 1952 guide to Zoning Commission, and consultant Joseph Moschner named in Dec 1953
+@mackieAvonConnecticutHistorical1988, pp. 253-256
+
+Avon was previously agricultural, but now residents are "lawyers, teachers, and insurance workers of Hartford; the skilled shop workers, electricians and engineers of East Hartford, New Britain and West Hartford"; 75% of Avon's workforce employed outside of town; Town planning consultant Dr Joseph Moschner says Avon area "generally attracts people in the higher income brackets people building expensive homes with large, well-landscaped lots"; Movement from Hartford, to West Hartford, to Avon. Moschner says "Avon may very well become the West Hartford of West Hartford"
+@mackieAvonGrowsLiving1956
+
+Conflicts between long-term residents and newcomers from the city were common. During a meeting of the Avon Zoning Commission in the mid-1940s, the presiding commissioner was repeatedly interrupted by a new resident. "Where in hell did you come from anyway?" asked the exasperated zoning commissioner. "West Hartford," replied the new resident. "Then why don't you do us a favor and go back there?" the zoning commissioner suggested.^[Oliver M. Thompson interview, Avon Historical Society, cited in @mackieAvonConnecticutHistorical1988, p. 254]
+
+
+TODO -- reconstruct sources for Case Study: Avon (analysis of Professor Anika Singh Lemar, Yale Law School) in @boggsYourFairShare2020
+
+1948  15,000 sq ft minimum parcel
+
+1951 rezoned area west of Farmington River to min 2 acre parcels
+
+1953 rezoned area east of Farmington River to min 30,000 sq ft
+
+1957 rezoned portions of eastern area to min 40,000 sq ft; anticipates possibility of apartments by conditional permit
+
+by 1967 vast majority of Avon is zoned for 1 acre and 2 acre lots; discrete areas zoned for commercial and industrial
+
+## Comparative table/map
 Avon and adjacent town zoning comparison 1954 @avonPresentZoningFact1954
 
 dominant size of min plot/family
@@ -54,20 +143,22 @@ West Hartford, amended to Dec 3, 1951
 Farmington, adopted April 27, 1950
 
 
-TODO -- reconstruct sources for Case Study: Avon (analysis of Professor Anika Singh Lemar, Yale Law School) in @boggsYourFairShare2020
 
-1948  15,000 sq ft minimum parcel
 
-1951 rezoned area west of Farmington River to min 2 acre parcels
-
-1953 rezoned area east of Farmington River to min 30,000 sq ft
-
-1957 rezoned portions of eastern area to min 40,000 sq ft; anticipates possibility of apartments by conditional permit
-
-by 1967 vast majority of Avon is zoned for 1 acre and 2 acre lots; discrete areas zoned for commercial and industrial
-
+## Wethersfield and Custis NAACP case
 
 see NAACP Wethersfield Custis zoning dispute 1953 @HSP.pdf -- Hartford Studies collection notes about NAACP objection to Wethersfield zoning process with 1950s test case, which challenges racism, but accepts principle of zoning by property size and wealth exclusion --
+
+## West Hartford expansion
+WH town council adopts new zoning May 6, 1946, expanding A-E range to AAA, AA, A, B, C, D, G residence district; revisions on map up to 1951 shows changes from 1930 such as:
+much of the B-grade land in southwest area (Wood Pond) has been shifted to A-grade
+most of north and northwest section has shifted from A to AA grade
+most of area west of Bishop’s Corners shifted from B grade to AA grade
+area around Hartford golf club shifted from B grade to AA grade
+see decreasing or degrading residential area on southeast side, bordering Hartford
+TO DO: look for HC or WHN articles around May 6 1946
+
+## West Hartford 1970s
 find quote: West Hartford 1970s mayor says no racial discrimination; blacks and puerto ricans simply can't afford to live here
 
 
