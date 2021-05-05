@@ -78,7 +78,10 @@ owner Lester Scheide is architect in Hartford
 @ScheideBowAvon1940
 
 
-Avon 1951 zoning map and others  [https://archives.library.wcsu.edu/cao/ctavfpl/mapcollection.xml](https://archives.library.wcsu.edu/cao/ctavfpl/mapcollection.xml)
+Avon 1951 zoning map
+West side = Residence & Ag Zone, min lot area 15k sq ft, min frontage 100 ft
+East side = Residence Zone "A", min lot area 2 acres, min lot frontage 200 ft
+@hodgeTownAvonZoning1951
 
 October 1953
 Court of Common Pleas ruled that Zoning Board made "illegal, artibrary" decision to set min lot sizes at 30k sq ft more than a year ago, so zoning reg will revert to original 15k sq ft
@@ -98,6 +101,11 @@ Avon was previously agricultural, but now residents are "lawyers, teachers, and 
 
 Conflicts between long-term residents and newcomers from the city were common. During a meeting of the Avon Zoning Commission in the mid-1940s, the presiding commissioner was repeatedly interrupted by a new resident. "Where in hell did you come from anyway?" asked the exasperated zoning commissioner. "West Hartford," replied the new resident. "Then why don't you do us a favor and go back there?" the zoning commissioner suggested.^[Oliver M. Thompson interview, Avon Historical Society, cited in @mackieAvonConnecticutHistorical1988, p. 254]
 
+1964 Revised Zoning Map
+originally Sept 1958, with multiple revisions
+East side = mostly RU-2A rural zones (undefined on map)
+West side = mixture of R-40, R-30, R-15, Business, Industrial, etc.
+@technicalplanningassociatesAvonRevisedZoning1964
 
 TODO -- reconstruct sources for Case Study: Avon (analysis of Professor Anika Singh Lemar, Yale Law School) in @boggsYourFairShare2020
 
@@ -111,36 +119,23 @@ TODO -- reconstruct sources for Case Study: Avon (analysis of Professor Anika Si
 
 by 1967 vast majority of Avon is zoned for 1 acre and 2 acre lots; discrete areas zoned for commercial and industrial
 
-## Comparative table/map
-Avon and adjacent town zoning comparison 1954 @avonPresentZoningFact1954
 
-dominant size of min plot/family
+## Minimum Land Required Per Family by Town Zoning in early 1950s
 
-Avon (East) = 87000 (2 acre)
+| Town (section)         | Square Ft | Acres |
+|:-----------------------|----------:|------:|
+| Avon (east)            | 87,000    | 2.0   |
+| Avon (west)            | 30,000    | 0.7   |
+| Farmington (northeast) | 40,000    | 0.9   |
+| Farmington (west)      | 20,000    | 0.5   |
+| Bloomfield (west)      | 30,000    | 0.7   |
+| Simsbury               | 25,000    | 0.6   |
+| West Hartford (west)   | 10,000    | 0.2   |
+| Burlington             | not zoned | n/a   |
+| Canton                 | not zoned | n/a   |
 
-Avon (West) = 30000
-
-Farmington (West) = 20000
-
-Farmington (Northeast) = 40000
-
-West Hartford (east of Mt Road = 10,000 (AA)
-
-Bloomfield (west) = 30000 (R30)
-
-Simsbury = 25000
-
-Canton = no zoning regs
-
- shows present zoning for Avon (amended Oct 19, 1951, and Fall 1953) and comparisons for adjacent towns:
-
-Bloomfield, adopted March 15, 1950
-
-Simsbury, adopted Nov 21, 1952
-
-West Hartford, amended to Dec 3, 1951
-
-Farmington, adopted April 27, 1950
+Sources: Zoning Regulations for Avon (amended Oct 19, 1951, and Fall 1953); Bloomfield (adopted March 15, 1950); Simsbury (adopted Nov 21, 1952); West Hartford (amended to Dec 3, 1951); Farmington (adopted April 27, 1950), adapted from Avon and Joseph Moschner, “Present Zoning Fact Sheet [Map]” (Avon Town Planning Committee, Connecticut, January 1954), https://www.avonct.gov/planning-community-development/files/1956-pocd-maps-908.
+@avonPresentZoningFact1954
 
 
 
@@ -150,6 +145,15 @@ Farmington, adopted April 27, 1950
 see NAACP Wethersfield Custis zoning dispute 1953 @HSP.pdf -- Hartford Studies collection notes about NAACP objection to Wethersfield zoning process with 1950s test case, which challenges racism, but accepts principle of zoning by property size and wealth exclusion --
 
 ## West Hartford expansion
+
+1933 WH added new classifications "for the protection of large homes requiring more area"
+AAA single houses, min land 18000 sq ft, lot width 100 ft
+AA single houses, min land 12000 sq ft, lot width 80 ft
+@westhartfordReportZoningCommission1934, p. 119
+
+town approved new zoning regs Aug 6th 1945 as the "first revision of the regulations since the inception of zoning in 1924"; new map shown publicly and approval expected in spring 1946; all E changed to D; creation of Business 1 zones
+@westhartfordReportZoningCommission1946, pp. 48-49
+
 WH town council adopts new zoning May 6, 1946, expanding A-E range to AAA, AA, A, B, C, D, G residence district; revisions on map up to 1951 shows changes from 1930 such as:
 much of the B-grade land in southwest area (Wood Pond) has been shifted to A-grade
 most of north and northwest section has shifted from A to AA grade
@@ -157,6 +161,14 @@ most of area west of Bishop’s Corners shifted from B grade to AA grade
 area around Hartford golf club shifted from B grade to AA grade
 see decreasing or degrading residential area on southeast side, bordering Hartford
 TO DO: look for HC or WHN articles around May 6 1946
+
+1968
+"Better Neighborhoods Through...
+Enforcement of Housing Codes and Zoning Regulations"
+"Good neighborhoods in the Town will remain through the continued upgrading by your Town goverment of the residential zoning of some 22,121 residential units and the enforcement of housing codes, which protect the appearance and value of residential property"
+@westhartfordAnnualReportTown1968, no page numbers
+
+
 
 ## West Hartford 1970s
 find quote: West Hartford 1970s mayor says no racial discrimination; blacks and puerto ricans simply can't afford to live here

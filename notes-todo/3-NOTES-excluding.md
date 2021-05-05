@@ -1,5 +1,28 @@
 ## NOTES on Excluding Through Zoning Lines
 
+
+
+TODO: add that Woods/WH were motivated primarily by maintaining/raising property values, since attracting higher-wealth residents to their town would raise the value of taxable property (grand list), and keep tax rate lower for everyone. While they did not define their zoning policies as "exclusionary" that was the foreseeable outcome....
+
+TODO: compare Whitten/West Hartford exclusionary strategy with less-divisive plan from Wethersfield 1928 by Swan, which had less restrictive zoning
+Also note how anti-tenement view is expresed as public health benefit
+schools section refers to Wethersfield zoning areas already adopted:
+A at 9 families per acre
+B at 18 families per acre
+for calculating projected school enrollment, it uses A and shows lack of space in future
+Zoning section describes how zoning cannot do everything (prevent shacks; aesthetic issues), so will need to rely on restrictive covenants (referring to aesthetics, not race)
+@swanPlanResidenceSuburb1928
+
+TODO: context of governmental power over private property in 1920 CT Supreme Court ruling Windsor v Whitney:
+Eminent domain takes private property because it is useful to the public.
+Legislature gave town of Windsor ability to plan layout of streets and eminent domain.
+"Streets of reasonable width add to the value of the land along the street, enhance the general value of land and buildings in the neighborhood and greatly in- crease the beauty of the neighborhood. These are all facts of universal knowledge....Public Acts of 1917, Chap. 349 (General Statutes, §§ 391-396). These statutes indicate the legislative conviction that acts such as these are within the legitimate exercise of the police power. Narrow streets in congested industrial centers breed disease. Too many houses crowded upon a lot without sufficient space for light and air menace health. Such a neighborhood affects the morals of its people." p365
+"The State is vitally interested in the health of its citizens, for upon their strength rests its own well-being. It or its agent, the town, must provide fire and police protection to all settled parts. The State and its agent, the town, can- not preserve and protect the rights committed to it if private owners may lay out streets at will and build at will. Uniformity in plan or relation of one street to others will be absent. The practical loss to the community will be large and the loss in neighborhood appearance will be immeasurable." p366
+@windsorv.whitneyDecision1920
+
+TODO West Hartord pop growth in comparison to other towns/region/ct -- see chart from 1950 TPA Wethersfield
+
+
 TODO: Insert how lower-court ruling acknowledged (and approved of?) racial & anti-immigrant motivations behind zoning, and rules against city of Euclid. On appeal....
 
 TODO: Imagine how zoning policies reshaped economic incentives using 1920s prices.....
