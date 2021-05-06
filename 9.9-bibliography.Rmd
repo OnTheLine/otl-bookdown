@@ -2,11 +2,19 @@
 
 The text and images for the _On The Line_ book, including data files and source code for interactive charts and maps, is located in our open-source GitHub repository at <https://github.com/ontheline>. The text is copyrighted and shared under a Creative Commons BY-NC-SA license, and source code for interactive charts and maps is shared under an [MIT license](https://choosealicense.com/licenses/mit/). See individual images and captions for information about copyrights held by others.
 
+<!-- TODO: list GitHub repos by individual name, and emphasize that they also contain historical sources (scanned documents, maps, spreadsheets, geodata, etc.) -->
+
 See also digitized documents, oral history interviews, and videos related to this book, stored in the On The Line Digital Archives, Connecticut Digital Archives, <https://collections.ctdigitalarchive.org/islandora/object/120002:otl>.
 
 Since 2002, over 30 Trinity College student researchers have co-authored publications and/or research presentations with faculty, staff, and community partners through the Cities Suburbs and Schools Project <http://commons.trincoll.edu/cssp>. CSSP is both an undergraduate seminar and a research team for independent studies. Their works listed below include articles, book chapters, papers, and presentations, and many of these have been stored in the Papers and Publications section, Cities Suburbs and Schools Project, Trinity College Digital Repository, <http://digitalrepository.trincoll.edu/cssp_papers>. Note that several items currently in the Trinity Digital Repository <https://digitalrepository.trincoll.edu/cssp/> will be migrated into the CTDA.
 
 ### Archival and Digital Collections {-}
+
+<!-- TODO: split into archival collections and newspaper collections; for the latter, add introduction to explain that this research project improved dramatically with the advent of digitized newspapers with full-text search. However, researchers need to be aware of limitations on what is and *is not* included. 
+
+First, only some newspapers have been digitized at this point, such as the Hartford Courant, which appears in different databases... explain... Prior to this, our research team received special permission to access the Hartford Courant newspaper clippings collection. By contrast, the Hartford Times daily newspaper is not yet digitized... we relied primarily on a partial index of news stories compiled by Hartford Public Library staff, currently in a card catalog cabinet at the Hartford History Center. Best years? See also digitized newspapers in LOC Chronicling Newspapers project and individual public libraries listed below.
+
+Second, even when a newspaper has been digitized, it does not necessarily include all of its content. We first had access to the Hartford Courant Historical newspaper digitized by ProQuest. Years later, we discovered that the version of the Hartford Courant digitized by Newspapers.com included more content that does not appear in the ProQuest version, such as local news stories for suburban towns (printed only in later editions for distribution to outlying areas) and features in the *Northeast* magazine. We also relied on microfilm editions of the Hartford Courant for more extensive coverage. -->
 
 <!-- REMINDER - save all archival+digital collections in Zotero as web pages. Create main entries with author (institution), and when necessary add titles (collection names), and add URLs, with no accessed dates. Insert asterisk for title to force main entry above sub entries. Select all and copy as biblio with Chicago style. Paste below and find/replace in buffer to remove curly quotation marks, remove asterisk, and replace comma-no-date with period, and replace period-space-period with single-period. Manually add line breaks -->
 
