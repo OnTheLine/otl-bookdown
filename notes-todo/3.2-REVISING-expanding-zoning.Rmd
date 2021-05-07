@@ -45,7 +45,15 @@ Blue Hills section expanded and six-room addition added to school, to make 14 ro
 recent creation of zoning commission with NYC expert Herbert Swan
 @BloomfieldBuildingProgram1928
 
-1928 Bloomfield Town Plan by Herbert Swan -- ??
+1928 Bloomfield Town Plan by Herbert Swan
+Bloomfield will always be "a residence suburb" because "people who come to live in town must find their livelihood in Hartford" and the town must accept this fact, p.1
+Hartford residential areas are almost completely built up, wth few vacant lots, so needs to capitalize on its location to widening urban community; with intellgient growth "its character will become progressively more distinctive and distinguishable from neighboring suburbs" p2
+"The growth of Bloomfield will always depend to an exceptional degree upon its relationship to Hartford. The more intimately it can develop its plan with that of Hartford, the more growth Bloomfield will enjoy, as the growing suburan population of Hartford will undoubtedly seek out residence localities which, other things being equal, will be as near in the matter of time distance as possible to the business district of Hartford" p5
+prepare major thoroughfare from Hartford to Bloomfield: lists 13 connector streets, some to be widened, p6
+Land subdivisions: so far, very small proportion of land has been subdivided, but "very little good" can be said of current subdivisions, with max lots for developers but no major/minor streets and connecting roads, p. 18
+"The zoning regulations in Bloomfield demand...." [unclear if they already exist, or should exist; probably the latter]
+A zone = min land 5000 sq ft per family, 50 foot width (but town should demand 6250 sq ft), p19-20
+(later B zone is mentioned, but no min land req given here)
 
 Zoning proposed April 1929
 Bloomfield Zoning Commission will hold public hearing April 8th on proposed zoning ordinance; "The proposed ordinance and maps defining the zoning districts will be on file for inspection... at the Town Building"
@@ -59,8 +67,9 @@ Within the next week the Bloomfield Town Plan and Zoning Commission will hold a 
 each duplex lot would be about 11k sq ft, meaning 5.5k per family; if granted, will become "D" residential zone; already has city sewers and water
 @HearingPlannedProposal1942
 
-Describe 1955 zoning plan update
-TODO read and note -- see also part of a series called The 10-Year Challenge for each town
+1955 zoning plan revised
+MDC is just beginning to install new sanitary sewers and water mains in heavily populated Bloomfield Center; "no large subdivisions will be encouraged in areas not served by MDC sewer and water systems" so western town dev will wait
+about 90% of Bloomfield is zoned for residence: R10, R15, R20, R30, R40 combined; town zoning ordinances revised in 1955 with retired MIT Prof Flavel Shurtleff; new General Life Insurance Co building raised grand list; more fiscal details, school projections
 @jensonBloomfield10YearChallenge1956
 
 ## Wethersfield not as restrictive

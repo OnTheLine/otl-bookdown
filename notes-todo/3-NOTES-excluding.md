@@ -4,6 +4,12 @@ TODO: in discussion about Jewish neighborhood, add photo of Hartford tenement fr
 
 Susan Pennybacker, “East Side Story: Life and Death in the Front Street Neighborhood, and the Tricks of Collective Memory,” Hartford Courant, July 2, 1995, sec. Northeast Magazine, https://www.newspapers.com/clip/77146292/; Susan Pennybacker, “Front Street,” in Twain’s World: Essays on Hartford’s Cultural Heritage, ed. Lary Bloom (Hartford, CT: Hartford Courant, 1999), 198–201, https://www.google.com/books/edition/Twain_s_World/O8qlAAAACAAJ.
 
+TODO: ADD in two places -- jobs and homes -- Joseph E. Klau, “Oral History Interview by Joseph D. Hurwitz” (Jewish Historical Society of Greater Hartford, April 17, 1974), recalled middle-class Jews moved into 2 and 3-family housing developments along Albany Avenue while "The poor Jews still lived in the Third Ward" in 1910s-20s, cited in Hutton p. 12. Klau's interview does not yet appear in online oral history collection.
+
+born 1902 in NY, raised in Hartford tenements, Front Street and South End; HPHS; socialist; Democrat; Harvard undergrad and law school; moved back to Hartford to find a job as a lawyer in 1927: "I went for all of them, knocking on doors. You couldn't know on any, nobody was taking in a Jew as their [lawyer] in Day, Berry and Howard [or] Robinson, Robinson, and Cole. They do that now but not then." so he got a job with a small firm run by Charlie Sadarski who said "you can take care of all of the cases that come into the office that have got nothing to do with mortgages, I'll handle those" p13
+
+about Jews moving further west on Albany Ave in Hartford in 1920s: Describes how farmland on Albany Avenue from Brooks St to Vine St was sold to developers "and every little Jewish builder was given a lot and a construction loan. And the two and 3 family houses went up like mushrooms...  It was the first modern housing that we had with central heating and electric lights, and real bathrooms... that was a tremendous concentration of Jews, of middle class Jews in what politically was the 4th and 12th wards of Hartford. The Barbour Street area, the Bellevue Street area, was the 3rd Ward which the poor Jews still lived in and the blacks were coming into it." p14 Referring to more luxury homes, "you really had to be pretty wealthy to live on Westbourne Parkway"p14
+
 TODO: add that Woods/WH were motivated primarily by maintaining/raising property values, since attracting higher-wealth residents to their town would raise the value of taxable property (grand list), and keep tax rate lower for everyone. While they did not define their zoning policies as "exclusionary" that was the foreseeable outcome....
 
 TODO: context of governmental power over private property in 1920 CT Supreme Court ruling Windsor v Whitney:
@@ -62,7 +68,7 @@ TODO: Play the Zoning Game: aka Tetris for Real Estate Developers: What Kind of 
 - is there a SimCity with this type of detail?
 - ask developer of JS simulations... see name in GitHub or Zotero prior to pandemic?
 
-TODO: Ask Beth: Joseph E. Klau, “Oral History Interview by Joseph D. Hurwitz” (Jewish Historical Society of Greater Hartford, April 17, 1974), recalled middle-class Jews moved into 2 and 3-family housing developments along Albany Avenue while "The poor Jews still lived in the Third Ward" in 1910s-20s, cited in Hutton p. 12. Klau's interview does not yet appear in online oral history collection.
+
 
 
 Children of David and Rachel Goldberg (unsure of birth order; some were born in Leeds, England)
