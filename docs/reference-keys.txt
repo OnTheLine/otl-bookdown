@@ -37,6 +37,8 @@ fig:1924-whitten-highlight-10
 fig:1924-whitten-apartments-p17-16
 fig:1924-otl-zoning-west-hartford
 tab:1924-zone-land
+tab:1950s-largest-zoning
+fig:1950s-otl-zoning-metro-hartford
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
 fig:1974-YaBastaExcerpts

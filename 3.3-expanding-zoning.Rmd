@@ -1,4 +1,25 @@
 ## Expanding Zoning Across Suburbs {- #expanding-zoning}
 This section will examine the growth of exclusionary zoning in surrounding Hartford-area suburbs, and the increase of minimum-land requirements to 1-2 acres (43,000 to 87,000 square feet) per single-family home, as towns competed with each other to attract higher-income families during the 1950s and beyond
 
-More to come...
+...as shown in Table \@ref(tab:1950s-largest-zoning). TODO cite sources in text...
+
+Table: (\#tab:1950s-largest-zoning) Largest Zoning Requirements for Minimum Land Per Family, mid-1950s
+
+| Town  | Zone | Min. land per family | Scale diagram |
+|:------|-----:|------:|--------------------:|
+| Avon  | East | 87,000 sq ft  | ![](images/1950s-r-87.png) |
+| Bloomfield | R-40 | 40,000 sq ft  | ![](images/1950s-r-40.png) |
+| West Hartford | AAA  | 18,000 sq ft  | ![](images/1950s-r-18.png) |
+
+*TODO: REWRITE table caption...Each zone set a minimum land requirement per family, shown in green, which ..... Icons by [Georgiana Ionescu](https://thenounproject.com/georgiana.ionescu/collection/real-estate-outline/).*
+<!-- Design notes: https://docs.google.com/spreadsheets/d/1g58ZaR1lsfr1s5mdvZFru6DAJFnA9jNwDVlrxaQ0rbA/edit#gid=0
+Graphics (export at 4x resolution, then reduce size 25% to return to original dimensions): https://www.figma.com/file/7JitgyYxiT3xR3fyoZttKb/1924-zoning-table-graphics?node-id=5%3A53 -->
+
+
+...as shown in Figure \@ref(fig:1950s-otl-zoning-metro-hartford).
+
+(ref:1950s-otl-zoning-metro-hartford) Explore the [interactive map](https://ontheline.github.io/otl-zoning-metro-hartford/index-caption.html)...TODO ADD CAPTION
+
+```{r 1950s-otl-zoning-metro-hartford, fig.cap="(ref:1950s-otl-zoning-metro-hartford)"}
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://ontheline.github.io/otl-zoning-metro-hartford", height = "550px") else knitr::include_graphics("images/1950s-otl-zoning-metro-hartford.png")
+```
