@@ -10,7 +10,7 @@ born 1902 in NY, raised in Hartford tenements, Front Street and South End; HPHS;
 
 about Jews moving further west on Albany Ave in Hartford in 1920s: Describes how farmland on Albany Avenue from Brooks St to Vine St was sold to developers "and every little Jewish builder was given a lot and a construction loan. And the two and 3 family houses went up like mushrooms...  It was the first modern housing that we had with central heating and electric lights, and real bathrooms... that was a tremendous concentration of Jews, of middle class Jews in what politically was the 4th and 12th wards of Hartford. The Barbour Street area, the Bellevue Street area, was the 3rd Ward which the poor Jews still lived in and the blacks were coming into it." p14 Referring to more luxury homes, "you really had to be pretty wealthy to live on Westbourne Parkway"p14
 
-TODO: add that Woods/WH were motivated primarily by maintaining/raising property values, since attracting higher-wealth residents to their town would raise the value of taxable property (grand list), and keep tax rate lower for everyone. While they did not define their zoning policies as "exclusionary" that was the foreseeable outcome....
+
 
 TODO: context of governmental power over private property in 1920 CT Supreme Court ruling Windsor v Whitney:
 Eminent domain takes private property because it is useful to the public.
