@@ -1,6 +1,6 @@
 output_dir: "docs"
 delete_merged_file: true
-book_filename: "OnTheLine"
+book_filename: "book"
 language:
   label:
     fig: "Figure "
