@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Style Guide for On The Line | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
+  <title>Teaching Segregation in Connecticut | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Style Guide for On The Line | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
+  <meta property="og:title" content="Teaching Segregation in Connecticut | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="http://ontheline.trincoll.edu/" />
   <meta property="og:image" content="http://ontheline.trincoll.edu//images/coverOTL300x300.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="ontheline/otl-bookdown" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Style Guide for On The Line | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
+  <meta name="twitter:title" content="Teaching Segregation in Connecticut | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta name="twitter:site" content="@doughertyjack" />
   <meta name="twitter:description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
   <meta name="twitter:image" content="http://ontheline.trincoll.edu//images/coverOTL300x300.png" />
@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="structure.html"/>
-<link rel="next" href="images.html"/>
+<link rel="prev" href="oral-history-consent.html"/>
+<link rel="next" href="home-school-shopping.html"/>
 <script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -191,82 +191,60 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="style-guide" class="section level2 unnumbered">
-<h2>Style Guide for <em>On The Line</em></h2>
-<p>View the underlying source code to understand how this page was composed at: <a href="https://github.com/OnTheLine/otl-bookdown/blob/main/9.3.3-style-guide.Rmd" class="uri">https://github.com/OnTheLine/otl-bookdown/blob/main/9.3.3-style-guide.Rmd</a>.</p>
-<p>The goal of this style guide is to compose one version of the text, primarily in easy-to-read R-flavored Markdown format, which Bookdown generates into multiple book products (HTML for open-access web edition, MS Word for editing, PDF for print edition, ePUB for electronic publication, full-length Markdown for conversion, etc.).</p>
-<p>Note: This style guide was created primarily for the HTML web edition, and the PDF and ePUB versions will require additional modifications prior to final publication of the print and eBook editions.</p>
-<p>In general, each subchapter is a separate R-flavored Markdown (.Rmd) file. Each paragraph begins on a separate line.</p>
-<p>Use brackets and parentheses for an <a href="http://example.com">embedded link</a>, and remember to add a footnote (as shown further below) for readers of the printed version that does not display embedded links.</p>
-<p>For lists, always insert a blank line <em>before</em> the items, unless they appear directly after hashtag header.</p>
-<ul>
-<li>unordered</li>
-<li>list</li>
-</ul>
-<ol style="list-style-type: decimal">
-<li>ordered</li>
-<li>list</li>
-</ol>
-<p>Dashes:</p>
-<ul>
-<li>Use a hyphen (1 dash) for hyphenated words, such as two-thirds or dog-friendly hotel.</li>
-<li>Use an en-dash (2 dashes) for ranges, such as the May–September magazine issue.</li>
-<li>Use an em-dash (3 dashes) to insert an additional thought—like this—in a sentence.</li>
-</ul>
-<p>Insert <code>TODO</code> to note items to finish or review with co-author or editor.</p>
-<p>For a block quote, start each line with a caret <strong>AND</strong> add two spaces to insert a line break:</p>
-<blockquote>
-<p>I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.<br />
-— Mark Twain<br />
-— notable American author</p>
-</blockquote>
-<p>Note that the HTML edition has customized <code>style.css</code> code for block quotes. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/main/css/style.css#L37">relevant code on GitHub</a>.</p>
-<p>Also note that the HTML edition has customized <code>style.css</code> code to improve visual contrast and make it more accessible for visually-impaired readers, based on the <a href="http://wave.webaim.org/">Wave Accessibility Evaluation Tool</a>. See <a href="https://github.com/OnTheLine/otl-bookdown/blob/main/css/style.css#L7">relevant code on GitHub</a>.</p>
-<div id="conditional-formatting" class="section level3 unnumbered">
-<h3>Conditional Formatting</h3>
-<p>Conditional formatting offers the option to display text or images in some editions, but not other editions. Options:</p>
-<p>Conditional formatting offers the option to display text or images in some Bookdown editions, but not others. Here are several ways to use conditional formatting:</p>
-<ol style="list-style-type: decimal">
-<li>Insert a HTML code comment <code>&lt;!-- Comment --&gt;</code> in the .Rmd file to hide a few lines of text. This appears as commented-out text in the HTML and .md formats, is not displayed in the HTML browser, and does not appear in any way in the PDF or MS Word formats.</li>
-</ol>
-<p>Demo:</p>
-<!-- This comment is visible in the .MD source text, but not visible in the HTML browser, nor PDF or MSWord outputs. -->
-<ol start="2" style="list-style-type: decimal">
-<li>R package function <code>is_[html/latex]_output</code> allows conditional output for different book products, such as text that should appear in the HTML edition but not the PDF edition, or vice versa.</li>
-</ol>
-<p>Demos:</p>
-<!--
-This line appears in the PDF and Word versions, and is commented-out in the HTML and Markdown versions.
--->
-<p>This line appears in the HTML, Word, Markdown versions, and is commented-out in the PDF version.</p>
-<ol start="3" style="list-style-type: decimal">
-<li><p>Option to customize the <code>style.css</code> code for the HTML book.</p></li>
-<li><p>Option to add headers, footers, preambles to the HTML or LaTeX versions.</p></li>
-<li><p>Option to build different versions of the HTML and LaTeX/PDF books using different chapters by listing them in order in the <code>_bookdown.yml</code> file.</p></li>
-</ol>
+<div id="teaching-segregation-ct" class="section level2 unnumbered">
+<h2>Teaching Segregation in Connecticut</h2>
+<p><em>This chapter was prepared for the “Separate by Design: Teaching the History of Residential Segregation in Connecticut” educator workshop, sponsored by the Gilder Lehrman Center at Yale University, with Anthony Roy, Tom Thurston, Rashanda McCollum, and me on May 13th, 2021.</em></p>
+
+<div class="figure"><span id="fig:2021-glc-yale-event"></span>
+<img src="images/2021-glc-yale-event.png" alt="Learn more about this event from the Gilder Lehrman Center at Yale." width="625" />
+<p class="caption">
+Figure 8.19: Learn more <a href="https://glc.yale.edu/event/separate-design-teaching-history-residential-segregation-connecticut">about this event from the Gilder Lehrman Center at Yale</a>.
+</p>
 </div>
-<div id="cross-references" class="section level3 unnumbered">
-<h3>Cross-references</h3>
-<p>In order to cross-reference in Bookdown, assign a unique name or R code-chunk label to each chapter, section, figure, and table. Unique names and labels should contain only <em>alphanumeric</em> characters (a-z, A-Z, 0-9) or dashes (-).</p>
-<p>To cross-reference any <em>chapter or section</em>, and allow readers to jump there, use a HTML link with the unique name, such as <code>index.html</code> or <code>style-guide.html</code>. Demos:</p>
+<p>While researching and writing this <em>On The Line</em> book-in-progress with undergraduate students at Trinity College, our primary goal has been to make visible the hidden boundary lines that have divided metropolitan Hartford from the past to the present, in order to engage wider audiences with our troubled history and pathways to changing our future. Rather than waiting until the full manuscript is finished, my contributors and I created this open-access book and uploaded chapters as we completed them to make this history more findable and useful. Also, we strived to write introductory-level chapters—since that’s where all of us begin—and to offer clear explanations instead of complex jargon. Pictures also play an important role in the book, and we’ve added interactive maps, charts, and other illustrations to help communicate concepts that can be difficult to grasp with words alone.</p>
+<p>The racial and economic segregation we see today did not happen overnight, nor was it caused by nature. The segregated patterns today were created by decisions made by prior generations of elected leaders, real estate interests, and homebuyers. Making sense of how cities and suburbs evolved over time is not simple. But if we really want to dismantle <em>systemic racism</em> and related power structures that shape our present-day reality, then we need to understand how these <em>systems</em> actually work.</p>
+<p>Teaching historical thinking is one part of the solution. In my prior work as a secondary school teacher, I learned the power of posing thoughtful questions—and providing accessible primary sources—to guide students to think like historians. Sam Wineburg and colleagues have created several valuable resources to assist K-12 teachers in this process, which build on the field of inquiry-based learning.<a href="#fn237" class="footnote-ref" id="fnref237"><sup>237</sup></a> In our state, Rebecca Fuhrer has led the development of the <a href="https://teachitct.org">TeachItConnecticut</a> at CT Humanities, a growing collection of inquiry-based lesson plans to help elementary and secondary educators guide students to “think like historians” with Connecticut primary sources. To be clear, more work remains to be done. In particular, we need to fulfill the promise of <a href="https://pa1912.serc.co">CT Public Act 19-12</a> to include Black and Latino Studies in the public school curriculum. We also need to continually rethink the <em>mainstream</em> curriculum, and ways to connect White students and communities with the Connecticut’s history of segregation, and how to speaks to all of us.</p>
+<p>In this spirit, this chapter suggests ways to pair historical questions and source materials from the <em>On The Line</em> book that educators are welcome to freely borrow and adapt for their classrooms. While my current teaching context is at the college level, I’ve always been impressed by K-12 educators who find creative ways to integrate complex topics into the K-12 curriculum. If you have inquiry-based Connecticut history lesson plans you wish to share with other educators, consider <a href="https://teachitct.org/questions/">sharing it with TeachItCT</a>, or if you teaching ideas that are directly relevant to <em>On The Line</em>, please <a href="authors.html">contact the authors</a>.</p>
+<div id="neighborhood-change" class="section level3 unnumbered">
+<h3>Neighborhood Change</h3>
+<p>Question: How have neighborhoods changed in Connecticut from 1934 to today?</p>
+<p>Source: <a href="https://ontheline.github.io/otl-neighborhood-change/index-caption.html">Map of Neighborhood Change in Connecticut, 1934-present</a>.</p>
+
+<div class="figure"><span id="fig:1934-otl-neighborhood-change"></span>
+<iframe src="https://ontheline.github.io/otl-neighborhood-change/index.html" width="672" height="500px">
+</iframe>
+<p class="caption">
+Figure 8.20: Explore the interactive map of neighborhood change in Connecticut, which displays side-by-side aerial imagery for the entire state. Search for an address and zoom into a specific location. Click the “Permalink” button in the bottom-left corner to save a specific view to share with others. For example, view how 1960s interstate highways carved up cities <a href="https://ontheline.github.io/otl-neighborhood-change/#zoom=16&amp;lat=41.76123678695253&amp;lng=-72.69959092140199&amp;layer1=magic1934&amp;layer2=esriPresent">such as the I-84 exchange in Hartford’s Parkville neighborhood</a>, or how suburban commercial and residential development altered rural farmland <a href="https://ontheline.github.io/otl-neighborhood-change/#zoom=15&amp;lat=41.72233878762285&amp;lng=-72.7622151374817&amp;layer1=magic1934&amp;layer2=esriPresent">such as the WestFarms Mall area in West Hartford/Farmington</a>. <a href="https://github.com/ontheline/otl-neighborhood-change/">Open-source map</a> developed by Ilya Ilyankou and Jack Dougherty for <a href="https://ontheline.trincoll.edu">On The Line</a> at Trinity College, with <a href="http://magic.lib.uconn.edu">MAGIC UConn Libraries</a>.
+</p>
+</div>
+<p>Activity:</p>
 <ul>
-<li>See <a href="index.html">Preface</a></li>
-<li>See <a href="style-guide.html">Style Guide in Chapter x</a>.</li>
+<li>Enter your school address. What looks different between then and now? What looks similar?</li>
+<li>Enter your home address. What looks different between then and now? What looks similar?</li>
+<li>Follow the path from your home to school. What differences or similarities do you notice?</li>
+<li>What might have caused the changes you see in the photos?</li>
+<li>What kinds of things can you <em>not</em> see in the aerial photos?</li>
 </ul>
-<p>Note: We use the HTML link method because it works best for the HTML web edition. We <em>avoid</em> using Bookdown unique ID links to cross-reference chapters or sections, as recommended in the <a href="https://bookdown.org/yihui/bookdown/cross-references.html">Bookdown manual</a>, for the HTML edition because it creates imprecise URLs with extraneous hashtags for sections/subchapters. However, if your primary goal is to create an ePUB, use the Bookdown unique ID links method, since HTML links will not work.</p>
-<p>To cross-reference figures and tables, and display their auto-number and allow readers to jump there, write a call-out with a Bookdown reference to a code-chunk label, such as <code>See Figure \@ref(fig:sample-image)</code> or <code>See Table \@ref(tab:left-table)</code>. Demos:</p>
+<p>Thanks to teacher <a href="https://twitter.com/JoshBlanchfield">Josh Blanchfield</a> for sharing ideas about how to use the neighborhood change map with his students.</p>
+<p>Read more: Connecticut State Library, “Aerial Photographs of Connecticut [1934-present], <a href="http://libguides.ctstatelibrary.org/hg/aerialphotos/home" class="uri">http://libguides.ctstatelibrary.org/hg/aerialphotos/home</a>.</p>
+<p>Teacher Tip: Most <em>On The Line</em> maps can be display with or without the explanatory caption by truncating the last portion of the web link. This allows educators to choose which format works best for their students.</p>
 <ul>
-<li>See Figure <a href="images.html#fig:sample-image">9.4</a>.</li>
-<li>See Table <a href="tables.html#tab:left-table">9.1</a>.</li>
+<li>With caption: <a href="https://ontheline.github.io/otl-neighborhood-change/index-caption.html" class="uri">https://ontheline.github.io/otl-neighborhood-change/index-caption.html</a></li>
+<li>Without caption: <a href="https://ontheline.github.io/otl-neighborhood-change/" class="uri">https://ontheline.github.io/otl-neighborhood-change/</a></li>
 </ul>
-<p>Cross-reference interactivity varies by output:</p>
-<ul>
-<li>In HTML, all cross-refs are clickable.</li>
-<li>In PDF, all cross-refs are clickable (except chapter-level HTML links).</li>
-<li>In Word, no cross-refs are clickable (unless this varies with reference.docx).</li>
-</ul>
+</div>
+<div id="redlining-neighborhoods" class="section level3 unnumbered">
+<h3>Redlining Neighborhoods</h3>
+<p>Question:</p>
+<p>Activity:</p>
 
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="237">
+<li id="fn237"><p><span class="citation"><a href="bibliography.html#ref-wineburgReadingHistorianTeaching2011" role="doc-biblioref">Sam Wineburg, Daisy Martin, and Chauncey Monte-Sano</a>, <a href="bibliography.html#ref-wineburgReadingHistorianTeaching2011" role="doc-biblioref"><em>Reading <span>Like</span> a <span>Historian</span>: <span>Teaching Literacy</span> in <span>Middle</span> and <span>High School History Classrooms</span></em> (<span>Teachers College Press</span>, 2011), <a href="https://www.google.com/books/edition/Reading_Like_a_Historian/hJwbAgAAQBAJ" role="doc-biblioref">https://www.google.com/books/edition/Reading_Like_a_Historian/hJwbAgAAQBAJ</a></a></span>; <span class="citation"><a href="bibliography.html#ref-thompsonExaminingEvidenceSeven2014" role="doc-biblioref">Kathleen Thompson and Hilary Austin</a>, <a href="bibliography.html#ref-thompsonExaminingEvidenceSeven2014" role="doc-biblioref"><em>Examining the <span>Evidence</span>: <span>Seven Strategies</span> for <span>Teaching</span> with <span>Primary Sources</span></em> (<span>Capstone Classroom</span>, 2014), <a href="https://www.google.com/books/edition/Examining_the_Evidence/uQ9XBAAAQBAJ" role="doc-biblioref">https://www.google.com/books/edition/Examining_the_Evidence/uQ9XBAAAQBAJ</a></a>.</span><a href="teaching-segregation-ct.html#fnref237" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 <html>
   <head>
@@ -281,8 +259,8 @@ This line appears in the PDF and Word versions, and is commented-out in the HTML
           </div>
         </div>
       </div>
-<a href="structure.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="images.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="oral-history-consent.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="home-school-shopping.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -322,7 +300,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/ontheline/otl-bookdown/blob/main/9.3.3-style-guide.Rmd",
+"link": "https://github.com/ontheline/otl-bookdown/blob/main/8.5-teaching-segregation-ct.Rmd",
 "text": null
 },
 "download": ["book.pdf"],
