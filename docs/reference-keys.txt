@@ -69,6 +69,8 @@ fig:2012-cc-licenses
 fig:2011-sheff-elizabeth3
 fig:2021-glc-yale-event
 fig:1934-otl-neighborhood-change
+fig:1937-otl-redlining-teaching
+fig:2018-redlining-america-teaching
 fig:2011-covenants-video
 fig:workflow
 fig:workflow-desktop

@@ -45,12 +45,54 @@ Teacher Tip: Most *On The Line* maps can be display with or without the explanat
 - Without caption: https://ontheline.github.io/otl-neighborhood-change/
 
 ### Redlining Neighborhoods {-}
-Question: TODO
+Question: During the 1930s Depression, federal government officials and local bankers created maps and documents showing neighborhoods where they recommended giving loans to home owners. Years later, we call these "redlining" maps. What factors influenced their neighborhood ratings?
 
-Source: TODO
+Sources: [Map of Federal Home Owner's Loan Corporation (HOLC) "Redlining" in Hartford Area, CT, 1937](https://ontheline.github.io/otl-redlining/index-caption.html).
 
-Activity: TODO
+(ref:1937-otl-redlining-teaching) Click on color-coded areas in the [full-screen interactive map](https://ontheline.github.io/otl-redlining/index-caption.html) to view one-page HOLC appraisals for each neighborhood in 1937, and the factors that field agents and local banks and lenders considered. They rated not only the physical condition of property, but also the "social status of the population," and downgraded neighborhoods with Black, immigrant, and lower-income residents. Decades later, activists labeled these discriminatory lending practices as "redlining." [Open-source map with historical documents](https://github.com/ontheline/otl-redlining) developed by Ilya Ilyankou and Jack Dougherty, based on an earlier version with UConn MAGIC and the Kirwin Institute.
+
+```{r 1937-otl-redlining-teaching, fig.cap="(ref:1937-otl-redlining-teaching)"}
+if(knitr::is_html_output()) knitr::include_url("https://ontheline.github.io/otl-redlining/", height="600px") else knitr::include_graphics("images/1937-otl-redlining.png")
+```
+
+For HOLC maps elsewhere in CT and the US, see Robert K. Nelson et al., [Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining), American Panorama, Digital Scholarship Lab, University of Richmond, 2018. See also the "Downloads" page for specific areas.
+
+(ref:2018-redlining-america-teaching) Zoom in and click on HOLC maps and appraisals for cities across the US in the [full-screen interactive version of Mapping Inequality: Redlining in New Deal America](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58) by Robert K. Nelson, LaDale Winling, Richard Marciano, Nathan Connolly, et. al. Their collection includes HOLC materials for several regions in Connecticut: the Hartford area, New Britain, New Haven, Stamford, Waterbury, Darien, and New Canaan. According to the National Archives, HOLC materials also exist for Bridgeport and New London, Connecticut, but have not yet been digitized.
+
+```{r 2018-redlining-america-teaching, fig.cap="(ref:2018-redlining-america-teaching)"}
+if(knitr::is_html_output()) knitr::include_url("https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58", height="600px") else knitr::include_graphics("images/2018-redlining-america.png")
+```
+
+Activity: Explore the interactive map and documents, or download them for your area. Assign student teams to focus on different neighborhoods and pool their findings. How did the mapmakers rate and describe different neighborhoods? What factors influenced their recommendations about who should receive home loans?
+
+Warning: The 1930s redlining maps and documents contain harmful words that reflect the racial, ethnic, and economic prejudices of the people who created them. Don't allow your lesson to reinforce stereotypes. Teach students to recognize and disrupt inequalities.
 
 Read more:
 
-Robert K. Nelson et al., “Mapping Inequality: Redlining in New Deal America,” American Panorama, Digital Scholarship Lab, University of Richmond, 2018, https://dsl.richmond.edu/panorama/redlining/.
+Shaun McGann and Jack Dougherty, "Federal Lending and Redlining," On The Line book-in-progress, https://ontheline.trincoll.edu/lending.html.
+
+Robert K. Nelson et al., “Mapping Inequality: Redlining in New Deal America,” American Panorama, Digital Scholarship Lab, University of Richmond, 2018, https://dsl.richmond.edu/panorama/redlining/. See "Introduction" for historical background.
+
+### See more interactive maps {-}
+Explore all of the *On The Line* interactive maps we've created so far---and watch for new ones to come---at the top of the [Mapping and Publishing chapter](mapping-and-publishing.html) in this book.
+
+### Who Lived Here? {-}
+Questions: Who lived in a specific house or street long ago? Which residents stayed, and which ones moved? How do different streets or neighborhoods compare on stability or turnover? What factors might have influenced people's decisions? What do these patterns tell us about neighborhood change?
+
+Activity: Access the subscription-only Ancestry database, “US City Directories, 1822-1995,” https://www.ancestry.com/search/collections/2469/, and download pages for specific streets if needed. Many CT public libraries provide access to Ancestry.com when using the library network. Some public libraries also provide access to the HeritageQuest database when using your library card, https://www.heritagequestonline.com/.
+
+### Where Can You Afford to Live? {-}
+Teaching the history of segregation can be challenging if learners do not have personal experience with searching for an apartment or house to rent or buy. See the [Home School Shopping simulation](home-school-shopping.html) in this book.
+
+### Oral History {-}
+Build stronger inter-generational communication and understanding with oral history interviews. See activities in the [Teaching Oral History](teaching-oral-history.html) section of this book.
+
+### Recent News on Residential Segregation in Connecticut {-}
+
+Emily DiSalvo, “Hamden Confronts Legacy Of Segregation,” New Haven Independent, April 27, 2021, http://www.newhavenindependent.org/index.php/archives/entry/hamdensegregation_/.
+
+Eliza Fawcett, “A Fight Over Building Apartments in Mainly White Woodbridge Has Become a Flashpoint in the Debate Over Racial Equity in Connecticut. Here’s Why.,” Hartford Courant, April 30, 2021, https://www.courant.com/news/connecticut/hc-news-woodbridge-zoning-debate-20210430-x7vda5qdhfegdahtzhd64tbeiq-story.html.
+
+Alex Putterman, “West Hartford Is Mostly White, While Bloomfield Is Largely Black; How That Came to Be Tells the Story of Racism and Segregation in American Suburbs,” Hartford Courant, February 21, 2021, https://www.courant.com/news/connecticut/hc-news-west-hartford-bloomfield-housing-segregation-discrimination-20210214-eoobsguoybguznkoa4n2ravwli-story.html.
+
+Jacqueline Rabe Thomas, “Separated by Design Archives,” The CT Mirror, May 22, 2019, https://ctmirror.org/category/all-news/investigations/separated-by-design/.
