@@ -158,7 +158,7 @@ if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://www.y
 (ref:sample-kaltura) Here's a sample caption for a video on Trinity Kaltura server. Option to add Markdown link to historical preservation version in CTDA.
 
 ```{r sample-kaltura, fig.cap="(ref:sample-kaltura)"}
-if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kplayer&entry_id=1_66aksvf1&flashvars") else knitr::include_graphics("images/sample-kaltura.png")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://cdnapisec.kaltura.com/p/2366381/sp/236638100/embedIframeJs/uiconf_id/42684261/partner_id/2366381?iframeembed=true&playerId=kplayer&entry_id=1_66aksvf1&flashvars") else knitr::include_graphics("images/bookdown/sample-kaltura.png")
 ```
 
 ### Demo: R code-chunk for streaming video ONLY in HTML {-}

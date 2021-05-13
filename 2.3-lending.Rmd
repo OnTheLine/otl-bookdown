@@ -133,7 +133,7 @@ Exactly how did the FHA *Underwriting Manual* define a good location? The most h
 (ref:1936-fha-manual-226-excerpts) Explore [excerpts on "adverse influences" in the 1936 FHA Underwriting Manual](images/bookdown/1936-fha-manual-226-excerpts.pdf) or [view the full document](https://babel.hathitrust.org/cgi/pt?id=mdp.39015018409246;view=1up;seq=195), hosted by Hathitrust. The FHA required evaluators to reduce scores for mortgage applications located near racially or socioeconomically diverse neighborhoods, and to raise scores for those in homogenous all-White middle-class areas.
 
 ```{r 1936-fha-manual-226-excerpts, fig.cap="(ref:1936-fha-manual-226-excerpts)"}
-if(knitr::is_html_output(excludes="markdown")) knitr::include_url("images/1936-fha-manual-226-excerpts.pdf") else knitr::include_graphics("images/bookdown/1936-fha-manual-226.png")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("images/1936-fha-manual-226-excerpts.pdf") else knitr::include_graphics("images/1936-fha-manual-226-screenshot.png")
 ```
 
 When the FHA expanded its *Underwriting Manual* in 1938, it added a four-level ranking for the neighborhood location, on a scale from A to D, based largely on the HOLC City Security Map ratings. Updated FHA evaluation forms also included specific codes to designate the predominant racial composition of the neighborhood: White, Mixed, Foreign, and Negro, as shown in Figure \@ref(fig:1938-fha-manual-1849).^[@federalhousingadministrationUnderwritingManualUnderwriting1938, section 1849-50]

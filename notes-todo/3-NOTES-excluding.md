@@ -20,24 +20,6 @@ Legislature gave town of Windsor ability to plan layout of streets and eminent d
 @windsorv.whitneyDecision1920
 
 
-TODO: Is Zoning Racist? (chapter conclusion)....
-Today, nearly a century after West Hartford and other Connecticut towns approved their first zoning ordinances, many question whether or not zoning is racist. This conflict arises in heated debates like this one in Woodbridge, where a coalition organized by the Open Communities Alliance submitted an application to construct multi-family housing, and have threatened legal action if the town does not approve it (and others)..
-"Residents and some of the zoning commissioners have expressed outrage that those asking for zoning overhaul are describing the town as racist.
-“You[r application] essentially called Woodbridge a bunch of racists,” town commissioner Paul Schatz said in February."
-But fair-housing advocates make a distinction between the *intent* versus the *impact* of a law. While zoning rules were originally intended to avoid referring directly to people's race, religion, or nationality, the minimum-land requirements have a direct impact on the racial composition of the town, because White families tend to be wealthier...
-"The team from the Yale clinic and Open Communities Alliance, however, has said the town has had decades to do the right thing — and that its inaction has had an impact on who can live in Woodbridge. While not explicitly racist, the zoning rules are having a disparate impact on Black and Latino people, they said."
-“Woodbridge’s zoning restrictions over the decades have driven up housing costs, and these high costs exclude many Black and Hispanic families and keep Woodbridge whiter and wealthier than the surrounding region. And so, when Woodbridge stays the same, Woodbridge stays segregated,” Anderson said. “It doesn’t have to be this way.”
-@rabethomasHowOneBike2021
-
-When looking back at the *intent* of zoning in 1920s Connecticut suburban towns like West Hartford, there's strong evidence of *exclusionary* goals.... keeping out apartment buildings like those in the city, and the lower-income people who rent them....  zoning was a powerful legal tool to physically and socially distance neighborhoods by wealth, to separate the *haves* from the *have-nots*. In the context of 1920s suburban Connecticut, zoning also aligned with contemporary anti-Jewish and anti-immigrant views of dominant White Protestants....  But there was no explicit nor implicit language about using zoning to keep Black families out of suburban Hartford towns in the 1920s, because Black migration was still a distant White fear in the future, not the on-the-ground reality of their time.... The City of Hartford had less than X % Black residents in 1920, and most of them were segregated into tenements along the Connecticut River, far from the West Hartford border, where only X Black residents lived....
-But zoning prevailed as an exclusionary tool not only because it did not mention color or creed, but because its *coded* targets of exclusion evolved over the decades.... and it became a powerful yet "color-blind" means of preventing lower-income Black, Puerto Rican, and White families from moving into the town in future decades....[transition to next chapter?]
-
-TODO DECIDE if this is worth adding: Manville's interpretation: "R1 first proliferated after the Supreme Court struck down racial zoning in 1917’s Buchanan v. Warley decision. Buchanan made single-family mandates appealing because they maintained racial segregation without racial language. Forcing consumers to buy land in bulk made it harder for lower income people, and therefore most non-White people, to enter affluent places. R1 let prices discriminate when laws could not (Trounstine, 2018; Weiss, 1987). Contemporary observers denounced this regime of backdoor segregation, but in 1926 the Supreme Court upheld it. In Village of Euclid v. Ambler Realty Co. (1926), the court tacitly excused R1’s implicit racism by validating its explicit classism. Cities could prohibit apartments, the court said, because apartments were nuisances: “mere parasites” on the value and character of single-family homes. In Euclid’s wake, R1 became a quiet weapon of the White and wealthy in their campaign to live amid but not among the non-White and poor (Danielson, 1976; Rothstein, 2017; Trounstine, 2018)." ^[@manvilleViewpointItTime2019, p. 2]
-
-
-
-
-
 TODO West Hartord pop growth in comparison to other towns/region/ct -- see chart from 1950 TPA Wethersfield
 
 
