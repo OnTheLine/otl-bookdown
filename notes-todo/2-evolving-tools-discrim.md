@@ -1,3 +1,11 @@
+TODO: Rethink the entire intro to the Segregating chapter, which formerly included these closing sentences:
+
+...Eventually, as overt racism became harder to defend, Connecticut's white suburbs relied more on exclusionary zoning policies, with "color-blind" rules that required higher-price single-family home construction, effectively blocking lower-wealth families, and by extension, most people of color. As a result, Connecticut's city-suburban barriers trace their legacy to color lines that have faded over time, but remain in force today primarily due to class lines, supported by local and state government.
+
+REFOCUS on how overt racial discrimination shifted over time from overt and written to hidden and verbal
+
+
+
 There are different ways that property owners and the housing industry have created racial or religious or social class barriers over the past century in Connecticut.
 
 1) Restrictive covenants in property deeds

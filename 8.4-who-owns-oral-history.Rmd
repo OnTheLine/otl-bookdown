@@ -59,7 +59,7 @@ In Hartford, a specific oral history interview we conducted with school integrat
 (ref:2011-sheff-elizabeth3) View the [oral history video interview and transcript](http://digitalrepository.trincoll.edu/cssp_ohistory/16) with Elizabeth Horton Sheff in 2011.
 
 ```{r 2011-sheff-elizabeth3, fig.cap="(ref:2011-sheff-elizabeth3)"}
-if(knitr::is_html_output()) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://cdnapisec.kaltura.com/html5/html5lib/v2.76/mwEmbedFrame.php/p/2366381/uiconf_id/42684261/entry_id/1_66aksvf1?wid=_2366381&iframeembed=true&playerId=kaltura_player&entry_id=1_66aksvf1") else knitr::include_graphics("images/2011-sheff-elizabeth.jpg")
 ```
 
 We do not contend that Creative Commons has resolved all of our questions about who “owns” oral history, nor do we claim expertise in intellectual property law. But as oral historians seeking alternatives, we believe that this combination—--traditional copyright with Creative Commons licensing—--fulfills our dual needs to maintain the rights of individual participants while sharing history with the public.

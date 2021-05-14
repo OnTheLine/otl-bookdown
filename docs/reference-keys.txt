@@ -5,6 +5,7 @@ fig:2017-otl-compare-school-districts
 fig:1925-one-room-schools
 fig:1901-csde-one-room-school-p3
 fig:2020-otl-oldschoolct
+fig:1900-2018-otl-racial-change
 fig:1937-holc-hartford-map-scan
 tab:1937-holc-area
 fig:1937-holc-inhabitants-c10
@@ -23,7 +24,7 @@ fig:2011-hansen-susan
 fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
-fig:1923-otl-ardmore
+fig:1923-otl-ardmore-road-wh
 fig:1928-2004-kingswood-hc-whhs
 fig:1918-roosevelt-luther-2018-walk
 fig:1915-1922-trinity-excerpts

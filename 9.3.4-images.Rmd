@@ -99,7 +99,7 @@ R code-chunks allow more complex conditional formatting, where an interactive ma
 ### Demo: R code-chunk for iframe in HTML, static image in PDF, DOCX, MD {-}
 ...as shown in Figure \@ref(fig:sample-map).
 
-(ref:sample-map) Explore the [interactive map](https://handsondataviz.github.io/leaflet-map-simple/), which enables readers of non-HTML editions to view it.
+(ref:sample-map) Explore the [full-size interactive map](https://handsondataviz.github.io/leaflet-map-simple/), which enables readers of non-HTML editions to view it. View [open-source code and historical sources](https://github.com/ontheline), developed by list-authors-here.
 
 ```{r sample-map, fig.cap="(ref:sample-map)"}
 if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://handsondataviz.github.io/leaflet-map-simple/", height = "375px") else knitr::include_graphics("images/bookdown/sample-map.png")

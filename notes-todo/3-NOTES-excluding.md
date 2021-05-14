@@ -20,6 +20,8 @@ Legislature gave town of Windsor ability to plan layout of streets and eminent d
 @windsorv.whitneyDecision1920
 
 
+TODO: decide whether to shift description for West Hartford from "exclusionary zoning" to "segregated zoning" because they did allow some multi-family housing, but physically separated it from their desired goal of single-family housing
+
 TODO West Hartord pop growth in comparison to other towns/region/ct -- see chart from 1950 TPA Wethersfield
 
 

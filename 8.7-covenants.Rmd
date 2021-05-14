@@ -8,7 +8,7 @@ Our goal was to search for restrictive covenants of any type, racial or religiou
 (ref:2011-covenants-video) In this [video](https://player.vimeo.com/video/220562166), Katie Campbell Levasseur describes how we found restrictive covenants in the Town of West Hartford property records in 2011.
 
 ```{r 2011-covenants-video, fig.cap="(ref:2011-covenants-video)"}
-if(knitr::is_html_output()) knitr::include_url("https://player.vimeo.com/video/220562166") else knitr::include_graphics("images/2011-covenants-video.png")
+if(knitr::is_html_output(excludes="markdown")) knitr::include_url("https://player.vimeo.com/video/220562166") else knitr::include_graphics("images/2011-covenants-video.png")
 ```
 
 We limited our search of restrictive covenants to property records held by the Town of West Hartford, Connecticut, the largest municipality that borders the central city of Hartford, because of easy access to public data and our focus on suburban history. Our study did not examine any property records in the City of Hartford or any other suburban town, and we encourage other researchers to expand our collective search. Tracey Wilson, the West Hartford town historian, long-time high school history teacher, and history columnist for the West Hartford Life monthly periodical, gave us leads from anecdotal accounts she had heard about restrictive covenants from long-time residents. Our most specific lead came from Mary Everett, who in our recorded oral history interview described how she bought a home at 30 Ledgewood Road around 1970, and her lawyer mentioned that the property included a racially restrictive covenant from the 1940s that was no longer enforceable.^[@everettOralHistoryInterview2011]
