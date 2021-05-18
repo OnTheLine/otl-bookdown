@@ -1,5 +1,21 @@
 ## NOTES on Excluding Through Zoning Lines
 
+TODO: add more about "why zoning matters" to intro chapter before going into historical narrative
+
+    Why did zoning not happen earlier in these towns?
+    - zoning infringed on individual rights of residents to use property as they wish, a core principle in rural comm.
+    - but as rural towns experienced rapid real estate development, they adopted suburban governments that traded individual rights for group protection against threats of urban life, such as apartment buildings with lower-income outsiders to their community
+
+    Why did zoning matter?
+    - zoning is built into the environment; once zoned for single-family homes, and those are built out, hard to make change
+    - zoning by local government inherently protects the interests of current residents, not interests of the metro region or the state in providing affordable housing opportunities for all residents...
+
+    In contrast to overt discrimination, towns like Avon [and WH?] began to exercise more subtle means of exclusion and homogenization through legal tools of zoning, taxation, and services. According to Downs, "...all suburbs have one major advantage regarding cultural homogeneity that is not shared by larger cities: suburban residents can make use of legal machinery to maintain their homogeneity by excluding those who may change it. Of course, they cannot directly prevent any particular group from entering by passing discriminatory laws but they can set up and enforce specific standards regarding building quality, tax rates, the character of public services, and the nature of the school system. By raising these standards high enough, they can make it economically impossible for 'disrupting' elements to enter the area and dilute the homogeneity which they seek to establish" p315 (quoted in Ladd, Ideology in America), source: Anthony Downs, "Metropolitan Growth and Future Political Problems." Land Economics 37 (1961): 311-20.
+
+     Unlike other tools developed around the same time (such as racially restrictive property covenants that prohibited non-white residents, and have since been outlawed by civil rights legislation), wealth-based zoning remains perfectly legal today. But it does nothing to promote the health and safety of the citizenry, as promised by the original intent of the state law.
+
+TODO: when CTDA is running, copy CT Americanizer link into Zotero newspapers entry; also into specific news stories in Zotero;
+
 TODO: in discussion about Jewish neighborhood, add photo of Hartford tenement from 1903 report (negative, without people), and CTDA image of neighborhood peddlers (more positive, with people) in order to make stronger connection to anti-apartment view. Caption something like... In the early 1900s, photographs of Hartford's multi-family tenements appeared in both muckraking housing reports (without people) and more positive street scenes (with people, such as residents of this Jewish neighborhood). Both images represented the type of multi-family housing (and its lower-income residents) that suburban town leaders sought to avoid through exclusionary zoning.
 
 Susan Pennybacker, “East Side Story: Life and Death in the Front Street Neighborhood, and the Tricks of Collective Memory,” Hartford Courant, July 2, 1995, sec. Northeast Magazine, https://www.newspapers.com/clip/77146292/; Susan Pennybacker, “Front Street,” in Twain’s World: Essays on Hartford’s Cultural Heritage, ed. Lary Bloom (Hartford, CT: Hartford Courant, 1999), 198–201, https://www.google.com/books/edition/Twain_s_World/O8qlAAAACAAJ.
