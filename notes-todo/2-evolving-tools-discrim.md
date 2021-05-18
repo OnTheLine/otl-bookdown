@@ -32,3 +32,7 @@ I’ve only sketched out some notes for this chapter, but I believe it’s a big
 
 HOW DOES THIS FIT IN?
  and legally protected white-only property deeds. After activists overturned these governmental restrictions, the Connecticut real estate industry continued the color line through discriminatory steering and lending, even after the federal Fair Housing Act of 1968 outlawed these practices. Eventually, as overt racism became harder to defend, Connecticut's white suburbs relied more on exclusionary zoning policies, with "color-blind" rules that required higher-price single-family home construction, effectively blocking lower-wealth families, and by extension, most people of color. As a result, Connecticut's city-suburban barriers trace their legacy to color lines that have faded over time, but remain in force today primarily due to class lines, supported by local and state government.
+
+
+ TODO decide on how to introduce Racial Change map, shorten the caption on social construction of race, and link to longer explanation in Mapping chapter, with cites to
+ @andersonAmericanCensusSocial2015; @hirschmanRaceEthnicityDefinitions2006

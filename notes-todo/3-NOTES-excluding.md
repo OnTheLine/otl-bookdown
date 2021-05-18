@@ -14,17 +14,16 @@ TODO: add more about "why zoning matters" to intro chapter before going into his
 
      Unlike other tools developed around the same time (such as racially restrictive property covenants that prohibited non-white residents, and have since been outlawed by civil rights legislation), wealth-based zoning remains perfectly legal today. But it does nothing to promote the health and safety of the citizenry, as promised by the original intent of the state law.
 
-TODO: when CTDA is running, copy CT Americanizer link into Zotero newspapers entry; also into specific news stories in Zotero;
 
 TODO: in discussion about Jewish neighborhood, add photo of Hartford tenement from 1903 report (negative, without people), and CTDA image of neighborhood peddlers (more positive, with people) in order to make stronger connection to anti-apartment view. Caption something like... In the early 1900s, photographs of Hartford's multi-family tenements appeared in both muckraking housing reports (without people) and more positive street scenes (with people, such as residents of this Jewish neighborhood). Both images represented the type of multi-family housing (and its lower-income residents) that suburban town leaders sought to avoid through exclusionary zoning.
 
 Susan Pennybacker, “East Side Story: Life and Death in the Front Street Neighborhood, and the Tricks of Collective Memory,” Hartford Courant, July 2, 1995, sec. Northeast Magazine, https://www.newspapers.com/clip/77146292/; Susan Pennybacker, “Front Street,” in Twain’s World: Essays on Hartford’s Cultural Heritage, ed. Lary Bloom (Hartford, CT: Hartford Courant, 1999), 198–201, https://www.google.com/books/edition/Twain_s_World/O8qlAAAACAAJ.
 
-TODO: ADD in two places -- jobs and homes -- Joseph E. Klau, “Oral History Interview by Joseph D. Hurwitz” (Jewish Historical Society of Greater Hartford, April 17, 1974), recalled middle-class Jews moved into 2 and 3-family housing developments along Albany Avenue while "The poor Jews still lived in the Third Ward" in 1910s-20s, cited in Hutton p. 12. Klau's interview does not yet appear in online oral history collection.
+TODO: ADD in two places -- jobs and homes -- Joseph E. Klau, “Oral History Interview by Joseph D. Hurwitz” (Jewish Historical Society of Greater Hartford, April 17, 1974), 
 
 born 1902 in NY, raised in Hartford tenements, Front Street and South End; HPHS; socialist; Democrat; Harvard undergrad and law school; moved back to Hartford to find a job as a lawyer in 1927: "I went for all of them, knocking on doors. You couldn't know on any, nobody was taking in a Jew as their [lawyer] in Day, Berry and Howard [or] Robinson, Robinson, and Cole. They do that now but not then." so he got a job with a small firm run by Charlie Sadarski who said "you can take care of all of the cases that come into the office that have got nothing to do with mortgages, I'll handle those" p13
 
-about Jews moving further west on Albany Ave in Hartford in 1920s: Describes how farmland on Albany Avenue from Brooks St to Vine St was sold to developers "and every little Jewish builder was given a lot and a construction loan. And the two and 3 family houses went up like mushrooms...  It was the first modern housing that we had with central heating and electric lights, and real bathrooms... that was a tremendous concentration of Jews, of middle class Jews in what politically was the 4th and 12th wards of Hartford. The Barbour Street area, the Bellevue Street area, was the 3rd Ward which the poor Jews still lived in and the blacks were coming into it." p14 Referring to more luxury homes, "you really had to be pretty wealthy to live on Westbourne Parkway"p14
+
 
 
 
