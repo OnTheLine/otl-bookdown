@@ -56,7 +56,7 @@ Table: (\#tab:1950s-land-zone) Percent of Land Area by Town and Zone Type, mid-1
 
 TODO: Note that a strict calculation might manually remove park areas (such as Pennfield state park in Bloomfield) from residential zone calculations, but towns did include them in zoning maps, so left as-is.
 
-TODO: describe key themes from zoning debates in other suburbs, such as Windsor 1955 (anti-child) and Wethersfield 1953 (Custis NAACP case)
+
 
 ### Is Zoning Racist? {-}
 Outline of chapter conclusion: While a century has passed since West Hartford and other Connecticut towns first enacted local zoning laws in 1924, conflicts have heated up in recent years, largely due to legal and political activism by leading organizations such as CT OCA and DesegregateCT... [describe]...  

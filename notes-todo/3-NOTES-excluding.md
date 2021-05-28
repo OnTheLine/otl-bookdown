@@ -17,16 +17,13 @@ TODO: add more about "why zoning matters" to intro chapter before going into his
 
 TODO: decide whether to shift description for West Hartford from "exclusionary zoning" to "segregated zoning" because they did allow some multi-family housing, but physically separated it from their desired goal of single-family housing
 
+TODO: make sure this concept appears in either 3.1 or 3.2:  Zoning advocates of the 1920s never used the phrase *exclusionary zoning* when laying out their plans with minimum-land rules.....
+
 TODO West Hartord pop growth in comparison to other towns/region/ct -- see chart from 1950 TPA Wethersfield
 
 TODO: Imagine how zoning policies reshaped economic incentives using 1920s prices.....
 SHOW typical parcel land costs and total home costs on Ardmore Road?
 SHOW zones on top of aerial image to show how relatively small areas allocated for duplexes in C zone (Ardmore Road) versus single-family homes in A-B zones nearby...   
-
-TODO: Search Courant for 1957? Avon modification of zoning that expanded west side min-land req to 40,000 per family?
-
-
-TODO -- Check CS Lib, Gen Assemb Committee on Cities and Boroughs, minutes about zoning hearing or votes around Apr 14 1923 HC; May 16, 1923 HC; May 29, 1923 HC.  Did Josiah Woods or West Hartford Zoning Commission initially propose the bill?
 
 TODO -- when zoning chapter is online, ask Fairfield author if his scholarship is public, as I would like to cite it
 
