@@ -19,7 +19,7 @@ TODO: decide whether to shift description for West Hartford from "exclusionary z
 
 TODO: make sure this concept appears in either 3.1 or 3.2:  Zoning advocates of the 1920s never used the phrase *exclusionary zoning* when laying out their plans with minimum-land rules.....
 
-TODO West Hartord pop growth in comparison to other towns/region/ct -- see chart from 1950 TPA Wethersfield
+TODO: Insert simple Avon-Bloomfield-West Hartford-Hartford mini-map to guide reader
 
 TODO: Imagine how zoning policies reshaped economic incentives using 1920s prices.....
 SHOW typical parcel land costs and total home costs on Ardmore Road?
