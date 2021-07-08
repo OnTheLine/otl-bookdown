@@ -21,6 +21,13 @@ TODO: make sure this concept appears in either 3.1 or 3.2:  Zoning advocates of 
 
 TODO: Insert simple Avon-Bloomfield-West Hartford-Hartford mini-map to guide reader
 
+TODO: Add Jewish peddler info (Beth?) and pushcart photo from Front Street?
+Pushcarts on Front Street, Hartford, copy 1
+View of Front Street in about 1935 shows row of pushcart vendors in front of line of buildings and shops, including Brooklyn Market, London's Barber Shop, and J.R. Loan Company (J. Rozinsky). Some prices can be seen: 2 lbs. butter 53 cents; 10 lbs. sugar 51 cents; 2 doz. eggs 53 cents. Caption from much later publication: "SIGNS OF THE TIMES: In top photo Councilman Dominick J. DeLucco places new Columbus Blvd. sign at intersection of ... and old Front St. Lower photo shows Front St. when ... lined the street and vendors bellowed the wares." Show less
+Permanent Link: http://hdl.handle.net/11134/50002:893
+SEE ALSO caption for copy2 http://hdl.handle.net/11134/50002:885
+
+
 TODO: Imagine how zoning policies reshaped economic incentives using 1920s prices.....
 SHOW typical parcel land costs and total home costs on Ardmore Road?
 SHOW zones on top of aerial image to show how relatively small areas allocated for duplexes in C zone (Ardmore Road) versus single-family homes in A-B zones nearby...   
