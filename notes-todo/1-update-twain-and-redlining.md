@@ -1,0 +1,60 @@
+DRAFT without citations for Mapping Inequality essay
+
+Midway between New York and Boston, Connecticut’s capital of Hartford was labeled “the richest city in the United States” per capita during the Gilded Age. Hartford boosters claimed this title by calculating the value of all assets located in the city – including insurance companies, banks, and factories – relative to its population of around 40,000 people in 1876. The city’s cultural riches also featured America’s most famous authors of the period, Mark Twain and Harriet Beecher Stowe, who resided in mansions just west of the downtown business district. When Twain first visited the city, he wondered “Where are the poor in Hartford? I confess I do not know… they are ‘corralled’ doubtless… in some unsanctified corner of this paradise whither my feet have not yet wandered, I suppose.”
+
+Progressive reformers responded in the early 1900s by pointing to Hartford’s East Side neighborhood. Thousands of Italian and Jewish immigrant families were crowded into dilapidated tenement buildings in areas often flooded by the polluted Connecticut River. Reformer Lawrence Veiller declared that Hartford “has for its size the worst housing conditions in the country,” after New York and Boston. When Southern Black migrants arrived in larger numbers in the 1910s, Hartford’s segregationist landlords gave them few options other than “the oldest and most deteriorated sections” of city’s East Side, where they were “obliged to pay higher rent than white folks,” according to Urban League sociologist Charles Johnson and journalist Emmett Jay Scott.
+
+
+Caption: 1905 postcard view of Mark Twain House on West Side of Hartford and 1903 reformer’s photo of Hartford Tenement House on the East Side. Sources: Hartford History Center, Hartford Public Library, 1905; Lawrence Veiller, “Housing Conditions and Tenement Laws in Leading American Cities,” 1903.
+
+During the housing boom of the early 1920s, real estate developers began to attract wealthier city dwellers to the streetcar suburbs of West Hartford and East Hartford. But lenders typically offered home mortgages that placed the burden of risk on borrowers’ shoulders, and required them to make large down payments and pay back the loan quickly. When the economic collapse of the 1930s devastated the housing market and threatened both lenders and borrowers, President Roosevelt’s “New Deal'' created agencies such as the Federal Housing Administration (FHA) that offered home mortgages on more favorable terms. In 1934, the Hartford Courant newspaper noted that buying a $10,000 home had become more affordable because lenders lowered the down payment from 50 to 20 percent, and extended the repayment period from 5 to 15-20 years, which resulted in homeowner payments around $50 per month. For Americans with sufficient funds, buying a home was becoming cheaper than renting.
+
+To stabilize the Depression-era housing market, the Home Owners’ Loan Corporation (HOLC) sent field agents across the nation to assess local mortgage investment risks. Across Connecticut, HOLC surveyed at least 17 of the state’s 169 municipalities: the capital city of Hartford and its suburbs East Hartford and West Hartford; New Haven and portions of its suburbs East Haven, North Haven, West Haven, Hamden, and Woodbridge; Stamford and its suburbs Darien and New Canaan; Waterbury and its suburb of Watertown; and the cities of Bridgeport, New Britain, and New London. To date, Mapping Inequality has digitized HOLC maps and area descriptions for all areas except Bridgeport and New London.
+
+HOLC neighborhood appraisals and color-coded maps reflected the racism and elitism of the powerful people who created them. Foster Milliken Jr., the HOLC field agent assigned to the Hartford area, was no stranger to the world of real estate investment. Prior to the Depression, he worked as a stockbroker in Manhattan, where his father had presided over Milliken Brothers, Inc., one of the largest manufacturers of structural steel and constructor of the world’s tallest buildings in its time. When HOLC sent Milliken to Hartford in 1936, he consulted with real estate board members and banking executives, such as leaders of the Society for Savings, the state’s oldest mutual savings bank and the city’s leading mortgage lender. While Milliken described these men as “a fair and composite opinion of the best qualified local people,” his confidential report labeled Hartford as a ”typical New England city” with “ultra-conservative” lending policies. Hartford bankers “desire to solve their own problems without outside help or assistance,” he observed, and “it is not surprising that the FHA is generally frowned upon just as was the HOLC.”
+
+Despite bankers’ and realtors’ distrust towards federal home lending programs, Milliken persuaded executives to privately offer their candid assessments of neighborhoods in the city and its suburbs. Given Milliken’s outsider status, his HOLC appraisals most likely represented the collective views of the colleagues he consulted. From their vantage point in downtown Hartford’s business district, he observed that “the entire trend is to the west.” Milliken assigned HOLC’s highest A-ratings to the northern half of West Hartford and the northwest corner of Hartford, which tended to attract “executives and businessmen.” These “hot spots” of new and well-planned home construction marked the best opportunities for mortgage investment because “lenders with available funds are willing to make their maximum loans” at up to 80 percent of the appraised property value, thereby requiring only a 20 percent down payment from homebuyers. He approvingly noted that “a stream separates [area A-2] from its less desirable neighbor” [C-2], an area with an “infiltation of mixed foreign” families living in “workingmen’s homes.”
+
+
+
+Caption: Composite HOLC map of West Hartford, Hartford, and East Hartford areas, 1937. Map by Ilya Ilyankou and Jack Dougherty for OnTheLine.trincoll.edu.
+
+Milliken gave the second-highest B-ratings primarily to areas stretching from West Hartford Center into Hartford’s West End, plus smaller neighborhoods located some distance from the central city. While these HOLC ratings represented good-quality areas, they were not the best. Milliken partly based his ratings on the social composition of residents, such as Hartford’s Blue Hills neighborhood [B-5], which he disapproving described as “largely given over to the Hebrew race,” meaning Jews had moved in, “although the better class Italians are now also moving there.”
+
+The third-grade ratings were assigned to large portions of Hartford’s North End and South End, the southeast corner of West Hartford, and most of East Hartford. This rating signified neighborhoods in “transition” where mortgage lenders were even more wary than the areas above. For example, in Hartford’s South End area [C-9], Milliken noted that one nearly all-White area had a small percentage of “Negro families [who] are confined to Roosevelt Street,” and added that “lenders suggest caution in the selection of loans.”
+
+But all of these rose above HOLC’s lowest-rated “red” areas on Hartford’s East Side. In the Front Street and Windsor Street neighborhoods [D-1], Milliken saw an “undesirable population” with “unstable incomes.” The city’s oldest residential area “has gradually drifted into a slum area now mainly occupied by Negroes” and “Italians,” who were laborers or domestics or unemployed, and living in congested single-family homes and crowded multi-family apartment buildings. The “trend of desirability” pointed “downward,” Milliken warned, and financial institutions “will no longer lend in this section.” By the early 1960s, these neighborhoods were demolished to make room for the Constitution Plaza urban renewal project and the I-84/I-91 interstate highway interchange.
+
+Recent scholars have shown that poor ratings did not necessarily prevent HOLC lending. But city-suburban rating differences across the Hartford region are striking. Based on total land area appraised in each municipality, 84 percent of West Hartford received an A or B, compared to only 29 percent of Hartford and 5 percent of East Hartford. But some suburban neighborhoods also received low ratings. In West Hartford, 16 percent of appraised land received a C, and the D rating was more prevalent in East Hartford (20 percent of appraised land) compared to Hartford (9 percent).
+
+“Redlining” in HOLC maps was not the primary driver of housing discrimination in the Hartford region. First, racist practices of landlords and real estate agents predated HOLC and continued long after this short-lived federal agency. Second, the larger scale of FHA lending made segregationist policies in its Underwriting Manual far more influential in shaping the racial composition of suburban homeownership. Third, beginning in the 1920s, Connecticut suburban governments embraced more subtle forms of wealth-based segregation – such as exclusionary zoning – and many continue to defend it today, despite its clear racial impact. But the federally-sponsored HOLC process deserves special attention because Hartford lenders’ discriminatory views of Black and immigrant working-class neighborhoods were captured on paper. Powerful people’s perceptions of race and class boundaries became more visible, though seen only by a select few, and hidden away from public view for decades.
+
+Sources:
+
+This essay is drawn primarily from a chapter of the author’s book-in-progress:
+
+Sean McGann and Jack Dougherty, “Federal Lending and Redlining,” in On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs (Trinity College, book-in-progress, 2022), https://ontheline.trincoll.edu/lending.html.
+
+Additional sources:
+
+Xiangming Chen and Nicholas Bacon, eds., Confronting Urban Legacy: Rediscovering Hartford and New England’s Forgotten Cities (Lexington, MA: Lexington Books, 2013), https://books.google.com/books?id=qeB_AQAAQBAJ.
+
+CT Humanities, “Constitution Plaza: Then and Now,” Connecticut History, February 13, 2020, https://connecticuthistory.org/constitution-plaza-then-and-now/.
+
+Steve Courtney, “Rich in So Many Ways,” in Twain’s World: Essays on Hartford’s Cultural Heritage, ed. Lary Bloom (Hartford Courant, 1999), 60–73, https://www.google.com/books/edition/Twain_s_World/O8qlAAAACAAJ.
+
+Charles Johnson, “The Negro Population of Hartford, Connecticut” (Department of Research and Investigations of the National Urban League, New York, 1921), Connecticut State Library, http://hdl.handle.net/11134/30002:21952279.
+
+Amy Hillier, “Residential Security Maps and Neighborhood Appraisals: The Home Owners’ Loan Corporation and the Case of Philadelphia,” Social Science History 29, no. 2 (2005): 207–33, https://doi.org/10.1017/S014555320001292X.
+
+Eugene Leach, “Housing Reform in Hartford, 1895-1912,” Connecticut History Review 54, no. 1 (2015): 3–50, https://www.jstor.org/stable/44370379.
+
+Todd M. Michney and LaDale Winling, “New Perspectives on New Deal Housing Policy: Explicating and Mapping HOLC Loans to African Americans,” Journal of Urban History 46, no. 1 (January 1, 2020): 150–80, https://doi.org/10.1177/0096144218819429.
+
+Foster Milliken Jr., “Confidential Report of a Survey in Hartford, Connecticut for the Division of Research and Statistics, Home Owners’ Loan Corporation” (Record Group 195, Records of the Federal Home Loan Bank Board, Box 64, Folder Hartford CT #2, National Archives II, College Park MD, May 5, 1936).
+
+Susan Pennybacker, “Front Street,” in Twain’s World: Essays on Hartford’s Cultural Heritage, ed. Lary Bloom (Hartford, CT: Hartford Courant, 1999), 198–201, https://www.google.com/books/edition/Twain_s_World/O8qlAAAACAAJ.
+
+Emmett Jay Scott, Negro Migration During the War (New York: Oxford University Press, 1920), https://archive.org/details/negromigration00scott.
+
+Lawrence Veiller, “Housing Conditions and Tenement Laws in Leading American Cities,” in The Tenement House Problem, Volume 1, ed. Robert Weeks DeForest (New York: MacMillan, 1903), https://catalog.hathitrust.org/Record/100857263.
