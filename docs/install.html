@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Install and Set Up Bookdown | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs</title>
   <meta name="description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Install and Set Up Bookdown | On The Line: How Schooling, Housing, and Civil Rights Shaped Hartford and its Suburbs" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="http://ontheline.trincoll.edu/" />
   <meta property="og:image" content="http://ontheline.trincoll.edu//images/coverOTL300x300.png" />
   <meta property="og:description" content="This open-access digital book makes visible the hidden history of schooling and housing boundaries that divided metropolitan Hartford, Connecticut, and tells the stories of everyday families and civil rights activists who seek to cross over, redraw, or erase these lines." />
   <meta name="github-repo" content="ontheline/otl-bookdown" />
@@ -25,7 +24,7 @@
 <meta name="author" content="and contributors" />
 
 
-<meta name="date" content="2022-03-31" />
+<meta name="date" content="2022-07-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -34,8 +33,8 @@
   
 <link rel="prev" href="bookdown.html"/>
 <link rel="next" href="structure.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -51,9 +50,9 @@
 
 
 
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -163,7 +162,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i>Bookdown, GitHub, and Zotero</a></li>
 <li class="chapter" data-level="" data-path="install.html"><a href="install.html"><i class="fa fa-check"></i>Install and Set Up Bookdown</a></li>
 <li class="chapter" data-level="" data-path="structure.html"><a href="structure.html"><i class="fa fa-check"></i>File Structure and Headers</a></li>
-<li><a href="style-guide.html#style-guide">Style Guide for <em>On The Line</em></a></li>
+<li class="chapter" data-level="" data-path="style-guide.html"><a href="style-guide.html"><i class="fa fa-check"></i>Style Guide for <em>On The Line</em></a></li>
 <li class="chapter" data-level="" data-path="images.html"><a href="images.html"><i class="fa fa-check"></i>Images and R Code-chunk formatting</a></li>
 <li class="chapter" data-level="" data-path="tables.html"><a href="tables.html"><i class="fa fa-check"></i>Tables in Markdown Format</a></li>
 <li class="chapter" data-level="" data-path="zotero.html"><a href="zotero.html"><i class="fa fa-check"></i>Zotero and Better BibTeX</a></li>
@@ -192,8 +191,8 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="install" class="section level2 unnumbered">
-<h2>Install and Set Up Bookdown</h2>
+<div id="install" class="section level2 unnumbered hasAnchor">
+<h2>Install and Set Up Bookdown<a href="install.html#install" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Below are steps we followed to set up the Bookdown publishing platform and related tools for this book, using our Macintosh OS 10.14 computers. The same general principles also should apply to Windows computers. No special knowledge is required, but these tools may not be ideal for novice computer users. Installation steps—and inevitable problems that pop up—will be easier if you are comfortable with exploring your computer, or already have some familiarity with text editors, GitHub, or R Studio.</p>
 <ol style="list-style-type: decimal">
 <li><p>Install R Project statistical programming language <a href="https://www.r-project.org" class="uri">https://www.r-project.org</a>, which is required by Bookdown. <a href="images/bookdown/r-download.png">See screenshot</a></p></li>
@@ -224,8 +223,8 @@ Package version:
   rlang_0.4.11      rmarkdown_2.9     stats_4.1.0       stringi_1.7.3    
   stringr_1.4.0     tinytex_0.32      tools_4.1.0       utils_4.1.0      
   xfun_0.24         yaml_2.2.1          </code></pre>
-<div id="download-build-and-host-a-sample-bookdown-book" class="section level3 unnumbered">
-<h3>Download, Build, and Host a Sample Bookdown Book</h3>
+<div id="download-build-and-host-a-sample-bookdown-book" class="section level3 unnumbered hasAnchor">
+<h3>Download, Build, and Host a Sample Bookdown Book<a href="install.html#download-build-and-host-a-sample-bookdown-book" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>While Bookdown does not require you to use GitHub, these steps show how to integrate these tools to make your own copy of a sample Bookdown book.</p>
 <ol style="list-style-type: decimal">
 <li><p>Create a free <a href="https://github.com">GitHub</a> account to simplify steps for the next two sections. While Bookdown does not require you to use GitHub, the workflow described below features GitHub to copy a sample Bookdown template and to host your own Bookdown editions online. To learn more about the basics of this tool, see <a href="github.html">Chapter 11: Edit and Host Code with GitHub</a>.</p></li>
@@ -257,7 +256,7 @@ Package version:
     <title>footer</title>
   </head>
   <body>
-  <div><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="http://OnTheLine.trincoll.edu">On The Line</a> &copy 2021 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://ontheline.trincoll.edu/authors.html">Jack Dougherty and contributors</a> is freely shared under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.<br><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+  <div><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="http://OnTheLine.trincoll.edu">On The Line</a> &copy 2022 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://ontheline.trincoll.edu/authors.html">Jack Dougherty and contributors</a> is freely shared under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.<br><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
   </body>
 </html>
             </section>
@@ -270,7 +269,6 @@ Package version:
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -310,11 +308,14 @@ gitbook.start({
 "text": null
 },
 "download": ["book.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section",
 "scroll_highlight": true
-},
-"search": true
+}
 });
 });
 </script>

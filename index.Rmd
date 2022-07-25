@@ -22,6 +22,7 @@ output:
     css: css/style.css
     toc_depth: 2
     split_by: section
+    global_numbering: false
     number_sections: true
     split_bib: false
     anchor_sections: true
@@ -49,21 +50,25 @@ output:
 
   bookdown::pdf_book:
     toc_depth: 2
+    global_numbering: false
     number_sections: true
     citation_package: default
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 
   bookdown::epub_book:
     toc_depth: 2
+    global_numbering: false
     number_sections: true
     chapter_level: 1
     pandoc_args: [ "--csl", "chicago-fullnote-bibliography.csl" ]
 
   bookdown::word_document2:
-    default
+    global_numbering: false
+    number_sections: true
 
   bookdown::markdown_document2:
-    default
+    global_numbering: false
+    number_sections: true
 ---
 # Preface {-}
 <!-- R global options: each R chunk image to display without code (no echo); display PDF version over JPG/PNG when available -->
