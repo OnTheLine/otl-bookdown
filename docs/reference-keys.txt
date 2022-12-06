@@ -89,6 +89,7 @@ fig:sample-local-pdf
 fig:sample-gif
 fig:sample-video
 fig:sample-kaltura
+fig:sample-video2
 tab:left-table
 tab:right-table
 defining
