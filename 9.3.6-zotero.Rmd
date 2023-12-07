@@ -18,7 +18,7 @@ Here are more detailed instructions to install, set up, and use Zotero and Bette
 
 3. At the top of each entry in Zotero, the extension will generate a unique citation code, such as `tyackOneBestSystem1974`.
 
-4. Copy and paste the citation code into your Markdown text, and add a caret, square brackets, and the at symbol `^[@tyackOneBestSystem1974]`. See more options in the Style Guide. Or you can set Zotero preferences > Export > Better BibTeX Quick Copy to use Zotero's drag-and-drop quick copy feature.
+4. Copy and paste the citation code into your Markdown text, and add a caret, square brackets, and the at symbol `^[@tyackOneBestSystem1974]`. See more options in the Style Guide. Or to use Zotero's drag-and-drop quick-copy feature, you can set Zotero preferences > Export > Better BibTeX Quick Copy, and also if desired, set Better BibTeX preferences > Export > Quick-Copy > Pandoc citation format.
 
 Tip: If you use R Studio's built-in text editor, see this [blog post on how it supports Zotero citations](https://blog.rstudio.com/2020/11/09/rstudio-1-4-preview-citations/).
 
