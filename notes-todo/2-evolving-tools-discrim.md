@@ -4,7 +4,16 @@ TODO: Rethink the entire intro to the Segregating chapter, which formerly includ
 
 REFOCUS on how overt racial discrimination shifted over time from overt and written to hidden and verbal
 
-
+Re-read weaverNegroGhetto1967: ch 12 Hemmed in: more than racial covenants
+"the following are the principal instruments used to hem Negroes and other colored minorities into too little space:
+- community, enighborhood, and individual opposition to colored neighbors
+- race restrictive housing covenants
+- agreements, practices, and codes of ethics among real estate boards and operators
+- FHA acceptance and perpetuation of real estate practice
+- Negro of Negro market by private builders and sources of finance
+- Local government's fear that adequate or more housing will encourage Negro migration
+- Local political action to restrict Negroes to given areas
+- Development of exclusive one-class neighborhoods" p211
 
 There are different ways that property owners and the housing industry have created racial or religious or social class barriers over the past century in Connecticut.
 
