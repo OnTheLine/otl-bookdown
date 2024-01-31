@@ -2,6 +2,9 @@ TODO: Rethink the entire intro to the Segregating chapter, which formerly includ
 
 ...Eventually, as overt racism became harder to defend, Connecticut's white suburbs relied more on exclusionary zoning policies, with "color-blind" rules that required higher-price single-family home construction, effectively blocking lower-wealth families, and by extension, most people of color. As a result, Connecticut's city-suburban barriers trace their legacy to color lines that have faded over time, but remain in force today primarily due to class lines, supported by local and state government.
 
+REFOCUS on government-sponsored housing (not school?) segregation, and differentiate from other types of segregation, such as real estate boards, etc. 
+
+
 REFOCUS on how overt racial discrimination shifted over time from overt and written to hidden and verbal
 
 Re-read weaverNegroGhetto1967: ch 12 Hemmed in: more than racial covenants
