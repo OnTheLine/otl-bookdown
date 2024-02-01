@@ -18,9 +18,15 @@ fig:1936-fha-manual-226-excerpts
 fig:1938-fha-manual-1849
 fig:1933-chart-holc-fha
 fig:1940-otl-covenants
-fig:1940-high-ledge-homes
+fig:1934-1939-1950-newington-hanbury
+fig:1940-wh-high-ledge
+fig:1940-manchester-greenway
+fig:1940-hamden-covenants
+tab:covenants-by-town
+fig:2024-restrictive-cities
 fig:2011-walsh-debra
 fig:2011-hansen-susan
+fig:2021-ware-void
 fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
