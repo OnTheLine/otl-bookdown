@@ -126,9 +126,9 @@ Under Connecticut Public Act 2021-173, each Town Clerk must post these forms, bo
 - OR
 - [CT Affidavit to Identify Racial Covenant, signed by notary](images/2021-covenant-affidavit.pdf)
 
-Help us continue the work to locate and void Connecticut's restrictive covenants. Learn more about [How We Found Restrictive Covenants](covenants.html) in this book. If you know of similar property records with racial or religious restrictions anywhere in Connecticut, [contact the authors](authors.html).
+**Help us continue the work** to find and strike out Connecticut's restrictive covenants. Feel free to download or modify the "call to action" flyer shown in Figure \@ref(fig:2024-covenants-action). Learn more about [How We Found Restrictive Covenants](covenants.html) in this book and start research in your own community. If you know of similar property records with racial or religious restrictions anywhere in Connecticut, [contact the authors](authors.html).
 
-(ref:2024-covenants-action) Anyone can [download this call to action flyer](images/2024-covenants-action) or [modify the template with a free Canva account](https://www.canva.com/design/DAF5r55hEo0/6wlRESbbDdaAc5bpUJfRag/view?utm_content=DAF5r55hEo0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview), as long as you credit OnTheLine.trincoll.edu.
+(ref:2024-covenants-action) Anyone can [download this call to action flyer](images/2024-covenants-action.png) or [modify the template with a free Canva account](https://www.canva.com/design/DAF5r55hEo0/6wlRESbbDdaAc5bpUJfRag/view?utm_content=DAF5r55hEo0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview), as long as you credit OnTheLine.trincoll.edu.
 
 ```{r 2024-covenants-action, fig.cap="(ref:2024-covenants-action)"}
  knitr::include_graphics("images/2024-covenants-action.png")
