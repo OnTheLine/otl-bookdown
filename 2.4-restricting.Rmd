@@ -120,6 +120,18 @@ In the New Haven suburb of Hamden, as current homeowners and community activists
 
 Decades later in 2023, when attorney June Gold attended Hamden's Spring Glen Church, she learned about racial covenants from a speaker with [Congregations Organized for a New Connecticut](https://weconect.org) (CONECT). Gold also read about Ware's work in Manchester and used her research skills to uncover several racial covenants in Hamden's town records---to the surprise of the Town Clerk's staff---and taught them about their legal obligation to publicize 2021 state law. Currently, Gold works with community groups to build awareness and offers her free legal services to help current homeowners void these racial restrictions. One of the many Hamden homeowners Gold assisted was Melinda Tulus, who wrote about wanting to "change history" and not "keep it hidden" in her 1994 article, and now had a way to make it happen.^[@mirminaWhenHamdenWoman2023]
 
+Under Connecticut Public Act 2021-173, each Town Clerk must post these forms, both on their website and inside the land records office, to allow property owners to void unlawful covenants, **free of charge**. Property owners may fill out and submit **either** form below:
+
+- [CT Identification and Renunciation of Unlawful Covenant](images/2021-covenant-identification.pdf)
+- OR
+- [CT Affidavit to Identify Racial Covenant, signed by notary](images/2021-covenant-affidavit.pdf)
+
 Help us continue the work to locate and void Connecticut's restrictive covenants. Learn more about [How We Found Restrictive Covenants](covenants.html) in this book. If you know of similar property records with racial or religious restrictions anywhere in Connecticut, [contact the authors](authors.html).
+
+(ref:2024-covenants-action) Anyone can [download this call to action flyer](images/2024-covenants-action) or [modify the template with a free Canva account](https://www.canva.com/design/DAF5r55hEo0/6wlRESbbDdaAc5bpUJfRag/view?utm_content=DAF5r55hEo0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview), as long as you credit OnTheLine.trincoll.edu.
+
+```{r 2024-covenants-action, fig.cap="(ref:2024-covenants-action)"}
+ knitr::include_graphics("images/2024-covenants-action.png")
+```
 
 *[About the authors and contributors:](authors.html) Tracey Wilson (Trinity 1976) wrote the first draft of the West Hartford portion for a monthly newspaper and also published it in her book, Life in West Hartford. Vianna Iorio (Trinity 2019) and Jack Dougherty expanded the chapter for publication in this book. Ilya Ilyankou (Trinity 2018) and Jack Dougherty developed the interactive map, based on an earlier version created with UConn MAGIC. Katie Campbell Levasseur (Trinity 2011) researched restrictive property covenants, and both she and Candace Simpson (Trinity 2012) conducted oral history interviews. David Ware and June Gold contributed restrictive covenants they located in Manchester, Newington, and Hamden.^[@wilsonTakingStockHigh2010; @wilsonHighLedgeHomes2018;  @universityofconnecticutlibrariesmapandgeographicinformationcenterRaceRestrictiveCovenants2012; @ilyankouMapRaceRestrictive2017]*

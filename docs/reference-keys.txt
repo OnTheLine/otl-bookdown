@@ -27,6 +27,7 @@ fig:2024-restrictive-cities
 fig:2011-walsh-debra
 fig:2011-hansen-susan
 fig:2021-ware-void
+fig:2024-covenants-action
 fig:1954-02-17-ht-oakwood-acres
 fig:1943-12-16-metro-news-oakwood
 fig:1951-2013-aerial-oakwood
