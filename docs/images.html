@@ -24,7 +24,7 @@
 <meta name="author" content="and contributors" />
 
 
-<meta name="date" content="2024-02-01" />
+<meta name="date" content="2024-02-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -198,31 +198,32 @@ div.csl-indent {
 <h2>Images and R Code-chunk formatting<a href="images.html#images" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>View the underlying source code to understand how this page was composed at: <a href="https://github.com/ontheline/otl-bookdown/blob/main/9.3.4-images.Rmd" class="uri">https://github.com/ontheline/otl-bookdown/blob/main/9.3.4-images.Rmd</a></p>
 <p>NOTE: These instructions are designed <em>primarily</em> for the HTML web edition. Be sure to research and consider options if your primary objective is PDF print edition, ePUB electronic publication, or other formats.</p>
-<p>In general, create high-resolution color images and save in PNG format (preferred over JPG due to image loss).</p>
-<p>Write file names in lowercase with dashes (not spaces). Begin with the relevant year if possible, and keyword and/or source to match up with bibliographic information in Zotero.</p>
+<p>In general, create high-resolution color images and save in PNG format (preferred over JPG due to image loss) into the <code>images</code> folder of the Bookdown repository on GitHub.</p>
+<p>Write file names in lowercase with year-name format using dashes (not spaces or underscores). Begin with the relevant year if possible, and keywords to match bibliographic information in Zotero.</p>
 <p>If the original image is larger than 3MB, add <code>-original</code> to file name to avoid confusion, then create a duplicate and use photo editor to reduce size but maintain 300 dpi resolution for use in the publication.</p>
-<p>If we add any artwork to images, insert <code>-annotated</code> to file name to avoid confusion with original.</p>
+<p>If adding any artwork to images, insert <code>-annotated</code> to file name to avoid confusion with original.</p>
 <p>To create screenshots, use high-resolution Retina monitor (144 ppi) with tight cropping.</p>
-<p>If we need to create side-by-side images, save each element using the root file name plus a suffix, and use Photoshop or <a href="http://Photopea.com" class="uri">http://Photopea.com</a> to combine images and also save in Photoshop format (.psd) in the images subfolder.</p>
-<p>Since large PNG images sometimes appear too large in the PDF edition, convert a copy into a smaller PDF image to fit better. In Preview, open the copy and reduce image size by 50% (or more), and double resolution (up to 300 dpi if feasible), and save. Then File &gt; Export, with Option to change file format to PDF, but keep same file name as PNG.</p>
+<p>To combine images for side-by-sides or montages, save each element using the root file name plus a suffix. Save all elements in an images subfolder using a similar year-name format. Use either <a href="https://Canva.com" class="uri">https://Canva.com</a> or <a href="https://Photopea.com" class="uri">https://Photopea.com</a> to combine images, and save a copy of the latter in Photoshop format (.psd) in the images subfolder.</p>
+<p>Since very large PNG images sometimes appear too large in the PDF edition, convert a copy into a smaller PDF image to fit better. In Preview, open the copy and reduce image size by 50% (or more), and double resolution (up to 300 dpi if feasible), and save. Then File &gt; Export, with Option to change file format to PDF, but keep same file name as PNG.</p>
 <p>Save <em>all versions</em> of an image into the <code>images</code> folder to keep them together, as long as the overall GitHub repo size remains under 1GB. (Keep extremely large TIFF files elsewhere but use similar file names in order to locate them.) Bookdown will copy only the relevant files into the <code>docs/images</code> subfolder.</p>
 <p>As a result, one image may have different versions:</p>
 <pre><code>images/1937-sample.png
 images/1937-sample.pdf
 images/1937-sample-original.png
 images/1937-sample-annotated.psd</code></pre>
-<p>Include relevant source info in the Zotero library, and include the file name in the Abstract field to manually match up with the manuscript. Since Bookdown does not cleanly process endnotes in image captions, include the Zotero citation in the paragraph that describes the image, typically after a call-out: …as shown in Figure X.</p>
+<p>Include relevant source info in the Zotero library, and include the file name in the Abstract field to manually match up with the manuscript. Since Bookdown does not cleanly process endnotes in image captions, include the Zotero citation at the end of the main-text paragraph that describes the image, typically after a call-out: …as shown in Figure X.</p>
+<p>For the image caption, write a brief standalone description, add an action-instruction and supplemental link for any visualizations, and include any relevant image source credits or copyright information.</p>
 <p>In writing this book, one of key goals was to create R Markdown syntax to display different versions of images for different Bookdown editions. For each image, we wanted one set of instructions to display an interactive chart/map/video using an embedded iframe in the HTML web edition, but display a static PNG image in the full-length Markdown edition, or to substitute a smaller PDF static image when available in the PDF book edition. Also, we wanted auto-numbering of images by chapter.</p>
 <p>Our solution relies on R code-chunk formatting for <em>most</em> images, with some exceptions. This R Markdown/Bookdown syntax is more complex than basic Markdown image formatting, but supports conditional formatting and captions in all of our editions, and auto-numbering in HMTL and LaTeX/PDF editions. Our <em>general</em> R code-chunk image format looks <em>roughly</em> like this, minus some code tics that have been removed for simplicity:</p>
 <pre><code>...as shown in Figure \@ref(fig:keyword).
 
-(ref:keyword) Caption, with optional Markdown links, but no endnotes.
+(ref:keyword) Caption, with optional Markdown links and image credits, but no endnotes.
 
 {r keyword, fig.cap=&quot;(ref:keyword)&quot;}
 if(knitr::is_html_output(excludes=&quot;markdown&quot;)) knitr::include_url(&quot;http://pathname-to-interactive-version-keyword.html&quot;)
 else knitr::include_graphics(&quot;pathname-to-static-version-keyword.png&quot;)</code></pre>
 <p>The first line generates an auto-numbered and clickable figure cross-reference call-out. Auto-numbering appears in <code>Figure x.x</code> format in HTML, PDF, and Word, but <code>Figure x</code> format in Markdown. (Word auto-number formatting can be changed with a reference.docx file.) This call-out is important because images in PDF output will “float” by design and may appear before or after the desired page.</p>
-<p>The second line contains the caption, with optional links in Markdown format. But do not insert endnotes with Zotero citation keys, since those will cause errors in the PDF edition. Insert detailed endnotes about sources for images in the body of the text, and use the caption for only a brief “Source:” mention.</p>
+<p>The second line contains the caption, with optional links in Markdown format. But do not insert endnotes with Zotero citation keys, since those will cause errors in the PDF edition. Insert detailed endnotes about sources for images in the body of the text, and use the caption for only a brief image credits and any copyright notice.</p>
 <p>The third block is the R code-chunk. (In practice, the code-chunk is set off from the other two lines using 3 code tic marks, as shown in later demos, which we omitted here for simplicity.) The first portion references keyword in the call-out and also the caption above. The latter portion may simply instruct Bookdown to include a static image (when there is no interactive version), or it may include an if-else statement for conditional formatting when both interactive and static versions exist.</p>
 <p>The if statement for HTML output contains <code>(excludes="markdown")</code> because <code>markdown</code> is considered an HTML format, as described in the <a href="https://bookdown.org/yihui/rmarkdown-cookbook/latex-html.html">R Markdown Cookbook</a>. Since the publisher’s platform will accept a full-length Markdown version of the book, which displays static images rather than interactive visualizations, we need to generate the “markdown” file differently than the HTML web edition.</p>
 <p>Write R code-chunk labels that use the same year and keywords as the image file name. Avoid duplicate labels across the book. Use only letters, numbers, and hyphens (not underscores):</p>
@@ -268,7 +269,7 @@ Figure 9.5: This version reduces HTML display size using <code>out.width=300</co
 <iframe src="https://handsondataviz.github.io/leaflet-map-simple/" width="672" height="375px" data-external="1">
 </iframe>
 <p class="caption">
-Figure 9.6: Explore the <a href="https://handsondataviz.github.io/leaflet-map-simple/">full-size interactive map</a>, which enables readers of non-HTML editions to view it. View <a href="https://github.com/ontheline">open-source code and historical sources</a>, developed by list-authors-here.
+Figure 9.6: <a href="https://handsondataviz.github.io/leaflet-map-simple/">Explore the full-size interactive map</a>, which enables readers of non-HTML editions to view it. View <a href="https://github.com/ontheline">open-source code and historical sources</a>, developed by list-authors-here.
 </p>
 </div>
 <div id="demo-r-code-chunk-for-locally-stored-scrolling-pdf-in-html-static-screenshot-in-pdf-docx-md" class="section level4 unnumbered hasAnchor">
