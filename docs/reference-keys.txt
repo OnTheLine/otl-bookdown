@@ -87,6 +87,12 @@ fig:1934-otl-neighborhood-change
 fig:1937-otl-redlining-teaching
 fig:2018-redlining-america-teaching
 fig:2011-covenants-video
+fig:2024-newspapers-search
+fig:1940-manchester-greenway-map
+fig:2024-hamden-property-name
+fig:2024-hamden-property-map
+fig:2024-hamden-assessment-data
+fig:2024-table-ct-land-records
 fig:workflow
 fig:workflow-desktop
 fig:workflow-atom
