@@ -163,19 +163,21 @@ While teaching and researching this book at Trinity College, over 25 undergradua
 | ![Jack Dougherty](images/preface/dougherty-jack.jpg) | Jack Dougherty, the lead author of *On The Line*, is Professor of Educational Studies at Trinity College. He collaborates with students, colleagues, and community partners by using digital history and data visualization to explore cities, suburbs, schools, and housing in metropolitan Hartford, Connecticut. Contact him on his [faculty profile page](http://internet2.trincoll.edu/facprofiles/Default.aspx?fid=1004266) or his personal site <https://jackdougherty.org>.|
 |  | **Co-Authors** |
 | ![Jasmin Agosto](images/preface/agosto-jasmin.jpg) | Jasmin Agosto (Trinity College Class of 2010 with bachelor's degree in American Studies and Educational Studies) co-authored [Mobilizing Against Racial Steering and Redlining](mobilizing.html), and also researched 18th-19th century school documents, and decades of school residency cases. Photo by Seth Markle. |
+|  |  Clarissa Ceglio co-authored [Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org](writing.html) |
 | ![Ilya Ilyankou](images/preface/ilyankou-ilya.jpg) | Ilya Ilyankou (Trinity College Class of 2018 with bachelor's degree in Computer Science and Studio Arts) developed several interactive maps in this book. His open-source code and map links are available at our GitHub public repository: <http://github.com/OnTheLine/>. |
 | ![Vianna Iorio](images/preface/iorio-vianna.jpg) | Vianna Iorio (Trinity College Class of 2019 with double major in Educational Studies and English) co-authored [Restricting with Property Covenants](restricting.html), [Mobilizing Against Racial Steering and Redlining](mobilizing.html), [Jumping the School District Line](jumping.html), and more chapters to come. |
 | ![Katie Campbell Levasseur](images/preface/levasseur-katie.jpg) | Katie Campbell Levasseur (Trinity College Class of 2011 with bachelor's degree in Educational Studies and Mathematics) conducted restrictive covenant property records research and co-authored [How We Found Restrictive Covenants](covenants.html). |
 | ![JiYun Lee](images/preface/lee-jiyun.jpg) | JiYun (Lisa) Lee (Trinity College Class of 2017 with bachelor's degree in Educational Studies and Psychology) co-authored [Jumping the School District Line](jumping.html). |
-| ![Shaun McGann](images/preface/mcgann-shaun.jpg) | Shaun McGann (Trinity Colege Class of 2014 with bachelor's degree in Political Science and Urban Studies) co-authored [Federal Lending and Redlining](lending.html). |
+| ![Shaun McGann](images/preface/mcgann-shaun.jpg) | Shaun McGann (Trinity College Class of 2014 with bachelor's degree in Political Science and Urban Studies) co-authored [Federal Lending and Redlining](lending.html). |
+|  |  Emily Meehan (Trinity College Class of 2016 with bachelor's degree in Educational Studies) co-authored [Racial Barriers to Public Housing](public-housing) |
+|  |  Elaina Rollins (Trinity College Class of 2016 with bachelor's degree in Educational Studies) co-authored [Writing Greater Hartford's Civil Rights Past with ConnecticutHistory.org](writing.html) |
 | ![Candace Simpson](images/preface/simpson-candace.jpg) | Candace Simpson (Trinity College Class of 2012 with bachelor's degree in Educational Studies) co-authored [Who Owns Oral History? A Creative Commons Solution](who-owns-oral-history.html) and conducted oral history interviews on restrictive property covenants and Sheff v. O'Neill.|  
 | ![Tracey Wilson](images/preface/wilson-tracey.jpg) | Tracey M. Wilson (Trinity College Class of 1976) co-authored [Restricting with Property Covenants](restricting.html). See related chapters in her 2018 open-access book, *Life in West Hartford*,(http://lifeinwesthartford.org). |
 
 More co-authors to come...
-<!-- TODO - add more coauthors: Elaina Rollins, Clarissa Ceglio, Emily Meehan; list research contributors -->
 
 ### Additional contributors {-}
-Staff and students at [MAGIC](http://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [first edition of interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
+Staff and students at [MAGIC](https://magic.lib.uconn.edu), the Map and Geographic Information Center at the University of Connecticut Libraries, co-created the [first edition of interactive maps](mapping-publishing.html) for this book, with support from a National Endowment for the Humanities grant in 2010-11.
 
 - Michael Howser, Project Director and Map Interface Development
 - Curtis Denton, Project Management and Interface Design
