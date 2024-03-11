@@ -18,7 +18,7 @@ fig:1936-fha-manual-226-excerpts
 fig:1938-fha-manual-1849
 fig:1933-chart-holc-fha
 fig:1940-otl-covenants
-fig:1929-04-28-hc-andover-lake
+fig:1909-jjsmith
 fig:1934-1939-1950-newington-hanbury
 fig:1940-wh-high-ledge
 fig:1940-manchester-greenway
