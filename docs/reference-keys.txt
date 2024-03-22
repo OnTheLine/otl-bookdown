@@ -36,6 +36,7 @@ fig:1923-otl-ardmore-road-wh
 fig:1928-2004-kingswood-hc-whhs
 fig:1903-tenement-veiller-154b
 fig:1915-1922-trinity-excerpts-screenshot
+fig:1940s-abraham-feldman-jhsgh
 fig:1923-02-07-goldberg-hc
 tab:1922-26-ardmore-road
 fig:1923-03-19-wh-woods-hc
