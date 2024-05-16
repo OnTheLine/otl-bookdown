@@ -49,12 +49,12 @@ fig:1924-whitten-highlight-10
 fig:1924-whitten-apartments-p17-16
 fig:1924-otl-zoning-west-hartford
 tab:1924-zone-land
+fig:1900s-otl-year-built
 fig:1946-ctdevcomm-p19
 fig:1957-otl-planning-zoning-ct
 fig:1900-1960-pop-h3sub
-fig:1900s-otl-year-built
-tab:1950s-most-exclusive
 fig:1950s-otl-zoning-metro-hartford
+tab:1950s-most-exclusive
 tab:1950s-land-zone
 fig:1974circa-ei
 fig:1973-ya-basta-hinds-box5
