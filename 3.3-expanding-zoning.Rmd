@@ -1,8 +1,6 @@
-## Expanding and Challenging Zoning {- #expanding-zoning}
+## Expanding Zoning Across Connecticut {- #expanding-zoning}
 
-After state legislators allowed local governments to enact their own zoning regulations in 1923, Connecticut's growth over the next century has been defined by town leaders who successfully expanded restrictive land-use policies in most suburban and rural areas. But in recent decades, fair-housing advocates have increasingly spoken out against exclusionary zoning and sought to build legislative coalitions to prioritize affordable housing policies in the state's long-term self-interest. This chapter offers a brief overview of this historical conflict over zoning in Connecticut, because we cannot lay out a future without first understanding our past and how we arrived here.
-
-Connecticut's local governments widely embraced exclusionary zoning as a self-interested strategy to deal with population growth and pressure to build more housing during the twentieth century. After the state legislature granted power for all 169 municipalities to make local land-use decisions, protectionist zoning policies quickly spread across Connecticut. Beginning in 1939, the growth of zoning was loosely tracked by the Connecticut Development Commission, a state agency created to promote economic growth and efficient planning for industry and housing. The Commission published a series of maps to illustrate the rise of local planning and zoning agencies in Connecticut, as shown in Figure \@ref(fig:1946-ctdevcomm-p19) from its 1944-1946 report. Towns that enacted local zoning policies tended to be clustered in the rapidly-growing suburbs around the state's major cities of Hartford, Bridgeport, and New Haven. By 1957, 77 percent (131 out of 169) of town governments had established some type of planning and/or zoning agency, as shown in Figure \@ref(fig:1957-otl-planning-zoning-ct). Nearly every town within a 20-mile radius of Hartford---including outlying rural areas far from the city center---enacted some type of land-use agency to exert control over what kind of housing could be built in their community.^[@connecticutdevelopmentcommissionReport1946, p. 19; @connecticutdevelopmentcommissionLegislationPassed19571957; @connecticutdevelopmentcommissionDepartmentEconomicCommunity2019. See historical sources for 1957 map at https://github.com/ontheline/otl-planning-zoning-ct]
+After state legislators allowed local governments to enact their own zoning regulations in 1923, Connecticut's growth over the next century has been defined by town leaders who successfully expanded restrictive land-use policies. Exclusionary zoning policies were widely embraced by nearly all of Connecticut's 169 municipalities, particularly in suburban and rural areas outside of city centers. Beginning in 1939, the growth of zoning was loosely tracked by the Connecticut Development Commission, a state agency created to promote economic growth and efficient planning for industry and housing. The Commission published a series of maps to illustrate the rise of local planning and zoning agencies in Connecticut, as shown in Figure \@ref(fig:1946-ctdevcomm-p19) from its 1944-1946 report. Towns that enacted local zoning policies tended to be clustered in the rapidly-growing suburbs around the state's major cities of Hartford, Bridgeport, and New Haven. By 1957, 77 percent (131 out of 169) of town governments had established some type of planning and/or zoning agency, as shown in Figure \@ref(fig:1957-otl-planning-zoning-ct). Nearly every town within a 20-mile radius of Hartford---including outlying rural areas far from the city center---enacted some type of land-use agency to exert control over what kind of housing could be built in their community.^[@connecticutdevelopmentcommissionReport1946, p. 19; @connecticutdevelopmentcommissionLegislationPassed19571957; @connecticutdevelopmentcommissionDepartmentEconomicCommunity2019. See historical sources for 1957 map at https://github.com/ontheline/otl-planning-zoning-ct]
 
 (ref:1946-ctdevcomm-p19) A Connecticut Development Commission employee reviews a 1938 map of local planning and zoning agencies in order to create an updated version in this photo from their 1944-1946 report. Zoning grew most quickly in suburban towns clustered around the major cities of Hartford, Bridgeport, and New Haven.
 
@@ -67,16 +65,4 @@ Table: (\#tab:1950s-land-zone) Percent of Land Area by Town and Zone Type, mid-1
 | non-residential | 2% | 12% | 7% |
 | Total acres | 14979 | 16943 | 14333 |
 
-### Challenging Exclusionary Zoning {-}
-
-TO COME...
-
-<!-- Uncovering the roots of our state’s zoning history helps us understand present-day political battles to end exclusionary practices, led by statewide advocacy groups such as the Connecticut Fair Housing Center, the Open Communities Alliance, and Desegregate Connecticut.
-
-But challenging exclusionary zoning across Connecticut is difficult precisely because the state government granted zoning power to its 169 local municipalities, but did not direct any state agency to compile local zoning ordinances in a centralized repository, or measure their collective impact on housing affordability across the state.
-
-1970s advocacy, Suburban Institute?
-
-Fionnuala
-
-Sarah Bronin -->
+Chapter conclusion... to come 
