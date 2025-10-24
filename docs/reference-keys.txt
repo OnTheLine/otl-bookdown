@@ -97,6 +97,16 @@ fig:2024-hamden-property-name
 fig:2024-hamden-property-map
 fig:2024-hamden-assessment-data
 fig:datawrapper-land-records-online
+fig:1940-otl-covenants3
+fig:datawrapper-covenants-by-town2
+fig:2024-restrictive-cities2
+tab:1924-zone2
+fig:1924-whitten-highlight-10b
+fig:1924-whitten-apartments-p17-16b
+fig:1924-otl-zoning-west-hartford2
+fig:1946-ctdevcomm-p19b
+fig:1957-otl-planning-zoning-ct2
+fig:1960-branding3
 fig:workflow
 fig:workflow-desktop
 fig:workflow-atom
