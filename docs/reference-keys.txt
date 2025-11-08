@@ -107,6 +107,7 @@ fig:1924-otl-zoning-west-hartford2
 fig:1946-ctdevcomm-p19b
 fig:1957-otl-planning-zoning-ct2
 fig:1960-branding3
+fig:1999-2007-wh-tests
 fig:workflow
 fig:workflow-desktop
 fig:workflow-atom
