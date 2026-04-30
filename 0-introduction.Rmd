@@ -24,5 +24,4 @@ Memories of that sidewalk encounter rolled around in my head over the next few d
 -	How can we make these hidden lines more visible, and amplify the voices of people who challenged them, to educate future generations?
 -	What does the evolution of these boundaries, and different activists' strategies to challenge them, tell us about our present-day policies?
 
-<!-- TODO: if web book has no commenting feature, then rewrite this sentence -->
-This book seeks to answer these questions in a format designed to invite readers like you into the story, to explore the evidence, pose your own questions, and perhaps share comments about the influence of these lines on each of our lives.
+This book seeks to answer these questions in a format designed to invite readers like you into the story to explore the evidence and reflect about the individual and collective influence of these lines on our lives.
